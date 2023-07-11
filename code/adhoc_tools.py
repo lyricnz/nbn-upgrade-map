@@ -1,15 +1,14 @@
 import argparse
-import glob
 import logging
 import os
 import re
 
+import requests
+from bs4 import BeautifulSoup
+
 import data
 import db
 import geojson
-import requests
-import suburbs
-from bs4 import BeautifulSoup
 from suburbs import write_all_suburbs
 
 
@@ -133,7 +132,7 @@ def rebuild_status_file():
                 announced=announced,
                 announced_date=announced_date,
                 processed_date=processed_date,
-                extent=extent
+                extent=extent,
             )
             all_suburbs[state].append(xsuburb)
 
