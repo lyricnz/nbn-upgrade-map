@@ -96,6 +96,11 @@ def rebuild_status_file():
     # geojson.write_json_file("results/suburb-dates.json", suburb_dates)
     # suburb_dates = geojson.read_json_file("results/suburb-dates.json")
 
+    # Get list of the extents of all suburbs from the DB
+    logging.info("Getting extents")
+    xdb = db.connect_to_db(args)
+    extents = xdb.get_extents_by_suburb()
+
     # TODO: Townsville not in DB. Why?  Two similar names included
 
     # add OT
@@ -117,11 +122,18 @@ def rebuild_status_file():
             if announced_date:
                 announced = True  # implicit announcement - if we have a date, then it's announced
             processed_date = geojson.get_geojson_file_generated(suburb, state)
+
+            if extent := extents[state].get(suburb.upper(), None):
+                extent = (extent[0][1], extent[0][0], extent[1][1], extent[1][0])  # west, south, east, north
+            else:
+                print(f"Missing {suburb} in DB extents")
+
             xsuburb = data.Suburb(
                 name=suburb,
                 announced=announced,
                 announced_date=announced_date,
                 processed_date=processed_date,
+                extent=extent
             )
             all_suburbs[state].append(xsuburb)
 
@@ -129,15 +141,6 @@ def rebuild_status_file():
                 print(f"Announced {suburb}, {state} - but no date")
 
     write_all_suburbs(all_suburbs)
-
-
-def get_suburb_extents():
-    xdb = db.connect_to_db(args)
-    logging.info("Getting extents")
-    result = xdb.get_extents_by_suburb()
-    logging.info("Writing extents")
-    # pprint.pprint(result)
-    data.write_json_file("results/suburb-extents.json", result, indent=1)
 
 
 if __name__ == "__main__":
