@@ -4,6 +4,7 @@ import argparse
 import itertools
 import logging
 import os
+import time
 import traceback
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
@@ -14,24 +15,31 @@ from data import Address, AddressList
 from db import AddressDB, add_db_arguments, connect_to_db
 from geojson import write_geojson_file
 from nbn import NBNApi
-from suburbs import get_all_suburbs, get_completed_suburbs_by_state
+from suburbs import read_all_suburbs, write_results_json
+from results import collect_completed_suburbs
 
 
 def select_suburb(target_suburb: str, target_state: str) -> tuple[str, str]:
     """Return a (state,suburb) tuple based on the provided input or the next suburb in the list."""
-    target_suburb = target_suburb.upper()
-    target_state = target_state.upper()
-    if target_suburb == "NA":
-        # load the list of previously completed suburbs
-        completed_suburbs = get_completed_suburbs_by_state()
-        # load the list of all suburbs
-        suburb_list = get_all_suburbs()
-        for state, suburbs in suburb_list.items():
-            for suburb in suburbs:
-                if state not in completed_suburbs or suburb not in completed_suburbs[state]:
-                    return suburb, state
+    suburbs = [(state, sorted(suburb_list, key=lambda s: s.announced, reverse=True)) for state, suburb_list in read_all_suburbs().items()]
 
-    return target_suburb, target_state
+    if target_suburb is None or target_state is None:
+        for state, suburb_list in suburbs:
+            for suburb in suburb_list:
+                if suburb.processed_date is None:
+                    return suburb.name.upper(), state
+    else:
+        target_suburb = target_suburb.upper()
+        target_state = target_state.capitalize()
+        for state, suburb_list in suburbs:
+            if state == target_state:
+                for suburb in suburb_list:
+                    if suburb.name == target_suburb:
+                        return suburb.name.upper(), state
+        # TODO: maybe fuzzy search?
+        logging.error("Suburb %s, %s not found in suburbs list", target_suburb, target_state)
+    
+    return None, None
 
 
 def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
@@ -119,7 +127,7 @@ def process_suburb(
 ):
     """Query the DB for addresses, augment them with upgrade+tech details, and write the results to a file."""
     suburb, state = select_suburb(target_suburb, target_state)
-    if suburb == "NA":
+    if suburb is None:
         logging.error("No more suburbs to process")
     else:
         # get addresses from DB
@@ -145,17 +153,23 @@ def process_suburb(
         write_geojson_file(suburb, state, addresses)
 
 
+def timer(run_time: int, db: AddressDB, max_threads: int = 10, progress_bar: bool = False):
+    """Process suburbs for a given amount of minutes."""
+    start = time.time()
+    while time.time() - start < run_time * 60:
+        logging.info("Time elapsed: %d minutes", (time.time() - start) // 60)
+        logging.info("Time remaining: %d minutes", run_time - (time.time() - start) // 60)
+        process_suburb(db, None, None, max_threads, progress_bar)
+        write_results_json(collect_completed_suburbs()) # TODO: this doesn't need to recheck every single file every time
+    logging.info("Total time elapsed: %d minutes", (time.time() - start) // 60)
+
 def main():
     """Parse command line arguments and start processing selected suburb."""
     parser = argparse.ArgumentParser(
         description="Create GeoJSON files containing FTTP upgrade details for the prescribed suburb."
     )
-    parser.add_argument(
-        "target_suburb",
-        help='The name of a suburb, for example "bli-bli", or "NA" to process the next suburb',
-        default="NA",
-    )
-    parser.add_argument("target_state", help='The name of a state, for example "QLD"', default="NA")
+    parser.add_argument("--suburb", help='The name of a suburb, for example "Bli Bli"')
+    parser.add_argument("--state", help='The name of a state, for example "QLD"')
     parser.add_argument(
         "-n",
         "--threads",
@@ -165,11 +179,15 @@ def main():
         choices=range(1, 41),
     )
     parser.add_argument("--progress", help="Show a progress bar", action=argparse.BooleanOptionalAction)
+    parser.add_argument("-t", "--time", help='When on auto mode for how many minutes to process suburbs', type=int)
     add_db_arguments(parser)
     args = parser.parse_args()
 
     db = connect_to_db(args)
-    process_suburb(db, args.target_suburb, args.target_state, args.threads, progress_bar=args.progress)
+    if args.time and args.time >= 5:
+        timer(args.time, db, args.threads, progress_bar=args.progress)
+    else:
+        process_suburb(db, args.suburb, args.state, args.threads, progress_bar=args.progress)
 
 
 if __name__ == "__main__":

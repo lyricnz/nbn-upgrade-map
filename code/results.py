@@ -15,6 +15,7 @@ from suburbs import (
 )
 
 UPGRADE_TALLY = Counter()
+CONNECTION_TALLY = Counter()
 
 
 def update_existing_suburbs(suburbs: list):
@@ -46,12 +47,8 @@ def collect_completed_suburbs():
             # Check if result has a "suburb" field
             suburb = result.get("suburb", filename.replace("-", " "))
 
-            # fixup any missing generated dates
-            if "generated" not in result:
-                result["generated"] = datetime.now().isoformat()
-                data.write_json_file(file, result, indent=1)  # indent=1 is to minimise size increase
-
             UPGRADE_TALLY.update(feature["properties"].get("upgrade", "") for feature in result["features"])
+            CONNECTION_TALLY.update(feature["properties"].get("tech", "") for feature in result["features"])
 
             suburbs.append(
                 {
@@ -59,9 +56,7 @@ def collect_completed_suburbs():
                     "state": state,
                     "name": suburb.title(),
                     "file": filename,
-                    "date": datetime.fromisoformat(result["generated"]).strftime(
-                        "%d-%m-%Y"
-                    ),  # TODO: record more accurate
+                    "date": datetime.fromisoformat(result["generated"]),
                 }
             )
     return suburbs
@@ -149,6 +144,12 @@ def print_upgrade_types():
         print(f"  {k}: {v}")
 
 
+def print_connection_types():
+    print("Connection types:")
+    for k, v in sorted(CONNECTION_TALLY.items()):
+        print(f"  {k}: {v}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Emit a summary of progress against the list of suburbs in the DB.")
     parser.add_argument(
@@ -182,6 +183,7 @@ def main():
     print_progress(suburb_vs_all)
 
     print_upgrade_types()
+    print_connection_types()
 
     address_vs = collect_address_progress()
     print("Progress vs Addresses in Listed Suburbs")

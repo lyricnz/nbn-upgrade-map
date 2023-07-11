@@ -12,7 +12,7 @@ def get_all_suburbs() -> dict[str, list[str]]:
 
 
 def get_listed_suburbs() -> dict[str, list[str]]:
-    """Return a list of all suburbs by state"""
+    """Return a list of all suburbs by state (names are uppercased)"""
     return {
         state: [suburb.name.upper() for suburb in suburb_list if suburb.announced]
         for state, suburb_list in read_all_suburbs().items()
@@ -21,12 +21,13 @@ def get_listed_suburbs() -> dict[str, list[str]]:
 
 def get_completed_suburbs() -> list[dict]:
     """Return a flat of all suburbs by state that have been completed. (compatibility api)"""
+    # deprecated
     #         {
     #             "internal": "ACTON",
     #             "state": "ACT",
     #             "name": "Acton",
     #             "file": "acton",
-    #             "date": "07-07-2023"
+    #             "date": "07-07-2023"  # replaced with ISO format
     #         },
     by_state = [
         [
@@ -35,7 +36,7 @@ def get_completed_suburbs() -> list[dict]:
                 "state": state,
                 "name": suburb.name,
                 "file": suburb.file,
-                "date": suburb.processed_date.strftime("%d-%m-%Y") if suburb.processed_date else None,
+                "date": suburb.processed_date.isoformat() if suburb.processed_date else None,
             }
             for suburb in suburb_list
             if suburb.processed_date
@@ -47,9 +48,10 @@ def get_completed_suburbs() -> list[dict]:
 
 def get_completed_suburbs_by_state() -> dict[str, set[str]]:
     """Return a dict->set(internal-name) of all suburbs by state that have been completed."""
+    # deprecated
     completed_suburbs = {state: set() for state in data.STATES}
     for suburb in get_completed_suburbs():
-        completed_suburbs[suburb["state"]].add(suburb["internal"])
+        completed_suburbs[suburb["state"]].add(suburb["name"].upper())
     return completed_suburbs
 
 
@@ -60,18 +62,13 @@ def write_results_json(suburbs: list[dict]):
     # make state->suburb->date lookup
     suburb_dates_by_state = {state: {} for state in data.STATES}
     for suburb in suburbs:
-        suburb_dates_by_state[suburb["state"]][suburb["name"]] = (
-            datetime.strptime(suburb["date"], "%d-%m-%Y") if suburb["date"] else None
-        )
+        suburb_dates_by_state[suburb["state"]][suburb["name"]] = suburb["date"]
 
     # update date field in results only
     all_suburbs = read_all_suburbs()
     for state, suburb_list in all_suburbs.items():
         for suburb in suburb_list:
-            # only update if >1 day different, otherwise the date is probably more accurate
-            new_date = suburb_dates_by_state[state].get(suburb.name, None)
-            if new_date and (not suburb.processed_date or (new_date - suburb.processed_date).days > 1):
-                suburb.processed_date = new_date
+            suburb.processed_date = suburb_dates_by_state[state].get(suburb.name, None)
 
     write_all_suburbs(all_suburbs)
 
