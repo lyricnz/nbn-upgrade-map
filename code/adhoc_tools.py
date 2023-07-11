@@ -131,32 +131,6 @@ def rebuild_status_file():
     write_all_suburbs(all_suburbs)
 
 
-def resort_results():
-    """Sort every one of the previously created geojson files by gnaf_pid"""
-    for state in data.STATES:
-        for file in glob.glob(f"results/{state}/*.geojson"):
-            print(file)
-            result = data.read_json_file(file)
-            result["features"] = sorted(result["features"], key=lambda x: x["properties"]["gnaf_pid"])
-            data.write_json_file(file, result, indent=1)
-
-
-def add_to_announced_suburbs():
-    """Add all the suburbs announced with dates to the current list"""
-    all_suburb_dates = get_nbn_suburb_dates()
-    announced_suburbs = suburbs.get_listed_suburbs()  # Dict[str, List[str]] - capitals only
-    for state, suburb_dates in all_suburb_dates.items():
-        for suburb, date in suburb_dates.items():
-            suburb = suburb.upper()
-            if suburb not in announced_suburbs[state]:
-                logging.info("+%s", suburb)
-                announced_suburbs[state].append(suburb)
-            else:
-                logging.info("~%s", suburb)
-        announced_suburbs[state].sort()
-    data.write_json_file("results/suburbs.json", {"states": announced_suburbs})
-
-
 def get_suburb_extents():
     xdb = db.connect_to_db(args)
     logging.info("Getting extents")
@@ -164,17 +138,6 @@ def get_suburb_extents():
     logging.info("Writing extents")
     # pprint.pprint(result)
     data.write_json_file("results/suburb-extents.json", result, indent=1)
-
-
-def update_all_suburbs_from_db():
-    """Rewrite the (old) all_suburbs.json file from the DB.  This is a one-off."""
-    db_suburbs = get_db_suburb_list()
-    db_suburbs["QLD"].append("Barwidgi")  # hack for empty suburb
-    db_suburbs["QLD"].sort()
-    data.write_json_file(
-        "results/all_suburbs.json",
-        {"states": {state: [suburb.upper() for suburb in suburb_list] for state, suburb_list in db_suburbs.items()}},
-    )
 
 
 if __name__ == "__main__":
@@ -185,17 +148,9 @@ if __name__ == "__main__":
     db.add_db_arguments(parser)
     args = parser.parse_args()
 
-    # resort_results()
-    # add_to_announced_suburbs()
     # get_suburb_extents
-    # update_all_suburbs_from_db()
 
     rebuild_status_file()
-    # blah = read_all_suburbs()
-    # blah = geojson.read_json_file("results/all-suburbs.json")
-
-    # geojson.write_json_file("results/suburb-dates.json", get_nbn_suburb_dates())
-
     # update_suburb_dates()
     # compare_suburb_lists()
     # compare_db_suburbs()
