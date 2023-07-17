@@ -21,6 +21,7 @@ from suburbs import (
     read_all_suburbs,
     update_processed_dates,
     update_suburb_in_all_suburbs,
+    update_all_suburbs_extents,
 )
 
 # a cache of gnaf_pid -> loc_id mappings (from previous results), and a max-age for that cache
@@ -214,9 +215,10 @@ def main():
     add_db_arguments(parser)
     args = parser.parse_args()
 
-    update_processed_dates()
-
     db = connect_to_db(args)
+    update_processed_dates()
+    update_all_suburbs_extents(db)
+
     if args.time and args.time >= 5:
         timer(args.time, db, args.threads, progress_bar=args.progress)
     else:
