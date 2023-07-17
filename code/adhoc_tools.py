@@ -1,4 +1,5 @@
 import argparse
+import glob
 import logging
 import os
 import re
@@ -7,6 +8,7 @@ import data
 import db
 import geojson
 import requests
+import suburbs
 from bs4 import BeautifulSoup
 
 NBN_UPGRADE_DATES_URL = "https://www.nbnco.com.au/residential/upgrades/more-fibre"
@@ -107,11 +109,6 @@ def rebuild_status_file():
     # geojson.write_json_file("results/suburb-dates.json", suburb_dates)
     # suburb_dates = geojson.read_json_file("results/suburb-dates.json")
 
-    # Get list of the extents of all suburbs from the DB
-    logging.info("Getting extents")
-    xdb = db.connect_to_db(args)
-    extents = xdb.get_extents_by_suburb()
-
     # TODO: Townsville not in DB. Why?  Two similar names included
 
     # add OT
@@ -133,18 +130,11 @@ def rebuild_status_file():
             if announced_date:
                 announced = True  # implicit announcement - if we have a date, then it's announced
             processed_date = geojson.get_geojson_file_generated_from_name(suburb, state)
-
-            if extent := extents[state].get(suburb.upper(), None):
-                extent = (extent[0][1], extent[0][0], extent[1][1], extent[1][0])  # west, south, east, north
-            else:
-                print(f"Missing {suburb} in DB extents")
-
             xsuburb = data.Suburb(
                 name=suburb,
                 announced=announced,
                 announced_date=announced_date,
                 processed_date=processed_date,
-                extent=extent,
             )
             all_suburbs[state].append(xsuburb)
 
@@ -193,9 +183,18 @@ if __name__ == "__main__":
     db.add_db_arguments(parser)
     args = parser.parse_args()
 
+    # resort_results()
+    # add_to_announced_suburbs()
     # get_suburb_extents
+    # update_all_suburbs_from_db()
 
-    rebuild_status_file()
+    # rebuild_status_file()
+    add_address_count_to_suburbs()
+    # blah = read_all_suburbs()
+    # blah = geojson.read_json_file("results/all-suburbs.json")
+
+    # geojson.write_json_file("results/suburb-dates.json", get_nbn_suburb_dates())
+
     # update_suburb_dates()
     # compare_suburb_lists()
     # compare_db_suburbs()
