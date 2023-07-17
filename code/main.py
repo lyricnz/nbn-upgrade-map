@@ -19,9 +19,9 @@ from geojson import write_geojson_file
 from nbn import NBNApi
 from suburbs import (
     read_all_suburbs,
+    update_all_suburbs_extents,
     update_processed_dates,
     update_suburb_in_all_suburbs,
-    update_all_suburbs_extents,
 )
 
 # a cache of gnaf_pid -> loc_id mappings (from previous results), and a max-age for that cache
