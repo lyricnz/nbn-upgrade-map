@@ -33,7 +33,7 @@ def format_addresses(addresses: AddressList, suburb: str) -> dict:
 
 
 def get_geojson_filename(suburb: str, state: str) -> str:
-    return f"results/{state}/{suburb.lower().replace(' ', '-')}.geojson"
+    return f"results/{state.upper()}/{suburb.lower().replace(' ', '-')}.geojson"
 
 
 def write_geojson_file(suburb: str, state: str, addresses: AddressList):
@@ -48,9 +48,20 @@ def write_geojson_file(suburb: str, state: str, addresses: AddressList):
         logging.warning("No addresses found for %s, %s", suburb.title(), state)
 
 
-def get_geojson_file_generated(suburb: str, state: str) -> datetime:
-    """Get the generated date from the GeoJSON file (faster than reading whole file)."""
+def read_geojson_file(suburb: str, state: str) -> dict:
+    """Read the GeoJSON FeatureCollection from a file, or return None"""
     filename = get_geojson_filename(suburb, state)
+    if os.path.exists(filename):
+        return read_json_file(filename)
+
+
+def get_geojson_file_generated_from_name(suburb: str, state: str) -> datetime:
+    """Given a suburb and state, get the generated date from the GeoJSON file (faster than reading whole file)."""
+    return get_geojson_file_generated(get_geojson_filename(suburb, state))
+
+
+def get_geojson_file_generated(filename) -> datetime:
+    """Get the generated date from the GeoJSON file (faster than reading whole file)."""
     if os.path.exists(filename):
         # attempt to load just the first few lines of the file
         try:

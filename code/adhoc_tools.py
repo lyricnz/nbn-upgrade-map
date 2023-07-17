@@ -8,7 +8,6 @@ import db
 import geojson
 import requests
 from bs4 import BeautifulSoup
-from suburbs import write_all_suburbs
 
 
 def get_nbn_suburb_dates():
@@ -74,6 +73,18 @@ def get_db_suburb_list():
     }
 
 
+def add_address_count_to_suburbs():
+    """Add address counts to Suburb objects"""
+    xdb = db.connect_to_db(args)
+    db_suburb_counts = xdb.get_counts_by_suburb()
+
+    all_suburbs = suburbs.read_all_suburbs()
+    for state, suburb_list in all_suburbs.items():
+        for suburb in suburb_list:
+            suburb.address_count = db_suburb_counts[state].get(suburb.name.upper(), 0)
+    suburbs.write_all_suburbs(all_suburbs)
+
+
 def rebuild_status_file():
     """Fetch a list of all suburbs from DB, augment with announced+dates, and completed results"""
     # Load list of all suburbs from DB
@@ -119,7 +130,7 @@ def rebuild_status_file():
             announced_date = suburb_dates[state].get(suburb, None)
             if announced_date:
                 announced = True  # implicit announcement - if we have a date, then it's announced
-            processed_date = geojson.get_geojson_file_generated(suburb, state)
+            processed_date = geojson.get_geojson_file_generated_from_name(suburb, state)
 
             if extent := extents[state].get(suburb.upper(), None):
                 extent = (extent[0][1], extent[0][0], extent[1][1], extent[1][0])  # west, south, east, north
@@ -138,7 +149,37 @@ def rebuild_status_file():
             if announced and announced_date is None:
                 print(f"Announced {suburb}, {state} - but no date")
 
-    write_all_suburbs(all_suburbs)
+    suburbs.write_all_suburbs(all_suburbs)
+
+
+def resort_results():
+    """Sort every one of the previously created geojson files by gnaf_pid"""
+    for state in data.STATES:
+        for file in glob.glob(f"results/{state}/*.geojson"):
+            print(file)
+            result = data.read_json_file(file)
+            result["features"] = sorted(result["features"], key=lambda x: x["properties"]["gnaf_pid"])
+            data.write_json_file(file, result, indent=1)
+
+
+def get_suburb_extents():
+    xdb = db.connect_to_db(args)
+    logging.info("Getting extents")
+    result = xdb.get_extents_by_suburb()
+    logging.info("Writing extents")
+    # pprint.pprint(result)
+    data.write_json_file("results/suburb-extents.json", result, indent=1)
+
+
+def update_all_suburbs_from_db():
+    """Rewrite the (old) all_suburbs.json file from the DB.  This is a one-off."""
+    db_suburbs = get_db_suburb_list()
+    db_suburbs["QLD"].append("Barwidgi")  # hack for empty suburb
+    db_suburbs["QLD"].sort()
+    data.write_json_file(
+        "results/all_suburbs.json",
+        {"states": {state: [suburb.upper() for suburb in suburb_list] for state, suburb_list in db_suburbs.items()}},
+    )
 
 
 if __name__ == "__main__":
