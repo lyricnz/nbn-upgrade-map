@@ -3,7 +3,7 @@ import logging
 import os
 from datetime import datetime
 
-from data import AddressList, Address
+from data import Address, AddressList
 from utils import read_json_file, write_json_file
 
 

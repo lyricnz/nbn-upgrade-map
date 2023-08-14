@@ -1,8 +1,9 @@
+import copy
+
 import main
 import testutils
 from data import Address
 from nbn import CACHE, NBNApi
-import copy
 
 
 def get_nbn_data_json(self, url) -> dict:

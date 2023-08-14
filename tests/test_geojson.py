@@ -32,7 +32,6 @@ def test_read_geojson(monkeypatch):
     )
 
 
-
 def test_write_geojson(monkeypatch):
     SAVED_JSON = {}
 
