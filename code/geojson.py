@@ -3,7 +3,7 @@ import logging
 import os
 from datetime import datetime
 
-from data import AddressList
+from data import AddressList, Address
 from utils import read_json_file, write_json_file
 
 
@@ -51,6 +51,22 @@ def read_geojson_file(suburb: str, state: str) -> dict:
     filename = get_geojson_filename(suburb, state)
     if os.path.exists(filename):
         return read_json_file(filename)
+
+
+def read_geojson_file_addresses(suburb: str, state: str) -> AddressList:
+    """Read the Addresses from a GeoJSON FeatureCollection"""
+    return [
+        Address(
+            name=f["properties"]["name"],
+            gnaf_pid=f["properties"]["gnaf_pid"],
+            longitude=f["geometry"]["coordinates"][0],
+            latitude=f["geometry"]["coordinates"][1],
+            loc_id=f["properties"]["locID"],
+            tech=f["properties"]["tech"],
+            upgrade=f["properties"]["upgrade"],
+        )
+        for f in read_geojson_file(suburb, state)["features"]
+    ]
 
 
 def get_geojson_file_generated_from_name(suburb: str, state: str) -> datetime:
