@@ -1,0 +1,26 @@
+name: Check for DB updates
+on:
+  schedule:
+    - cron: '0 0 16 * *'  # run at midnight on the 16th of every month
+
+jobs:
+  auto-suburb:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check for an upstream DB release
+        run: ./extra/db/check.sh
+      - name: Create Issue on Failed workflow
+        if: ${{ failure() }}
+        uses: dacbd/create-issue-action@main
+        with:
+          token: ${{ github.token }}
+          title: Checking project DB is up to date failed
+          body: |
+            ### Context
+            [Failed Run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+            [Codebase](https://github.com/${{ github.repository }}/tree/${{ github.sha }})
+            Workflow name - `${{ github.workflow }}`
+            Job -           `${{ github.job }}`
+            status -        `${{ job.status }}`
+          assignees: LukePrior,lyricnz
