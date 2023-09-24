@@ -43,7 +43,7 @@ class AddressDB:
     def get_counts_by_suburb(self) -> dict[str, dict[str, int]]:
         """return a tally of addresses by state and suburb"""
         query = """
-            SELECT locality_name, state, COUNT(*)
+            SELECT locality_name, state, COUNT(*) as count
             FROM address_principals
             GROUP BY locality_name, state
             ORDER BY state, locality_name
@@ -142,6 +142,8 @@ class SqliteDb(DbDriver):
     def execute(self, query, vars=None):
         """Return a list of Namespace objects for the provided query."""
         query = query.replace("%s", "?")
+        if vars is None:
+            vars = {}
         self.cur.execute(query, vars)
         # sqlite doesn't support NamedTupleCursor, so we need to manually add the column names
         return [Namespace(**dict(zip(x.keys(), x))) for x in self.cur.fetchall()]
