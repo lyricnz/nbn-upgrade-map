@@ -5,6 +5,7 @@ import db
 
 SAMPLE_ADDRESSES_DB_FILE = f"{os.path.dirname(os.path.realpath(__file__))}/data/sample-addresses.db"
 
+
 def test_get_address():
     address_db = db.connect_to_db(Namespace(dbhost=SAMPLE_ADDRESSES_DB_FILE))
     addresses = address_db.get_addresses("SOMERVILLE", "VIC")

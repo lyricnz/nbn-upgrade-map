@@ -1,20 +1,21 @@
 import logging
 import sqlite3
+from abc import ABC, abstractmethod
 from argparse import ArgumentParser, Namespace
 
+import data
 import psycopg2
 from psycopg2.extras import NamedTupleCursor
-
-import data
-from abc import ABC, abstractmethod
 
 
 class DbDriver(ABC):
     """Abstract class for DB connections."""
+
     @abstractmethod
     def execute(self, query, vars=None):
         """Return a list of Namespace objects for the provided query."""
         pass
+
 
 class AddressDB:
     """Connect to our cut-down version of the GNAF Postgres database and query for addresses."""
@@ -91,7 +92,9 @@ def add_db_arguments(parser: ArgumentParser):
         help="The password for the database user",
         default="password",
     )
-    parser.add_argument("-H", "--dbhost", help="The hostname for the database (or file-path for Sqlite)", default="localhost")
+    parser.add_argument(
+        "-H", "--dbhost", help="The hostname for the database (or file-path for Sqlite)", default="localhost"
+    )
     parser.add_argument("-P", "--dbport", help="The port number for the database", default="5433")
     parser.add_argument(
         "-i",
@@ -103,6 +106,7 @@ def add_db_arguments(parser: ArgumentParser):
 
 class PostgresDb(DbDriver):
     """Class that implements Postgresql DB connection."""
+
     def __init__(self, database: str, host: str, port: str, user: str, password: str, create_index: bool = True):
         """Connect to the database"""
         conn = psycopg2.connect(
@@ -133,6 +137,7 @@ class PostgresDb(DbDriver):
 
 class SqliteDb(DbDriver):
     """Class that implements Sqlite DB connection (to a file). Pass the filename as the dbhost."""
+
     def __init__(self, database_file: str):
         """Connect to the database"""
         conn = sqlite3.connect(database_file)
@@ -151,7 +156,7 @@ class SqliteDb(DbDriver):
 
 def connect_to_db(args: Namespace) -> AddressDB:
     """return a DB connection based on the provided args"""
-    if args.dbhost.endswith('.db'):
+    if args.dbhost.endswith(".db"):
         db = SqliteDb(args.dbhost)
     else:
         db = PostgresDb(
