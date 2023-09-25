@@ -3,10 +3,12 @@ import sqlite3
 from abc import ABC, abstractmethod
 from argparse import ArgumentParser, Namespace
 
-import data
 import psycopg2
 from psycopg2.extras import NamedTupleCursor
 
+import data
+
+SQLITE_FILE_EXTENSIONS = {"db", "sqlite", "sqlite3", "db3", "s3db", "sl3"}
 
 class DbDriver(ABC):
     """Abstract class for DB connections."""
@@ -156,7 +158,7 @@ class SqliteDb(DbDriver):
 
 def connect_to_db(args: Namespace) -> AddressDB:
     """return a DB connection based on the provided args"""
-    if args.dbhost.endswith(".db"):
+    if args.dbhost.split('.')[-1] in SQLITE_FILE_EXTENSIONS:
         db = SqliteDb(args.dbhost)
     else:
         db = PostgresDb(

@@ -3,7 +3,7 @@ from argparse import ArgumentParser, Namespace
 
 import db
 
-SAMPLE_ADDRESSES_DB_FILE = f"{os.path.dirname(os.path.realpath(__file__))}/data/sample-addresses.db"
+SAMPLE_ADDRESSES_DB_FILE = f"{os.path.dirname(os.path.realpath(__file__))}/data/sample-addresses.sqlite"
 
 
 def test_get_address():
