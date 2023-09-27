@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   push_to_registry:
-    name: Push Docker image to Docker Hub
+    name: Push Docker image to Docker Hub Including SQLite DB
     runs-on: ubuntu-latest
     steps:
       - name: Maximize build space
@@ -23,12 +23,6 @@ jobs:
             /*
             !results
 
-#      - name: Log in to Docker Hub
-#        uses: docker/login-action@v2
-#        with:
-#          username: ${{ secrets.DOCKER_USERNAME }}
-#          password: ${{ secrets.DOCKER_PASSWORD }}
-
       - name: Check upstream version
         id: version
         run: |
@@ -43,4 +37,4 @@ jobs:
         with:
           tag_name: sqlite-db-${{ steps.version.outputs.GNAF_LOADER_TAG }}
           body: Daily release of zipped data.
-          files: extra/db/address_principals.sqllite
+          files: address_principals.sqllite
