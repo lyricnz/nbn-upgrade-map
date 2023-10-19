@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-09-29T19:13:17.508928",
+ "generated": "2023-10-19T02:07:40.074104",
  "suburb": "ENFIELD",
  "features": [
   {
@@ -3415,8 +3415,8 @@
    "properties": {
     "name": "4 CALVERT STREET ENFIELD 5085",
     "locID": "LOC000030262713",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415049169"
    }
   },
@@ -4758,8 +4758,8 @@
    "properties": {
     "name": "17 FITZGERALD AVENUE ENFIELD 5085",
     "locID": "LOC000083309344",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "UNKNOWN",
     "gnaf_pid": "GASA_415052850"
    }
   },
@@ -4775,8 +4775,8 @@
    "properties": {
     "name": "9 SPRING STREET ENFIELD 5085",
     "locID": "LOC000018823202",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415052852"
    }
   },
@@ -8549,8 +8549,8 @@
    "properties": {
     "name": "3 WALKER COURT ENFIELD 5085",
     "locID": "LOC000065002849",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415109829"
    }
   },
@@ -12122,6 +12122,23 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415150061"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60460953,
+     -34.85811212
+    ]
+   },
+   "properties": {
+    "name": "20 GURNEY TERRACE ENFIELD 5085",
+    "locID": "LOC000193805414",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415150062"
    }
   },
   {
@@ -34610,8 +34627,8 @@
    "properties": {
     "name": "375A MAIN NORTH ROAD ENFIELD 5085",
     "locID": "LOC000057175091",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_416764225"
    }
   },
@@ -35052,8 +35069,8 @@
    "properties": {
     "name": "21 FITZGERALD AVENUE ENFIELD 5085",
     "locID": "LOC000152682357",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_422039862"
    }
   },
@@ -35087,7 +35104,7 @@
     "name": "24 HAREWOOD AVENUE ENFIELD 5085",
     "locID": "LOC000052175195",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "UNKNOWN",
     "gnaf_pid": "GASA_422040413"
    }
   },
@@ -36106,8 +36123,8 @@
    "properties": {
     "name": "23 FITZGERALD AVENUE ENFIELD 5085",
     "locID": "LOC000060521691",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_423611563"
    }
   },
@@ -40424,8 +40441,8 @@
    "properties": {
     "name": "29B HAREWOOD AVENUE ENFIELD 5085",
     "locID": "LOC000030217314",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_424568186"
    }
   },
@@ -41243,23 +41260,6 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424802316"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.60912686,
-     -34.85579408
-    ]
-   },
-   "properties": {
-    "name": "40B GORDON AVENUE ENFIELD 5085",
-    "locID": "LOC000130164959",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424802317"
    }
   },
   {
@@ -44147,7 +44147,7 @@
    "properties": {
     "name": "307-317 MAIN NORTH ROAD ENFIELD 5085",
     "locID": "ChIJ99Ck7LPJsGoR3CqqwHOS3Js",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GASA_425443553"
    }
