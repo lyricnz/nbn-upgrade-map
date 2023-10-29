@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-10-09T16:08:20.971794",
+ "generated": "2023-10-29T04:18:11.050231",
  "suburb": "NORTHMEAD",
  "features": [
   {
@@ -5745,7 +5745,7 @@
     "name": "30 MURRAY STREET NORTHMEAD 2152",
     "locID": "LOC000094276991",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705558951"
    }
   },
@@ -8618,7 +8618,7 @@
     "name": "145 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000009245467",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705561600"
    }
   },
@@ -10794,7 +10794,7 @@
     "name": "20 GRASMERE AVENUE NORTHMEAD 2152",
     "locID": "LOC000043229106",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705564212"
    }
   },
@@ -11848,7 +11848,7 @@
     "name": "9 OTAGO PLACE NORTHMEAD 2152",
     "locID": "LOC000001491044",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705564283"
    }
   },
@@ -13174,7 +13174,7 @@
     "name": "28 ANDERSON ROAD NORTHMEAD 2152",
     "locID": "LOC000051648525",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705566331"
    }
   },
@@ -13667,7 +13667,7 @@
     "name": "11 DREMEDAY STREET NORTHMEAD 2152",
     "locID": "LOC000093966410",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705566374"
    }
   },
@@ -13700,8 +13700,8 @@
    "properties": {
     "name": "13 DREMEDAY STREET NORTHMEAD 2152",
     "locID": "LOC000027884641",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705566376"
    }
   },
@@ -14296,7 +14296,7 @@
     "name": "9 MARTHA AVENUE NORTHMEAD 2152",
     "locID": "LOC000074411314",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705566411"
    }
   },
@@ -15095,7 +15095,7 @@
     "name": "UNIT 1, 227 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000061270817",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705567938"
    }
   },
@@ -17832,7 +17832,7 @@
     "name": "49 CAPRERA ROAD NORTHMEAD 2152",
     "locID": "LOC000008848318",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705571183"
    }
   },
@@ -18104,7 +18104,7 @@
     "name": "26 LENNOX STREET NORTHMEAD 2152",
     "locID": "LOC000002423176",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705571219"
    }
   },
@@ -18665,7 +18665,7 @@
     "name": "45 ANDERSON ROAD NORTHMEAD 2152",
     "locID": "LOC000015494846",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705571490"
    }
   },
@@ -18733,7 +18733,7 @@
     "name": "6 ANDERSON ROAD NORTHMEAD 2152",
     "locID": "LOC000055932344",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705571494"
    }
   },
@@ -19854,8 +19854,8 @@
    "properties": {
     "name": "41 DREMEDAY STREET NORTHMEAD 2152",
     "locID": "LOC000105060869",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705573052"
    }
   },
@@ -19991,7 +19991,7 @@
     "name": "2 EDITH PLACE NORTHMEAD 2152",
     "locID": "LOC000060913173",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705573062"
    }
   },
@@ -20059,7 +20059,7 @@
     "name": "6 EDITH PLACE NORTHMEAD 2152",
     "locID": "LOC000097306906",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705573066"
    }
   },
@@ -20248,6 +20248,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705573077"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.00170785,
+     -33.77982193
+    ]
+   },
+   "properties": {
+    "name": "24 MARY STREET NORTHMEAD 2152",
+    "locID": "ChIJJXRdobSjEmsRjrmxozNQPPQ",
+    "tech": "HFC",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GANSW705573078"
    }
   },
   {
@@ -22660,7 +22677,7 @@
     "name": "24 CAPRERA ROAD NORTHMEAD 2152",
     "locID": "LOC000025390739",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705576299"
    }
   },
@@ -22779,7 +22796,7 @@
     "name": "31 CAPRERA ROAD NORTHMEAD 2152",
     "locID": "LOC000084034844",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705576307"
    }
   },
@@ -22881,7 +22898,7 @@
     "name": "37 CAPRERA ROAD NORTHMEAD 2152",
     "locID": "LOC000089406225",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705576313"
    }
   },
@@ -23510,7 +23527,7 @@
     "name": "24 LENNOX STREET NORTHMEAD 2152",
     "locID": "LOC000063845424",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705576366"
    }
   },
@@ -24224,7 +24241,7 @@
     "name": "3 LEVEN PLACE NORTHMEAD 2152",
     "locID": "LOC000065021424",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705576412"
    }
   },
@@ -28185,7 +28202,7 @@
     "name": "6 BYRON PLACE NORTHMEAD 2152",
     "locID": "LOC000063857525",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705578851"
    }
   },
@@ -32163,7 +32180,7 @@
     "name": "127 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000064840874",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705581983"
    }
   },
@@ -32265,7 +32282,7 @@
     "name": "133 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000187349519",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705581989"
    }
   },
@@ -32979,7 +32996,7 @@
     "name": "10 MADELINE AVENUE NORTHMEAD 2152",
     "locID": "LOC000039189610",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705583101"
    }
   },
@@ -35410,7 +35427,7 @@
     "name": "4 BYRON PLACE NORTHMEAD 2152",
     "locID": "LOC000109829177",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705587973"
    }
   },
@@ -36651,7 +36668,7 @@
     "name": "19 MADELINE AVENUE NORTHMEAD 2152",
     "locID": "LOC000002242098",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705588255"
    }
   },
@@ -36974,7 +36991,7 @@
     "name": "9 MADELINE AVENUE NORTHMEAD 2152",
     "locID": "LOC000025970987",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705588274"
    }
   },
@@ -37416,7 +37433,7 @@
     "name": "12 RUTHERGLEN AVENUE NORTHMEAD 2152",
     "locID": "LOC000064520987",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705588310"
    }
   },
@@ -37943,7 +37960,7 @@
     "name": "UNIT 2, 227 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000061739911",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705588348"
    }
   },
@@ -37960,7 +37977,7 @@
     "name": "UNIT 3, 227 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000061353458",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705588349"
    }
   },
@@ -37977,7 +37994,7 @@
     "name": "UNIT 4, 227 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000061614806",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705588350"
    }
   },
@@ -37994,7 +38011,7 @@
     "name": "UNIT 5, 227 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000061261452",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705588351"
    }
   },
@@ -38011,7 +38028,7 @@
     "name": "UNIT 6, 227 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000061317660",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705588352"
    }
   },
@@ -38028,7 +38045,7 @@
     "name": "UNIT 7, 227 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000061522376",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705588353"
    }
   },
@@ -38045,7 +38062,7 @@
     "name": "UNIT 8, 227 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000061270817",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705588354"
    }
   },
@@ -38062,7 +38079,7 @@
     "name": "227 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000061270817",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705588355"
    }
   },
@@ -38079,7 +38096,7 @@
     "name": "UNIT 1, 229 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000098702571",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705588356"
    }
   },
@@ -38096,7 +38113,7 @@
     "name": "UNIT 2, 229 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000098318873",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705588357"
    }
   },
@@ -38113,7 +38130,7 @@
     "name": "UNIT 3, 229 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000098743186",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705588358"
    }
   },
@@ -38130,7 +38147,7 @@
     "name": "UNIT 4, 229 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000098371374",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705588359"
    }
   },
@@ -38232,7 +38249,7 @@
     "name": "229 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000098702571",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW707594730"
    }
   },
@@ -43400,7 +43417,7 @@
     "name": "UNIT 2, 145 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000008738934",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711131570"
    }
   },
@@ -43451,7 +43468,7 @@
     "name": "UNIT 4, 145 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000008760275",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711131576"
    }
   },
@@ -44267,7 +44284,7 @@
     "name": "UNIT 1, 145 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000009245467",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711136367"
    }
   },
@@ -44284,7 +44301,7 @@
     "name": "UNIT 3, 145 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000008879885",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711136661"
    }
   },
@@ -44301,7 +44318,7 @@
     "name": "UNIT 5, 145 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000008903608",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711136662"
    }
   },
@@ -44318,7 +44335,7 @@
     "name": "UNIT 6, 145 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000009028229",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711136663"
    }
   },
@@ -44335,7 +44352,7 @@
     "name": "UNIT 7, 145 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000008928805",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711136664"
    }
   },
@@ -44692,7 +44709,7 @@
     "name": "53 ANDERSON ROAD NORTHMEAD 2152",
     "locID": "LOC000025981097",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711138054"
    }
   },
@@ -46188,7 +46205,7 @@
     "name": "UNIT 7, 2 WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000008928805",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711153354"
    }
   },
@@ -59329,7 +59346,7 @@
     "name": "UNIT 1, 28 ANDERSON ROAD NORTHMEAD 2152",
     "locID": "LOC000051595338",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717134810"
    }
   },
@@ -59346,7 +59363,7 @@
     "name": "UNIT 2, 28 ANDERSON ROAD NORTHMEAD 2152",
     "locID": "LOC000051648525",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717134811"
    }
   },
@@ -59363,7 +59380,7 @@
     "name": "UNIT 3, 28 ANDERSON ROAD NORTHMEAD 2152",
     "locID": "LOC000051333751",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717134812"
    }
   },
@@ -59380,7 +59397,7 @@
     "name": "UNIT 4, 28 ANDERSON ROAD NORTHMEAD 2152",
     "locID": "LOC000051467632",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717134813"
    }
   },
@@ -59397,7 +59414,7 @@
     "name": "UNIT 5, 28 ANDERSON ROAD NORTHMEAD 2152",
     "locID": "LOC000051743277",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717134814"
    }
   },
@@ -85084,7 +85101,7 @@
     "name": "133A WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000183195376",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718435370"
    }
   },
@@ -91595,7 +91612,7 @@
     "name": "UNIT 1, 1A ANDERSON ROAD NORTHMEAD 2152",
     "locID": "LOC000155956650",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718968646"
    }
   },
@@ -91612,7 +91629,7 @@
     "name": "UNIT 2, 1A ANDERSON ROAD NORTHMEAD 2152",
     "locID": "LOC000155956678",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718968647"
    }
   },
@@ -91629,7 +91646,7 @@
     "name": "UNIT 3, 1A ANDERSON ROAD NORTHMEAD 2152",
     "locID": "LOC000155956697",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718968648"
    }
   },
@@ -91646,7 +91663,7 @@
     "name": "UNIT 4, 1A ANDERSON ROAD NORTHMEAD 2152",
     "locID": "LOC000155956728",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718968649"
    }
   },
@@ -91663,7 +91680,7 @@
     "name": "UNIT 5, 1A ANDERSON ROAD NORTHMEAD 2152",
     "locID": "LOC000155956737",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718968650"
    }
   },
@@ -91680,7 +91697,7 @@
     "name": "UNIT 6, 1A ANDERSON ROAD NORTHMEAD 2152",
     "locID": "LOC000155642406",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718968651"
    }
   },
@@ -91697,7 +91714,7 @@
     "name": "1A ANDERSON ROAD NORTHMEAD 2152",
     "locID": "LOC000155956678",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718968652"
    }
   },
@@ -91816,7 +91833,7 @@
     "name": "127A WINDSOR ROAD NORTHMEAD 2152",
     "locID": "LOC000064840874",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719259967"
    }
   },
@@ -92819,7 +92836,7 @@
     "name": "48 DREMEDAY STREET NORTHMEAD 2152",
     "locID": "LOC000053373977",
     "tech": "FTTP",
-    "upgrade": "UNKNOWN",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719691019"
    }
   },
