@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-10-19T13:27:29.587525",
+ "generated": "2023-11-07T05:41:47.500863",
  "suburb": "PALM BEACH",
  "features": [
   {
@@ -32138,23 +32138,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.45235466,
-     -28.10989616
-    ]
-   },
-   "properties": {
-    "name": "80 MELALEUCA DRIVE PALM BEACH 4221",
-    "locID": "LOC000019892173",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155690856"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.4523197,
      -28.1100151
     ]
@@ -47173,7 +47156,7 @@
    "properties": {
     "name": "1410 GOLD COAST HIGHWAY PALM BEACH 4221",
     "locID": "ChIJ8X5nmMcDkWsREJodIB8KItU",
-    "tech": "HFC",
+    "tech": "NULL",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GAQLD156957543"
    }
@@ -50233,7 +50216,7 @@
    "properties": {
     "name": "14 TWENTY EIGHTH AVENUE PALM BEACH 4221",
     "locID": "LOC000192399744",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156971961"
    }
@@ -58328,6 +58311,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156996870"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.46500223,
+     -28.10811094
+    ]
+   },
+   "properties": {
+    "name": "1372 GOLD COAST HIGHWAY PALM BEACH 4221",
+    "locID": "LOC000193985243",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156996871"
    }
   },
   {
@@ -137223,8 +137223,11 @@
     "name": "LOT 902 PACIFIC HIGHWAY PALM BEACH 4221",
     "locID": "LOC000005525153",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161268836"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161268836",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -137257,8 +137260,11 @@
     "name": "LOT 904 PACIFIC HIGHWAY PALM BEACH 4221",
     "locID": "LOC000076598236",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161268838"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161268838",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -137291,8 +137297,11 @@
     "name": "LOT 906 PACIFIC HIGHWAY PALM BEACH 4221",
     "locID": "LOC000064864623",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161268840"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161268840",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -181983,7 +181992,7 @@
    "properties": {
     "name": "UNIT 1, 30 MURLONG CRESCENT PALM BEACH 4221",
     "locID": "LOC000191591531",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720618244"
    }
