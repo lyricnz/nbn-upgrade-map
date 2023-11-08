@@ -264,6 +264,30 @@ def update_historical_tech_and_upgrade_breakdown():
         print(tabulate(rows, headers="keys", tablefmt="github"))
 
 
+def generate_all_suburbs_nbn_tallies():
+    """Create a file containing a tally of all suburbs by property (tech, upgrade, etc)"""
+    exclude_properties = {"name", "locID", "gnaf_pid"}
+    tallies = {}  # property-name -> Counter()
+    for file in glob.glob("results/**/*.geojson"):
+        for feature in utils.read_json_file(file)["features"]:
+            for prop, value in feature["properties"].items():
+                if prop not in exclude_properties:
+                    if prop not in tallies:
+                        tallies[prop] = Counter()
+                    tallies[prop][value] += 1
+
+    # Add percentages and missing items
+    total_count = sum(tallies["tech"].values())  # everything has a tech+NULL
+    tallies["percent"] = {}
+    for prop, kvs in tallies.items():
+        if prop in {"tech", "upgrade", "percent"}:
+            continue
+        kvs["None"] = total_count - sum(kvs.values())
+        tallies["percent"][prop] = {k: f"{100 * v / total_count:.2f}%" for k, v in kvs.items()}
+
+    utils.write_json_file("results/all-suburbs-nbn-tallies.json", tallies, indent=1)
+
+
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
     logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(threadName)s %(message)s")
