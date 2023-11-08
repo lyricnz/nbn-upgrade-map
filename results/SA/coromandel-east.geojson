@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-10-20T23:35:39.053440",
+ "generated": "2023-11-08T11:49:36.943943",
  "suburb": "COROMANDEL EAST",
  "features": [
   {
@@ -1409,7 +1409,7 @@
    "properties": {
     "name": "23 WEYMOUTH ROAD COROMANDEL EAST 5157",
     "locID": "LOC000113782771",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424710444"
    }
@@ -1751,7 +1751,8 @@
     "locID": "LOC000112713921",
     "tech": "WIRELESS",
     "upgrade": "SAT_CT",
-    "gnaf_pid": "GASA_424737860"
+    "gnaf_pid": "GASA_424737860",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -2719,8 +2720,11 @@
     "name": "31-37 DRISCOLL ROAD COROMANDEL EAST 5157",
     "locID": "LOC000147482711",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425396898"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425396898",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
