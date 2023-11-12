@@ -39,7 +39,7 @@ self.addEventListener("fetch", async (event) => {
                 });
             });
         }));
-    } else if (event.request.url.includes('/static/') || event.request.headers.get('accept').includes('text/css') || event.request.headers.get('accept').includes('application/javascript')) {
+    } else if (event.request.url.includes('/static/') || event.request.headers.get('accept').includes('text/css') || event.request.url.includes('.js')) {
         event.respondWith(caches.open(`${cacheName}-persistent`).then((cache) => {
             return cache.match(event.request).then((cachedResponse) => {
                 const fetchedResponse = fetch(event.request).then((networkResponse) => {
