@@ -7,8 +7,13 @@ self.addEventListener("fetch", async (event) => {
             return cache.match(event.request).then((cachedResponse) => {
                 const fetchedResponse = fetch(event.request).then((networkResponse) => {
                     let cacheCopy = networkResponse.clone();
-                    cacheCopy.headers.set('sw-fetched-on', new Date().getTime());
-                    cache.put(event.request, cacheCopy);
+                    let headers = new Headers(cacheCopy.headers);
+                    headers.append('sw-fetched-on', new Date().getTime());
+                    cache.put(event.request, new Response(cacheCopy.body, {
+                        status: cacheCopy.status,
+                        statusText: cacheCopy.statusText,
+                        headers: headers
+                    }));
 
                     return networkResponse;
                 });
