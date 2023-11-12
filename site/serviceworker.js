@@ -1,9 +1,23 @@
 const cacheName = 'cache';
 const cacheDuration = 30; // days
+const subCacheNames = ['tiles'];
+let completeCacheNames = subCacheNames.map((subCacheName) => {
+    return `${cacheName}-${subCacheName}`;
+});
+
+self.addEventListener("activate", (event) => {
+    event.waitUntil(caches.keys().then((keys) => {
+        return Promise.all(keys.map((key) => {
+            if (!completeCacheNames.includes(key)) {
+                return caches.delete(key);
+            }
+        }));
+    }));
+});
 
 self.addEventListener("fetch", async (event) => {
-    if (event.request.destination === 'image') {
-        event.respondWith(caches.open(cacheName).then((cache) => {
+    if (event.request.url.includes('/rastertiles/')) {
+        event.respondWith(caches.open(`${cacheName}-tiles`).then((cache) => {
             return cache.match(event.request).then((cachedResponse) => {
                 if (isValid(cachedResponse)) {
                     console.log('Serving from the cache: ', event.request.url);
