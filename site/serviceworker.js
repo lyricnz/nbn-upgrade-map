@@ -1,6 +1,6 @@
 const cacheName = 'cache';
 const cacheDuration = 30; // days
-const subCacheNames = ['tiles'];
+const subCacheNames = ['tiles', 'other'];
 let completeCacheNames = subCacheNames.map((subCacheName) => {
     return `${cacheName}-${subCacheName}`;
 });
@@ -20,12 +20,10 @@ self.addEventListener("fetch", async (event) => {
         event.respondWith(caches.open(`${cacheName}-tiles`).then((cache) => {
             return cache.match(event.request).then((cachedResponse) => {
                 if (isValid(cachedResponse)) {
-                    console.log('Serving from the cache: ', event.request.url);
                     return cachedResponse;
                 }
 
                 return fetch(event.request).then((networkResponse) => {
-                    console.log('Serving from the network: ', event.request.url);
                     let cacheCopy = networkResponse.clone();
                     let headers = new Headers(cacheCopy.headers);
                     headers.append('sw-fetched-on', new Date().getTime());
@@ -42,7 +40,15 @@ self.addEventListener("fetch", async (event) => {
             });
         }));
     } else {
-        event.respondWith(fetch(event.request));
+        event.respondWith(fetch(event.request).then((response) => {
+            caches.open(`${cacheName}-other`).then((cache) => {
+                cache.put(event.request, response.clone());
+            });
+
+            return response;
+        }).catch(() => {
+            return caches.match(event.request);
+        }));
     }
 });
 
