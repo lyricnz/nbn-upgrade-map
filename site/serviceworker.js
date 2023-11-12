@@ -1,6 +1,6 @@
 const cacheName = 'cache';
 const cacheDuration = 30; // days
-const subCacheNames = ['tiles', 'other'];
+const subCacheNames = ['tiles', 'persistent', 'other'];
 let completeCacheNames = subCacheNames.map((subCacheName) => {
     return `${cacheName}-${subCacheName}`;
 });
@@ -37,6 +37,18 @@ self.addEventListener("fetch", async (event) => {
                 }).catch(() => {
                     return cachedResponse;
                 });
+            });
+        }));
+    } else if (event.request.url.includes('/static/') || event.request.headers.get('accept').includes('text/css') || event.request.headers.get('accept').includes('application/javascript')) {
+        event.respondWith(caches.open(`${cacheName}-persistent`).then((cache) => {
+            return cache.match(event.request).then((cachedResponse) => {
+                const fetchedResponse = fetch(event.request).then((networkResponse) => {
+                    cache.put(event.request, networkResponse.clone());
+
+                    return networkResponse;
+                });
+
+                return cachedResponse || fetchedResponse;
             });
         }));
     } else {
