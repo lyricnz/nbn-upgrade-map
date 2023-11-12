@@ -58,11 +58,11 @@
     <div id="map"></div>
     <script>
         // Load service worker if supported
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', function() {
-                navigator.serviceWorker.register('https://lukeprior.github.io/nbn-upgrade-map/serviceworker.js');
-            });
-        }
+        // if ('serviceWorker' in navigator) {
+        //     window.addEventListener('load', function() {
+        //         navigator.serviceWorker.register('https://lukeprior.github.io/nbn-upgrade-map/serviceworker.js');
+        //     });
+        // }
 
         // initialize the map
         var map = L.map('map', {
