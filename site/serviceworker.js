@@ -40,14 +40,14 @@ self.addEventListener("fetch", async (event) => {
             });
         }));
     } else {
-        event.respondWith(fetch(event.request).then((response) => {
-            caches.open(`${cacheName}-other`).then((cache) => {
-                cache.put(event.request, response.clone());
-            });
+        event.respondWith(caches.open(`${cacheName}-other`).then((cache) => {
+            return fetch(event.request).then((networkResponse) => {
+                cache.put(event.request, networkResponse.clone());
 
-            return response;
-        }).catch(() => {
-            return caches.match(event.request);
+                return networkResponse;
+            }).catch(() => {
+                return cache.match(event.request);
+            });
         }));
     }
 });
