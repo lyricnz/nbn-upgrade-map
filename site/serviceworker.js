@@ -16,6 +16,9 @@ self.addEventListener("activate", (event) => {
 });
 
 self.addEventListener("fetch", async (event) => {
+    if (event.request.url.startsWith('chrome-extension://')) {
+        return;
+    }
     if (event.request.url.includes('/rastertiles/')) {
         event.respondWith(caches.open(`${cacheName}-tiles`).then((cache) => {
             return cache.match(event.request).then((cachedResponse) => {
