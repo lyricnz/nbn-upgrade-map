@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-10-28T22:11:51.495640",
+ "generated": "2023-11-15T12:28:26.048725",
  "suburb": "FAIRFIELD HEIGHTS",
  "features": [
   {
@@ -12316,6 +12316,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.93623983,
+     -33.86990499
+    ]
+   },
+   "properties": {
+    "name": "81 STELLA STREET FAIRFIELD HEIGHTS 2165",
+    "locID": "LOC000194035097",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704729172"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.935785,
      -33.86934506
     ]
@@ -17256,6 +17273,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706519719"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.94220596,
+     -33.86792586
+    ]
+   },
+   "properties": {
+    "name": "128 NELSON STREET FAIRFIELD HEIGHTS 2165",
+    "locID": "LOC000194015217",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706519720"
    }
   },
   {
@@ -27115,7 +27149,8 @@
     "locID": "LOC000161895310",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW709134096"
+    "gnaf_pid": "GANSW709134096",
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -51952,7 +51987,9 @@
     "locID": "LOC000014089713",
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW721261845"
+    "gnaf_pid": "GANSW721261845",
+    "tech_change_status": "Planned",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
