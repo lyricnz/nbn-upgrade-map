@@ -194,7 +194,7 @@
             var generated = new Date(generated)
             var diff = (date == null) ? -1 : Math.abs((generated.getFullYear() - date.getFullYear()) * 12 + generated.getMonth() - date.getMonth());
 
-            if (diff < 3 && (tech == "FTTN" || tech == "FTTC")) {
+            if (diff < 3 && diff >= 0 && (tech == "FTTN" || tech == "FTTC")) {
                 // Upgrade available in 3 months or less
                 return "#C8E3C5";
             } else if (diff == -1) {
