@@ -69,6 +69,8 @@
             renderer: L.canvas(),
         });
 
+        map.setView([-27.5, 133], 4);
+
         // load a tile layer
         L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
@@ -230,7 +232,7 @@
         }
 
         // load GeoJSON from an external file
-        function loadSuburb(state_file, commit) {
+        function loadSuburb(state_file, commit, first_load=false) {
             console.log("loadSuburb(" + state_file + ", " + commit + ")")
             url = "https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/" + commit + "/results/" + state_file + ".geojson"
             default_state = state_file.split('/')[0]
@@ -369,8 +371,18 @@
                     document.getElementsByClassName("stats")[0].remove();
                 }
                 stats.addTo(map);
-                // fit to bounds
-                map.fitBounds(L.geoJson(data).getBounds());
+
+                // print current url params
+                var tempUrlParams = new URLSearchParams(window.location.search);
+
+                if (tempUrlParams.has("suburb") && tempUrlParams.has("state")) {
+                    if (default_suburb != tempUrlParams.get("suburb") || default_state != tempUrlParams.get("state") || first_load) {
+                        map.fitBounds(markers.getBounds());
+                    }
+                } else {
+                    map.fitBounds(markers.getBounds());
+                }
+
                 // update url
                 window.history.pushState("", "", "?suburb=" + url.split("/").pop().split(".")[0] + "&state=" + url.split("/").slice(-2)[0] + "&commit=" + commit);
 
@@ -394,7 +406,7 @@
             });
         }
 
-        loadSuburb(default_state+"/"+default_suburb, default_commit)
+        loadSuburb(default_state+"/"+default_suburb, default_commit, true)
     </script>
 </body>
 </html>
