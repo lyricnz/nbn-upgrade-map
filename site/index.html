@@ -108,7 +108,7 @@
         }
 
         // add suburb dropdown
-        fetch("https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/" + default_commit + "/results/combined-suburbs.json").then(res => res.json()).then(data => {
+        fetch("https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/combined-suburbs.json").then(res => res.json()).then(data => {
             combined_info = data;
             // TODO: use addControlWithHTML?
             var dropdown = L.control({ position: 'topright' });
