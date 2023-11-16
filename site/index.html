@@ -176,8 +176,13 @@
             }
 
             // Eligible for immediate upgrade
-            if ((status == "Eligible To Order" || status == "MDU Complex Eligible To Apply" || status == "MDU Complex Premises In Build" || status == "Build Finalised") && (tech == "FTTN" || tech == "FTTC")) {
+            if ((status == "Eligible To Order") && (tech == "FTTN" || tech == "FTTC")) {
                 return "#75AD6F";
+            }
+
+            // Eligible for upgrade soon
+            if ((status == "Build Finalised" || status == "MDU Complex Eligible To Apply" || status == "MDU Complex Premises In Build") && (tech == "FTTN" || tech == "FTTC")) {
+                return "#C8E3C5";
             }
 
             if (date != null) {
@@ -189,16 +194,10 @@
             var generated = new Date(generated)
             var diff = (date == null) ? -1 : Math.abs((generated.getFullYear() - date.getFullYear()) * 12 + generated.getMonth() - date.getMonth());
 
-            // FTTP upgrade planned
-            if (diff != -1) {
-                if (diff < 3) {
-                    // Upgrade available in 3 months or less
-                    return "#C8E3C5";
-                } else {
-                    // Upgrade available in more than 3 months
-                    return "#E3071D";
-                }
-            } else {
+            if (diff < 3 && (tech == "FTTN" || tech == "FTTC")) {
+                // Upgrade available in 3 months or less
+                return "#C8E3C5";
+            } else if (diff == -1) {
                 // Legacy FTTP upgrade for records before November 2023
                 switch(upgrade) {
                     case "FTTP_SA":
