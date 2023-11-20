@@ -4,18 +4,21 @@ import logging
 import os
 import re
 import subprocess
+import time
 from collections import Counter, OrderedDict
 from datetime import datetime, timedelta
+
+import requests
+from bs4 import BeautifulSoup
+from git import Repo
+from tabulate import tabulate
 
 import data
 import db
 import geojson
 import main
-import requests
 import suburbs
 import utils
-from bs4 import BeautifulSoup
-from tabulate import tabulate
 
 NBN_UPGRADE_DATES_URL = (
     "https://www.nbnco.com.au/corporate-information/media-centre/media-statements/nbnco-announces-suburbs-and"
@@ -255,6 +258,30 @@ def generate_all_suburbs_nbn_tallies():
         tallies["percent"][prop] = {k: f"{100 * v / total_count:.2f}%" for k, v in kvs.items()}
 
     utils.write_json_file("results/all-suburbs-nbn-tallies.json", tallies, indent=1)
+
+
+def write_git_commits_index(path_to_dir=".", rev="main", output_filename="results/git-commits.json"):
+    """Create a JSON file listing all the commits to each file"""
+    file_commits = {}  # filename -> ["data sha", ...]
+    repo = Repo.init(path_to_dir)
+    for commit in repo.iter_commits(rev):
+        commit_lines = repo.git.show(commit.hexsha, name_only=True).split("\n")
+        result_files = [line for line in commit_lines if line.startswith("results/") and line.endswith(".geojson")]
+        logging.info(
+            "%s by %s (%s) - %d files",
+            commit.hexsha,
+            commit.author,
+            time.asctime(time.gmtime(commit.committed_date)),
+            len(result_files),
+        )
+
+        # remove the "results/" prefix and ".geojson" suffix to make the file smaller
+        for filename in result_files:
+            short_filename = filename.replace("results/", "").replace(".geojson", "")
+            if short_filename not in file_commits:
+                file_commits[short_filename] = []
+            file_commits[short_filename].append(f"{commit.committed_date} {commit.hexsha[:7]}")
+    utils.write_json_file(output_filename, file_commits)
 
 
 if __name__ == "__main__":
