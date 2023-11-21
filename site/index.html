@@ -392,9 +392,13 @@
                     var suburb_commits = data[default_state + "/" + default_suburb]
                     for (var commit_info of suburb_commits) {
                         var [commit_time, commit_hash] = commit_info.split(' ')
+                        commit_date_js = new Date(commit_time * 1000)
+                        // NBN changed field meanings and we didn't capture new fields
+                        if (commit_date_js >= new Date(2023, 9, 22) && commit_date_js <= new Date(2023, 10, 4)) {
+                            continue;
+                        }
                         selected_text = (commit_hash == default_commit) ? "selected" : ""
-                        date_str = new Date(commit_time * 1000).toLocaleDateString("en-AU")
-                        dropdownHTML += '<option value=' + commit_hash + ' ' + selected_text + '>' + date_str + '</option>';
+                        dropdownHTML += '<option value=' + commit_hash + ' ' + selected_text + '>' + commit_date_js.toLocaleDateString("en-AU") + '</option>';
                     }
                     dropdownHTML += '</select>';
                     addControlWithHTML('date-selector', dropdownHTML)
