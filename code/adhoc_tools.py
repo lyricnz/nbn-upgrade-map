@@ -261,9 +261,18 @@ def generate_all_suburbs_nbn_tallies():
 
 def write_git_commits_index(path_to_dir=".", rev="main", output_filename="results/git-commits.json"):
     """Create a JSON file listing all the commits to each file"""
-    file_commits = {}  # filename -> ["data sha", ...]
+    file_commits = utils.read_json_file(output_filename, True)
+    if file_commits:
+        newest_commit_info = max([c for v in file_commits.values() for c in v])
+        newest_commit = newest_commit_info.split(" ")[1]
+    else:
+        newest_commit = None
+
     repo = Repo.init(path_to_dir)
     for commit in repo.iter_commits(rev):
+        if commit.hexsha[:7] == newest_commit:
+            logging.info("Found commit %s - stopping", newest_commit)
+            break
         commit_lines = repo.git.show(commit.hexsha, name_only=True).split("\n")
         result_files = [line for line in commit_lines if line.startswith("results/") and line.endswith(".geojson")]
         logging.info(
@@ -280,6 +289,9 @@ def write_git_commits_index(path_to_dir=".", rev="main", output_filename="result
             if short_filename not in file_commits:
                 file_commits[short_filename] = []
             file_commits[short_filename].append(f"{commit.committed_date} {commit.hexsha[:7]}")
+
+    for short_filename, commits in file_commits.items():
+        commits.sort(reverse=True)
     utils.write_json_file(output_filename, file_commits)
 
 
