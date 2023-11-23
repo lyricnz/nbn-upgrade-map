@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-05T14:09:21.481629",
+ "generated": "2023-11-23T12:31:29.034113",
  "suburb": "LANDSBOROUGH",
  "features": [
   {
@@ -1968,7 +1968,7 @@
     "name": "74 CALDERWOOD ROAD LANDSBOROUGH 4550",
     "locID": "LOC000077524244",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155487834",
     "tech_change_status": "Eligible To Order"
    }
@@ -2824,7 +2824,8 @@
     "locID": "LOC000066008069",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155491285"
+    "gnaf_pid": "GAQLD155491285",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -12762,9 +12763,8 @@
     "name": "5 IDRIS COURT LANDSBOROUGH 4550",
     "locID": "LOC000033892996",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAQLD156786925",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156786925"
    }
   },
   {
@@ -13734,10 +13734,10 @@
    "properties": {
     "name": "46 VIDLER COURT LANDSBOROUGH 4550",
     "locID": "LOC000052151622",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAQLD156797309",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -21738,9 +21738,8 @@
     "name": "14 GOWEN DRIVE LANDSBOROUGH 4550",
     "locID": "LOC000061295479",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAQLD160950332",
-    "tech_change_status": "Eligible To Order"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160950332"
    }
   },
   {
@@ -24075,9 +24074,8 @@
     "name": "1 EDWIN DRIVE LANDSBOROUGH 4550",
     "locID": "LOC000019185292",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAQLD161366543",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161366543"
    }
   },
   {
@@ -28083,7 +28081,7 @@
    "properties": {
     "name": "118 WHITES ROAD LANDSBOROUGH 4550",
     "locID": "LOC000074477261",
-    "tech": "WIRELESS",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162612177"
    }
@@ -37787,6 +37785,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.0214989,
+     -26.81837417
+    ]
+   },
+   "properties": {
+    "name": "LOT 561 ROYS ROAD LANDSBOROUGH 4550",
+    "locID": "EilSb3lzIFJkLCBMYW5kc2Jvcm91Z2ggUUxEIDQ1NTAsIEF1c3RyYWxpYSIuKiwKFAoSCXnNhZMCkJNrEcv3E5GONgqeEhQKEgnp4epmGYWTaxFQq97zWqMCBQ",
+    "tech": "SATELLITE",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAQLD720372896"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.96607696,
      -26.79831745
     ]
@@ -40812,7 +40827,7 @@
    "properties": {
     "name": "7 LENCO CRESCENT LANDSBOROUGH 4550",
     "locID": "LOC000188769533",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720929837"
    }
