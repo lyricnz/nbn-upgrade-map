@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-13T12:10:13.254378",
+ "generated": "2023-12-02T18:53:40.517841",
  "suburb": "REGENTS PARK",
  "features": [
   {
@@ -1679,10 +1679,10 @@
    "properties": {
     "name": "3 CLIFFE STREET REGENTS PARK 2143",
     "locID": "LOC000037138876",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705755985",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1719,10 +1719,10 @@
    "properties": {
     "name": "7 CLIFFE STREET REGENTS PARK 2143",
     "locID": "LOC000018066222",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705755987",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1739,10 +1739,10 @@
    "properties": {
     "name": "9 CLIFFE STREET REGENTS PARK 2143",
     "locID": "LOC000002447808",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705755988",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1986,10 +1986,9 @@
    "properties": {
     "name": "19 CUTCLIFFE AVENUE REGENTS PARK 2143",
     "locID": "LOC000104084398",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705756002",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2026,10 +2025,10 @@
    "properties": {
     "name": "20 CUTCLIFFE AVENUE REGENTS PARK 2143",
     "locID": "LOC000069108447",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705756004",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2206,10 +2205,10 @@
    "properties": {
     "name": "35 CUTCLIFFE AVENUE REGENTS PARK 2143",
     "locID": "LOC000029137318",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705756013",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5408,10 +5407,10 @@
    "properties": {
     "name": "7 CUTCLIFFE AVENUE REGENTS PARK 2143",
     "locID": "LOC000064545336",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705766683",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6090,9 +6089,9 @@
     "name": "363 PARK ROAD REGENTS PARK 2143",
     "locID": "LOC000090303894",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705769483",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6126,9 +6125,9 @@
     "name": "371 PARK ROAD REGENTS PARK 2143",
     "locID": "LOC000002246785",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705769486",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -9335,6 +9334,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.02585752,
+     -33.88658654
+    ]
+   },
+   "properties": {
+    "name": "25 BAGDAD STREET REGENTS PARK 2143",
+    "locID": "LOC000194109718",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705773956"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.02644774,
      -33.8862725
     ]
@@ -9541,8 +9557,9 @@
     "name": "44 BAGDAD STREET REGENTS PARK 2143",
     "locID": "LOC000083993273",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705773975"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW705773975",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -10075,10 +10092,10 @@
    "properties": {
     "name": "25 LEWIS STREET REGENTS PARK 2143",
     "locID": "LOC000006340310",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705776832",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10115,10 +10132,10 @@
    "properties": {
     "name": "27 LEWIS STREET REGENTS PARK 2143",
     "locID": "LOC000007910813",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705776834",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10175,10 +10192,10 @@
    "properties": {
     "name": "3 LEWIS STREET REGENTS PARK 2143",
     "locID": "LOC000061152995",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705776837",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12437,10 +12454,9 @@
    "properties": {
     "name": "12 CUTCLIFFE AVENUE REGENTS PARK 2143",
     "locID": "LOC000005938108",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705783687",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14561,10 +14577,10 @@
    "properties": {
     "name": "18 LEWIS STREET REGENTS PARK 2143",
     "locID": "LOC000042276405",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705787106",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14644,26 +14660,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705787110",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.03608174,
-     -33.88705802
-    ]
-   },
-   "properties": {
-    "name": "21 LEWIS STREET REGENTS PARK 2143",
-    "locID": "LOC100066516943",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW705787111",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -15512,10 +15508,10 @@
    "properties": {
     "name": "23 LEWIS STREET REGENTS PARK 2143",
     "locID": "LOC000092337327",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705790308",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20617,8 +20613,9 @@
     "name": "14-38 BELLONA AVENUE REGENTS PARK 2143",
     "locID": "LOC000156537144",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705799773"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW705799773",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21209,9 +21206,9 @@
     "name": "6 MAUDE STREET REGENTS PARK 2143",
     "locID": "LOC000028227060",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705800070",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -24449,10 +24446,10 @@
    "properties": {
     "name": "184 JOSEPH STREET REGENTS PARK 2143",
     "locID": "LOC000074652347",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706535522",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24509,10 +24506,10 @@
    "properties": {
     "name": "174 JOSEPH STREET REGENTS PARK 2143",
     "locID": "LOC000004649505",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706535544",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25022,10 +25019,10 @@
    "properties": {
     "name": "190 JOSEPH STREET REGENTS PARK 2143",
     "locID": "LOC000002223262",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706558484",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25696,9 +25693,9 @@
     "name": "UNIT 1, 6 MAUDE STREET REGENTS PARK 2143",
     "locID": "LOC000028227060",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW708334763",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -26773,10 +26770,9 @@
    "properties": {
     "name": "4 CUTCLIFFE AVENUE REGENTS PARK 2143",
     "locID": "LOC000005938108",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711012950",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28433,8 +28429,9 @@
     "name": "UNIT 3, 391V PARK ROAD REGENTS PARK 2143",
     "locID": "LOC000180014930",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711051615"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711051615",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28535,8 +28532,9 @@
     "name": "UNIT 4, 391V PARK ROAD REGENTS PARK 2143",
     "locID": "LOC000180014930",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711051621"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711051621",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28638,8 +28636,9 @@
     "name": "UNIT 5, 391V PARK ROAD REGENTS PARK 2143",
     "locID": "LOC000180014930",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711051627"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711051627",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28877,8 +28876,9 @@
     "name": "UNIT 10, 391V PARK ROAD REGENTS PARK 2143",
     "locID": "LOC000180014930",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711051642"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711051642",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29308,8 +29308,9 @@
     "name": "UNIT 6, 391V PARK ROAD REGENTS PARK 2143",
     "locID": "LOC000180014930",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711055956"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711055956",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29325,8 +29326,9 @@
     "name": "UNIT 7, 391V PARK ROAD REGENTS PARK 2143",
     "locID": "LOC000180014930",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711055957"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711055957",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29342,8 +29344,9 @@
     "name": "UNIT 8, 391V PARK ROAD REGENTS PARK 2143",
     "locID": "LOC000156739331",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711055958"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711055958",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29359,8 +29362,9 @@
     "name": "UNIT 9, 391V PARK ROAD REGENTS PARK 2143",
     "locID": "LOC000180014930",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711055959"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711055959",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29637,9 +29641,9 @@
     "name": "UNIT 2, 6 MAUDE STREET REGENTS PARK 2143",
     "locID": "LOC000028227060",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW711059207",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -30068,8 +30072,9 @@
     "name": "UNIT 1, 391V PARK ROAD REGENTS PARK 2143",
     "locID": "LOC000180014930",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711059421"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711059421",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30294,8 +30299,9 @@
     "name": "UNIT 2, 391V PARK ROAD REGENTS PARK 2143",
     "locID": "LOC000180014930",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711059434"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711059434",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32058,9 +32064,9 @@
     "name": "2A BAGDAD STREET REGENTS PARK 2143",
     "locID": "LOC000156738262",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW716727017",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -36073,8 +36079,9 @@
     "name": "UNIT 3, 38 BELLONA AVENUE REGENTS PARK 2143",
     "locID": "LOC000156537144",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717691198"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717691198",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36090,8 +36097,9 @@
     "name": "UNIT 6, 38 BELLONA AVENUE REGENTS PARK 2143",
     "locID": "LOC000156537192",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717691199"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717691199",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36465,8 +36473,9 @@
     "name": "391V PARK ROAD REGENTS PARK 2143",
     "locID": "LOC000180014930",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717748890"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717748890",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36674,8 +36683,9 @@
     "name": "365-367 PARK ROAD REGENTS PARK 2143",
     "locID": "LOC000156537365",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717877754"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717877754",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36811,9 +36821,9 @@
     "name": "1 MAUDE STREET REGENTS PARK 2143",
     "locID": "LOC000028227060",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717958902",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -38278,8 +38288,9 @@
     "name": "UNIT 1, 38 BELLONA AVENUE REGENTS PARK 2143",
     "locID": "LOC000156537144",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718349657"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718349657",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -38295,8 +38306,9 @@
     "name": "UNIT 2, 38 BELLONA AVENUE REGENTS PARK 2143",
     "locID": "LOC000156537144",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718349658"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718349658",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -38312,8 +38324,9 @@
     "name": "UNIT 4, 38 BELLONA AVENUE REGENTS PARK 2143",
     "locID": "LOC000156537171",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718349659"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718349659",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -38329,8 +38342,9 @@
     "name": "UNIT 5, 38 BELLONA AVENUE REGENTS PARK 2143",
     "locID": "LOC000156537185",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718349660"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718349660",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -38346,8 +38360,9 @@
     "name": "UNIT 7, 38 BELLONA AVENUE REGENTS PARK 2143",
     "locID": "LOC000156537205",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718349661"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718349661",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -39135,10 +39150,10 @@
    "properties": {
     "name": "UNIT 2, 20 CUTCLIFFE AVENUE REGENTS PARK 2143",
     "locID": "LOC000069108447",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719654500",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39155,10 +39170,10 @@
    "properties": {
     "name": "UNIT 1, 20 CUTCLIFFE AVENUE REGENTS PARK 2143",
     "locID": "LOC000069108447",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719655839",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
