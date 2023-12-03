@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-13T21:29:49.437461",
+ "generated": "2023-12-03T03:44:15.903021",
  "suburb": "BRUCE",
  "features": [
   {
@@ -586,7 +586,7 @@
    "properties": {
     "name": "27 THYNNE STREET BRUCE 2617",
     "locID": "LOC000192364583",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714853533"
    }
@@ -1908,7 +1908,7 @@
     "name": "102 JAEGER CIRCUIT BRUCE 2617",
     "locID": "LOC000112731089",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714856608",
     "tech_change_status": "Eligible To Order"
    }
@@ -2177,9 +2177,9 @@
     "name": "67 JAEGER CIRCUIT BRUCE 2617",
     "locID": "LOC000113439168",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714856779",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -7710,8 +7710,9 @@
     "name": "100 EASTERN VALLEY WAY BRUCE 2617",
     "locID": "LOC000113115198",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT714951693"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAACT714951693",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -24203,10 +24204,9 @@
    "properties": {
     "name": "UNIT 13, 121 THYNNE STREET BRUCE 2617",
     "locID": "LOC000110829204",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAACT716699515",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT716699515"
    }
   },
   {
@@ -24886,9 +24886,8 @@
     "name": "UNIT 30, 121 THYNNE STREET BRUCE 2617",
     "locID": "LOC000110905019",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAACT716699553",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT716699553"
    }
   },
   {
@@ -26628,10 +26627,10 @@
    "properties": {
     "name": "UNIT 90, 121 THYNNE STREET BRUCE 2617",
     "locID": "LOC000111332608",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAACT716699650",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -50640,24 +50639,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.08996694,
-     -35.25139987
-    ]
-   },
-   "properties": {
-    "name": "60 MARY POTTER CIRCUIT BRUCE 2617",
-    "locID": "LOC000187778570",
-    "tech": "NULL",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAACT718347827",
-    "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.10072218,
      -35.24273042
     ]
@@ -64664,23 +64645,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT721192490"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.08879337,
-     -35.2502845
-    ]
-   },
-   "properties": {
-    "name": "33 HAYDON DRIVE BRUCE 2617",
-    "locID": "EiczMyBIYXlkb24gRHIsIEJydWNlIEFDVCAyNjE3LCBBdXN0cmFsaWEiMBIuChQKEglVp1lOWa0XaxF-UUOpx0srkBAhKhQKEgkp0sv3RK0XaxG3ZfHvrPeLcA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAACT721271092"
    }
   }
  ]
