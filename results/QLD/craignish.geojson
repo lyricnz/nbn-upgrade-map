@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-16T04:30:39.197645",
+ "generated": "2023-12-05T08:13:10.544114",
  "suburb": "CRAIGNISH",
  "features": [
   {
@@ -295,8 +295,8 @@
    "properties": {
     "name": "30 HAMILTON DRIVE CRAIGNISH 4655",
     "locID": "LOC000076387291",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155211232",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2862,9 +2862,9 @@
     "name": "20 EDGEWATER COURT CRAIGNISH 4655",
     "locID": "LOC000041146497",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155222497",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -3100,8 +3100,8 @@
    "properties": {
     "name": "8-10 ARGYLE COURT CRAIGNISH 4655",
     "locID": "LOC000061133327",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155223592",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3398,7 +3398,7 @@
     "name": "16 EDGEWATER COURT CRAIGNISH 4655",
     "locID": "LOC000057689582",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155224066",
     "tech_change_status": "Eligible To Order"
    }
@@ -3965,9 +3965,9 @@
     "name": "3 EDGEWATER COURT CRAIGNISH 4655",
     "locID": "LOC000005734784",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156033781",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -7206,7 +7206,7 @@
     "name": "41 STRAITS OUTLOOK CRAIGNISH 4655",
     "locID": "LOC000067495967",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156490600",
     "tech_change_status": "Eligible To Order"
    }
@@ -7426,7 +7426,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156490612",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13644,10 +13644,10 @@
    "properties": {
     "name": "12 GOLF CRESCENT CRAIGNISH 4655",
     "locID": "LOC000013609612",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD161691432",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13763,8 +13763,8 @@
    "properties": {
     "name": "18 GOLF CRESCENT CRAIGNISH 4655",
     "locID": "LOC000098615140",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD161691438",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13783,8 +13783,8 @@
    "properties": {
     "name": "1 GOLF CRESCENT CRAIGNISH 4655",
     "locID": "LOC000098615140",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD161691439",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14613,8 +14613,8 @@
    "properties": {
     "name": "70-72 PARVIEW DRIVE CRAIGNISH 4655",
     "locID": "LOC000024090386",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD161708553",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -17750,10 +17750,9 @@
    "properties": {
     "name": "100 CASTLES ROAD NORTH CRAIGNISH 4655",
     "locID": "LOC000074347298",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162314724",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20775,40 +20774,6 @@
     "tech": "FTTC",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GAQLD163166167"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.74974597,
-     -25.28668797
-    ]
-   },
-   "properties": {
-    "name": "LOT 103 KARRASCHS ROAD CRAIGNISH 4655",
-    "locID": "LOC000193324976",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163167268"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.7500853,
-     -25.28745596
-    ]
-   },
-   "properties": {
-    "name": "LOT 104 KARRASCHS ROAD CRAIGNISH 4655",
-    "locID": "LOC000193324976",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163167269"
    }
   },
   {
