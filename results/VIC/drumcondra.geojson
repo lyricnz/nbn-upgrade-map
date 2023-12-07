@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-18T01:41:35.282994",
+ "generated": "2023-12-07T05:49:41.087688",
  "suburb": "DRUMCONDRA",
  "features": [
   {
@@ -347,8 +347,8 @@
    "properties": {
     "name": "75 THE ESPLANADE DRUMCONDRA 3215",
     "locID": "LOC000057678381",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC411294913",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -443,8 +443,8 @@
    "properties": {
     "name": "71 THE ESPLANADE DRUMCONDRA 3215",
     "locID": "LOC000061748841",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC411298186",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -677,7 +677,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC411306347",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2023"
    }
@@ -1144,9 +1144,9 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419940560",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2286,10 +2286,10 @@
    "properties": {
     "name": "34 BEACH PARADE DRUMCONDRA 3215",
     "locID": "LOC000009319296",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420543972",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2735,8 +2735,8 @@
    "properties": {
     "name": "9 DRUMCONDRA AVENUE DRUMCONDRA 3215",
     "locID": "LOC000079501237",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420859832",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3147,8 +3147,8 @@
    "properties": {
     "name": "21 WATTLETREE ROAD DRUMCONDRA 3215",
     "locID": "LOC000046480673",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421177197",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3663,7 +3663,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421458554",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2023"
    }
@@ -3894,10 +3894,10 @@
    "properties": {
     "name": "4 BEACH PARADE DRUMCONDRA 3215",
     "locID": "LOC000043035686",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421719319",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4246,8 +4246,8 @@
    "properties": {
     "name": "9 BELL PARADE DRUMCONDRA 3215",
     "locID": "LOC000084744254",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421789621",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4438,8 +4438,9 @@
     "name": "UNIT 1, 2-4 DRUMCONDRA AVENUE DRUMCONDRA 3215",
     "locID": "LOC000079715547",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424354435"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424354435",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -4585,9 +4586,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424531783",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -4644,7 +4644,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425033479",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2023"
    }
@@ -4664,7 +4664,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425033480",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2023"
    }
@@ -4684,7 +4684,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425033481",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2023"
    }
@@ -4704,7 +4704,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425033482",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2023"
    }
@@ -4724,7 +4724,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425246743",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2023"
    }
@@ -4839,9 +4839,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC718990345",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -4879,9 +4878,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC718992074",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -4957,9 +4955,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC718994522",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -5183,7 +5180,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719002972",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2023"
    }
@@ -5353,9 +5350,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719013780",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -5412,9 +5408,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719017417",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -5531,7 +5526,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719049921",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2023"
    }
@@ -5569,7 +5564,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719051290",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2023"
    }
