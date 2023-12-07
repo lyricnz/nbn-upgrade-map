@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-18T04:06:49.553861",
+ "generated": "2023-12-07T08:07:57.405306",
  "suburb": "KORUMBURRA",
  "features": [
   {
@@ -8915,7 +8915,8 @@
     "locID": "LOC000005166848",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419750946"
+    "gnaf_pid": "GAVIC419750946",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -38861,6 +38862,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.81566808,
+     -38.43000915
+    ]
+   },
+   "properties": {
+    "name": "6 MCDOWELL DRIVE KORUMBURRA 3950",
+    "locID": "LOC000080759104",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424361579"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.82574783,
      -38.43460879
     ]
@@ -44763,9 +44781,9 @@
     "name": "17 ASHFORD CRESCENT KORUMBURRA 3950",
     "locID": "LOC000114088181",
     "tech": "FTTC",
-    "upgrade": "FW_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424790676",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -45185,10 +45203,10 @@
    "properties": {
     "name": "19 MASSIMO WAY KORUMBURRA 3950",
     "locID": "LOC000125543467",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC424914101",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -48409,8 +48427,9 @@
     "name": "1 BRIDGE STREET KORUMBURRA 3950",
     "locID": "LOC000191540289",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425557455"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425557455",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -49646,10 +49665,9 @@
    "properties": {
     "name": "1 RANGE COURT KORUMBURRA 3950",
     "locID": "LOC000164170731",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425686838",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425686838"
    }
   },
   {
@@ -50412,8 +50430,8 @@
    "properties": {
     "name": "43 BOURKE STREET KORUMBURRA 3950",
     "locID": "LOC000177627939",
-    "tech": "FTTC",
-    "upgrade": "FW_CT",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719218856",
     "tech_change_status": "Eligible To Order"
    }
