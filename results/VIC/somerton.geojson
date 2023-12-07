@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-18T07:52:31.030308",
+ "generated": "2023-12-07T12:02:25.585759",
  "suburb": "SOMERTON",
  "features": [
   {
@@ -646,9 +646,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC413089325",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -915,10 +914,10 @@
    "properties": {
     "name": "91-105 FREIGHT DRIVE SOMERTON 3062",
     "locID": "LOC000087244329",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419625395",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2198,9 +2197,8 @@
     "name": "856-858 COOPER STREET SOMERTON 3062",
     "locID": "LOC000087585382",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420534708",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9301,6 +9299,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.96649306,
+     -37.64148405
+    ]
+   },
+   "properties": {
+    "name": "11 BURNETT STREET SOMERTON 3062",
+    "locID": "LOC000194136151",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425669277"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.96685848,
      -37.64107597
     ]
@@ -10479,6 +10494,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719523692"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.96649306,
+     -37.64148405
+    ]
+   },
+   "properties": {
+    "name": "11A BURNETT STREET SOMERTON 3062",
+    "locID": "ChIJ5yj39itO1moRpDf8QewnC9M",
+    "tech": "NULL",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAVIC719524472"
    }
   },
   {
