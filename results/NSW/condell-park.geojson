@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-19T21:22:49.663128",
+ "generated": "2023-12-09T02:08:33.494725",
  "suburb": "CONDELL PARK",
  "features": [
   {
@@ -6829,10 +6829,10 @@
    "properties": {
     "name": "358 MARION STREET CONDELL PARK 2200",
     "locID": "LOC000070632804",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704452424",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34235,7 +34235,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704472019",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40679,7 +40679,7 @@
    "properties": {
     "name": "18 WREN STREET CONDELL PARK 2200",
     "locID": "ChIJSdexrim8EmsR4GgpHhks0Xg",
-    "tech": "HFC",
+    "tech": "NULL",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GANSW706615928"
    }
@@ -41836,8 +41836,8 @@
    "properties": {
     "name": "99 GALLIPOLI STREET CONDELL PARK 2200",
     "locID": "LOC000053349259",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW706626624",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -49836,23 +49836,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706657946"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.01848263,
-     -33.9259759
-    ]
-   },
-   "properties": {
-    "name": "32 AUGUSTA STREET CONDELL PARK 2200",
-    "locID": "LOC000069260106",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706657947"
    }
   },
   {
@@ -58278,9 +58261,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711404546",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -59012,10 +58994,10 @@
    "properties": {
     "name": "UNIT 2, 358 MARION STREET CONDELL PARK 2200",
     "locID": "LOC000070632804",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711411299",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -59206,8 +59188,9 @@
     "name": "UNIT 1, 350 EDGAR STREET CONDELL PARK 2200",
     "locID": "LOC000013697383",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711411738"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711411738",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -59223,8 +59206,9 @@
     "name": "UNIT 2, 350 EDGAR STREET CONDELL PARK 2200",
     "locID": "LOC000013697383",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711411739"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711411739",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -59240,8 +59224,9 @@
     "name": "UNIT 3, 350 EDGAR STREET CONDELL PARK 2200",
     "locID": "LOC000013697383",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711411740"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711411740",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -59257,8 +59242,9 @@
     "name": "UNIT 4, 350 EDGAR STREET CONDELL PARK 2200",
     "locID": "LOC000013838841",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711411741"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711411741",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -59427,8 +59413,9 @@
     "name": "UNIT 5, 350 EDGAR STREET CONDELL PARK 2200",
     "locID": "LOC000014078357",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711412381"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711412381",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -59462,8 +59449,9 @@
     "name": "UNIT 7, 350 EDGAR STREET CONDELL PARK 2200",
     "locID": "LOC000014046643",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711412385"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711412385",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -59479,8 +59467,9 @@
     "name": "UNIT 8, 350 EDGAR STREET CONDELL PARK 2200",
     "locID": "LOC000014076743",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711412386"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711412386",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -59496,8 +59485,9 @@
     "name": "UNIT 9, 350 EDGAR STREET CONDELL PARK 2200",
     "locID": "LOC000014089628",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711412387"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711412387",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -59513,8 +59503,9 @@
     "name": "UNIT 10, 350 EDGAR STREET CONDELL PARK 2200",
     "locID": "LOC000013697383",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711412388"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711412388",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -59530,8 +59521,9 @@
     "name": "UNIT 11, 350 EDGAR STREET CONDELL PARK 2200",
     "locID": "LOC000014133134",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711412389"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711412389",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -59547,8 +59539,9 @@
     "name": "UNIT 12, 350 EDGAR STREET CONDELL PARK 2200",
     "locID": "LOC000014004481",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW711412390"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW711412390",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -64843,12 +64836,12 @@
    "properties": {
     "name": "83 MILPERRA ROAD CONDELL PARK 2200",
     "locID": "LOC000120327088",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716508558",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -67025,8 +67018,9 @@
     "name": "350 EDGAR STREET CONDELL PARK 2200",
     "locID": "LOC000013697383",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717211250"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717211250",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -82670,7 +82664,7 @@
    "properties": {
     "name": "18A WREN STREET CONDELL PARK 2200",
     "locID": "ChIJ_1u3rim8EmsRpcPOIn6VSck",
-    "tech": "HFC",
+    "tech": "NULL",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GANSW718944269"
    }
@@ -91189,23 +91183,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721174967"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.01848054,
-     -33.92597788
-    ]
-   },
-   "properties": {
-    "name": "32A AUGUSTA STREET CONDELL PARK 2200",
-    "locID": "LOC000069260106",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW721175010"
    }
   },
   {
