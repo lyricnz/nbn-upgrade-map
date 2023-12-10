@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-20T21:38:32.146304",
+ "generated": "2023-12-10T02:37:43.767592",
  "suburb": "SOUTH ALBURY",
  "features": [
   {
@@ -343,8 +343,8 @@
    "properties": {
     "name": "451 ATKINS STREET SOUTH ALBURY 2640",
     "locID": "LOC000007325605",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW706620836",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -521,9 +521,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706620891",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -3419,10 +3418,10 @@
    "properties": {
     "name": "487 EBDEN STREET SOUTH ALBURY 2640",
     "locID": "LOC000055551718",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW706638091",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3439,8 +3438,8 @@
    "properties": {
     "name": "525 ABERCORN STREET SOUTH ALBURY 2640",
     "locID": "LOC000078771876",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW706638095",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4466,9 +4465,8 @@
     "name": "486 EBDEN STREET SOUTH ALBURY 2640",
     "locID": "LOC000101081343",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706649097",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7918,9 +7916,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706665003",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -13185,8 +13182,8 @@
    "properties": {
     "name": "329 OLIVE STREET SOUTH ALBURY 2640",
     "locID": "LOC000100844752",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW710166037",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20976,7 +20973,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716611294",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2023"
    }
@@ -26239,6 +26236,23 @@
     "tech": "SATELLITE",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GANSW718959335"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.90904909,
+     -36.0879011
+    ]
+   },
+   "properties": {
+    "name": "439 WODONGA PLACE SOUTH ALBURY 2640",
+    "locID": "EjA0MzkgV29kb25nYSBQbCwgU291dGggQWxidXJ5IE5TVyAyNjQwLCBBdXN0cmFsaWEiMRIvChQKEgl5jyy8RF8haxE6I1KF4Dh7sRC3AyoUChIJEYYJ0UJfIWsRGeqCj7TyLzM",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GANSW718977643"
    }
   },
   {
