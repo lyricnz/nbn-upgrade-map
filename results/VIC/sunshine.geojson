@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-21T19:13:52.540409",
+ "generated": "2023-12-11T00:43:36.287415",
  "suburb": "SUNSHINE",
  "features": [
   {
@@ -2659,9 +2659,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC412432501",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14423,10 +14422,10 @@
    "properties": {
     "name": "23 FIRST AVENUE SUNSHINE 3020",
     "locID": "LOC000002966271",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC419606835",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -19674,10 +19673,10 @@
    "properties": {
     "name": "31 JUDGE STREET SUNSHINE 3020",
     "locID": "LOC000068064400",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419903322",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24649,9 +24648,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420126215",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -28602,6 +28600,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.839915,
+     -37.782345
+    ]
+   },
+   "properties": {
+    "name": "16 DULCIE STREET SUNSHINE 3020",
+    "locID": "LOC000194099161",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420213708"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.839101,
      -37.782592
     ]
@@ -32437,9 +32452,9 @@
     "name": "155 ANDERSON ROAD SUNSHINE 3020",
     "locID": "LOC000123103153",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420399413",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -48884,23 +48899,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.844342,
-     -37.784346
-    ]
-   },
-   "properties": {
-    "name": "20 ALICE STREET SUNSHINE 3020",
-    "locID": "LOC000040329992",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421102491"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.844157,
      -37.783279
     ]
@@ -53893,6 +53891,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421137084",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.836738,
+     -37.799996
+    ]
+   },
+   "properties": {
+    "name": "15 THIRD AVENUE SUNSHINE 3020",
+    "locID": "ChIJcxfG_I5g1moRJFuqm-zwxAA",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAVIC421137087"
    }
   },
   {
@@ -66788,8 +66803,9 @@
     "name": "24 FIRST AVENUE SUNSHINE 3020",
     "locID": "LOC000072828465",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421745365"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421745365",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -76189,9 +76205,9 @@
     "name": "UNIT 1, 497A BALLARAT ROAD SUNSHINE 3020",
     "locID": "LOC000111297557",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423621259",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -76413,9 +76429,9 @@
     "name": "UNIT 2, 497A BALLARAT ROAD SUNSHINE 3020",
     "locID": "LOC000038238702",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423621272",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -76501,9 +76517,9 @@
     "name": "UNIT 3, 497A BALLARAT ROAD SUNSHINE 3020",
     "locID": "LOC000111297557",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423621277",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -77456,9 +77472,9 @@
     "name": "499 BALLARAT ROAD SUNSHINE 3020",
     "locID": "LOC000101848394",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423621339",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -77476,9 +77492,9 @@
     "name": "501-503 BALLARAT ROAD SUNSHINE 3020",
     "locID": "LOC000123065039",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423621340",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -78094,9 +78110,9 @@
     "name": "503 BALLARAT ROAD SUNSHINE 3020",
     "locID": "LOC000123065039",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423671688",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -80230,9 +80246,11 @@
     "name": "497A BALLARAT ROAD SUNSHINE 3020",
     "locID": "LOC000192739256",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424417231",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2023"
    }
   },
   {
@@ -82636,9 +82654,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424609370",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -82656,9 +82673,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424609371",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -82676,7 +82692,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424609374",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2023"
    }
@@ -82696,7 +82712,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424609375",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2023"
    }
@@ -82716,7 +82732,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424609376",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2023"
    }
@@ -82736,9 +82752,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424609377",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -86011,7 +86026,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425461124",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2023"
    }
@@ -93831,9 +93846,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719630476",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -94117,9 +94131,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719630884",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -94346,9 +94359,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719631215",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -94499,9 +94511,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719631388",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -99597,9 +99608,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720693971",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -101950,57 +101960,6 @@
     "tech": "HFC",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GAVIC721109168"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.84434297,
-     -37.78437198
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 20 ALICE STREET SUNSHINE 3020",
-    "locID": "LOC000040329992",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721109223"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.84433887,
-     -37.78432427
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 20 ALICE STREET SUNSHINE 3020",
-    "locID": "LOC000040329992",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721109224"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.84433716,
-     -37.78427456
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 20 ALICE STREET SUNSHINE 3020",
-    "locID": "LOC000040329992",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721109225"
    }
   },
   {
