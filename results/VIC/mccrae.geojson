@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-22T17:45:00.645987",
+ "generated": "2023-12-11T22:27:26.030730",
  "suburb": "MCCRAE",
  "features": [
   {
@@ -52,8 +52,8 @@
    "properties": {
     "name": "6 RILEY STREET MCCRAE 3938",
     "locID": "LOC000062150530",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC411772230",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -958,6 +958,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.92361391,
+     -38.35930969
+    ]
+   },
+   "properties": {
+    "name": "205A BAYVIEW ROAD MCCRAE 3938",
+    "locID": "LOC000027026059",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC411823627",
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.923767,
      -38.351121
     ]
@@ -1212,8 +1232,8 @@
    "properties": {
     "name": "34 BEVERLEY ROAD MCCRAE 3938",
     "locID": "LOC000115122542",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC411832444",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1343,10 +1363,10 @@
    "properties": {
     "name": "59-61 BAYVIEW ROAD MCCRAE 3938",
     "locID": "LOC000079303258",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC414763195",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1514,10 +1534,10 @@
    "properties": {
     "name": "36 NAVIGATOR STREET MCCRAE 3938",
     "locID": "LOC000050917807",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC414777804",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1591,9 +1611,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC414781350",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -2549,10 +2568,10 @@
    "properties": {
     "name": "157 BAYVIEW ROAD MCCRAE 3938",
     "locID": "LOC000060573635",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419541140",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2775,6 +2794,23 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.922772,
+     -38.361926
+    ]
+   },
+   "properties": {
+    "name": "18 ARMSTRONG ROAD MCCRAE 3938",
+    "locID": "ChIJTaOc_-PI1WoRloWsfTzbmjM",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAVIC419541434"
    }
   },
   {
@@ -3009,12 +3045,12 @@
    "properties": {
     "name": "9 BANKS STREET MCCRAE 3938",
     "locID": "LOC000187569533",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419541815",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3466,12 +3502,12 @@
    "properties": {
     "name": "16 LEICHARDT STREET MCCRAE 3938",
     "locID": "LOC000083416445",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419543099",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3603,12 +3639,12 @@
    "properties": {
     "name": "109 FLINDERS STREET MCCRAE 3938",
     "locID": "LOC000021948436",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419543389",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3723,10 +3759,9 @@
    "properties": {
     "name": "49 CAIRN ROAD MCCRAE 3938",
     "locID": "LOC000044635445",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419543472",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3863,12 +3898,12 @@
    "properties": {
     "name": "15 FAIRWAY CRESCENT MCCRAE 3938",
     "locID": "LOC000026920720",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419543706",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3903,12 +3938,12 @@
    "properties": {
     "name": "19 FAIRWAY CRESCENT MCCRAE 3938",
     "locID": "LOC000007740239",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419543709",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3963,12 +3998,12 @@
    "properties": {
     "name": "2 DAIMLER COURT MCCRAE 3938",
     "locID": "LOC000005287211",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419543760",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4023,10 +4058,10 @@
    "properties": {
     "name": "53 FLINDERS STREET MCCRAE 3938",
     "locID": "LOC000035437143",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419543792",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4538,12 +4573,12 @@
    "properties": {
     "name": "55 RILEY STREET MCCRAE 3938",
     "locID": "LOC000096387426",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419544905",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4598,10 +4633,9 @@
    "properties": {
     "name": "5 VIEW POINT ROAD MCCRAE 3938",
     "locID": "LOC000043457635",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419545102",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4678,12 +4712,12 @@
    "properties": {
     "name": "17 HILLMAN AVENUE MCCRAE 3938",
     "locID": "LOC000086841587",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419545242",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4738,10 +4772,10 @@
    "properties": {
     "name": "23 MATTHEW STREET MCCRAE 3938",
     "locID": "LOC000022800061",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419545267",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5551,10 +5585,10 @@
    "properties": {
     "name": "707 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000180166917",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419546673",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5808,12 +5842,12 @@
    "properties": {
     "name": "30 HILLMAN AVENUE MCCRAE 3938",
     "locID": "LOC000045853726",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419547198",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6025,9 +6059,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419617985",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -6152,12 +6185,12 @@
    "properties": {
     "name": "37 AUSTIN AVENUE MCCRAE 3938",
     "locID": "LOC000080696923",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419618921",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6176,8 +6209,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419618922",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -6192,12 +6224,12 @@
    "properties": {
     "name": "39 ARMSTRONG ROAD MCCRAE 3938",
     "locID": "LOC000033526494",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419618923",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6434,8 +6466,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419737212",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -6548,12 +6579,12 @@
    "properties": {
     "name": "12 MARJORIE COURT MCCRAE 3938",
     "locID": "LOC000049001364",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419835728",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6767,12 +6798,12 @@
    "properties": {
     "name": "48 SOMERS AVENUE MCCRAE 3938",
     "locID": "LOC000011922958",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419836075",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6807,12 +6838,12 @@
    "properties": {
     "name": "50 SOMERS AVENUE MCCRAE 3938",
     "locID": "LOC000077418027",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419836077",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6886,10 +6917,10 @@
    "properties": {
     "name": "20 THE BOULEVARD MCCRAE 3938",
     "locID": "LOC000002792430",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419836089",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7424,12 +7455,12 @@
    "properties": {
     "name": "110 FLINDERS STREET MCCRAE 3938",
     "locID": "LOC000094727884",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419837663",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7464,12 +7495,12 @@
    "properties": {
     "name": "123 FLINDERS STREET MCCRAE 3938",
     "locID": "LOC000071935999",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419837665",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7504,12 +7535,12 @@
    "properties": {
     "name": "18 BANKS STREET MCCRAE 3938",
     "locID": "LOC000091508825",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419837767",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7724,12 +7755,12 @@
    "properties": {
     "name": "11 FAIRWAY CRESCENT MCCRAE 3938",
     "locID": "LOC000050736306",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419838771",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7920,10 +7951,10 @@
    "properties": {
     "name": "27 COOK STREET MCCRAE 3938",
     "locID": "LOC000031122906",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419840302",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8023,6 +8054,23 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.927746,
+     -38.358454
+    ]
+   },
+   "properties": {
+    "name": "15 CHUNAR GROVE MCCRAE 3938",
+    "locID": "ChIJU9KTTd3I1WoRSRSYhXeTp6s",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAVIC419840477"
    }
   },
   {
@@ -8277,12 +8325,12 @@
    "properties": {
     "name": "31 ARMSTRONG ROAD MCCRAE 3938",
     "locID": "LOC000059005338",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419841144",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8537,12 +8585,12 @@
    "properties": {
     "name": "277 BAYVIEW ROAD MCCRAE 3938",
     "locID": "LOC000035484284",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419841478",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8757,12 +8805,12 @@
    "properties": {
     "name": "221 BAYVIEW ROAD MCCRAE 3938",
     "locID": "LOC000011082447",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419842426",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8897,12 +8945,12 @@
    "properties": {
     "name": "18 BENTLEY ROAD MCCRAE 3938",
     "locID": "LOC000080784711",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419843160",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9097,12 +9145,12 @@
    "properties": {
     "name": "39 AUSTIN AVENUE MCCRAE 3938",
     "locID": "LOC000038830860",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419844141",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9117,12 +9165,12 @@
    "properties": {
     "name": "53 AUSTIN AVENUE MCCRAE 3938",
     "locID": "LOC000093206833",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419844142",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9137,12 +9185,12 @@
    "properties": {
     "name": "83 AUSTIN AVENUE MCCRAE 3938",
     "locID": "LOC000060917730",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419844143",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9256,10 +9304,10 @@
    "properties": {
     "name": "15 MATTHEW STREET MCCRAE 3938",
     "locID": "LOC000105970086",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419844890",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9336,10 +9384,9 @@
    "properties": {
     "name": "38 MATTHEW STREET MCCRAE 3938",
     "locID": "LOC000003635989",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419844894",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9476,12 +9523,12 @@
    "properties": {
     "name": "14 MURRAY STREET MCCRAE 3938",
     "locID": "LOC000076932205",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419845933",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9656,10 +9703,10 @@
    "properties": {
     "name": "84 FLINDERS STREET MCCRAE 3938",
     "locID": "LOC000106897299",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419845999",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10244,8 +10291,8 @@
    "properties": {
     "name": "23 BOWEN STREET MCCRAE 3938",
     "locID": "LOC000024412827",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419857146",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10384,12 +10431,12 @@
    "properties": {
     "name": "47 RILEY STREET MCCRAE 3938",
     "locID": "LOC000016166862",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419857194",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10857,8 +10904,8 @@
    "properties": {
     "name": "58 ARTHURS AVENUE MCCRAE 3938",
     "locID": "LOC000066942501",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419918609",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10991,12 +11038,12 @@
    "properties": {
     "name": "6 ARMSTRONG ROAD MCCRAE 3938",
     "locID": "LOC000067715500",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419920501",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11413,8 +11460,8 @@
    "properties": {
     "name": "21 HIGHFIELD ROAD MCCRAE 3938",
     "locID": "LOC000106415278",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420024174",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11649,12 +11696,12 @@
    "properties": {
     "name": "FLAT 2, 27 ARMSTRONG ROAD MCCRAE 3938",
     "locID": "LOC000024378191",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420073944",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12155,6 +12202,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.92489956,
+     -38.35901183
+    ]
+   },
+   "properties": {
+    "name": "22 LEICHARDT STREET MCCRAE 3938",
+    "locID": "ChIJk0jIc-fI1WoRxFUxFWldeOc",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAVIC420129600"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.924686,
      -38.359013
     ]
@@ -12242,10 +12306,10 @@
    "properties": {
     "name": "8 FLINDERS STREET MCCRAE 3938",
     "locID": "LOC000029616689",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420129904",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12363,7 +12427,7 @@
     "name": "65A FLINDERS STREET MCCRAE 3938",
     "locID": "LOC000109103697",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420129917",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12795,12 +12859,12 @@
    "properties": {
     "name": "29 HILLMAN AVENUE MCCRAE 3938",
     "locID": "LOC000026921249",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420130655",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13032,12 +13096,12 @@
    "properties": {
     "name": "77 CINERAMA CRESCENT MCCRAE 3938",
     "locID": "LOC000104322032",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420134086",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13112,12 +13176,12 @@
    "properties": {
     "name": "104 CINERAMA CRESCENT MCCRAE 3938",
     "locID": "LOC000052926394",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420134091",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13252,12 +13316,12 @@
    "properties": {
     "name": "15 MORRIS ROAD MCCRAE 3938",
     "locID": "LOC000091079066",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420137998",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13527,11 +13591,11 @@
     "name": "28 ARMSTRONG ROAD MCCRAE 3938",
     "locID": "LOC000045289030",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420142665",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13566,12 +13630,12 @@
    "properties": {
     "name": "45 RILEY STREET MCCRAE 3938",
     "locID": "LOC000023809859",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420143123",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13941,12 +14005,12 @@
    "properties": {
     "name": "55 ARMSTRONG ROAD MCCRAE 3938",
     "locID": "LOC000067594674",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420146197",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14759,6 +14823,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.926755,
+     -38.363113
+    ]
+   },
+   "properties": {
+    "name": "3 TALBOT GROVE MCCRAE 3938",
+    "locID": "LOC000177181597",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420154313"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.92425652,
      -38.36270018
     ]
@@ -14769,6 +14850,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420154314"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.920828,
+     -38.361864
+    ]
+   },
+   "properties": {
+    "name": "24 TALBOT GROVE MCCRAE 3938",
+    "locID": "ChIJjdutxOPI1WoRzXnRgM_KdMA",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAVIC420154315"
    }
   },
   {
@@ -15410,10 +15508,10 @@
    "properties": {
     "name": "59 BAYVIEW ROAD MCCRAE 3938",
     "locID": "LOC000079303258",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420162932",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15567,12 +15665,12 @@
    "properties": {
     "name": "275 BAYVIEW ROAD MCCRAE 3938",
     "locID": "LOC000052909644",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420162941",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15627,12 +15725,12 @@
    "properties": {
     "name": "32 AUSTIN AVENUE MCCRAE 3938",
     "locID": "LOC000048652852",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420162991",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15647,12 +15745,12 @@
    "properties": {
     "name": "12 MURRAY STREET MCCRAE 3938",
     "locID": "LOC000106658701",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420163452",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15707,12 +15805,12 @@
    "properties": {
     "name": "53 SOMERS AVENUE MCCRAE 3938",
     "locID": "LOC000103804081",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420163511",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15867,12 +15965,12 @@
    "properties": {
     "name": "93 AUSTIN AVENUE MCCRAE 3938",
     "locID": "LOC000036766178",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420163677",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -16194,10 +16292,10 @@
    "properties": {
     "name": "24 ALEXANDER PARADE MCCRAE 3938",
     "locID": "LOC000018611442",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420214732",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16218,8 +16316,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420215645",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -16294,10 +16391,9 @@
    "properties": {
     "name": "26 THE BOULEVARD MCCRAE 3938",
     "locID": "LOC000038895501",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420216621",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16512,8 +16608,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420331191",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -16548,12 +16643,12 @@
    "properties": {
     "name": "1 LEICHARDT STREET MCCRAE 3938",
     "locID": "LOC000017768524",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420338861",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -16728,12 +16823,12 @@
    "properties": {
     "name": "UNIT 1, 43 ARMSTRONG ROAD MCCRAE 3938",
     "locID": "LOC000039858841",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420367498",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -16845,12 +16940,12 @@
    "properties": {
     "name": "80 CINERAMA CRESCENT MCCRAE 3938",
     "locID": "LOC000100330905",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420422502",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17082,10 +17177,10 @@
    "properties": {
     "name": "155 BAYVIEW ROAD MCCRAE 3938",
     "locID": "LOC000109894547",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420423388",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17697,10 +17792,10 @@
    "properties": {
     "name": "99 FLINDERS STREET MCCRAE 3938",
     "locID": "LOC000107977655",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420434108",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18471,12 +18566,12 @@
    "properties": {
     "name": "5 COWLEY STREET MCCRAE 3938",
     "locID": "LOC000184911015",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420441858",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18630,12 +18725,12 @@
    "properties": {
     "name": "10 BANKS STREET MCCRAE 3938",
     "locID": "LOC000059849793",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420442700",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18770,12 +18865,12 @@
    "properties": {
     "name": "8 MURRAY STREET MCCRAE 3938",
     "locID": "LOC000035035135",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420444723",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19421,12 +19516,12 @@
    "properties": {
     "name": "10 TALBOT GROVE MCCRAE 3938",
     "locID": "LOC000014375832",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420450112",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19745,6 +19840,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.92453569,
+     -38.3612932
+    ]
+   },
+   "properties": {
+    "name": "1 HILLMAN AVENUE MCCRAE 3938",
+    "locID": "LOC000184309688",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420454929",
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9234084,
+     -38.36085345
+    ]
+   },
+   "properties": {
+    "name": "3 ARMSTRONG ROAD MCCRAE 3938",
+    "locID": "LOC000002779935",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420455352",
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.92291252,
      -38.36135448
     ]
@@ -19832,12 +19967,9 @@
    "properties": {
     "name": "56 ARMSTRONG ROAD MCCRAE 3938",
     "locID": "LOC000039238246",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420455357",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420455357"
    }
   },
   {
@@ -19852,12 +19984,12 @@
    "properties": {
     "name": "57 ARMSTRONG ROAD MCCRAE 3938",
     "locID": "LOC000056690420",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420455358",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19912,12 +20044,12 @@
    "properties": {
     "name": "11 AUSTIN AVENUE MCCRAE 3938",
     "locID": "LOC000031227869",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420455420",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -20392,12 +20524,12 @@
    "properties": {
     "name": "19 MORRIS ROAD MCCRAE 3938",
     "locID": "LOC000061750604",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420458417",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -20532,12 +20664,12 @@
    "properties": {
     "name": "17 RILEY STREET MCCRAE 3938",
     "locID": "LOC000040382896",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420460527",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -20552,12 +20684,12 @@
    "properties": {
     "name": "31 RILEY STREET MCCRAE 3938",
     "locID": "LOC000009247059",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420460528",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21648,6 +21780,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.92481067,
+     -38.36047989
+    ]
+   },
+   "properties": {
+    "name": "4 BANKS STREET MCCRAE 3938",
+    "locID": "LOC000177297534",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420520844",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.94107589,
      -38.35222921
     ]
@@ -21792,10 +21943,10 @@
    "properties": {
     "name": "61 BAYVIEW ROAD MCCRAE 3938",
     "locID": "LOC000079303258",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420523998",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22152,8 +22303,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420648863",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -22211,8 +22361,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420678603",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -22843,10 +22992,10 @@
    "properties": {
     "name": "8A BARTELS STREET MCCRAE 3938",
     "locID": "LOC000081320980",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420737595",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23103,12 +23252,12 @@
    "properties": {
     "name": "11 RILEY STREET MCCRAE 3938",
     "locID": "LOC000096615095",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420739613",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23164,11 +23313,11 @@
     "name": "29 RILEY STREET MCCRAE 3938",
     "locID": "LOC000026218124",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420739616",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23223,12 +23372,12 @@
    "properties": {
     "name": "38 RILEY STREET MCCRAE 3938",
     "locID": "LOC000104396616",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420739619",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23502,10 +23651,10 @@
    "properties": {
     "name": "175 BAYVIEW ROAD MCCRAE 3938",
     "locID": "LOC000034830382",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420740181",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23559,10 +23708,9 @@
    "properties": {
     "name": "2 MATTHEW STREET MCCRAE 3938",
     "locID": "LOC000071192714",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420743026",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23719,12 +23867,12 @@
    "properties": {
     "name": "13 ARMSTRONG ROAD MCCRAE 3938",
     "locID": "LOC000088443092",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420743080",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23916,10 +24064,9 @@
    "properties": {
     "name": "36 FOOTHILLS AVENUE MCCRAE 3938",
     "locID": "LOC000002826445",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420743108",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25369,12 +25516,12 @@
    "properties": {
     "name": "43 RILEY STREET MCCRAE 3938",
     "locID": "LOC000058164040",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420759705",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26570,8 +26717,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420773298",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -26823,12 +26969,12 @@
    "properties": {
     "name": "16 FAIRWAY CRESCENT MCCRAE 3938",
     "locID": "LOC000070248190",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420774063",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26843,12 +26989,12 @@
    "properties": {
     "name": "17 FAIRWAY CRESCENT MCCRAE 3938",
     "locID": "LOC000058700834",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420774065",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26996,12 +27142,12 @@
    "properties": {
     "name": "22 CHUNAR GROVE MCCRAE 3938",
     "locID": "LOC000050685949",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420809111",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27507,8 +27653,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420952371",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -27880,6 +28025,23 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.922083,
+     -38.360012
+    ]
+   },
+   "properties": {
+    "name": "217 BAYVIEW ROAD MCCRAE 3938",
+    "locID": "ChIJud11MeHI1WoRQPyPFRRmV5Q",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAVIC421044991"
    }
   },
   {
@@ -28566,12 +28728,12 @@
    "properties": {
     "name": "5 MURRAY STREET MCCRAE 3938",
     "locID": "LOC000102369349",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421053266",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28960,12 +29122,12 @@
    "properties": {
     "name": "15 RILEY STREET MCCRAE 3938",
     "locID": "LOC000107732168",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421055384",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29100,12 +29262,12 @@
    "properties": {
     "name": "87 AUSTIN AVENUE MCCRAE 3938",
     "locID": "LOC000048433808",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421056936",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29333,6 +29495,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.92312,
+     -38.360562
+    ]
+   },
+   "properties": {
+    "name": "2 ARMSTRONG ROAD MCCRAE 3938",
+    "locID": "LOC000125564478",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421058826",
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.923113,
      -38.361995
     ]
@@ -29360,12 +29542,12 @@
    "properties": {
     "name": "21 ARMSTRONG ROAD MCCRAE 3938",
     "locID": "LOC000033526494",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421058828",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29380,12 +29562,12 @@
    "properties": {
     "name": "23 ARMSTRONG ROAD MCCRAE 3938",
     "locID": "LOC000056995089",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421058829",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29677,10 +29859,10 @@
    "properties": {
     "name": "1 COOK STREET MCCRAE 3938",
     "locID": "LOC000047637359",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421059612",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29894,9 +30076,8 @@
     "name": "62 THE AVENUE MCCRAE 3938",
     "locID": "LOC000067193277",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421061230",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30133,12 +30314,12 @@
    "properties": {
     "name": "1 MORRIS ROAD MCCRAE 3938",
     "locID": "LOC000066505246",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421063989",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30293,10 +30474,10 @@
    "properties": {
     "name": "64 FLINDERS STREET MCCRAE 3938",
     "locID": "LOC000027934985",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421064251",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30932,12 +31113,12 @@
    "properties": {
     "name": "28 FAIRWAY CRESCENT MCCRAE 3938",
     "locID": "LOC000025951525",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421070694",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30952,12 +31133,12 @@
    "properties": {
     "name": "6 TALBOT GROVE MCCRAE 3938",
     "locID": "LOC000081255142",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421071078",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32114,10 +32295,10 @@
    "properties": {
     "name": "7 BOWEN STREET MCCRAE 3938",
     "locID": "LOC000032567865",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421131482",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32251,12 +32432,12 @@
    "properties": {
     "name": "14 ARMSTRONG ROAD MCCRAE 3938",
     "locID": "LOC000042594157",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421134323",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32352,8 +32533,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421234563",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -32833,12 +33013,12 @@
    "properties": {
     "name": "9 RILEY STREET MCCRAE 3938",
     "locID": "LOC000092795692",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421337921",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33053,12 +33233,12 @@
    "properties": {
     "name": "66 CINERAMA CRESCENT MCCRAE 3938",
     "locID": "LOC000064388127",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421339391",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33093,12 +33273,12 @@
    "properties": {
     "name": "70 CINERAMA CRESCENT MCCRAE 3938",
     "locID": "LOC000107828520",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421339393",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33113,12 +33293,12 @@
    "properties": {
     "name": "88 CINERAMA CRESCENT MCCRAE 3938",
     "locID": "LOC000026170090",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421339394",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33430,12 +33610,12 @@
    "properties": {
     "name": "1 ARMSTRONG ROAD MCCRAE 3938",
     "locID": "LOC000074588751",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421340350",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33550,12 +33730,12 @@
    "properties": {
     "name": "1 BENTLEY ROAD MCCRAE 3938",
     "locID": "LOC000105436630",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421340375",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33630,10 +33810,10 @@
    "properties": {
     "name": "14 WATTLE PLACE MCCRAE 3938",
     "locID": "LOC000023556155",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421340449",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34126,12 +34306,12 @@
    "properties": {
     "name": "211 BAYVIEW ROAD MCCRAE 3938",
     "locID": "LOC000192936259",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421344944",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34146,12 +34326,12 @@
    "properties": {
     "name": "231 BAYVIEW ROAD MCCRAE 3938",
     "locID": "LOC000031116113",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421344945",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34426,10 +34606,10 @@
    "properties": {
     "name": "63 BAYVIEW ROAD MCCRAE 3938",
     "locID": "LOC000032753856",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421346973",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34645,12 +34825,12 @@
    "properties": {
     "name": "33 AUSTIN AVENUE MCCRAE 3938",
     "locID": "LOC000088674292",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421347579",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34685,12 +34865,12 @@
    "properties": {
     "name": "45 AUSTIN AVENUE MCCRAE 3938",
     "locID": "LOC000034060229",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421347581",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35045,10 +35225,10 @@
    "properties": {
     "name": "24 SOMERS AVENUE MCCRAE 3938",
     "locID": "LOC000046468790",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421349532",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35105,12 +35285,12 @@
    "properties": {
     "name": "61 SOMERS AVENUE MCCRAE 3938",
     "locID": "LOC000108851034",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421349535",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35462,8 +35642,8 @@
    "properties": {
     "name": "4 MATTHEW STREET MCCRAE 3938",
     "locID": "LOC000017669054",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421352108",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -35579,10 +35759,10 @@
    "properties": {
     "name": "10 FLINDERS STREET MCCRAE 3938",
     "locID": "LOC000088505231",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421352835",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36136,11 +36316,11 @@
     "name": "7 HILLMAN AVENUE MCCRAE 3938",
     "locID": "LOC000049053602",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421358425",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36155,12 +36335,12 @@
    "properties": {
     "name": "20 HILLMAN AVENUE MCCRAE 3938",
     "locID": "LOC000044282421",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421358426",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36195,12 +36375,12 @@
    "properties": {
     "name": "41 HILLMAN AVENUE MCCRAE 3938",
     "locID": "LOC000076982217",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421358428",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36255,12 +36435,29 @@
    "properties": {
     "name": "20 RILEY STREET MCCRAE 3938",
     "locID": "LOC000098190423",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421359571",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.923833,
+     -38.364053
+    ]
+   },
+   "properties": {
+    "name": "40 RILEY STREET MCCRAE 3938",
+    "locID": "ChIJKSVzZuTI1WoR7gpjXx5sQKo",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAVIC421359572"
    }
   },
   {
@@ -36275,12 +36472,12 @@
    "properties": {
     "name": "18 MORRIS ROAD MCCRAE 3938",
     "locID": "LOC000101462802",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421359613",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36435,12 +36632,12 @@
    "properties": {
     "name": "102 FLINDERS STREET MCCRAE 3938",
     "locID": "LOC000073320673",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421361037",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36455,12 +36652,12 @@
    "properties": {
     "name": "103 FLINDERS STREET MCCRAE 3938",
     "locID": "LOC000059082023",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421361038",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36515,12 +36712,12 @@
    "properties": {
     "name": "115 FLINDERS STREET MCCRAE 3938",
     "locID": "LOC000061980689",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421361041",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36658,9 +36855,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421362180",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36715,9 +36911,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421362184",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -37205,8 +37400,8 @@
    "properties": {
     "name": "24 WATTLE ROAD MCCRAE 3938",
     "locID": "LOC000046491196",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421388312",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -37343,12 +37538,12 @@
    "properties": {
     "name": "7 MORRIS ROAD MCCRAE 3938",
     "locID": "LOC000075617950",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421402866",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37483,10 +37678,10 @@
    "properties": {
     "name": "15 BASS STREET MCCRAE 3938",
     "locID": "LOC000065649058",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421449019",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38246,12 +38441,12 @@
    "properties": {
     "name": "121 FLINDERS STREET MCCRAE 3938",
     "locID": "LOC000094310737",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421607577",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38300,12 +38495,12 @@
    "properties": {
     "name": "269 BAYVIEW ROAD MCCRAE 3938",
     "locID": "LOC000046066444",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421615032",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38417,8 +38612,8 @@
    "properties": {
     "name": "10 BURRELL STREET MCCRAE 3938",
     "locID": "LOC000044757065",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421615061",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -38537,12 +38732,12 @@
    "properties": {
     "name": "13 FAIRWAY CRESCENT MCCRAE 3938",
     "locID": "LOC000071801140",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421625714",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38630,6 +38825,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.924452,
+     -38.361595
+    ]
+   },
+   "properties": {
+    "name": "5 HILLMAN AVENUE MCCRAE 3938",
+    "locID": "LOC000013009393",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421629303",
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.923583,
      -38.363183
     ]
@@ -38637,12 +38852,12 @@
    "properties": {
     "name": "13 HILLMAN AVENUE MCCRAE 3938",
     "locID": "LOC000101931641",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421629304",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38717,12 +38932,12 @@
    "properties": {
     "name": "25 HILLMAN AVENUE MCCRAE 3938",
     "locID": "LOC000071733694",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421629309",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38837,12 +39052,12 @@
    "properties": {
     "name": "23 AUSTIN AVENUE MCCRAE 3938",
     "locID": "LOC000062935641",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421629716",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39010,6 +39225,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.927454,
+     -38.365478
+    ]
+   },
+   "properties": {
+    "name": "43 AUSTIN AVENUE MCCRAE 3938",
+    "locID": "ChIJT7kgg-XI1WoRan8MmPO1Aw4",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAVIC421636650"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.926207,
      -38.365465
     ]
@@ -39077,12 +39309,12 @@
    "properties": {
     "name": "101 AUSTIN AVENUE MCCRAE 3938",
     "locID": "LOC000018562495",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421636654",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39653,12 +39885,12 @@
    "properties": {
     "name": "5 MORRIS ROAD MCCRAE 3938",
     "locID": "LOC000094153628",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421655738",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39852,12 +40084,12 @@
    "properties": {
     "name": "10 MURRAY STREET MCCRAE 3938",
     "locID": "LOC000002831336",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421659189",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39872,12 +40104,12 @@
    "properties": {
     "name": "16 MURRAY STREET MCCRAE 3938",
     "locID": "LOC000086498295",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421659192",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40291,12 +40523,12 @@
    "properties": {
     "name": "106 CINERAMA CRESCENT MCCRAE 3938",
     "locID": "LOC000104868488",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421662556",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40311,12 +40543,12 @@
    "properties": {
     "name": "113 CINERAMA CRESCENT MCCRAE 3938",
     "locID": "LOC000047658537",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421662557",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40987,8 +41219,8 @@
    "properties": {
     "name": "563 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421683922",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -41543,12 +41775,12 @@
    "properties": {
     "name": "51 RILEY STREET MCCRAE 3938",
     "locID": "LOC000024339502",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421694970",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41563,8 +41795,8 @@
    "properties": {
     "name": "61 RILEY STREET MCCRAE 3938",
     "locID": "LOC000060215643",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421694971",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -41999,12 +42231,12 @@
    "properties": {
     "name": "76 CINERAMA CRESCENT MCCRAE 3938",
     "locID": "LOC000077404386",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421709397",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42039,12 +42271,12 @@
    "properties": {
     "name": "102 CINERAMA CRESCENT MCCRAE 3938",
     "locID": "LOC000039162913",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421709399",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42502,12 +42734,12 @@
    "properties": {
     "name": "17 CHUNAR GROVE MCCRAE 3938",
     "locID": "LOC000052154745",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421731974",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42824,8 +43056,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421848883",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -43556,10 +43787,10 @@
    "properties": {
     "name": "5 COOK STREET MCCRAE 3938",
     "locID": "LOC000029437428",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC422387971",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43904,9 +44135,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423061774",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -44321,8 +44551,8 @@
    "properties": {
     "name": "5 BAY VISTA COURT MCCRAE 3938",
     "locID": "LOC000096599737",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC423517622",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -44629,9 +44859,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423711274",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -45533,6 +45762,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.9235368,
+     -38.35932684
+    ]
+   },
+   "properties": {
+    "name": "205B BAYVIEW ROAD MCCRAE 3938",
+    "locID": "ChIJcR1cJOfI1WoRjf0kA3GGUWw",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAVIC423821054"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.92346444,
      -38.35933408
     ]
@@ -45577,12 +45823,12 @@
    "properties": {
     "name": "205E BAYVIEW ROAD MCCRAE 3938",
     "locID": "LOC000026793845",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423821057",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45597,12 +45843,12 @@
    "properties": {
     "name": "205F BAYVIEW ROAD MCCRAE 3938",
     "locID": "LOC000026891928",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423821058",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45860,12 +46106,12 @@
    "properties": {
     "name": "8 RILEY STREET MCCRAE 3938",
     "locID": "LOC000074840235",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423984166",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -46175,6 +46421,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.92059636,
+     -38.36512233
+    ]
+   },
+   "properties": {
+    "name": "52 AUSTIN AVENUE MCCRAE 3938",
+    "locID": "ChIJ_euvOuPI1WoREZyNyipBEUU",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAVIC424077446"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.92036029,
      -38.36504715
     ]
@@ -46299,9 +46562,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424249330",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -46468,8 +46730,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424417072",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -46487,9 +46748,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424424169",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -47436,9 +47696,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424634411",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -47530,12 +47789,12 @@
    "properties": {
     "name": "UNIT 2, 43 HILLMAN AVENUE MCCRAE 3938",
     "locID": "LOC000114573530",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424672712",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48355,10 +48614,10 @@
    "properties": {
     "name": "1A COWLEY STREET MCCRAE 3938",
     "locID": "LOC000179409545",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC425013607",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -48649,12 +48908,12 @@
    "properties": {
     "name": "33 LEICHARDT STREET MCCRAE 3938",
     "locID": "LOC100020920009",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425163837",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48709,12 +48968,12 @@
    "properties": {
     "name": "39 LEICHARDT STREET MCCRAE 3938",
     "locID": "LOC100026336992",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425163840",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48752,9 +49011,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425170404",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -48772,9 +49030,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425170405",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -48811,9 +49068,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425170407",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -49227,9 +49483,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425530485",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -49361,12 +49616,12 @@
    "properties": {
     "name": "UNIT 1, 211 BAYVIEW ROAD MCCRAE 3938",
     "locID": "LOC000192936259",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425667679",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49381,12 +49636,12 @@
    "properties": {
     "name": "UNIT 2, 211 BAYVIEW ROAD MCCRAE 3938",
     "locID": "LOC000192936263",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425667680",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49442,9 +49697,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425729876",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -49558,8 +49812,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425773009",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -49578,8 +49831,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425773010",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -49598,8 +49850,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425773011",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -49726,8 +49977,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719001694",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -49783,8 +50033,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719009311",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -49803,8 +50052,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719013560",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -49823,8 +50071,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719014226",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -49843,8 +50090,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719014246",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -49859,12 +50105,12 @@
    "properties": {
     "name": "39 TALBOT GROVE MCCRAE 3938",
     "locID": "LOC100074574661",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719016804",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49970,8 +50216,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719105279",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -50203,9 +50448,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719241658",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -50302,9 +50546,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719244578",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -50879,12 +51122,12 @@
    "properties": {
     "name": "35A HILLMAN AVENUE MCCRAE 3938",
     "locID": "LOC000180755961",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719910597",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -50916,12 +51159,12 @@
    "properties": {
     "name": "11A BENTLEY ROAD MCCRAE 3938",
     "locID": "LOC000190842211",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719915669",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -51028,11 +51271,11 @@
     "name": "UNIT 3, 8 BANKS STREET MCCRAE 3938",
     "locID": "LOC000192755266",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719971652",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -51107,12 +51350,12 @@
    "properties": {
     "name": "UNIT 1, 8 BANKS STREET MCCRAE 3938",
     "locID": "LOC000192755245",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719978199",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -51127,12 +51370,12 @@
    "properties": {
     "name": "UNIT 1, 9 HILLMAN AVENUE MCCRAE 3938",
     "locID": "LOC000180350016",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719980297",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -51184,12 +51427,12 @@
    "properties": {
     "name": "6A MORGAN COURT MCCRAE 3938",
     "locID": "LOC000183066168",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC719992539",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -51205,11 +51448,11 @@
     "name": "UNIT 2, 8 BANKS STREET MCCRAE 3938",
     "locID": "LOC000192755250",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719998056",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -51244,10 +51487,9 @@
    "properties": {
     "name": "12A ARMSTRONG ROAD MCCRAE 3938",
     "locID": "LOC000185023809",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720000582",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -51325,8 +51567,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720054043",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -51640,12 +51881,12 @@
    "properties": {
     "name": "UNIT 2, 20 BANKS STREET MCCRAE 3938",
     "locID": "LOC000185354727",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720141692",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -51939,8 +52180,8 @@
    "properties": {
     "name": "BOATSHED 36, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720441791",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -51959,8 +52200,8 @@
    "properties": {
     "name": "BOATSHED 20A, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720441846",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -51979,8 +52220,8 @@
    "properties": {
     "name": "BOATSHED 56, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720441948",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -51999,8 +52240,8 @@
    "properties": {
     "name": "BOATSHED 10, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720442112",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52019,8 +52260,8 @@
    "properties": {
     "name": "BOATSHED 19, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720442130",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52039,8 +52280,8 @@
    "properties": {
     "name": "BOATSHED 55, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720442156",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52059,8 +52300,8 @@
    "properties": {
     "name": "BOATSHED 54, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720442733",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52079,8 +52320,8 @@
    "properties": {
     "name": "BOATSHED 34, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720442761",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52099,8 +52340,8 @@
    "properties": {
     "name": "BOATSHED 22, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720442811",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52119,8 +52360,8 @@
    "properties": {
     "name": "BOATSHED 53, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720443085",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52139,8 +52380,8 @@
    "properties": {
     "name": "BOATSHED 16, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720443241",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52159,8 +52400,8 @@
    "properties": {
     "name": "BOATSHED 31, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720443818",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52179,8 +52420,8 @@
    "properties": {
     "name": "BOATSHED 58, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720443846",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52199,8 +52440,8 @@
    "properties": {
     "name": "BOATSHED 28, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720443895",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52219,8 +52460,8 @@
    "properties": {
     "name": "BOATSHED 4, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720444319",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52239,8 +52480,8 @@
    "properties": {
     "name": "BOATSHED 43, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720444384",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52259,8 +52500,8 @@
    "properties": {
     "name": "BOATSHED 51, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720444732",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52279,8 +52520,8 @@
    "properties": {
     "name": "BOATSHED 61, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720445525",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52299,8 +52540,8 @@
    "properties": {
     "name": "BOATSHED 8, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720445626",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52319,8 +52560,8 @@
    "properties": {
     "name": "BOATSHED 11, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720445712",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52339,8 +52580,8 @@
    "properties": {
     "name": "BOATSHED 50, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720446131",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52359,8 +52600,8 @@
    "properties": {
     "name": "BOATSHED 32, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720446477",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52379,8 +52620,8 @@
    "properties": {
     "name": "BOATSHED 21, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720447125",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52399,8 +52640,8 @@
    "properties": {
     "name": "BOATSHED 57, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720447197",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52419,8 +52660,8 @@
    "properties": {
     "name": "BOATSHED 59, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720447269",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52439,8 +52680,8 @@
    "properties": {
     "name": "BOATSHED 49, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720447670",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52459,8 +52700,8 @@
    "properties": {
     "name": "BOATSHED 20, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720447765",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52479,8 +52720,8 @@
    "properties": {
     "name": "BOATSHED 48, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720448151",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52499,8 +52740,8 @@
    "properties": {
     "name": "BOATSHED 13, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720449577",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52519,8 +52760,8 @@
    "properties": {
     "name": "BOATSHED 67, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720449658",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52556,8 +52797,8 @@
    "properties": {
     "name": "BOATSHED 6, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720449948",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52576,8 +52817,8 @@
    "properties": {
     "name": "BOATSHED 46, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720450029",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52596,8 +52837,8 @@
    "properties": {
     "name": "BOATSHED 30, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720450294",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52636,8 +52877,8 @@
    "properties": {
     "name": "BOATSHED 24, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720450672",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52656,8 +52897,8 @@
    "properties": {
     "name": "BOATSHED 68, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720450794",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52676,8 +52917,8 @@
    "properties": {
     "name": "BOATSHED 23, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720451464",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52696,8 +52937,8 @@
    "properties": {
     "name": "BOATSHED 17, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720451519",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52716,8 +52957,8 @@
    "properties": {
     "name": "BOATSHED 29, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720452287",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52756,8 +52997,8 @@
    "properties": {
     "name": "BOATSHED 9, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720452734",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52796,8 +53037,8 @@
    "properties": {
     "name": "BOATSHED 63, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720453306",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52816,8 +53057,8 @@
    "properties": {
     "name": "BOATSHED 39, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720453687",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52836,8 +53077,8 @@
    "properties": {
     "name": "BOATSHED 26, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720454066",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52856,8 +53097,8 @@
    "properties": {
     "name": "BOATSHED 64, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720454143",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52876,8 +53117,8 @@
    "properties": {
     "name": "BOATSHED 27, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720454301",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52896,8 +53137,8 @@
    "properties": {
     "name": "BOATSHED 14, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720454456",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52916,8 +53157,8 @@
    "properties": {
     "name": "BOATSHED 38, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720455215",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52936,8 +53177,8 @@
    "properties": {
     "name": "BOATSHED 18, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720455402",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52956,8 +53197,8 @@
    "properties": {
     "name": "BOATSHED 41, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720455499",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52976,8 +53217,8 @@
    "properties": {
     "name": "BOATSHED 42, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720455825",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52996,8 +53237,8 @@
    "properties": {
     "name": "BOATSHED 62, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720455858",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -53016,8 +53257,8 @@
    "properties": {
     "name": "BOATSHED 66, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720455988",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -53036,8 +53277,8 @@
    "properties": {
     "name": "BOATSHED 37, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720456340",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -53056,8 +53297,8 @@
    "properties": {
     "name": "BOATSHED 47, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720456990",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -53076,8 +53317,8 @@
    "properties": {
     "name": "BOATSHED 44, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720457051",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -53096,8 +53337,8 @@
    "properties": {
     "name": "BOATSHED 33, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720457217",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -53116,8 +53357,8 @@
    "properties": {
     "name": "BOATSHED 25, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720457380",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -53136,8 +53377,8 @@
    "properties": {
     "name": "BOATSHED 60, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720457834",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -53156,8 +53397,8 @@
    "properties": {
     "name": "BOATSHED 5, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720458307",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -53176,8 +53417,8 @@
    "properties": {
     "name": "BOATSHED 45, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720458342",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -53196,8 +53437,8 @@
    "properties": {
     "name": "BOATSHED 52, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720458513",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -53216,8 +53457,8 @@
    "properties": {
     "name": "BOATSHED 12, 0 POINT NEPEAN ROAD MCCRAE 3938",
     "locID": "LOC000015931795",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720458668",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -53443,12 +53684,12 @@
    "properties": {
     "name": "UNIT 3, 8 BENTLEY ROAD MCCRAE 3938",
     "locID": "LOC000187195401",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720511983",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53520,12 +53761,12 @@
    "properties": {
     "name": "UNIT 2, 5 COWLEY STREET MCCRAE 3938",
     "locID": "LOC000185412242",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720522352",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53560,12 +53801,12 @@
    "properties": {
     "name": "UNIT 1, 5 COWLEY STREET MCCRAE 3938",
     "locID": "LOC000184911015",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720524426",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53620,12 +53861,12 @@
    "properties": {
     "name": "UNIT 1, 55 ARMSTRONG ROAD MCCRAE 3938",
     "locID": "LOC000067594674",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720572469",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53640,10 +53881,9 @@
    "properties": {
     "name": "9 EDDYSTONE STREET MCCRAE 3938",
     "locID": "LOC000186672440",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720581899",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53660,12 +53900,12 @@
    "properties": {
     "name": "UNIT 2, 55 ARMSTRONG ROAD MCCRAE 3938",
     "locID": "LOC000187312049",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720582761",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53680,12 +53920,12 @@
    "properties": {
     "name": "31A HILLMAN AVENUE MCCRAE 3938",
     "locID": "LOC000184083963",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720647763",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53810,12 +54050,12 @@
    "properties": {
     "name": "28A RILEY STREET MCCRAE 3938",
     "locID": "LOC000188769034",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720741928",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
