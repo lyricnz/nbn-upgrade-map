@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-22T23:20:43.904237",
+ "generated": "2023-12-12T04:06:57.487323",
  "suburb": "MALENY",
  "features": [
   {
@@ -440,8 +440,8 @@
    "properties": {
     "name": "11 NORTH MALENY ROAD MALENY 4552",
     "locID": "LOC000128327879",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155505081",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1303,8 +1303,8 @@
    "properties": {
     "name": "37 TAMARIND STREET MALENY 4552",
     "locID": "LOC000055261129",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155505930",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2250,8 +2250,9 @@
     "name": "15 MAPLE STREET MALENY 4552",
     "locID": "LOC000085513397",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155509265"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155509265",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -2408,9 +2409,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155510572",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -3169,8 +3169,9 @@
     "name": "25 MAPLE STREET MALENY 4552",
     "locID": "LOC000059876786",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155512062"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155512062",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -3330,8 +3331,9 @@
     "name": "4 MAPLE STREET MALENY 4552",
     "locID": "LOC000010668189",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155512072"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155512072",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -3793,8 +3795,9 @@
     "name": "45 MAPLE STREET MALENY 4552",
     "locID": "LOC000039666072",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155513815"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155513815",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -5958,9 +5961,8 @@
     "name": "48 CORAL STREET MALENY 4552",
     "locID": "LOC000032621408",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155521501",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7651,8 +7653,9 @@
     "name": "16 LAWYER STREET MALENY 4552",
     "locID": "LOC000178040396",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156767219"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD156767219",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -8976,8 +8979,8 @@
    "properties": {
     "name": "5 TULIP STREET MALENY 4552",
     "locID": "LOC000030863526",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156777359",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10814,8 +10817,9 @@
     "name": "SHOP 2, 45 MAPLE STREET MALENY 4552",
     "locID": "LOC000183754523",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156788059"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD156788059",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -12021,8 +12025,9 @@
     "name": "42 AVOCADO LANE MALENY 4552",
     "locID": "LOC000181384935",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156795371"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD156795371",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -12785,10 +12790,10 @@
    "properties": {
     "name": "57 TREEHAVEN WAY MALENY 4552",
     "locID": "LOC000021665053",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAQLD156802440",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -15861,8 +15866,9 @@
     "name": "21 MAPLE STREET MALENY 4552",
     "locID": "LOC000061278367",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158207048"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD158207048",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -16018,9 +16024,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158207072",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -16188,9 +16193,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158209334",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -16444,9 +16448,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158211034",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -16765,9 +16768,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158213218",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19157,9 +19159,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158225952",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -20871,8 +20872,9 @@
     "name": "UNIT 2, 16 LAWYER STREET MALENY 4552",
     "locID": "LOC000178040396",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160066676"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160066676",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -20888,8 +20890,9 @@
     "name": "UNIT 3, 16 LAWYER STREET MALENY 4552",
     "locID": "LOC000178040396",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160066677"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160066677",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -20922,8 +20925,9 @@
     "name": "UNIT 1, 16 LAWYER STREET MALENY 4552",
     "locID": "LOC000178040396",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160068990"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160068990",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21042,8 +21046,9 @@
     "name": "SHOP 3, 45 MAPLE STREET MALENY 4552",
     "locID": "LOC000039472451",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160074764"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160074764",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21213,8 +21218,9 @@
     "name": "SHOP 4, 45 MAPLE STREET MALENY 4552",
     "locID": "LOC000039472451",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160082136"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160082136",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21230,8 +21236,9 @@
     "name": "SHOP 5, 45 MAPLE STREET MALENY 4552",
     "locID": "LOC000039472451",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160082137"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160082137",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21624,8 +21631,9 @@
     "name": "SHOP 4, 43 MAPLE STREET MALENY 4552",
     "locID": "LOC000039147574",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160087672"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160087672",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21641,8 +21649,9 @@
     "name": "SHOP 5, 43 MAPLE STREET MALENY 4552",
     "locID": "LOC000039278154",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160087673"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160087673",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21658,8 +21667,9 @@
     "name": "SHOP 6, 43 MAPLE STREET MALENY 4552",
     "locID": "LOC000039285698",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160087674"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160087674",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22058,8 +22068,9 @@
     "name": "UNIT 1, 10 MAPLE STREET MALENY 4552",
     "locID": "LOC000061278367",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160091282"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160091282",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22075,8 +22086,9 @@
     "name": "UNIT 2, 10 MAPLE STREET MALENY 4552",
     "locID": "LOC000061278367",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160091283"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160091283",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22092,8 +22104,9 @@
     "name": "17 MAPLE STREET MALENY 4552",
     "locID": "LOC000183754523",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160091288"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160091288",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -25003,8 +25016,9 @@
     "name": "UNIT 3, 13 CORAL STREET MALENY 4552",
     "locID": "LOC000068753926",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160727675"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160727675",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -25095,8 +25109,9 @@
     "name": "UNIT 3, 10 MAPLE STREET MALENY 4552",
     "locID": "LOC000061479496",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160728969"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160728969",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -25741,8 +25756,9 @@
     "name": "UNIT 1, 4 MAPLE STREET MALENY 4552",
     "locID": "LOC000010826071",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160736213"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160736213",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -25794,8 +25810,9 @@
     "name": "UNIT 4, 4 MAPLE STREET MALENY 4552",
     "locID": "LOC000010668189",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160736216"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160736216",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -25811,8 +25828,9 @@
     "name": "UNIT 5, 4 MAPLE STREET MALENY 4552",
     "locID": "LOC000010758207",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160736217"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160736217",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -25828,8 +25846,9 @@
     "name": "UNIT 6, 4 MAPLE STREET MALENY 4552",
     "locID": "LOC000010789249",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160736218"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160736218",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -25845,8 +25864,9 @@
     "name": "UNIT 7, 4 MAPLE STREET MALENY 4552",
     "locID": "LOC000010752441",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160736219"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160736219",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -25862,8 +25882,9 @@
     "name": "UNIT 8, 4 MAPLE STREET MALENY 4552",
     "locID": "LOC000010665062",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160736220"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160736220",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26061,8 +26082,9 @@
     "name": "UNIT 3, 15 MAPLE STREET MALENY 4552",
     "locID": "LOC000085513397",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160736672"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160736672",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26096,8 +26118,9 @@
     "name": "UNIT 5, 15 MAPLE STREET MALENY 4552",
     "locID": "LOC000085513397",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160736674"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160736674",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26113,8 +26136,9 @@
     "name": "UNIT 6, 15 MAPLE STREET MALENY 4552",
     "locID": "LOC000085513397",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160736675"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160736675",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26148,8 +26172,9 @@
     "name": "UNIT 1, 21 MAPLE STREET MALENY 4552",
     "locID": "LOC000061278367",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160736677"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160736677",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -26165,8 +26190,9 @@
     "name": "UNIT 2, 21 MAPLE STREET MALENY 4552",
     "locID": "LOC000061278367",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160736678"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160736678",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -26182,8 +26208,9 @@
     "name": "UNIT 3, 21 MAPLE STREET MALENY 4552",
     "locID": "LOC000061479496",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160736679"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD160736679",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -26360,8 +26387,9 @@
     "name": "SHOP 7, 43 MAPLE STREET MALENY 4552",
     "locID": "LOC000039147574",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160736689"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160736689",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26574,8 +26602,9 @@
     "name": "UNIT 1, 15 MAPLE STREET MALENY 4552",
     "locID": "LOC000085724847",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160739449"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160739449",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26591,8 +26620,9 @@
     "name": "UNIT 2, 15 MAPLE STREET MALENY 4552",
     "locID": "LOC000085356067",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160739450"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160739450",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28057,6 +28087,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.85245123,
+     -26.76352605
+    ]
+   },
+   "properties": {
+    "name": "LOT 45 CUDGERIE STREET MALENY 4552",
+    "locID": "Eio0NSBDdWRnZXJpZSBTdCwgTWFsZW55IFFMRCA0NTUyLCBBdXN0cmFsaWEiMBIuChQKEgnVnjPwE4eTaxFAjWHMWqMCExAtKhQKEgmNGye9E4eTaxG6AKSxBVi_Eg",
+    "tech": "FTTC",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAQLD161116460"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.85357258,
      -26.76313578
     ]
@@ -28074,6 +28121,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.85458869,
+     -26.76236886
+    ]
+   },
+   "properties": {
+    "name": "LOT 47 CUDGERIE STREET MALENY 4552",
+    "locID": "Eio0NyBDdWRnZXJpZSBTdCwgTWFsZW55IFFMRCA0NTUyLCBBdXN0cmFsaWEiMBIuChQKEgnVnjPwE4eTaxFAjWHMWqMCExAvKhQKEgmNGye9E4eTaxG6AKSxBVi_Eg",
+    "tech": "FTTC",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAQLD161116462"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.85280003,
      -26.76149853
     ]
@@ -28084,6 +28148,23 @@
     "tech": "FTTP",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GAQLD161116463"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.85192888,
+     -26.76184501
+    ]
+   },
+   "properties": {
+    "name": "LOT 49 CUDGERIE STREET MALENY 4552",
+    "locID": "Eio0OSBDdWRnZXJpZSBTdCwgTWFsZW55IFFMRCA0NTUyLCBBdXN0cmFsaWEiMBIuChQKEgnVnjPwE4eTaxFAjWHMWqMCExAxKhQKEgmNGye9E4eTaxG6AKSxBVi_Eg",
+    "tech": "FTTC",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAQLD161116464"
    }
   },
   {
@@ -29415,8 +29496,9 @@
     "name": "SHOP 10, 43 MAPLE STREET MALENY 4552",
     "locID": "LOC000041192108",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161700776"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161700776",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29432,8 +29514,9 @@
     "name": "SHOP 11, 43 MAPLE STREET MALENY 4552",
     "locID": "LOC000041192108",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161700777"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161700777",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29467,8 +29550,9 @@
     "name": "SHOP 1, 25 MAPLE STREET MALENY 4552",
     "locID": "LOC000059876786",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161700779"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161700779",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29484,8 +29568,9 @@
     "name": "SHOP 2, 25 MAPLE STREET MALENY 4552",
     "locID": "LOC000059876786",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161700780"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161700780",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29501,8 +29586,9 @@
     "name": "SHOP 2A, 25 MAPLE STREET MALENY 4552",
     "locID": "LOC000059876786",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161700781"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161700781",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29518,8 +29604,9 @@
     "name": "SHOP 2B, 25 MAPLE STREET MALENY 4552",
     "locID": "LOC000059876786",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161700782"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161700782",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29535,8 +29622,9 @@
     "name": "UNIT 4, 21 MAPLE STREET MALENY 4552",
     "locID": "LOC000061278367",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161700783"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD161700783",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -33862,9 +33950,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162301038",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -34491,9 +34578,9 @@
     "name": "12 LORIKEET LANE MALENY 4552",
     "locID": "LOC000062923158",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162355899",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34571,8 +34658,9 @@
     "name": "UNIT 1, 17 MAPLE STREET MALENY 4552",
     "locID": "LOC000085706191",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162356683"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162356683",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34608,8 +34696,9 @@
     "name": "UNIT 2, 17 MAPLE STREET MALENY 4552",
     "locID": "LOC000183754523",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162356685"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD162356685",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -34662,8 +34751,9 @@
     "name": "UNIT 4, 17 MAPLE STREET MALENY 4552",
     "locID": "LOC000085706191",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162356689"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162356689",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34697,8 +34787,9 @@
     "name": "UNIT 5, 17 MAPLE STREET MALENY 4552",
     "locID": "LOC000183754523",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162356691"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD162356691",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -35407,8 +35498,9 @@
     "name": "SHOP 13, 43 MAPLE STREET MALENY 4552",
     "locID": "LOC000041192108",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162543021"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162543021",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36919,8 +37011,9 @@
     "name": "UNIT 7, 15 MAPLE STREET MALENY 4552",
     "locID": "LOC000085513397",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162746219"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162746219",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -38654,8 +38747,9 @@
     "name": "UNIT 3, 10 CORAL STREET MALENY 4552",
     "locID": "LOC000068753926",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163184843"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD163184843",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -40810,9 +40904,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD424855109",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -45563,8 +45656,9 @@
     "name": "UNIT 3, 17 MAPLE STREET MALENY 4552",
     "locID": "LOC000085706191",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD719274870"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD719274870",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -46022,9 +46116,8 @@
     "name": "14A SNOWWOOD AVENUE MALENY 4552",
     "locID": "LOC100074891551",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAQLD719565044",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719565044"
    }
   },
   {
