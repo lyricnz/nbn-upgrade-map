@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-23T03:24:15.532849",
+ "generated": "2023-12-12T08:00:42.774908",
  "suburb": "KIPPA-RING",
  "features": [
   {
@@ -4929,9 +4929,8 @@
     "name": "7 LEXINGTON COURT KIPPA-RING 4021",
     "locID": "LOC000028329640",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155460907",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25503,9 +25502,8 @@
     "name": "5 CHELSEA STREET KIPPA-RING 4021",
     "locID": "LOC000093517418",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155471573",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -51152,10 +51150,9 @@
    "properties": {
     "name": "4 CREMORNE COURT KIPPA-RING 4021",
     "locID": "LOC000053349484",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158131694",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55101,9 +55098,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158148620",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -57311,10 +57307,9 @@
    "properties": {
     "name": "57 NOTTINGHAM STREET KIPPA-RING 4021",
     "locID": "LOC000075199492",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158155164",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -57774,10 +57769,9 @@
    "properties": {
     "name": "31 MORRIS ROAD KIPPA-RING 4021",
     "locID": "LOC000055656053",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158156146",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -64494,9 +64488,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159057566",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -66727,9 +66720,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160682438",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -67571,8 +67563,9 @@
     "name": "LOT 859 NATHAN ROAD KIPPA-RING 4021",
     "locID": "LOC000174285162",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161252279"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD161252279",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -69169,6 +69162,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.07202359,
+     -27.22573682
+    ]
+   },
+   "properties": {
+    "name": "LOT 43 CHELSEA STREET KIPPA-RING 4021",
+    "locID": "Ei00MyBDaGVsc2VhIFN0LCBLaXBwYS1SaW5nIFFMRCA0MDIxLCBBdXN0cmFsaWEiMBIuChQKEgkHPKbJheWTaxF6hCyiWCgpLRArKhQKEgmrQWUBheWTaxHAfcv7s5Dg-w",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAQLD162131570"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.07122146,
      -27.2197278
     ]
@@ -69486,8 +69496,9 @@
     "name": "56 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000048202539",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162144242"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162144242",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -69503,8 +69514,9 @@
     "name": "58 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000081249329",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162144243"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162144243",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -71485,8 +71497,9 @@
     "name": "UNIT 1, 56 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000048535048",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162615671"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162615671",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -71502,8 +71515,9 @@
     "name": "UNIT 2, 56 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000048202539",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162615672"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162615672",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -71519,8 +71533,9 @@
     "name": "UNIT 3, 56 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000045125943",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162615673"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162615673",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -71536,8 +71551,9 @@
     "name": "UNIT 4, 56 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000048202539",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162615674"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162615674",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -71570,8 +71586,9 @@
     "name": "UNIT 6, 56 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000047782190",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162615676"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162615676",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -71587,8 +71604,9 @@
     "name": "UNIT 7, 56 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000045374248",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162615677"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162615677",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -71604,8 +71622,9 @@
     "name": "UNIT 8, 56 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000047868546",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162615678"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162615678",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -72522,8 +72541,9 @@
     "name": "UNIT 1, 58 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000081249329",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162742762"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162742762",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -72556,8 +72576,9 @@
     "name": "UNIT 2, 58 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000080705367",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162742764"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162742764",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -72590,8 +72611,9 @@
     "name": "UNIT 3, 58 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000081490580",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162742766"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162742766",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -72624,8 +72646,9 @@
     "name": "UNIT 4, 58 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000081503119",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162742768"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162742768",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -72658,8 +72681,9 @@
     "name": "UNIT 5, 58 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000081249329",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162742770"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162742770",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -72710,8 +72734,9 @@
     "name": "UNIT 6, 58 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000081233531",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162742773"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162742773",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -72762,8 +72787,9 @@
     "name": "UNIT 7, 58 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000080365945",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162742776"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162742776",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -72814,8 +72840,9 @@
     "name": "UNIT 8, 58 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000081564889",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162742779"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162742779",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77168,8 +77195,9 @@
     "name": "UNIT 10, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307142"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307142",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77185,8 +77213,9 @@
     "name": "UNIT 11, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307143"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307143",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77202,8 +77231,9 @@
     "name": "UNIT 12, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000167633882",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307144"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307144",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77219,8 +77249,9 @@
     "name": "UNIT 13, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307145"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307145",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77236,8 +77267,9 @@
     "name": "UNIT 14, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307146"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307146",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77253,8 +77285,9 @@
     "name": "UNIT 15, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307147"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307147",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77270,8 +77303,9 @@
     "name": "UNIT 16, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307148"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307148",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77287,8 +77321,9 @@
     "name": "UNIT 17, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307149"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307149",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77304,8 +77339,9 @@
     "name": "UNIT 18, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307150"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307150",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77321,8 +77357,9 @@
     "name": "UNIT 19, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307151"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307151",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77338,8 +77375,9 @@
     "name": "UNIT 1, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307152"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307152",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77355,8 +77393,9 @@
     "name": "UNIT 20, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307153"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307153",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77372,8 +77411,9 @@
     "name": "UNIT 21, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307154"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307154",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77389,8 +77429,9 @@
     "name": "UNIT 22, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307155"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307155",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77406,8 +77447,9 @@
     "name": "UNIT 23, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307156"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307156",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77423,8 +77465,9 @@
     "name": "UNIT 24, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307157"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307157",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77440,8 +77483,9 @@
     "name": "UNIT 25, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307158"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307158",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77457,8 +77501,9 @@
     "name": "UNIT 26, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307159"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307159",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77474,8 +77519,9 @@
     "name": "UNIT 27, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307160"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307160",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77491,8 +77537,9 @@
     "name": "UNIT 28, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307161"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307161",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77508,8 +77555,9 @@
     "name": "UNIT 29, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307162"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307162",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77525,8 +77573,9 @@
     "name": "UNIT 2, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307163"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307163",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77542,8 +77591,9 @@
     "name": "UNIT 30, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307164"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307164",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77559,8 +77609,9 @@
     "name": "UNIT 31, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307165"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307165",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77576,8 +77627,9 @@
     "name": "UNIT 32, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307166"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307166",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77593,8 +77645,9 @@
     "name": "UNIT 33, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307167"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307167",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77610,8 +77663,9 @@
     "name": "UNIT 34, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307168"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307168",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77627,8 +77681,9 @@
     "name": "UNIT 3, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307169"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307169",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77644,8 +77699,9 @@
     "name": "UNIT 4, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307170"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307170",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77679,8 +77735,9 @@
     "name": "UNIT 6, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307172"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307172",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77696,8 +77753,9 @@
     "name": "UNIT 73, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307173"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307173",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77713,8 +77771,9 @@
     "name": "UNIT 74, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307174"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307174",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77730,8 +77789,9 @@
     "name": "UNIT 75, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307175"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307175",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77747,8 +77807,9 @@
     "name": "UNIT 76, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307176"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307176",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77764,8 +77825,9 @@
     "name": "UNIT 77, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307177"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307177",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77781,8 +77843,9 @@
     "name": "UNIT 78, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307178"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307178",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77798,8 +77861,9 @@
     "name": "UNIT 79, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307179"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307179",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77815,8 +77879,9 @@
     "name": "UNIT 7, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307180"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307180",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77832,8 +77897,9 @@
     "name": "UNIT 80, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307181"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307181",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77849,8 +77915,9 @@
     "name": "UNIT 81, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307182"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307182",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77866,8 +77933,9 @@
     "name": "UNIT 82, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307183"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307183",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77883,8 +77951,9 @@
     "name": "UNIT 83, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307184"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307184",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77900,8 +77969,9 @@
     "name": "UNIT 84, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307185"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307185",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77917,8 +77987,9 @@
     "name": "UNIT 85, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307186"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307186",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77934,8 +78005,9 @@
     "name": "UNIT 86, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307187"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307187",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77951,8 +78023,9 @@
     "name": "UNIT 87, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307188"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307188",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77968,8 +78041,9 @@
     "name": "UNIT 88, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307189"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307189",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -77985,8 +78059,9 @@
     "name": "UNIT 89, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307190"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307190",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -78002,8 +78077,9 @@
     "name": "UNIT 8, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307191"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307191",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -78019,8 +78095,9 @@
     "name": "UNIT 90, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307192"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307192",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -78036,8 +78113,9 @@
     "name": "UNIT 91, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307193"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307193",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -78053,8 +78131,9 @@
     "name": "UNIT 92, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307194"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307194",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -78070,8 +78149,9 @@
     "name": "UNIT 93, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307195"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307195",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -78087,8 +78167,9 @@
     "name": "UNIT 9, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307196"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307196",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -78104,8 +78185,9 @@
     "name": "30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163307197"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD163307197",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79285,8 +79367,9 @@
     "name": "UNIT 35, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985648"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985648",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79302,8 +79385,9 @@
     "name": "UNIT 36, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985649"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985649",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79319,8 +79403,9 @@
     "name": "UNIT 37, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985650"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985650",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79336,8 +79421,9 @@
     "name": "UNIT 38, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985651"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985651",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79353,8 +79439,9 @@
     "name": "UNIT 39, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985652"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985652",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79370,8 +79457,9 @@
     "name": "UNIT 40, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985653"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985653",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79387,8 +79475,9 @@
     "name": "UNIT 41, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985654"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985654",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79404,8 +79493,9 @@
     "name": "UNIT 42, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985655"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985655",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79421,8 +79511,9 @@
     "name": "UNIT 43, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985656"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985656",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79438,8 +79529,9 @@
     "name": "UNIT 44, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985657"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985657",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79455,8 +79547,9 @@
     "name": "UNIT 45, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985658"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985658",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79472,8 +79565,9 @@
     "name": "UNIT 46, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985659"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985659",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79489,8 +79583,9 @@
     "name": "UNIT 47, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985660"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985660",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79506,8 +79601,9 @@
     "name": "UNIT 48, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985661"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985661",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79523,8 +79619,9 @@
     "name": "UNIT 49, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985662"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985662",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79540,8 +79637,9 @@
     "name": "UNIT 50, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985663"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985663",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79557,8 +79655,9 @@
     "name": "UNIT 51, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985664"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985664",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79574,8 +79673,9 @@
     "name": "UNIT 52, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985665"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985665",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79591,8 +79691,9 @@
     "name": "UNIT 53, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985666"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985666",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79608,8 +79709,9 @@
     "name": "UNIT 54, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985667"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985667",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79625,8 +79727,9 @@
     "name": "UNIT 55, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985668"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985668",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79642,8 +79745,9 @@
     "name": "UNIT 56, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985669"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985669",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79659,8 +79763,9 @@
     "name": "UNIT 57, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985670"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985670",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79676,8 +79781,9 @@
     "name": "UNIT 58, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985671"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985671",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79693,8 +79799,9 @@
     "name": "UNIT 59, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985672"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985672",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79710,8 +79817,9 @@
     "name": "UNIT 60, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985673"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985673",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79727,8 +79835,9 @@
     "name": "UNIT 61, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985674"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985674",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79744,8 +79853,9 @@
     "name": "UNIT 62, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985675"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985675",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79761,8 +79871,9 @@
     "name": "UNIT 63, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985676"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985676",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79778,8 +79889,9 @@
     "name": "UNIT 64, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985677"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985677",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79795,8 +79907,9 @@
     "name": "UNIT 65, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985678"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985678",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79812,8 +79925,9 @@
     "name": "UNIT 66, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985679"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985679",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79829,8 +79943,9 @@
     "name": "UNIT 67, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985680"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985680",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79846,8 +79961,9 @@
     "name": "UNIT 68, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985681"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985681",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79863,8 +79979,9 @@
     "name": "UNIT 69, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985682"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985682",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79880,8 +79997,9 @@
     "name": "UNIT 70, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985683"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985683",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79897,8 +80015,9 @@
     "name": "UNIT 71, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985684"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985684",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79914,8 +80033,9 @@
     "name": "UNIT 72, 30-42 FLEET DRIVE KIPPA-RING 4021",
     "locID": "LOC000113921506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424985685"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD424985685",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -83246,10 +83366,9 @@
    "properties": {
     "name": "UNIT 1, 57 NOTTINGHAM STREET KIPPA-RING 4021",
     "locID": "LOC000075199492",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720308342",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -83266,10 +83385,9 @@
    "properties": {
     "name": "UNIT 2, 57 NOTTINGHAM STREET KIPPA-RING 4021",
     "locID": "LOC000075199492",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720309766",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
