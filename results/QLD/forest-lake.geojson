@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-23T02:08:00.657712",
+ "generated": "2023-12-12T06:43:51.786286",
  "suburb": "FOREST LAKE",
  "features": [
   {
@@ -1565,8 +1565,8 @@
    "properties": {
     "name": "3 HERMITAGE PLACE FOREST LAKE 4078",
     "locID": "LOC000080956601",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155298681",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1822,8 +1822,8 @@
    "properties": {
     "name": "8 HERVEY CLOSE FOREST LAKE 4078",
     "locID": "LOC000082916900",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155298694",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8158,9 +8158,8 @@
     "name": "13 CARNARVON CLOSE FOREST LAKE 4078",
     "locID": "LOC000052837599",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155300681",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9095,6 +9094,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155301428",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10809,10 +10809,9 @@
    "properties": {
     "name": "7 BELMORE CRESCENT FOREST LAKE 4078",
     "locID": "LOC000013034338",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155302066",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11220,7 +11219,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155302119",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11571,12 +11569,12 @@
    "properties": {
     "name": "5 CEDAR CLOSE FOREST LAKE 4078",
     "locID": "LOC000075174618",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155302141",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11670,10 +11668,9 @@
    "properties": {
     "name": "22 BANNISTER PLACE FOREST LAKE 4078",
     "locID": "LOC000064735108",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155302274",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11980,9 +11977,8 @@
     "name": "37 ALEXANDRINA CIRCUIT FOREST LAKE 4078",
     "locID": "LOC000076342198",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155302306",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11999,8 +11995,8 @@
    "properties": {
     "name": "38 ALEXANDRINA CIRCUIT FOREST LAKE 4078",
     "locID": "LOC000032652654",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155302307",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12658,6 +12654,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.95974859,
+     -27.60379214
+    ]
+   },
+   "properties": {
+    "name": "50 BEAUFRONT PLACE FOREST LAKE 4078",
+    "locID": "LOC000093820222",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155302446"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.95825839,
      -27.6023123
     ]
@@ -13178,8 +13191,8 @@
    "properties": {
     "name": "37 PROSPECT CRESCENT FOREST LAKE 4078",
     "locID": "LOC000001732242",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155302493",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14083,10 +14096,10 @@
    "properties": {
     "name": "13 GILBERTON CRESCENT FOREST LAKE 4078",
     "locID": "LOC000056538468",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155303491",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16669,12 +16682,12 @@
    "properties": {
     "name": "13 RADIATA PLACE FOREST LAKE 4078",
     "locID": "LOC000029075861",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155304269",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -20625,10 +20638,10 @@
    "properties": {
     "name": "53 CENTENNIAL WAY FOREST LAKE 4078",
     "locID": "LOC000055341012",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155305791",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23264,10 +23277,9 @@
    "properties": {
     "name": "42 GLASSHOUSE CRESCENT FOREST LAKE 4078",
     "locID": "LOC000017442039",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155307054",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23304,10 +23316,9 @@
    "properties": {
     "name": "44 GLASSHOUSE CRESCENT FOREST LAKE 4078",
     "locID": "LOC000010812287",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155307056",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25679,8 +25690,8 @@
    "properties": {
     "name": "8 CHESTNUT PLACE FOREST LAKE 4078",
     "locID": "LOC000060695680",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155307270",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25758,10 +25769,10 @@
    "properties": {
     "name": "41 AUGUSTA CRESCENT FOREST LAKE 4078",
     "locID": "LOC000061446075",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155307551",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26356,8 +26367,8 @@
    "properties": {
     "name": "11 BINGERINGO PLACE FOREST LAKE 4078",
     "locID": "LOC000106174016",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155307606",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26927,8 +26938,8 @@
    "properties": {
     "name": "89 CENTENNIAL WAY FOREST LAKE 4078",
     "locID": "LOC000095203182",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155307643",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -27483,9 +27494,9 @@
     "name": "43 COACHWOOD CRESCENT FOREST LAKE 4078",
     "locID": "LOC000088376282",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155307773",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28069,10 +28080,10 @@
    "properties": {
     "name": "11 CHELTENHAM PLACE FOREST LAKE 4078",
     "locID": "LOC000105576571",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155307864",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28108,8 +28119,8 @@
    "properties": {
     "name": "13 CHELTENHAM PLACE FOREST LAKE 4078",
     "locID": "LOC000091326328",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155307866",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31150,8 +31161,8 @@
    "properties": {
     "name": "15 CHESTNUT PLACE FOREST LAKE 4078",
     "locID": "LOC000088271792",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155309006",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31348,8 +31359,8 @@
    "properties": {
     "name": "11 CHISWICK PLACE FOREST LAKE 4078",
     "locID": "LOC000102945677",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155309018",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31588,8 +31599,8 @@
    "properties": {
     "name": "8 CHISWICK PLACE FOREST LAKE 4078",
     "locID": "LOC000104885625",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155309030",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -32322,9 +32333,8 @@
     "name": "14 BABYLON PLACE FOREST LAKE 4078",
     "locID": "LOC000053735334",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155309422",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33854,10 +33864,9 @@
    "properties": {
     "name": "25 COLUMBUS PLACE FOREST LAKE 4078",
     "locID": "LOC000053914817",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155309680",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37537,9 +37546,8 @@
     "name": "24 CLAREMONT PARADE FOREST LAKE 4078",
     "locID": "LOC000062892713",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155310870",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42563,9 +42571,8 @@
     "name": "6 GREVILLEA PLACE FOREST LAKE 4078",
     "locID": "LOC000065890089",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155312918",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42665,6 +42672,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155312923",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -48879,8 +48887,8 @@
    "properties": {
     "name": "9 FITZROY PLACE FOREST LAKE 4078",
     "locID": "LOC000095808054",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155318284",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -48920,9 +48928,8 @@
     "name": "13 FRASER PLACE FOREST LAKE 4078",
     "locID": "LOC000048245134",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155319222",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54398,12 +54405,12 @@
    "properties": {
     "name": "1 HUON PLACE FOREST LAKE 4078",
     "locID": "LOC000062419618",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155322153",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -55233,9 +55240,9 @@
     "name": "3 STOWE COURT FOREST LAKE 4078",
     "locID": "LOC000022740463",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155322956",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55326,10 +55333,10 @@
    "properties": {
     "name": "12 OXFORD PARADE FOREST LAKE 4078",
     "locID": "LOC000008113781",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155322968",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -56310,10 +56317,10 @@
    "properties": {
     "name": "10 DULWICH PLACE FOREST LAKE 4078",
     "locID": "LOC000105363653",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155323641",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -61201,8 +61208,8 @@
    "properties": {
     "name": "20 MEDICI PLACE FOREST LAKE 4078",
     "locID": "LOC000076354974",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155325547",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -61939,10 +61946,10 @@
    "properties": {
     "name": "16 GREVILLEA PLACE FOREST LAKE 4078",
     "locID": "LOC000072982844",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155325817",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -62305,10 +62312,9 @@
    "properties": {
     "name": "80 MULGRAVE CRESCENT FOREST LAKE 4078",
     "locID": "LOC000062594154",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155326183",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -62874,10 +62880,9 @@
    "properties": {
     "name": "15 SIMPSON WAY FOREST LAKE 4078",
     "locID": "LOC000029441850",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155326247",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -66611,10 +66616,10 @@
    "properties": {
     "name": "30 YALE CIRCUIT FOREST LAKE 4078",
     "locID": "LOC000106080653",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156044168",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -67481,8 +67486,8 @@
    "properties": {
     "name": "35 ALEXANDRINA CIRCUIT FOREST LAKE 4078",
     "locID": "LOC000105384922",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156063730",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -68943,10 +68948,9 @@
    "properties": {
     "name": "13 ELABANA PLACE FOREST LAKE 4078",
     "locID": "LOC000041868441",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156072589",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -71834,10 +71838,9 @@
    "properties": {
     "name": "4 MULGRAVE CRESCENT FOREST LAKE 4078",
     "locID": "LOC000070082846",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156565010",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -75993,8 +75996,8 @@
    "properties": {
     "name": "93 BROOKLANDS CIRCUIT FOREST LAKE 4078",
     "locID": "LOC000099442418",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156571699",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -90724,9 +90727,8 @@
     "name": "22 LAKESIDE CRESCENT FOREST LAKE 4078",
     "locID": "LOC000040117991",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156587542",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -92343,8 +92345,8 @@
    "properties": {
     "name": "12 CHESTNUT PLACE FOREST LAKE 4078",
     "locID": "LOC000023625035",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156588190",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -95472,12 +95474,12 @@
    "properties": {
     "name": "3 HUON PLACE FOREST LAKE 4078",
     "locID": "LOC000019061017",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156589650",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -96225,9 +96227,8 @@
     "name": "60 OXFORD PARADE FOREST LAKE 4078",
     "locID": "LOC000018312795",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156590384",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -99433,10 +99434,10 @@
    "properties": {
     "name": "9 TRINITY CLOSE FOREST LAKE 4078",
     "locID": "LOC000009046232",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156600607",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -100140,9 +100141,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157919703",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -101200,9 +101200,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157944901",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -101480,10 +101479,10 @@
    "properties": {
     "name": "17 MULGRAVE CRESCENT FOREST LAKE 4078",
     "locID": "LOC000104030159",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD157946421",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -102412,9 +102411,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157955211",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -107399,10 +107397,9 @@
    "properties": {
     "name": "50 WOODVALE CRESCENT FOREST LAKE 4078",
     "locID": "LOC000041381996",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160676590",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -107419,8 +107416,8 @@
    "properties": {
     "name": "48 CAROLINA PARADE FOREST LAKE 4078",
     "locID": "LOC000106585167",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD160676811",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -107996,8 +107993,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160676899",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -108016,8 +108012,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160676900",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -108036,8 +108031,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160676901",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -108056,8 +108050,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160676902",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -108076,8 +108069,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160676903",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -108096,8 +108088,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160676904",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -108116,8 +108107,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160676905",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -108136,8 +108126,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160676906",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -108156,8 +108145,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160676907",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -108176,8 +108164,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160676908",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -108330,10 +108317,10 @@
    "properties": {
     "name": "51 PATON CRESCENT FOREST LAKE 4078",
     "locID": "LOC000040342107",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD160676926",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -109540,8 +109527,8 @@
    "properties": {
     "name": "28 CASSATT PLACE FOREST LAKE 4078",
     "locID": "LOC000052226865",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD160677905",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -109581,9 +109568,8 @@
     "name": "13 LILYDALE PLACE FOREST LAKE 4078",
     "locID": "LOC000104980864",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160677907",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -111717,8 +111703,8 @@
    "properties": {
     "name": "8 ALLEN CLOSE FOREST LAKE 4078",
     "locID": "LOC000032448345",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160679561",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -112629,8 +112615,8 @@
    "properties": {
     "name": "17 MUSCOVY PLACE FOREST LAKE 4078",
     "locID": "LOC000019100173",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD160680717",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -112709,8 +112695,8 @@
    "properties": {
     "name": "46 CAROLINA PARADE FOREST LAKE 4078",
     "locID": "LOC000068678831",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD160680721",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -113400,8 +113386,8 @@
    "properties": {
     "name": "7 MILLIKEN CIRCUIT FOREST LAKE 4078",
     "locID": "LOC000036468008",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD160681600",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -114510,10 +114496,9 @@
    "properties": {
     "name": "50 HARRISON CRESCENT FOREST LAKE 4078",
     "locID": "LOC000094484358",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160682591",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -115480,10 +115465,9 @@
    "properties": {
     "name": "9 PALUNA PLACE FOREST LAKE 4078",
     "locID": "LOC000107040451",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160683290",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -115992,8 +115976,8 @@
    "properties": {
     "name": "6 DRAKE PLACE FOREST LAKE 4078",
     "locID": "LOC000009935395",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD160684398",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -117341,9 +117325,8 @@
     "name": "15 GOLDENEYE PLACE FOREST LAKE 4078",
     "locID": "LOC000049529039",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160686216",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -117762,8 +117745,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160686747",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -117782,8 +117764,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160686748",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -117802,8 +117783,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160686749",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -121135,10 +121115,9 @@
    "properties": {
     "name": "20 WOODVALE CRESCENT FOREST LAKE 4078",
     "locID": "LOC000084297837",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160697975",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -122797,10 +122776,10 @@
    "properties": {
     "name": "5 MALLARD PLACE FOREST LAKE 4078",
     "locID": "LOC000034899954",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD160701787",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -123019,8 +122998,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160701799",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -123099,8 +123077,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160701804",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -123119,8 +123096,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160701805",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -123139,8 +123115,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160701806",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -123159,8 +123134,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160701807",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -123179,8 +123153,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160701808",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -123199,8 +123172,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160701809",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -123259,8 +123231,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160705144",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -123279,8 +123250,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160705145",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -124213,8 +124183,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160709212",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -124233,8 +124202,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160709213",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -124253,8 +124221,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160709214",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -124273,8 +124240,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160709388",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -124293,8 +124259,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160709389",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -124313,8 +124278,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160709390",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -124333,8 +124297,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160709391",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -124353,8 +124316,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160709392",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -124373,8 +124335,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160709393",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -124393,8 +124354,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160709394",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -128341,8 +128301,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160713077",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -128361,8 +128320,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160713078",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -129585,10 +129543,9 @@
    "properties": {
     "name": "11 SARABAH PLACE FOREST LAKE 4078",
     "locID": "LOC000010720210",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160714072",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -129938,10 +129895,9 @@
    "properties": {
     "name": "22 SAINT TROPEZ PLACE FOREST LAKE 4078",
     "locID": "LOC000035190790",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160723957",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -132261,10 +132217,9 @@
    "properties": {
     "name": "16 SAINT TROPEZ PLACE FOREST LAKE 4078",
     "locID": "LOC000020702287",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160752881",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -132395,8 +132350,8 @@
    "properties": {
     "name": "50 HANNAM CRESCENT FOREST LAKE 4078",
     "locID": "LOC000020810588",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD160753990",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -133689,9 +133644,8 @@
     "name": "33 GILBERTON CRESCENT FOREST LAKE 4078",
     "locID": "LOC000045628941",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160759725",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -133953,10 +133907,9 @@
    "properties": {
     "name": "6 JUBILEE AVENUE FOREST LAKE 4078",
     "locID": "LOC000072485459",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160762694",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -134399,10 +134352,9 @@
    "properties": {
     "name": "66 JUBILEE AVENUE FOREST LAKE 4078",
     "locID": "LOC000072485459",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160764698",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -136504,10 +136456,9 @@
    "properties": {
     "name": "9 TAYLOR PLACE FOREST LAKE 4078",
     "locID": "LOC000084544140",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160771887",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -137808,10 +137759,10 @@
    "properties": {
     "name": "30 LARICINA CIRCUIT FOREST LAKE 4078",
     "locID": "LOC000096216161",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD160924439",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -139357,9 +139308,8 @@
     "name": "6 CHEVRON CLOSE FOREST LAKE 4078",
     "locID": "LOC000001589010",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160969350",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -142677,8 +142627,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161014603",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -145525,10 +145474,9 @@
    "properties": {
     "name": "104 SANCTUARY DRIVE FOREST LAKE 4078",
     "locID": "LOC000012488779",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161300280",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -148546,10 +148494,9 @@
    "properties": {
     "name": "67 SANCTUARY DRIVE FOREST LAKE 4078",
     "locID": "LOC000039404083",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161713325",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -150503,9 +150450,8 @@
     "name": "7 LOMANDRA PLACE FOREST LAKE 4078",
     "locID": "LOC000041840365",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161846422",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -151454,9 +151400,8 @@
     "name": "68 NULLARBOR CIRCUIT FOREST LAKE 4078",
     "locID": "LOC000002484538",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161858478",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -153461,9 +153406,8 @@
     "name": "53 GIPPSLAND CIRCUIT FOREST LAKE 4078",
     "locID": "LOC000066376463",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161976364",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -159963,9 +159907,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162547026",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -160193,9 +160136,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704695",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -160289,9 +160231,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704700",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -160518,9 +160459,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162704712",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -160650,9 +160590,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162737670",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -160861,9 +160800,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162752498",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -160995,9 +160933,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162752505",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -161034,9 +160971,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162752507",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -163962,10 +163898,10 @@
    "properties": {
     "name": "57 SISLEY STREET FOREST LAKE 4078",
     "locID": "LOC000108750090",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD163332677",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -165122,10 +165058,10 @@
    "properties": {
     "name": "13A ANATINI PLACE FOREST LAKE 4078",
     "locID": "LOC000154156629",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD425652375",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -167044,10 +166980,9 @@
    "properties": {
     "name": "29 ST JAMES STREET FOREST LAKE 4078",
     "locID": "LOC000081731200",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721065507",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -168393,8 +168328,8 @@
    "properties": {
     "name": "18 COOT-THA PLACE FOREST LAKE 4078",
     "locID": "LOC000041123079",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD721120310",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
