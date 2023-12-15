@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-25T17:56:44.071666",
+ "generated": "2023-12-15T08:33:37.849329",
  "suburb": "GREENACRE",
  "features": [
   {
@@ -4374,10 +4374,10 @@
    "properties": {
     "name": "87 BERESFORD AVENUE GREENACRE 2190",
     "locID": "LOC000038065990",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704864499",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7882,10 +7882,10 @@
    "properties": {
     "name": "2 RESERVOIR AVENUE GREENACRE 2190",
     "locID": "LOC000101776970",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704865355",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7942,10 +7942,10 @@
    "properties": {
     "name": "8 RESERVOIR AVENUE GREENACRE 2190",
     "locID": "LOC000013852929",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704865359",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9606,10 +9606,10 @@
    "properties": {
     "name": "17 BRUNKER ROAD GREENACRE 2190",
     "locID": "LOC000024506320",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704865582",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12819,10 +12819,10 @@
    "properties": {
     "name": "33 CLAREMONT AVENUE GREENACRE 2190",
     "locID": "LOC000120269573",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704867825",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16151,9 +16151,8 @@
     "name": "142 ROBERTS ROAD GREENACRE 2190",
     "locID": "LOC000064432919",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GANSW704868667",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704868667"
    }
   },
   {
@@ -47071,10 +47070,10 @@
    "properties": {
     "name": "206 HUME HIGHWAY GREENACRE 2190",
     "locID": "LOC000024519309",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704879551",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49997,8 +49996,9 @@
     "name": "1 TEMPE STREET GREENACRE 2190",
     "locID": "LOC000166556800",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704879959"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704879959",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -52923,9 +52923,8 @@
     "name": "48 RUSSELL STREET GREENACRE 2190",
     "locID": "LOC000070717005",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GANSW704880752",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704880752"
    }
   },
   {
@@ -56113,6 +56112,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.0607861,
+     -33.90196578
+    ]
+   },
+   "properties": {
+    "name": "78 MAIDEN STREET GREENACRE 2190",
+    "locID": "LOC000194127569",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704881742"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.06123248,
      -33.90277508
     ]
@@ -56627,6 +56643,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.0657174,
+     -33.89555049
+    ]
+   },
+   "properties": {
+    "name": "30 NORFOLK ROAD GREENACRE 2190",
+    "locID": "ChIJkTXQZZ67EmsRtdpttLBaj08",
+    "tech": "FTTC",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GANSW704881793"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.0659045,
      -33.89512229
     ]
@@ -57059,10 +57092,10 @@
    "properties": {
     "name": "19 BRUNKER ROAD GREENACRE 2190",
     "locID": "LOC000007299342",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704882080",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -57997,10 +58030,9 @@
    "properties": {
     "name": "18 GILLIVER CRESCENT GREENACRE 2190",
     "locID": "LOC000021282376",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704882181",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704882181"
    }
   },
   {
@@ -58354,10 +58386,10 @@
    "properties": {
     "name": "220 HUME HIGHWAY GREENACRE 2190",
     "locID": "LOC000024519309",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704882211",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -58374,10 +58406,10 @@
    "properties": {
     "name": "222 HUME HIGHWAY GREENACRE 2190",
     "locID": "LOC000063080177",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704882212",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -58394,10 +58426,10 @@
    "properties": {
     "name": "226 HUME HIGHWAY GREENACRE 2190",
     "locID": "LOC000063080177",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704882214",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -79443,10 +79475,9 @@
    "properties": {
     "name": "272 WATERLOO ROAD GREENACRE 2190",
     "locID": "LOC000105976715",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704887490",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704887490"
    }
   },
   {
@@ -80218,8 +80249,9 @@
     "name": "10 PETER CRESCENT GREENACRE 2190",
     "locID": "LOC000062415605",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704888131"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704888131",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -80235,8 +80267,9 @@
     "name": "11 PETER CRESCENT GREENACRE 2190",
     "locID": "LOC000054401480",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704888132"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704888132",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -80252,8 +80285,9 @@
     "name": "12 PETER CRESCENT GREENACRE 2190",
     "locID": "LOC000058276579",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704888133"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704888133",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -80323,8 +80357,9 @@
     "name": "16 PETER CRESCENT GREENACRE 2190",
     "locID": "LOC000064142845",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704888137"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704888137",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -80358,8 +80393,9 @@
     "name": "18 PETER CRESCENT GREENACRE 2190",
     "locID": "LOC000102776505",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704888139"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704888139",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -90164,10 +90200,10 @@
    "properties": {
     "name": "20 ANZAC STREET GREENACRE 2190",
     "locID": "LOC000063983836",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704894076",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -90659,10 +90695,10 @@
    "properties": {
     "name": "39 BERESFORD AVENUE GREENACRE 2190",
     "locID": "LOC000078907514",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704895214",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -90679,10 +90715,10 @@
    "properties": {
     "name": "41 BERESFORD AVENUE GREENACRE 2190",
     "locID": "LOC000120272342",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704895215",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -90719,10 +90755,10 @@
    "properties": {
     "name": "49 BERESFORD AVENUE GREENACRE 2190",
     "locID": "LOC000020900681",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704895217",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -90739,10 +90775,10 @@
    "properties": {
     "name": "51 BERESFORD AVENUE GREENACRE 2190",
     "locID": "LOC000085667600",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704895218",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -92413,10 +92449,10 @@
    "properties": {
     "name": "37 ANZAC STREET GREENACRE 2190",
     "locID": "LOC000120269778",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704896689",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -92433,10 +92469,10 @@
    "properties": {
     "name": "55 ANZAC STREET GREENACRE 2190",
     "locID": "LOC000120274520",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704896691",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -93003,10 +93039,10 @@
    "properties": {
     "name": "34 ROSEDALE AVENUE GREENACRE 2190",
     "locID": "LOC000037113454",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704896776",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -93023,10 +93059,10 @@
    "properties": {
     "name": "36 ROSEDALE AVENUE GREENACRE 2190",
     "locID": "LOC000087613925",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704896778",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -93100,10 +93136,10 @@
    "properties": {
     "name": "41 ROSEDALE AVENUE GREENACRE 2190",
     "locID": "LOC000093539638",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704896782",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -93320,10 +93356,10 @@
    "properties": {
     "name": "57 ROSEDALE AVENUE GREENACRE 2190",
     "locID": "LOC000064566283",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704896794",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -93340,10 +93376,10 @@
    "properties": {
     "name": "58 ROSEDALE AVENUE GREENACRE 2190",
     "locID": "LOC000083977823",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704896795",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -98833,10 +98869,10 @@
    "properties": {
     "name": "95 ROSEDALE AVENUE GREENACRE 2190",
     "locID": "LOC000039527221",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704899419",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -98853,10 +98889,10 @@
    "properties": {
     "name": "97 ROSEDALE AVENUE GREENACRE 2190",
     "locID": "LOC000063276105",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704899421",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -98873,10 +98909,10 @@
    "properties": {
     "name": "99 ROSEDALE AVENUE GREENACRE 2190",
     "locID": "LOC000053999399",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704899423",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -102131,10 +102167,10 @@
    "properties": {
     "name": "1 BRUNKER ROAD GREENACRE 2190",
     "locID": "LOC000192047073",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706381457",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -103542,10 +103578,10 @@
    "properties": {
     "name": "70 CARDIGAN ROAD GREENACRE 2190",
     "locID": "LOC000006002408",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GANSW706580889",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -109154,10 +109190,10 @@
    "properties": {
     "name": "30 BERESFORD AVENUE GREENACRE 2190",
     "locID": "LOC000106052842",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706615869",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -109677,10 +109713,10 @@
    "properties": {
     "name": "3 ANZAC STREET GREENACRE 2190",
     "locID": "LOC000120267247",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706650777",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -109787,10 +109823,10 @@
    "properties": {
     "name": "70 BERESFORD AVENUE GREENACRE 2190",
     "locID": "LOC000096387194",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706654555",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -112416,10 +112452,10 @@
    "properties": {
     "name": "72 BERESFORD AVENUE GREENACRE 2190",
     "locID": "LOC000047248771",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW709250789",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -114795,10 +114831,10 @@
    "properties": {
     "name": "52 BERESFORD AVENUE GREENACRE 2190",
     "locID": "LOC000120274447",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711314227",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -118119,6 +118155,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711321329"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.06590032,
+     -33.89557799
+    ]
+   },
+   "properties": {
+    "name": "28 NORFOLK ROAD GREENACRE 2190",
+    "locID": "ChIJSRBWZp67EmsRMMguiRwvTUc",
+    "tech": "FTTC",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GANSW711321337"
    }
   },
   {
@@ -123470,10 +123523,10 @@
    "properties": {
     "name": "26B ANZAC STREET GREENACRE 2190",
     "locID": "LOC000016365247",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711335215",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -123544,10 +123597,10 @@
    "properties": {
     "name": "26A ANZAC STREET GREENACRE 2190",
     "locID": "LOC000016364501",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711335227",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -124423,10 +124476,10 @@
    "properties": {
     "name": "26 ROSEDALE AVENUE GREENACRE 2190",
     "locID": "LOC000053999399",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711337165",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -125438,10 +125491,10 @@
    "properties": {
     "name": "206-220 HUME HIGHWAY GREENACRE 2190",
     "locID": "LOC000024519309",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711341235",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -133555,10 +133608,10 @@
    "properties": {
     "name": "69 CLAREMONT AVENUE GREENACRE 2190",
     "locID": "LOC000010022965",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711358070",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -133683,10 +133736,10 @@
    "properties": {
     "name": "29 CLAREMONT AVENUE GREENACRE 2190",
     "locID": "LOC000092472355",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711358112",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -137346,10 +137399,10 @@
    "properties": {
     "name": "1-5 ANZAC STREET GREENACRE 2190",
     "locID": "LOC000120276630",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715585688",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -140766,8 +140819,9 @@
     "name": "3 MAYVIC STREET GREENACRE 2190",
     "locID": "LOC000166517426",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716879977"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW716879977",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -142224,8 +142278,9 @@
     "name": "UNIT 4, 16-18 HILLCREST AVENUE GREENACRE 2190",
     "locID": "LOC000166555804",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717016886"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717016886",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -146481,10 +146536,10 @@
    "properties": {
     "name": "55 BERESFORD AVENUE GREENACRE 2190",
     "locID": "LOC000099685708",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717691357",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -149932,10 +149987,10 @@
    "properties": {
     "name": "26B WALES STREET GREENACRE 2190",
     "locID": "LOC000016365247",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717969793",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -153217,10 +153272,10 @@
    "properties": {
     "name": "37 ROSEDALE AVENUE GREENACRE 2190",
     "locID": "LOC000120269784",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718383528",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -153500,10 +153555,10 @@
    "properties": {
     "name": "19 ANZAC STREET GREENACRE 2190",
     "locID": "LOC000152667214",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718399133",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -153595,10 +153650,10 @@
    "properties": {
     "name": "65 BERESFORD AVENUE GREENACRE 2190",
     "locID": "LOC000152669586",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718400769",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -153908,10 +153963,10 @@
    "properties": {
     "name": "28 CLAREMONT AVENUE GREENACRE 2190",
     "locID": "LOC000152667205",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718404496",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -153928,10 +153983,10 @@
    "properties": {
     "name": "39 CLAREMONT AVENUE GREENACRE 2190",
     "locID": "LOC000152667185",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718404497",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -154008,10 +154063,10 @@
    "properties": {
     "name": "55 CLAREMONT AVENUE GREENACRE 2190",
     "locID": "LOC000152667298",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718404501",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -155037,10 +155092,10 @@
    "properties": {
     "name": "5 RESERVOIR AVENUE GREENACRE 2190",
     "locID": "LOC000152669636",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718421998",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -155341,8 +155396,9 @@
     "name": "UNIT 1, 1 TEMPE STREET GREENACRE 2190",
     "locID": "LOC000166556800",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718434723"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718434723",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -155358,8 +155414,9 @@
     "name": "UNIT 1A, 1 TEMPE STREET GREENACRE 2190",
     "locID": "LOC000166556800",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718434724"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718434724",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -155375,8 +155432,9 @@
     "name": "UNIT 1B, 1 TEMPE STREET GREENACRE 2190",
     "locID": "LOC000166556800",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718434725"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718434725",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -155392,8 +155450,9 @@
     "name": "UNIT 3, 1 TEMPE STREET GREENACRE 2190",
     "locID": "LOC000166556800",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718434726"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718434726",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -155409,8 +155468,9 @@
     "name": "UNIT 3A, 1 TEMPE STREET GREENACRE 2190",
     "locID": "LOC000166556800",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718434727"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718434727",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -155426,8 +155486,9 @@
     "name": "UNIT 3B, 1 TEMPE STREET GREENACRE 2190",
     "locID": "LOC000166556800",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718434728"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718434728",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -155443,8 +155504,9 @@
     "name": "UNIT 5, 1 TEMPE STREET GREENACRE 2190",
     "locID": "LOC000166556800",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718434729"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718434729",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -155460,8 +155522,9 @@
     "name": "UNIT 5A, 1 TEMPE STREET GREENACRE 2190",
     "locID": "LOC000166556800",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718434730"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718434730",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -155477,8 +155540,9 @@
     "name": "UNIT 5B, 1 TEMPE STREET GREENACRE 2190",
     "locID": "LOC000166556800",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718434731"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718434731",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -155512,8 +155576,9 @@
     "name": "UNIT 7A, 1 TEMPE STREET GREENACRE 2190",
     "locID": "LOC000166556800",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718434733"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718434733",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -155529,8 +155594,9 @@
     "name": "UNIT 7B, 1 TEMPE STREET GREENACRE 2190",
     "locID": "LOC000166556800",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718434734"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718434734",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -155616,9 +155682,8 @@
     "name": "11 BELLFROG STREET GREENACRE 2190",
     "locID": "LOC000156626385",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GANSW718473191",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718473191"
    }
   },
   {
@@ -156439,10 +156504,10 @@
    "properties": {
     "name": "58 CLAREMONT AVENUE GREENACRE 2190",
     "locID": "LOC000152667251",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718557567",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -156682,10 +156747,10 @@
    "properties": {
     "name": "81 ROSEDALE AVENUE GREENACRE 2190",
     "locID": "LOC000152667308",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718566140",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -157430,8 +157495,9 @@
     "name": "UNIT 2, 2 MAYVIC STREET GREENACRE 2190",
     "locID": "LOC000166517426",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718665579"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW718665579",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -157447,8 +157513,9 @@
     "name": "UNIT 3, 2 MAYVIC STREET GREENACRE 2190",
     "locID": "LOC000166517426",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718665580"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW718665580",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -159714,10 +159781,9 @@
    "properties": {
     "name": "49A TENNYSON ROAD GREENACRE 2190",
     "locID": "LOC000165839724",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW718854207",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718854207"
    }
   },
   {
@@ -164402,10 +164468,10 @@
    "properties": {
     "name": "UNIT 1, 70 CARDIGAN ROAD GREENACRE 2190",
     "locID": "LOC000006002408",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GANSW719658680",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -168161,10 +168227,10 @@
    "properties": {
     "name": "FACTORY 1, 1 BRUNKER ROAD GREENACRE 2190",
     "locID": "LOC000192047073",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720422145",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -168249,10 +168315,10 @@
    "properties": {
     "name": "FACTORY 4, 1 BRUNKER ROAD GREENACRE 2190",
     "locID": "LOC000192047073",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720423991",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -168303,10 +168369,10 @@
    "properties": {
     "name": "FACTORY 3, 1 BRUNKER ROAD GREENACRE 2190",
     "locID": "LOC000192047073",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720425983",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -168629,10 +168695,10 @@
    "properties": {
     "name": "FACTORY 2, 1 BRUNKER ROAD GREENACRE 2190",
     "locID": "LOC000192047073",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720431716",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -174004,10 +174070,10 @@
    "properties": {
     "name": "222-230 HUME HIGHWAY GREENACRE 2190",
     "locID": "LOC000063080177",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720803726",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
