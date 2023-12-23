@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-08T17:27:49.881311",
+ "generated": "2023-12-16T20:49:40.559081",
  "suburb": "KLEMZIG",
  "features": [
   {
@@ -50,9 +50,9 @@
     "name": "UNIT 1, 6 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000066862581",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_414892484",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -68,8 +68,9 @@
     "name": "UNIT 10, 6 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000042396832",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_414892485"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_414892485",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -175,9 +176,9 @@
     "name": "UNIT 5, 6 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000066862581",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_414892595",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -193,9 +194,9 @@
     "name": "UNIT 6, 6 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000066862581",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_414892596",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -528,10 +529,9 @@
    "properties": {
     "name": "13 CLARENCE AVENUE KLEMZIG 5087",
     "locID": "LOC000068261249",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_414896125",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_414896125"
    }
   },
   {
@@ -853,9 +853,9 @@
     "name": "5 TREGOWETH COURT KLEMZIG 5087",
     "locID": "LOC000010081008",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_414931063",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -871,9 +871,9 @@
     "name": "4 TREGOWETH COURT KLEMZIG 5087",
     "locID": "LOC000091061482",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_414931064",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -910,24 +910,6 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_414940468",
     "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.62924926,
-     -34.87816831
-    ]
-   },
-   "properties": {
-    "name": "2 WEBSTER STREET KLEMZIG 5087",
-    "locID": "LOC000010135858",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_414940470",
-    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1032,9 +1014,9 @@
     "name": "9 TREGOWETH COURT KLEMZIG 5087",
     "locID": "LOC000025854337",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_414941512",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1050,8 +1032,9 @@
     "name": "10 TREGOWETH COURT KLEMZIG 5087",
     "locID": "LOC000062689088",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_414941513"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_414941513",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1407,9 +1390,9 @@
     "name": "1A FOX AVENUE KLEMZIG 5087",
     "locID": "LOC000077872617",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_414975413",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -2355,9 +2338,8 @@
     "name": "26 ABBOTT STREET KLEMZIG 5087",
     "locID": "LOC000105068335",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GASA_415017679",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415017679"
    }
   },
   {
@@ -5847,6 +5829,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.63891088,
+     -34.8743453
+    ]
+   },
+   "properties": {
+    "name": "22 THISTLE AVENUE KLEMZIG 5087",
+    "locID": "ChIJbT-3-PXJsGoRPVjddAhkrS0",
+    "tech": "HFC",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GASA_415153249"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.63841358,
      -34.87446598
     ]
@@ -6287,10 +6286,9 @@
    "properties": {
     "name": "8 CURYER STREET KLEMZIG 5087",
     "locID": "LOC000059074761",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415155908",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415155908"
    }
   },
   {
@@ -10971,9 +10969,9 @@
     "name": "1 BORONIA STREET KLEMZIG 5087",
     "locID": "LOC000097562967",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415202941",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -16073,9 +16071,8 @@
     "name": "20 CLARENCE AVENUE KLEMZIG 5087",
     "locID": "LOC000023357082",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GASA_415259631",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415259631"
    }
   },
   {
@@ -16145,9 +16142,9 @@
     "name": "14 BOUCAUT AVENUE KLEMZIG 5087",
     "locID": "LOC000063063215",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415261164",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -17836,10 +17833,9 @@
    "properties": {
     "name": "4 MARTY GROVE KLEMZIG 5087",
     "locID": "LOC000083349353",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415283885",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415283885"
    }
   },
   {
@@ -18945,9 +18941,8 @@
     "name": "14 REX AVENUE KLEMZIG 5087",
     "locID": "LOC100069134281",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GASA_415297613",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415297613"
    }
   },
   {
@@ -19178,8 +19173,9 @@
     "name": "38 WILPENA AVENUE KLEMZIG 5087",
     "locID": "LOC000041795730",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415297628"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415297628",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -20073,10 +20069,10 @@
    "properties": {
     "name": "42 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000003522153",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GASA_415303922",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -20199,8 +20195,9 @@
     "name": "73 HARRIS ROAD KLEMZIG 5087",
     "locID": "LOC000035957597",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415313866"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415313866",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -20610,8 +20607,9 @@
     "name": "77 HARRIS ROAD KLEMZIG 5087",
     "locID": "LOC000026671282",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415316565"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415316565",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -20681,8 +20679,9 @@
     "name": "12 MORRIS GROVE KLEMZIG 5087",
     "locID": "LOC000038116380",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415316569"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415316569",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -20786,8 +20785,9 @@
     "name": "75 HARRIS ROAD KLEMZIG 5087",
     "locID": "LOC000050024209",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415316575"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415316575",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -20976,8 +20976,9 @@
     "name": "54 HARRIS ROAD KLEMZIG 5087",
     "locID": "LOC000008386243",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415332373"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415332373",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -20993,9 +20994,9 @@
     "name": "56 HARRIS ROAD KLEMZIG 5087",
     "locID": "LOC000049179287",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415332374",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -21011,9 +21012,9 @@
     "name": "58 HARRIS ROAD KLEMZIG 5087",
     "locID": "LOC000047901723",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415332375",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -21923,8 +21924,9 @@
     "name": "60 HARRIS ROAD KLEMZIG 5087",
     "locID": "LOC000100663627",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415338544"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415338544",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -21940,9 +21942,9 @@
     "name": "62 HARRIS ROAD KLEMZIG 5087",
     "locID": "LOC000020081701",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415338545",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22048,8 +22050,9 @@
     "name": "2 TREGOWETH COURT KLEMZIG 5087",
     "locID": "LOC000055422701",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415339219"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415339219",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22065,9 +22068,9 @@
     "name": "1 TREGOWETH COURT KLEMZIG 5087",
     "locID": "LOC000100844061",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415339220",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22209,9 +22212,9 @@
     "name": "8 TREGOWETH COURT KLEMZIG 5087",
     "locID": "LOC000090498124",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415339229",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22227,9 +22230,9 @@
     "name": "7 TREGOWETH COURT KLEMZIG 5087",
     "locID": "LOC000047408214",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415340031",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22245,9 +22248,9 @@
     "name": "6 TREGOWETH COURT KLEMZIG 5087",
     "locID": "LOC000051179979",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415340032",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22263,9 +22266,9 @@
     "name": "3 TREGOWETH COURT KLEMZIG 5087",
     "locID": "LOC000097736873",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415340033",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22544,9 +22547,9 @@
     "name": "16 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000082078415",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415341854",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22930,6 +22933,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.64063844,
+     -34.88218304
+    ]
+   },
+   "properties": {
+    "name": "4 ELURA COURT KLEMZIG 5087",
+    "locID": "LOC000194039396",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415352119"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.64040347,
      -34.88226852
     ]
@@ -23009,10 +23029,9 @@
    "properties": {
     "name": "76 HARRIS ROAD KLEMZIG 5087",
     "locID": "LOC000002645671",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415353934",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415353934"
    }
   },
   {
@@ -24742,8 +24761,9 @@
     "name": "2 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000097795584",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415409469"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415409469",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -24759,9 +24779,9 @@
     "name": "204 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000041331433",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415409470",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -24865,10 +24885,9 @@
    "properties": {
     "name": "18 GARFIELD STREET KLEMZIG 5087",
     "locID": "LOC000056597831",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415409526",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415409526"
    }
   },
   {
@@ -25262,9 +25281,9 @@
     "name": "17 THAMES AVENUE KLEMZIG 5087",
     "locID": "LOC100069134500",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415412184",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -26652,9 +26671,9 @@
     "name": "37 WILPENA AVENUE KLEMZIG 5087",
     "locID": "LOC100068439800",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415433216",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -27172,9 +27191,9 @@
     "name": "8 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000072885133",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415436007",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -27244,9 +27263,9 @@
     "name": "6 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000021779184",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415437002",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -27352,9 +27371,9 @@
     "name": "18 WELLINGTON STREET KLEMZIG 5087",
     "locID": "LOC000171453849",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415442175",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -28049,9 +28068,9 @@
     "name": "8 WELKE STREET KLEMZIG 5087",
     "locID": "LOC000028402551",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415449860",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -28949,8 +28968,9 @@
     "name": "44 WILPENA AVENUE KLEMZIG 5087",
     "locID": "LOC000106847331",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415456322"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415456322",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -30337,8 +30357,9 @@
     "name": "UNIT 12, 97-103 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000171454962",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415606657"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415606657",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30372,8 +30393,9 @@
     "name": "UNIT 14, 97-103 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000171454989",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415606666"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415606666",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30389,8 +30411,9 @@
     "name": "UNIT 15, 97-103 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000171454991",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415606668"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415606668",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30406,8 +30429,9 @@
     "name": "UNIT 16, 97-103 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000171455009",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415606670"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415606670",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30618,8 +30642,9 @@
     "name": "UNIT 2, 10 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000042235724",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415618300"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415618300",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30635,8 +30660,9 @@
     "name": "UNIT 3, 10 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000042547481",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415618301"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415618301",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30652,8 +30678,9 @@
     "name": "UNIT 4, 10 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000041991138",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415618302"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415618302",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30669,8 +30696,9 @@
     "name": "UNIT 5, 10 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000041608822",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415618303"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415618303",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30686,8 +30714,9 @@
     "name": "UNIT 6, 10 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000042396832",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415618304"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415618304",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30703,8 +30732,9 @@
     "name": "UNIT 7, 10 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000041949502",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415618305"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415618305",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30720,8 +30750,9 @@
     "name": "UNIT 8, 10 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000042617686",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415618306"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415618306",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30737,8 +30768,9 @@
     "name": "UNIT 9, 10 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000041563543",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415618308"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415618308",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30912,8 +30944,9 @@
     "name": "UNIT 1, 10 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000041608822",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415620919"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415620919",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30929,8 +30962,9 @@
     "name": "UNIT 10, 10 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000041608822",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415620920"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415620920",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30946,8 +30980,9 @@
     "name": "UNIT 11, 10 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000042347229",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415620922"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415620922",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30963,8 +30998,9 @@
     "name": "UNIT 12, 10 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000042568509",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415620924"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415620924",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30980,8 +31016,9 @@
     "name": "UNIT 13, 10 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000042613298",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415620926"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415620926",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30997,8 +31034,9 @@
     "name": "UNIT 14, 10 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000041794604",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415620928"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415620928",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -31014,8 +31052,9 @@
     "name": "UNIT 15, 10 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000041562700",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415620930"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415620930",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -31031,8 +31070,9 @@
     "name": "UNIT 16, 10 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000041784843",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415620932"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415620932",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32202,8 +32242,9 @@
     "name": "UNIT 2, 17 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000036413577",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415633683"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415633683",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32219,8 +32260,9 @@
     "name": "UNIT 3, 17 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000035902181",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415633684"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415633684",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32236,8 +32278,9 @@
     "name": "UNIT 4, 17 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000036313681",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415633685"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415633685",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32253,8 +32296,9 @@
     "name": "UNIT 12, 17 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000036124952",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415633698"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415633698",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32270,8 +32314,9 @@
     "name": "UNIT 7, 81 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000102245036",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415634601"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415634601",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32287,8 +32332,9 @@
     "name": "UNIT 8, 81 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000102700247",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415634602"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415634602",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32304,8 +32350,9 @@
     "name": "UNIT 9, 83 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000105484056",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415634604"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415634604",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32321,8 +32368,9 @@
     "name": "UNIT 1, 17 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000036041536",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415636360"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415636360",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32338,8 +32386,9 @@
     "name": "UNIT 10, 17 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000035968300",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415636361"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415636361",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32355,8 +32404,9 @@
     "name": "UNIT 11, 17 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000036041536",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415636362"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415636362",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32426,8 +32476,9 @@
     "name": "UNIT 5, 17 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000035902181",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415639067"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415639067",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32443,8 +32494,9 @@
     "name": "UNIT 6, 17 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000036225033",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415639068"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415639068",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32460,8 +32512,9 @@
     "name": "UNIT 7, 17 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000036055611",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415639069"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415639069",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32477,8 +32530,9 @@
     "name": "UNIT 8, 17 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000035957606",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415639070"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415639070",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32494,8 +32548,9 @@
     "name": "UNIT 9, 17 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000036026429",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415639071"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415639071",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32565,8 +32620,9 @@
     "name": "UNIT 1, 61 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000011143647",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415641904"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415641904",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32582,8 +32638,9 @@
     "name": "UNIT 2, 61 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000010789784",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415641905"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415641905",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32599,8 +32656,9 @@
     "name": "UNIT 3, 61 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000011195437",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415641906"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415641906",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32616,8 +32674,9 @@
     "name": "UNIT 4, 61 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000010842988",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415641907"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415641907",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32633,8 +32692,9 @@
     "name": "UNIT 5, 61 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000010933571",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415641908"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415641908",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32650,8 +32710,9 @@
     "name": "UNIT 6, 61 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000010886444",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415641933"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415641933",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32949,8 +33010,9 @@
     "name": "UNIT 3, 81 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000102784288",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415645307"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415645307",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32966,8 +33028,9 @@
     "name": "UNIT 4, 81 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000102352564",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415645308"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415645308",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32983,8 +33046,9 @@
     "name": "UNIT 5, 81 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000102866754",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415645309"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415645309",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33000,8 +33064,9 @@
     "name": "UNIT 6, 81 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000102628102",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415645311"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415645311",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33212,8 +33277,9 @@
     "name": "UNIT 5, 65 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000087620931",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415647078"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415647078",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33387,9 +33453,9 @@
     "name": "UNIT 1, 16 THAMES AVENUE KLEMZIG 5087",
     "locID": "LOC000035168774",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415651089",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -33405,9 +33471,9 @@
     "name": "UNIT 2, 16 THAMES AVENUE KLEMZIG 5087",
     "locID": "LOC000035168774",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415651090",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -33423,8 +33489,9 @@
     "name": "UNIT 11, 206-208 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000171451224",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415651505"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415651505",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33440,8 +33507,9 @@
     "name": "UNIT 12, 206-208 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000186442460",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415651506"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415651506",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33529,8 +33597,9 @@
     "name": "UNIT 14, 206-208 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000171451253",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415654219"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415654219",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33582,8 +33651,9 @@
     "name": "UNIT 15, 206-208 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000171451269",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415656891"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415656891",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33599,8 +33669,9 @@
     "name": "UNIT 16, 206-208 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000171451276",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415656893"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415656893",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33616,8 +33687,9 @@
     "name": "UNIT 2, 206-208 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000186442460",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415656895"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415656895",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33633,8 +33705,9 @@
     "name": "UNIT 3, 206-208 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000171451295",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415656896"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415656896",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33650,8 +33723,9 @@
     "name": "UNIT 4, 206-208 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000171451305",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415656897"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415656897",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33667,8 +33741,9 @@
     "name": "UNIT 5, 206-208 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000186442460",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415656898"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415656898",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33684,8 +33759,9 @@
     "name": "UNIT 6, 206-208 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000171451322",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415656899"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415656899",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33701,8 +33777,9 @@
     "name": "UNIT 7, 206-208 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000171451333",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415656900"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415656900",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33718,8 +33795,9 @@
     "name": "UNIT 8, 206-208 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000171451346",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415656901"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415656901",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33735,8 +33813,9 @@
     "name": "UNIT 9, 206-208 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000171451351",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415656902"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415656902",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33842,8 +33921,9 @@
     "name": "UNIT 4, 10 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000025822905",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415658549"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415658549",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34109,8 +34189,9 @@
     "name": "UNIT 1, 206-208 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000186442460",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415661792"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415661792",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34126,8 +34207,9 @@
     "name": "UNIT 10, 206-208 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000171451211",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415661793"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415661793",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34590,9 +34672,9 @@
     "name": "UNIT 1, 14 BORONIA STREET KLEMZIG 5087",
     "locID": "LOC000097562967",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415666725",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -34642,8 +34724,9 @@
     "name": "UNIT 1, 81 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000102644218",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415668194"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415668194",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34659,8 +34742,9 @@
     "name": "UNIT 10, 83 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000105517193",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415668195"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415668195",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34676,8 +34760,9 @@
     "name": "UNIT 11, 83 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000105155878",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415668196"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415668196",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34693,8 +34778,9 @@
     "name": "UNIT 12, 83 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000105582784",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415668197"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415668197",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34710,8 +34796,9 @@
     "name": "UNIT 13, 83 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000105437923",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415668198"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415668198",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34727,8 +34814,9 @@
     "name": "UNIT 14, 83 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000105591459",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415668200"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415668200",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34744,8 +34832,9 @@
     "name": "UNIT 15, 83 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000105484999",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415668202"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415668202",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34761,8 +34850,9 @@
     "name": "UNIT 16, 83 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000105395523",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415668204"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415668204",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34832,8 +34922,9 @@
     "name": "UNIT 2, 81 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000102700247",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415668209"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415668209",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -35198,8 +35289,9 @@
     "name": "UNIT 1, 11 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000075551169",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415678819"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415678819",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -35215,8 +35307,9 @@
     "name": "UNIT 2, 11 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000075213917",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415678820"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415678820",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -35285,8 +35378,9 @@
     "name": "UNIT 3, 11 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000075510095",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415680752"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415680752",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -35302,8 +35396,9 @@
     "name": "UNIT 4, 11 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000075171150",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415680753"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415680753",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -35319,8 +35414,9 @@
     "name": "UNIT 5, 11 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000075560556",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415680754"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415680754",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -35336,8 +35432,9 @@
     "name": "UNIT 6, 11 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000074998246",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415680755"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415680755",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -35353,8 +35450,9 @@
     "name": "UNIT 7, 11 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000075627863",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415680756"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415680756",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -35721,8 +35819,9 @@
     "name": "UNIT 3, 55 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000078485829",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415687417"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415687417",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -35738,8 +35837,9 @@
     "name": "UNIT 4, 55 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000078004692",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415687418"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415687418",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -35755,8 +35855,9 @@
     "name": "UNIT 5, 55 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000078267589",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415687419"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415687419",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -35772,8 +35873,9 @@
     "name": "UNIT 6, 55 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000078405274",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415687420"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415687420",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -35789,9 +35891,9 @@
     "name": "UNIT 2, 14 BORONIA STREET KLEMZIG 5087",
     "locID": "LOC000097309434",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415688410",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -36011,8 +36113,9 @@
     "name": "UNIT 1, 20 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000018288698",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415688744"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415688744",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36028,8 +36131,9 @@
     "name": "UNIT 2, 20 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000018355899",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415688745"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415688745",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36045,8 +36149,9 @@
     "name": "UNIT 3, 20 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000018658065",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415688746"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415688746",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36062,8 +36167,9 @@
     "name": "UNIT 4, 20 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000018753051",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415688747"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415688747",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36079,8 +36185,9 @@
     "name": "UNIT 5, 20 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000018355899",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415688748"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415688748",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36399,9 +36506,9 @@
     "name": "UNIT 2, 9 WHITBREAD AVENUE KLEMZIG 5087",
     "locID": "LOC000130151110",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415700407",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -36471,9 +36578,9 @@
     "name": "UNIT 1, 1A FOX AVENUE KLEMZIG 5087",
     "locID": "LOC000077872617",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416083655",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -36614,8 +36721,9 @@
     "name": "UNIT 10, 2 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000097757627",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416084553"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416084553",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36631,8 +36739,9 @@
     "name": "UNIT 2, 2 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000097795584",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416084554"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416084554",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37284,8 +37393,9 @@
     "name": "UNIT 4, 2 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000097555033",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416087973"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416087973",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37301,8 +37411,9 @@
     "name": "UNIT 5, 2 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000097795584",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416087974"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416087974",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37318,8 +37429,9 @@
     "name": "UNIT 6, 2 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000097665010",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416087975"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416087975",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37335,8 +37447,9 @@
     "name": "UNIT 9, 2 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000097512973",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416087976"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416087976",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37388,8 +37501,9 @@
     "name": "UNIT 7, 2 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000097848397",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416088687"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416088687",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37405,8 +37519,9 @@
     "name": "UNIT 4, 4 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000099129274",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416088689"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_416088689",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -37422,8 +37537,9 @@
     "name": "UNIT 3, 4 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000098993718",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416088692"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_416088692",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -37491,8 +37607,9 @@
     "name": "UNIT 2, 4 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000098851621",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416088924"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_416088924",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -37543,9 +37660,9 @@
     "name": "UNIT 1, 8 WELKE STREET KLEMZIG 5087",
     "locID": "LOC000028402551",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416089818",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -37561,9 +37678,9 @@
     "name": "UNIT 2, 8 WELKE STREET KLEMZIG 5087",
     "locID": "LOC000028388927",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416089819",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -37915,9 +38032,9 @@
     "name": "UNIT 4, 32 WELLINGTON STREET KLEMZIG 5087",
     "locID": "LOC000075793581",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416094160",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -38106,9 +38223,9 @@
     "name": "UNIT 2, 1A FOX AVENUE KLEMZIG 5087",
     "locID": "LOC000077872617",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416096032",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -38746,8 +38863,9 @@
     "name": "UNIT 1, 2 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000097519820",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416104879"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416104879",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -38901,8 +39019,9 @@
     "name": "UNIT 8, 2 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000097755802",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416107570"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416107570",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -38918,9 +39037,9 @@
     "name": "41 WILPENA AVENUE KLEMZIG 5087",
     "locID": "LOC000059390028",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416107680",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -38987,9 +39106,9 @@
     "name": "9 WHITBREAD AVENUE KLEMZIG 5087",
     "locID": "LOC100069134544",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416108578",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -39005,9 +39124,9 @@
     "name": "41A WILPENA AVENUE KLEMZIG 5087",
     "locID": "LOC000059389819",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416108595",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -39023,8 +39142,9 @@
     "name": "UNIT 3, 2 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000097745835",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416109454"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416109454",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -39338,9 +39458,9 @@
     "name": "40 WILPENA AVENUE KLEMZIG 5087",
     "locID": "LOC000109839977",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416755609",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -39460,9 +39580,9 @@
     "name": "13 TORRENS AVENUE KLEMZIG 5087",
     "locID": "LOC000179760007",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416760924",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -39806,9 +39926,9 @@
     "name": "UNIT 1, 2 THAMES AVENUE KLEMZIG 5087",
     "locID": "LOC000035168774",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416770687",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -39929,8 +40049,9 @@
     "name": "20 FIFE STREET KLEMZIG 5087",
     "locID": "LOC100068439774",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416774022"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416774022",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -39946,8 +40067,9 @@
     "name": "UNIT 1, 4 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000098817169",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416774023"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_416774023",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -40032,9 +40154,9 @@
     "name": "2 THAMES AVENUE KLEMZIG 5087",
     "locID": "LOC000035168774",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416777079",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -40050,9 +40172,9 @@
     "name": "UNIT 2, 2 THAMES AVENUE KLEMZIG 5087",
     "locID": "LOC000035168774",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416777086",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -40391,9 +40513,9 @@
     "name": "6 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000066862581",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416781360",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -40821,9 +40943,9 @@
     "name": "UNIT 1, 13 TORRENS AVENUE KLEMZIG 5087",
     "locID": "LOC000179760007",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_421972800",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -40839,9 +40961,9 @@
     "name": "UNIT 2, 13 TORRENS AVENUE KLEMZIG 5087",
     "locID": "LOC000179760007",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_421972801",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -40857,9 +40979,9 @@
     "name": "UNIT 3, 13 TORRENS AVENUE KLEMZIG 5087",
     "locID": "LOC000179760007",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_421972802",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -41544,8 +41666,9 @@
     "name": "11 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000075551169",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_422040193"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_422040193",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -41561,8 +41684,9 @@
     "name": "17 PRICE AVENUE KLEMZIG 5087",
     "locID": "LOC000035902181",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_422040194"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_422040194",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -41578,8 +41702,9 @@
     "name": "55 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000078004692",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_422040197"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_422040197",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -41595,8 +41720,9 @@
     "name": "61 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000010789784",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_422040198"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_422040198",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -41630,8 +41756,9 @@
     "name": "81 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000102700247",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_422040201"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_422040201",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -41770,8 +41897,9 @@
     "name": "10 SWAN AVENUE KLEMZIG 5087",
     "locID": "LOC000041608822",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_422045567"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_422045567",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -41787,9 +41915,9 @@
     "name": "16 THAMES AVENUE KLEMZIG 5087",
     "locID": "LOC000035168774",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_422045568",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -41983,9 +42111,9 @@
     "name": "14 BORONIA STREET KLEMZIG 5087",
     "locID": "LOC000097309434",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_422051399",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -42157,9 +42285,9 @@
     "name": "18 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000094946757",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_422059398",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -43127,9 +43255,9 @@
     "name": "6A FIFE STREET KLEMZIG 5087",
     "locID": "LOC000021751037",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423592095",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -43537,9 +43665,9 @@
     "name": "6B FIFE STREET KLEMZIG 5087",
     "locID": "LOC000021685454",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423617926",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -44175,9 +44303,9 @@
     "name": "2A FIFE STREET KLEMZIG 5087",
     "locID": "LOC000097651066",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423775028",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -44401,9 +44529,9 @@
     "name": "UNIT 1, 14 FOURTH AVENUE KLEMZIG 5087",
     "locID": "LOC000076656573",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423815332",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -44509,9 +44637,9 @@
     "name": "UNIT 1, 61 FOURTH AVENUE KLEMZIG 5087",
     "locID": "LOC000047287936",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423815338",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -44527,9 +44655,9 @@
     "name": "UNIT 2, 14 FOURTH AVENUE KLEMZIG 5087",
     "locID": "LOC000077397648",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423815339",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -44634,9 +44762,9 @@
     "name": "UNIT 2, 61 FOURTH AVENUE KLEMZIG 5087",
     "locID": "LOC000047260549",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423815345",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -44976,9 +45104,9 @@
     "name": "11 FOURTH AVENUE KLEMZIG 5087",
     "locID": "LOC000097851496",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423815364",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -45299,9 +45427,9 @@
     "name": "28 FOURTH AVENUE KLEMZIG 5087",
     "locID": "LOC000089046357",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423815382",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -46469,9 +46597,9 @@
     "name": "LOT 18 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000094946757",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423842711",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -46487,9 +46615,9 @@
     "name": "1B FOX AVENUE KLEMZIG 5087",
     "locID": "LOC000078217647",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423842760",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -46624,9 +46752,9 @@
     "name": "14 FOURTH AVENUE KLEMZIG 5087",
     "locID": "LOC000077397648",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423856945",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -46696,9 +46824,9 @@
     "name": "61 FOURTH AVENUE KLEMZIG 5087",
     "locID": "LOC000047260549",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423856950",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -46834,8 +46962,9 @@
     "name": "4 FIFE STREET KLEMZIG 5087",
     "locID": "LOC000099129274",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_423865064"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_423865064",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -46973,9 +47102,9 @@
     "name": "32 WELLINGTON STREET KLEMZIG 5087",
     "locID": "LOC000130151083",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423871439",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -46991,8 +47120,9 @@
     "name": "83 WINDSOR GROVE KLEMZIG 5087",
     "locID": "LOC000105517193",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_423871616"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423871616",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -47372,9 +47502,9 @@
     "name": "18A FIFE STREET KLEMZIG 5087",
     "locID": "LOC000094917782",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423960505",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -48762,8 +48892,9 @@
     "name": "206-208 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000186442460",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424415329"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424415329",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -50056,9 +50187,9 @@
     "name": "UNIT 1, 1B FOX AVENUE KLEMZIG 5087",
     "locID": "LOC000078217647",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424646667",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50347,8 +50478,9 @@
     "name": "40A WILPENA AVENUE KLEMZIG 5087",
     "locID": "LOC000130180674",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424807169"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_424807169",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50435,8 +50567,9 @@
     "name": "42 WILPENA AVENUE KLEMZIG 5087",
     "locID": "LOC000130180711",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424905538"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_424905538",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50452,9 +50585,9 @@
     "name": "42A WILPENA AVENUE KLEMZIG 5087",
     "locID": "LOC000130180730",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424905539",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50839,8 +50972,9 @@
     "name": "UNIT 11, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130140582",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066822"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066822",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -50927,8 +51061,9 @@
     "name": "UNIT 12, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130140595",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066828"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066828",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -50962,8 +51097,9 @@
     "name": "UNIT 13, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129834",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066831"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066831",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -50996,8 +51132,9 @@
     "name": "UNIT 13, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130140609",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066833"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066833",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51030,8 +51167,9 @@
     "name": "UNIT 14, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129847",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066836"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066836",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51064,8 +51202,9 @@
     "name": "UNIT 14, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130140613",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066838"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066838",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51099,8 +51238,9 @@
     "name": "UNIT 15, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129852",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066841"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066841",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51133,8 +51273,9 @@
     "name": "UNIT 15, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130140621",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066843"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066843",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51168,8 +51309,9 @@
     "name": "UNIT 16, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129868",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066846"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066846",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51202,8 +51344,9 @@
     "name": "UNIT 16, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130140632",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066848"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066848",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51219,8 +51362,9 @@
     "name": "UNIT 17, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129875",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066850"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066850",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51253,8 +51397,9 @@
     "name": "UNIT 17, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130140645",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066852"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066852",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51270,8 +51415,9 @@
     "name": "UNIT 18, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129881",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066854"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066854",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51304,8 +51450,9 @@
     "name": "UNIT 18, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130143986",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066856"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066856",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51321,8 +51468,9 @@
     "name": "UNIT 19, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129899",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066857"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066857",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51355,8 +51503,9 @@
     "name": "UNIT 19, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130143993",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066859"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066859",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51408,8 +51557,9 @@
     "name": "UNIT 1, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129796",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066863"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066863",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51568,8 +51718,9 @@
     "name": "UNIT 20, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129913",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066872"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066872",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51602,8 +51753,9 @@
     "name": "UNIT 20, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130144015",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066874"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066874",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51619,8 +51771,9 @@
     "name": "UNIT 21, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129921",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066875"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066875",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51636,8 +51789,9 @@
     "name": "UNIT 21, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130144027",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066876"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066876",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51653,8 +51807,9 @@
     "name": "UNIT 22, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129932",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066877"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066877",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51670,8 +51825,9 @@
     "name": "UNIT 22, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130144036",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066878"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066878",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51687,8 +51843,9 @@
     "name": "UNIT 23, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129945",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066879"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066879",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51704,8 +51861,9 @@
     "name": "UNIT 23, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130144043",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066880"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066880",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51721,8 +51879,9 @@
     "name": "UNIT 24, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129950",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066881"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066881",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51738,8 +51897,9 @@
     "name": "UNIT 24, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130144058",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066882"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066882",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51755,8 +51915,9 @@
     "name": "UNIT 25, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129966",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066883"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066883",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51772,8 +51933,9 @@
     "name": "UNIT 25, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130144062",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066884"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066884",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51789,8 +51951,9 @@
     "name": "UNIT 26, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129978",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066885"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066885",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51806,8 +51969,9 @@
     "name": "UNIT 26, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130144070",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066886"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066886",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51823,8 +51987,9 @@
     "name": "UNIT 27, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130144089",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066887"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066887",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51840,8 +52005,9 @@
     "name": "UNIT 28, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130144091",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066888"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066888",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51857,8 +52023,9 @@
     "name": "UNIT 29, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130144101",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066889"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066889",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -51928,8 +52095,9 @@
     "name": "UNIT 2, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129945",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066894"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066894",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -52052,8 +52220,9 @@
     "name": "UNIT 2, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130144058",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066901"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066901",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -52069,8 +52238,9 @@
     "name": "UNIT 30, 9 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130144129",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066902"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066902",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -52140,8 +52310,9 @@
     "name": "UNIT 3, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129984",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066907"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066907",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -52336,8 +52507,9 @@
     "name": "UNIT 4, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130133263",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066919"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066919",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -52531,8 +52703,9 @@
     "name": "UNIT 5, 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130133271",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066931"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066931",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -53335,9 +53508,9 @@
     "name": "114 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130176651",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425066980",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -53622,8 +53795,9 @@
     "name": "28 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130144091",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425066997"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425066997",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -54532,8 +54706,9 @@
     "name": "LOT 71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130133271",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425067052"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425067052",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -54672,9 +54847,9 @@
     "name": "UNIT 2, 32 WELLINGTON STREET KLEMZIG 5087",
     "locID": "LOC000171452484",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425070319",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -54690,9 +54865,9 @@
     "name": "UNIT 3, 32 WELLINGTON STREET KLEMZIG 5087",
     "locID": "LOC000130151083",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425070320",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -54708,9 +54883,9 @@
     "name": "39A WILPENA AVENUE KLEMZIG 5087",
     "locID": "LOC000130180559",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425070584",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -54762,8 +54937,9 @@
     "name": "UNIT 10, 11-15 O G ROAD KLEMZIG 5087",
     "locID": "LOC000171451538",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425071833"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425071833",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -54797,8 +54973,9 @@
     "name": "UNIT 11, 11-15 O G ROAD KLEMZIG 5087",
     "locID": "LOC000171451540",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425071835"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425071835",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -54832,8 +55009,9 @@
     "name": "UNIT 12, 11-15 O G ROAD KLEMZIG 5087",
     "locID": "LOC000171451555",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425071837"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425071837",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -54885,8 +55063,9 @@
     "name": "UNIT 14, 11-15 O G ROAD KLEMZIG 5087",
     "locID": "LOC000171451572",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425071840"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425071840",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -54920,8 +55099,9 @@
     "name": "UNIT 16, 11-15 O G ROAD KLEMZIG 5087",
     "locID": "LOC000171451593",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425071842"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425071842",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -54937,8 +55117,9 @@
     "name": "UNIT 17, 11-15 O G ROAD KLEMZIG 5087",
     "locID": "LOC000171451604",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425071843"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425071843",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -54972,9 +55153,9 @@
     "name": "UNIT 1, 114 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130176651",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425071845",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -55062,9 +55243,9 @@
     "name": "UNIT 2, 114 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130176667",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425071850",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -55080,8 +55261,9 @@
     "name": "UNIT 2, 11-15 O G ROAD KLEMZIG 5087",
     "locID": "LOC000171451627",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425071851"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425071851",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -55187,8 +55369,9 @@
     "name": "UNIT 4, 11-15 O G ROAD KLEMZIG 5087",
     "locID": "LOC000171451643",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425071857"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425071857",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -55240,8 +55423,9 @@
     "name": "UNIT 5, 11-15 O G ROAD KLEMZIG 5087",
     "locID": "LOC000171451540",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425071860"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425071860",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -55293,8 +55477,9 @@
     "name": "UNIT 6, 11-15 O G ROAD KLEMZIG 5087",
     "locID": "LOC000171451662",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425071863"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425071863",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -55328,8 +55513,9 @@
     "name": "UNIT 7, 11-15 O G ROAD KLEMZIG 5087",
     "locID": "LOC000171451670",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425071865"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425071865",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -55363,8 +55549,9 @@
     "name": "UNIT 8, 11-15 O G ROAD KLEMZIG 5087",
     "locID": "LOC000171451689",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425071867"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425071867",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -55470,8 +55657,9 @@
     "name": "27 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130144089",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425071876"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425071876",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -55611,8 +55799,9 @@
     "name": "UNIT 1, 80 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130137201",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425075192"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_425075192",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -56113,8 +56302,9 @@
     "name": "71 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130133271",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425075225"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425075225",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -57384,8 +57574,9 @@
     "name": "UNIT 13, 206-208 NORTH EAST ROAD KLEMZIG 5087",
     "locID": "LOC000171451248",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425446102"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425446102",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -57521,9 +57712,9 @@
     "name": "11A WELLINGTON STREET KLEMZIG 5087",
     "locID": "LOC000171453561",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425457580",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -58047,10 +58238,10 @@
    "properties": {
     "name": "UNIT 8, 45 FOURTH AVENUE KLEMZIG 5087",
     "locID": "LOC000171449880",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GASA_425533597",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -58727,8 +58918,9 @@
     "name": "LOT 21 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130144027",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425713069"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425713069",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -58762,8 +58954,9 @@
     "name": "LOT 23 O G ROAD KLEMZIG 5087",
     "locID": "LOC000130129945",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425713071"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425713071",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -59160,8 +59353,9 @@
     "name": "UNIT 1, 4 O G ROAD KLEMZIG 5087",
     "locID": "LOC000171451643",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_718978913"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_718978913",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -59791,9 +59985,9 @@
     "name": "13 TREGOWETH COURT KLEMZIG 5087",
     "locID": "LOC000171452942",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719046673",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -59809,9 +60003,9 @@
     "name": "15 TREGOWETH COURT KLEMZIG 5087",
     "locID": "LOC000171452961",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719047014",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -59845,9 +60039,9 @@
     "name": "14 TREGOWETH COURT KLEMZIG 5087",
     "locID": "LOC000171452957",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719047711",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -59881,9 +60075,9 @@
     "name": "12 TREGOWETH COURT KLEMZIG 5087",
     "locID": "LOC000171452935",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719048737",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -59899,9 +60093,9 @@
     "name": "11 TREGOWETH COURT KLEMZIG 5087",
     "locID": "LOC100069134345",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719048738",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -60334,9 +60528,9 @@
     "name": "37A WILPENA AVENUE KLEMZIG 5087",
     "locID": "LOC100068439800",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719393058",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -60352,9 +60546,9 @@
     "name": "37D WILPENA AVENUE KLEMZIG 5087",
     "locID": "LOC100068439837",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719393361",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -60370,9 +60564,9 @@
     "name": "14A BOUCAUT AVENUE KLEMZIG 5087",
     "locID": "LOC100069134117",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719394624",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -60405,9 +60599,9 @@
     "name": "37C WILPENA AVENUE KLEMZIG 5087",
     "locID": "LOC100068439828",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719397478",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -60440,9 +60634,9 @@
     "name": "37B WILPENA AVENUE KLEMZIG 5087",
     "locID": "LOC100068439816",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719398197",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -61166,9 +61360,9 @@
     "name": "18 TREGOWETH COURT KLEMZIG 5087",
     "locID": "LOC000171453189",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719653007",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -61529,9 +61723,9 @@
     "name": "17A THAMES AVENUE KLEMZIG 5087",
     "locID": "LOC100069134441",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_720074316",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -64377,8 +64571,9 @@
     "name": "LOT 252 FIFE STREET KLEMZIG 5087",
     "locID": "LOC100068439774",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_721200249"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_721200249",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -64428,8 +64623,9 @@
     "name": "LOT 251 FIFE STREET KLEMZIG 5087",
     "locID": "LOC100068439774",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_721201541"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_721201541",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {

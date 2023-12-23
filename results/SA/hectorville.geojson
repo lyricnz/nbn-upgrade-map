@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-08T15:43:17.133448",
+ "generated": "2023-12-16T17:46:50.210642",
  "suburb": "HECTORVILLE",
  "features": [
   {
@@ -952,9 +952,9 @@
     "name": "5A BINNSWOOD STREET HECTORVILLE 5073",
     "locID": "LOC000021709356",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_414955427",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -970,9 +970,9 @@
     "name": "5B BINNSWOOD STREET HECTORVILLE 5073",
     "locID": "LOC000021687710",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_414955428",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1417,8 +1417,9 @@
     "name": "65 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000107028303",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_414979357"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_414979357",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1974,6 +1975,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.66937701,
+     -34.8953526
+    ]
+   },
+   "properties": {
+    "name": "10 EVE STREET HECTORVILLE 5073",
+    "locID": "ChIJbZW7rlzKsGoRCj45WVaKVbw",
+    "tech": "NULL",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GASA_415043950"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.66535938,
      -34.8905341
     ]
@@ -2449,9 +2467,9 @@
     "name": "63 REID AVENUE HECTORVILLE 5073",
     "locID": "LOC000181270635",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415061384",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3379,9 +3397,9 @@
     "name": "44 WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000022519689",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415070455",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3397,9 +3415,9 @@
     "name": "46 WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000082038168",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415070456",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3415,9 +3433,9 @@
     "name": "48 WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000096637997",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415070457",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3433,9 +3451,9 @@
     "name": "50 WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000017845285",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415070458",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3451,9 +3469,9 @@
     "name": "52 WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000070907972",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415070459",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3881,9 +3899,9 @@
     "name": "16 WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000010401526",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415071593",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3899,9 +3917,9 @@
     "name": "12 WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000042704145",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415071595",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5486,10 +5504,9 @@
    "properties": {
     "name": "8 ALMA STREET HECTORVILLE 5073",
     "locID": "LOC000018674128",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415098439",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415098439"
    }
   },
   {
@@ -5612,9 +5629,9 @@
     "name": "28A MOORLANDS ROAD HECTORVILLE 5073",
     "locID": "LOC000071973279",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415100180",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5630,9 +5647,9 @@
     "name": "28B MOORLANDS ROAD HECTORVILLE 5073",
     "locID": "LOC000072094351",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415100181",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6116,8 +6133,9 @@
     "name": "40 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000043681142",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415124186"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415124186",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6133,8 +6151,9 @@
     "name": "42 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000031864965",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415124187"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415124187",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -6275,9 +6294,9 @@
     "name": "49 WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000085622553",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415126168",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6293,9 +6312,9 @@
     "name": "47 WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000017879936",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415126169",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6508,9 +6527,9 @@
     "name": "2 NEW CUT STREET HECTORVILLE 5073",
     "locID": "LOC000103944806",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415131367",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6544,9 +6563,9 @@
     "name": "7 BINNSWOOD STREET HECTORVILLE 5073",
     "locID": "LOC000085744132",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415133236",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6562,9 +6581,9 @@
     "name": "3 BINNSWOOD STREET HECTORVILLE 5073",
     "locID": "LOC000052376780",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415133237",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6956,9 +6975,9 @@
     "name": "24 MOORLANDS ROAD HECTORVILLE 5073",
     "locID": "LOC000106929841",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415141956",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6974,9 +6993,9 @@
     "name": "26 MOORLANDS ROAD HECTORVILLE 5073",
     "locID": "LOC000103950623",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415141957",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7117,8 +7136,9 @@
     "name": "47 ROSS ROAD HECTORVILLE 5073",
     "locID": "LOC000078537361",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415142096"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415142096",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7134,8 +7154,9 @@
     "name": "49 ROSS ROAD HECTORVILLE 5073",
     "locID": "LOC000052031696",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415142097"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415142097",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7151,8 +7172,9 @@
     "name": "51 ROSS ROAD HECTORVILLE 5073",
     "locID": "LOC000025214952",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415142098"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415142098",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7168,8 +7190,9 @@
     "name": "53 ROSS ROAD HECTORVILLE 5073",
     "locID": "LOC000181271276",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415142099"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415142099",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7256,9 +7279,9 @@
     "name": "23 MOORLANDS ROAD HECTORVILLE 5073",
     "locID": "LOC000097762487",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415142105",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7291,10 +7314,9 @@
    "properties": {
     "name": "14 MOORLANDS ROAD HECTORVILLE 5073",
     "locID": "LOC000064583407",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415142861",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415142861"
    }
   },
   {
@@ -7544,9 +7566,9 @@
     "name": "2 BINNSWOOD STREET HECTORVILLE 5073",
     "locID": "LOC000087616897",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415145623",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7580,9 +7602,9 @@
     "name": "4 BINNSWOOD STREET HECTORVILLE 5073",
     "locID": "LOC000048989555",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415145625",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7598,9 +7620,9 @@
     "name": "6 BINNSWOOD STREET HECTORVILLE 5073",
     "locID": "LOC000085985355",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415145626",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7616,9 +7638,9 @@
     "name": "8 BINNSWOOD STREET HECTORVILLE 5073",
     "locID": "LOC000096104026",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415145627",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -8206,9 +8228,9 @@
     "name": "15 WATSON STREET HECTORVILLE 5073",
     "locID": "LOC000184856302",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415157612",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -8242,9 +8264,9 @@
     "name": "21 MOORLANDS ROAD HECTORVILLE 5073",
     "locID": "LOC000010068922",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415158519",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -8260,9 +8282,9 @@
     "name": "19 MOORLANDS ROAD HECTORVILLE 5073",
     "locID": "LOC000032530718",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415158520",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -8278,9 +8300,9 @@
     "name": "15 MOORLANDS ROAD HECTORVILLE 5073",
     "locID": "LOC000110032257",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415158521",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -8723,9 +8745,9 @@
     "name": "14 DAWN AVENUE HECTORVILLE 5073",
     "locID": "LOC100074602697",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415162306",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -9613,9 +9635,9 @@
     "name": "67 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000071451458",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415205144",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -10862,9 +10884,9 @@
     "name": "53 WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000042725317",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415231126",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -11111,9 +11133,9 @@
     "name": "18 SARE STREET HECTORVILLE 5073",
     "locID": "LOC000039341804",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415235043",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -11345,9 +11367,9 @@
     "name": "3 ARMAGH AVENUE HECTORVILLE 5073",
     "locID": "LOC000181257451",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415235058",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -12230,9 +12252,9 @@
     "name": "13 WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000072517783",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415246202",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -12320,9 +12342,9 @@
     "name": "9 WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000070957039",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415248155",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -12338,9 +12360,9 @@
     "name": "11 WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000030821745",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415248156",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -12691,9 +12713,9 @@
     "name": "48 MONTACUTE ROAD HECTORVILLE 5073",
     "locID": "LOC000022573885",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415251352",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13601,9 +13623,9 @@
     "name": "53 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000059576428",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415279139",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13619,9 +13641,9 @@
     "name": "55 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000049054032",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415279140",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13637,9 +13659,9 @@
     "name": "57 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000064067664",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415279141",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13673,9 +13695,9 @@
     "name": "61 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000078046597",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415279143",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13708,9 +13730,9 @@
     "name": "6 MELBA COURT HECTORVILLE 5073",
     "locID": "LOC000005431681",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415279145",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13726,8 +13748,9 @@
     "name": "7 MELBA COURT HECTORVILLE 5073",
     "locID": "LOC000072125956",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415279146"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415279146",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13743,9 +13766,9 @@
     "name": "5 MELBA COURT HECTORVILLE 5073",
     "locID": "LOC000059697123",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415279147",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13813,9 +13836,9 @@
     "name": "4 MELBA COURT HECTORVILLE 5073",
     "locID": "LOC000130140887",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415281876",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13831,9 +13854,9 @@
     "name": "3 MELBA COURT HECTORVILLE 5073",
     "locID": "LOC000044502241",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415284644",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13849,9 +13872,9 @@
     "name": "2 MELBA COURT HECTORVILLE 5073",
     "locID": "LOC000091810456",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415284645",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -14653,8 +14676,9 @@
     "name": "50 ROSS ROAD HECTORVILLE 5073",
     "locID": "LOC000062254179",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415297095"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415297095",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -14670,8 +14694,9 @@
     "name": "52 ROSS ROAD HECTORVILLE 5073",
     "locID": "LOC000105559417",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415297096"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415297096",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -15010,8 +15035,9 @@
     "name": "6 AYSGARTH AVENUE HECTORVILLE 5073",
     "locID": "LOC000181257390",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415297123"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415297123",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -15223,9 +15249,9 @@
     "name": "24 LLOYD STREET HECTORVILLE 5073",
     "locID": "LOC000016743998",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415341298",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -15241,9 +15267,9 @@
     "name": "17 LLOYD STREET HECTORVILLE 5073",
     "locID": "LOC000073450521",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415343988",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -15259,9 +15285,9 @@
     "name": "19 LLOYD STREET HECTORVILLE 5073",
     "locID": "LOC000026719474",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415343989",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -15277,9 +15303,9 @@
     "name": "21 LLOYD STREET HECTORVILLE 5073",
     "locID": "LOC000036167242",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415343990",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -15295,9 +15321,9 @@
     "name": "23 LLOYD STREET HECTORVILLE 5073",
     "locID": "LOC000020915465",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415343991",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -15349,9 +15375,9 @@
     "name": "22 LLOYD STREET HECTORVILLE 5073",
     "locID": "LOC000070256976",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415344015",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -15367,9 +15393,9 @@
     "name": "20 LLOYD STREET HECTORVILLE 5073",
     "locID": "LOC000027505715",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415344016",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -15385,9 +15411,9 @@
     "name": "18 LLOYD STREET HECTORVILLE 5073",
     "locID": "LOC000079645662",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415344017",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -15403,9 +15429,9 @@
     "name": "16 LLOYD STREET HECTORVILLE 5073",
     "locID": "LOC000099013419",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415344018",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -16445,9 +16471,8 @@
     "name": "11 HENRY STREET HECTORVILLE 5073",
     "locID": "LOC000037320263",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GASA_415355295",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415355295"
    }
   },
   {
@@ -17246,9 +17271,9 @@
     "name": "11 NORTH STREET HECTORVILLE 5073",
     "locID": "LOC000032468288",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415431082",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -17351,9 +17376,9 @@
     "name": "38 MONTACUTE ROAD HECTORVILLE 5073",
     "locID": "LOC000041349134",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415431090",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -17919,9 +17944,8 @@
     "name": "8 GOSFORD STREET HECTORVILLE 5073",
     "locID": "LOC000018391133",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GASA_415439726",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415439726"
    }
   },
   {
@@ -18647,9 +18671,9 @@
     "name": "16 JARVIS DRIVE HECTORVILLE 5073",
     "locID": "LOC000033558176",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415443164",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -18755,9 +18779,9 @@
     "name": "9 NORTH STREET HECTORVILLE 5073",
     "locID": "LOC000052358531",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415443186",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -18826,9 +18850,9 @@
     "name": "24 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000063753177",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415443190",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -18844,9 +18868,9 @@
     "name": "22 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000009300514",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415443191",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -18915,9 +18939,9 @@
     "name": "35 SOUTH STREET HECTORVILLE 5073",
     "locID": "LOC000078249261",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415445150",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -19933,9 +19957,9 @@
     "name": "49 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000033331074",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415541991",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -20040,9 +20064,9 @@
     "name": "33 MCBEATH STREET HECTORVILLE 5073",
     "locID": "LOC000097226038",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415550975",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -20219,8 +20243,9 @@
     "name": "2A KATHERINE STREET HECTORVILLE 5073",
     "locID": "LOC000036969900",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415570619"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415570619",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -21077,8 +21102,9 @@
     "name": "UNIT 4, 37 MCBEATH STREET HECTORVILLE 5073",
     "locID": "LOC000067839709",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415621097"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415621097",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21094,8 +21120,9 @@
     "name": "UNIT 5, 37 MCBEATH STREET HECTORVILLE 5073",
     "locID": "LOC000068037440",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415621098"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415621098",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21111,8 +21138,9 @@
     "name": "UNIT 6, 37 MCBEATH STREET HECTORVILLE 5073",
     "locID": "LOC000068081885",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415621099"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415621099",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21232,8 +21260,9 @@
     "name": "UNIT 1, 8 LYNETTE AVENUE HECTORVILLE 5073",
     "locID": "LOC000042679260",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415623293"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415623293",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21249,8 +21278,9 @@
     "name": "UNIT 2, 8 LYNETTE AVENUE HECTORVILLE 5073",
     "locID": "LOC000042330373",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415623294"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415623294",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21284,8 +21314,9 @@
     "name": "UNIT 4, 8 LYNETTE AVENUE HECTORVILLE 5073",
     "locID": "LOC000042619846",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415625186"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415625186",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21301,8 +21332,9 @@
     "name": "UNIT 5, 8 LYNETTE AVENUE HECTORVILLE 5073",
     "locID": "LOC000042330373",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415625187"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415625187",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21426,9 +21458,9 @@
     "name": "UNIT 1, 66 MAYFIELD AVENUE HECTORVILLE 5073",
     "locID": "LOC000044664639",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415629500",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -21444,9 +21476,9 @@
     "name": "UNIT 2, 66A MAYFIELD AVENUE HECTORVILLE 5073",
     "locID": "LOC000044685995",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415629501",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22361,8 +22393,9 @@
     "name": "UNIT 10, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052268798",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415648270"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415648270",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22378,8 +22411,9 @@
     "name": "UNIT 11, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052520554",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415648271"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415648271",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22395,8 +22429,9 @@
     "name": "UNIT 12, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052517979",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415648272"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415648272",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22412,8 +22447,9 @@
     "name": "UNIT 13, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052597269",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415648275"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415648275",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22429,8 +22465,9 @@
     "name": "UNIT 14, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052509273",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415648279"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415648279",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22446,8 +22483,9 @@
     "name": "UNIT 15, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052305439",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415648283"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415648283",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22463,8 +22501,9 @@
     "name": "UNIT 16, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052636157",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415648321"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415648321",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22480,8 +22519,9 @@
     "name": "UNIT 17, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052593518",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415648322"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415648322",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22515,8 +22555,9 @@
     "name": "UNIT 3, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052511160",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415648324"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415648324",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22532,8 +22573,9 @@
     "name": "UNIT 4, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052273613",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415648325"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415648325",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22549,8 +22591,9 @@
     "name": "UNIT 5, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052457333",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415650925"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415650925",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22566,8 +22609,9 @@
     "name": "UNIT 6, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052488502",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415650929"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415650929",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22583,8 +22627,9 @@
     "name": "UNIT 7, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052262001",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415650932"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415650932",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22600,8 +22645,9 @@
     "name": "UNIT 8, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052648464",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415650936"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415650936",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22617,8 +22663,9 @@
     "name": "UNIT 9, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052268714",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415650939"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415650939",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22634,8 +22681,9 @@
     "name": "UNIT 1, 48 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000085805943",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415652324"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415652324",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22651,8 +22699,9 @@
     "name": "UNIT 2, 48 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000085634689",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415652325"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415652325",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22668,8 +22717,9 @@
     "name": "UNIT 3, 48 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000085597018",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415652326"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415652326",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -23025,8 +23075,9 @@
     "name": "UNIT 1, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052597269",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415660351"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415660351",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23042,9 +23093,9 @@
     "name": "UNIT 1, 3 MARCO STREET HECTORVILLE 5073",
     "locID": "LOC000097585276",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415662951",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -23150,9 +23201,9 @@
     "name": "UNIT 2, 3 MARCO STREET HECTORVILLE 5073",
     "locID": "LOC000097583762",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415664942",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -23328,8 +23379,9 @@
     "name": "UNIT 1, 30 MCBEATH STREET HECTORVILLE 5073",
     "locID": "LOC000056408932",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415670287"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415670287",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23345,9 +23397,9 @@
     "name": "UNIT 1, 50 MAYFIELD AVENUE HECTORVILLE 5073",
     "locID": "LOC000061672107",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415671375",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -23363,9 +23415,9 @@
     "name": "UNIT 2, 50 MAYFIELD AVENUE HECTORVILLE 5073",
     "locID": "LOC000061919467",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415671376",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -23381,8 +23433,9 @@
     "name": "UNIT 10, 9 LELOS STREET HECTORVILLE 5073",
     "locID": "LOC000079625083",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415672953"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415672953",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23398,8 +23451,9 @@
     "name": "UNIT 11, 9 LELOS STREET HECTORVILLE 5073",
     "locID": "LOC000079389255",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415672954"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415672954",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23415,8 +23469,9 @@
     "name": "UNIT 12, 9 LELOS STREET HECTORVILLE 5073",
     "locID": "LOC000079732109",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415672955"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415672955",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23432,8 +23487,9 @@
     "name": "UNIT 2, 30 MCBEATH STREET HECTORVILLE 5073",
     "locID": "LOC000056631666",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415672956"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415672956",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23449,8 +23505,9 @@
     "name": "UNIT 3, 30 MCBEATH STREET HECTORVILLE 5073",
     "locID": "LOC000056631666",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415672957"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415672957",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23466,8 +23523,9 @@
     "name": "UNIT 4, 30 MCBEATH STREET HECTORVILLE 5073",
     "locID": "LOC000055520383",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415672958"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415672958",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23483,8 +23541,9 @@
     "name": "UNIT 5, 30 MCBEATH STREET HECTORVILLE 5073",
     "locID": "LOC000056631666",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415672975"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415672975",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23500,8 +23559,9 @@
     "name": "UNIT 6, 30 MCBEATH STREET HECTORVILLE 5073",
     "locID": "LOC000056044711",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415672976"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415672976",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23517,8 +23577,9 @@
     "name": "UNIT 7, 9 LELOS STREET HECTORVILLE 5073",
     "locID": "LOC000079189004",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415672977"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415672977",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23534,8 +23595,9 @@
     "name": "UNIT 8, 9 LELOS STREET HECTORVILLE 5073",
     "locID": "LOC000079272128",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415672978"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415672978",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23551,8 +23613,9 @@
     "name": "UNIT 9, 30 MCBEATH STREET HECTORVILLE 5073",
     "locID": "LOC000055512984",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415672979"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415672979",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -24107,8 +24170,9 @@
     "name": "UNIT 3, 63 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000072872273",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415684722"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415684722",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -24232,8 +24296,9 @@
     "name": "UNIT 1, 63 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000072873206",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415686724"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415686724",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -24249,8 +24314,9 @@
     "name": "UNIT 2, 63 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000072533655",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415686725"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415686725",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -24871,8 +24937,9 @@
     "name": "UNIT 1, 6 LYNETTE AVENUE HECTORVILLE 5073",
     "locID": "LOC000020832109",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415700082"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415700082",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -24888,8 +24955,9 @@
     "name": "UNIT 2, 6 LYNETTE AVENUE HECTORVILLE 5073",
     "locID": "LOC000020880182",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415700083"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415700083",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -24905,8 +24973,9 @@
     "name": "UNIT 3, 6 LYNETTE AVENUE HECTORVILLE 5073",
     "locID": "LOC000020827702",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415700084"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415700084",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -24922,8 +24991,9 @@
     "name": "UNIT 4, 6 LYNETTE AVENUE HECTORVILLE 5073",
     "locID": "LOC000020978189",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415700085"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415700085",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -24939,8 +25009,9 @@
     "name": "UNIT 5, 6 LYNETTE AVENUE HECTORVILLE 5073",
     "locID": "LOC000020878768",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415700086"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415700086",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -24992,8 +25063,9 @@
     "name": "UNIT 3, 4 LYNETTE AVENUE HECTORVILLE 5073",
     "locID": "LOC000074154954",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415700089"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415700089",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -25009,8 +25081,9 @@
     "name": "UNIT 4, 4 LYNETTE AVENUE HECTORVILLE 5073",
     "locID": "LOC000073908036",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415700090"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415700090",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -25026,8 +25099,9 @@
     "name": "UNIT 5, 4 LYNETTE AVENUE HECTORVILLE 5073",
     "locID": "LOC000073908036",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415700091"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415700091",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -25668,9 +25742,9 @@
     "name": "UNIT 1, 35 SOUTH STREET HECTORVILLE 5073",
     "locID": "LOC000077835943",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416042399",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -25739,8 +25813,9 @@
     "name": "UNIT 23, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052525332",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416042947"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416042947",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -25809,8 +25884,9 @@
     "name": "UNIT 18, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052372156",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416043925"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416043925",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -25826,8 +25902,9 @@
     "name": "UNIT 19, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052604873",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416043926"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416043926",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -25843,8 +25920,9 @@
     "name": "UNIT 20, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052511720",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416043928"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416043928",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -25860,8 +25938,9 @@
     "name": "UNIT 21, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052493723",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416043929"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416043929",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -25877,8 +25956,9 @@
     "name": "UNIT 22, 44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052553931",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416043930"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416043930",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26163,9 +26243,9 @@
     "name": "UNIT 2, 35 SOUTH STREET HECTORVILLE 5073",
     "locID": "LOC000078249261",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416047544",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -26926,9 +27006,9 @@
     "name": "66 MAYFIELD AVENUE HECTORVILLE 5073",
     "locID": "LOC000044664639",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416053767",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -27511,8 +27591,9 @@
     "name": "UNIT 1, 42 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000031642046",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416058615"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416058615",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27528,8 +27609,9 @@
     "name": "UNIT 3, 42 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000031759803",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416058616"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416058616",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27545,8 +27627,9 @@
     "name": "UNIT 4, 42 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000031976320",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416058617"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416058617",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27562,8 +27645,9 @@
     "name": "UNIT 5, 42 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000031864965",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416058618"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416058618",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27579,8 +27663,9 @@
     "name": "UNIT 6, 42 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000031859279",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416058619"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416058619",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27596,9 +27681,9 @@
     "name": "66A MAYFIELD AVENUE HECTORVILLE 5073",
     "locID": "LOC000044685995",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416058736",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -27894,8 +27979,9 @@
     "name": "UNIT 2, 65 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000106911440",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416059800"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_416059800",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -28125,8 +28211,9 @@
     "name": "UNIT 2, 42 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000031864965",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416063122"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416063122",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28511,8 +28598,9 @@
     "name": "UNIT 1, 52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082882515",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416716193"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416716193",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28528,8 +28616,9 @@
     "name": "UNIT 16, 52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082555163",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416716199"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416716199",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28631,8 +28720,9 @@
     "name": "UNIT 11, 52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082555171",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416717123"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416717123",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28753,8 +28843,9 @@
     "name": "UNIT 3, 52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082826019",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416720608"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416720608",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28770,8 +28861,9 @@
     "name": "UNIT 2, 52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082826026",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416720613"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416720613",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28787,8 +28879,9 @@
     "name": "UNIT 7, 52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082826035",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416720614"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416720614",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28804,8 +28897,9 @@
     "name": "UNIT 5, 52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082826042",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416720619"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416720619",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28821,8 +28915,9 @@
     "name": "UNIT 10, 52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082570590",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416720768"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416720768",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28838,8 +28933,9 @@
     "name": "UNIT 6, 52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082570601",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416720773"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416720773",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28855,8 +28951,9 @@
     "name": "UNIT 4, 52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082570617",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416720775"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416720775",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28872,8 +28969,9 @@
     "name": "UNIT 12, 52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082882504",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416720776"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416720776",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28889,8 +28987,9 @@
     "name": "UNIT 14, 52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082882515",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416720780"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416720780",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28906,8 +29005,9 @@
     "name": "UNIT 13, 52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082898046",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416720784"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416720784",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28975,8 +29075,9 @@
     "name": "UNIT 15, 52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082579489",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416721007"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416721007",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29045,8 +29146,9 @@
     "name": "UNIT 8, 52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082826057",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416724280"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416724280",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29062,8 +29164,9 @@
     "name": "UNIT 9, 52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082826061",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416724282"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416724282",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29079,8 +29182,9 @@
     "name": "UNIT 9, 9 LELOS STREET HECTORVILLE 5073",
     "locID": "LOC000079272128",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416724284"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416724284",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29272,9 +29376,9 @@
     "name": "UNIT 2, 4 MELBA COURT HECTORVILLE 5073",
     "locID": "LOC000130140887",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_421968926",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -29705,8 +29809,9 @@
     "name": "4 LYNETTE AVENUE HECTORVILLE 5073",
     "locID": "LOC000073908036",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_422038346"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_422038346",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29722,8 +29827,9 @@
     "name": "6 LYNETTE AVENUE HECTORVILLE 5073",
     "locID": "LOC000020878768",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_422038347"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_422038347",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29739,8 +29845,9 @@
     "name": "8 LYNETTE AVENUE HECTORVILLE 5073",
     "locID": "LOC000042330373",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_422038348"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_422038348",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29810,9 +29917,9 @@
     "name": "50 MAYFIELD AVENUE HECTORVILLE 5073",
     "locID": "LOC000061672107",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_422041622",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -29918,8 +30025,9 @@
     "name": "63 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000072533655",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_422042828"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_422042828",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -30007,8 +30115,9 @@
     "name": "48 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000085805943",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_422047181"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_422047181",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -30113,8 +30222,9 @@
     "name": "9 LELOS STREET HECTORVILLE 5073",
     "locID": "LOC000079272128",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_422049563"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_422049563",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30220,8 +30330,9 @@
     "name": "44 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000052273613",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_422051944"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_422051944",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30753,9 +30864,9 @@
     "name": "4A MELBA COURT HECTORVILLE 5073",
     "locID": "LOC000130140887",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423016456",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -30771,9 +30882,9 @@
     "name": "4B MELBA COURT HECTORVILLE 5073",
     "locID": "LOC000130140894",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423016457",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -31339,9 +31450,9 @@
     "name": "18A WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000058347682",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423692058",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -31357,9 +31468,9 @@
     "name": "18B WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000058551614",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423692059",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -31554,8 +31665,9 @@
     "name": "UNIT 1, 7 MELBA COURT HECTORVILLE 5073",
     "locID": "LOC000072353439",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_423816448"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_423816448",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -31571,8 +31683,9 @@
     "name": "UNIT 2, 7 MELBA COURT HECTORVILLE 5073",
     "locID": "LOC000072207717",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_423816449"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_423816449",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -31588,8 +31701,9 @@
     "name": "UNIT 3, 7 MELBA COURT HECTORVILLE 5073",
     "locID": "LOC000072125956",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_423816450"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_423816450",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -31731,8 +31845,9 @@
     "name": "32 GLYNBURN ROAD HECTORVILLE 5073",
     "locID": "LOC000047848881",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_423865560"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423865560",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -31784,8 +31899,9 @@
     "name": "52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082826042",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_423866258"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423866258",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -31853,9 +31969,9 @@
     "name": "3 MARCO STREET HECTORVILLE 5073",
     "locID": "LOC000097585276",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423867677",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -31871,8 +31987,9 @@
     "name": "30 MCBEATH STREET HECTORVILLE 5073",
     "locID": "LOC000056631666",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_423867895"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_423867895",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32134,9 +32251,9 @@
     "name": "58A WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000039081099",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423962492",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -32152,9 +32269,9 @@
     "name": "58B WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000039470173",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423962493",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -32332,9 +32449,9 @@
     "name": "26A MOORLANDS ROAD HECTORVILLE 5073",
     "locID": "LOC000103950623",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424013314",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -32350,9 +32467,9 @@
     "name": "26B MOORLANDS ROAD HECTORVILLE 5073",
     "locID": "LOC000103855851",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424013315",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -32368,9 +32485,9 @@
     "name": "3A BINNSWOOD STREET HECTORVILLE 5073",
     "locID": "LOC000052376780",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424056562",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -32386,9 +32503,9 @@
     "name": "3B BINNSWOOD STREET HECTORVILLE 5073",
     "locID": "LOC000052504193",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424056563",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -32671,8 +32788,9 @@
     "name": "LOT 65 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000107028303",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424178059"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_424178059",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -33328,9 +33446,9 @@
     "name": "1B BINNSWOOD STREET HECTORVILLE 5073",
     "locID": "LOC000004282686",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424517534",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -33525,9 +33643,9 @@
     "name": "44A WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000022444773",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424567276",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -33543,9 +33661,9 @@
     "name": "44B WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000022519689",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424567277",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -33561,9 +33679,9 @@
     "name": "1C BINNSWOOD STREET HECTORVILLE 5073",
     "locID": "LOC000004552107",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424567740",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -34483,9 +34601,9 @@
     "name": "30A MOORLANDS ROAD HECTORVILLE 5073",
     "locID": "LOC000116142116",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424831625",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -34501,9 +34619,9 @@
     "name": "30B MOORLANDS ROAD HECTORVILLE 5073",
     "locID": "LOC000116142128",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424831626",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -34536,10 +34654,9 @@
    "properties": {
     "name": "188B ST BERNARDS ROAD HECTORVILLE 5073",
     "locID": "LOC000116142035",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_424832456",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_424832456"
    }
   },
   {
@@ -34912,9 +35029,9 @@
     "name": "14A WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000070437889",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425301055",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -34930,9 +35047,9 @@
     "name": "14B WEMBLEY AVENUE HECTORVILLE 5073",
     "locID": "LOC000165272068",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425301056",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -34999,9 +35116,9 @@
     "name": "20C HENRY STREET HECTORVILLE 5073",
     "locID": "LOC000165270924",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425301546",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -35071,8 +35188,9 @@
     "name": "UNIT 10, 30 MCBEATH STREET HECTORVILLE 5073",
     "locID": "LOC000056631666",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425358550"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425358550",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -35701,8 +35819,9 @@
     "name": "50-52 HECTORVILLE ROAD HECTORVILLE 5073",
     "locID": "LOC000082826026",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425507982"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425507982",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36320,9 +36439,9 @@
     "name": "1A NEW CUT STREET HECTORVILLE 5073",
     "locID": "LOC000165271321",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719046221",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -36338,9 +36457,9 @@
     "name": "1G NEW CUT STREET HECTORVILLE 5073",
     "locID": "LOC000165271384",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719046222",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -36373,9 +36492,9 @@
     "name": "1C NEW CUT STREET HECTORVILLE 5073",
     "locID": "LOC000165271345",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719046224",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -36443,9 +36562,9 @@
     "name": "1F NEW CUT STREET HECTORVILLE 5073",
     "locID": "LOC000165271378",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719046898",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -36461,9 +36580,9 @@
     "name": "1B NEW CUT STREET HECTORVILLE 5073",
     "locID": "LOC000165271332",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719047612",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -36532,9 +36651,9 @@
     "name": "1D NEW CUT STREET HECTORVILLE 5073",
     "locID": "LOC000165271350",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719047949",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -36639,9 +36758,9 @@
     "name": "1H NEW CUT STREET HECTORVILLE 5073",
     "locID": "LOC000165271397",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719048291",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -36691,9 +36810,9 @@
     "name": "1E NEW CUT STREET HECTORVILLE 5073",
     "locID": "LOC000165271366",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719048294",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -36832,9 +36951,9 @@
     "name": "1C AYSGARTH AVENUE HECTORVILLE 5073",
     "locID": "LOC000172835883",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719194499",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -36886,9 +37005,9 @@
     "name": "1B AYSGARTH AVENUE HECTORVILLE 5073",
     "locID": "LOC000172835877",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719194592",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -37045,9 +37164,9 @@
     "name": "1A AYSGARTH AVENUE HECTORVILLE 5073",
     "locID": "LOC000172835854",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719195283",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -37446,8 +37565,9 @@
     "name": "UNIT 3, 53 ROSS ROAD HECTORVILLE 5073",
     "locID": "LOC000181271295",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_719252920"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_719252920",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -37497,8 +37617,9 @@
     "name": "UNIT 1, 53 ROSS ROAD HECTORVILLE 5073",
     "locID": "LOC000181271276",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_719253251"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_719253251",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -37514,8 +37635,9 @@
     "name": "UNIT 2, 53 ROSS ROAD HECTORVILLE 5073",
     "locID": "LOC000181271282",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_719253283"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_719253283",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -37723,8 +37845,9 @@
     "name": "UNIT 4, 53 ROSS ROAD HECTORVILLE 5073",
     "locID": "LOC000181271305",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_719254090"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_719254090",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -37792,9 +37915,9 @@
     "name": "UNIT 11, 172 ST BERNARDS ROAD HECTORVILLE 5073",
     "locID": "LOC000172836594",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719399417",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -37810,9 +37933,9 @@
     "name": "UNIT 10, 172 ST BERNARDS ROAD HECTORVILLE 5073",
     "locID": "LOC000172836587",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719399568",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -37969,9 +38092,9 @@
     "name": "UNIT 8, 172 ST BERNARDS ROAD HECTORVILLE 5073",
     "locID": "LOC000172836685",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719400117",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -38305,9 +38428,9 @@
     "name": "UNIT 9, 172 ST BERNARDS ROAD HECTORVILLE 5073",
     "locID": "LOC000172836692",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719400620",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -38604,9 +38727,9 @@
     "name": "UNIT 1, 63 REID AVENUE HECTORVILLE 5073",
     "locID": "LOC000181270635",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719536468",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -38622,9 +38745,9 @@
     "name": "UNIT 2, 63 REID AVENUE HECTORVILLE 5073",
     "locID": "LOC000181270642",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719536489",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -38693,9 +38816,9 @@
     "name": "UNIT 4, 63 REID AVENUE HECTORVILLE 5073",
     "locID": "LOC000181270661",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719536666",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -38728,9 +38851,9 @@
     "name": "UNIT 3, 63 REID AVENUE HECTORVILLE 5073",
     "locID": "LOC000181270657",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719536699",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -39211,9 +39334,9 @@
     "name": "22 JARVIS DRIVE HECTORVILLE 5073",
     "locID": "LOC000181260347",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719652662",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -39229,9 +39352,9 @@
     "name": "18 JARVIS DRIVE HECTORVILLE 5073",
     "locID": "LOC000181259918",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719652892",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -39265,9 +39388,9 @@
     "name": "24 JARVIS DRIVE HECTORVILLE 5073",
     "locID": "LOC000181260352",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719652902",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -40482,9 +40605,9 @@
     "name": "UNIT 6, 14 DAWN AVENUE HECTORVILLE 5073",
     "locID": "LOC100074602737",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719866323",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -40517,9 +40640,9 @@
     "name": "UNIT 3, 14 DAWN AVENUE HECTORVILLE 5073",
     "locID": "LOC100074602700",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719866386",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -40535,9 +40658,9 @@
     "name": "UNIT 4, 14 DAWN AVENUE HECTORVILLE 5073",
     "locID": "LOC100074602716",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719866387",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -40570,9 +40693,9 @@
     "name": "UNIT 1, 14 DAWN AVENUE HECTORVILLE 5073",
     "locID": "LOC100074602697",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719866450",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -40605,9 +40728,9 @@
     "name": "UNIT 2, 14 DAWN AVENUE HECTORVILLE 5073",
     "locID": "LOC100074602697",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719866591",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -40691,9 +40814,9 @@
     "name": "UNIT 5, 14 DAWN AVENUE HECTORVILLE 5073",
     "locID": "LOC100074602728",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719866689",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -41413,9 +41536,9 @@
     "name": "UNIT 2, 15 WATSON STREET HECTORVILLE 5073",
     "locID": "LOC000184770309",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_720240317",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -41465,9 +41588,9 @@
     "name": "UNIT 5, 15 WATSON STREET HECTORVILLE 5073",
     "locID": "LOC000184770332",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_720240497",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -41517,9 +41640,9 @@
     "name": "UNIT 3, 15 WATSON STREET HECTORVILLE 5073",
     "locID": "LOC000184770313",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_720240585",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -41535,9 +41658,9 @@
     "name": "UNIT 1, 15 WATSON STREET HECTORVILLE 5073",
     "locID": "LOC000184856302",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_720240586",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -41570,9 +41693,9 @@
     "name": "UNIT 4, 15 WATSON STREET HECTORVILLE 5073",
     "locID": "LOC000184770321",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_720240764",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -42442,8 +42565,9 @@
     "name": "UNIT 1, 9 SOUTH STREET HECTORVILLE 5073",
     "locID": "LOC000079625083",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_720707364"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_720707364",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -42528,8 +42652,9 @@
     "name": "UNIT 3, 9 SOUTH STREET HECTORVILLE 5073",
     "locID": "LOC000055512984",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_720707614"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_720707614",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {

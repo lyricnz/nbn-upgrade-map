@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-06T16:54:01.938979",
+ "generated": "2023-12-13T21:52:55.212632",
  "suburb": "ATHOL PARK",
  "features": [
   {
@@ -76,9 +76,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_414948031",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -154,9 +153,9 @@
     "name": "24 ATHOL STREET ATHOL PARK 5012",
     "locID": "LOC000014176482",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414961610",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -676,7 +675,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415018872",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2023"
    }
@@ -2022,8 +2021,8 @@
    "properties": {
     "name": "9 ALISON STREET ATHOL PARK 5012",
     "locID": "LOC000077796282",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415134711",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2675,10 +2674,9 @@
    "properties": {
     "name": "23 ANNETTE STREET ATHOL PARK 5012",
     "locID": "LOC000077204343",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415144711",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3303,9 +3301,9 @@
     "name": "177 HANSON ROAD ATHOL PARK 5012",
     "locID": "LOC000010921772",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415150357",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -4037,8 +4035,8 @@
    "properties": {
     "name": "57 ALICIA STREET ATHOL PARK 5012",
     "locID": "LOC000032541146",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415153099",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5216,9 +5214,9 @@
     "name": "14 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000005395931",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415304846",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5234,9 +5232,9 @@
     "name": "16 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000028447216",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415304847",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5270,8 +5268,9 @@
     "name": "18 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000166030180",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415304854"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415304854",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -5458,8 +5457,9 @@
     "name": "9 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000116151483",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415319645"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415319645",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -5936,10 +5936,9 @@
    "properties": {
     "name": "50 CLARE STREET ATHOL PARK 5012",
     "locID": "LOC000070172416",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415328787",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415328787"
    }
   },
   {
@@ -6925,7 +6924,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415356006",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7907,9 +7906,9 @@
     "name": "175 HANSON ROAD ATHOL PARK 5012",
     "locID": "LOC000069991634",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415402793",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -8983,10 +8982,9 @@
    "properties": {
     "name": "4 WILLIAM STREET ATHOL PARK 5012",
     "locID": "LOC000082951914",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415408251",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9600,6 +9598,43 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415410982",
     "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.53897163,
+     -34.853287
+    ]
+   },
+   "properties": {
+    "name": "8 ATHOL STREET ATHOL PARK 5012",
+    "locID": "LOC000194161363",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415410983"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.53916513,
+     -34.8532778
+    ]
+   },
+   "properties": {
+    "name": "10 ATHOL STREET ATHOL PARK 5012",
+    "locID": "LOC000060404523",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415410984",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10369,9 +10404,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415682235",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -10389,7 +10423,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415682236",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2023"
    }
@@ -10409,9 +10443,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415682237",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -10524,7 +10557,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415684077",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2023"
    }
@@ -10542,8 +10575,9 @@
     "name": "UNIT 1, 173 HANSON ROAD ATHOL PARK 5012",
     "locID": "LOC000033463804",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415684601"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415684601",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -10559,8 +10593,9 @@
     "name": "UNIT 10, 173 HANSON ROAD ATHOL PARK 5012",
     "locID": "LOC000033499852",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415684602"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415684602",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -10576,8 +10611,9 @@
     "name": "UNIT 2, 173 HANSON ROAD ATHOL PARK 5012",
     "locID": "LOC000033189913",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415684603"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415684603",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -10593,8 +10629,9 @@
     "name": "UNIT 3, 173 HANSON ROAD ATHOL PARK 5012",
     "locID": "LOC000033454110",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415684604"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415684604",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -10610,8 +10647,9 @@
     "name": "UNIT 4, 173 HANSON ROAD ATHOL PARK 5012",
     "locID": "LOC000033463804",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415684605"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415684605",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -10627,8 +10665,9 @@
     "name": "UNIT 5, 173 HANSON ROAD ATHOL PARK 5012",
     "locID": "LOC000033296475",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415684606"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415684606",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -10644,8 +10683,9 @@
     "name": "UNIT 6, 173 HANSON ROAD ATHOL PARK 5012",
     "locID": "LOC000033383154",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415684607"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415684607",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -10661,8 +10701,9 @@
     "name": "UNIT 7, 173 HANSON ROAD ATHOL PARK 5012",
     "locID": "LOC000033436565",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415684608"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415684608",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -10678,8 +10719,9 @@
     "name": "UNIT 8, 173 HANSON ROAD ATHOL PARK 5012",
     "locID": "LOC000033119032",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415684609"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415684609",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -10695,8 +10737,9 @@
     "name": "UNIT 9, 173 HANSON ROAD ATHOL PARK 5012",
     "locID": "LOC000033527771",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415684610"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415684610",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -10848,9 +10891,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415874210",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -10906,9 +10948,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415877036",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -12276,8 +12317,9 @@
     "name": "173 HANSON ROAD ATHOL PARK 5012",
     "locID": "LOC000033463804",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_422038854"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_422038854",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -12295,9 +12337,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_422040698",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -12584,7 +12625,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_423119492",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2023"
    }
@@ -12736,7 +12777,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_423685507",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2023"
    }
@@ -12813,9 +12854,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_423865776",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -12833,9 +12873,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_423868163",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14324,7 +14363,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_424440494",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14866,7 +14905,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424522570",
-    "tech_change_status": "Committed",
+    "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2023"
    }
@@ -14883,10 +14922,9 @@
    "properties": {
     "name": "78B MILLICENT STREET ATHOL PARK 5012",
     "locID": "LOC000071332099",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424522571",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16291,9 +16329,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424661312",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -16618,9 +16655,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424709445",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -16656,8 +16692,9 @@
     "name": "12 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000116151514",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424709447"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424709447",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -16673,8 +16710,9 @@
     "name": "14 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000116155382",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424709448"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424709448",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -16690,8 +16728,9 @@
     "name": "16 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000129910065",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424709449"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424709449",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -16766,8 +16805,9 @@
     "name": "UNIT 1, 21 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000116151505",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424806588"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424806588",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -16783,8 +16823,9 @@
     "name": "UNIT 2, 21 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000116151505",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424806589"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424806589",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -16836,8 +16877,9 @@
     "name": "UNIT 5, 21 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000116151505",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424806592"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424806592",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17110,8 +17152,9 @@
     "name": "21 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000116151505",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424815056"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424815056",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17199,8 +17242,9 @@
     "name": "UNIT 13, 9 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000116146461",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424831341"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424831341",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17216,8 +17260,9 @@
     "name": "UNIT 14, 9 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000116146474",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424831342"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424831342",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17305,8 +17350,9 @@
     "name": "UNIT 1, 9 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000116146474",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424831347"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424831347",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17322,8 +17368,9 @@
     "name": "UNIT 2, 9 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000116150285",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424831348"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424831348",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17339,8 +17386,9 @@
     "name": "UNIT 3, 9 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000116150387",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424831349"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424831349",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17374,8 +17422,9 @@
     "name": "UNIT 5, 9 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000116151483",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424831351"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424831351",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17427,8 +17476,9 @@
     "name": "UNIT 8, 9 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000116151477",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424831354"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424831354",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17444,8 +17494,9 @@
     "name": "UNIT 9, 9 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000116151483",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424831355"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424831355",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17461,8 +17512,9 @@
     "name": "UNIT 10, 21 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000116151496",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424832651"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424832651",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17478,8 +17530,9 @@
     "name": "UNIT 12, 21 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000116151514",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424832652"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424832652",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17495,8 +17548,9 @@
     "name": "UNIT 13, 21 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000116155376",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424832653"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424832653",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17512,8 +17566,9 @@
     "name": "UNIT 18, 21 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000116155416",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424832654"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424832654",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17529,8 +17584,9 @@
     "name": "UNIT 20, 21 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000116155437",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424832655"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424832655",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17546,8 +17602,9 @@
     "name": "UNIT 9, 21 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000116155444",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424832656"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424832656",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17671,8 +17728,9 @@
     "name": "UNIT 11, 21 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000116151505",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424839031"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424839031",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17688,8 +17746,9 @@
     "name": "UNIT 14, 21 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000116155382",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424839032"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424839032",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17705,8 +17764,9 @@
     "name": "UNIT 15, 21 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000116155395",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424839033"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424839033",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17722,8 +17782,9 @@
     "name": "UNIT 17, 21 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000116155400",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424839034"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424839034",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17739,8 +17800,9 @@
     "name": "UNIT 19, 21 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000116155428",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424839035"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424839035",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17854,8 +17916,9 @@
     "name": "UNIT 16, 21 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000129910065",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425069758"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425069758",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18325,8 +18388,9 @@
     "name": "UNIT 104, 1-7 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000173654120",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425301919"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425301919",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18342,8 +18406,9 @@
     "name": "1-7 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000173654098",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425306529"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425306529",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18379,8 +18444,9 @@
     "name": "UNIT 202, 1-7 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000166913179",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425358942"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425358942",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18495,8 +18561,9 @@
     "name": "UNIT 101, 1-7 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000173654098",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425361449"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425361449",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18512,8 +18579,9 @@
     "name": "UNIT 102, 1-7 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000173654108",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425361450"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425361450",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18529,8 +18597,9 @@
     "name": "UNIT 103, 1-7 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000173654112",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425361451"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425361451",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18546,8 +18615,9 @@
     "name": "UNIT 105, 1-7 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000173654149",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425361452"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425361452",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18563,8 +18633,9 @@
     "name": "UNIT 201, 1-7 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000166913198",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425361453"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425361453",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18580,8 +18651,9 @@
     "name": "UNIT 203, 1-7 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000166913180",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425361454"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425361454",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18614,8 +18686,9 @@
     "name": "UNIT 205, 1-7 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000173654154",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425361456"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425361456",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18633,9 +18706,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425392048",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19175,10 +19247,10 @@
    "properties": {
     "name": "1-3 WHITE AVENUE ATHOL PARK 5012",
     "locID": "LOC000154775995",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_425455249",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19388,9 +19460,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425458578",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19446,9 +19517,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425458581",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2023"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19554,8 +19624,9 @@
     "name": "UNIT 1, 1-7 THE AVENUE ATHOL PARK 5012",
     "locID": "LOC000173654098",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425715086"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425715086",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19720,8 +19791,9 @@
     "name": "UNIT 10, 18 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000166030114",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425726976"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425726976",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19737,8 +19809,9 @@
     "name": "UNIT 1, 18 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000166030105",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425726977"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425726977",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19754,8 +19827,9 @@
     "name": "UNIT 2, 18 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000166030122",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425726978"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425726978",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19771,8 +19845,9 @@
     "name": "UNIT 3, 18 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000166030133",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425726979"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425726979",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19788,8 +19863,9 @@
     "name": "UNIT 4, 18 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000166030146",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425726980"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425726980",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19805,8 +19881,9 @@
     "name": "UNIT 5, 18 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000166030151",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425726981"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425726981",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19822,8 +19899,9 @@
     "name": "UNIT 6, 18 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000166030167",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425726982"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425726982",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19839,8 +19917,9 @@
     "name": "UNIT 7, 18 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000166030179",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425726983"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425726983",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19856,8 +19935,9 @@
     "name": "UNIT 8, 18 KERRY STREET ATHOL PARK 5012",
     "locID": "LOC000166030180",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425726984"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425726984",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {

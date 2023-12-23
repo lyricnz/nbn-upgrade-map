@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-21T01:28:46.465536",
+ "generated": "2023-12-10T07:27:28.664138",
  "suburb": "HAMLYN HEIGHTS",
  "features": [
   {
@@ -911,9 +911,9 @@
     "name": "UNIT 2, 1 THRUMS COURT HAMLYN HEIGHTS 3215",
     "locID": "LOC000030094766",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC411502528",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -2918,9 +2918,9 @@
     "name": "UNIT 1, 11 LOGAN STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000015946291",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC411515670",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -4568,9 +4568,9 @@
     "name": "UNIT 2, 11 LOGAN STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000015946291",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC411526874",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -4996,9 +4996,9 @@
     "name": "UNIT 1, 1 THRUMS COURT HAMLYN HEIGHTS 3215",
     "locID": "LOC000030259456",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC411530573",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6111,6 +6111,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.33779789,
+     -38.12728466
+    ]
+   },
+   "properties": {
+    "name": "13 LILY STREET HAMLYN HEIGHTS 3215",
+    "locID": "ChIJgxDb2U8R1GoRhHwMY8o4mBM",
+    "tech": "FTTC",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAVIC419636074"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.33768453,
      -38.13043
     ]
@@ -6343,10 +6360,9 @@
    "properties": {
     "name": "2 MARLO STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000083154967",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419636966",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11142,9 +11158,9 @@
     "name": "1 THRUMS COURT HAMLYN HEIGHTS 3215",
     "locID": "LOC000030259456",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419662649",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -12367,10 +12383,10 @@
    "properties": {
     "name": "6 DEVON STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000067852317",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419947143",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14016,9 +14032,9 @@
     "name": "10 VINES ROAD HAMLYN HEIGHTS 3215",
     "locID": "LOC000079988726",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419954436",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -14739,9 +14755,9 @@
     "name": "19 SYNNOTT STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000094314313",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419956180",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -14989,10 +15005,10 @@
    "properties": {
     "name": "95 SLADEN STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000082601565",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419957474",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20085,9 +20101,8 @@
     "name": "44 WILKS STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000018538346",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAVIC420241875",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420241875"
    }
   },
   {
@@ -22949,10 +22964,10 @@
    "properties": {
     "name": "23 BAYVIEW PARADE HAMLYN HEIGHTS 3215",
     "locID": "LOC000102410531",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420537760",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23357,9 +23372,9 @@
     "name": "2 SHANNON AVENUE HAMLYN HEIGHTS 3215",
     "locID": "LOC000077348617",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420540669",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -24341,8 +24356,9 @@
     "name": "42 GLENFINE AVENUE HAMLYN HEIGHTS 3215",
     "locID": "LOC000164753222",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420549436"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420549436",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -29192,10 +29208,10 @@
    "properties": {
     "name": "91 SLADEN STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000092693685",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420848261",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31318,10 +31334,10 @@
    "properties": {
     "name": "3 BAYVIEW PARADE HAMLYN HEIGHTS 3215",
     "locID": "LOC000074328040",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420860483",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32020,8 +32036,8 @@
    "properties": {
     "name": "6 LYLE COURT HAMLYN HEIGHTS 3215",
     "locID": "LOC000045513884",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420864695",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -37168,8 +37184,8 @@
    "properties": {
     "name": "23 LOGAN STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000079285555",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421172633",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -38940,9 +38956,9 @@
     "name": "11 LOGAN STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000016049476",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421189197",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -40962,9 +40978,8 @@
     "name": "5 LYLE COURT HAMLYN HEIGHTS 3215",
     "locID": "LOC000066275713",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421440700",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -41765,9 +41780,9 @@
     "name": "7 THRUMS COURT HAMLYN HEIGHTS 3215",
     "locID": "LOC000164760793",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421447517",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -41920,10 +41935,10 @@
    "properties": {
     "name": "5 LOGAN STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000100990649",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC421447590",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -43000,10 +43015,10 @@
    "properties": {
     "name": "93 SLADEN STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000034603202",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421469501",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43687,9 +43702,9 @@
     "name": "172 CHURCH STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000164746935",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421474703",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -46244,10 +46259,10 @@
    "properties": {
     "name": "27 HEATHER STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000056792412",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421736605",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -51886,10 +51901,10 @@
    "properties": {
     "name": "3 WHITE GUM DRIVE HAMLYN HEIGHTS 3215",
     "locID": "LOC000059155017",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC422333721",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -53272,9 +53287,9 @@
     "name": "UNIT 1, 10 VINES ROAD HAMLYN HEIGHTS 3215",
     "locID": "LOC000080325571",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423984912",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -54236,8 +54251,8 @@
    "properties": {
     "name": "1-3 DOWNIE CRESCENT HAMLYN HEIGHTS 3215",
     "locID": "LOC000124232484",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC424354391",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -54481,8 +54496,9 @@
     "name": "UNIT 2, 42 HAMLYN AVENUE HAMLYN HEIGHTS 3215",
     "locID": "LOC000164753222",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424357173"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424357173",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -56316,9 +56332,9 @@
     "name": "UNIT 1, 19 SYNNOTT STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000094314313",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424506159",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -56334,9 +56350,9 @@
     "name": "UNIT 2, 19 SYNNOTT STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000094314313",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424506160",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -59639,9 +59655,9 @@
     "name": "UNIT 1, 172 CHURCH STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000164746935",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425399766",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -59657,9 +59673,9 @@
     "name": "UNIT 2, 172 CHURCH STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000164746942",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425399767",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -60809,10 +60825,9 @@
    "properties": {
     "name": "25B JUNE AVENUE HAMLYN HEIGHTS 3215",
     "locID": "LOC000147164256",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425678666",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -60948,9 +60963,9 @@
     "name": "UNIT 1, 9 TOYNE AVENUE HAMLYN HEIGHTS 3215",
     "locID": "LOC000147164182",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425692660",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -61910,8 +61925,9 @@
     "name": "UNIT 2, 42 GLENFINE AVENUE HAMLYN HEIGHTS 3215",
     "locID": "LOC000164753222",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719101128"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC719101128",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -61947,9 +61963,9 @@
     "name": "UNIT 1, 7 THRUMS COURT HAMLYN HEIGHTS 3215",
     "locID": "LOC000164760772",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719106091",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -61965,9 +61981,9 @@
     "name": "UNIT 2, 7 THRUMS COURT HAMLYN HEIGHTS 3215",
     "locID": "LOC000164760793",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719107003",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -62003,8 +62019,9 @@
     "name": "UNIT 1, 42 GLENFINE AVENUE HAMLYN HEIGHTS 3215",
     "locID": "LOC000164753214",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719110756"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC719110756",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -64038,10 +64055,10 @@
    "properties": {
     "name": "21B DEVON STREET HAMLYN HEIGHTS 3215",
     "locID": "LOC000187590969",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720066025",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }

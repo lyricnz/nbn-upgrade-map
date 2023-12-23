@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-06T08:49:23.880976",
+ "generated": "2023-12-13T13:12:08.258715",
  "suburb": "ELIZABETH SOUTH",
  "features": [
   {
@@ -15884,7 +15884,7 @@
    "properties": {
     "name": "78 UNDERDOWN ROAD ELIZABETH SOUTH 5112",
     "locID": "LOC000192809364",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415251189"
    }
@@ -15901,7 +15901,7 @@
    "properties": {
     "name": "80 UNDERDOWN ROAD ELIZABETH SOUTH 5112",
     "locID": "LOC000192809364",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415251190"
    }
@@ -17731,13 +17731,10 @@
    },
    "properties": {
     "name": "15 UNDERDOWN ROAD ELIZABETH SOUTH 5112",
-    "locID": "LOC000096286372",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_415253804",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "locID": "LOC000194127335",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415253804"
    }
   },
   {
@@ -22652,26 +22649,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.66753826,
-     -34.72922952
-    ]
-   },
-   "properties": {
-    "name": "11 BAGOT ROAD ELIZABETH SOUTH 5112",
-    "locID": "LOC000106737303",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_415268903",
-    "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.66730682,
      -34.72907878
     ]
@@ -27554,8 +27531,9 @@
     "name": "SHOP 4, 100 PHILIP HIGHWAY ELIZABETH SOUTH 5112",
     "locID": "LOC000106917711",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416854849"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416854849",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27591,8 +27569,9 @@
     "name": "SHOP 6, 100 PHILIP HIGHWAY ELIZABETH SOUTH 5112",
     "locID": "LOC000107068988",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416854851"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416854851",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27608,8 +27587,9 @@
     "name": "SHOP 7, 100 PHILIP HIGHWAY ELIZABETH SOUTH 5112",
     "locID": "LOC000107059079",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416854852"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416854852",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29560,6 +29540,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.65155413,
+     -34.73856336
+    ]
+   },
+   "properties": {
+    "name": "LOT 100 KETTERING ROAD ELIZABETH SOUTH 5112",
+    "locID": "EjQxMDAgS2V0dGVyaW5nIFJkLCBFbGl6YWJldGggU291dGggU0EgNTExMiwgQXVzdHJhbGlhIjASLgoUChIJfeGIKyyysGoRL07s81Yg-RoQZCoUChIJWbawwTqysGoRjvppEXT5Vq4",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GASA_424183786"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.64934827,
+     -34.74202644
+    ]
+   },
+   "properties": {
+    "name": "LOT 101 KETTERING ROAD ELIZABETH SOUTH 5112",
+    "locID": "EjQxMDEgS2V0dGVyaW5nIFJkLCBFbGl6YWJldGggU291dGggU0EgNTExMiwgQXVzdHJhbGlhIjASLgoUChIJfeGIKyyysGoRL07s81Yg-RoQZSoUChIJWbawwTqysGoRjvppEXT5Vq4",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GASA_424183787"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.64908792,
      -34.74214983
     ]
@@ -29608,6 +29622,23 @@
     "tech": "FTTN",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GASA_424307316"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.65447409,
+     -34.73439437
+    ]
+   },
+   "properties": {
+    "name": "LOT 63 KETTERING ROAD ELIZABETH SOUTH 5112",
+    "locID": "EjM2MyBLZXR0ZXJpbmcgUmQsIEVsaXphYmV0aCBTb3V0aCBTQSA1MTEyLCBBdXN0cmFsaWEiMBIuChQKEgl94YgrLLKwahEvTuzzViD5GhA_KhQKEglZtrDBOrKwahGO-mkRdPlWrg",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GASA_424311268"
    }
   },
   {
@@ -33328,7 +33359,7 @@
    "properties": {
     "name": "78-80 UNDERDOWN ROAD ELIZABETH SOUTH 5112",
     "locID": "LOC000192809364",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_720492883"
    }

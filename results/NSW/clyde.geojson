@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-20T15:40:19.161273",
+ "generated": "2023-12-09T21:08:53.293708",
  "suburb": "CLYDE",
  "features": [
   {
@@ -242,8 +242,8 @@
    "properties": {
     "name": "1 SUTHERLAND STREET CLYDE 2142",
     "locID": "LOC000040790193",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704418561",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2867,10 +2867,10 @@
    "properties": {
     "name": "16 WENTWORTH STREET CLYDE 2142",
     "locID": "LOC000040316423",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW716174179",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3518,7 +3518,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716518778",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3834,9 +3834,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716566553",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {

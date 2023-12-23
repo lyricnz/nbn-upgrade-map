@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-06T02:28:56.459051",
+ "generated": "2023-12-13T07:10:03.212639",
  "suburb": "BETHANIA",
  "features": [
   {
@@ -913,7 +913,7 @@
    "properties": {
     "name": "5 GLASSON DRIVE BETHANIA 4205",
     "locID": "LOC000191922252",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155023427"
    }
@@ -2841,10 +2841,10 @@
    "properties": {
     "name": "6 PAGE STREET BETHANIA 4205",
     "locID": "LOC000068649251",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155029813",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8772,11 +8772,11 @@
     "name": "7 PAGE STREET BETHANIA 4205",
     "locID": "LOC000103958251",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156275852",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2022"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11418,8 +11418,8 @@
    "properties": {
     "name": "27 JESSIE CRESCENT BETHANIA 4205",
     "locID": "LOC000085141033",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156277441",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12329,10 +12329,9 @@
    "properties": {
     "name": "59 JESSIE CRESCENT BETHANIA 4205",
     "locID": "LOC000043173368",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156278189",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12409,8 +12408,8 @@
    "properties": {
     "name": "67 JESSIE CRESCENT BETHANIA 4205",
     "locID": "LOC000052850839",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156278194",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12489,8 +12488,8 @@
    "properties": {
     "name": "9 JESSIE CRESCENT BETHANIA 4205",
     "locID": "LOC000032436127",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156278198",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13942,8 +13941,8 @@
    "properties": {
     "name": "33 IVANHOE DRIVE BETHANIA 4205",
     "locID": "LOC000074049986",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156279110",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21940,9 +21939,10 @@
     "name": "1 KING ARTHUR BOULEVARD BETHANIA 4205",
     "locID": "LOC000192881484",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156284473",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -23249,10 +23249,9 @@
    "properties": {
     "name": "9 KING ARTHUR BOULEVARD BETHANIA 4205",
     "locID": "LOC000095331672",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156285267",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31106,9 +31105,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157548361",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -34055,8 +34053,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160688542",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34074,8 +34073,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160688543",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34112,8 +34112,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160694057",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34131,8 +34132,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160694059",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34150,8 +34152,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160695035",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34188,8 +34191,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160695040",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34226,8 +34230,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160697632",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37235,11 +37240,11 @@
     "name": "81 STATION ROAD BETHANIA 4205",
     "locID": "LOC000012752031",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161966838",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2022"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42186,8 +42191,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163308990",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42300,8 +42306,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163308996",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42338,8 +42345,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163308998",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42528,8 +42536,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163309008",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42604,8 +42613,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163309012",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "MDU Complex Premises In Build",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43735,7 +43745,7 @@
    "properties": {
     "name": "13-15 GLASSON DRIVE BETHANIA 4205",
     "locID": "LOC000191922345",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425149337"
    }
@@ -45935,9 +45945,10 @@
     "name": "SHOP 1, 1 KING ARTHUR BOULEVARD BETHANIA 4205",
     "locID": "LOC000192881484",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425864985",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -45953,9 +45964,10 @@
     "name": "SHOP 2, 1 KING ARTHUR BOULEVARD BETHANIA 4205",
     "locID": "LOC000192881484",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425864986",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -45990,9 +46002,10 @@
     "name": "SHOP 4, 1 KING ARTHUR BOULEVARD BETHANIA 4205",
     "locID": "LOC000192881484",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425864988",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -46029,9 +46042,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425864990",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -58866,23 +58878,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721305289"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.15671717,
-     -27.70152225
-    ]
-   },
-   "properties": {
-    "name": "10 GLASSON DRIVE BETHANIA 4205",
-    "locID": "LOC000191922309",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721306745"
    }
   },
   {

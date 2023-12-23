@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-06T14:48:15.483946",
+ "generated": "2023-12-13T19:35:56.645081",
  "suburb": "BEVERLEY",
  "features": [
   {
@@ -705,8 +705,8 @@
    "properties": {
     "name": "19 WODONGA STREET BEVERLEY 5009",
     "locID": "LOC000077374264",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_414975127",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -804,8 +804,8 @@
    "properties": {
     "name": "29 WODONGA STREET BEVERLEY 5009",
     "locID": "LOC000070026642",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_414975132",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1065,6 +1065,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414975145",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3062,10 +3063,10 @@
    "properties": {
     "name": "26 HOWARDS ROAD BEVERLEY 5009",
     "locID": "LOC000011714448",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415021202",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3605,10 +3606,9 @@
    "properties": {
     "name": "109 WILLIAM STREET BEVERLEY 5009",
     "locID": "LOC000008388575",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415028929",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3992,8 +3992,8 @@
    "properties": {
     "name": "8 HOWARDS ROAD BEVERLEY 5009",
     "locID": "LOC000030222461",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415031017",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5334,10 +5334,9 @@
    "properties": {
     "name": "104 MAIN STREET BEVERLEY 5009",
     "locID": "LOC000009176665",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415050859",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7161,10 +7160,9 @@
    "properties": {
     "name": "96 MAIN STREET BEVERLEY 5009",
     "locID": "LOC000041941639",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415129261",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10256,8 +10254,8 @@
    "properties": {
     "name": "5 OLVESTON AVENUE BEVERLEY 5009",
     "locID": "LOC000033346430",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415405501",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11826,6 +11824,25 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415413878",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.54865138,
+     -34.8912006
+    ]
+   },
+   "properties": {
+    "name": "8 MAIN STREET BEVERLEY 5009",
+    "locID": "LOC000043594301",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415413879",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13879,11 +13896,11 @@
     "name": "UNIT 1, 15 SPRING STREET BEVERLEY 5009",
     "locID": "LOC000038150803",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415680401",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13899,11 +13916,11 @@
     "name": "UNIT 2, 15 SPRING STREET BEVERLEY 5009",
     "locID": "LOC000038413536",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415680402",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13919,11 +13936,11 @@
     "name": "UNIT 3, 15 SPRING STREET BEVERLEY 5009",
     "locID": "LOC000038330314",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415680403",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2023"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13939,9 +13956,9 @@
     "name": "UNIT 1, 18 WEST STREET BEVERLEY 5009",
     "locID": "LOC000056582044",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415680569",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13957,9 +13974,9 @@
     "name": "UNIT 2, 18 WEST STREET BEVERLEY 5009",
     "locID": "LOC000056561289",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415680570",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -17424,7 +17441,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_422046622",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17442,9 +17459,9 @@
     "name": "18 WEST STREET BEVERLEY 5009",
     "locID": "LOC000056582044",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_422049248",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -19725,7 +19742,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424735014",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }

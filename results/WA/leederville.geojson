@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-06T19:22:21.650677",
+ "generated": "2023-12-14T01:09:54.319397",
  "suburb": "LEEDERVILLE",
  "features": [
   {
@@ -135,8 +135,8 @@
    "properties": {
     "name": "15 FLEET STREET LEEDERVILLE 6007",
     "locID": "LOC000021175916",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAWA_146584075",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1774,9 +1774,9 @@
     "name": "290 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000069352698",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146628009",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1792,9 +1792,9 @@
     "name": "288 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000095786057",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146628010",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1810,8 +1810,9 @@
     "name": "284 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000177767351",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146628011"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_146628011",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -2168,9 +2169,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146628218",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -2315,9 +2315,9 @@
     "name": "200 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000082215967",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146628430",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -2355,9 +2355,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146628703",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -2925,8 +2924,9 @@
     "name": "156 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000065525412",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146628977"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_146628977",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3105,10 +3105,9 @@
    "properties": {
     "name": "44 SALISBURY STREET LEEDERVILLE 6007",
     "locID": "LOC000092786667",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_146629021",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146629021"
    }
   },
   {
@@ -3160,9 +3159,9 @@
     "name": "143 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000027820917",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146629080",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3725,8 +3724,9 @@
     "name": "193 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000131871936",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146630510"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_146630510",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -4175,9 +4175,9 @@
     "name": "189 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000006482832",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146631048",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5292,11 +5292,10 @@
    },
    "properties": {
     "name": "30 MELROSE STREET LEEDERVILLE 6007",
-    "locID": "LOC000023742455",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_146633049",
-    "tech_change_status": "Eligible To Order"
+    "locID": "LOC000194178038",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146633049"
    }
   },
   {
@@ -5580,10 +5579,9 @@
    "properties": {
     "name": "26 SHAKESPEARE STREET LEEDERVILLE 6007",
     "locID": "LOC000078396806",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_146633280",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146633280"
    }
   },
   {
@@ -6236,8 +6234,9 @@
     "name": "191 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000015420437",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146633969"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_146633969",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6289,9 +6288,9 @@
     "name": "255 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000060015605",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146634219",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6718,8 +6717,9 @@
     "name": "226 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000042896524",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146634578"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_146634578",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -6735,9 +6735,9 @@
     "name": "187 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000105428087",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146634630",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6789,9 +6789,9 @@
     "name": "198 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000043221551",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146634669",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6825,9 +6825,9 @@
     "name": "196 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000054621752",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146634671",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6843,9 +6843,9 @@
     "name": "194 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000061142115",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146634672",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6878,9 +6878,9 @@
     "name": "135 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000087247281",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146634678",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6896,9 +6896,9 @@
     "name": "146 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000067828140",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146634680",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6914,9 +6914,9 @@
     "name": "140 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000076949261",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146634681",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6932,9 +6932,9 @@
     "name": "138 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000021187923",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146634682",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6985,10 +6985,9 @@
    "properties": {
     "name": "43 SALISBURY STREET LEEDERVILLE 6007",
     "locID": "LOC000038875695",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_146634950",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146634950"
    }
   },
   {
@@ -8031,8 +8030,9 @@
     "name": "356 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000177767367",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146636129"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_146636129",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -8048,9 +8048,9 @@
     "name": "358 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000014611466",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146636131",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -8120,9 +8120,9 @@
     "name": "364 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000035564674",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146636495",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -9169,9 +9169,9 @@
     "name": "245 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000018616993",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146642984",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -9398,8 +9398,9 @@
     "name": "139 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000066312728",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146643887"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_146643887",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -9451,9 +9452,9 @@
     "name": "145 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000007032622",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146643890",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -10130,9 +10131,9 @@
     "name": "204 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000069587548",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146647455",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -10148,8 +10149,9 @@
     "name": "281 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000149382302",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146647456"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_146647456",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -10165,9 +10167,9 @@
     "name": "202 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000056887923",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146647457",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -10552,9 +10554,9 @@
     "name": "289 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000064320339",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146648349",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -10675,8 +10677,9 @@
     "name": "279 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000082327334",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146648677"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_146648677",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -10692,9 +10695,9 @@
     "name": "277 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000066122005",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146648680",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -10710,9 +10713,9 @@
     "name": "275 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000021907931",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146648681",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -10728,9 +10731,9 @@
     "name": "273 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000079869383",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146648682",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -11577,8 +11580,9 @@
     "name": "337 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000056839791",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146655686"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_146655686",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -11726,9 +11730,9 @@
     "name": "287 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000025591183",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146655859",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -11838,9 +11842,9 @@
     "name": "345 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000027760400",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146660192",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -11856,9 +11860,9 @@
     "name": "343 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000058340915",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146660193",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -11874,9 +11878,9 @@
     "name": "341 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000101485241",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146660194",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -11892,8 +11896,9 @@
     "name": "315 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC100033146722",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146662280"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_146662280",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -12551,8 +12556,9 @@
     "name": "181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000177767333",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147033295"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147033295",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -12606,9 +12612,8 @@
     "name": "661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820099",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_147065630",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147065630"
    }
   },
   {
@@ -13277,8 +13282,9 @@
     "name": "193 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000103455646",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147160795"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147160795",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13370,10 +13376,9 @@
    "properties": {
     "name": "28 SALISBURY STREET LEEDERVILLE 6007",
     "locID": "LOC000050660860",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147176057",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147176057"
    }
   },
   {
@@ -13443,8 +13448,9 @@
     "name": "UNIT 9, LEVEL 2, 167 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000080344902",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147186199"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147186199",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13460,8 +13466,9 @@
     "name": "UNIT 10, LEVEL 2, 167 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000080344902",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147186200"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147186200",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13477,8 +13484,9 @@
     "name": "UNIT 11, LEVEL 2, 167 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000080344902",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147186201"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147186201",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13494,8 +13502,9 @@
     "name": "UNIT 12, LEVEL 2, 167 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000080315084",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147186202"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147186202",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13511,8 +13520,9 @@
     "name": "UNIT 1, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147186203"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147186203",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13679,8 +13689,9 @@
     "name": "UNIT 4, 167 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000080010264",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147198519"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147198519",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13696,8 +13707,9 @@
     "name": "UNIT 5, LEVEL 1, 167 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000080344902",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147198520"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147198520",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13713,8 +13725,9 @@
     "name": "UNIT 6, LEVEL 1, 167 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000080315084",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147198521"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147198521",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13730,8 +13743,9 @@
     "name": "UNIT 8, LEVEL 1, 167 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000080344902",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147198522"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147198522",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13747,8 +13761,9 @@
     "name": "UNIT 2, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029586878",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147200068"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147200068",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13764,8 +13779,9 @@
     "name": "UNIT 3, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147200069"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147200069",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13781,8 +13797,9 @@
     "name": "UNIT 4, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147200070"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147200070",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13798,8 +13815,9 @@
     "name": "UNIT 5, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147200071"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147200071",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13815,8 +13833,9 @@
     "name": "UNIT 6, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147200072"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147200072",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13832,8 +13851,9 @@
     "name": "UNIT 7, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147200073"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147200073",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13849,8 +13869,9 @@
     "name": "UNIT 8, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147200074"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147200074",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13866,8 +13887,9 @@
     "name": "UNIT 9, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147200075"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147200075",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13883,8 +13905,9 @@
     "name": "UNIT 11, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147200076"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147200076",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13900,8 +13923,9 @@
     "name": "UNIT 13, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147200077"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147200077",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -13917,8 +13941,9 @@
     "name": "UNIT 14, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147200078"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147200078",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14070,8 +14095,9 @@
     "name": "UNIT 15, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147203042"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147203042",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14087,8 +14113,9 @@
     "name": "UNIT 16, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147203043"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147203043",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14104,8 +14131,9 @@
     "name": "UNIT 17, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147203044"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147203044",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14121,8 +14149,9 @@
     "name": "UNIT 18, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147203045"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147203045",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14138,8 +14167,9 @@
     "name": "UNIT 19, LEVEL 1, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147203046"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147203046",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14155,8 +14185,9 @@
     "name": "UNIT 20, LEVEL 1, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147203047"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147203047",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14172,8 +14203,9 @@
     "name": "UNIT 21, LEVEL 1, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147203048"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147203048",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14189,8 +14221,9 @@
     "name": "UNIT 22, LEVEL 1, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147203049"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147203049",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14206,8 +14239,9 @@
     "name": "UNIT 1, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000073063855",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147203050"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147203050",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14223,8 +14257,9 @@
     "name": "UNIT 2, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000073129988",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147203051"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147203051",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14240,8 +14275,9 @@
     "name": "UNIT 3, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000072734454",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147203052"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147203052",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14257,8 +14293,9 @@
     "name": "339 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000073261909",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147203690"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_147203690",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -14274,8 +14311,9 @@
     "name": "UNIT 3, LEVEL 1, 643 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000037045694",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147204472"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147204472",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14291,8 +14329,9 @@
     "name": "UNIT 4, LEVEL 1, 643 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000037045694",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147204473"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147204473",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14308,8 +14347,9 @@
     "name": "UNIT 1, 643 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000037250353",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147204474"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147204474",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14325,8 +14365,9 @@
     "name": "UNIT 2, 643 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000037165335",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147204475"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147204475",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14411,8 +14452,9 @@
     "name": "UNIT 9, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000072692921",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147215446"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147215446",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14428,8 +14470,9 @@
     "name": "UNIT 10, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000072702820",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147215447"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147215447",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14445,8 +14488,9 @@
     "name": "UNIT 11, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000072745066",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147215448"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147215448",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14462,8 +14506,9 @@
     "name": "UNIT 12, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000072880557",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147215449"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147215449",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14479,8 +14524,9 @@
     "name": "UNIT 13, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000072913292",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147215450"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147215450",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14496,8 +14542,9 @@
     "name": "UNIT 14, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000072626357",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147215451"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147215451",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14513,8 +14560,9 @@
     "name": "UNIT 15, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000072845587",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147215452"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147215452",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14530,8 +14578,9 @@
     "name": "UNIT 16, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000073065564",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147215453"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147215453",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14547,8 +14596,9 @@
     "name": "UNIT 17, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000073325759",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147218635"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147218635",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14564,8 +14614,9 @@
     "name": "UNIT 18, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000072860866",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147218636"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147218636",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14632,8 +14683,9 @@
     "name": "UNIT 9, 643 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000037194946",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147219354"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147219354",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14649,8 +14701,9 @@
     "name": "UNIT 10, 643 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000037315789",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147219355"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147219355",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14666,8 +14719,9 @@
     "name": "UNIT 11, LEVEL 1, 643 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000037045694",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147219356"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147219356",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14683,8 +14737,9 @@
     "name": "UNIT 1, 167 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000080344902",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147221412"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147221412",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14700,8 +14755,9 @@
     "name": "UNIT 2, 167 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000078402873",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147221413"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147221413",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14717,8 +14773,9 @@
     "name": "UNIT 3, 167 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000080252360",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147221414"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147221414",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14734,8 +14791,9 @@
     "name": "UNIT 4, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000073333358",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147221602"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147221602",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14751,8 +14809,9 @@
     "name": "UNIT 6, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000073063855",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147221603"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147221603",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14768,8 +14827,9 @@
     "name": "UNIT 7, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000072782540",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147221604"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147221604",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14785,8 +14845,9 @@
     "name": "UNIT 8, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000073240510",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147221605"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147221605",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14802,8 +14863,9 @@
     "name": "UNIT 5, 643 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000037142383",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147222323"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147222323",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14819,8 +14881,9 @@
     "name": "UNIT 6, 643 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000037045694",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147222324"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147222324",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14836,8 +14899,9 @@
     "name": "UNIT 7, LEVEL 1, 643 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000037045694",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147222325"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147222325",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14853,8 +14917,9 @@
     "name": "UNIT 8, LEVEL 1, 643 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000037045694",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147222326"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147222326",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14972,8 +15037,9 @@
     "name": "UNIT 1, 106 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000076440000",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147224122"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147224122",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14989,8 +15055,9 @@
     "name": "UNIT 2, 106 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000077029097",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147224123"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147224123",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -15006,8 +15073,9 @@
     "name": "UNIT 3, 106 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000076829037",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147224124"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147224124",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -15023,8 +15091,9 @@
     "name": "UNIT 4, 106 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000076649421",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147224125"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147224125",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -15040,8 +15109,9 @@
     "name": "UNIT 5, 106 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000076927350",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147224126"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147224126",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -15079,6 +15149,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147224440",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15096,8 +15167,9 @@
     "name": "UNIT 12, LEVEL 1, 643 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000037045694",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147229421"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147229421",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -15345,9 +15417,9 @@
     "name": "253 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000019506898",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_147246282",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -15460,8 +15532,9 @@
     "name": "UNIT 7, LEVEL 1, 167 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000080344902",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147252707"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147252707",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -15477,8 +15550,9 @@
     "name": "UNIT 10, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147252708"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147252708",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -15494,8 +15568,9 @@
     "name": "UNIT 5, 1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000072894541",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147252709"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147252709",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -16273,10 +16348,10 @@
    "properties": {
     "name": "64 BOURKE STREET LEEDERVILLE 6007",
     "locID": "LOC000037328909",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAWA_147270952",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17653,8 +17728,9 @@
     "name": "UNIT 12, 311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147378963"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147378963",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17824,8 +17900,9 @@
     "name": "632 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000027783332",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147399517"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147399517",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18565,8 +18642,9 @@
     "name": "UNIT 4, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023726760",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147844940"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147844940",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18582,8 +18660,9 @@
     "name": "UNIT 1, 190 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000027831330",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147844942"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147844942",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18599,8 +18678,9 @@
     "name": "UNIT 12, 247 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000131823613",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147844945"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147844945",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18634,8 +18714,9 @@
     "name": "UNIT 13, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023741290",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147844954"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147844954",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18689,8 +18770,9 @@
     "name": "UNIT 8, 185 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000073472552",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147845355"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147845355",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18760,8 +18842,9 @@
     "name": "UNIT 13, 247 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000131823621",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147845378"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147845378",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18814,8 +18897,9 @@
     "name": "UNIT 10, 247 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000131823595",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147848574"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147848574",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18885,8 +18969,9 @@
     "name": "UNIT 5, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023672205",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147848579"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147848579",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18902,8 +18987,9 @@
     "name": "UNIT 15, 247 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000131823645",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147848580"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147848580",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18957,8 +19043,9 @@
     "name": "UNIT 3, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023700691",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147849400"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147849400",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19030,8 +19117,9 @@
     "name": "UNIT 16, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023620451",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147849408"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147849408",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19195,9 +19283,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147849468",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19307,8 +19394,9 @@
     "name": "UNIT 9, 170 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000037385252",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147849840"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147849840",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19396,8 +19484,9 @@
     "name": "UNIT 1, 185 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000073501830",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147849847"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147849847",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19546,8 +19635,9 @@
     "name": "UNIT 10, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023644196",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147851404"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147851404",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19617,8 +19707,9 @@
     "name": "UNIT 2, 185 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000073685561",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147851430"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147851430",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19634,8 +19725,9 @@
     "name": "UNIT 15, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023757165",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147851436"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147851436",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19777,8 +19869,9 @@
     "name": "UNIT 8, 190 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000027802525",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147852300"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147852300",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19812,8 +19905,9 @@
     "name": "UNIT 5, 185 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000073769965",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147852302"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147852302",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19829,8 +19923,9 @@
     "name": "UNIT 5, 190 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000027869575",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147852303"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147852303",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19846,8 +19941,9 @@
     "name": "UNIT 8, 170 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000036947136",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147852306"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147852306",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19935,8 +20031,9 @@
     "name": "UNIT 11, 247 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000131823609",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147853445"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147853445",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -20097,8 +20194,9 @@
     "name": "UNIT 7, 185 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000073869901",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147855123"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147855123",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -20549,8 +20647,9 @@
     "name": "UNIT 2, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023616729",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147858071"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147858071",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21361,8 +21460,9 @@
     "name": "UNIT 2, 190 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000027756141",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147860237"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147860237",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21398,8 +21498,9 @@
     "name": "UNIT 21, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023792437",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147860239"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147860239",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21435,8 +21536,9 @@
     "name": "UNIT 6, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023725084",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147860242"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147860242",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21640,8 +21742,9 @@
     "name": "UNIT 6, 185 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000073548402",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147861061"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147861061",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -21711,8 +21814,9 @@
     "name": "UNIT 9, 190 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000027798162",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147861989"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147861989",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22034,8 +22138,9 @@
     "name": "UNIT 4, 190 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000027831330",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147862038"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147862038",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22106,8 +22211,9 @@
     "name": "UNIT 14, 247 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000131823632",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147862043"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147862043",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22293,8 +22399,9 @@
     "name": "UNIT 12, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023680993",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147862556"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147862556",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22328,8 +22435,9 @@
     "name": "UNIT 18, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023667048",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147862560"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147862560",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22363,8 +22471,9 @@
     "name": "UNIT 3, 185 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000073384149",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147862564"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147862564",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22415,8 +22524,9 @@
     "name": "UNIT 9, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023586081",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147862567"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147862567",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22468,8 +22578,9 @@
     "name": "UNIT 14, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023582904",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147862897"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147862897",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22485,8 +22596,9 @@
     "name": "UNIT 6, 190 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000027793215",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147862898"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147862898",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22538,8 +22650,9 @@
     "name": "UNIT 7, 190 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000027817324",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147862905"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147862905",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22555,8 +22668,9 @@
     "name": "UNIT 9, 185 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000073336539",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147862910"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147862910",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22572,8 +22686,9 @@
     "name": "UNIT 4, 185 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000073743815",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147862913"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147862913",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23227,8 +23342,9 @@
     "name": "UNIT 7, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023610641",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147863475"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147863475",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23626,8 +23742,9 @@
     "name": "UNIT 1, 337 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000057038942",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147864584"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147864584",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23643,8 +23760,9 @@
     "name": "UNIT 6, 337 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000056694127",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147864586"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147864586",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -24272,8 +24390,9 @@
     "name": "2 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000029550898",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147866441"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147866441",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -25065,8 +25184,9 @@
     "name": "UNIT 17, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023722942",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147867824"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147867824",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -25082,8 +25202,9 @@
     "name": "UNIT 7, 170 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000037278518",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147867826"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147867826",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26145,8 +26266,9 @@
     "name": "UNIT 11, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023660499",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147870244"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147870244",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26200,8 +26322,9 @@
     "name": "UNIT 3, 190 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000027884401",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147870429"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147870429",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26719,8 +26842,9 @@
     "name": "UNIT 1, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023656871",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147871985"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147871985",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26756,8 +26880,9 @@
     "name": "UNIT 3, 337 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000056839791",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147871987"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147871987",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26773,8 +26898,9 @@
     "name": "UNIT 23, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023752155",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147871989"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147871989",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27120,6 +27246,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147872238",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27137,8 +27264,9 @@
     "name": "UNIT 4, 337 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000057005589",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147872239"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147872239",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27191,8 +27319,9 @@
     "name": "UNIT 2, 337 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000056976197",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147872242"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_147872242",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27742,8 +27871,9 @@
     "name": "298 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000170714865",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148317646"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_148317646",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -27828,8 +27958,9 @@
     "name": "UNIT 1, 226 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000042819311",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148321329"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148321329",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27920,9 +28051,9 @@
     "name": "136 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000106792345",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_148321465",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -27938,8 +28069,9 @@
     "name": "UNIT 2, 193 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000103386590",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148321802"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148321802",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27973,8 +28105,9 @@
     "name": "UNIT 7, 226 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000042896524",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148321805"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148321805",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28008,8 +28141,9 @@
     "name": "UNIT 2, 226 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000042541652",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148321841"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148321841",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28025,8 +28159,9 @@
     "name": "UNIT 3, 226 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000042402166",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148321842"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148321842",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28042,8 +28177,9 @@
     "name": "UNIT 1, 193 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000103455646",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148321846"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148321846",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28059,8 +28195,9 @@
     "name": "UNIT 3, 193 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000103599734",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148321847"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148321847",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28327,8 +28464,9 @@
     "name": "203 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000026919735",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148324258"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_148324258",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -28344,8 +28482,9 @@
     "name": "UNIT 1, 284 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000037001536",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148324505"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148324505",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28361,8 +28500,9 @@
     "name": "UNIT 2, 284 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000037285923",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148324506"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148324506",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28378,8 +28518,9 @@
     "name": "UNIT 3, 284 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000036862040",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148324507"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148324507",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28559,8 +28700,9 @@
     "name": "UNIT 5, 284 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000037353896",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148325043"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148325043",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28576,8 +28718,9 @@
     "name": "UNIT 6, 284 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000037285923",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148325044"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148325044",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28593,8 +28736,9 @@
     "name": "UNIT 7, 284 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000037285923",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148325045"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148325045",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28610,8 +28754,9 @@
     "name": "UNIT 1, 139 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000066243563",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148325327"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148325327",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28627,9 +28772,9 @@
     "name": "140A OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000076963487",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_148325329",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -28680,8 +28825,9 @@
     "name": "UNIT 16, 663 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000108611567",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148325396"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148325396",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28733,8 +28879,9 @@
     "name": "UNIT 18, 663 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131823678",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148325399"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148325399",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28786,8 +28933,9 @@
     "name": "634 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000027783332",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148325411"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148325411",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28911,8 +29059,9 @@
     "name": "UNIT 6, 663 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000149373040",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148325421"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148325421",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28928,8 +29077,9 @@
     "name": "UNIT 7, 663 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000108852603",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148325423"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148325423",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28963,8 +29113,9 @@
     "name": "UNIT 9, 663 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000107945016",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148325426"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148325426",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28980,8 +29131,9 @@
     "name": "UNIT 12, 663 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000107670250",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148325427"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148325427",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -28997,8 +29149,9 @@
     "name": "UNIT 13, 663 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000107675478",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148325428"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148325428",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29014,8 +29167,9 @@
     "name": "UNIT 18A, 663 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000108929814",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148325429"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148325429",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29048,8 +29202,9 @@
     "name": "187 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000073472552",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148325432"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148325432",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29208,8 +29363,9 @@
     "name": "UNIT 14, 663 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000107405416",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148325778"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148325778",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29225,8 +29381,9 @@
     "name": "UNIT 15, 663 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000108837925",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148325779"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148325779",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29260,8 +29417,9 @@
     "name": "UNIT 2, 642 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000059947095",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148325781"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_148325781",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -29331,8 +29489,9 @@
     "name": "UNIT 8, 284 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000036747816",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148327111"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148327111",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29366,8 +29525,9 @@
     "name": "311 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000029547213",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148327123"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148327123",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29419,8 +29579,9 @@
     "name": "UNIT 2, 139 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000066046351",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148327352"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148327352",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29436,8 +29597,9 @@
     "name": "UNIT 3, 139 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000066146878",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148327353"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148327353",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29453,8 +29615,9 @@
     "name": "UNIT 4, 139 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000066312728",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148327354"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148327354",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29470,8 +29633,9 @@
     "name": "UNIT 5, 139 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000066312110",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148327355"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148327355",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29846,8 +30010,9 @@
     "name": "UNIT 4, 284 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000037446387",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148328880"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148328880",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -29863,9 +30028,9 @@
     "name": "148 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000063477847",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_148328881",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -30153,8 +30318,9 @@
     "name": "UNIT 8, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023691308",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148328932"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148328932",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -30364,8 +30530,9 @@
     "name": "UNIT 3, 187 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000073384149",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148329019"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148329019",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -31420,8 +31587,9 @@
     "name": "UNIT 10, 193 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000007868673",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_160649229"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_160649229",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -31889,8 +32057,9 @@
     "name": "643 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000037045694",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_160663155"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_160663155",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32325,8 +32494,9 @@
     "name": "UNIT 19, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023656340",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_160937371"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_160937371",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32342,8 +32512,9 @@
     "name": "UNIT 20, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023676921",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_160937372"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_160937372",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32359,8 +32530,9 @@
     "name": "UNIT 22, 181 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000023686186",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_160937373"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_160937373",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32444,8 +32616,9 @@
     "name": "UNIT 10, 663 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000107782969",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_161031718"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_161031718",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -32479,8 +32652,9 @@
     "name": "UNIT 8, 663 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000107861136",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_161031720"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_161031720",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33613,8 +33787,9 @@
     "name": "UNIT 12, 279 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000082601078",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162274457"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162274457",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33630,8 +33805,9 @@
     "name": "UNIT 1, 279 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000082697232",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162274458"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162274458",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33647,8 +33823,9 @@
     "name": "UNIT 2, 279 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000082327334",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162274459"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162274459",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33664,8 +33841,9 @@
     "name": "UNIT 3, 279 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000082327334",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162274460"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162274460",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33681,8 +33859,9 @@
     "name": "UNIT 4, 279 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000082547257",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162274461"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162274461",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33698,8 +33877,9 @@
     "name": "UNIT 5, 279 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000082434019",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162274462"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162274462",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33715,8 +33895,9 @@
     "name": "UNIT 6, 279 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000082306483",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162274463"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162274463",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34023,8 +34204,9 @@
     "name": "167 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000080344902",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162400359"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162400359",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34076,8 +34258,9 @@
     "name": "190 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000027831330",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162400362"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162400362",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34166,8 +34349,9 @@
     "name": "185 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000073472552",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162413275"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162413275",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34290,8 +34474,9 @@
     "name": "247 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000131823595",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162419253"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162419253",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34380,8 +34565,9 @@
     "name": "1 WYLIE PLACE LEEDERVILLE 6007",
     "locID": "LOC000073063855",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162420744"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162420744",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34397,9 +34583,9 @@
     "name": "636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_162488441",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -34415,8 +34601,9 @@
     "name": "UNIT 4, 193 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000103455646",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162493843"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162493843",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34432,8 +34619,9 @@
     "name": "UNIT 5, 193 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000103110077",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162493845"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162493845",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34449,8 +34637,9 @@
     "name": "UNIT 6, 193 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000103455646",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162493847"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162493847",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34466,8 +34655,9 @@
     "name": "UNIT 7, 193 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000103596760",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162493849"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162493849",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34483,8 +34673,9 @@
     "name": "UNIT 8, 193 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000103108653",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162493851"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162493851",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34500,8 +34691,9 @@
     "name": "UNIT 10, 634 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000027801422",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162496219"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162496219",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34602,8 +34794,9 @@
     "name": "UNIT 1, 634 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000027783332",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162496226"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162496226",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34636,8 +34829,9 @@
     "name": "UNIT 2, 634 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000027879890",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162496237"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162496237",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34653,8 +34847,9 @@
     "name": "UNIT 3, 634 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000027801759",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162496239"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162496239",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34670,8 +34865,9 @@
     "name": "UNIT 4, 634 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000027971372",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162496241"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162496241",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34687,8 +34883,9 @@
     "name": "UNIT 5, 634 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000027783782",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162496242"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162496242",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34704,8 +34901,9 @@
     "name": "UNIT 6, 634 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000027794333",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162496243"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162496243",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34721,8 +34919,9 @@
     "name": "UNIT 7, 634 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000027900511",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162496244"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162496244",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34738,8 +34937,9 @@
     "name": "UNIT 8, 634 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000027818216",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162496245"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162496245",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34755,8 +34955,9 @@
     "name": "UNIT 9, 634 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000027804847",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162496246"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162496246",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34900,8 +35101,9 @@
     "name": "UNIT 10, FLOOR 1, 279 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000082327334",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162580475"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162580475",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -35437,9 +35639,8 @@
     "name": "UNIT 10, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131819997",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724176",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724176"
    }
   },
   {
@@ -35455,9 +35656,8 @@
     "name": "UNIT 11, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820006",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724177",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724177"
    }
   },
   {
@@ -35490,9 +35690,8 @@
     "name": "UNIT 13, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820023",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724179",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724179"
    }
   },
   {
@@ -35525,9 +35724,8 @@
     "name": "UNIT 15, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820047",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724181",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724181"
    }
   },
   {
@@ -35543,9 +35741,8 @@
     "name": "UNIT 16, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820052",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724182",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724182"
    }
   },
   {
@@ -35561,9 +35758,8 @@
     "name": "UNIT 17, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820068",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724183",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724183"
    }
   },
   {
@@ -35579,9 +35775,8 @@
     "name": "UNIT 18, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820075",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724184",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724184"
    }
   },
   {
@@ -35597,9 +35792,8 @@
     "name": "UNIT 19, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820081",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724185",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724185"
    }
   },
   {
@@ -35632,9 +35826,8 @@
     "name": "UNIT 20, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820109",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724187",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724187"
    }
   },
   {
@@ -35650,9 +35843,8 @@
     "name": "UNIT 21, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820113",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724188",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724188"
    }
   },
   {
@@ -35668,9 +35860,8 @@
     "name": "UNIT 22, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820121",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724189",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724189"
    }
   },
   {
@@ -35703,8 +35894,9 @@
     "name": "UNIT 24, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820145",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162724191"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162724191",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -35720,9 +35912,8 @@
     "name": "UNIT 25, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820150",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724192",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724192"
    }
   },
   {
@@ -35738,9 +35929,8 @@
     "name": "UNIT 26, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820166",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724193",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724193"
    }
   },
   {
@@ -35756,9 +35946,8 @@
     "name": "UNIT 27, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820178",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724194",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724194"
    }
   },
   {
@@ -35774,9 +35963,8 @@
     "name": "UNIT 2, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820099",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724195",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724195"
    }
   },
   {
@@ -35792,9 +35980,8 @@
     "name": "UNIT 3, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820099",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724196",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724196"
    }
   },
   {
@@ -35810,9 +35997,8 @@
     "name": "UNIT 4, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820197",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724197",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724197"
    }
   },
   {
@@ -35828,9 +36014,8 @@
     "name": "UNIT 5, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820204",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724198",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724198"
    }
   },
   {
@@ -35846,9 +36031,8 @@
     "name": "UNIT 6, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820099",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724199",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724199"
    }
   },
   {
@@ -35881,9 +36065,8 @@
     "name": "UNIT 8, 661 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131820236",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_162724201",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162724201"
    }
   },
   {
@@ -36186,8 +36369,9 @@
     "name": "UNIT 5, 315 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC100033146722",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162767661"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162767661",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36203,8 +36387,9 @@
     "name": "UNIT 7, 315 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC100033146722",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162767662"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162767662",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36240,8 +36425,9 @@
     "name": "UNIT 4, FLOOR 1, 226 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000042896524",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162866054"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162866054",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36257,8 +36443,9 @@
     "name": "UNIT 5, FLOOR 1, 226 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000042896524",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162866055"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162866055",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36274,8 +36461,9 @@
     "name": "UNIT 6, FLOOR 1, 226 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000042896524",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162866056"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162866056",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36417,8 +36605,9 @@
     "name": "UNIT 11, 193-195 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000131868322",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162984515"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162984515",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36434,8 +36623,9 @@
     "name": "UNIT 12, 193-195 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000131871894",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162984516"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162984516",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36451,8 +36641,9 @@
     "name": "UNIT 13, 193-195 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000131871904",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162984517"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162984517",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36468,8 +36659,9 @@
     "name": "UNIT 14, 193-195 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000131871915",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162984518"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162984518",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36485,8 +36677,9 @@
     "name": "UNIT 15, 193-195 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000131871927",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162984519"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162984519",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36502,8 +36695,9 @@
     "name": "UNIT 16, 193-195 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000131871936",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162984520"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162984520",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36519,8 +36713,9 @@
     "name": "UNIT 1, 193-195 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000007868673",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162984521"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_162984521",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -36536,8 +36731,9 @@
     "name": "UNIT 2, 193-195 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000131871943",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162984522"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162984522",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36553,8 +36749,9 @@
     "name": "UNIT 3, 193-195 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000131871958",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162984523"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162984523",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36570,8 +36767,9 @@
     "name": "UNIT 4, 193-195 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000131871962",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162984524"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162984524",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36587,8 +36785,9 @@
     "name": "UNIT 5, 193-195 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000131871970",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162984525"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162984525",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36622,8 +36821,9 @@
     "name": "UNIT 6, 193-195 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000131871958",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162984527"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162984527",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36639,8 +36839,9 @@
     "name": "UNIT 7, 193-195 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000131871991",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162984528"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162984528",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36656,8 +36857,9 @@
     "name": "UNIT 8, 193-195 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000131872001",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162984529"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162984529",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36673,8 +36875,9 @@
     "name": "UNIT 9, 193-195 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000131872017",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162984530"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162984530",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36690,8 +36893,9 @@
     "name": "193-195 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000131871958",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162990383"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162990383",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36779,8 +36983,9 @@
     "name": "LEVEL 1, 632 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000027783332",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163009911"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163009911",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36798,9 +37003,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_163049263",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36818,9 +37022,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_163049264",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36912,8 +37115,9 @@
     "name": "UNIT 11, FLOOR 1, 279 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000082327334",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163050151"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163050151",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36929,8 +37133,9 @@
     "name": "UNIT 7, FLOOR 1, 279 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000082327334",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163050152"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163050152",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36946,8 +37151,9 @@
     "name": "UNIT 8, FLOOR 1, 279 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000082327334",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163050153"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163050153",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36963,8 +37169,9 @@
     "name": "UNIT 9, FLOOR 1, 279 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000082327334",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163050154"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163050154",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37071,8 +37278,9 @@
     "name": "SUITE 3, 156 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000065488013",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163054268"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_163054268",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -37088,8 +37296,9 @@
     "name": "SUITE 4, 156 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000065525412",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163054269"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_163054269",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -37125,8 +37334,9 @@
     "name": "UNIT 1, 356 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000072622328",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163084000"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163084000",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37142,8 +37352,9 @@
     "name": "UNIT 2, FLOOR 1, 356 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000177767367",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163084001"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163084001",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37159,8 +37370,9 @@
     "name": "UNIT 3, FLOOR 1, 356 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000177767367",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163084002"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163084002",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37176,8 +37388,9 @@
     "name": "UNIT 4, FLOOR 2, 356 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000177767367",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163084003"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163084003",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37193,8 +37406,9 @@
     "name": "UNIT 5, FLOOR 2, 356 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000177767367",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163084004"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163084004",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37210,8 +37424,9 @@
     "name": "UNIT 6, FLOOR 2, 356 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000177767367",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163084005"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163084005",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37227,8 +37442,9 @@
     "name": "UNIT 7, FLOOR 2, 356 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000177767367",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163084006"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163084006",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37244,8 +37460,9 @@
     "name": "UNIT 8, FLOOR 2, 356 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000177767367",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163084007"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163084007",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37605,8 +37822,9 @@
     "name": "150 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000002937651",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163207808"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163207808",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37639,8 +37857,9 @@
     "name": "154 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000002937651",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_163207810"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_163207810",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -38007,10 +38226,9 @@
    "properties": {
     "name": "5B LEICESTER STREET LEEDERVILLE 6007",
     "locID": "LOC000110890563",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_163381280",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38836,8 +39054,9 @@
     "name": "228 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000168189013",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718448526"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718448526",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -38922,8 +39141,9 @@
     "name": "UNIT 1, 663 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000149373040",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718451425"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718451425",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -39010,8 +39230,9 @@
     "name": "UNIT 5, 663 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000149373086",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718451430"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718451430",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -39186,8 +39407,9 @@
     "name": "150-154 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000002937651",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718451629"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718451629",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -39202,10 +39424,9 @@
    "properties": {
     "name": "164 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000192107624",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_718451630",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_718451630"
    }
   },
   {
@@ -39528,8 +39749,9 @@
     "name": "UNIT 3A, 356 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000177767367",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718634890"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718634890",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -39545,8 +39767,9 @@
     "name": "UNIT 3B, 356 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000177767367",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718634891"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718634891",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -43009,8 +43232,9 @@
     "name": "LEVEL 1, 150 OXFORD STREET LEEDERVILLE 6007",
     "locID": "LOC000002937651",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718794268"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718794268",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -43066,8 +43290,9 @@
     "name": "UNIT 10, 281 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000149382387",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718836787"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718836787",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -43083,8 +43308,9 @@
     "name": "UNIT 1, 281 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000149382387",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718836788"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718836788",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -43100,8 +43326,9 @@
     "name": "UNIT 2, 281 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000149382302",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718836789"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718836789",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -43117,8 +43344,9 @@
     "name": "UNIT 3, 281 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000149382318",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718836790"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718836790",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -43134,8 +43362,9 @@
     "name": "UNIT 4, 281 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000149382325",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718836791"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718836791",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -43151,8 +43380,9 @@
     "name": "UNIT 5, 281 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000149382339",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718836792"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718836792",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -43168,8 +43398,9 @@
     "name": "UNIT 6, 281 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000149382341",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718836793"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718836793",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -43185,8 +43416,9 @@
     "name": "UNIT 7, 281 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000149382356",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718836794"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718836794",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -43202,8 +43434,9 @@
     "name": "UNIT 8, 281 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000149382360",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718836795"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718836795",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -43219,8 +43452,9 @@
     "name": "UNIT 9, 281 VINCENT STREET LEEDERVILLE 6007",
     "locID": "LOC000149382373",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718836796"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_718836796",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -44002,9 +44236,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_719402889",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -44022,9 +44255,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_719403213",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -44116,9 +44348,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_719406481",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -45897,9 +46128,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_719646336",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -47107,8 +47337,9 @@
     "name": "UNIT 14, 167 CARR PLACE LEEDERVILLE 6007",
     "locID": "LOC000080344902",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720299009"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_720299009",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -50517,9 +50748,9 @@
     "name": "UNIT 302, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278056",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50535,9 +50766,9 @@
     "name": "UNIT 502, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278062",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50553,9 +50784,9 @@
     "name": "UNIT 601, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278203",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50571,9 +50802,9 @@
     "name": "UNIT 409, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278238",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50589,9 +50820,9 @@
     "name": "UNIT 407, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278420",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50607,9 +50838,9 @@
     "name": "UNIT 608, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278429",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50642,9 +50873,9 @@
     "name": "UNIT 603, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278478",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50660,9 +50891,9 @@
     "name": "UNIT 505, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278586",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50678,9 +50909,9 @@
     "name": "UNIT 604, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278598",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50696,9 +50927,9 @@
     "name": "UNIT 509, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278601",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50714,9 +50945,9 @@
     "name": "UNIT 705, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278678",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50749,9 +50980,9 @@
     "name": "UNIT 506, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278785",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50767,9 +50998,9 @@
     "name": "UNIT 1, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278795",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50785,9 +51016,9 @@
     "name": "UNIT 408, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278797",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50803,9 +51034,9 @@
     "name": "UNIT 605, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278849",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50821,9 +51052,9 @@
     "name": "UNIT 201, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278896",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50839,9 +51070,9 @@
     "name": "UNIT 404, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278971",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50857,9 +51088,9 @@
     "name": "UNIT 701, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278989",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50875,9 +51106,9 @@
     "name": "UNIT 2, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721279017",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50893,9 +51124,9 @@
     "name": "UNIT 507, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721279135",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50911,9 +51142,9 @@
     "name": "UNIT 602, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721279223",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50929,9 +51160,9 @@
     "name": "UNIT 405, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721279332",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50964,9 +51195,9 @@
     "name": "UNIT 704, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721279596",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50982,9 +51213,9 @@
     "name": "UNIT 501, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721279654",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -51000,9 +51231,9 @@
     "name": "UNIT 406, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721279733",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -51052,9 +51283,9 @@
     "name": "UNIT 402, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721280604",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -51070,9 +51301,9 @@
     "name": "UNIT 504, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721280657",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -51105,9 +51336,9 @@
     "name": "UNIT 606, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721280729",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -51123,9 +51354,9 @@
     "name": "UNIT 607, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721280788",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -51141,9 +51372,9 @@
     "name": "UNIT 301, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721280822",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -51159,9 +51390,9 @@
     "name": "UNIT 101, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721280958",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -51228,9 +51459,9 @@
     "name": "UNIT 403, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721281394",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -51246,9 +51477,9 @@
     "name": "UNIT 702, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721281879",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -51281,9 +51512,9 @@
     "name": "UNIT 401, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721281960",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -51299,9 +51530,9 @@
     "name": "UNIT 703, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721281969",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -51317,9 +51548,9 @@
     "name": "UNIT 508, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721281970",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -51335,9 +51566,9 @@
     "name": "UNIT 503, 636 NEWCASTLE STREET LEEDERVILLE 6007",
     "locID": "LOC000131845475",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721281988",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {

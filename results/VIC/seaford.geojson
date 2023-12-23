@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-11-11T19:43:11.322041",
+ "generated": "2023-12-20T23:36:23.005957",
  "suburb": "SEAFORD",
  "features": [
   {
@@ -232,9 +232,9 @@
     "name": "UNIT 1, 60 EAST ROAD SEAFORD 3198",
     "locID": "LOC000068316100",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC412266569",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -444,9 +444,9 @@
     "name": "15 ARMSTRONGS ROAD SEAFORD 3198",
     "locID": "LOC000124087309",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC412270034",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -534,9 +534,9 @@
     "name": "UNIT 2, 5 TI-TREE CRESCENT SEAFORD 3198",
     "locID": "LOC000068010810",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC412270161",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1267,9 +1267,9 @@
     "name": "UNIT 2, 38 MCKENZIE STREET SEAFORD 3198",
     "locID": "LOC000035438387",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC412277276",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1480,9 +1480,9 @@
     "name": "UNIT 5, 2 TI-TREE CRESCENT SEAFORD 3198",
     "locID": "LOC000068010810",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC412279000",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1498,9 +1498,9 @@
     "name": "UNIT 2, 7 TI-TREE CRESCENT SEAFORD 3198",
     "locID": "LOC000011110454",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC412279005",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1551,10 +1551,9 @@
    "properties": {
     "name": "UNIT 3, 89 RAILWAY PARADE SEAFORD 3198",
     "locID": "LOC000031049139",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC412279819",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC412279819"
    }
   },
   {
@@ -1730,8 +1729,9 @@
     "name": "29 MCKENZIE STREET SEAFORD 3198",
     "locID": "LOC000074831859",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412280609"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC412280609",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1819,8 +1819,9 @@
     "name": "UNIT 3, 71 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124095207",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412281184"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412281184",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -1925,8 +1926,9 @@
     "name": "UNIT 12, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018093322",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412281258"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412281258",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -1960,8 +1962,9 @@
     "name": "UNIT 6, 282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079084816",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412281361"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412281361",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -1977,8 +1980,26 @@
     "name": "UNIT 8, 282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079270412",
     "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412281362",
+    "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.128725,
+     -38.110452
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 9 SEAFORD ROAD SEAFORD 3198",
+    "locID": "LOC000194089449",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412281362"
+    "gnaf_pid": "GAVIC412281420"
    }
   },
   {
@@ -2334,8 +2355,9 @@
     "name": "UNIT 2, 71 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124095207",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412283227"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412283227",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -2387,8 +2409,9 @@
     "name": "UNIT 11, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018103790",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412283883"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412283883",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -2519,6 +2542,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.128725,
+     -38.110452
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 9 SEAFORD ROAD SEAFORD 3198",
+    "locID": "LOC000194089449",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC412284758"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.125205,
      -38.120075
     ]
@@ -2527,8 +2567,9 @@
     "name": "UNIT 60, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018103800",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412284759"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412284759",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -2544,8 +2585,9 @@
     "name": "UNIT 56, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018103816",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412284760"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412284760",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -2561,8 +2603,9 @@
     "name": "UNIT 8, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018103828",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412284761"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412284761",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -2596,8 +2639,9 @@
     "name": "UNIT 34, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018199527",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412284797"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412284797",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -2719,9 +2763,9 @@
     "name": "UNIT 4, 9 SEAFORD ROAD SEAFORD 3198",
     "locID": "LOC000015113619",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC412284971",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -2755,8 +2799,9 @@
     "name": "UNIT 5, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018184706",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412285121"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412285121",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -2772,8 +2817,9 @@
     "name": "UNIT 7, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018124119",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412285122"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412285122",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -2825,8 +2871,9 @@
     "name": "UNIT 10, 282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079406880",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412285125"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412285125",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -2860,8 +2907,9 @@
     "name": "UNIT 9, 282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079227960",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412285127"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412285127",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -2877,8 +2925,9 @@
     "name": "UNIT 7, 282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079340562",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412285128"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412285128",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -2911,8 +2960,9 @@
     "name": "UNIT 2, 36 SEAFORD ROAD SEAFORD 3198",
     "locID": "LOC000011969930",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412285153"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC412285153",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3089,8 +3139,9 @@
     "name": "UNIT 54, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018176617",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412285353"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412285353",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -3159,8 +3210,9 @@
     "name": "UNIT 21, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018199536",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412285708"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412285708",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -3496,8 +3548,9 @@
     "name": "UNIT 42, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018124055",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412287386"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412287386",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -3513,8 +3566,9 @@
     "name": "UNIT 46, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018124064",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412287388"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412287388",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -4171,9 +4225,9 @@
     "name": "124 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000086634066",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC412289218",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -4279,9 +4333,9 @@
     "name": "37 MITCHELL STREET SEAFORD 3198",
     "locID": "LOC000056836037",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC412289302",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -4493,8 +4547,9 @@
     "name": "UNIT 41, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018195633",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412289598"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412289598",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -4580,10 +4635,9 @@
    "properties": {
     "name": "17 SEAFORD ROAD SEAFORD 3198",
     "locID": "LOC000095854879",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC412289726",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC412289726"
    }
   },
   {
@@ -5168,8 +5222,9 @@
     "name": "UNIT 50, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018184706",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412291263"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412291263",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -5740,8 +5795,9 @@
     "name": "UNIT 6, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018116236",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412292224"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412292224",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -5775,9 +5831,9 @@
     "name": "UNIT 2, 114 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000104610706",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC412292232",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5793,9 +5849,9 @@
     "name": "UNIT 1, 114 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000104610706",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC412292234",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5987,8 +6043,9 @@
     "name": "UNIT 28, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018184747",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412293041"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412293041",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -6004,9 +6061,9 @@
     "name": "23 HODGES STREET SEAFORD 3198",
     "locID": "LOC000067107925",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC412293064",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6057,9 +6114,9 @@
     "name": "UNIT 1, 15 OVERTON ROAD SEAFORD 3198",
     "locID": "LOC000069801946",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC412293832",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6147,9 +6204,9 @@
     "name": "UNIT 1, 181 SEAFORD ROAD SEAFORD 3198",
     "locID": "LOC000062362093",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC412293850",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6165,8 +6222,9 @@
     "name": "UNIT 24, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018184752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412293853"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412293853",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -6254,8 +6312,9 @@
     "name": "UNIT 13, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018181099",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412293858"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC412293858",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -6630,10 +6689,9 @@
    "properties": {
     "name": "UNIT 10, 259 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000027096465",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC413943305",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC413943305"
    }
   },
   {
@@ -6648,10 +6706,9 @@
    "properties": {
     "name": "UNIT 11, 259 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000026959531",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC413943306",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC413943306"
    }
   },
   {
@@ -6775,8 +6832,9 @@
     "name": "UNIT 3, 46-47 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000094242603",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC413943313"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC413943313",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -6792,8 +6850,9 @@
     "name": "UNIT 4, 46-47 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000094242603",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC413943315"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC413943315",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -7255,8 +7314,9 @@
     "name": "UNIT 5, 11-13 CLAUDE STREET SEAFORD 3198",
     "locID": "LOC000084669740",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC413953092"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC413953092",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7290,8 +7350,9 @@
     "name": "UNIT 10, 46-47 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000093993510",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC413953546"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC413953546",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -7307,8 +7368,9 @@
     "name": "UNIT 11, 46-47 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000094242603",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC413953547"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC413953547",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -7324,8 +7386,9 @@
     "name": "UNIT 12, 46-47 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000093638813",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC413953548"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC413953548",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -7341,8 +7404,9 @@
     "name": "UNIT 7, 11-13 CLAUDE STREET SEAFORD 3198",
     "locID": "LOC000084639330",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC413953799"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC413953799",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7357,10 +7421,9 @@
    "properties": {
     "name": "UNIT 1, 259 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000027096465",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC413953948",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC413953948"
    }
   },
   {
@@ -7394,9 +7457,9 @@
     "name": "24 NEWTON STREET SEAFORD 3198",
     "locID": "LOC000057117618",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC413953979",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7662,9 +7725,9 @@
     "name": "UNIT 15, 1 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000080559129",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC413958840",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7985,8 +8048,9 @@
     "name": "1 HALLIFAX STREET SEAFORD 3198",
     "locID": "LOC000167383399",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC413963993"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC413963993",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -8845,8 +8909,9 @@
     "name": "107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079257471",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC413976732"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC413976732",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -9220,8 +9285,9 @@
     "name": "UNIT 1, 273 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000039105072",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC413977463"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC413977463",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -9255,8 +9321,9 @@
     "name": "UNIT 1, 46-47 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000094242603",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC413977504"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC413977504",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -9272,8 +9339,9 @@
     "name": "UNIT 2, 46-47 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000093980463",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC413977505"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC413977505",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -9289,8 +9357,9 @@
     "name": "33 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000081868540",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC413977516"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC413977516",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -9683,8 +9752,9 @@
     "name": "UNIT 6, 11-13 CLAUDE STREET SEAFORD 3198",
     "locID": "LOC000084958915",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC413985989"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC413985989",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -9844,8 +9914,9 @@
     "name": "15 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082085311",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC413986944"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC413986944",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -10347,7 +10418,8 @@
     "locID": "LOC000084828781",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419544741"
+    "gnaf_pid": "GAVIC419544741",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -10362,10 +10434,10 @@
    "properties": {
     "name": "27 MAPLE STREET SEAFORD 3198",
     "locID": "LOC000047015397",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC419544742",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -11152,9 +11224,9 @@
     "name": "4 GRANT AVENUE SEAFORD 3198",
     "locID": "LOC000021805567",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419547562",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13019,9 +13091,9 @@
     "name": "16 CHICQUITA AVENUE SEAFORD 3198",
     "locID": "LOC000073860819",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419549089",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13874,10 +13946,10 @@
    "properties": {
     "name": "29 AUSTIN ROAD SEAFORD 3198",
     "locID": "LOC000022698559",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC419549464",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -16298,9 +16370,9 @@
     "name": "8 RAYMOND ROAD SEAFORD 3198",
     "locID": "LOC000070756164",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419551038",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -16729,8 +16801,9 @@
     "name": "33 RAILWAY PARADE SEAFORD 3198",
     "locID": "LOC000042281592",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419551239"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419551239",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -17538,8 +17611,9 @@
     "name": "3 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124066050",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419551699"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419551699",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -17573,8 +17647,9 @@
     "name": "47 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000094224971",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419551701"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419551701",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -18481,9 +18556,8 @@
     "name": "39 HENRY CRESCENT SEAFORD 3198",
     "locID": "LOC000167098356",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAVIC419552125",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419552125"
    }
   },
   {
@@ -18965,9 +19039,9 @@
     "name": "2 MITCHELL STREET SEAFORD 3198",
     "locID": "LOC000034867509",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419552318",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -20399,9 +20473,9 @@
     "name": "14 MOLESWORTH STREET SEAFORD 3198",
     "locID": "LOC000009367010",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419553132",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -21527,8 +21601,9 @@
     "name": "13 NORTHCOTE STREET SEAFORD 3198",
     "locID": "LOC000167397717",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419553692"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419553692",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -21615,10 +21690,9 @@
    "properties": {
     "name": "154 RAILWAY PARADE SEAFORD 3198",
     "locID": "LOC000077085398",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419553713",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419553713"
    }
   },
   {
@@ -21992,8 +22066,9 @@
     "name": "48 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000167387636",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419553858"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419553858",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22044,9 +22119,9 @@
     "name": "2 WYNNSTAY ROAD SEAFORD 3198",
     "locID": "LOC000074095222",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419553922",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22205,9 +22280,9 @@
     "name": "UNIT 6, 9-11 RUTHERFORD ROAD SEAFORD 3198",
     "locID": "LOC000015671011",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419608109",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22708,9 +22783,9 @@
     "name": "UNIT 7, 102 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000035988508",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419667169",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22744,9 +22819,9 @@
     "name": "UNIT 1, 24 NEWTON STREET SEAFORD 3198",
     "locID": "LOC000057117618",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419677947",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -23428,8 +23503,9 @@
     "name": "UNIT 3, 274 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000083587021",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419712135"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419712135",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23445,8 +23521,9 @@
     "name": "UNIT 5, 274 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000083587021",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419712136"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419712136",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23462,8 +23539,9 @@
     "name": "UNIT 7, 274 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000083440592",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419712137"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419712137",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23496,8 +23574,9 @@
     "name": "UNIT 8, 275 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000090369729",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419712139"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419712139",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -23621,9 +23700,9 @@
     "name": "UNIT 1, 23 HODGES STREET SEAFORD 3198",
     "locID": "LOC000067107925",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419714510",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -23835,10 +23914,9 @@
    "properties": {
     "name": "4 COVE LANE SEAFORD 3198",
     "locID": "LOC000071885448",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419720182",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419720182"
    }
   },
   {
@@ -24319,10 +24397,10 @@
    "properties": {
     "name": "UNIT 4, 197-198 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000038603208",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC419733195",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -24572,8 +24650,9 @@
     "name": "UNIT 6, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070377019",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419738365"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419738365",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -24894,9 +24973,9 @@
     "name": "UNIT 1, 13 WEBB STREET SEAFORD 3198",
     "locID": "LOC000023500159",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419739695",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -25164,8 +25243,9 @@
     "name": "1 FAY STREET SEAFORD 3198",
     "locID": "LOC000014415630",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419743163"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419743163",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -25915,9 +25995,9 @@
     "name": "UNIT 2, 124 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000086634066",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419748731",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -26235,8 +26315,9 @@
     "name": "UNIT 32, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082147693",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419750631"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419750631",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26373,9 +26454,9 @@
     "name": "UNIT 2, 21 NETHERALL STREET SEAFORD 3198",
     "locID": "LOC000085362224",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419751604",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -26841,9 +26922,9 @@
     "name": "UNIT 1, 134 AUSTIN ROAD SEAFORD 3198",
     "locID": "LOC000097200449",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419761349",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -26895,8 +26976,9 @@
     "name": "UNIT 1, 281-282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079406880",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419761622"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419761622",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26912,8 +26994,9 @@
     "name": "UNIT 7, 281-282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079340562",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419761623"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419761623",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26929,8 +27012,9 @@
     "name": "UNIT 8, 281-282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079270412",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419761624"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419761624",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27270,9 +27354,9 @@
     "name": "UNIT 2, 7 MITCHELL STREET SEAFORD 3198",
     "locID": "LOC000018658915",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419781111",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -27822,10 +27906,9 @@
    "properties": {
     "name": "37 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000109680110",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419836309",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419836309"
    }
   },
   {
@@ -28932,10 +29015,9 @@
    "properties": {
     "name": "5 BRUNEL ROAD SEAFORD 3198",
     "locID": "LOC000094988485",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419843402",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419843402"
    }
   },
   {
@@ -30508,9 +30590,9 @@
     "name": "8 KEEROK AVENUE SEAFORD 3198",
     "locID": "LOC000041481280",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419850436",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -30903,8 +30985,9 @@
     "name": "23 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124091304",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419851833"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419851833",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -31599,9 +31682,9 @@
     "name": "10 MCRAE STREET SEAFORD 3198",
     "locID": "LOC000060713303",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419853162",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -33531,9 +33614,9 @@
     "name": "8 SCOTT STREET SEAFORD 3198",
     "locID": "LOC000001916441",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419854984",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -33603,9 +33686,9 @@
     "name": "17 SEACREST AVENUE SEAFORD 3198",
     "locID": "LOC000115757505",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419855636",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -33958,10 +34041,9 @@
    "properties": {
     "name": "24 DUNCAN AVENUE SEAFORD 3198",
     "locID": "LOC000028483214",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419856211",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419856211"
    }
   },
   {
@@ -33994,8 +34076,9 @@
     "name": "3 PORTLAND PARADE SEAFORD 3198",
     "locID": "LOC000016907395",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419856316"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419856316",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -35107,8 +35190,9 @@
     "name": "27 JOHNSTONE STREET SEAFORD 3198",
     "locID": "LOC000167386857",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419857595"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419857595",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -35426,11 +35510,10 @@
    },
    "properties": {
     "name": "105 EAST ROAD SEAFORD 3198",
-    "locID": "LOC000050513728",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419858032",
-    "tech_change_status": "Eligible To Order"
+    "locID": "LOC000194148469",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419858032"
    }
   },
   {
@@ -35733,9 +35816,9 @@
     "name": "24 MOLESWORTH STREET SEAFORD 3198",
     "locID": "LOC000017783768",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419858276",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -36633,9 +36716,9 @@
     "name": "17 MOOMBA AVENUE SEAFORD 3198",
     "locID": "LOC000167394330",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419859237",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -38030,8 +38113,7 @@
     "locID": "LOC000072675786",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419861883",
-    "tech_change_status": "Eligible To Order"
+    "gnaf_pid": "GAVIC419861883"
    }
   },
   {
@@ -38119,9 +38201,9 @@
     "name": "26 WEATHERSTON ROAD SEAFORD 3198",
     "locID": "LOC000167383427",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419861942",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -40021,9 +40103,9 @@
     "name": "UNIT 5, 102 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000035949048",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419966622",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -40092,9 +40174,9 @@
     "name": "UNIT 2, 228 SEAFORD ROAD SEAFORD 3198",
     "locID": "LOC000071850219",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419966989",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -41236,9 +41318,9 @@
     "name": "UNIT 3, 14 DUNCAN AVENUE SEAFORD 3198",
     "locID": "LOC000107579870",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420017654",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -41272,9 +41354,9 @@
     "name": "UNIT 2, 19 HODGES STREET SEAFORD 3198",
     "locID": "LOC000033676445",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420017658",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -41414,9 +41496,9 @@
     "name": "11 ARTHUR STREET SEAFORD 3198",
     "locID": "LOC000079037630",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420020917",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -41486,8 +41568,9 @@
     "name": "274 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000083587021",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420021166"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420021166",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -41503,8 +41586,9 @@
     "name": "UNIT 9, 274 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000083432804",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420021167"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420021167",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -42203,8 +42287,9 @@
     "name": "UNIT 8, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070432730",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420039303"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420039303",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -42220,8 +42305,9 @@
     "name": "UNIT 12, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070364445",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420039304"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420039304",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -42363,9 +42449,9 @@
     "name": "UNIT 1, 37 MITCHELL STREET SEAFORD 3198",
     "locID": "LOC000056836037",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420042124",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -42615,8 +42701,9 @@
     "name": "UNIT 15, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070146420",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420044595"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420044595",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -42758,8 +42845,9 @@
     "name": "UNIT 3, 281-282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079084816",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420045369"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420045369",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -42865,8 +42953,9 @@
     "name": "59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070377019",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420046281"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420046281",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -43112,9 +43201,9 @@
     "name": "UNIT 4, 6-10 LEVUKA STREET SEAFORD 3198",
     "locID": "LOC000083220759",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420047868",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -44312,8 +44401,9 @@
     "name": "UNIT 17, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082010909",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420061921"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420061921",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -44653,9 +44743,9 @@
     "name": "UNIT 1, 7 MITCHELL STREET SEAFORD 3198",
     "locID": "LOC000018586523",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420068004",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -45155,9 +45245,9 @@
     "name": "8 MCRAE STREET SEAFORD 3198",
     "locID": "LOC000092753773",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420113315",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -45334,10 +45424,9 @@
    "properties": {
     "name": "47 KANANOOK AVENUE SEAFORD 3198",
     "locID": "LOC000167393405",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420137877",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420137877"
    }
   },
   {
@@ -45675,8 +45764,9 @@
     "name": "37 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018188765",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420139869"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420139869",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -46318,9 +46408,9 @@
     "name": "2 ROBINSONS ROAD SEAFORD 3198",
     "locID": "LOC000092125731",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420147504",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -46713,8 +46803,9 @@
     "name": "16 WISE AVENUE SEAFORD 3198",
     "locID": "LOC000010908733",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420148305"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420148305",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -48487,8 +48578,9 @@
     "name": "19 KELVIN AVENUE SEAFORD 3198",
     "locID": "LOC000048994403",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420154064"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420154064",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -49257,9 +49349,9 @@
     "name": "34 EAST ROAD SEAFORD 3198",
     "locID": "LOC000102185346",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420155564",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -49525,8 +49617,9 @@
     "name": "171 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000040463581",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420155909"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420155909",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -49647,10 +49740,10 @@
    "properties": {
     "name": "23 KANANOOK AVENUE SEAFORD 3198",
     "locID": "LOC000040712480",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC420155948",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -50559,10 +50652,10 @@
    "properties": {
     "name": "58 MAPLE STREET SEAFORD 3198",
     "locID": "LOC000073796254",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC420158261",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -52242,8 +52335,9 @@
     "name": "42 MCKENZIE STREET SEAFORD 3198",
     "locID": "LOC000167395946",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420161967"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420161967",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -52562,8 +52656,9 @@
     "name": "206 SEAFORD ROAD SEAFORD 3198",
     "locID": "LOC000066872149",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420162134"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420162134",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -52847,9 +52942,9 @@
     "name": "16 GALWAY STREET SEAFORD 3198",
     "locID": "LOC000124087366",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420162749",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -54028,9 +54123,9 @@
     "name": "UNIT 6, 11-13 BRUNEL ROAD SEAFORD 3198",
     "locID": "LOC000035115670",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420166882",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -54118,9 +54213,9 @@
     "name": "3 MOLESWORTH STREET SEAFORD 3198",
     "locID": "LOC000167385548",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420167508",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -54263,8 +54358,7 @@
     "locID": "LOC000102619017",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420168028",
-    "tech_change_status": "Eligible To Order"
+    "gnaf_pid": "GAVIC420168028"
    }
   },
   {
@@ -56269,10 +56363,9 @@
    "properties": {
     "name": "UNIT 4, 127 AUSTIN ROAD SEAFORD 3198",
     "locID": "LOC000086597069",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420194722",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420194722"
    }
   },
   {
@@ -57277,8 +57370,9 @@
     "name": "UNIT 7, 280 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000004453745",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420298688"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420298688",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -57672,8 +57766,9 @@
     "name": "UNIT 4, 280 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000004320288",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420305799"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420305799",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -57689,8 +57784,9 @@
     "name": "280 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000004297544",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420305800"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420305800",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -58676,9 +58772,9 @@
     "name": "UNIT 2, 29 MCKENZIE STREET SEAFORD 3198",
     "locID": "LOC000074005168",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420325040",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -58711,8 +58807,9 @@
     "name": "UNIT 3, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070377019",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420326618"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420326618",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -58728,8 +58825,9 @@
     "name": "UNIT 17, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070496159",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420326619"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420326619",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -58853,8 +58951,9 @@
     "name": "UNIT 10, 275 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000091913368",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420327877"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420327877",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -58870,8 +58969,9 @@
     "name": "275 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000092146130",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420327878"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420327878",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -58959,9 +59059,9 @@
     "name": "UNIT 1, 15 ARMSTRONGS ROAD SEAFORD 3198",
     "locID": "LOC000124087309",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420328534",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -58977,9 +59077,9 @@
     "name": "UNIT 2, 15 ARMSTRONGS ROAD SEAFORD 3198",
     "locID": "LOC000124087309",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420328535",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -58995,9 +59095,9 @@
     "name": "UNIT 2, 160 AUSTIN ROAD SEAFORD 3198",
     "locID": "LOC000106168490",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420328536",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -59102,8 +59202,9 @@
     "name": "UNIT 1, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070377019",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420332953"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420332953",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -59119,8 +59220,9 @@
     "name": "UNIT 2, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070316251",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420332954"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420332954",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -59495,8 +59597,9 @@
     "name": "UNIT 1, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082143440",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420338777"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420338777",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -59566,8 +59669,9 @@
     "name": "UNIT 12, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082261254",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420338781"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420338781",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -59959,10 +60063,9 @@
    "properties": {
     "name": "6 RAILWAY PARADE SEAFORD 3198",
     "locID": "LOC000052401045",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420344153",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420344153"
    }
   },
   {
@@ -60014,8 +60117,9 @@
     "name": "7 SIR LAURENCE DRIVE SEAFORD 3198",
     "locID": "LOC000021190272",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420344584"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420344584",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -60802,9 +60906,9 @@
     "name": "UNIT 1, 21 NETHERALL STREET SEAFORD 3198",
     "locID": "LOC000085362224",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420353097",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -61320,8 +61424,9 @@
     "name": "UNIT 6, 281-282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079084816",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420360485"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420360485",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -61337,8 +61442,9 @@
     "name": "UNIT 9, 281-282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079227960",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420360486"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420360486",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -61494,8 +61600,9 @@
     "name": "UNIT 33, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000081868540",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420368989"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420368989",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -61778,9 +61885,9 @@
     "name": "UNIT 1, 135 AUSTIN ROAD SEAFORD 3198",
     "locID": "LOC000017822914",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420400676",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -61920,8 +62027,9 @@
     "name": "384 FRANKSTON-DANDENONG ROAD SEAFORD 3198",
     "locID": "LOC000063462576",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420424769"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420424769",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -62276,10 +62384,10 @@
    "properties": {
     "name": "25 CLOVELLY PARADE SEAFORD 3198",
     "locID": "LOC000093739921",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC420438606",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -63584,9 +63692,9 @@
     "name": "19 ROBINSONS ROAD SEAFORD 3198",
     "locID": "LOC000034329207",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420451398",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -64565,9 +64673,9 @@
     "name": "52 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000026099702",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420452559",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -66034,10 +66142,9 @@
    "properties": {
     "name": "19 LAROOL CRESCENT SEAFORD 3198",
     "locID": "LOC000167099642",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420455179",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420455179"
    }
   },
   {
@@ -66679,10 +66786,9 @@
    "properties": {
     "name": "13 ELISDON DRIVE SEAFORD 3198",
     "locID": "LOC000102889031",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420455801",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420455801"
    }
   },
   {
@@ -67271,9 +67377,9 @@
     "name": "10 AUSTIN ROAD SEAFORD 3198",
     "locID": "LOC000114571235",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420456088",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -68844,8 +68950,9 @@
     "name": "11 TI-TREE CRESCENT SEAFORD 3198",
     "locID": "LOC000167398912",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420457883"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420457883",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -69165,8 +69272,9 @@
     "name": "19 CHICQUITA AVENUE SEAFORD 3198",
     "locID": "LOC000167397793",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420458024"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420458024",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -70902,10 +71010,10 @@
    "properties": {
     "name": "82 KANANOOK AVENUE SEAFORD 3198",
     "locID": "LOC000097287552",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC420461320",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -72176,8 +72284,9 @@
     "name": "71 KIRKWOOD AVENUE SEAFORD 3198",
     "locID": "LOC000114772375",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420463077"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420463077",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -74023,10 +74132,9 @@
    "properties": {
     "name": "38 RYAN STREET SEAFORD 3198",
     "locID": "LOC000013855631",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420475377",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420475377"
    }
   },
   {
@@ -74419,10 +74527,9 @@
    "properties": {
     "name": "UNIT 3, 127 AUSTIN ROAD SEAFORD 3198",
     "locID": "LOC000086597069",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420518678",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420518678"
    }
   },
   {
@@ -75694,8 +75801,9 @@
     "name": "UNIT 11, 275 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000091983704",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420609644"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420609644",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -75783,8 +75891,9 @@
     "name": "UNIT 1, 280 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000004297544",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420609664"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420609664",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -76663,8 +76772,9 @@
     "name": "UNIT 1, 36 WELLS ROAD SEAFORD 3198",
     "locID": "LOC000011956952",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420627683"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420627683",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -77289,9 +77399,9 @@
     "name": "11 MOLESWORTH STREET SEAFORD 3198",
     "locID": "LOC000039037673",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420640217",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -77737,8 +77847,9 @@
     "name": "UNIT 14, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070537649",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420650573"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420650573",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -78347,9 +78458,9 @@
     "name": "UNIT 1, 26 LAROOL CRESCENT SEAFORD 3198",
     "locID": "LOC000079150917",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420658867",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -78365,9 +78476,9 @@
     "name": "26 LAROOL CRESCENT SEAFORD 3198",
     "locID": "LOC000079150917",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420658868",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -78526,10 +78637,9 @@
    "properties": {
     "name": "UNIT 11, 17 CLAUDE STREET SEAFORD 3198",
     "locID": "LOC000056112671",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420659600",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420659600"
    }
   },
   {
@@ -79492,8 +79602,9 @@
     "name": "UNIT 10, 281-282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079406880",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420678449"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420678449",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79544,8 +79655,9 @@
     "name": "UNIT 15, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082085311",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420680369"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420680369",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79561,8 +79673,9 @@
     "name": "UNIT 18, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082058050",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420680370"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420680370",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79578,8 +79691,9 @@
     "name": "UNIT 19, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082221640",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420680371"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420680371",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -79595,8 +79709,9 @@
     "name": "UNIT 21, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082352776",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420680372"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420680372",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -81042,9 +81157,9 @@
     "name": "21 BARRY STREET SEAFORD 3198",
     "locID": "LOC000006840741",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420746978",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -81991,10 +82106,9 @@
    "properties": {
     "name": "2 PETER COURT SEAFORD 3198",
     "locID": "LOC000023517112",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420752942",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420752942"
    }
   },
   {
@@ -82600,9 +82714,9 @@
     "name": "19 HANNAH STREET SEAFORD 3198",
     "locID": "LOC000167382449",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420755656",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -83336,9 +83450,9 @@
     "name": "21 NETHERALL STREET SEAFORD 3198",
     "locID": "LOC000085555613",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420756603",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -83371,10 +83485,9 @@
    "properties": {
     "name": "13 NEVILLE AVENUE SEAFORD 3198",
     "locID": "LOC000042474991",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420756607",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420756607"
    }
   },
   {
@@ -88385,9 +88498,9 @@
     "name": "53 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000093748014",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420770603",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -88403,9 +88516,9 @@
     "name": "57 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000112937240",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420770604",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -90591,9 +90704,8 @@
     "name": "2 ERWIN DRIVE SEAFORD 3198",
     "locID": "LOC000105940837",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAVIC420777004",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420777004"
    }
   },
   {
@@ -91201,9 +91313,9 @@
     "name": "5 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000058398490",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420777630",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -91219,8 +91331,9 @@
     "name": "16 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000167387501",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420777631"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420777631",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -91236,9 +91349,9 @@
     "name": "21 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000124091176",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420777632",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -92524,9 +92637,9 @@
     "name": "UNIT 1, 137 AUSTIN ROAD SEAFORD 3198",
     "locID": "LOC000007842986",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420804212",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -92542,9 +92655,9 @@
     "name": "UNIT 6, 137 AUSTIN ROAD SEAFORD 3198",
     "locID": "LOC000007927546",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420807816",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -92614,9 +92727,9 @@
     "name": "UNIT 8, 9-11 RUTHERFORD ROAD SEAFORD 3198",
     "locID": "LOC000015302497",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420818487",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -93386,9 +93499,9 @@
     "name": "UNIT 6, 102 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000036151015",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420880599",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -94444,10 +94557,9 @@
    "properties": {
     "name": "89 RAILWAY PARADE SEAFORD 3198",
     "locID": "LOC000031049139",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420925448",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420925448"
    }
   },
   {
@@ -94715,8 +94827,9 @@
     "name": "UNIT 2, 36 WELLS ROAD SEAFORD 3198",
     "locID": "LOC000011969930",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420925735"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420925735",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -94875,8 +94988,9 @@
     "name": "UNIT 4, 275 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000092035717",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420930831"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420930831",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -94892,8 +95006,9 @@
     "name": "UNIT 5, 275 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000092146130",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420930832"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420930832",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -94909,8 +95024,9 @@
     "name": "UNIT 6, 275 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000091887701",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420930833"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420930833",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -94962,8 +95078,9 @@
     "name": "UNIT 3, 280 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000004309120",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420930838"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420930838",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -95607,8 +95724,9 @@
     "name": "UNIT 18, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070366888",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420940099"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420940099",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -95696,8 +95814,9 @@
     "name": "UNIT 29, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082101261",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420940588"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420940588",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -95713,8 +95832,9 @@
     "name": "UNIT 30, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000081992715",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420940589"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420940589",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -95730,8 +95850,9 @@
     "name": "UNIT 35, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082129335",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420940590"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420940590",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -96412,9 +96533,9 @@
     "name": "UNIT 1, 29 MCKENZIE STREET SEAFORD 3198",
     "locID": "LOC000074005168",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420949663",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -97186,8 +97307,9 @@
     "name": "UNIT 1, 7 HADLEY STREET SEAFORD 3198",
     "locID": "LOC000005309930",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420957482"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420957482",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -97203,8 +97325,9 @@
     "name": "UNIT 2, 7 HADLEY STREET SEAFORD 3198",
     "locID": "LOC000005288337",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420957483"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420957483",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -97256,9 +97379,9 @@
     "name": "UNIT 2, 26 LAROOL CRESCENT SEAFORD 3198",
     "locID": "LOC000079150917",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420957591",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -97954,9 +98077,9 @@
     "name": "UNIT 1, 30 DENBIGH ROAD SEAFORD 3198",
     "locID": "LOC000104027606",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420965443",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -98115,9 +98238,9 @@
     "name": "13 ABECKETT STREET SEAFORD 3198",
     "locID": "LOC000096846097",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420973270",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -98383,10 +98506,9 @@
    "properties": {
     "name": "UNIT 4, 18 EAST ROAD SEAFORD 3198",
     "locID": "LOC000004398994",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420978925",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420978925"
    }
   },
   {
@@ -98743,9 +98865,9 @@
     "name": "5 TI-TREE CRESCENT SEAFORD 3198",
     "locID": "LOC000068010810",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421016581",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -99083,10 +99205,9 @@
    "properties": {
     "name": "5 SUSAN COURT SEAFORD 3198",
     "locID": "LOC000035051764",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421024311",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421024311"
    }
   },
   {
@@ -99440,10 +99561,9 @@
    "properties": {
     "name": "28 COOLIBAR AVENUE SEAFORD 3198",
     "locID": "LOC000082318039",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421037150",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421037150"
    }
   },
   {
@@ -100610,9 +100730,9 @@
     "name": "15 OVERTON ROAD SEAFORD 3198",
     "locID": "LOC000069801946",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421040428",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -100702,6 +100822,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421041117",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.128725,
+     -38.110452
+    ]
+   },
+   "properties": {
+    "name": "9 SEAFORD ROAD SEAFORD 3198",
+    "locID": "LOC000194089449",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421041141"
    }
   },
   {
@@ -105593,8 +105730,9 @@
     "name": "29 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082101261",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421057308"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421057308",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -106864,10 +107002,10 @@
    "properties": {
     "name": "26 GALWAY STREET SEAFORD 3198",
     "locID": "LOC000104854762",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC421061282",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -107528,8 +107666,9 @@
     "name": "6 JUBILEE AVENUE SEAFORD 3198",
     "locID": "LOC000167387490",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421062767"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421062767",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -107706,9 +107845,9 @@
     "name": "4 BELLEVUE CRESCENT SEAFORD 3198",
     "locID": "LOC000167396488",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421064061",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -108674,8 +108813,8 @@
    "properties": {
     "name": "2 GLENMORE COURT SEAFORD 3198",
     "locID": "LOC000091397927",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC421067516",
     "tech_change_status": "Eligible To Order"
    }
@@ -109267,10 +109406,9 @@
    "properties": {
     "name": "36 BARRY STREET SEAFORD 3198",
     "locID": "LOC000069955543",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421073456",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421073456"
    }
   },
   {
@@ -109464,10 +109602,10 @@
    "properties": {
     "name": "9 ASHWORTH DRIVE SEAFORD 3198",
     "locID": "LOC000019330982",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC421077175",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -110651,10 +110789,9 @@
    "properties": {
     "name": "127 AUSTIN ROAD SEAFORD 3198",
     "locID": "LOC000086597069",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421135514",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421135514"
    }
   },
   {
@@ -110706,9 +110843,9 @@
     "name": "UNIT 4, 9-11 RUTHERFORD ROAD SEAFORD 3198",
     "locID": "LOC000015113619",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421154694",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -111279,9 +111416,9 @@
     "name": "UNIT 2, 24 NEWTON STREET SEAFORD 3198",
     "locID": "LOC000057117618",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421205875",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -111781,8 +111918,9 @@
     "name": "UNIT 8, 280 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000004364245",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421228478"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421228478",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -111798,8 +111936,9 @@
     "name": "UNIT 5, 280 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000004378265",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421228479"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421228479",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -111832,8 +111971,9 @@
     "name": "UNIT 2, 280 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000004410659",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421231303"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421231303",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -112011,9 +112151,9 @@
     "name": "19 HODGES STREET SEAFORD 3198",
     "locID": "LOC000033676445",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421233892",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -112245,8 +112385,9 @@
     "name": "UNIT 7, 275 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000091826591",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421233906"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421233906",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -112262,8 +112403,9 @@
     "name": "UNIT 9, 275 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000091981084",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421233907"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421233907",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -112655,8 +112797,9 @@
     "name": "UNIT 4, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070295638",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421239565"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421239565",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -112672,8 +112815,9 @@
     "name": "UNIT 5, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070377019",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421239566"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421239566",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -112689,8 +112833,9 @@
     "name": "UNIT 9, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070319344",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421239567"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421239567",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -112706,8 +112851,9 @@
     "name": "UNIT 11, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070422648",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421239568"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421239568",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -114483,8 +114629,9 @@
     "name": "UNIT 5, 281-282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079165611",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421262037"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421262037",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -115198,8 +115345,9 @@
     "name": "UNIT 13, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082143440",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421273095"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421273095",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -115215,8 +115363,9 @@
     "name": "UNIT 16, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082192963",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421273096"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421273096",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -115232,8 +115381,9 @@
     "name": "UNIT 36, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082314670",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421273097"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421273097",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -115640,10 +115790,9 @@
    "properties": {
     "name": "UNIT 5, 3 SEAFORD ROAD SEAFORD 3198",
     "locID": "LOC000012813077",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421308393",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421308393"
    }
   },
   {
@@ -115765,9 +115914,9 @@
     "name": "7 MITCHELL STREET SEAFORD 3198",
     "locID": "LOC000018586523",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421320821",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -116339,10 +116488,9 @@
    "properties": {
     "name": "8 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000069592112",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421339291",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421339291"
    }
   },
   {
@@ -119161,10 +119309,10 @@
    "properties": {
     "name": "29 NABILLA AVENUE SEAFORD 3198",
     "locID": "LOC000008853087",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC421351053",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -120704,8 +120852,9 @@
     "name": "29 MITCHELL STREET SEAFORD 3198",
     "locID": "LOC000042406273",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421354614"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421354614",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -121188,10 +121337,9 @@
    "properties": {
     "name": "5 BELVEDERE ROAD SEAFORD 3198",
     "locID": "LOC000035273364",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421356665",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421356665"
    }
   },
   {
@@ -121279,9 +121427,9 @@
     "name": "39 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000069657684",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421358068",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -121314,8 +121462,9 @@
     "name": "46 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018124064",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421358070"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421358070",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -122819,10 +122968,10 @@
    "properties": {
     "name": "8 STATION STREET SEAFORD 3198",
     "locID": "LOC000054615779",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC421365270",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -123660,8 +123809,9 @@
     "name": "40 MCKENZIE STREET SEAFORD 3198",
     "locID": "LOC000167396000",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421369533"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421369533",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -123819,10 +123969,9 @@
    "properties": {
     "name": "66 HADLEY STREET SEAFORD 3198",
     "locID": "LOC000057175397",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421369568",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421369568"
    }
   },
   {
@@ -124375,10 +124524,9 @@
    "properties": {
     "name": "9 GALWAY STREET SEAFORD 3198",
     "locID": "LOC000088774879",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421376965",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421376965"
    }
   },
   {
@@ -127078,10 +127226,9 @@
    "properties": {
     "name": "1A MORESBY AVENUE SEAFORD 3198",
     "locID": "LOC000089683512",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421409456",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421409456"
    }
   },
   {
@@ -127346,11 +127493,10 @@
    },
    "properties": {
     "name": "31 HENRY CRESCENT SEAFORD 3198",
-    "locID": "LOC000167098285",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421420201",
-    "tech_change_status": "Eligible To Order"
+    "locID": "LOC000194200118",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421420201"
    }
   },
   {
@@ -127582,7 +127728,8 @@
     "locID": "LOC000006126669",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421420288"
+    "gnaf_pid": "GAVIC421420288",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -128228,9 +128375,9 @@
     "name": "UNIT 7, 9-11 RUTHERFORD ROAD SEAFORD 3198",
     "locID": "LOC000015182442",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421457115",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -128388,10 +128535,9 @@
    "properties": {
     "name": "UNIT 1, 127 AUSTIN ROAD SEAFORD 3198",
     "locID": "LOC000086597069",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421481132",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421481132"
    }
   },
   {
@@ -128875,8 +129021,9 @@
     "name": "UNIT 4, 274 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000083415522",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421505919"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421505919",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -128892,8 +129039,9 @@
     "name": "UNIT 6, 274 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000083351866",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421505920"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421505920",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -128909,8 +129057,9 @@
     "name": "UNIT 2, 275 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000092146130",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421505921"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421505921",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -128926,8 +129075,9 @@
     "name": "UNIT 3, 275 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000092082617",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421505922"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421505922",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -128943,8 +129093,9 @@
     "name": "UNIT 12, 275 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000092173407",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421505923"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421505923",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -129266,9 +129417,9 @@
     "name": "UNIT 1, 19 HODGES STREET SEAFORD 3198",
     "locID": "LOC000033624264",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421512689",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -129284,9 +129435,9 @@
     "name": "UNIT 2, 23 HODGES STREET SEAFORD 3198",
     "locID": "LOC000067107925",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421512691",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -129356,9 +129507,9 @@
     "name": "UNIT 2, 96 KANANOOK AVENUE SEAFORD 3198",
     "locID": "LOC000079773244",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421516410",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -129463,9 +129614,9 @@
     "name": "UNIT 2, 55 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000093321677",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421519554",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -129481,8 +129632,9 @@
     "name": "55 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000093284954",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421519555"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421519555",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -129983,8 +130135,9 @@
     "name": "UNIT 6, 280 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000004243494",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421530861"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421530861",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -130180,9 +130333,9 @@
     "name": "UNIT 1, 14 DUNCAN AVENUE SEAFORD 3198",
     "locID": "LOC000108876394",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421533453",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -130198,9 +130351,9 @@
     "name": "UNIT 2, 14 DUNCAN AVENUE SEAFORD 3198",
     "locID": "LOC000107783904",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421533454",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -130414,9 +130567,9 @@
     "name": "UNIT 1, 11 MOLESWORTH STREET SEAFORD 3198",
     "locID": "LOC000039037673",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421539885",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -130898,8 +131051,9 @@
     "name": "UNIT 14, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082220249",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421549202"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421549202",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -130915,8 +131069,9 @@
     "name": "UNIT 20, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082236500",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421549203"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421549203",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -130967,8 +131122,9 @@
     "name": "UNIT 31, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082473042",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421549206"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421549206",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -131413,8 +131569,9 @@
     "name": "UNIT 7, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070062734",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421557910"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421557910",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -132201,9 +132358,9 @@
     "name": "UNIT 1, 13 ABECKETT STREET SEAFORD 3198",
     "locID": "LOC000096846097",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421573450",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -134063,9 +134220,9 @@
     "name": "61 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000088763083",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421607498",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -135513,9 +135670,9 @@
     "name": "114 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000104503979",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421629168",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -135603,9 +135760,8 @@
     "name": "147 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000041523730",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAVIC421629173",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421629173"
    }
   },
   {
@@ -135781,9 +135937,9 @@
     "name": "38 MCKENZIE STREET SEAFORD 3198",
     "locID": "LOC000035239807",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421632167",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -136031,8 +136187,9 @@
     "name": "17 IRELAND STREET SEAFORD 3198",
     "locID": "LOC000167398954",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421639970"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421639970",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -136209,10 +136366,9 @@
    "properties": {
     "name": "28 EAST ROAD SEAFORD 3198",
     "locID": "LOC000091585480",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421640069",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421640069"
    }
   },
   {
@@ -136245,10 +136401,9 @@
    "properties": {
     "name": "268 FRANKSTON-DANDENONG ROAD SEAFORD 3198",
     "locID": "LOC000167083513",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421643859",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421643859"
    }
   },
   {
@@ -137160,6 +137315,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421654576",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.147776,
+     -38.113016
+    ]
+   },
+   "properties": {
+    "name": "21 MOLESWORTH STREET SEAFORD 3198",
+    "locID": "LOC000194065043",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421654577"
    }
   },
   {
@@ -138610,10 +138782,9 @@
    "properties": {
     "name": "17 CHICQUITA AVENUE SEAFORD 3198",
     "locID": "LOC000071708637",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421665397",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421665397"
    }
   },
   {
@@ -139472,8 +139643,9 @@
     "name": "69 KIRKWOOD AVENUE SEAFORD 3198",
     "locID": "LOC000092239729",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421669181"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421669181",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -140560,10 +140732,9 @@
    "properties": {
     "name": "12 WEATHERSTON ROAD SEAFORD 3198",
     "locID": "LOC000046145394",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421677093",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421677093"
    }
   },
   {
@@ -140758,9 +140929,9 @@
     "name": "40 KANANOOK AVENUE SEAFORD 3198",
     "locID": "LOC000066909001",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421679866",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -143245,10 +143416,9 @@
    "properties": {
     "name": "26 HENRY CRESCENT SEAFORD 3198",
     "locID": "LOC000167098228",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421698139",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421698139"
    }
   },
   {
@@ -144126,9 +144296,9 @@
     "name": "22 WISE AVENUE SEAFORD 3198",
     "locID": "LOC000067319649",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421706095",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -144790,9 +144960,9 @@
     "name": "53 RAILWAY PARADE SEAFORD 3198",
     "locID": "LOC000051215329",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421710289",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -145166,10 +145336,10 @@
    "properties": {
     "name": "8 ELIZA COURT SEAFORD 3198",
     "locID": "LOC000033061282",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC421712570",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -145453,9 +145623,9 @@
     "name": "23 ADMANS AVENUE SEAFORD 3198",
     "locID": "LOC000167385083",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421712621",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -146780,8 +146950,9 @@
     "name": "19 PASCAL ROAD SEAFORD 3198",
     "locID": "LOC000012636638",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421811414"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421811414",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -146833,8 +147004,9 @@
     "name": "138 SEAFORD ROAD SEAFORD 3198",
     "locID": "LOC000040255958",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421811420"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421811420",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -146904,9 +147076,9 @@
     "name": "UNIT 1, 55 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000093070129",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421812945",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -147012,9 +147184,9 @@
     "name": "14 DUNCAN AVENUE SEAFORD 3198",
     "locID": "LOC000107783904",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421813738",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -148735,9 +148907,9 @@
     "name": "UNIT 2, 37 MITCHELL STREET SEAFORD 3198",
     "locID": "LOC000056677753",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421852260",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -148843,8 +149015,9 @@
     "name": "7 HADLEY STREET SEAFORD 3198",
     "locID": "LOC000005288337",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421852929"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421852929",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -149435,9 +149608,9 @@
     "name": "UNIT 2, 30 DENBIGH ROAD SEAFORD 3198",
     "locID": "LOC000104925945",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421863689",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -149453,9 +149626,9 @@
     "name": "30 DENBIGH ROAD SEAFORD 3198",
     "locID": "LOC000104925945",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421863690",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -149686,8 +149859,9 @@
     "name": "UNIT 28, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000081958803",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421868095"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421868095",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -149703,8 +149877,9 @@
     "name": "UNIT 34, 99-101 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082069082",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421868096"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421868096",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -149754,10 +149929,9 @@
    "properties": {
     "name": "14 SEABROOK WAY SEAFORD 3198",
     "locID": "LOC000010212712",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421869128",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421869128"
    }
   },
   {
@@ -149989,9 +150163,9 @@
     "name": "UNIT 1, 124 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000086634066",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421874880",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -150025,8 +150199,9 @@
     "name": "UNIT 2, 281-282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079084816",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421875345"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421875345",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -150042,8 +150217,9 @@
     "name": "UNIT 4, 281-282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000078991626",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421875346"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421875346",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -150095,8 +150271,9 @@
     "name": "36 WELLS ROAD SEAFORD 3198",
     "locID": "LOC000011956952",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421876033"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421876033",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -150291,8 +150468,9 @@
     "name": "UNIT 10, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070130455",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421879520"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421879520",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -150308,8 +150486,9 @@
     "name": "UNIT 13, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070584053",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421879521"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421879521",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -150325,8 +150504,9 @@
     "name": "UNIT 16, 59-60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000070281754",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421879522"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421879522",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -151024,8 +151204,9 @@
     "name": "273 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000039105072",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421915418"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421915418",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -151254,9 +151435,9 @@
     "name": "7 ILMA COURT SEAFORD 3198",
     "locID": "LOC000078354138",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421934320",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -153135,9 +153316,9 @@
     "name": "160 AUSTIN ROAD SEAFORD 3198",
     "locID": "LOC000106168490",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC422077633",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -153241,10 +153422,9 @@
    "properties": {
     "name": "UNIT 1, 5 BRUNEL ROAD SEAFORD 3198",
     "locID": "LOC000094988485",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC422081465",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422081465"
    }
   },
   {
@@ -153259,10 +153439,9 @@
    "properties": {
     "name": "UNIT 2, 5 BRUNEL ROAD SEAFORD 3198",
     "locID": "LOC000094950043",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC422081466",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422081466"
    }
   },
   {
@@ -153314,8 +153493,9 @@
     "name": "75 BRUNEL ROAD SEAFORD 3198",
     "locID": "LOC000008907467",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422081469"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC422081469",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -154370,10 +154550,10 @@
    "properties": {
     "name": "107 SEAFORD PLACE SEAFORD 3198",
     "locID": "LOC000078904223",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC422112528",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -154654,8 +154834,9 @@
     "name": "UNIT 2, 56 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018103816",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422176663"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC422176663",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -154885,10 +155066,9 @@
    "properties": {
     "name": "UNIT 2, 268 FRANKSTON-DANDENONG ROAD SEAFORD 3198",
     "locID": "LOC000167083513",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC422292154",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422292154"
    }
   },
   {
@@ -155074,8 +155254,9 @@
     "name": "UNIT 10, 47 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000093993510",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422415184"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC422415184",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -155125,8 +155306,9 @@
     "name": "UNIT 11, 47 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000094242603",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422415192"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC422415192",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -155210,8 +155392,9 @@
     "name": "UNIT 1, 47 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000094224971",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422415220"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC422415220",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -155313,8 +155496,9 @@
     "name": "UNIT 3, 47 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000094264860",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422415259"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC422415259",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -155364,8 +155548,9 @@
     "name": "UNIT 4, 47 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000093914457",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422415272"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC422415272",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -155657,9 +155842,9 @@
     "name": "110 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000012744955",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC422415323",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -155727,8 +155912,9 @@
     "name": "60 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018103800",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422415338"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC422415338",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -155744,8 +155930,9 @@
     "name": "82 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000113306774",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422415339"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC422415339",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -156023,8 +156210,9 @@
     "name": "UNIT 4, 273 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000039380191",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422449959"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC422449959",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -156238,8 +156426,9 @@
     "name": "UNIT 5, 107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079023444",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423106394"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423106394",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -156255,8 +156444,9 @@
     "name": "UNIT 70, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018159188",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423106395"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423106395",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -156307,9 +156497,9 @@
     "name": "UNIT 2, 12 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000086634066",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423107754",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -156613,9 +156803,9 @@
     "name": "UNIT 1, 8 MCRAE STREET SEAFORD 3198",
     "locID": "LOC000092823738",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423282479",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -156631,9 +156821,9 @@
     "name": "UNIT 2, 8 MCRAE STREET SEAFORD 3198",
     "locID": "LOC000092753773",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423282480",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -156685,8 +156875,9 @@
     "name": "UNIT 37, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018188765",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423285391"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423285391",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -156773,9 +156964,9 @@
     "name": "UNIT 1, 171 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000040594993",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423382504",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -156791,8 +156982,9 @@
     "name": "UNIT 2, 171 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000040463581",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423382505"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC423382505",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -156807,10 +156999,9 @@
    "properties": {
     "name": "UNIT 1, 268 FRANKSTON-DANDENONG ROAD SEAFORD 3198",
     "locID": "LOC000167083513",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423382613",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423382613"
    }
   },
   {
@@ -157203,8 +157394,9 @@
     "name": "UNIT 18, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018116197",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423386169"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423386169",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -157220,8 +157412,9 @@
     "name": "UNIT 27, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018116204",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423386170"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423386170",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -157273,8 +157466,9 @@
     "name": "UNIT 62, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018116236",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423386174"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423386174",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -157326,9 +157520,9 @@
     "name": "UNIT 1, 12 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000086495307",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423387465",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -157897,8 +158091,9 @@
     "name": "UNIT 8, 274 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000083190451",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423477834"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423477834",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158409,8 +158604,9 @@
     "name": "UNIT 10, 107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079228671",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509773"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509773",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158426,8 +158622,9 @@
     "name": "UNIT 11, 107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000078999968",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509776"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509776",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158443,8 +158640,9 @@
     "name": "UNIT 12, 107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000078858097",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509778"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509778",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158460,8 +158658,9 @@
     "name": "UNIT 13, 107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079024451",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509780"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509780",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158477,8 +158676,9 @@
     "name": "UNIT 14, 107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079226330",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509782"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509782",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158494,8 +158694,9 @@
     "name": "UNIT 15, 107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079295926",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509784"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509784",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158511,8 +158712,9 @@
     "name": "UNIT 16, 107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079418264",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509786"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509786",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158528,8 +158730,9 @@
     "name": "UNIT 17, 107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079417331",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509788"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509788",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158545,8 +158748,9 @@
     "name": "UNIT 1, 107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079309668",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509790"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509790",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158562,8 +158766,9 @@
     "name": "UNIT 1, 282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079406880",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509792"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509792",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158579,8 +158784,9 @@
     "name": "UNIT 2, 107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079257471",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509793"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509793",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158596,8 +158802,9 @@
     "name": "UNIT 2, 282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079084816",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509795"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509795",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158613,8 +158820,9 @@
     "name": "UNIT 3, 107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079044906",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509796"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509796",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158648,8 +158856,9 @@
     "name": "UNIT 4, 107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079638796",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509799"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509799",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158665,8 +158874,9 @@
     "name": "UNIT 4, 282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000078991626",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509801"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509801",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158682,8 +158892,9 @@
     "name": "UNIT 5, 282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079165611",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509803"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509803",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158699,8 +158910,9 @@
     "name": "UNIT 6, 107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000078966015",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509804"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509804",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158716,8 +158928,9 @@
     "name": "UNIT 7, 107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079270774",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509807"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509807",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158733,8 +158946,9 @@
     "name": "UNIT 8, 107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000078440454",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509810"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509810",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -158750,8 +158964,9 @@
     "name": "UNIT 9, 107 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079373261",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423509813"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423509813",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -159108,8 +159323,9 @@
     "name": "282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079084816",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423564185"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423564185",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -159892,10 +160108,9 @@
    "properties": {
     "name": "1C HAZEL STREET SEAFORD 3198",
     "locID": "LOC000063612743",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423719978",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423719978"
    }
   },
   {
@@ -161467,9 +161682,9 @@
     "name": "UNIT 1, 52 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000026099702",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423810383",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -161503,9 +161718,9 @@
     "name": "UNIT 3, 52 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000026099702",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423810385",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -161539,9 +161754,9 @@
     "name": "UNIT 2, 40 KANANOOK AVENUE SEAFORD 3198",
     "locID": "LOC000066950565",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423811255",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -162622,8 +162837,9 @@
     "name": "UNIT 32, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018083341",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423904529"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423904529",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -162855,9 +163071,9 @@
     "name": "UNIT 6, 82 EAST ROAD SEAFORD 3198",
     "locID": "LOC000067033283",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423907482",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -163621,8 +163837,9 @@
     "name": "46-47 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000094242603",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423928038"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC423928038",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -163655,9 +163872,9 @@
     "name": "UNIT 2, 15 OVERTON ROAD SEAFORD 3198",
     "locID": "LOC000069827560",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423928425",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -164046,9 +164263,9 @@
     "name": "UNIT 1, 181 AUSTIN ROAD SEAFORD 3198",
     "locID": "LOC000062362093",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423963225",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -164399,9 +164616,9 @@
     "name": "UNIT 1, 2 MITCHELL STREET SEAFORD 3198",
     "locID": "LOC000034320692",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423972709",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -164417,9 +164634,9 @@
     "name": "UNIT 2, 2 MITCHELL STREET SEAFORD 3198",
     "locID": "LOC000034867509",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423972710",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -164669,9 +164886,9 @@
     "name": "UNIT 2, 19 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000059180220",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423975935",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -164939,9 +165156,9 @@
     "name": "UNIT 1, 7 ILMA COURT SEAFORD 3198",
     "locID": "LOC000078354138",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423988887",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -164957,9 +165174,9 @@
     "name": "UNIT 2, 7 ILMA COURT SEAFORD 3198",
     "locID": "LOC000079036382",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423988888",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -165419,8 +165636,9 @@
     "name": "UNIT 17, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018159190",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424041108"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424041108",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -165667,8 +165885,9 @@
     "name": "UNIT 1, 69 KIRKWOOD AVENUE SEAFORD 3198",
     "locID": "LOC000090449783",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424064835"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424064835",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -165684,8 +165903,9 @@
     "name": "UNIT 2, 69 KIRKWOOD AVENUE SEAFORD 3198",
     "locID": "LOC000092065129",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424064836"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424064836",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -165701,8 +165921,9 @@
     "name": "UNIT 3, 69 KIRKWOOD AVENUE SEAFORD 3198",
     "locID": "LOC000092194621",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424064837"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424064837",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -165718,8 +165939,9 @@
     "name": "UNIT 4, 69 KIRKWOOD AVENUE SEAFORD 3198",
     "locID": "LOC000092239729",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424064838"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424064838",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -167788,8 +168010,9 @@
     "name": "281-282 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000079084816",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424086011"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424086011",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -168523,9 +168746,9 @@
     "name": "UNIT 1, 21 BARRY STREET SEAFORD 3198",
     "locID": "LOC000006924632",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424234406",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -168559,9 +168782,9 @@
     "name": "UNIT 2, 21 BARRY STREET SEAFORD 3198",
     "locID": "LOC000006840741",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424234408",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -168791,8 +169014,9 @@
     "name": "10A KLAUER STREET SEAFORD 3198",
     "locID": "LOC000105836518",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424240982"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424240982",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -168862,9 +169086,9 @@
     "name": "UNIT 1, 24 MOLESWORTH STREET SEAFORD 3198",
     "locID": "LOC000017768286",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424243188",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -168898,9 +169122,9 @@
     "name": "UNIT 2, 24 MOLESWORTH STREET SEAFORD 3198",
     "locID": "LOC000017783768",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424243190",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -169185,9 +169409,9 @@
     "name": "UNIT 1, 40 KANANOOK AVENUE SEAFORD 3198",
     "locID": "LOC000066909001",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424265369",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -169383,9 +169607,9 @@
     "name": "UNIT 3, 19 HODGES STREET SEAFORD 3198",
     "locID": "LOC000033630744",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424279810",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -169401,8 +169625,9 @@
     "name": "UNIT 1, 71 KIRKWOOD AVENUE SEAFORD 3198",
     "locID": "LOC000114772375",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424280429"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424280429",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -169418,8 +169643,9 @@
     "name": "UNIT 2, 71 KIRKWOOD AVENUE SEAFORD 3198",
     "locID": "LOC000109073550",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424280430"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424280430",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -169435,8 +169661,9 @@
     "name": "UNIT 3, 71 KIRKWOOD AVENUE SEAFORD 3198",
     "locID": "LOC000113038272",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424280431"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424280431",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -169913,9 +170140,9 @@
     "name": "UNIT 1, 5 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000058398490",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424365955",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -170460,8 +170687,9 @@
     "name": "71 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124095207",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424421880"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424421880",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -170637,9 +170865,9 @@
     "name": "UNIT 1, 4 GRANT AVENUE SEAFORD 3198",
     "locID": "LOC000021805567",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424447077",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -170655,9 +170883,9 @@
     "name": "UNIT 2, 4 GRANT AVENUE SEAFORD 3198",
     "locID": "LOC000021691106",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424447078",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -170691,9 +170919,9 @@
     "name": "UNIT 1, 8 SCOTT STREET SEAFORD 3198",
     "locID": "LOC000001916441",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424453981",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -170709,9 +170937,9 @@
     "name": "UNIT 2, 8 SCOTT STREET SEAFORD 3198",
     "locID": "LOC000002111339",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424453982",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -170727,9 +170955,9 @@
     "name": "UNIT 1, 2 WYNNSTAY ROAD SEAFORD 3198",
     "locID": "LOC000073408067",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424456688",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -170745,9 +170973,9 @@
     "name": "UNIT 2, 2 WYNNSTAY ROAD SEAFORD 3198",
     "locID": "LOC000074095222",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424456689",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -170887,9 +171115,9 @@
     "name": "UNIT 1, 16 CHICQUITA AVENUE SEAFORD 3198",
     "locID": "LOC000073860819",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424487829",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -170905,9 +171133,9 @@
     "name": "UNIT 2, 16 CHICQUITA AVENUE SEAFORD 3198",
     "locID": "LOC000073836610",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424487830",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -171047,8 +171275,9 @@
     "name": "UNIT 10, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124065936",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500416"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500416",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171064,8 +171293,9 @@
     "name": "UNIT 11, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124065943",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500417"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500417",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171081,8 +171311,9 @@
     "name": "UNIT 12, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124065958",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500418"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500418",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171098,8 +171329,9 @@
     "name": "UNIT 13, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124065962",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500419"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500419",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171115,8 +171347,9 @@
     "name": "UNIT 14, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124065970",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500420"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500420",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171132,8 +171365,9 @@
     "name": "UNIT 15, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124065989",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500421"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500421",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171149,8 +171383,9 @@
     "name": "UNIT 16, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124065991",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500422"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500422",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171166,8 +171401,9 @@
     "name": "UNIT 17, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124066009",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500423"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500423",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171183,8 +171419,9 @@
     "name": "UNIT 18, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124066013",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500424"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500424",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171200,8 +171437,9 @@
     "name": "UNIT 19, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124066021",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500425"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500425",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171217,8 +171455,9 @@
     "name": "UNIT 1, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124065991",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500426"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500426",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171234,8 +171473,9 @@
     "name": "UNIT 20, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124066045",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500427"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500427",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171251,8 +171491,9 @@
     "name": "UNIT 2, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124066045",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500428"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500428",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171268,8 +171509,9 @@
     "name": "UNIT 3, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124066050",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500429"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500429",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171303,8 +171545,9 @@
     "name": "UNIT 5, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124066078",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500431"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500431",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171320,8 +171563,9 @@
     "name": "UNIT 6, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124066084",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500432"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500432",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171337,8 +171581,9 @@
     "name": "UNIT 7, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124066097",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500433"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500433",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171354,8 +171599,9 @@
     "name": "UNIT 8, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124066107",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500434"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500434",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171371,8 +171617,9 @@
     "name": "UNIT 9, 39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124066111",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424500435"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424500435",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -171388,9 +171635,9 @@
     "name": "39-41 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000069657684",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424500436",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -171406,9 +171653,9 @@
     "name": "UNIT 1, 19 ROBINSONS ROAD SEAFORD 3198",
     "locID": "LOC000034329207",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424503212",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -171424,9 +171671,9 @@
     "name": "UNIT 1, 2 ROBINSONS ROAD SEAFORD 3198",
     "locID": "LOC000091842177",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424503213",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -171442,9 +171689,9 @@
     "name": "UNIT 2, 19 ROBINSONS ROAD SEAFORD 3198",
     "locID": "LOC000034851247",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424503214",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -171460,9 +171707,9 @@
     "name": "UNIT 2, 2 ROBINSONS ROAD SEAFORD 3198",
     "locID": "LOC000092125731",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424503215",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -172011,9 +172258,9 @@
     "name": "UNIT 1, 10 AUSTIN ROAD SEAFORD 3198",
     "locID": "LOC000114571235",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424576497",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -172029,9 +172276,9 @@
     "name": "UNIT 2, 10 AUSTIN ROAD SEAFORD 3198",
     "locID": "LOC000114078082",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424576498",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -172745,8 +172992,9 @@
     "name": "UNIT 3, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018077370",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424636115"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424636115",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -172870,8 +173118,9 @@
     "name": "UNIT 84, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018190879",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424683760"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424683760",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -172923,9 +173172,9 @@
     "name": "UNIT 1, 57 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000112937240",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424688106",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -172959,9 +173208,9 @@
     "name": "UNIT 2, 57 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000114973658",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424688108",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -173389,8 +173638,9 @@
     "name": "UNIT 19, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000039170290",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424725822"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424725822",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -173406,8 +173656,9 @@
     "name": "UNIT 82, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000113306774",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424725823"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424725823",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -173566,8 +173817,9 @@
     "name": "9-11 RUTHERFORD ROAD SEAFORD 3198",
     "locID": "LOC000124076285",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424763318"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424763318",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -174056,8 +174308,9 @@
     "name": "UNIT 4, 71 KIRKWOOD AVENUE SEAFORD 3198",
     "locID": "LOC000124076228",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424784674"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424784674",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -174109,9 +174362,9 @@
     "name": "UNIT 1, 17 SEACREST AVENUE SEAFORD 3198",
     "locID": "LOC000115757496",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424788325",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -174127,9 +174380,9 @@
     "name": "UNIT 2, 17 SEACREST AVENUE SEAFORD 3198",
     "locID": "LOC000115757505",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424788326",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -177172,9 +177425,9 @@
     "name": "UNIT 1, 16 GALWAY STREET SEAFORD 3198",
     "locID": "LOC000124087366",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424966503",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -177190,9 +177443,9 @@
     "name": "UNIT 2, 16 GALWAY STREET SEAFORD 3198",
     "locID": "LOC000124087366",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424966504",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -177494,8 +177747,9 @@
     "name": "UNIT 10, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124091273",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424975492"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424975492",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -177511,8 +177765,9 @@
     "name": "UNIT 23, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124091304",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424975493"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424975493",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -177528,8 +177783,9 @@
     "name": "UNIT 71, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124095207",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424975494"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424975494",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -177937,9 +178193,9 @@
     "name": "UNIT 1, 21 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000124091176",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425027398",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -177955,9 +178211,9 @@
     "name": "UNIT 2, 21 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000124091176",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425027399",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -178099,8 +178355,9 @@
     "name": "UNIT 1, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124091260",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425034533"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425034533",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -178116,8 +178373,9 @@
     "name": "UNIT 20, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124091294",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425034534"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425034534",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -178205,8 +178463,9 @@
     "name": "UNIT 4, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124091336",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425034541"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425034541",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -178222,8 +178481,9 @@
     "name": "UNIT 51, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124095139",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425034542"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425034542",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -178311,8 +178571,9 @@
     "name": "UNIT 68, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124095187",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425034547"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425034547",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -178346,8 +178607,9 @@
     "name": "UNIT 72, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124095211",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425034549"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425034549",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -178363,8 +178625,9 @@
     "name": "UNIT 81, 257 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124095224",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425034550"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425034550",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -178398,9 +178661,9 @@
     "name": "UNIT 1, 102 AUSTIN ROAD SEAFORD 3198",
     "locID": "LOC000167384356",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425077514",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -178416,9 +178679,9 @@
     "name": "UNIT 2, 102 AUSTIN ROAD SEAFORD 3198",
     "locID": "LOC000167384356",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425077515",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -178704,9 +178967,9 @@
     "name": "UNIT 1, 165 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000167385134",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425160418",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -178722,9 +178985,9 @@
     "name": "UNIT 2, 165 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000167385147",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425160419",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -178776,8 +179039,9 @@
     "name": "UNIT 1, 3 JOHNSTONE STREET SEAFORD 3198",
     "locID": "LOC000167384665",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425162938"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425162938",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -179080,9 +179344,9 @@
     "name": "UNIT 1, 3 MOLESWORTH STREET SEAFORD 3198",
     "locID": "LOC000167385548",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425229823",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -179098,9 +179362,9 @@
     "name": "UNIT 2, 3 MOLESWORTH STREET SEAFORD 3198",
     "locID": "LOC000167385553",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425229824",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -179168,9 +179432,9 @@
     "name": "UNIT 1, 23 ADMANS AVENUE SEAFORD 3198",
     "locID": "LOC000167385083",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425270831",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -179186,9 +179450,9 @@
     "name": "UNIT 2, 23 ADMANS AVENUE SEAFORD 3198",
     "locID": "LOC000167385083",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425270832",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -179705,8 +179969,9 @@
     "name": "UNIT 1, 39 HALLIFAX STREET SEAFORD 3198",
     "locID": "LOC000167383399",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425313100"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425313100",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -179775,8 +180040,9 @@
     "name": "UNIT 1, 27 JOHNSTONE STREET SEAFORD 3198",
     "locID": "LOC000167386857",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425314364"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425314364",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -179792,8 +180058,9 @@
     "name": "UNIT 2, 27 JOHNSTONE STREET SEAFORD 3198",
     "locID": "LOC000167386861",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425314365"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425314365",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -179966,8 +180233,9 @@
     "name": "UNIT 2, 23 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124091304",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425317236"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425317236",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -180323,9 +180591,9 @@
     "name": "UNIT 1, 46 KIRKWOOD AVENUE SEAFORD 3198",
     "locID": "LOC000167399244",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425401674",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -180341,9 +180609,9 @@
     "name": "UNIT 2, 46 KIRKWOOD AVENUE SEAFORD 3198",
     "locID": "LOC000167385451",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425401675",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -180395,8 +180663,9 @@
     "name": "UNIT 1, 16 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000167387501",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425403617"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425403617",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -180660,9 +180929,9 @@
     "name": "UNIT 1, 168 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000167384683",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425464807",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -180678,9 +180947,9 @@
     "name": "UNIT 2, 168 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000167384683",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425464808",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -180732,8 +181001,9 @@
     "name": "UNIT 1, 6 JUBILEE AVENUE SEAFORD 3198",
     "locID": "LOC000167387490",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425466431"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425466431",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -180749,8 +181019,9 @@
     "name": "UNIT 2, 6 JUBILEE AVENUE SEAFORD 3198",
     "locID": "LOC000167387517",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425466432"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425466432",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -180783,10 +181054,9 @@
    "properties": {
     "name": "UNIT 2, 47 KANANOOK AVENUE SEAFORD 3198",
     "locID": "LOC000167393405",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425466459",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425466459"
    }
   },
   {
@@ -181249,8 +181519,9 @@
     "name": "UNIT 1, 48 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000167387636",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425527391"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425527391",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -181266,8 +181537,9 @@
     "name": "UNIT 2, 48 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000167387627",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425527392"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425527392",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -181479,10 +181751,9 @@
    "properties": {
     "name": "UNIT 2, 1 ATTUNGA CRESCENT SEAFORD 3198",
     "locID": "LOC000167078574",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425577008",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425577008"
    }
   },
   {
@@ -181660,8 +181931,9 @@
     "name": "UNIT 1, 19 CHICQUITA AVENUE SEAFORD 3198",
     "locID": "LOC000167397793",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425577556"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425577556",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -181677,8 +181949,9 @@
     "name": "UNIT 2, 19 CHICQUITA AVENUE SEAFORD 3198",
     "locID": "LOC000167397793",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425577557"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425577557",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -182066,9 +182339,9 @@
     "name": "UNIT 1, 8 RAYMOND ROAD SEAFORD 3198",
     "locID": "LOC000070756164",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425622400",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -182084,9 +182357,9 @@
     "name": "UNIT 2, 8 RAYMOND ROAD SEAFORD 3198",
     "locID": "LOC000070756164",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425622401",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -182102,9 +182375,9 @@
     "name": "UNIT 3, 8 RAYMOND ROAD SEAFORD 3198",
     "locID": "LOC000070756164",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425622402",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -182277,9 +182550,9 @@
     "name": "UNIT 2, 26 WEATHERSTON ROAD SEAFORD 3198",
     "locID": "LOC000167383427",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425634661",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -182295,9 +182568,9 @@
     "name": "UNIT 1, 4 BELLEVUE CRESCENT SEAFORD 3198",
     "locID": "LOC000167396488",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425667924",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -182313,9 +182586,9 @@
     "name": "UNIT 2, 4 BELLEVUE CRESCENT SEAFORD 3198",
     "locID": "LOC000167396490",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425667925",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -182384,10 +182657,9 @@
    "properties": {
     "name": "FACTORY 14, 95 BRUNEL ROAD SEAFORD 3198",
     "locID": "LOC000167396173",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425669076",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425669076"
    }
   },
   {
@@ -182652,9 +182924,9 @@
     "name": "UNIT 1, 30 HAYMAN AVENUE SEAFORD 3198",
     "locID": "LOC000167395265",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425676646",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -182670,9 +182942,9 @@
     "name": "UNIT 2, 30 HAYMAN AVENUE SEAFORD 3198",
     "locID": "LOC000167395277",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425676647",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -182939,9 +183211,9 @@
     "name": "UNIT 1, 17 MOOMBA AVENUE SEAFORD 3198",
     "locID": "LOC000167394330",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425683073",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -182957,9 +183229,9 @@
     "name": "UNIT 2, 17 MOOMBA AVENUE SEAFORD 3198",
     "locID": "LOC000167394330",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425683074",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183245,9 +183517,9 @@
     "name": "UNIT 1, 98 KIRKWOOD AVENUE SEAFORD 3198",
     "locID": "LOC000167394002",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425736093",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183281,9 +183553,9 @@
     "name": "UNIT 2, 98 KIRKWOOD AVENUE SEAFORD 3198",
     "locID": "LOC000167393991",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425736095",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183334,8 +183606,9 @@
     "name": "UNIT 1, 40 MCKENZIE STREET SEAFORD 3198",
     "locID": "LOC000167395998",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425738784"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425738784",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183351,8 +183624,9 @@
     "name": "UNIT 2, 40 MCKENZIE STREET SEAFORD 3198",
     "locID": "LOC000167396000",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425738785"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425738785",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183422,9 +183696,9 @@
     "name": "UNIT 1, 53 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000167397835",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425741931",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183440,9 +183714,9 @@
     "name": "UNIT 2, 53 ROSSLYN AVENUE SEAFORD 3198",
     "locID": "LOC000167397842",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425741932",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183458,9 +183732,9 @@
     "name": "UNIT 1, 4 BARDIA AVENUE SEAFORD 3198",
     "locID": "LOC000167397241",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425761091",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183476,9 +183750,9 @@
     "name": "UNIT 2, 4 BARDIA AVENUE SEAFORD 3198",
     "locID": "LOC000167397239",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425761092",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183494,9 +183768,9 @@
     "name": "UNIT 3, 67 KIRKWOOD AVENUE SEAFORD 3198",
     "locID": "LOC000167394025",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425763102",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183566,9 +183840,9 @@
     "name": "11 BERRY PLACE SEAFORD 3198",
     "locID": "LOC000167396351",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425773804",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183584,9 +183858,9 @@
     "name": "13 BERRY PLACE SEAFORD 3198",
     "locID": "LOC000167396426",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425773805",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183602,9 +183876,9 @@
     "name": "15 BERRY PLACE SEAFORD 3198",
     "locID": "LOC000167396461",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425773806",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183620,9 +183894,9 @@
     "name": "17 BERRY PLACE SEAFORD 3198",
     "locID": "LOC000167395797",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425773807",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183638,9 +183912,9 @@
     "name": "1 BERRY PLACE SEAFORD 3198",
     "locID": "LOC000167396403",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425773808",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183656,9 +183930,9 @@
     "name": "2 BERRY PLACE SEAFORD 3198",
     "locID": "LOC000167395824",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425773809",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183674,9 +183948,9 @@
     "name": "3 BERRY PLACE SEAFORD 3198",
     "locID": "LOC000167396398",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425773810",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183692,9 +183966,9 @@
     "name": "4 BERRY PLACE SEAFORD 3198",
     "locID": "LOC000167395830",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425773811",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183710,9 +183984,9 @@
     "name": "5 BERRY PLACE SEAFORD 3198",
     "locID": "LOC000167396380",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425773812",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183728,9 +184002,9 @@
     "name": "6 BERRY PLACE SEAFORD 3198",
     "locID": "LOC000167395811",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425773813",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183746,9 +184020,9 @@
     "name": "7 BERRY PLACE SEAFORD 3198",
     "locID": "LOC000167396379",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425773814",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183764,9 +184038,9 @@
     "name": "8 BERRY PLACE SEAFORD 3198",
     "locID": "LOC000167395807",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425773815",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -183782,9 +184056,9 @@
     "name": "9 BERRY PLACE SEAFORD 3198",
     "locID": "LOC000167396367",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425773816",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184124,9 +184398,9 @@
     "name": "48D NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000167395784",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425784784",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184178,9 +184452,9 @@
     "name": "UNIT 1, 176 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000167399151",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425821133",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184196,9 +184470,9 @@
     "name": "UNIT 2, 176 FORTESCUE AVENUE SEAFORD 3198",
     "locID": "LOC000167399146",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC425821134",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184232,8 +184506,9 @@
     "name": "UNIT 1, 42 MCKENZIE STREET SEAFORD 3198",
     "locID": "LOC000167395946",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425854624"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425854624",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184249,8 +184524,9 @@
     "name": "UNIT 2, 42 MCKENZIE STREET SEAFORD 3198",
     "locID": "LOC000167395951",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425854625"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425854625",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184301,8 +184577,9 @@
     "name": "UNIT 1, 17 IRELAND STREET SEAFORD 3198",
     "locID": "LOC000167398954",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC718987888"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC718987888",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184318,8 +184595,9 @@
     "name": "UNIT 1, 11 TI-TREE CRESCENT SEAFORD 3198",
     "locID": "LOC000167398912",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC718988192"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC718988192",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184353,9 +184631,9 @@
     "name": "UNIT 1, 26 EAST ROAD SEAFORD 3198",
     "locID": "LOC100059844877",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC718991475",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184441,9 +184719,9 @@
     "name": "UNIT 3, 26 EAST ROAD SEAFORD 3198",
     "locID": "LOC100059844896",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719001718",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184477,8 +184755,9 @@
     "name": "UNIT 2, 13 NORTHCOTE STREET SEAFORD 3198",
     "locID": "LOC000167397717",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719003681"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC719003681",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184548,9 +184827,9 @@
     "name": "UNIT 2, 26 EAST ROAD SEAFORD 3198",
     "locID": "LOC100059844883",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719009041",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184566,8 +184845,9 @@
     "name": "UNIT 2, 17 IRELAND STREET SEAFORD 3198",
     "locID": "LOC000167398949",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719009661"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC719009661",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184673,8 +184953,9 @@
     "name": "UNIT 1, 13 NORTHCOTE STREET SEAFORD 3198",
     "locID": "LOC000167397701",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719012686"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC719012686",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184708,9 +184989,9 @@
     "name": "UNIT 4, 26 EAST ROAD SEAFORD 3198",
     "locID": "LOC100059844906",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719013115",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184761,9 +185042,9 @@
     "name": "UNIT 4, 14 DUNCAN AVENUE SEAFORD 3198",
     "locID": "LOC000167396899",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719017280",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184814,9 +185095,9 @@
     "name": "UNIT 1, 26 SCOTT STREET SEAFORD 3198",
     "locID": "LOC000181087669",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719094940",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184868,9 +185149,9 @@
     "name": "UNIT 1, 19 HANNAH STREET SEAFORD 3198",
     "locID": "LOC000167382431",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719096042",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184886,9 +185167,9 @@
     "name": "UNIT 1, 14 MOLESWORTH STREET SEAFORD 3198",
     "locID": "LOC000009367010",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719099419",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184904,9 +185185,9 @@
     "name": "UNIT 2, 14 MOLESWORTH STREET SEAFORD 3198",
     "locID": "LOC000009367010",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719100301",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -184973,9 +185254,9 @@
     "name": "UNIT 2, 19 HANNAH STREET SEAFORD 3198",
     "locID": "LOC000167382449",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719106605",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -185255,9 +185536,9 @@
     "name": "UNIT 1, 17 GALWAY STREET SEAFORD 3198",
     "locID": "LOC100068388599",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719315891",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -185397,9 +185678,9 @@
     "name": "UNIT 2, 17 GALWAY STREET SEAFORD 3198",
     "locID": "LOC100068388599",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719324028",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -185647,9 +185928,9 @@
     "name": "UNIT 1, 11 STEPHEN STREET SEAFORD 3198",
     "locID": "LOC100068388727",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719419806",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -185718,9 +185999,9 @@
     "name": "UNIT 2, 11 STEPHEN STREET SEAFORD 3198",
     "locID": "LOC100068388736",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719423921",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -187727,9 +188008,9 @@
     "name": "UNIT 1, 34 EAST ROAD SEAFORD 3198",
     "locID": "LOC000102185346",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719910616",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -188866,9 +189147,9 @@
     "name": "UNIT 1, 8 KEEROK AVENUE SEAFORD 3198",
     "locID": "LOC000041481280",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC720066859",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -190256,8 +190537,9 @@
     "name": "UNIT 1, 32 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082147693",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720281734"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC720281734",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -190273,8 +190555,9 @@
     "name": "UNIT 3, 32 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018083341",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720281917"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC720281917",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -190290,8 +190573,9 @@
     "name": "UNIT 9, 32 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082147693",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720287679"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC720287679",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -190426,8 +190710,9 @@
     "name": "UNIT 10, 32 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000082147693",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720297708"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC720297708",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -190460,8 +190745,9 @@
     "name": "UNIT 2, 32 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000018083341",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720298255"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC720298255",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -192566,8 +192852,9 @@
     "name": "UNIT 1, 1 HALLIFAX STREET SEAFORD 3198",
     "locID": "LOC000167383399",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720761132"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC720761132",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -193706,9 +193993,9 @@
     "name": "UNIT 3, 3 MOLESWORTH STREET SEAFORD 3198",
     "locID": "LOC000167385548",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC720923663",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -196842,11 +197129,10 @@
    },
    "properties": {
     "name": "UNIT 3, 105 EAST ROAD SEAFORD 3198",
-    "locID": "LOC000050513728",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC721287552",
-    "tech_change_status": "Eligible To Order"
+    "locID": "LOC000194148469",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721287552"
    }
   },
   {
@@ -196894,11 +197180,10 @@
    },
    "properties": {
     "name": "UNIT 4, 105 EAST ROAD SEAFORD 3198",
-    "locID": "LOC000050513728",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC721288620",
-    "tech_change_status": "Eligible To Order"
+    "locID": "LOC000194148469",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721288620"
    }
   },
   {
@@ -197014,11 +197299,10 @@
    },
    "properties": {
     "name": "UNIT 2, 105 EAST ROAD SEAFORD 3198",
-    "locID": "LOC000050513728",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC721290522",
-    "tech_change_status": "Eligible To Order"
+    "locID": "LOC000194148448",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721290522"
    }
   },
   {
@@ -197100,11 +197384,10 @@
    },
    "properties": {
     "name": "UNIT 1, 105 EAST ROAD SEAFORD 3198",
-    "locID": "LOC000050513728",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC721293848",
-    "tech_change_status": "Eligible To Order"
+    "locID": "LOC000194148430",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721293848"
    }
   },
   {
@@ -197324,8 +197607,9 @@
     "name": "UNIT 6, 68 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124095187",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721298436"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC721298436",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -197341,8 +197625,9 @@
     "name": "UNIT 2, 68 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124095187",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721298615"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC721298615",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -197529,8 +197814,9 @@
     "name": "UNIT 3, 68 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124095187",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721303587"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC721303587",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -197597,8 +197883,9 @@
     "name": "68 NEPEAN HIGHWAY SEAFORD 3198",
     "locID": "LOC000124095187",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721334083"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC721334083",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
