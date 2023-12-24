@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-12-03T06:11:40.380497",
+ "generated": "2023-12-23T23:52:16.965814",
  "suburb": "MORUYA HEADS",
  "features": [
   {
@@ -2137,9 +2137,8 @@
     "name": "18 DELL PARADE MORUYA HEADS 2537",
     "locID": "LOC000068466123",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GANSW705402584",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705402584"
    }
   },
   {
@@ -3260,8 +3259,9 @@
     "name": "25 HAZEL ROAD MORUYA HEADS 2537",
     "locID": "LOC000102785258",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705405968"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW705405968",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -4416,7 +4416,7 @@
    "properties": {
     "name": "2 HALYARD DRIVE MORUYA HEADS 2537",
     "locID": "LOC000034699914",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705408558"
    }
@@ -4608,6 +4608,24 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705408602",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.1546763,
+     -35.91101495
+    ]
+   },
+   "properties": {
+    "name": "1 ALBERT STREET MORUYA HEADS 2537",
+    "locID": "LOC000055351241",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705410043",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -9540,7 +9558,7 @@
    "properties": {
     "name": "30 HALYARD DRIVE MORUYA HEADS 2537",
     "locID": "LOC000034699914",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717141206"
    }
