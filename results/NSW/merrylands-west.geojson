@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-12-05T15:18:45.482106",
+ "generated": "2023-12-27T21:44:34.464554",
  "suburb": "MERRYLANDS WEST",
  "features": [
   {
@@ -6763,8 +6763,9 @@
     "name": "11 JOSEPHINE STREET MERRYLANDS WEST 2160",
     "locID": "LOC000038042158",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706466955"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW706466955",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -8593,10 +8594,9 @@
    "properties": {
     "name": "26 DUFFY STREET MERRYLANDS WEST 2160",
     "locID": "LOC000090436022",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW706483638",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706483638"
    }
   },
   {
@@ -22791,6 +22791,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.96289441,
+     -33.83593725
+    ]
+   },
+   "properties": {
+    "name": "35 BRIAN STREET MERRYLANDS WEST 2160",
+    "locID": "LOC000194214426",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706554888"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.96303366,
      -33.83543803
     ]
@@ -22941,10 +22958,9 @@
    "properties": {
     "name": "19 BRIAN STREET MERRYLANDS WEST 2160",
     "locID": "LOC000040335937",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW706554897",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706554897"
    }
   },
   {
@@ -32618,9 +32634,8 @@
     "name": "45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186796",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW711194832",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW711194832"
    }
   },
   {
@@ -35969,23 +35984,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716610361"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97034904,
-     -33.83290548
-    ]
-   },
-   "properties": {
-    "name": "UNIT 9, 498-500 MERRYLANDS ROAD MERRYLANDS WEST 2160",
-    "locID": "LOC000160105062",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716610362"
    }
   },
   {
@@ -41070,9 +41068,8 @@
     "name": "UNIT 100, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120177940",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274273",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274273"
    }
   },
   {
@@ -41088,9 +41085,8 @@
     "name": "UNIT 101, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186796",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274274",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274274"
    }
   },
   {
@@ -41106,9 +41102,8 @@
     "name": "UNIT 102, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120177964",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274275",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274275"
    }
   },
   {
@@ -41124,9 +41119,8 @@
     "name": "UNIT 103, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120177972",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274276",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274276"
    }
   },
   {
@@ -41193,9 +41187,8 @@
     "name": "UNIT 107, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120178016",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274280",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274280"
    }
   },
   {
@@ -41211,9 +41204,8 @@
     "name": "UNIT 108, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120178028",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274281",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274281"
    }
   },
   {
@@ -41229,9 +41221,8 @@
     "name": "UNIT 109, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120178037",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274282",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274282"
    }
   },
   {
@@ -41247,9 +41238,8 @@
     "name": "UNIT 10, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120177964",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274283",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274283"
    }
   },
   {
@@ -41265,9 +41255,8 @@
     "name": "UNIT 110, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120178059",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274284",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274284"
    }
   },
   {
@@ -41283,9 +41272,8 @@
     "name": "UNIT 111, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120178868",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274285",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274285"
    }
   },
   {
@@ -41301,9 +41289,8 @@
     "name": "UNIT 112, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120178875",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274286",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274286"
    }
   },
   {
@@ -41319,9 +41306,8 @@
     "name": "UNIT 113, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120178881",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274287",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274287"
    }
   },
   {
@@ -41388,9 +41374,8 @@
     "name": "UNIT 117, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120178921",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274291",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274291"
    }
   },
   {
@@ -41440,9 +41425,8 @@
     "name": "UNIT 11, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120178059",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274294",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274294"
    }
   },
   {
@@ -41559,7 +41543,7 @@
    "properties": {
     "name": "UNIT 126, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120179020",
-    "tech": "FTTB",
+    "tech": "FTTC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718274301"
    }
@@ -41594,9 +41578,8 @@
     "name": "UNIT 128, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120179049",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274303",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274303"
    }
   },
   {
@@ -41935,9 +41918,8 @@
     "name": "UNIT 146, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186796",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274323",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274323"
    }
   },
   {
@@ -41953,9 +41935,8 @@
     "name": "UNIT 147, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186796",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274324",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274324"
    }
   },
   {
@@ -41971,9 +41952,8 @@
     "name": "UNIT 148, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186796",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274325",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274325"
    }
   },
   {
@@ -41989,9 +41969,8 @@
     "name": "UNIT 149, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186796",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274326",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274326"
    }
   },
   {
@@ -42024,9 +42003,8 @@
     "name": "UNIT 150, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186796",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274328",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274328"
    }
   },
   {
@@ -42042,9 +42020,8 @@
     "name": "UNIT 151, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186796",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274329",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274329"
    }
   },
   {
@@ -42128,9 +42105,8 @@
     "name": "UNIT 156, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120179763",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274334",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274334"
    }
   },
   {
@@ -42333,9 +42309,8 @@
     "name": "UNIT 167, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120180522",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274346",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274346"
    }
   },
   {
@@ -42606,9 +42581,8 @@
     "name": "UNIT 181, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120180682",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274362",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274362"
    }
   },
   {
@@ -42760,9 +42734,8 @@
     "name": "UNIT 18, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120180669",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274371",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274371"
    }
   },
   {
@@ -42965,9 +42938,8 @@
     "name": "UNIT 1, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120177964",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274383",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274383"
    }
   },
   {
@@ -43000,9 +42972,8 @@
     "name": "UNIT 201, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120181739",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274385",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274385"
    }
   },
   {
@@ -43035,9 +43006,8 @@
     "name": "UNIT 203, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120181756",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274387",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274387"
    }
   },
   {
@@ -43139,9 +43109,8 @@
     "name": "UNIT 209, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120182504",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274393",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274393"
    }
   },
   {
@@ -43174,9 +43143,8 @@
     "name": "UNIT 210, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120182527",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274395",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274395"
    }
   },
   {
@@ -43244,9 +43212,8 @@
     "name": "UNIT 214, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120182562",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274399",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274399"
    }
   },
   {
@@ -43279,9 +43246,8 @@
     "name": "UNIT 216, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186796",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274401",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274401"
    }
   },
   {
@@ -43314,9 +43280,8 @@
     "name": "UNIT 218, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120182602",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274403",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274403"
    }
   },
   {
@@ -43332,9 +43297,8 @@
     "name": "UNIT 219, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120182618",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274404",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274404"
    }
   },
   {
@@ -43350,9 +43314,8 @@
     "name": "UNIT 21, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186796",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274405",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274405"
    }
   },
   {
@@ -43471,9 +43434,8 @@
     "name": "UNIT 226, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120182694",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274412",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274412"
    }
   },
   {
@@ -43506,9 +43468,8 @@
     "name": "UNIT 228, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120182710",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274414",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274414"
    }
   },
   {
@@ -43541,9 +43502,8 @@
     "name": "UNIT 22, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120182625",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274416",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274416"
    }
   },
   {
@@ -43559,9 +43519,8 @@
     "name": "UNIT 230, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120182747",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274417",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274417"
    }
   },
   {
@@ -43730,9 +43689,8 @@
     "name": "UNIT 23, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120182747",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274427",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274427"
    }
   },
   {
@@ -43816,9 +43774,8 @@
     "name": "UNIT 244, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120183613",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274432",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274432"
    }
   },
   {
@@ -44107,9 +44064,8 @@
     "name": "UNIT 25, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120183678",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274449",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274449"
    }
   },
   {
@@ -44278,9 +44234,8 @@
     "name": "UNIT 269, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186796",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274459",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274459"
    }
   },
   {
@@ -44449,9 +44404,8 @@
     "name": "UNIT 28, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120184330",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274469",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274469"
    }
   },
   {
@@ -44484,9 +44438,8 @@
     "name": "UNIT 2, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186796",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274471",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274471"
    }
   },
   {
@@ -44502,9 +44455,8 @@
     "name": "UNIT 30, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120184369",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274472",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274472"
    }
   },
   {
@@ -44520,9 +44472,8 @@
     "name": "UNIT 31, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120184376",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274473",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274473"
    }
   },
   {
@@ -44556,9 +44507,8 @@
     "name": "UNIT 33, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120184779",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274475",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274475"
    }
   },
   {
@@ -44574,9 +44524,8 @@
     "name": "UNIT 34, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120184780",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274476",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274476"
    }
   },
   {
@@ -44592,9 +44541,8 @@
     "name": "UNIT 35, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120184798",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274477",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274477"
    }
   },
   {
@@ -44610,9 +44558,8 @@
     "name": "UNIT 36, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120184808",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274478",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274478"
    }
   },
   {
@@ -44628,9 +44575,8 @@
     "name": "UNIT 37, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120184812",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274479",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274479"
    }
   },
   {
@@ -44646,9 +44592,8 @@
     "name": "UNIT 38, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120184820",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274480",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274480"
    }
   },
   {
@@ -44664,9 +44609,8 @@
     "name": "UNIT 39, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120184831",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274481",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274481"
    }
   },
   {
@@ -44699,9 +44643,8 @@
     "name": "UNIT 40, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120184854",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274483",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274483"
    }
   },
   {
@@ -44717,9 +44660,8 @@
     "name": "UNIT 41, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120184865",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274484",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274484"
    }
   },
   {
@@ -44735,9 +44677,8 @@
     "name": "UNIT 42, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120184877",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274485",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274485"
    }
   },
   {
@@ -44770,9 +44711,8 @@
     "name": "UNIT 44, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120184896",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274487",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274487"
    }
   },
   {
@@ -44788,9 +44728,8 @@
     "name": "UNIT 45, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186796",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274488",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274488"
    }
   },
   {
@@ -44874,9 +44813,8 @@
     "name": "UNIT 4, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186796",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274493",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274493"
    }
   },
   {
@@ -44926,9 +44864,8 @@
     "name": "UNIT 52, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120184981",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274496",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274496"
    }
   },
   {
@@ -45063,9 +45000,8 @@
     "name": "UNIT 5, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120184981",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274504",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274504"
    }
   },
   {
@@ -45489,9 +45425,8 @@
     "name": "UNIT 82, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186615",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274529",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274529"
    }
   },
   {
@@ -45507,9 +45442,8 @@
     "name": "UNIT 83, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186627",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274530",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274530"
    }
   },
   {
@@ -45542,9 +45476,8 @@
     "name": "UNIT 85, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186643",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274532",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274532"
    }
   },
   {
@@ -45560,9 +45493,8 @@
     "name": "UNIT 86, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186658",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274533",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274533"
    }
   },
   {
@@ -45578,9 +45510,8 @@
     "name": "UNIT 87, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186662",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274534",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274534"
    }
   },
   {
@@ -45596,9 +45527,8 @@
     "name": "UNIT 88, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186670",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274535",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274535"
    }
   },
   {
@@ -45614,9 +45544,8 @@
     "name": "UNIT 89, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186689",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274536",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274536"
    }
   },
   {
@@ -45649,9 +45578,8 @@
     "name": "UNIT 90, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186708",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274538",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274538"
    }
   },
   {
@@ -45667,9 +45595,8 @@
     "name": "UNIT 91, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186712",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274539",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274539"
    }
   },
   {
@@ -45685,9 +45612,8 @@
     "name": "UNIT 92, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186720",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274540",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274540"
    }
   },
   {
@@ -45703,9 +45629,8 @@
     "name": "UNIT 93, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186731",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274541",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274541"
    }
   },
   {
@@ -45721,9 +45646,8 @@
     "name": "UNIT 94, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186749",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274542",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274542"
    }
   },
   {
@@ -45739,9 +45663,8 @@
     "name": "UNIT 95, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186754",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274543",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274543"
    }
   },
   {
@@ -45757,9 +45680,8 @@
     "name": "UNIT 96, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186765",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274544",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274544"
    }
   },
   {
@@ -45775,9 +45697,8 @@
     "name": "UNIT 97, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186777",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274545",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274545"
    }
   },
   {
@@ -45793,9 +45714,8 @@
     "name": "UNIT 98, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186796",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274546",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274546"
    }
   },
   {
@@ -45811,9 +45731,8 @@
     "name": "UNIT 99, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186796",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274547",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274547"
    }
   },
   {
@@ -45829,9 +45748,8 @@
     "name": "UNIT 9, 45 BARCOM STREET MERRYLANDS WEST 2160",
     "locID": "LOC000120186796",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW718274548",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718274548"
    }
   },
   {
