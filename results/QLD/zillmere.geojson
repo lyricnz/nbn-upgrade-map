@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-12-06T03:40:33.472449",
+ "generated": "2023-12-28T15:15:41.011702",
  "suburb": "ZILLMERE",
  "features": [
   {
@@ -4531,10 +4531,10 @@
    "properties": {
     "name": "67 COXEN STREET ZILLMERE 4034",
     "locID": "LOC000019908289",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156017005",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4591,10 +4591,10 @@
    "properties": {
     "name": "73 COXEN STREET ZILLMERE 4034",
     "locID": "LOC000013984849",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156017008",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15207,23 +15207,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.04732711,
-     -27.35664386
-    ]
-   },
-   "properties": {
-    "name": "11 BEBBINGTON STREET ZILLMERE 4034",
-    "locID": "LOC000103883780",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156022581"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.04683737,
      -27.35638496
     ]
@@ -17569,9 +17552,8 @@
     "name": "22 BATTERSBY STREET ZILLMERE 4034",
     "locID": "LOC000006748773",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156023461",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28592,10 +28574,9 @@
    "properties": {
     "name": "22 GLASGOW STREET ZILLMERE 4034",
     "locID": "LOC000094937909",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156035178",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30345,9 +30326,8 @@
     "name": "29 HAROLD STREET ZILLMERE 4034",
     "locID": "LOC000024044349",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAQLD156074887",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156074887"
    }
   },
   {
@@ -65123,8 +65103,9 @@
     "name": "UNIT 5, 18 ROWELL STREET ZILLMERE 4034",
     "locID": "LOC000094436783",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162520821"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD162520821",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -65140,8 +65121,9 @@
     "name": "UNIT 6, 18 ROWELL STREET ZILLMERE 4034",
     "locID": "LOC000094453552",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162520822"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD162520822",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -65157,8 +65139,9 @@
     "name": "UNIT 7, 18 ROWELL STREET ZILLMERE 4034",
     "locID": "LOC000094589745",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162520823"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD162520823",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -65174,8 +65157,9 @@
     "name": "UNIT 8, 18 ROWELL STREET ZILLMERE 4034",
     "locID": "LOC000094479982",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162520824"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD162520824",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -66007,8 +65991,9 @@
     "name": "UNIT 1, 356 ZILLMERE ROAD ZILLMERE 4034",
     "locID": "LOC000003301746",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162670203"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162670203",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -66024,8 +66009,9 @@
     "name": "UNIT 2, 356 ZILLMERE ROAD ZILLMERE 4034",
     "locID": "LOC000003376096",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162670204"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162670204",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -66095,8 +66081,9 @@
     "name": "UNIT 6, 356 ZILLMERE ROAD ZILLMERE 4034",
     "locID": "LOC000003367980",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162670208"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162670208",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -66130,8 +66117,9 @@
     "name": "UNIT 8, 356 ZILLMERE ROAD ZILLMERE 4034",
     "locID": "LOC000003410826",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162670210"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162670210",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -68940,9 +68928,8 @@
     "name": "UNIT 2, 22 BATTERSBY STREET ZILLMERE 4034",
     "locID": "LOC000006748773",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163120795",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
