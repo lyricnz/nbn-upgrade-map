@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-12-07T11:08:59.715049",
+ "generated": "2023-12-30T05:51:16.809776",
  "suburb": "NORTH GEELONG",
  "features": [
   {
@@ -5808,23 +5808,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.34250123,
-     -38.12060241
-    ]
-   },
-   "properties": {
-    "name": "3 OSBORNE AVENUE NORTH GEELONG 3215",
-    "locID": "LOC000024379300",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419646472"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.34236256,
      -38.11725163
     ]
@@ -8575,10 +8558,9 @@
    "properties": {
     "name": "61 WALSGOTT STREET NORTH GEELONG 3215",
     "locID": "LOC000024289510",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419955401",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19442,10 +19424,9 @@
    "properties": {
     "name": "48 SAYWELL STREET NORTH GEELONG 3215",
     "locID": "LOC000075990441",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421158791",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22531,10 +22512,9 @@
    "properties": {
     "name": "27 GIDDINGS STREET NORTH GEELONG 3215",
     "locID": "LOC000012989516",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421436025",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30411,7 +30391,8 @@
     "locID": "LOC100082198258",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424360649"
+    "gnaf_pid": "GAVIC424360649",
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -40572,7 +40553,7 @@
    "properties": {
     "name": "12 BADEN POWELL DRIVE NORTH GEELONG 3215",
     "locID": "ChIJg1q0nkkR1GoRy_uMsESBfHU",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GAVIC425773243"
    }
@@ -40873,10 +40854,10 @@
    "properties": {
     "name": "322 MELBOURNE ROAD NORTH GEELONG 3215",
     "locID": "LOC000159636352",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC718992854",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -41071,10 +41052,10 @@
    "properties": {
     "name": "322-326 MELBOURNE ROAD NORTH GEELONG 3215",
     "locID": "LOC000159636352",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC719005986",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -44409,8 +44390,9 @@
     "name": "UNIT 1, 1A SEPARATION STREET NORTH GEELONG 3215",
     "locID": "LOC000192762902",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721094475"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC721094475",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -44426,8 +44408,9 @@
     "name": "SUITE 2, LEVEL 1, 1A SEPARATION STREET NORTH GEELONG 3215",
     "locID": "LOC000192762902",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721095889"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC721095889",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -44480,8 +44463,9 @@
     "name": "1A SEPARATION STREET NORTH GEELONG 3215",
     "locID": "LOC000192762902",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721142602"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC721142602",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
