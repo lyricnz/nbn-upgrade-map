@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-12-08T22:56:52.981047",
+ "generated": "2024-01-01T18:48:09.150232",
  "suburb": "ROSEBERY",
  "features": [
   {
@@ -3149,10 +3149,9 @@
    "properties": {
     "name": "79A PRINCESS AVENUE ROSEBERY 2018",
     "locID": "LOC000099762023",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705812639",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5915,7 +5914,7 @@
    "properties": {
     "name": "115-133 DUNNING AVENUE ROSEBERY 2018",
     "locID": "ChIJC8lu0qSxEmsRvsDgOBQ5VuQ",
-    "tech": "FTTN",
+    "tech": "NULL",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GANSW705816198"
    }
@@ -10489,8 +10488,11 @@
     "name": "23 PRIMROSE AVENUE ROSEBERY 2018",
     "locID": "LOC000175242914",
     "tech": "FTTB",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705817911"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW705817911",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2023"
    }
   },
   {
@@ -29906,10 +29908,9 @@
    "properties": {
     "name": "51 ROSEBERY AVENUE ROSEBERY 2018",
     "locID": "LOC000003095183",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705836449",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30736,10 +30737,10 @@
    "properties": {
     "name": "27 BANNERMAN CRESCENT ROSEBERY 2018",
     "locID": "LOC000108329337",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GANSW705837204",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -31548,7 +31549,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705837269",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -31566,7 +31568,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705837270",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -37274,10 +37277,9 @@
    "properties": {
     "name": "110 ROTHSCHILD AVENUE ROSEBERY 2018",
     "locID": "LOC000080620947",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705846750",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42137,9 +42139,8 @@
     "name": "36 PRINCESS AVENUE ROSEBERY 2018",
     "locID": "LOC000053660048",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705857246",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42180,6 +42181,26 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705857248",
     "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.20293009,
+     -33.91229859
+    ]
+   },
+   "properties": {
+    "name": "4 PRINCESS AVENUE ROSEBERY 2018",
+    "locID": "LOC000069393231",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW705857249",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -57825,9 +57846,8 @@
     "name": "42B PRINCESS AVENUE ROSEBERY 2018",
     "locID": "LOC000021199084",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716864202",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -68581,7 +68601,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717743218",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -110999,11 +111020,8 @@
     "name": "UNIT 405, 12 PRIMROSE AVENUE ROSEBERY 2018",
     "locID": "LOC000175242946",
     "tech": "FTTB",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW719691241",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Mar 2023"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719691241"
    }
   },
   {
@@ -111252,8 +111270,11 @@
     "name": "UNIT 112, 23 ROSEBERY AVENUE ROSEBERY 2018",
     "locID": "LOC000176833270",
     "tech": "FTTB",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW719693708"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW719693708",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2023"
    }
   },
   {
@@ -111733,8 +111754,11 @@
     "name": "UNIT 301, 12 PRIMROSE AVENUE ROSEBERY 2018",
     "locID": "LOC000175242824",
     "tech": "FTTB",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW719696155"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW719696155",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2023"
    }
   },
   {
@@ -112178,8 +112202,11 @@
     "name": "UNIT 104, 23 ROSEBERY AVENUE ROSEBERY 2018",
     "locID": "LOC000175242914",
     "tech": "FTTB",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW719698592"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW719698592",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2023"
    }
   },
   {
@@ -131024,8 +131051,11 @@
     "name": "UNIT 308, 23-25 ROSEBERY AVENUE ROSEBERY 2018",
     "locID": "LOC000175243166",
     "tech": "FTTB",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720168833"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720168833",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2023"
    }
   },
   {
@@ -143480,7 +143510,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720902608",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -143517,7 +143548,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720903069",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -143643,7 +143675,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720906841",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
