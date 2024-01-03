@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-12-09T16:17:30.322663",
+ "generated": "2024-01-02T23:17:02.118936",
  "suburb": "SOUTH NOWRA",
  "features": [
   {
@@ -3872,6 +3872,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.6157936,
+     -34.90148757
+    ]
+   },
+   "properties": {
+    "name": "173 OLD SOUTHERN ROAD SOUTH NOWRA 2541",
+    "locID": "LOC000194199035",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705944409"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.61431509,
      -34.90384914
     ]
@@ -5670,10 +5687,12 @@
    "properties": {
     "name": "101 HILLCREST AVENUE SOUTH NOWRA 2541",
     "locID": "LOC000088475353",
-    "tech": "FTTP",
+    "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705964556",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Build Finalised",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10054,6 +10073,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716866365"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.58194167,
+     -34.91161097
+    ]
+   },
+   "properties": {
+    "name": "15 TOM THUMB AVENUE SOUTH NOWRA 2541",
+    "locID": "ChIJVW1YeIKAFGsRwzPlApXnL04",
+    "tech": "FTTP",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GANSW716866366"
    }
   },
   {
@@ -17572,10 +17608,10 @@
    "properties": {
     "name": "8 BARBATA GROVE SOUTH NOWRA 2541",
     "locID": "LOC000051827194",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW717915404",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18834,10 +18870,9 @@
    "properties": {
     "name": "71 BROWNS ROAD SOUTH NOWRA 2541",
     "locID": "LOC000114279648",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718129529",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
