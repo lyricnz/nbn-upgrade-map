@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-12-11T05:42:05.595730",
+ "generated": "2024-01-07T03:22:33.484907",
  "suburb": "CRANBOURNE WEST",
  "features": [
   {
@@ -4888,11 +4888,11 @@
     "name": "40 VOLK ROAD CRANBOURNE WEST 3977",
     "locID": "LOC000097258973",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419795522",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8719,11 +8719,11 @@
     "name": "10 GWEN ROAD CRANBOURNE WEST 3977",
     "locID": "LOC000081497260",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420067347",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9731,11 +9731,11 @@
     "name": "20 VOLK ROAD CRANBOURNE WEST 3977",
     "locID": "LOC000077008899",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420091111",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14749,11 +14749,11 @@
     "name": "10 VOLK ROAD CRANBOURNE WEST 3977",
     "locID": "LOC000001983458",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420400616",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58824,10 +58824,9 @@
    "properties": {
     "name": "14 JOHN RUSSELL ROAD CRANBOURNE WEST 3977",
     "locID": "LOC000125710166",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424753841",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -92702,6 +92701,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.24588613,
+     -38.10072965
+    ]
+   },
+   "properties": {
+    "name": "14 HARPER CRESCENT CRANBOURNE WEST 3977",
+    "locID": "LOC000147742216",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425615566"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.24624337,
      -38.10074882
     ]
@@ -107212,9 +107228,11 @@
     "name": "1-3 WHITFIELD BOULEVARD CRANBOURNE WEST 3977",
     "locID": "LOC000150610594",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC719218443",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -123822,7 +123840,7 @@
    "properties": {
     "name": "24 WHITFIELD BOULEVARD CRANBOURNE WEST 3977",
     "locID": "ChIJhWp5WxkO1moR9JSPuZvGEwI",
-    "tech": "SATELLITE",
+    "tech": "FTTN",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GAVIC719979752"
    }
@@ -140537,7 +140555,7 @@
    "properties": {
     "name": "6 MAIDENHAIR WALK CRANBOURNE WEST 3977",
     "locID": "EjJTdGF0ZSBSb3V0ZSA2LCBDcmFuYm91cm5lIFdlc3QgVklDIDM5NzcsIEF1c3RyYWxpYSIuKiwKFAoSCcnjWsMmc9ZqEYTBFpYGKs6QEhQKEgk1SXx2QQ7WahEg_owhdVYEBQ",
-    "tech": "FTTN",
+    "tech": "NULL",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GAVIC720837822"
    }
@@ -141200,7 +141218,7 @@
    "properties": {
     "name": "6 EBRO WALK CRANBOURNE WEST 3977",
     "locID": "EjJTdGF0ZSBSb3V0ZSA2LCBDcmFuYm91cm5lIFdlc3QgVklDIDM5NzcsIEF1c3RyYWxpYSIuKiwKFAoSCcnjWsMmc9ZqEYTBFpYGKs6QEhQKEgk1SXx2QQ7WahEg_owhdVYEBQ",
-    "tech": "FTTN",
+    "tech": "NULL",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GAVIC720907942"
    }
@@ -143002,7 +143020,7 @@
    "properties": {
     "name": "6 VANGUARD AVENUE CRANBOURNE WEST 3977",
     "locID": "EjJTdGF0ZSBSb3V0ZSA2LCBDcmFuYm91cm5lIFdlc3QgVklDIDM5NzcsIEF1c3RyYWxpYSIuKiwKFAoSCcnjWsMmc9ZqEYTBFpYGKs6QEhQKEgk1SXx2QQ7WahEg_owhdVYEBQ",
-    "tech": "FTTN",
+    "tech": "NULL",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GAVIC721210657"
    }
@@ -143223,7 +143241,7 @@
    "properties": {
     "name": "6 AFFINITY LANE CRANBOURNE WEST 3977",
     "locID": "EjJTdGF0ZSBSb3V0ZSA2LCBDcmFuYm91cm5lIFdlc3QgVklDIDM5NzcsIEF1c3RyYWxpYSIuKiwKFAoSCcnjWsMmc9ZqEYTBFpYGKs6QEhQKEgk1SXx2QQ7WahEg_owhdVYEBQ",
-    "tech": "FTTN",
+    "tech": "NULL",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GAVIC721214456"
    }
@@ -143563,7 +143581,7 @@
    "properties": {
     "name": "6 AURORA DRIVE CRANBOURNE WEST 3977",
     "locID": "EjJTdGF0ZSBSb3V0ZSA2LCBDcmFuYm91cm5lIFdlc3QgVklDIDM5NzcsIEF1c3RyYWxpYSIuKiwKFAoSCcnjWsMmc9ZqEYTBFpYGKs6QEhQKEgk1SXx2QQ7WahEg_owhdVYEBQ",
-    "tech": "FTTN",
+    "tech": "NULL",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GAVIC721219626"
    }
