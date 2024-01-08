@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-12-12T05:35:12.547088",
+ "generated": "2024-01-08T13:25:23.029138",
  "suburb": "ALEXANDRA HEADLAND",
  "features": [
   {
@@ -2447,6 +2447,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154931002",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7896,10 +7897,9 @@
    "properties": {
     "name": "14 YOOMBA CRESCENT ALEXANDRA HEADLAND 4572",
     "locID": "LOC000068039102",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154933693",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12077,9 +12077,8 @@
     "name": "24 OLOWAY CRESCENT ALEXANDRA HEADLAND 4572",
     "locID": "LOC000088621849",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156178578",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25704,10 +25703,10 @@
    "properties": {
     "name": "6 OCEAN CREST PLACE ALEXANDRA HEADLAND 4572",
     "locID": "LOC000019219223",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD157418638",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34639,6 +34638,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.10265538,
+     -26.67243319
+    ]
+   },
+   "properties": {
+    "name": "20 TANTULA ROAD EAST ALEXANDRA HEADLAND 4572",
+    "locID": "LOC000194239182",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157424855"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.10795321,
      -26.67189305
     ]
@@ -37318,10 +37334,9 @@
    "properties": {
     "name": "28 ADMIRALTY DRIVE ALEXANDRA HEADLAND 4572",
     "locID": "LOC000094197485",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160155815",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -67306,9 +67321,8 @@
     "name": "14 THE GROVE ALEXANDRA HEADLAND 4572",
     "locID": "LOC000164398736",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425842707",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -67790,9 +67804,8 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719267606",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
