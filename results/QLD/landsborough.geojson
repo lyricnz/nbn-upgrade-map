@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-12-12T17:08:20.523950",
+ "generated": "2024-01-09T00:21:12.786826",
  "suburb": "LANDSBOROUGH",
  "features": [
   {
@@ -1970,7 +1970,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155487834",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -6424,10 +6424,9 @@
    "properties": {
     "name": "24 VIDLER COURT LANDSBOROUGH 4550",
     "locID": "LOC000024929404",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155499608",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155499608"
    }
   },
   {
@@ -10936,10 +10935,9 @@
    "properties": {
     "name": "26 VIDLER COURT LANDSBOROUGH 4550",
     "locID": "LOC000103761147",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156779567",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156779567"
    }
   },
   {
@@ -24003,7 +24001,7 @@
    "properties": {
     "name": "LOT 203 WHITE GUMS STREET LANDSBOROUGH 4550",
     "locID": "LOC000192324858",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161352828"
    }
@@ -26730,7 +26728,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162315685",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -35955,6 +35953,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.95397418,
+     -26.80387417
+    ]
+   },
+   "properties": {
+    "name": "11 MELLUMBROOK DRIVE LANDSBOROUGH 4550",
+    "locID": "LOC000167129182",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD719724292",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.96317146,
      -26.80097172
     ]
@@ -40757,9 +40775,10 @@
    "properties": {
     "name": "13 LENCO CRESCENT LANDSBOROUGH 4550",
     "locID": "LOC000188769579",
-    "tech": "FTTP",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD720929520"
+    "gnaf_pid": "GAQLD720929520",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -40794,23 +40813,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720929707"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.97247519,
-     -26.80718622
-    ]
-   },
-   "properties": {
-    "name": "7 LENCO CRESCENT LANDSBOROUGH 4550",
-    "locID": "LOC000188769533",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD720929837"
    }
   },
   {
@@ -40944,7 +40946,7 @@
    "properties": {
     "name": "11 CORPORATE PLACE LANDSBOROUGH 4550",
     "locID": "ChIJf5jDQwGFk2sR0v8qYThz2k8",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GAQLD720932709"
    }
@@ -40978,7 +40980,7 @@
    "properties": {
     "name": "7 CORPORATE PLACE LANDSBOROUGH 4550",
     "locID": "LOC000188769630",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720933964"
    }

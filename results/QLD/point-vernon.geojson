@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-12-12T17:39:27.561174",
+ "generated": "2024-01-09T00:54:22.910745",
  "suburb": "POINT VERNON",
  "features": [
   {
@@ -1318,9 +1318,8 @@
     "name": "8 CHANAK CLOSE POINT VERNON 4655",
     "locID": "LOC000015804267",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155709215",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3963,10 +3962,9 @@
    "properties": {
     "name": "56 MURPHY STREET POINT VERNON 4655",
     "locID": "LOC000030741573",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155712512",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5676,10 +5674,9 @@
    "properties": {
     "name": "8 SEALINK DRIVE POINT VERNON 4655",
     "locID": "LOC000029825684",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155713714",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155713714"
    }
   },
   {
@@ -16654,7 +16651,8 @@
     "locID": "LOC000083386811",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156807765"
+    "gnaf_pid": "GAQLD156807765",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -24283,10 +24281,9 @@
    "properties": {
     "name": "11 PATRICK STREET POINT VERNON 4655",
     "locID": "LOC000064260790",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157012994",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27128,6 +27125,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157023009",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.81184688,
+     -25.25473554
+    ]
+   },
+   "properties": {
+    "name": "21 DOUGAN STREET POINT VERNON 4655",
+    "locID": "LOC000193237948",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157023011"
    }
   },
   {
@@ -32419,10 +32433,10 @@
    "properties": {
     "name": "3 GATAKERS LANE POINT VERNON 4655",
     "locID": "LOC000061579900",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD157037271",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55939,7 +55953,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721190264",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Mar 2025"
    }
