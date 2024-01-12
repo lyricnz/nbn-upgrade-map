@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-12-13T19:40:02.432225",
+ "generated": "2024-01-12T23:07:30.921372",
  "suburb": "PARKSIDE",
  "features": [
   {
@@ -4326,9 +4326,9 @@
     "name": "26 YOUNG STREET PARKSIDE 5063",
     "locID": "LOC000083194473",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414952147",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5772,10 +5772,10 @@
    "properties": {
     "name": "1 BLYTH STREET PARKSIDE 5063",
     "locID": "LOC000053067389",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415033776",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6020,10 +6020,10 @@
    "properties": {
     "name": "39 BLYTH STREET PARKSIDE 5063",
     "locID": "LOC000021794242",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415043111",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7332,10 +7332,9 @@
    "properties": {
     "name": "12 ST ANNS PLACE PARKSIDE 5063",
     "locID": "LOC000107066291",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415163626",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15161,10 +15160,10 @@
    "properties": {
     "name": "136 GLEN OSMOND ROAD PARKSIDE 5063",
     "locID": "LOC000021787373",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GASA_415446136",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -16944,10 +16943,9 @@
    "properties": {
     "name": "321 FULLARTON ROAD PARKSIDE 5063",
     "locID": "LOC000049235768",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415449275",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25736,7 +25734,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415484802",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27259,7 +27257,7 @@
     "name": "6 OLIVE STREET PARKSIDE 5063",
     "locID": "LOC000004543945",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415575192",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -43672,10 +43670,9 @@
    "properties": {
     "name": "108 GLEN OSMOND ROAD PARKSIDE 5063",
     "locID": "LOC000106855870",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_416678252",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_416678252"
    }
   },
   {
@@ -46721,6 +46718,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.61384061,
+     -34.94420338
+    ]
+   },
+   "properties": {
+    "name": "105 YOUNG STREET PARKSIDE 5063",
+    "locID": "EikxMDUgWW91bmcgU3QsIFBhcmtzaWRlIFNBIDUwNjMsIEF1c3RyYWxpYSIwEi4KFAoSCRnyX3vpzrBqEZEqC0lUNgMTEGkqFAoSCWWQhWDkzrBqEfrKHO1Qpz-Z",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GASA_423119573"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.61642058,
      -34.94226038
     ]
@@ -47515,6 +47529,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_423742505"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.61384061,
+     -34.94420338
+    ]
+   },
+   "properties": {
+    "name": "105-107 YOUNG STREET PARKSIDE 5063",
+    "locID": "EikxMDUgWW91bmcgU3QsIFBhcmtzaWRlIFNBIDUwNjMsIEF1c3RyYWxpYSIwEi4KFAoSCRnyX3vpzrBqEZEqC0lUNgMTEGkqFAoSCWWQhWDkzrBqEfrKHO1Qpz-Z",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GASA_423743639"
    }
   },
   {
@@ -52688,10 +52719,10 @@
    "properties": {
     "name": "UNIT 1, 136 GLEN OSMOND ROAD PARKSIDE 5063",
     "locID": "LOC000021787373",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GASA_718980490",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -53008,10 +53039,10 @@
    "properties": {
     "name": "UNIT 2, 136 GLEN OSMOND ROAD PARKSIDE 5063",
     "locID": "LOC000021787373",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GASA_718984468",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -55856,7 +55887,7 @@
     "name": "LOT 6 OLIVE STREET PARKSIDE 5063",
     "locID": "LOC000004543945",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721276699",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
