@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-12-13T07:10:03.212639",
+ "generated": "2024-01-12T11:10:22.182167",
  "suburb": "BETHANIA",
  "features": [
   {
@@ -11587,7 +11587,7 @@
     "name": "30 JESSIE CRESCENT BETHANIA 4205",
     "locID": "LOC000094522263",
     "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156277484",
     "tech_change_status": "Eligible To Order"
    }
@@ -13902,9 +13902,9 @@
     "name": "31 IVANHOE DRIVE BETHANIA 4205",
     "locID": "LOC000053075298",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156279108",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18217,7 +18217,7 @@
    "properties": {
     "name": "4 GLASSON DRIVE BETHANIA 4205",
     "locID": "LOC000191922247",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156281839"
    }
@@ -20435,10 +20435,9 @@
    "properties": {
     "name": "8 IVANHOE DRIVE BETHANIA 4205",
     "locID": "LOC000004113032",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156284222",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32810,7 +32809,7 @@
    "properties": {
     "name": "400-404 LOGAN RIVER ROAD BETHANIA 4205",
     "locID": "ChIJue0qLqpBkWsRWAQmf0CH71U",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GAQLD159554802"
    }
@@ -58878,6 +58877,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721305289"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.15671717,
+     -27.70152225
+    ]
+   },
+   "properties": {
+    "name": "10 GLASSON DRIVE BETHANIA 4205",
+    "locID": "LOC000097851197",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721306745"
    }
   },
   {
