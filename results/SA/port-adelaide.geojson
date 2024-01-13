@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-12-13T21:54:52.443943",
+ "generated": "2024-01-13T01:17:18.471767",
  "suburb": "PORT ADELAIDE",
  "features": [
   {
@@ -2009,8 +2009,8 @@
    "properties": {
     "name": "19 GLOBE PLACE PORT ADELAIDE 5015",
     "locID": "LOC000070043306",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415176404",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4662,10 +4662,10 @@
    "properties": {
     "name": "9 LESLIE PLACE PORT ADELAIDE 5015",
     "locID": "LOC000046961300",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415435648",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5390,26 +5390,6 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.50290344,
-     -34.84456679
-    ]
-   },
-   "properties": {
-    "name": "135 ST VINCENT STREET PORT ADELAIDE 5015",
-    "locID": "LOC000093339911",
-    "tech": "NULL",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_415540633",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7272,10 +7252,10 @@
    "properties": {
     "name": "1 COMMERCIAL ROAD PORT ADELAIDE 5015",
     "locID": "LOC000050880180",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415759910",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7735,10 +7715,9 @@
    "properties": {
     "name": "4A QUEBEC STREET PORT ADELAIDE 5015",
     "locID": "LOC000034965283",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415765635",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10146,10 +10125,10 @@
    "properties": {
     "name": "2 FORMBY CRESCENT PORT ADELAIDE 5015",
     "locID": "LOC000014350693",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415804141",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15835,6 +15814,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.50730857,
+     -34.84741937
+    ]
+   },
+   "properties": {
+    "name": "69-71 COMMERCIAL ROAD PORT ADELAIDE 5015",
+    "locID": "EjI2OSBDb21tZXJjaWFsIFJkLCBQb3J0IEFkZWxhaWRlIFNBIDUwMTUsIEF1c3RyYWxpYSIwEi4KFAoSCcvGYaXjxrBqEd7OruV6OjWoEEUqFAoSCbn2VpDkxrBqESa1Fdk8zKyj",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GASA_416504635"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.51088843,
      -34.84725615
     ]
@@ -17927,10 +17923,9 @@
    "properties": {
     "name": "SHOP 3, 200 COMMERCIAL ROAD PORT ADELAIDE 5015",
     "locID": "LOC100056932143",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416517434",
-    "tech_change_status": "Not Planned"
+    "gnaf_pid": "GASA_416517434"
    }
   },
   {
@@ -39502,126 +39497,6 @@
     "tech": "FTTN",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GASA_720724319"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.50290344,
-     -34.84456679
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 135 ST VINCENT STREET PORT ADELAIDE 5015",
-    "locID": "LOC000093339911",
-    "tech": "NULL",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_720726574",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.50290344,
-     -34.84456679
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 135 ST VINCENT STREET PORT ADELAIDE 5015",
-    "locID": "LOC000093339911",
-    "tech": "NULL",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_720726659",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.50290344,
-     -34.84456679
-    ]
-   },
-   "properties": {
-    "name": "UNIT 5, 135 ST VINCENT STREET PORT ADELAIDE 5015",
-    "locID": "LOC000093339911",
-    "tech": "NULL",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_720726707",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.50290344,
-     -34.84456679
-    ]
-   },
-   "properties": {
-    "name": "UNIT 4, 135 ST VINCENT STREET PORT ADELAIDE 5015",
-    "locID": "LOC000093339911",
-    "tech": "NULL",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_720726785",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.50290344,
-     -34.84456679
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 135 ST VINCENT STREET PORT ADELAIDE 5015",
-    "locID": "LOC000093339911",
-    "tech": "NULL",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_720726854",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.50290344,
-     -34.84456679
-    ]
-   },
-   "properties": {
-    "name": "UNIT 6, 135 ST VINCENT STREET PORT ADELAIDE 5015",
-    "locID": "LOC000093339911",
-    "tech": "NULL",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_720727177",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
    }
   },
   {
