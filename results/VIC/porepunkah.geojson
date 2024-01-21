@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-12-20T17:37:18.880718",
+ "generated": "2024-01-20T22:33:52.697746",
  "suburb": "POREPUNKAH",
  "features": [
   {
@@ -800,7 +800,8 @@
     "locID": "LOC000041090636",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC412106625"
+    "gnaf_pid": "GAVIC412106625",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5318,10 +5319,10 @@
    "properties": {
     "name": "6858 GREAT ALPINE ROAD POREPUNKAH 3740",
     "locID": "LOC000046585476",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC422151924",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -10396,9 +10397,8 @@
     "name": "6932 GREAT ALPINE ROAD POREPUNKAH 3740",
     "locID": "LOC000175169453",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAVIC719527932",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719527932"
    }
   },
   {
@@ -10724,6 +10724,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720232245"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.91817378,
+     -36.69854898
+    ]
+   },
+   "properties": {
+    "name": "95-103 STATION STREET POREPUNKAH 3740",
+    "locID": "ChIJ09ZY4iaeJmsRXo2O8mQRB8w",
+    "tech": "NULL",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAVIC720232384"
    }
   },
   {
