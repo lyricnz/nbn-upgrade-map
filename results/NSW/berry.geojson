@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-12-23T12:19:06.022880",
+ "generated": "2024-01-24T14:45:37.670110",
  "suburb": "BERRY",
  "features": [
   {
@@ -2373,10 +2373,10 @@
    "properties": {
     "name": "33 ALBERT STREET BERRY 2535",
     "locID": "LOC000012851582",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GANSW704100664",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -4256,6 +4256,24 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704102892",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.6977221,
+     -34.77635021
+    ]
+   },
+   "properties": {
+    "name": "75 PRINCESS STREET BERRY 2535",
+    "locID": "LOC000194242349",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704102893",
     "tech_change_status": "Not Planned"
    }
   },
@@ -13455,9 +13473,8 @@
     "name": "123 QUEEN STREET BERRY 2535",
     "locID": "LOC000088494801",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GANSW704110189",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704110189"
    }
   },
   {
@@ -19265,8 +19282,9 @@
     "name": "510 BEACH ROAD BERRY 2535",
     "locID": "LOC000028210725",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW712491988"
+    "upgrade": "FW_NA",
+    "gnaf_pid": "GANSW712491988",
+    "tech_change_status": "Build Finalised"
    }
   },
   {
