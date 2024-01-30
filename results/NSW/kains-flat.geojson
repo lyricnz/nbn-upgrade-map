@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-12-29T03:42:35.925330",
+ "generated": "2024-01-30T02:37:01.335177",
  "suburb": "KAINS FLAT",
  "features": [
   {
@@ -83,7 +83,7 @@
    "properties": {
     "name": "28 RED BOX LANE KAINS FLAT 2850",
     "locID": "LOC000065238559",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709400569"
    }
@@ -168,7 +168,7 @@
    "properties": {
     "name": "358 WHITE CEDARS ROAD KAINS FLAT 2850",
     "locID": "LOC000142967836",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709410370"
    }
@@ -321,9 +321,10 @@
    "properties": {
     "name": "318 KAINS FLAT ROAD KAINS FLAT 2850",
     "locID": "LOC100076941546",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW709423341"
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
+    "gnaf_pid": "GANSW709423341",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -457,10 +458,10 @@
    "properties": {
     "name": "531 WHITE CEDARS ROAD KAINS FLAT 2850",
     "locID": "LOC000017368392",
-    "tech": "SATELLITE",
-    "upgrade": "FW_NA",
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
     "gnaf_pid": "GANSW715692418",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -476,9 +477,8 @@
     "name": "53 GLENROCK LANE KAINS FLAT 2850",
     "locID": "LOC000180579023",
     "tech": "SATELLITE",
-    "upgrade": "FW_NA",
-    "gnaf_pid": "GANSW715873477",
-    "tech_change_status": "Build Finalised"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW715873477"
    }
   },
   {
@@ -697,10 +697,10 @@
    "properties": {
     "name": "272 IRON BARKS ROAD KAINS FLAT 2850",
     "locID": "LOC000109044409",
-    "tech": "SATELLITE",
-    "upgrade": "FW_NA",
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
     "gnaf_pid": "GANSW715914554",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1124,7 +1124,7 @@
    "properties": {
     "name": "571 KAINS FLAT ROAD KAINS FLAT 2850",
     "locID": "LOC000056981981",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715923154"
    }
@@ -1175,10 +1175,10 @@
    "properties": {
     "name": "707 KAINS FLAT ROAD KAINS FLAT 2850",
     "locID": "LOC000102571015",
-    "tech": "SATELLITE",
-    "upgrade": "FW_NA",
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
     "gnaf_pid": "GANSW715923157",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1295,10 +1295,10 @@
    "properties": {
     "name": "25 RED BOX LANE KAINS FLAT 2850",
     "locID": "LOC000022284527",
-    "tech": "SATELLITE",
-    "upgrade": "FW_NA",
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
     "gnaf_pid": "GANSW716064059",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1364,7 +1364,7 @@
    "properties": {
     "name": "27 WHITE CEDARS ROAD KAINS FLAT 2850",
     "locID": "LOC000122463448",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716177120"
    }
@@ -1381,27 +1381,10 @@
    "properties": {
     "name": "455 WHITE CEDARS ROAD KAINS FLAT 2850",
     "locID": "LOC000122458364",
-    "tech": "SATELLITE",
-    "upgrade": "FW_NA",
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
     "gnaf_pid": "GANSW716177123",
-    "tech_change_status": "Build Finalised"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.87469564,
-     -32.46995649
-    ]
-   },
-   "properties": {
-    "name": "456 WHITE CEDARS ROAD KAINS FLAT 2850",
-    "locID": "LOC000071558929",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716177124"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1416,7 +1399,7 @@
    "properties": {
     "name": "33 RED BOX LANE KAINS FLAT 2850",
     "locID": "LOC000065238559",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716762033"
    }
@@ -1844,23 +1827,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718460222"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.85283669,
-     -32.49179685
-    ]
-   },
-   "properties": {
-    "name": "862 KAINS FLAT ROAD KAINS FLAT 2850",
-    "locID": "LOC000148378934",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718460223"
    }
   },
   {
