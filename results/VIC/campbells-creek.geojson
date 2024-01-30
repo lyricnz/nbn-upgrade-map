@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2023-12-29T17:26:32.812806",
+ "generated": "2024-01-30T22:45:10.215773",
  "suburb": "CAMPBELLS CREEK",
  "features": [
   {
@@ -109,10 +109,10 @@
    "properties": {
     "name": "46 MOSCRIPT STREET CAMPBELLS CREEK 3451",
     "locID": "LOC000084791240",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC411022615",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4683,10 +4683,10 @@
    "properties": {
     "name": "8 SCOTT COURT CAMPBELLS CREEK 3451",
     "locID": "LOC000002157225",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420648361",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4843,10 +4843,10 @@
    "properties": {
     "name": "4 ELEANOR DRIVE CAMPBELLS CREEK 3451",
     "locID": "LOC000085278671",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420666396",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8843,9 +8843,9 @@
     "name": "4 TINGAY DRIVE CAMPBELLS CREEK 3451",
     "locID": "LOC000009452716",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423759665",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -14330,10 +14330,9 @@
    "properties": {
     "name": "26 PENHALLURICK STREET CAMPBELLS CREEK 3451",
     "locID": "LOC000124972735",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424586694",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14821,10 +14820,10 @@
    "properties": {
     "name": "38 MOSCRIPT STREET CAMPBELLS CREEK 3451",
     "locID": "LOC000124919575",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC424675616",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -15976,10 +15975,10 @@
    "properties": {
     "name": "15 TINGAY DRIVE CAMPBELLS CREEK 3451",
     "locID": "LOC000189023509",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC425092399",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -16781,10 +16780,10 @@
    "properties": {
     "name": "2A HILLSIDE COURT CAMPBELLS CREEK 3451",
     "locID": "LOC000169375518",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC425562504",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17448,23 +17447,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.21544546,
-     -37.11347557
-    ]
-   },
-   "properties": {
-    "name": "120 FRYERS ROAD CAMPBELLS CREEK 3451",
-    "locID": "EjIxMjAgRnJ5ZXJzIFJkLCBDYW1wYmVsbHMgQ3JlZWsgVklDIDM0NTEsIEF1c3RyYWxpYSIwEi4KFAoSCf9Cz526MddqEcAn7g6keQUTEHgqFAoSCeNOwZ26MddqES1bpZejU0dr",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC425674760"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.20553195,
      -37.09785507
     ]
@@ -17495,40 +17477,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425674762"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.21611996,
-     -37.11475516
-    ]
-   },
-   "properties": {
-    "name": "144 FRYERS ROAD CAMPBELLS CREEK 3451",
-    "locID": "EjIxNDQgRnJ5ZXJzIFJkLCBDYW1wYmVsbHMgQ3JlZWsgVklDIDM0NTEsIEF1c3RyYWxpYSIxEi8KFAoSCf9Cz526MddqEcAn7g6keQUTEJABKhQKEgnjTsGdujHXahEtW6WXo1NHaw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC425674763"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.21582986,
-     -37.1142048
-    ]
-   },
-   "properties": {
-    "name": "146 FRYERS ROAD CAMPBELLS CREEK 3451",
-    "locID": "EjIxNDYgRnJ5ZXJzIFJkLCBDYW1wYmVsbHMgQ3JlZWsgVklDIDM0NTEsIEF1c3RyYWxpYSIxEi8KFAoSCf9Cz526MddqEcAn7g6keQUTEJIBKhQKEgnjTsGdujHXahEtW6WXo1NHaw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC425674764"
    }
   },
   {
@@ -18618,10 +18566,9 @@
    "properties": {
     "name": "1 SHILNEY COURT CAMPBELLS CREEK 3451",
     "locID": "LOC000170118012",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425688602",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20117,23 +20064,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719985863"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.20698907,
-     -37.09761869
-    ]
-   },
-   "properties": {
-    "name": "37-40 FRYERS ROAD CAMPBELLS CREEK 3451",
-    "locID": "EjEzNyBGcnllcnMgUmQsIENhbXBiZWxscyBDcmVlayBWSUMgMzQ1MSwgQXVzdHJhbGlhIjASLgoUChIJ_0LPnbox12oRwCfuDqR5BRMQJSoUChIJ407Bnbox12oRLVull6NTR2s",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC719985969"
    }
   },
   {
