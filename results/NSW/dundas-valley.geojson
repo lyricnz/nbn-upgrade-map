@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-01-01T19:46:37.188997",
+ "generated": "2024-02-03T00:53:56.769101",
  "suburb": "DUNDAS VALLEY",
  "features": [
   {
@@ -36,9 +36,8 @@
     "name": "2 BOARDMAN STREET DUNDAS VALLEY 2117",
     "locID": "LOC000023754687",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704608760",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12737,10 +12736,9 @@
    "properties": {
     "name": "58 CARSON STREET DUNDAS VALLEY 2117",
     "locID": "LOC000021409372",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW706551350",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706551350"
    }
   },
   {
@@ -20821,10 +20819,10 @@
    "properties": {
     "name": "53A MOFFATTS DRIVE DUNDAS VALLEY 2117",
     "locID": "LOC000058692242",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GANSW707538490",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -25636,6 +25634,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.06394789,
+     -33.79548417
+    ]
+   },
+   "properties": {
+    "name": "16 CARSON STREET DUNDAS VALLEY 2117",
+    "locID": "LOC000016419924",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW716535887",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.06323028,
      -33.79205969
     ]
@@ -29044,7 +29061,8 @@
     "locID": "LOC000035965479",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717086631"
+    "gnaf_pid": "GANSW717086631",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -29095,10 +29113,10 @@
    "properties": {
     "name": "8 PEDRICK PLACE DUNDAS VALLEY 2117",
     "locID": "LOC000019773256",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GANSW717086634",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -30213,6 +30231,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717090182",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.04987323,
+     -33.7949979
+    ]
+   },
+   "properties": {
+    "name": "26 TILLEY STREET DUNDAS VALLEY 2117",
+    "locID": "ChIJO1euq3ekEmsRPDI6bUjAfNc",
+    "tech": "FTTC",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GANSW717090183"
    }
   },
   {
@@ -39303,10 +39338,9 @@
    "properties": {
     "name": "2A DOBSON CRESCENT DUNDAS VALLEY 2117",
     "locID": "LOC000186630657",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719804230",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
