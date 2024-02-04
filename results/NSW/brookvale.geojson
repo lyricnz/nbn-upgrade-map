@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-01-04T03:37:27.205664",
+ "generated": "2024-02-04T17:39:29.138022",
  "suburb": "BROOKVALE",
  "features": [
   {
@@ -1277,10 +1277,9 @@
    "properties": {
     "name": "31 ORCHARD ROAD BROOKVALE 2100",
     "locID": "LOC000015773967",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704233503",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2346,9 +2345,8 @@
     "name": "12 PINE AVENUE BROOKVALE 2100",
     "locID": "LOC000067654583",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704233576",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8889,9 +8887,9 @@
     "name": "4 FUNDA PLACE BROOKVALE 2100",
     "locID": "LOC000008835728",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704239112",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10396,6 +10394,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.27566295,
+     -33.75848677
+    ]
+   },
+   "properties": {
+    "name": "29 PINE AVENUE BROOKVALE 2100",
+    "locID": "ChIJiSG1Q2GqEmsRWAwX1pCs9XQ",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GANSW704239938"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.26988454,
      -33.76096858
     ]
@@ -10699,7 +10714,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704239959",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10736,10 +10751,10 @@
    "properties": {
     "name": "22 FEDERAL PARADE BROOKVALE 2100",
     "locID": "LOC000053356895",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704239961",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17415,10 +17430,9 @@
    "properties": {
     "name": "14 WINBOURNE ROAD BROOKVALE 2100",
     "locID": "LOC000057931043",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704245332",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19135,9 +19149,9 @@
     "name": "748 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000037831986",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704252755",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19755,9 +19769,9 @@
     "name": "728 PITTWATER ROAD BROOKVALE 2100",
     "locID": "LOC000014579152",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704255375",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53123,6 +53137,25 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717029182",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.27443483,
+     -33.76733717
+    ]
+   },
+   "properties": {
+    "name": "UNIT 20, 42-46 WATTLE ROAD BROOKVALE 2100",
+    "locID": "LOC000020648343",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717029183",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -90899,6 +90932,23 @@
     "gnaf_pid": "GANSW719287804",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.27566295,
+     -33.75848677
+    ]
+   },
+   "properties": {
+    "name": "29A PINE AVENUE BROOKVALE 2100",
+    "locID": "ChIJlwRhZAWrEmsRWWsvH3WUIbo",
+    "tech": "FTTN",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GANSW719379297"
    }
   },
   {
