@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-01-07T09:21:40.033391",
+ "generated": "2024-02-06T20:54:17.392882",
  "suburb": "CONNEWARRE",
  "features": [
   {
@@ -865,8 +865,8 @@
    "properties": {
     "name": "1662-1730 BARWON HEADS ROAD CONNEWARRE 3227",
     "locID": "LOC000114995778",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420372220",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2288,8 +2288,8 @@
    "properties": {
     "name": "67 FOURTEENTH ROAD CONNEWARRE 3227",
     "locID": "LOC000106303947",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC423382531",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2545,8 +2545,8 @@
    "properties": {
     "name": "89 FOURTEENTH ROAD CONNEWARRE 3227",
     "locID": "LOC000048896297",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC423382544",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3907,8 +3907,8 @@
    "properties": {
     "name": "45 PLANTATION DRIVE CONNEWARRE 3227",
     "locID": "LOC000100368004",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC423386795",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7511,6 +7511,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.47155905,
+     -38.26929505
+    ]
+   },
+   "properties": {
+    "name": "1821-1829 BARWON HEADS ROAD CONNEWARRE 3227",
+    "locID": "ChIJ7acwZGRA1GoRRSMgdw7DzIU",
+    "tech": "SATELLITE",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAVIC424742108"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.40564413,
      -38.25860769
     ]
@@ -9787,10 +9804,9 @@
    "properties": {
     "name": "UNIT 7, 23 PLANTATION DRIVE CONNEWARRE 3227",
     "locID": "LOC000172481760",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719209800",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
