@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-01-07T23:46:26.298060",
+ "generated": "2024-02-07T09:26:19.732560",
  "suburb": "KILMORE",
  "features": [
   {
@@ -1879,8 +1879,8 @@
    "properties": {
     "name": "8 CLANCY ROAD KILMORE 3764",
     "locID": "LOC000106562598",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC411689070",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2843,9 +2843,8 @@
     "name": "52A SYDNEY STREET KILMORE 3764",
     "locID": "LOC000102302315",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC414541137",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5283,8 +5282,8 @@
    "properties": {
     "name": "12-16 CLANCY ROAD KILMORE 3764",
     "locID": "LOC000125153933",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419698894",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5341,8 +5340,9 @@
     "name": "11 TRAINERS DRIVE KILMORE 3764",
     "locID": "LOC000022997581",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419698900"
+    "upgrade": "FW_NA",
+    "gnaf_pid": "GAVIC419698900",
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -6618,8 +6618,8 @@
    "properties": {
     "name": "3 RAYMOND COURT KILMORE 3764",
     "locID": "LOC000047417074",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419707034",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7826,10 +7826,9 @@
    "properties": {
     "name": "21 PARADE STREET KILMORE 3764",
     "locID": "LOC000096384497",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419953243",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8137,8 +8136,8 @@
    "properties": {
     "name": "133 HAMILTON STREET KILMORE 3764",
     "locID": "LOC000101505032",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419974712",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8408,10 +8407,10 @@
    "properties": {
     "name": "11 CLUB PARADE KILMORE 3764",
     "locID": "LOC000105453500",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419994139",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10330,10 +10329,10 @@
    "properties": {
     "name": "21 CENTENARY DRIVE KILMORE 3764",
     "locID": "LOC000071042403",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420039533",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11992,8 +11991,8 @@
    "properties": {
     "name": "23 LINK AVENUE KILMORE 3764",
     "locID": "LOC000015237665",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420279585",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13122,8 +13121,9 @@
     "name": "12 TRAINERS DRIVE KILMORE 3764",
     "locID": "LOC000013524453",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420303746"
+    "upgrade": "FW_NA",
+    "gnaf_pid": "GAVIC420303746",
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -14804,24 +14804,6 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.9492052,
-     -37.2903277
-    ]
-   },
-   "properties": {
-    "name": "62 MELBOURNE STREET KILMORE 3764",
-    "locID": "LOC000034052791",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420440666",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -20463,24 +20445,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.94944671,
-     -37.29024779
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 62 MELBOURNE STREET KILMORE 3764",
-    "locID": "LOC000034052791",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420894148",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.96238801,
      -37.27459514
     ]
@@ -20645,8 +20609,8 @@
    "properties": {
     "name": "11 CENTENARY DRIVE KILMORE 3764",
     "locID": "LOC000095864229",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420897385",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21034,10 +20998,10 @@
    "properties": {
     "name": "10 FAIRWAY DRIVE KILMORE 3764",
     "locID": "LOC000108418285",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420898639",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21472,9 +21436,8 @@
     "name": "27 CHURCH STREET KILMORE 3764",
     "locID": "LOC000014352177",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420902003",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22542,8 +22505,8 @@
    "properties": {
     "name": "4 MOLLISON COURT KILMORE 3764",
     "locID": "LOC000027953268",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420927060",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24722,8 +24685,8 @@
    "properties": {
     "name": "6 FAIRWAY DRIVE KILMORE 3764",
     "locID": "LOC000066163004",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421214212",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25634,8 +25597,8 @@
    "properties": {
     "name": "30 ALLEN STREET KILMORE 3764",
     "locID": "LOC000025151063",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421232190",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26164,8 +26127,8 @@
    "properties": {
     "name": "35 MILL ROAD KILMORE 3764",
     "locID": "LOC000032919558",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421235793",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26304,8 +26267,8 @@
    "properties": {
     "name": "2 MOLLISON COURT KILMORE 3764",
     "locID": "LOC000095076855",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421238608",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26718,10 +26681,9 @@
    "properties": {
     "name": "38 CENTENARY DRIVE KILMORE 3764",
     "locID": "LOC000073154216",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421259746",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26855,8 +26817,8 @@
    "properties": {
     "name": "19 LUMSDEN STREET KILMORE 3764",
     "locID": "LOC000093053762",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421264770",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -28906,8 +28868,8 @@
    "properties": {
     "name": "17 LINK AVENUE KILMORE 3764",
     "locID": "LOC000057236907",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421497356",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -29043,8 +29005,8 @@
    "properties": {
     "name": "60 ANDERSON ROAD KILMORE 3764",
     "locID": "LOC000093950484",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421497777",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -29792,8 +29754,8 @@
    "properties": {
     "name": "5 MANNAGUM COURT KILMORE 3764",
     "locID": "LOC000006011243",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421508297",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -29852,8 +29814,8 @@
    "properties": {
     "name": "9 RAYMOND COURT KILMORE 3764",
     "locID": "LOC000016870810",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421508302",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -30434,8 +30396,8 @@
    "properties": {
     "name": "10 BINDLEY COURT KILMORE 3764",
     "locID": "LOC000003892030",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421514568",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -30948,10 +30910,9 @@
    "properties": {
     "name": "2 VICTORIA PARADE KILMORE 3764",
     "locID": "LOC000096384497",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421530688",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30986,8 +30947,9 @@
     "name": "12 MEADE COURT KILMORE 3764",
     "locID": "LOC000056608433",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421533776"
+    "upgrade": "FW_NA",
+    "gnaf_pid": "GAVIC421533776",
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -31464,8 +31426,8 @@
    "properties": {
     "name": "4 BALLANTINE COURT KILMORE 3764",
     "locID": "LOC000003893629",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421590003",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -32783,10 +32745,10 @@
    "properties": {
     "name": "6 MANNAGUM COURT KILMORE 3764",
     "locID": "LOC000045756719",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421780657",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34524,8 +34486,8 @@
    "properties": {
     "name": "1 KOOYONG COURT KILMORE 3764",
     "locID": "LOC000032700091",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421806116",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -37973,9 +37935,8 @@
     "name": "11 WALNUT GROVE COURT KILMORE 3764",
     "locID": "LOC000022057200",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422331886",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38052,10 +38013,9 @@
    "properties": {
     "name": "2 WALNUT GROVE COURT KILMORE 3764",
     "locID": "LOC000020278433",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422331890",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38954,8 +38914,8 @@
    "properties": {
     "name": "7 ERIC COURT KILMORE 3764",
     "locID": "LOC000013588047",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC423069057",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -40568,9 +40528,8 @@
     "name": "25 SPORTS AVENUE KILMORE 3764",
     "locID": "LOC000045103767",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423156656",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40985,9 +40944,8 @@
     "name": "11 GOLDEN ELM COURT KILMORE 3764",
     "locID": "LOC000076958267",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423216934",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42179,10 +42137,9 @@
    "properties": {
     "name": "7 ROBINIA COURT KILMORE 3764",
     "locID": "LOC000009730230",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423233287",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -47407,8 +47364,8 @@
    "properties": {
     "name": "24-26 CHURCH STREET KILMORE 3764",
     "locID": "LOC000125114870",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC423965769",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -48443,10 +48400,10 @@
    "properties": {
     "name": "20 CHRYSTOBEL WAY KILMORE 3764",
     "locID": "LOC000104898011",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC424060954",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49588,7 +49545,7 @@
     "name": "1A THOMPSON PLACE KILMORE 3764",
     "locID": "LOC000125170045",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424247641",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -53797,10 +53754,10 @@
    "properties": {
     "name": "53A SYDNEY STREET KILMORE 3764",
     "locID": "LOC000125162642",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC424546435",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54514,8 +54471,8 @@
    "properties": {
     "name": "5 JESSICA AVENUE KILMORE 3764",
     "locID": "LOC000125158407",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC424583486",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -54534,10 +54491,9 @@
    "properties": {
     "name": "6 JESSICA AVENUE KILMORE 3764",
     "locID": "LOC000125166807",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424583487",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54944,8 +54900,9 @@
     "name": "17 BRANIGAN DRIVE KILMORE 3764",
     "locID": "LOC000081760897",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424591746"
+    "upgrade": "FW_NA",
+    "gnaf_pid": "GAVIC424591746",
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -55131,8 +55088,9 @@
     "name": "7 BRANIGAN DRIVE KILMORE 3764",
     "locID": "LOC000050961717",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424591757"
+    "upgrade": "FW_NA",
+    "gnaf_pid": "GAVIC424591757",
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -59174,9 +59132,8 @@
     "name": "13 FRANCIS COURT KILMORE 3764",
     "locID": "LOC000115825601",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424715918",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
