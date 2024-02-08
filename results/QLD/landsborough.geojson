@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-01-09T00:21:12.786826",
+ "generated": "2024-02-08T15:57:47.992303",
  "suburb": "LANDSBOROUGH",
  "features": [
   {
@@ -1950,7 +1950,7 @@
     "name": "66 CALDERWOOD ROAD LANDSBOROUGH 4550",
     "locID": "LOC000035823001",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155487833",
     "tech_change_status": "Eligible To Order"
    }
@@ -2057,7 +2057,7 @@
     "name": "82 CALDERWOOD ROAD LANDSBOROUGH 4550",
     "locID": "LOC000044892483",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155487839",
     "tech_change_status": "Eligible To Order"
    }
@@ -12762,7 +12762,8 @@
     "locID": "LOC000033892996",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156786925"
+    "gnaf_pid": "GAQLD156786925",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13733,9 +13734,8 @@
     "name": "46 VIDLER COURT LANDSBOROUGH 4550",
     "locID": "LOC000052151622",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAQLD156797309",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156797309"
    }
   },
   {
@@ -16678,7 +16678,7 @@
    "properties": {
     "name": "138 TUNNEL RIDGE ROAD LANDSBOROUGH 4550",
     "locID": "LOC000051345178",
-    "tech": "WIRELESS",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158163166"
    }
@@ -24319,10 +24319,9 @@
    "properties": {
     "name": "4 FIRTH COURT LANDSBOROUGH 4550",
     "locID": "LOC000021829805",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161469794",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161469794"
    }
   },
   {
@@ -26797,7 +26796,7 @@
     "name": "1 DAWN COURT LANDSBOROUGH 4550",
     "locID": "LOC000068640281",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162315689",
     "tech_change_status": "Eligible To Order"
    }
@@ -40768,24 +40767,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97188035,
-     -26.80655313
-    ]
-   },
-   "properties": {
-    "name": "13 LENCO CRESCENT LANDSBOROUGH 4550",
-    "locID": "LOC000188769579",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD720929520",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.97209901,
      -26.80502271
     ]
@@ -40813,6 +40794,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720929707"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97247519,
+     -26.80718622
+    ]
+   },
+   "properties": {
+    "name": "7 LENCO CRESCENT LANDSBOROUGH 4550",
+    "locID": "LOC000194293957",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720929837"
    }
   },
   {
@@ -40980,7 +40978,7 @@
    "properties": {
     "name": "7 CORPORATE PLACE LANDSBOROUGH 4550",
     "locID": "LOC000188769630",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720933964"
    }
