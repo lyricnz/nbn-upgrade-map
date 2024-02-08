@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-01-08T13:04:09.362905",
+ "generated": "2024-02-08T00:57:17.155536",
  "suburb": "BURRUM HEADS",
  "features": [
   {
@@ -554,10 +554,10 @@
    "properties": {
     "name": "45 ESPLANADE BURRUM HEADS 4659",
     "locID": "LOC000008384009",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155108477",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1959,10 +1959,10 @@
    "properties": {
     "name": "22 ORCHID DRIVE BURRUM HEADS 4659",
     "locID": "LOC000062735580",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155112513",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2157,8 +2157,8 @@
    "properties": {
     "name": "34 ORCHID DRIVE BURRUM HEADS 4659",
     "locID": "LOC000024105667",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155112523",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2553,10 +2553,9 @@
    "properties": {
     "name": "18 ROSS STREET BURRUM HEADS 4659",
     "locID": "LOC000010704614",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155115919",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12626,9 +12625,9 @@
     "name": "15 TANAMI CLOSE BURRUM HEADS 4659",
     "locID": "LOC000013536690",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156379756",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21283,10 +21282,10 @@
    "properties": {
     "name": "LOT 2 ESPLANADE BURRUM HEADS 4659",
     "locID": "LOC000008384009",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162229404",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21578,6 +21577,23 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.63116942,
+     -25.21445839
+    ]
+   },
+   "properties": {
+    "name": "LOT 200 BEACH DRIVE BURRUM HEADS 4659",
+    "locID": "Ei4yMDAgQmVhY2ggRHIsIEJ1cnJ1bSBIZWFkcyBRTEQgNDY1OSwgQXVzdHJhbGlhIjESLwoUChIJ5bcW6_t362sRDhq4jmFmIKcQyAEqFAoSCVFevBr8d-trEcVQ8hLjVgPP",
+    "tech": "FTTP",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAQLD162341197"
    }
   },
   {
@@ -22660,10 +22676,9 @@
    "properties": {
     "name": "3 EDS PLACE BURRUM HEADS 4659",
     "locID": "LOC000128591020",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162348101",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24191,9 +24206,8 @@
     "name": "1 MAJESTIC COURT BURRUM HEADS 4659",
     "locID": "LOC000007503537",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAQLD162473254",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162473254"
    }
   },
   {
@@ -26012,7 +26026,8 @@
     "locID": "LOC000050600774",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162626050"
+    "gnaf_pid": "GAQLD162626050",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -27685,10 +27700,9 @@
    "properties": {
     "name": "90 BARRAMUNDI DRIVE BURRUM HEADS 4659",
     "locID": "LOC000019989207",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162852188",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162852188"
    }
   },
   {
@@ -27975,9 +27989,8 @@
     "name": "11 MAJESTIC COURT BURRUM HEADS 4659",
     "locID": "LOC000007503537",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAQLD162856878",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162856878"
    }
   },
   {
@@ -28906,10 +28919,9 @@
    "properties": {
     "name": "54 HONEY MYRTLE CLOSE BURRUM HEADS 4659",
     "locID": "LOC000043438357",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162974271",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162974271"
    }
   },
   {
@@ -28961,9 +28973,8 @@
     "name": "60 HONEY MYRTLE CLOSE BURRUM HEADS 4659",
     "locID": "LOC000099739176",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAQLD162974274",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162974274"
    }
   },
   {
@@ -30735,7 +30746,7 @@
    "properties": {
     "name": "LOT 810 BUSHNELL ROAD BURRUM HEADS 4659",
     "locID": "LOC000192825334",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425249855"
    }
