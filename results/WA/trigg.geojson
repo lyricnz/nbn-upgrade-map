@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-01-13T19:20:05.519237",
+ "generated": "2024-02-11T07:05:15.836268",
  "suburb": "TRIGG",
  "features": [
   {
@@ -1856,10 +1856,9 @@
    "properties": {
     "name": "5 ABNEY PLACE TRIGG 6029",
     "locID": "LOC000186690638",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146581287",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2219,10 +2218,10 @@
    "properties": {
     "name": "152 CHARLES RILEY ROAD TRIGG 6029",
     "locID": "LOC000030604666",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAWA_146581876",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2339,10 +2338,9 @@
    "properties": {
     "name": "150 CHARLES RILEY ROAD TRIGG 6029",
     "locID": "LOC000058430315",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146581882",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3193,10 +3191,9 @@
    "properties": {
     "name": "11 BELHUS DRIVE TRIGG 6029",
     "locID": "LOC000102732494",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_146582340",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146582340"
    }
   },
   {
@@ -3502,9 +3499,9 @@
     "name": "90 CHARLES RILEY ROAD TRIGG 6029",
     "locID": "LOC000051647871",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146582473",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4642,7 +4639,8 @@
     "locID": "LOC000073246174",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146583429"
+    "gnaf_pid": "GAWA_146583429",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -4951,9 +4949,9 @@
     "name": "84 CHARLES RILEY ROAD TRIGG 6029",
     "locID": "LOC000073470138",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146583563",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5291,9 +5289,9 @@
     "name": "33 GARLAND WAY TRIGG 6029",
     "locID": "LOC000038998635",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146583594",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7322,9 +7320,9 @@
     "name": "94 CHARLES RILEY ROAD TRIGG 6029",
     "locID": "LOC000017839089",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146584990",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7401,9 +7399,9 @@
     "name": "38 GARLAND WAY TRIGG 6029",
     "locID": "LOC000003713430",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146584994",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7649,23 +7647,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7583,
-     -31.86905
-    ]
-   },
-   "properties": {
-    "name": "53 KITCHENER STREET TRIGG 6029",
-    "locID": "ChIJP2agKLWuMioRT35r2VwT-yc",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_146585025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.75872,
      -31.86905
     ]
@@ -7829,23 +7810,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146585670",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.75610498,
-     -31.87207172
-    ]
-   },
-   "properties": {
-    "name": "26 BENNION STREET TRIGG 6029",
-    "locID": "ChIJVyoTXjWpMioRqt8CElloWfw",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_146585697"
    }
   },
   {
@@ -9116,23 +9080,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_146587044",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.75871521,
-     -31.87028466
-    ]
-   },
-   "properties": {
-    "name": "80 ARNOTT STREET TRIGG 6029",
-    "locID": "ChIJP8TgQ7WuMioRVRGzF2-H2WA",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_146587045"
    }
   },
   {
@@ -11232,23 +11179,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75723,
-     -31.86938
-    ]
-   },
-   "properties": {
-    "name": "59 CHRYSOSTOM STREET TRIGG 6029",
-    "locID": "ChIJC2Rs1EqpMioRhKPYwcgvmAc",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_146590131"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.75551,
      -31.87243
     ]
@@ -12743,10 +12673,9 @@
    "properties": {
     "name": "24 ELLIOTT ROAD TRIGG 6029",
     "locID": "LOC000042092465",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146604845",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13147,23 +13076,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75466607,
-     -31.87687727
-    ]
-   },
-   "properties": {
-    "name": "7 HEPWORTH ROAD TRIGG 6029",
-    "locID": "ChIJZ8DfhzSpMioR73nkPr2INWs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_146606625"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.75485,
      -31.87681
     ]
@@ -13417,23 +13329,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75259,
-     -31.8765
-    ]
-   },
-   "properties": {
-    "name": "354 WEST COAST DRIVE TRIGG 6029",
-    "locID": "ChIJ62qzPTSpMioRFsH52K8G4xo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_146607891"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.75752425,
      -31.87643438
     ]
@@ -13622,9 +13517,9 @@
     "name": "15 KING ALBERT ROAD TRIGG 6029",
     "locID": "LOC000090598259",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146609637",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14159,10 +14054,9 @@
    "properties": {
     "name": "13 SPENCE STREET TRIGG 6029",
     "locID": "LOC000048225636",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146611455",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14180,9 +14074,8 @@
     "name": "11 SPENCE STREET TRIGG 6029",
     "locID": "LOC000036252490",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146611456",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14879,10 +14772,9 @@
    "properties": {
     "name": "25 WILLIAMSON WAY TRIGG 6029",
     "locID": "LOC000094643616",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146613225",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15059,10 +14951,10 @@
    "properties": {
     "name": "93 LYNN STREET TRIGG 6029",
     "locID": "LOC000067760982",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAWA_146613234",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15444,10 +15336,9 @@
    "properties": {
     "name": "7 JOFFRE ROAD TRIGG 6029",
     "locID": "LOC000105586308",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146614772",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15684,10 +15575,9 @@
    "properties": {
     "name": "31 ELLIOTT ROAD TRIGG 6029",
     "locID": "LOC000077098740",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146614785",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15831,9 +15721,8 @@
     "name": "7 ELLIOTT ROAD TRIGG 6029",
     "locID": "LOC000081021551",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146615442",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17849,23 +17738,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_147405755",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.7532178,
-     -31.8720481
-    ]
-   },
-   "properties": {
-    "name": "331 WEST COAST DRIVE TRIGG 6029",
-    "locID": "ChIJ1RcCc0qpMioR9xAZDIP_MsM",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_147405757"
    }
   },
   {
@@ -20106,9 +19978,8 @@
     "name": "13 BOURNEMOUTH PARADE TRIGG 6029",
     "locID": "LOC000064445719",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148175436",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21825,40 +21696,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.76390509,
-     -31.86670501
-    ]
-   },
-   "properties": {
-    "name": "133 LYNN STREET TRIGG 6029",
-    "locID": "ChIJQ8qim7auMioRO04snXNN-1A",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_161892106"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.75851472,
-     -31.86782138
-    ]
-   },
-   "properties": {
-    "name": "135 LYNN STREET TRIGG 6029",
-    "locID": "ChIJoX0-xLSuMioRZqw8E4BU38M",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_161892107"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.76352479,
      -31.86650546
     ]
@@ -22235,23 +22072,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.759302,
-     -31.871698
-    ]
-   },
-   "properties": {
-    "name": "95 ARNOTT STREET TRIGG 6029",
-    "locID": "ChIJV0RxmcquMioRvD_sYXkO6IY",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_162258705"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.7535229,
      -31.87408165
     ]
@@ -22263,23 +22083,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_162265000",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.760979,
-     -31.87106
-    ]
-   },
-   "properties": {
-    "name": "88 LYNN STREET TRIGG 6029",
-    "locID": "ChIJjeMaecquMioRogLtkj0FQVg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_162266034"
    }
   },
   {
@@ -22625,74 +22428,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75956876,
-     -31.88572313
-    ]
-   },
-   "properties": {
-    "name": "14 PEET CRESCENT TRIGG 6029",
-    "locID": "ChIJp6lSDdOuMioRwIgHrwHodog",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_162690491"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.75263675,
-     -31.87686863
-    ]
-   },
-   "properties": {
-    "name": "356 WEST COAST DRIVE TRIGG 6029",
-    "locID": "ChIJn7iTFjSpMioR0pw6DzeZuBY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_162693736"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.75667528,
-     -31.88730002
-    ]
-   },
-   "properties": {
-    "name": "156 WEST COAST HIGHWAY TRIGG 6029",
-    "locID": "ChIJK4DApSypMioR_NuDNUaxlpE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_162694011"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.75408239,
-     -31.88596499
-    ]
-   },
-   "properties": {
-    "name": "157 WEST COAST HIGHWAY TRIGG 6029",
-    "locID": "ChIJsQthUSypMioRyVmghtTL5aI",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_162694012"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.75983583,
      -31.88670454
     ]
@@ -22873,29 +22608,11 @@
    "properties": {
     "name": "5 TRIGG PLACE TRIGG 6029",
     "locID": "LOC000186690638",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162877582",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.7532159,
-     -31.87831725
-    ]
-   },
-   "properties": {
-    "name": "366 WEST COAST DRIVE TRIGG 6029",
-    "locID": "ChIJMb_kjDOpMioRrBIUVnCuIfw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_162877651"
    }
   },
   {
@@ -23787,57 +23504,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.76397021,
-     -31.87255901
-    ]
-   },
-   "properties": {
-    "name": "38 TURNBULL WAY TRIGG 6029",
-    "locID": "ChIJ66uBg8muMioRTNw4_S295lE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_720106541"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.755042,
-     -31.8732769
-    ]
-   },
-   "properties": {
-    "name": "45A FLOYD STREET TRIGG 6029",
-    "locID": "ChIJOzW7czWpMioR4xVfKT_52YM",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_720165005"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.75348725,
-     -31.87326842
-    ]
-   },
-   "properties": {
-    "name": "40 METTAM STREET TRIGG 6029",
-    "locID": "ChIJ0-H4kDWpMioR9uSl4BjdD-Q",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_720279616"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.75593459,
      -31.87637712
     ]
@@ -23871,23 +23537,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.7589933,
-     -31.88590718
-    ]
-   },
-   "properties": {
-    "name": "11 FYFE COURT TRIGG 6029",
-    "locID": "ChIJ-YqqatOuMioR5mvuotIq7Bw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_720719500"
    }
   },
   {
@@ -24187,91 +23836,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.76014034,
-     -31.88713444
-    ]
-   },
-   "properties": {
-    "name": "20B OZONE PARADE TRIGG 6029",
-    "locID": "ChIJAcWCgdSuMioRJNdxM9posVc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_720894144"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.76014034,
-     -31.88713444
-    ]
-   },
-   "properties": {
-    "name": "20C OZONE PARADE TRIGG 6029",
-    "locID": "ChIJAcWCgdSuMioRE6lQDnH4U2Y",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_720894206"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.76014034,
-     -31.88713444
-    ]
-   },
-   "properties": {
-    "name": "20A OZONE PARADE TRIGG 6029",
-    "locID": "ChIJAcWCgdSuMioRKTdzS8WEvx0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_720894445"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.76014034,
-     -31.88713444
-    ]
-   },
-   "properties": {
-    "name": "20D OZONE PARADE TRIGG 6029",
-    "locID": "ChIJAcWCgdSuMioRaqNq6azDEbM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_720894662"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.75899711,
-     -31.88710651
-    ]
-   },
-   "properties": {
-    "name": "24 OZONE PARADE TRIGG 6029",
-    "locID": "ChIJWaV3YNOuMioRrSw4zN01WGQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_721105238"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.75378101,
      -31.87044168
     ]
@@ -24283,23 +23847,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_721278515",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.76327954,
-     -31.86869329
-    ]
-   },
-   "properties": {
-    "name": "26 GARLAND WAY TRIGG 6029",
-    "locID": "ChIJAUozdLauMioRn_VO-Yp_3i0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_721280754"
    }
   }
  ]
