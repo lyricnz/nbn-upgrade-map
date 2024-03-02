@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-01-24T08:45:46.842229",
+ "generated": "2024-03-02T21:58:40.001922",
  "suburb": "FAIRFIELD EAST",
  "features": [
   {
@@ -1503,23 +1503,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96984027,
-     -33.87065095
-    ]
-   },
-   "properties": {
-    "name": "5 JAMES STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJY27KuZ29EmsRiwJp6_Dz7Gc",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW704724252"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96967309,
      -33.87067081
     ]
@@ -1839,23 +1822,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97581924,
-     -33.87341934
-    ]
-   },
-   "properties": {
-    "name": "64-72 SEVILLE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJQ2HkAZ-9EmsRMPM03mg60sE",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW704724831"
    }
   },
   {
@@ -3097,23 +3063,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.98341316,
-     -33.87155611
-    ]
-   },
-   "properties": {
-    "name": "81 LISBON STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJR63H9gm9EmsRnwT95StoLqg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW704732129"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96939845,
      -33.87417407
     ]
@@ -3363,8 +3312,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704732151",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -3873,10 +3821,9 @@
    "properties": {
     "name": "18 MALTA STREET FAIRFIELD EAST 2165",
     "locID": "LOC000105434327",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704736166",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3967,23 +3914,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704736382"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97799318,
-     -33.87454347
-    ]
-   },
-   "properties": {
-    "name": "29 MALTA STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJ-_NV26G9EmsR7ScDMH_DsMw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW704736815"
    }
   },
   {
@@ -4422,9 +4352,9 @@
     "name": "54 MALTA STREET FAIRFIELD EAST 2165",
     "locID": "LOC000097747600",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704739427",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4943,8 +4873,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706403518",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -4963,8 +4892,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706403519",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -5360,9 +5288,9 @@
     "name": "30 SEVILLE STREET FAIRFIELD EAST 2165",
     "locID": "LOC000055749422",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706429818",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5650,10 +5578,10 @@
    "properties": {
     "name": "81 MANDARIN STREET FAIRFIELD EAST 2165",
     "locID": "LOC000018736312",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW706441376",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5691,9 +5619,9 @@
     "name": "79 MANDARIN STREET FAIRFIELD EAST 2165",
     "locID": "LOC000063861599",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706441378",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6137,23 +6065,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97915014,
-     -33.8754745
-    ]
-   },
-   "properties": {
-    "name": "26 MALTA STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJDcamlqG9EmsR5-Lo0wxabIs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW706447583"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.9793277,
      -33.87549818
     ]
@@ -6313,40 +6224,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.98029835,
-     -33.87701069
-    ]
-   },
-   "properties": {
-    "name": "792 WOODVILLE ROAD FAIRFIELD EAST 2165",
-    "locID": "ChIJZ7CX1KO9EmsRMtANw7lFBqs",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW706447599"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.98040378,
-     -33.87685139
-    ]
-   },
-   "properties": {
-    "name": "790 WOODVILLE ROAD FAIRFIELD EAST 2165",
-    "locID": "ChIJ46Ok1aO9EmsR9Kh2f9GCr3Q",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW706447600"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.98049398,
      -33.87670752
     ]
@@ -6460,23 +6337,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.98176252,
-     -33.87484073
-    ]
-   },
-   "properties": {
-    "name": "766-770 WOODVILLE ROAD FAIRFIELD EAST 2165",
-    "locID": "ChIJn9iNIaG9EmsRqEMx20t8IG0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW706447607"
    }
   },
   {
@@ -9391,23 +9251,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96846236,
-     -33.87420889
-    ]
-   },
-   "properties": {
-    "name": "18 LANDON STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJj3j3eJu9EmsRWN-_EyUx4F0",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW706541063"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96820705,
      -33.87358937
     ]
@@ -9937,23 +9780,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97329171,
-     -33.8732871
-    ]
-   },
-   "properties": {
-    "name": "74-78 SEVILLE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJKwan7p69EmsR-3EIv0tvdHE",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW706550740"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.9769665,
      -33.87336116
     ]
@@ -9984,23 +9810,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706550795"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97145979,
-     -33.87181187
-    ]
-   },
-   "properties": {
-    "name": "95 SEVILLE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJFfJh1Z29EmsRTh4SaZ_agIs",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW706550796"
    }
   },
   {
@@ -10118,9 +9927,9 @@
     "name": "85 MALTA STREET FAIRFIELD EAST 2165",
     "locID": "LOC000052168168",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706550913",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11135,23 +10944,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97079478,
-     -33.87188836
-    ]
-   },
-   "properties": {
-    "name": "103 SEVILLE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJd0pwLZy9EmsRfZyUs5YaQO8",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW706560988"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97087269,
      -33.87250264
     ]
@@ -12041,23 +11833,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.9642404,
-     -33.86934725
-    ]
-   },
-   "properties": {
-    "name": "222 FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJu48vw4K9EmsRZttSRW0N_bg",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW706564501"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96440202,
      -33.86932646
     ]
@@ -12655,23 +12430,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96320847,
-     -33.87078732
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 244-248 FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJcUsjDIO9EmsRlFABTysyWuc",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW708029114"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97105128,
      -33.87591312
     ]
@@ -12724,23 +12482,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96852643,
-     -33.86911382
-    ]
-   },
-   "properties": {
-    "name": "172A FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJ9-pof529EmsRWZTY8dfn3hg",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW709129961"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97354675,
      -33.86890811
     ]
@@ -12752,23 +12493,6 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW709129969",
     "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96583557,
-     -33.87314987
-    ]
-   },
-   "properties": {
-    "name": "59A VICTORY STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJ_7GpVZu9EmsRbRWENLvu5t4",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW709130332"
    }
   },
   {
@@ -12879,23 +12603,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96789523,
-     -33.87289419
-    ]
-   },
-   "properties": {
-    "name": "136B SEVILLE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJQaD2j5y9EmsRU8rpqJ4L7r8",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW709131432"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96781535,
      -33.87290293
     ]
@@ -12974,40 +12681,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709134051"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96318076,
-     -33.87084134
-    ]
-   },
-   "properties": {
-    "name": "250-252 FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJQ5liDIO9EmsRfq4ZXbj85O8",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW709134076"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96644592,
-     -33.87046051
-    ]
-   },
-   "properties": {
-    "name": "18A VICTORY STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJw8dNJp29EmsRLgZPYNzOt7I",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW709134077"
    }
   },
   {
@@ -13184,91 +12857,6 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW709136308",
     "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.98267229,
-     -33.87063005
-    ]
-   },
-   "properties": {
-    "name": "28-48 FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJx4cJJAq9EmsRaaq8p9FPHqo",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW709136309"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97358883,
-     -33.87511447
-    ]
-   },
-   "properties": {
-    "name": "23-35 MONTROSE AVENUE FAIRFIELD EAST 2165",
-    "locID": "ChIJmyGRMpm9EmsRttNCtNxcM3Y",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW709136310"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96972959,
-     -33.86871479
-    ]
-   },
-   "properties": {
-    "name": "152-160 FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJMcQiIXa9EmsRvCKshAH55j0",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW709136313"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.9753404,
-     -33.87418884
-    ]
-   },
-   "properties": {
-    "name": "89-91 MALTA STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJzbSJPZ-9EmsRcxNWy8rKiyQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW709136314"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97636539,
-     -33.87326548
-    ]
-   },
-   "properties": {
-    "name": "61-67 MANDARIN STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJc3FLdp-9EmsRHxiyFak71P8",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW709136316"
    }
   },
   {
@@ -13588,23 +13176,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96609497,
-     -33.87298202
-    ]
-   },
-   "properties": {
-    "name": "57A VICTORY STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJeRSWqZy9EmsRXqgKOHujulk",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW709152693"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97094565,
      -33.87278595
     ]
@@ -13650,8 +13221,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711192979",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -13667,9 +13237,9 @@
     "name": "50 MANDARIN STREET FAIRFIELD EAST 2165",
     "locID": "LOC000012324266",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711192980",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13793,23 +13363,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.98176252,
-     -33.87484073
-    ]
-   },
-   "properties": {
-    "name": "768-774 WOODVILLE ROAD FAIRFIELD EAST 2165",
-    "locID": "ChIJn9iNIaG9EmsR84yUhVumoMg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW711229674"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.98368519,
      -33.87243568
     ]
@@ -13821,25 +13374,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711229675",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.98416653,
-     -33.87137848
-    ]
-   },
-   "properties": {
-    "name": "728 WOODVILLE ROAD FAIRFIELD EAST 2165",
-    "locID": "ChIJhWev7Am9EmsRaZu3Zx6Zu6k",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW711229677"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -13858,8 +13393,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711229680",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14022,23 +13556,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97581924,
-     -33.87341934
-    ]
-   },
-   "properties": {
-    "name": "38-42 SEVILLE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJqwa1DJ-9EmsRgWO_sHpZefc",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW711233917"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.98048035,
      -33.87116586
     ]
@@ -14147,23 +13664,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.98287935,
-     -33.87251439
-    ]
-   },
-   "properties": {
-    "name": "26 LISBON STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJUSWjq6C9EmsRtgjTvDVxfyA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW711233929"
    }
   },
   {
@@ -14515,8 +14015,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711247957",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14816,57 +14315,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.9753404,
-     -33.87418884
-    ]
-   },
-   "properties": {
-    "name": "89 MALTA STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJzbSJPZ-9EmsRiLT4HANgucU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW711266140"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.9753404,
-     -33.87418884
-    ]
-   },
-   "properties": {
-    "name": "91 MALTA STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJzbSJPZ-9EmsRBbfiWQp__KI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW711266141"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97638926,
-     -33.87483691
-    ]
-   },
-   "properties": {
-    "name": "95 MALTA STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJVy-JRJ-9EmsR21lYqhtHDH4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW711266142"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97741216,
      -33.87363085
     ]
@@ -14875,9 +14323,9 @@
     "name": "UNIT 1, 30 SEVILLE STREET FAIRFIELD EAST 2165",
     "locID": "LOC000055749422",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711266143",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14895,9 +14343,9 @@
     "name": "UNIT 2, 30 SEVILLE STREET FAIRFIELD EAST 2165",
     "locID": "LOC000055749422",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711266144",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16307,23 +15755,6 @@
     ]
    },
    "properties": {
-    "name": "61 NORMANBY STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJY3hmLJq9EmsRjPPK0On4JQg",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW715391662"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97102698,
-     -33.87711184
-    ]
-   },
-   "properties": {
     "name": "75 NORMANBY STREET FAIRFIELD EAST 2165",
     "locID": "LOC000169768247",
     "tech": "HFC",
@@ -16346,23 +15777,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715399312"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97436829,
-     -33.87987089
-    ]
-   },
-   "properties": {
-    "name": "13 SEAMAN AVENUE FAIRFIELD EAST 2165",
-    "locID": "ChIJe00r05m9EmsRcxI2I5No3i0",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW715401236"
    }
   },
   {
@@ -16881,23 +16295,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.98416653,
-     -33.87137848
-    ]
-   },
-   "properties": {
-    "name": "716-746 WOODVILLE ROAD FAIRFIELD EAST 2165",
-    "locID": "ChIJhWev7Am9EmsRoFh3PQCyXgY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW715412583"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.9830132,
      -33.87389558
     ]
@@ -17276,23 +16673,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97006194,
-     -33.87934031
-    ]
-   },
-   "properties": {
-    "name": "13 MELALEUCA AVENUE FAIRFIELD EAST 2165",
-    "locID": "ChIJ1QF6n5C9EmsRcMhXozlg6CU",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW715634390"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97026146,
      -33.87896561
     ]
@@ -17412,23 +16792,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96925838,
-     -33.88034636
-    ]
-   },
-   "properties": {
-    "name": "30 MITCHELL STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJ76tK7ZC9EmsR0qgTWgFct-0",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW715636250"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.9682534,
      -33.88058892
     ]
@@ -17439,23 +16802,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715636252"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97105128,
-     -33.87591312
-    ]
-   },
-   "properties": {
-    "name": "32A NORMANBY STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJf38u0Zu9EmsRvNDu5rdo1B8",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW715640009"
    }
   },
   {
@@ -17599,40 +16945,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97043949,
-     -33.87709522
-    ]
-   },
-   "properties": {
-    "name": "5 PEPPERCORN AVENUE FAIRFIELD EAST 2165",
-    "locID": "ChIJOTpfMZq9EmsR1MHNhOKcJUs",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW715646077"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97439513,
-     -33.88020805
-    ]
-   },
-   "properties": {
-    "name": "5 SEAMAN AVENUE FAIRFIELD EAST 2165",
-    "locID": "EjA1IFNlYW1hbiBBdmUsIEZhaXJmaWVsZCBFYXN0IE5TVyAyMTY1LCBBdXN0cmFsaWEiMBIuChQKEgnHnc7Vmb0SaxFhZ4XlZ30BExAFKhQKEgnHnc7Vmb0SaxE_-OdCYwzd6A",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW715654767"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97312093,
      -33.87769903
     ]
@@ -17650,23 +16962,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96685111,
-     -33.87761709
-    ]
-   },
-   "properties": {
-    "name": "101 CAMPBELL STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJuXzxvJq9EmsRHCwfl4ysBEY",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW715674374"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96612528,
      -33.87486844
     ]
@@ -17677,23 +16972,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715674379"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97510394,
-     -33.88041837
-    ]
-   },
-   "properties": {
-    "name": "129 MANDARIN STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJAV5xKJi9EmsRychI3lHxyzc",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW715683419"
    }
   },
   {
@@ -17720,23 +16998,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97457066,
-     -33.86954839
-    ]
-   },
-   "properties": {
-    "name": "104-108 FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJa0XSeXW9EmsRFE5orIhOUv4",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW715851060"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96481881,
      -33.86994104
     ]
@@ -17755,40 +17016,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96266957,
-     -33.87025755
-    ]
-   },
-   "properties": {
-    "name": "217-243 FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJi3AOqIO9EmsRHGWAYGVIzt0",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW715851075"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96437477,
-     -33.86973852
-    ]
-   },
-   "properties": {
-    "name": "222A FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJly8t3IK9EmsR1ygw1RPd9-E",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW715851076"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97213444,
      -33.87004687
     ]
@@ -17799,23 +17026,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715950196"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.98115231,
-     -33.8723156
-    ]
-   },
-   "properties": {
-    "name": "34-38 LISBON STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJzZGym6C9EmsR0kBPlnapqh0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW715950213"
    }
   },
   {
@@ -17930,23 +17140,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96977711,
-     -33.87743911
-    ]
-   },
-   "properties": {
-    "name": "2-10 JACARANDA COURT FAIRFIELD EAST 2165",
-    "locID": "ChIJEcTpRpq9EmsRpAdxaHdBPgw",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716403146"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96908633,
      -33.87728162
     ]
@@ -18016,23 +17209,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96970605,
-     -33.87400862
-    ]
-   },
-   "properties": {
-    "name": "8 LANDON STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJ2bGPdZy9EmsRCdvhjl2Jcnc",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716495497"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97278528,
      -33.87013459
     ]
@@ -18080,23 +17256,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716495788"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96941623,
-     -33.8742509
-    ]
-   },
-   "properties": {
-    "name": "14 LOFTUS STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJAQfCiJu9EmsRTYfvDvV76qQ",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716495830"
    }
   },
   {
@@ -18335,23 +17494,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716499949"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97494046,
-     -33.87539497
-    ]
-   },
-   "properties": {
-    "name": "8 SPRING STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJxUXR0pi9EmsRuy3hYR3XC1c",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716500511"
    }
   },
   {
@@ -19218,23 +18360,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97171346,
-     -33.8786324
-    ]
-   },
-   "properties": {
-    "name": "56C NORMANBY STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJ6WM79Jm9EmsRdTmpHCNodDg",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716557783"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97446012,
      -33.87789608
     ]
@@ -19401,23 +18526,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716558036"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96856478,
-     -33.87673052
-    ]
-   },
-   "properties": {
-    "name": "110A TANGERINE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJWYMpVpq9EmsR587XAPocT-s",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716558037"
    }
   },
   {
@@ -19680,23 +18788,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96939729,
-     -33.87659407
-    ]
-   },
-   "properties": {
-    "name": "102B TANGERINE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJD6ltTZq9EmsRcryTsMYpJx8",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716558682"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96974821,
      -33.88028682
     ]
@@ -19883,23 +18974,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.9751336,
-     -33.87990989
-    ]
-   },
-   "properties": {
-    "name": "123 MANDARIN STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJg_FQJZi9EmsRJc8yE3vJJxI",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716559327"
    }
   },
   {
@@ -21500,23 +20574,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97249063,
-     -33.87711007
-    ]
-   },
-   "properties": {
-    "name": "66 TANGERINE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJp8amcZm9EmsRpCSQCvi9wRg",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716561268"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96997838,
      -33.87936537
     ]
@@ -21805,23 +20862,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716561701"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96921666,
-     -33.87986041
-    ]
-   },
-   "properties": {
-    "name": "27A MITCHELL STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJRSU8jpC9EmsRbiyXPxmr8Ek",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716561706"
    }
   },
   {
@@ -22277,23 +21317,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97451813,
-     -33.87698661
-    ]
-   },
-   "properties": {
-    "name": "1A MACARTHUR STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJAzVX4pi9EmsR6IbMWDMPEfg",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716562232"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97089563,
      -33.87776608
     ]
@@ -22651,23 +21674,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97443104,
-     -33.880424
-    ]
-   },
-   "properties": {
-    "name": "1A SEAMAN AVENUE FAIRFIELD EAST 2165",
-    "locID": "ChIJiT_AgZe9EmsR6XYCS-wQ1dY",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716562496"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96881762,
      -33.87988148
     ]
@@ -22797,23 +21803,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716562670"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97171346,
-     -33.8786324
-    ]
-   },
-   "properties": {
-    "name": "56B NORMANBY STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJpTw99Jm9EmsRJgr0-yILmA0",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716562681"
    }
   },
   {
@@ -23662,23 +22651,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97130722,
-     -33.87668223
-    ]
-   },
-   "properties": {
-    "name": "34A NORMANBY STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJg6vN1Zu9EmsRf_d8O33RzYg",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716563823"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97531415,
      -33.87939024
     ]
@@ -24083,23 +23055,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716564259"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97171346,
-     -33.8786324
-    ]
-   },
-   "properties": {
-    "name": "56A NORMANBY STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJS22Y85m9EmsR_2utPJxmqb8",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716564267"
    }
   },
   {
@@ -25595,23 +24550,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97241765,
-     -33.87938617
-    ]
-   },
-   "properties": {
-    "name": "84 BELMORE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJr1JZ5Jm9EmsRlzMmqj7FyQg",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716603030"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97249098,
      -33.87888468
     ]
@@ -25987,23 +24925,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.9702965,
-     -33.86868384
-    ]
-   },
-   "properties": {
-    "name": "150A FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJ_eVGGXa9EmsR6fBvR6luTEU",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716607266"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96324666,
      -33.87063578
     ]
@@ -26066,23 +24987,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716607270"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.9702965,
-     -33.86868384
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 150A FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJ_eVGGXa9EmsR6fBvR6luTEU",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716607271"
    }
   },
   {
@@ -26420,45 +25324,11 @@
     ]
    },
    "properties": {
-    "name": "121 MANDARIN STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJg_FQJZi9EmsRckZtV-e7p_o",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716609871"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.9751336,
-     -33.87990989
-    ]
-   },
-   "properties": {
     "name": "125 MANDARIN STREET FAIRFIELD EAST 2165",
     "locID": "LOC000115351389",
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716609873"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97645688,
-     -33.8750098
-    ]
-   },
-   "properties": {
-    "name": "103 MANDARIN STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJbcUXRZ-9EmsR4TwLI2PnHVY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716609874"
    }
   },
   {
@@ -27183,23 +26053,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97267934,
-     -33.87404305
-    ]
-   },
-   "properties": {
-    "name": "101-139 MALTA STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJnXS5uZ69EmsRRV35cJDe470",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716736788"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.9655372,
      -33.87137049
     ]
@@ -27227,23 +26080,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716885977"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.9846111,
-     -33.87080092
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 708-712 WOODVILLE ROAD FAIRFIELD EAST 2165",
-    "locID": "EjI3MTIgV29vZHZpbGxlIFJkLCBDaGVzdGVyIEhpbGwgTlNXIDIxNjIsIEF1c3RyYWxpYSIxEi8KFAoSCTHOLqUJvRJrEfuvH4V4C-OEEMgFKhQKEgnfeRIAGr0SaxG77e0Gey7lZg",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716903845"
    }
   },
   {
@@ -27292,40 +26128,6 @@
     ]
    },
    "properties": {
-    "name": "UNIT 4, 708-712 WOODVILLE ROAD FAIRFIELD EAST 2165",
-    "locID": "EjI3MTIgV29vZHZpbGxlIFJkLCBDaGVzdGVyIEhpbGwgTlNXIDIxNjIsIEF1c3RyYWxpYSIxEi8KFAoSCTHOLqUJvRJrEfuvH4V4C-OEEMgFKhQKEgnfeRIAGr0SaxG77e0Gey7lZg",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716903848"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.9846111,
-     -33.87080092
-    ]
-   },
-   "properties": {
-    "name": "UNIT 5, 708-712 WOODVILLE ROAD FAIRFIELD EAST 2165",
-    "locID": "EjI3MTIgV29vZHZpbGxlIFJkLCBDaGVzdGVyIEhpbGwgTlNXIDIxNjIsIEF1c3RyYWxpYSIxEi8KFAoSCTHOLqUJvRJrEfuvH4V4C-OEEMgFKhQKEgnfeRIAGr0SaxG77e0Gey7lZg",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716903849"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.9846111,
-     -33.87080092
-    ]
-   },
-   "properties": {
     "name": "UNIT 6, 708-712 WOODVILLE ROAD FAIRFIELD EAST 2165",
     "locID": "LOC000178402114",
     "tech": "FTTC",
@@ -27357,23 +26159,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.9846111,
-     -33.87080092
-    ]
-   },
-   "properties": {
-    "name": "UNIT 8, 708-712 WOODVILLE ROAD FAIRFIELD EAST 2165",
-    "locID": "EjI3MTIgV29vZHZpbGxlIFJkLCBDaGVzdGVyIEhpbGwgTlNXIDIxNjIsIEF1c3RyYWxpYSIxEi8KFAoSCTHOLqUJvRJrEfuvH4V4C-OEEMgFKhQKEgnfeRIAGr0SaxG77e0Gey7lZg",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716903852"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.98312888,
      -33.87315812
     ]
@@ -27394,91 +26179,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97127503,
-     -33.87509501
-    ]
-   },
-   "properties": {
-    "name": "15 JAMIESON LANE FAIRFIELD EAST 2165",
-    "locID": "ChIJcdsp45u9EmsRl3BWbKhR77I",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716925056"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97193923,
-     -33.87104291
-    ]
-   },
-   "properties": {
-    "name": "122-124 LISBON STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJe4Xcc569EmsRGJMWckfZ71k",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716926991"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97840584,
-     -33.87218414
-    ]
-   },
-   "properties": {
-    "name": "44-120 LISBON STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJUSWjq6C9EmsRLwk1ADJOBzE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716926993"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97799318,
-     -33.87454347
-    ]
-   },
-   "properties": {
-    "name": "29-63 MALTA STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJ-_NV26G9EmsRimJS6wznGWw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716927789"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97685339,
-     -33.87439151
-    ]
-   },
-   "properties": {
-    "name": "65-69 MALTA STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJcf7bZp-9EmsR2-N6Yc7l88k",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716927790"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.98258032,
      -33.87331266
     ]
@@ -27492,23 +26192,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.98258032,
-     -33.87331266
-    ]
-   },
-   "properties": {
-    "name": "25-89 SEVILLE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJDbX-tqC9EmsRUsPgR6h7CzM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716935148"
    }
   },
   {
@@ -29321,23 +28004,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96538747,
-     -33.87573696
-    ]
-   },
-   "properties": {
-    "name": "129 THE HORSLEY DRIVE FAIRFIELD EAST 2165",
-    "locID": "ChIJ-9yTK4W9EmsRAaOXaWh89B0",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716967294"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96642586,
      -33.87722961
     ]
@@ -29365,23 +28031,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717041324"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97110095,
-     -33.8738174
-    ]
-   },
-   "properties": {
-    "name": "141 MALTA STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJ6R9gA5y9EmsRMrLg7-5XMZ8",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717046802"
    }
   },
   {
@@ -29659,23 +28308,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717288528"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97446291,
-     -33.87179677
-    ]
-   },
-   "properties": {
-    "name": "56-88 LISBON STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJDSNAs5-9EmsRxe4a9SSBKOc",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717303441"
    }
   },
   {
@@ -30120,57 +28752,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96686078,
-     -33.87786863
-    ]
-   },
-   "properties": {
-    "name": "105-107 CAMPBELL STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJcc0Ro5q9EmsRRUq0AgzfgmE",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717618117"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97278528,
-     -33.87013459
-    ]
-   },
-   "properties": {
-    "name": "123-131 LISBON STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJcf3vGJ69EmsR5gBNUOsJN0g",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717627217"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.98341316,
-     -33.87155611
-    ]
-   },
-   "properties": {
-    "name": "1-91 LISBON STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJR63H9gm9EmsRHlv0eHwdNVs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717627218"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.98341316,
      -33.87155611
     ]
@@ -30182,8 +28763,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717627219",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -30328,23 +28908,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97164919,
-     -33.86915475
-    ]
-   },
-   "properties": {
-    "name": "140A FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJA41vT3W9EmsRfgaLt-wtqps",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717731158"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96972959,
      -33.86871479
     ]
@@ -30426,8 +28989,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717733549",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -30463,8 +29025,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717733731",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -30606,40 +29167,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97075332,
-     -33.87430233
-    ]
-   },
-   "properties": {
-    "name": "14A NORMANBY STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJKVObB5y9EmsRw_UuuNUufcg",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717734430"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97005069,
-     -33.87459759
-    ]
-   },
-   "properties": {
-    "name": "9A NORMANBY STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJbUbX8pu9EmsRgbFVOawnetQ",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717734431"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97152112,
      -33.87284018
     ]
@@ -30650,23 +29177,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717735804"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96320847,
-     -33.87078732
-    ]
-   },
-   "properties": {
-    "name": "244-248 FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJcUsjDIO9EmsRlFABTysyWuc",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717743666"
    }
   },
   {
@@ -30779,91 +29289,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96176176,
-     -33.87013422
-    ]
-   },
-   "properties": {
-    "name": "245 FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJee9puoO9EmsRlwOkmWvages",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717890295"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97795793,
-     -33.87630823
-    ]
-   },
-   "properties": {
-    "name": "24A-24C BLACKFORD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJP28mA6K9EmsRK3-ZUJPanqc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717943990"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.9727774,
-     -33.86930429
-    ]
-   },
-   "properties": {
-    "name": "122-124 FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJy4py83W9EmsR_7lMqXaKxDw",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717950949"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96945861,
-     -33.87323529
-    ]
-   },
-   "properties": {
-    "name": "16 HANSON STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJI77Kb5y9EmsRkSDJw_B3J-w",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717953543"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97051194,
-     -33.87325762
-    ]
-   },
-   "properties": {
-    "name": "1A LANDON STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJYaLSFpy9EmsR2S7k2mrqZFo",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717956942"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96584772,
      -33.87378495
     ]
@@ -30908,40 +29333,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717958327"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97623506,
-     -33.87540893
-    ]
-   },
-   "properties": {
-    "name": "73A MANDARIN STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJowoGTJ-9EmsRiKG98EynAEI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717958328"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97451432,
-     -33.87758719
-    ]
-   },
-   "properties": {
-    "name": "89A MANDARIN STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJcUdb_pi9EmsRzd5uLTrExqo",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717958329"
    }
   },
   {
@@ -31193,57 +29584,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96457576,
-     -33.87133444
-    ]
-   },
-   "properties": {
-    "name": "10 BANKSIA CRESCENT FAIRFIELD EAST 2165",
-    "locID": "ChIJM0nJOIO9EmsRPks4IkiOCTg",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718048767"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97366875,
-     -33.87937866
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 45 BELMORE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJaxSEz5m9EmsRHp4OI_OyWfY",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718084846"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97366875,
-     -33.87937866
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 45 BELMORE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJaxSEz5m9EmsRHp4OI_OyWfY",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718084847"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97366875,
      -33.87937866
     ]
@@ -31257,40 +29597,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97366875,
-     -33.87937866
-    ]
-   },
-   "properties": {
-    "name": "45 BELMORE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJaxSEz5m9EmsRHp4OI_OyWfY",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718084850"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97499303,
-     -33.88004714
-    ]
-   },
-   "properties": {
-    "name": "48 BELMORE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJO0MFL5i9EmsReuNk8u2z7Lc",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718084851"
    }
   },
   {
@@ -32545,40 +30851,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97531415,
-     -33.87939024
-    ]
-   },
-   "properties": {
-    "name": "115-117 MANDARIN STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJKxLxOJi9EmsRpFCtTGTKOLw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718102778"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96917671,
-     -33.86887588
-    ]
-   },
-   "properties": {
-    "name": "164B FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJQxC5h529EmsRMM2T5ip9aAo",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718119278"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96748213,
      -33.87501577
     ]
@@ -32589,23 +30861,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718120691"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96754371,
-     -33.87092501
-    ]
-   },
-   "properties": {
-    "name": "33A JAMES STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJNYcM4py9EmsRubZTX843i4w",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718121273"
    }
   },
   {
@@ -32963,23 +31218,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718126429"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96801114,
-     -33.87946334
-    ]
-   },
-   "properties": {
-    "name": "116-122 CAMPBELL STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJ9_39ZJC9EmsRtOvYKuHORZQ",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718139432"
    }
   },
   {
@@ -33511,23 +31749,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97620157,
-     -33.87557405
-    ]
-   },
-   "properties": {
-    "name": "64J MALTA STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJG7CdTJ-9EmsREvYluIn8eFo",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718314953"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97329171,
      -33.8732871
     ]
@@ -33545,23 +31766,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.9682534,
-     -33.88058892
-    ]
-   },
-   "properties": {
-    "name": "38 SINNOTT STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJvxg4WpC9EmsRPVLUt_5VGug",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718319529"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97519203,
      -33.87547433
     ]
@@ -33572,23 +31776,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718319639"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97467478,
-     -33.87537819
-    ]
-   },
-   "properties": {
-    "name": "13 SPRING STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJ_2CW1Ji9EmsRUWJdvA5JSSA",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718319640"
    }
   },
   {
@@ -34191,23 +32378,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97677747,
-     -33.87566388
-    ]
-   },
-   "properties": {
-    "name": "66 MANDARIN STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJXx5iUZ-9EmsRa0fTbIuS-rw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718415484"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97781812,
      -33.87368493
     ]
@@ -34298,23 +32468,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97071517,
-     -33.87010266
-    ]
-   },
-   "properties": {
-    "name": "135B LISBON STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJBwFU7529EmsRy3uIvuT7cqo",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718432639"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97316102,
      -33.87554566
     ]
@@ -34393,23 +32546,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718466623"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96808062,
-     -33.87765163
-    ]
-   },
-   "properties": {
-    "name": "43A HERCULES STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJyTlBjJq9EmsR9GqQxwf5gjU",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718470990"
    }
   },
   {
@@ -34608,23 +32744,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97550801,
-     -33.87514335
-    ]
-   },
-   "properties": {
-    "name": "62-64 MALTA STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJKx2wNp-9EmsRZDQQfhW9Qns",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718497534"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97391857,
      -33.86945954
     ]
@@ -34802,57 +32921,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96320847,
-     -33.87078732
-    ]
-   },
-   "properties": {
-    "name": "246 FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJcbI8DIO9EmsRosNMoMAuzLI",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718504763"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96320847,
-     -33.87078732
-    ]
-   },
-   "properties": {
-    "name": "248 FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJqSqKC4O9EmsRjN_xF8G874o",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718504764"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97299771,
-     -33.8755237
-    ]
-   },
-   "properties": {
-    "name": "38A MONTROSE AVENUE FAIRFIELD EAST 2165",
-    "locID": "ChIJfRwZOJm9EmsRb1YyNgBNk4A",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718507189"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97471267,
      -33.87274981
     ]
@@ -34879,7 +32947,8 @@
     "locID": "LOC000161440603",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718513826"
+    "gnaf_pid": "GANSW718513826",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -34906,23 +32975,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96731182,
-     -33.88013362
-    ]
-   },
-   "properties": {
-    "name": "45A MITCHELL STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJJ-TQRpC9EmsRwIC-DJfodKM",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718543479"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96652389,
      -33.87890993
     ]
@@ -34933,23 +32985,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718544354"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97153406,
-     -33.87098798
-    ]
-   },
-   "properties": {
-    "name": "124-124A LISBON STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJX-MLdp69EmsRBEtPBcHCn3A",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718562562"
    }
   },
   {
@@ -35027,23 +33062,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97153406,
-     -33.87098798
-    ]
-   },
-   "properties": {
-    "name": "124A LISBON STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJX-MLdp69EmsRZMK9sy47J7I",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718585103"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.98287935,
      -33.87251439
     ]
@@ -35089,9 +33107,9 @@
     "name": "50-60 FAIRFIELD STREET FAIRFIELD EAST 2165",
     "locID": "LOC000160774611",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718687631",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35119,23 +33137,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97034227,
-     -33.87066382
-    ]
-   },
-   "properties": {
-    "name": "7 CROWN STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJU-1TwZ29EmsRhzuIitCV5yU",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718706162"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97354675,
      -33.86890811
     ]
@@ -35147,23 +33148,6 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737177",
     "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97638926,
-     -33.87483691
-    ]
-   },
-   "properties": {
-    "name": "11 MALTA STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJVy-JRJ-9EmsRYtsks87eNWY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718738031"
    }
   },
   {
@@ -35405,23 +33389,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.9709858,
-     -33.87814838
-    ]
-   },
-   "properties": {
-    "name": "49A NORMANBY STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJvQ5yIpq9EmsR0OOyuwzF4Oc",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719073102"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96828987,
      -33.87510341
     ]
@@ -35627,23 +33594,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97988726,
-     -33.87675077
-    ]
-   },
-   "properties": {
-    "name": "3A TANGERINE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJgco7KqK9EmsRUTpQYyEpdlo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719161091"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97859904,
      -33.87671722
     ]
@@ -35697,23 +33647,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97534559,
-     -33.87922353
-    ]
-   },
-   "properties": {
-    "name": "113A MANDARIN STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJq1kTR5i9EmsRrhMJvYy80Zw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719255955"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97396561,
      -33.87481622
     ]
@@ -35741,40 +33674,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719262037"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96816613,
-     -33.87801295
-    ]
-   },
-   "properties": {
-    "name": "49A HERCULES STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJtSszj5q9EmsROxIK981ueY0",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719379595"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96669683,
-     -33.87961313
-    ]
-   },
-   "properties": {
-    "name": "155B THE HORSLEY DRIVE FAIRFIELD EAST 2165",
-    "locID": "ChIJifUEFpC9EmsRm9N3yANqPs4",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719467825"
    }
   },
   {
@@ -35833,23 +33732,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96754371,
-     -33.87092501
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 33A JAMES STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJNYcM4py9EmsRubZTX843i4w",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719587962"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97054289,
      -33.86990611
     ]
@@ -35884,23 +33766,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97281855,
-     -33.87892732
-    ]
-   },
-   "properties": {
-    "name": "79C BELMORE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJz3U96pm9EmsRrWMzAAIYO2o",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719665907"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96689212,
      -33.88076106
     ]
@@ -35911,23 +33776,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719694748"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96577905,
-     -33.87092772
-    ]
-   },
-   "properties": {
-    "name": "27B VICTORY STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJKUYD05y9EmsRlE0441w-1yc",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719803773"
    }
   },
   {
@@ -36003,23 +33851,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96962747,
-     -33.87448215
-    ]
-   },
-   "properties": {
-    "name": "18A LOFTUS STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJH4yAjpu9EmsRGdKsMXdCEj8",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720007417"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97242022,
      -33.87837094
     ]
@@ -36074,23 +33905,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96803711,
-     -33.87086626
-    ]
-   },
-   "properties": {
-    "name": "27A JAMES STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJiSusA529EmsRE9nb89TeGUc",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720097271"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97528353,
      -33.87485512
     ]
@@ -36124,57 +33938,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96692296,
-     -33.88089114
-    ]
-   },
-   "properties": {
-    "name": "139A THE HORSLEY DRIVE FAIRFIELD EAST 2165",
-    "locID": "ChIJk5wfNZC9EmsR6mjN59lnwF8",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720152463"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97486681,
-     -33.8791921
-    ]
-   },
-   "properties": {
-    "name": "49A BELMORE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJWZDcSZi9EmsRSyTGRy-IE2s",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720162485"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96811206,
-     -33.8743588
-    ]
-   },
-   "properties": {
-    "name": "4A HERCULES STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJEejDcJu9EmsRohTd7_db_NQ",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720166045"
    }
   },
   {
@@ -36236,74 +33999,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96796851,
-     -33.86956882
-    ]
-   },
-   "properties": {
-    "name": "25A VERON STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJt9ZQcp29EmsR7RXZhZEBQ34",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720265597"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97003991,
-     -33.87395444
-    ]
-   },
-   "properties": {
-    "name": "2A LANDON STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJr9bXCpy9EmsRkLI8VEl_PQc",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720266249"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97172336,
-     -33.88113548
-    ]
-   },
-   "properties": {
-    "name": "143A RIVER AVENUE FAIRFIELD EAST 2165",
-    "locID": "ChIJ37lHNJe9EmsRWM8WcHJ2Ipk",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720266868"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97086666,
-     -33.87764329
-    ]
-   },
-   "properties": {
-    "name": "41A NORMANBY STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJ2csaJZq9EmsRkQBxJzFz58M",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720268812"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97333003,
      -33.8803022
     ]
@@ -36314,23 +34009,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720317975"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97014358,
-     -33.87156749
-    ]
-   },
-   "properties": {
-    "name": "43A CROWN STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJKxvSyp29EmsRoH-ypNLRr78",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720321726"
    }
   },
   {
@@ -36351,23 +34029,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97094968,
-     -33.88009922
-    ]
-   },
-   "properties": {
-    "name": "10A MITCHELL STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJL7HXsZC9EmsRAXbDx8yY6HM",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720332130"
    }
   },
   {
@@ -36477,40 +34138,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96320847,
-     -33.87078732
-    ]
-   },
-   "properties": {
-    "name": "UNIT 6, 244-248 FAIRFIELD STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJcUsjDIO9EmsRlFABTysyWuc",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720624968"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96607166,
-     -33.87283065
-    ]
-   },
-   "properties": {
-    "name": "55B VICTORY STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJE400qZy9EmsRkNbbt1zc_jg",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720687057"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.9711011,
      -33.88057991
     ]
@@ -36556,8 +34183,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720812611",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36837,23 +34463,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96864009,
-     -33.88164854
-    ]
-   },
-   "properties": {
-    "name": "181A RIVER AVENUE FAIRFIELD EAST 2165",
-    "locID": "ChIJwzSVAJG9EmsRTJpB41mNuAI",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720906021"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.96984813,
      -33.87611037
     ]
@@ -36952,40 +34561,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721055727"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.97241765,
-     -33.87938617
-    ]
-   },
-   "properties": {
-    "name": "84A BELMORE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJc8RP5Jm9EmsRhslCkv1xvNM",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721123751"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96529207,
-     -33.8709702
-    ]
-   },
-   "properties": {
-    "name": "25B VICTORY STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJlxn_LYO9EmsRci_mG7MMO3M",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721126259"
    }
   },
   {
@@ -37146,23 +34721,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97171949,
-     -33.88113138
-    ]
-   },
-   "properties": {
-    "name": "87 NORMANBY STREET FAIRFIELD EAST 2165",
-    "locID": "EjI4NyBOb3JtYW5ieSBTdCwgRmFpcmZpZWxkIEVhc3QgTlNXIDIxNjUsIEF1c3RyYWxpYSIwEi4KFAoSCTNQKEyXvRJrEfF8heVnfQETEFcqFAoSCUMyZNSbvRJrETHD_PewY9t8",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721249012"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.966318,
      -33.87581907
     ]
@@ -37248,23 +34806,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.97124387,
-     -33.87632076
-    ]
-   },
-   "properties": {
-    "name": "88A TANGERINE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJq9nW2Zu9EmsRbhlnZKLVLvQ",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721316339"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.97072904,
      -33.86880196
     ]
@@ -37326,23 +34867,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721332569"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96881148,
-     -33.87265692
-    ]
-   },
-   "properties": {
-    "name": "124A SEVILLE STREET FAIRFIELD EAST 2165",
-    "locID": "ChIJAyfnYJy9EmsRIEuRY6jQ9AQ",
-    "tech": "HFC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721332655"
    }
   }
  ]
