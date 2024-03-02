@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-01-23T17:21:59.847675",
+ "generated": "2024-03-02T08:39:53.445864",
  "suburb": "BEAUMONT",
  "features": [
   {
@@ -15,7 +15,7 @@
    "properties": {
     "name": "321 TOURIST ROAD BEAUMONT 2577",
     "locID": "LOC000007337994",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704045083"
    }
@@ -32,7 +32,7 @@
    "properties": {
     "name": "328 TOURIST ROAD BEAUMONT 2577",
     "locID": "LOC000016752862",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704045084"
    }
@@ -100,7 +100,7 @@
    "properties": {
     "name": "398A TOURIST ROAD BEAUMONT 2577",
     "locID": "LOC000037113408",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704045088"
    }
@@ -117,7 +117,7 @@
    "properties": {
     "name": "398B TOURIST ROAD BEAUMONT 2577",
     "locID": "LOC000037053215",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704045089"
    }
@@ -134,7 +134,7 @@
    "properties": {
     "name": "399 TOURIST ROAD BEAUMONT 2577",
     "locID": "LOC000007289897",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704045090"
    }
@@ -185,9 +185,10 @@
    "properties": {
     "name": "408 TOURIST ROAD BEAUMONT 2577",
     "locID": "LOC000012097260",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704045093"
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
+    "gnaf_pid": "GANSW704045093",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -236,7 +237,7 @@
    "properties": {
     "name": "96 TOURIST ROAD BEAUMONT 2577",
     "locID": "LOC000036230651",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704045096"
    }
@@ -270,7 +271,7 @@
    "properties": {
     "name": "210 TOURIST ROAD BEAUMONT 2577",
     "locID": "LOC000055239698",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704045860"
    }
@@ -372,7 +373,7 @@
    "properties": {
     "name": "312 TOURIST ROAD BEAUMONT 2577",
     "locID": "LOC000090091109",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704045867"
    }
@@ -392,23 +393,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704056053"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.57428134,
-     -34.77369323
-    ]
-   },
-   "properties": {
-    "name": "152 GREEN VALLEY ROAD BEAUMONT 2577",
-    "locID": "ChIJa1ZVUQSCE2sRq95RCnnlkP0",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW704056054"
    }
   },
   {
@@ -603,23 +587,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.56057874,
-     -34.77850421
-    ]
-   },
-   "properties": {
-    "name": "1045C MOSS VALE ROAD BEAUMONT 2577",
-    "locID": "ChIJ1bwolYqBE2sRRGQD6CGfS5Y",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW704056705"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.56598637,
      -34.77839744
     ]
@@ -654,23 +621,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.56655858,
-     -34.76115443
-    ]
-   },
-   "properties": {
-    "name": "1356B MOSS VALE ROAD BEAUMONT 2577",
-    "locID": "ChIJ_aeEEROCE2sR_ud-pQHHAkM",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW704056708"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.55785568,
      -34.78733428
     ]
@@ -681,23 +631,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704056709"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.55271222,
-     -34.78679698
-    ]
-   },
-   "properties": {
-    "name": "979B MOSS VALE ROAD BEAUMONT 2577",
-    "locID": "ChIJr-bN9ZGBE2sRksMUYC3MFJE",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW704056710"
    }
   },
   {
@@ -739,40 +672,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.56254568,
-     -34.78615781
-    ]
-   },
-   "properties": {
-    "name": "990 MOSS VALE ROAD BEAUMONT 2577",
-    "locID": "ChIJKYXVpp2BE2sRMn6sBK5xB-A",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW704056713"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.5722381,
-     -34.79009694
-    ]
-   },
-   "properties": {
-    "name": "101 OLD BOXSELLS ROAD BEAUMONT 2577",
-    "locID": "ChIJhdaENP2BE2sRs36-Pa06ebw",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW704056714"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.56787893,
      -34.78668004
     ]
@@ -797,7 +696,7 @@
    "properties": {
     "name": "116 TOURIST ROAD BEAUMONT 2577",
     "locID": "LOC000023806912",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704056718"
    }
@@ -814,7 +713,7 @@
    "properties": {
     "name": "126 TOURIST ROAD BEAUMONT 2577",
     "locID": "LOC000101886251",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704056719"
    }
@@ -865,9 +764,10 @@
    "properties": {
     "name": "150A TOURIST ROAD BEAUMONT 2577",
     "locID": "LOC000060689168",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704056722"
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
+    "gnaf_pid": "GANSW704056722",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -882,7 +782,7 @@
    "properties": {
     "name": "150B TOURIST ROAD BEAUMONT 2577",
     "locID": "LOC000061192231",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704056723"
    }
@@ -899,9 +799,10 @@
    "properties": {
     "name": "150 TOURIST ROAD BEAUMONT 2577",
     "locID": "LOC000060689168",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704056724"
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
+    "gnaf_pid": "GANSW704056724",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -950,7 +851,7 @@
    "properties": {
     "name": "170 TOURIST ROAD BEAUMONT 2577",
     "locID": "LOC000098845377",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704056727"
    }
@@ -1069,9 +970,10 @@
    "properties": {
     "name": "82 CARRINGTON ROAD BEAUMONT 2577",
     "locID": "LOC000094308258",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704056836"
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
+    "gnaf_pid": "GANSW704056836",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1086,7 +988,7 @@
    "properties": {
     "name": "314A TOURIST ROAD BEAUMONT 2577",
     "locID": "LOC000090193200",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704056875"
    }
@@ -1147,23 +1049,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.5651478,
-     -34.77560845
-    ]
-   },
-   "properties": {
-    "name": "969 MOSS VALE ROAD BEAUMONT 2577",
-    "locID": "ChIJf6yyJRyCE2sROFYEDAcjMdE",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW708561665"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.58158735,
      -34.78229364
     ]
@@ -1174,57 +1059,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW708562647"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.60510277,
-     -34.78275323
-    ]
-   },
-   "properties": {
-    "name": "314B TOURIST ROAD BEAUMONT 2577",
-    "locID": "ChIJY1053sl4E2sRTrvGJaQC9Ts",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712586323"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.61128495,
-     -34.776295
-    ]
-   },
-   "properties": {
-    "name": "406B TOURIST ROAD BEAUMONT 2577",
-    "locID": "ChIJxQjRA8R4E2sRqm4cagALo4Y",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712586328"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.58875505,
-     -34.78186182
-    ]
-   },
-   "properties": {
-    "name": "112 CEDAR VIEW ROAD BEAUMONT 2577",
-    "locID": "ChIJ0abIrFR_E2sRwYu_2qPNgvE",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW715674785"
    }
   },
   {
@@ -1341,7 +1175,7 @@
    "properties": {
     "name": "182 CAMBEWARRA LOOKOUT ROAD BEAUMONT 2577",
     "locID": "LOC000121219637",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716855369"
    }
@@ -1368,23 +1202,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.55705644,
-     -34.76108804
-    ]
-   },
-   "properties": {
-    "name": "1385 MOSS VALE ROAD BEAUMONT 2577",
-    "locID": "ChIJ63f_CBWCE2sRca2gPC4Kc1s",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717996894"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.5784243,
      -34.79499575
     ]
@@ -1402,23 +1219,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.57538037,
-     -34.77428824
-    ]
-   },
-   "properties": {
-    "name": "9 GREEN VALLEY ROAD BEAUMONT 2577",
-    "locID": "ChIJHcNJMgSCE2sRTlLlMWM4E7U",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718514245"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.57205917,
      -34.79357457
     ]
@@ -1426,26 +1226,9 @@
    "properties": {
     "name": "1 CAMBEWARRA LOOKOUT ROAD BEAUMONT 2577",
     "locID": "LOC000121219637",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718575052"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.5700282,
-     -34.78970056
-    ]
-   },
-   "properties": {
-    "name": "27 OLD BOXSELLS ROAD BEAUMONT 2577",
-    "locID": "ChIJA0-JUPCBE2sRxc0w8mPwiok",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718965626"
    }
   },
   {
@@ -1494,7 +1277,7 @@
    "properties": {
     "name": "130 TOURIST ROAD BEAUMONT 2577",
     "locID": "LOC100072005770",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719691934"
    }
@@ -1548,23 +1331,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720425656"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.58136789,
-     -34.7734106
-    ]
-   },
-   "properties": {
-    "name": "203B GREEN VALLEY ROAD BEAUMONT 2577",
-    "locID": "ChIJ3TGp_AeCE2sR64Ury5NHZW0",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720436262"
    }
   },
   {
