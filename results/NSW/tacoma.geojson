@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-01-24T20:43:11.052258",
+ "generated": "2024-03-03T10:50:01.544144",
  "suburb": "TACOMA",
  "features": [
   {
@@ -332,10 +332,9 @@
    "properties": {
     "name": "38 BRAITHWAITE ROAD TACOMA 2259",
     "locID": "LOC000031271865",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706033635",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -452,10 +451,9 @@
    "properties": {
     "name": "48 BRAITHWAITE ROAD TACOMA 2259",
     "locID": "LOC000057609756",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706033641",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1350,9 +1348,9 @@
     "name": "31 BRAITHWAITE ROAD TACOMA 2259",
     "locID": "LOC000072553558",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706043901",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1389,10 +1387,9 @@
    "properties": {
     "name": "33 BRAITHWAITE ROAD TACOMA 2259",
     "locID": "LOC000102226524",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706043903",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2525,7 +2522,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW706053810",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3300,9 +3297,9 @@
     "name": "50 HILLCREST AVENUE TACOMA 2259",
     "locID": "LOC000090631361",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706064108",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3539,10 +3536,9 @@
    "properties": {
     "name": "61 HILLCREST AVENUE TACOMA 2259",
     "locID": "LOC000033988421",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706067197",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4208,40 +4204,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.44856682,
-     -33.28111041
-    ]
-   },
-   "properties": {
-    "name": "173 POLLOCK AVENUE TACOMA 2259",
-    "locID": "ChIJJQW5FMPRcmsR2gcPFFHNfNE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW706384047"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.45940591,
-     -33.28132597
-    ]
-   },
-   "properties": {
-    "name": "27 BRAITHWAITE ROAD TACOMA 2259",
-    "locID": "ChIJmVzR7c7RcmsRtsUGlJ1MS2E",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW707607920"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.45940289,
      -33.29054216
     ]
@@ -4331,25 +4293,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711731890",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2023"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.45868556,
-     -33.28202354
-    ]
-   },
-   "properties": {
-    "name": "39 BRAITHWAITE ROAD TACOMA 2259",
-    "locID": "ChIJ6Q5--M7RcmsRHTPMpAWywaE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW711731928"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -4368,8 +4312,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711731943",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -4388,8 +4331,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW711731944",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -4410,23 +4352,6 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.45116856,
-     -33.27773121
-    ]
-   },
-   "properties": {
-    "name": "15-55 JENSEN ROAD TACOMA 2259",
-    "locID": "ChIJSSGQhcXRcmsRmN2wvEuAQug",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW711746213"
    }
   },
   {
@@ -4724,8 +4649,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW713136147",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -4753,23 +4677,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.46508909,
-     -33.29451915
-    ]
-   },
-   "properties": {
-    "name": "1A WOLSELEY AVENUE TACOMA 2259",
-    "locID": "ChIJgaL2GdXRcmsRYlS5UM_ap6Q",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717837894"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.4589054,
      -33.28050782
     ]
@@ -4781,8 +4688,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718024465",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -4803,108 +4709,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.46157295,
-     -33.28400811
-    ]
-   },
-   "properties": {
-    "name": "43W HILLCREST AVENUE TACOMA 2259",
-    "locID": "ChIJO9CH3c3RcmsRfwtBN_mRaW4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718196472"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.44923735,
-     -33.28554721
-    ]
-   },
-   "properties": {
-    "name": "2 MCDONAGH ROAD TACOMA 2259",
-    "locID": "ChIJB3yYd9zRcmsRVNAKaqFocEQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718199838"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.46508909,
-     -33.29451915
-    ]
-   },
-   "properties": {
-    "name": "1W WOLSELEY AVENUE TACOMA 2259",
-    "locID": "ChIJgaL2GdXRcmsRznkPFTVhSkA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718210920"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.45821682,
-     -33.27914538
-    ]
-   },
-   "properties": {
-    "name": "39 JENSEN ROAD TACOMA 2259",
-    "locID": "ChIJ8e9mKsnRcmsRStue05HA0JU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718313110"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.45876561,
-     -33.27928241
-    ]
-   },
-   "properties": {
-    "name": "41 JENSEN ROAD TACOMA 2259",
-    "locID": "ChIJ9bGjLcnRcmsRYKbe8Y-uun0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718313111"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.45488111,
-     -33.27771447
-    ]
-   },
-   "properties": {
-    "name": "17 JENSEN ROAD TACOMA 2259",
-    "locID": "ChIJYa6GHMbRcmsRGZm8QMHpRkI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718356218"
    }
   },
   {
