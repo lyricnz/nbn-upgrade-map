@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-01-26T04:29:36.112542",
+ "generated": "2024-03-04T19:19:04.397407",
  "suburb": "BREAKFAST POINT",
  "features": [
   {
@@ -519,10 +519,10 @@
    "properties": {
     "name": "24 ADAMS STREET BREAKFAST POINT 2137",
     "locID": "LOC000084075015",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GANSW706460180",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -591,10 +591,9 @@
    "properties": {
     "name": "18 ADAMS STREET BREAKFAST POINT 2137",
     "locID": "LOC000037204419",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW706507771",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706507771"
    }
   },
   {
@@ -1683,7 +1682,7 @@
    "properties": {
     "name": "UNIT 204, 4 MIMOSA CIRCUIT BREAKFAST POINT 2137",
     "locID": "LOC000190022759",
-    "tech": "FTTB",
+    "tech": "FTTC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW707862192"
    }
@@ -1802,7 +1801,7 @@
    "properties": {
     "name": "UNIT 107, 8 MIMOSA CIRCUIT BREAKFAST POINT 2137",
     "locID": "LOC000190022792",
-    "tech": "FTTB",
+    "tech": "FTTC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW707864987"
    }
@@ -1837,7 +1836,7 @@
    "properties": {
     "name": "UNIT 103, 4 MIMOSA CIRCUIT BREAKFAST POINT 2137",
     "locID": "LOC000108996253",
-    "tech": "FTTB",
+    "tech": "FTTC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW707864989"
    }
@@ -1991,7 +1990,7 @@
    "properties": {
     "name": "UNIT 205, 6 MIMOSA CIRCUIT BREAKFAST POINT 2137",
     "locID": "LOC000008145031",
-    "tech": "FTTB",
+    "tech": "FTTC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW707869262"
    }
@@ -2042,26 +2041,9 @@
    "properties": {
     "name": "UNIT 206, 6 MIMOSA CIRCUIT BREAKFAST POINT 2137",
     "locID": "LOC000008093028",
-    "tech": "FTTB",
+    "tech": "FTTC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW707869340"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11213751,
-     -33.84653869
-    ]
-   },
-   "properties": {
-    "name": "UNIT 107, 12 FAIRWATER CLOSE BREAKFAST POINT 2137",
-    "locID": "ChIJXTVkYj6lEmsRvwBCZ5OdcZw",
-    "tech": "FTTB",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW707870033"
    }
   },
   {
@@ -2176,40 +2158,6 @@
     ]
    },
    "properties": {
-    "name": "UNIT 108, 12 FAIRWATER CLOSE BREAKFAST POINT 2137",
-    "locID": "ChIJXTVkYj6lEmsRvwBCZ5OdcZw",
-    "tech": "FTTB",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW707870091"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11213751,
-     -33.84653869
-    ]
-   },
-   "properties": {
-    "name": "UNIT 208, 12 FAIRWATER CLOSE BREAKFAST POINT 2137",
-    "locID": "ChIJXTVkYj6lEmsRvwBCZ5OdcZw",
-    "tech": "FTTB",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW707870092"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11213751,
-     -33.84653869
-    ]
-   },
-   "properties": {
     "name": "UNIT 103, 8 FAIRWATER CLOSE BREAKFAST POINT 2137",
     "locID": "LOC000057868601",
     "tech": "FTTB",
@@ -2256,23 +2204,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.11213751,
-     -33.84653869
-    ]
-   },
-   "properties": {
-    "name": "UNIT 207, 12 FAIRWATER CLOSE BREAKFAST POINT 2137",
-    "locID": "ChIJXTVkYj6lEmsRvwBCZ5OdcZw",
-    "tech": "FTTB",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW707872928"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.11327043,
      -33.84561705
     ]
@@ -2280,7 +2211,7 @@
    "properties": {
     "name": "UNIT 109, 10 MIMOSA CIRCUIT BREAKFAST POINT 2137",
     "locID": "LOC000021266137",
-    "tech": "FTTB",
+    "tech": "FTTC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW707872929"
    }
@@ -2408,23 +2339,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW708701736",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.10853849,
-     -33.84753868
-    ]
-   },
-   "properties": {
-    "name": "29L BRAYS ROAD BREAKFAST POINT 2137",
-    "locID": "ChIJm9A2YzylEmsRR3xLG5pyNTo",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW708701749"
    }
   },
   {
@@ -4746,23 +4660,6 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716334803"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.10945089,
-     -33.84309347
-    ]
-   },
-   "properties": {
-    "name": "16-20 ORCHARDS AVENUE BREAKFAST POINT 2137",
-    "locID": "ChIJ9XpBIRalEmsRCgpf7AmlMIc",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716343741"
    }
   },
   {
@@ -7734,23 +7631,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.11016887,
-     -33.84630224
-    ]
-   },
-   "properties": {
-    "name": "64 ADMIRALTY DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJue6tMzylEmsRXtUBo1YZK3E",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716643896"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.11355796,
      -33.8451329
     ]
@@ -7903,23 +7783,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW716672457",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.10970676,
-     -33.84679432
-    ]
-   },
-   "properties": {
-    "name": "13 SPRING PARK CIRCUIT BREAKFAST POINT 2137",
-    "locID": "ChIJYdp4RzylEmsR1H-CvYZpjVQ",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716688845"
    }
   },
   {
@@ -9006,7 +8869,7 @@
    "properties": {
     "name": "4 MIMOSA CIRCUIT BREAKFAST POINT 2137",
     "locID": "LOC000108996253",
-    "tech": "FTTB",
+    "tech": "FTTC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716812804"
    }
@@ -9023,7 +8886,7 @@
    "properties": {
     "name": "6 MIMOSA CIRCUIT BREAKFAST POINT 2137",
     "locID": "LOC000008093028",
-    "tech": "FTTB",
+    "tech": "FTTC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716812805"
    }
@@ -9179,23 +9042,6 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716837687"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.10878994,
-     -33.84391495
-    ]
-   },
-   "properties": {
-    "name": "50-58 VILLAGE DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJabOPmz2lEmsRo8ZyR5M0zrQ",
-    "tech": "FTTB",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716837688"
    }
   },
   {
@@ -13888,23 +13734,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.11263589,
-     -33.84200532
-    ]
-   },
-   "properties": {
-    "name": "35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717343546"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.11251513,
      -33.84088715
     ]
@@ -14126,23 +13955,6 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717560251"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.10853052,
-     -33.84728213
-    ]
-   },
-   "properties": {
-    "name": "2A ADAMS STREET BREAKFAST POINT 2137",
-    "locID": "ChIJ6yvZYzylEmsR8t9RM1lZENo",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717589662"
    }
   },
   {
@@ -17421,23 +17233,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.11071373,
-     -33.84287711
-    ]
-   },
-   "properties": {
-    "name": "13 VINEYARD WAY BREAKFAST POINT 2137",
-    "locID": "ChIJ4eQdDxalEmsR8S4INRl0bAw",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717681342"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.11182986,
      -33.84582891
     ]
@@ -17500,23 +17295,6 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717743692"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11213751,
-     -33.84653869
-    ]
-   },
-   "properties": {
-    "name": "12 FAIRWATER CLOSE BREAKFAST POINT 2137",
-    "locID": "ChIJXTVkYj6lEmsRvwBCZ5OdcZw",
-    "tech": "FTTB",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717743693"
    }
   },
   {
@@ -17916,40 +17694,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717796734"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.10924358,
-     -33.83968436
-    ]
-   },
-   "properties": {
-    "name": "121 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "EjUxMjEgUGVuaW5zdWxhIERyLCBCcmVha2Zhc3QgUG9pbnQgTlNXIDIxMzcsIEF1c3RyYWxpYSIwEi4KFAoSCbM4TL4WpRJrEbD6vuVnfQETEHkqFAoSCZXvXl4WpRJrEdUdqRL0LuOk",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717796735"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.10924358,
-     -33.83968436
-    ]
-   },
-   "properties": {
-    "name": "125 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "EjUxMjUgUGVuaW5zdWxhIERyLCBCcmVha2Zhc3QgUG9pbnQgTlNXIDIxMzcsIEF1c3RyYWxpYSIwEi4KFAoSCa2x978WpRJrEUa--tDsm7WAEH0qFAoSCZXvXl4WpRJrEdUdqRL0LuOk",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717796736"
    }
   },
   {
@@ -21635,23 +21379,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.10977609,
-     -33.84263203
-    ]
-   },
-   "properties": {
-    "name": "7 JUNIPER DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJzfAtFhalEmsRXWWVTYldv4Q",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717923207"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.10864378,
      -33.84265581
     ]
@@ -22341,23 +22068,6 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717962825"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11105888,
-     -33.83823619
-    ]
-   },
-   "properties": {
-    "name": "19-21 TENNYSON ROAD BREAKFAST POINT 2137",
-    "locID": "ChIJe7u-zBelEmsRWPJeVYizkok",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717967958"
    }
   },
   {
@@ -28297,329 +28007,6 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718419200"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11255669,
-     -33.84175756
-    ]
-   },
-   "properties": {
-    "name": "UNIT 11, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420159"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11257215,
-     -33.84186939
-    ]
-   },
-   "properties": {
-    "name": "UNIT 12, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420160"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11257572,
-     -33.84195505
-    ]
-   },
-   "properties": {
-    "name": "UNIT 13, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420161"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11260546,
-     -33.84206927
-    ]
-   },
-   "properties": {
-    "name": "UNIT 15, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420162"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11262688,
-     -33.84214185
-    ]
-   },
-   "properties": {
-    "name": "UNIT 16, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420163"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11265781,
-     -33.84225249
-    ]
-   },
-   "properties": {
-    "name": "UNIT 17, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420164"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11255669,
-     -33.84175756
-    ]
-   },
-   "properties": {
-    "name": "UNIT 21, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420165"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11257215,
-     -33.84186939
-    ]
-   },
-   "properties": {
-    "name": "UNIT 22, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420166"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11257572,
-     -33.84195505
-    ]
-   },
-   "properties": {
-    "name": "UNIT 23, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420167"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11260546,
-     -33.84206927
-    ]
-   },
-   "properties": {
-    "name": "UNIT 25, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420168"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11262688,
-     -33.84214185
-    ]
-   },
-   "properties": {
-    "name": "UNIT 26, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420169"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11265781,
-     -33.84225249
-    ]
-   },
-   "properties": {
-    "name": "UNIT 27, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420170"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11255669,
-     -33.84175756
-    ]
-   },
-   "properties": {
-    "name": "UNIT 31, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420171"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11257215,
-     -33.84186939
-    ]
-   },
-   "properties": {
-    "name": "UNIT 32, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420172"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11257572,
-     -33.84195505
-    ]
-   },
-   "properties": {
-    "name": "UNIT 33, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420173"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11260546,
-     -33.84206927
-    ]
-   },
-   "properties": {
-    "name": "UNIT 35, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420174"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11262688,
-     -33.84214185
-    ]
-   },
-   "properties": {
-    "name": "UNIT 36, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420175"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11265781,
-     -33.84225249
-    ]
-   },
-   "properties": {
-    "name": "UNIT 37, 35-39 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJXYPgyRWlEmsRrwg3ffcO7k8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420176"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.10680982,
-     -33.83856498
-    ]
-   },
-   "properties": {
-    "name": "175-177 PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJlTumQBelEmsRJJb4_D0LkOY",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718420177"
    }
   },
   {
@@ -38234,23 +37621,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.10884269,
-     -33.84150064
-    ]
-   },
-   "properties": {
-    "name": "8A MAGNOLIA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJKYQcTxalEmsRvbCaudjuWM4",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718816812"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.10751559,
      -33.84016581
     ]
@@ -41985,23 +41355,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719156043"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.10864378,
-     -33.84265581
-    ]
-   },
-   "properties": {
-    "name": "6-12 CROSS STREET BREAKFAST POINT 2137",
-    "locID": "Eig2IENyb3NzIFN0LCBNb3J0bGFrZSBOU1cgMjEzNywgQXVzdHJhbGlhIjASLgoUChIJRUBOMhalEmsRgNGI5md9ARMQBioUChIJ6bLvMhalEmsRt6JpBHD-9Wo",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719158297"
    }
   },
   {
@@ -47280,23 +46633,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.10864378,
-     -33.84265581
-    ]
-   },
-   "properties": {
-    "name": "SHOP 5, 6-12 CROSS STREET BREAKFAST POINT 2137",
-    "locID": "Eig2IENyb3NzIFN0LCBNb3J0bGFrZSBOU1cgMjEzNywgQXVzdHJhbGlhIjASLgoUChIJRUBOMhalEmsRgNGI5md9ARMQBioUChIJ6bLvMhalEmsRt6JpBHD-9Wo",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720852157"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.11165589,
      -33.84061896
     ]
@@ -47331,74 +46667,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.10864378,
-     -33.84265581
-    ]
-   },
-   "properties": {
-    "name": "SHOP 8, 6-12 CROSS STREET BREAKFAST POINT 2137",
-    "locID": "Eig2IENyb3NzIFN0LCBNb3J0bGFrZSBOU1cgMjEzNywgQXVzdHJhbGlhIjASLgoUChIJRUBOMhalEmsRgNGI5md9ARMQBioUChIJ6bLvMhalEmsRt6JpBHD-9Wo",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720853512"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.10864378,
-     -33.84265581
-    ]
-   },
-   "properties": {
-    "name": "SHOP 9, 6-12 CROSS STREET BREAKFAST POINT 2137",
-    "locID": "Eig2IENyb3NzIFN0LCBNb3J0bGFrZSBOU1cgMjEzNywgQXVzdHJhbGlhIjASLgoUChIJRUBOMhalEmsRgNGI5md9ARMQBioUChIJ6bLvMhalEmsRt6JpBHD-9Wo",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720853523"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.10864378,
-     -33.84265581
-    ]
-   },
-   "properties": {
-    "name": "SHOP 7, 6-12 CROSS STREET BREAKFAST POINT 2137",
-    "locID": "Eig2IENyb3NzIFN0LCBNb3J0bGFrZSBOU1cgMjEzNywgQXVzdHJhbGlhIjASLgoUChIJRUBOMhalEmsRgNGI5md9ARMQBioUChIJ6bLvMhalEmsRt6JpBHD-9Wo",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720853779"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.10864378,
-     -33.84265581
-    ]
-   },
-   "properties": {
-    "name": "SHOP 6, 6-12 CROSS STREET BREAKFAST POINT 2137",
-    "locID": "Eig2IENyb3NzIFN0LCBNb3J0bGFrZSBOU1cgMjEzNywgQXVzdHJhbGlhIjASLgoUChIJRUBOMhalEmsRgNGI5md9ARMQBioUChIJ6bLvMhalEmsRt6JpBHD-9Wo",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720853792"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.11137004,
      -33.84094768
     ]
@@ -47426,23 +46694,6 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720854116"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.11144295,
-     -33.83935301
-    ]
-   },
-   "properties": {
-    "name": "91C PENINSULA DRIVE BREAKFAST POINT 2137",
-    "locID": "ChIJZZQ5AxSlEmsRYsuKBpYHROA",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721132584"
    }
   }
  ]
