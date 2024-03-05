@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-01-27T02:26:51.814373",
+ "generated": "2024-03-05T17:14:04.369731",
  "suburb": "MURRUMBATEMAN",
  "features": [
   {
@@ -142,7 +142,7 @@
     "name": "2 SYLVIA STREET MURRUMBATEMAN 2582",
     "locID": "LOC000019654688",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705446047",
     "tech_change_status": "Eligible To Order"
    }
@@ -160,7 +160,7 @@
     "name": "3 SYLVIA STREET MURRUMBATEMAN 2582",
     "locID": "LOC000071066075",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705446048",
     "tech_change_status": "Eligible To Order"
    }
@@ -178,7 +178,7 @@
     "name": "4 SYLVIA STREET MURRUMBATEMAN 2582",
     "locID": "LOC000006297588",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705446049",
     "tech_change_status": "Eligible To Order"
    }
@@ -213,7 +213,7 @@
     "name": "6 SYLVIA STREET MURRUMBATEMAN 2582",
     "locID": "LOC000040056846",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705446051",
     "tech_change_status": "Eligible To Order"
    }
@@ -1963,12 +1963,12 @@
    "properties": {
     "name": "10 CAMP STREET MURRUMBATEMAN 2582",
     "locID": "LOC000043475930",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705456746",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2000,10 +2000,10 @@
    "properties": {
     "name": "13 CAMP STREET MURRUMBATEMAN 2582",
     "locID": "LOC000017952569",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705456748",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2111,7 +2111,7 @@
     "name": "1 SYLVIA STREET MURRUMBATEMAN 2582",
     "locID": "LOC000037125447",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705457013",
     "tech_change_status": "Eligible To Order"
    }
@@ -2186,10 +2186,10 @@
    "properties": {
     "name": "13 WEST STREET MURRUMBATEMAN 2582",
     "locID": "LOC000042031766",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705459653",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2206,10 +2206,10 @@
    "properties": {
     "name": "15 WEST STREET MURRUMBATEMAN 2582",
     "locID": "LOC000051905014",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705459654",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2243,10 +2243,10 @@
    "properties": {
     "name": "5 WEST STREET MURRUMBATEMAN 2582",
     "locID": "LOC000090589900",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705459657",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2263,10 +2263,10 @@
    "properties": {
     "name": "9 WEST STREET MURRUMBATEMAN 2582",
     "locID": "LOC000097056333",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705459658",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2771,23 +2771,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.99433554,
-     -34.97458524
-    ]
-   },
-   "properties": {
-    "name": "3 CORRIEDALE AVENUE MURRUMBATEMAN 2582",
-    "locID": "ChIJ0y6zbxQEF2sR2ZxECyY-oME",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW705460046"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.99595196,
      -34.97505823
     ]
@@ -3241,10 +3224,10 @@
    "properties": {
     "name": "8 CAMP STREET MURRUMBATEMAN 2582",
     "locID": "LOC000079848367",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705462647",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4796,7 +4779,7 @@
     "name": "84 MCINTOSH CIRCUIT MURRUMBATEMAN 2582",
     "locID": "LOC000019767609",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705466331",
     "tech_change_status": "Eligible To Order"
    }
@@ -5054,23 +5037,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705470878",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05498097,
-     -35.0037024
-    ]
-   },
-   "properties": {
-    "name": "7 PATEMANS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJ2Y06edQDF2sR7DMY5fX-7nw",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW705470879"
    }
   },
   {
@@ -5905,12 +5871,12 @@
    "properties": {
     "name": "20 CAMP STREET MURRUMBATEMAN 2582",
     "locID": "LOC000029862196",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW709752398",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6003,9 +5969,9 @@
     "name": "5 SOUTHDOWN AVENUE MURRUMBATEMAN 2582",
     "locID": "LOC000096770868",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW709754250",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -6021,9 +5987,9 @@
     "name": "16 DORSET DRIVE MURRUMBATEMAN 2582",
     "locID": "LOC000026368137",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW709754251",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -6093,10 +6059,10 @@
    "properties": {
     "name": "26 CAMP STREET MURRUMBATEMAN 2582",
     "locID": "LOC000102411553",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709757065",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6133,10 +6099,10 @@
    "properties": {
     "name": "14 CAMP STREET MURRUMBATEMAN 2582",
     "locID": "LOC000081000197",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709757068",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6153,10 +6119,10 @@
    "properties": {
     "name": "22 CAMP STREET MURRUMBATEMAN 2582",
     "locID": "LOC000015658202",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW709757071",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6174,9 +6140,9 @@
     "name": "3 SOUTHDOWN AVENUE MURRUMBATEMAN 2582",
     "locID": "LOC000007936316",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW709757483",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -6191,10 +6157,10 @@
    "properties": {
     "name": "15 CAMP STREET MURRUMBATEMAN 2582",
     "locID": "LOC000054433089",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709757624",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6231,10 +6197,10 @@
    "properties": {
     "name": "19 CAMP STREET MURRUMBATEMAN 2582",
     "locID": "LOC000028820020",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW709757638",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6251,10 +6217,10 @@
    "properties": {
     "name": "21 WEST STREET MURRUMBATEMAN 2582",
     "locID": "LOC000108342033",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709757804",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6368,10 +6334,10 @@
    "properties": {
     "name": "23 CAMP STREET MURRUMBATEMAN 2582",
     "locID": "LOC000076822698",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709763821",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6411,40 +6377,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709766276"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.0255407,
-     -34.96918645
-    ]
-   },
-   "properties": {
-    "name": "16A HERCULES STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJddBflJoDF2sRHFxuy5Yud2s",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW709766278"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02902382,
-     -34.97244101
-    ]
-   },
-   "properties": {
-    "name": "2A SOUTH STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJv3HMt5ADF2sRNP3ITF2ssB4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW709766281"
    }
   },
   {
@@ -6513,29 +6445,12 @@
    "properties": {
     "name": "21 CAMP STREET MURRUMBATEMAN 2582",
     "locID": "LOC000013224258",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW709770682",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03926971,
-     -35.02685299
-    ]
-   },
-   "properties": {
-    "name": "LOT 5 GOODA CREEK ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJZZcLXBQBF2sRlcCnBL737qA",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW709770722"
    }
   },
   {
@@ -6550,10 +6465,10 @@
    "properties": {
     "name": "23 WEST STREET MURRUMBATEMAN 2582",
     "locID": "LOC000018878144",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709770806",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6610,10 +6525,10 @@
    "properties": {
     "name": "24 CAMP STREET MURRUMBATEMAN 2582",
     "locID": "LOC000012238872",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW709770974",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6658,23 +6573,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.00200333,
-     -34.97811121
-    ]
-   },
-   "properties": {
-    "name": "1A MERRYVILLE DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJ9Zp95g0EF2sR8mtUenLZi8g",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW709773589"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.02625509,
      -35.00082413
     ]
@@ -6702,23 +6600,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709773601"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.04229367,
-     -34.99291428
-    ]
-   },
-   "properties": {
-    "name": "4 CRISPS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJ613Bv8QDF2sRT9vZDuwt0u8",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW709773607"
    }
   },
   {
@@ -6987,10 +6868,10 @@
    "properties": {
     "name": "18 CAMP STREET MURRUMBATEMAN 2582",
     "locID": "LOC000085197678",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709784764",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7007,10 +6888,10 @@
    "properties": {
     "name": "7 WEST STREET MURRUMBATEMAN 2582",
     "locID": "LOC000056995977",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW709784768",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7085,9 +6966,9 @@
     "name": "7 SOUTHDOWN AVENUE MURRUMBATEMAN 2582",
     "locID": "LOC000012159484",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW709787153",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -7155,9 +7036,9 @@
     "name": "4 SOUTHDOWN AVENUE MURRUMBATEMAN 2582",
     "locID": "LOC000037270286",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW709787671",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -7172,12 +7053,12 @@
    "properties": {
     "name": "17 CAMP STREET MURRUMBATEMAN 2582",
     "locID": "LOC000102817266",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW709787693",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7212,12 +7093,12 @@
    "properties": {
     "name": "17 WEST STREET MURRUMBATEMAN 2582",
     "locID": "LOC000161228745",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW709793269",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7476,10 +7357,10 @@
    "properties": {
     "name": "16 HERCULES STREET MURRUMBATEMAN 2582",
     "locID": "LOC000055528901",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW709798380",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7516,23 +7397,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709798405"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.99794903,
-     -34.99088327
-    ]
-   },
-   "properties": {
-    "name": "31 LAKEVIEW DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJr27noB0EF2sR4hTAwE2_KNw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712638204"
    }
   },
   {
@@ -7597,40 +7461,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.02458948,
-     -34.96877416
-    ]
-   },
-   "properties": {
-    "name": "55 HERCULES STREET MURRUMBATEMAN 2582",
-    "locID": "EjE1NSBIZXJjdWxlcyBTdCwgTXVycnVtYmF0ZW1hbiBOU1cgMjU4MiwgQXVzdHJhbGlhIjASLgoUChIJZweolYUDF2sRFF6y7PBp86EQNyoUChIJnz286poDF2sRkWxt7FDzgVU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712638466"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02650023,
-     -34.97358648
-    ]
-   },
-   "properties": {
-    "name": "50 HUGHES PLACE MURRUMBATEMAN 2582",
-    "locID": "ChIJjWDzqJEDF2sR6_rA1lzzmAU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712638467"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.02650023,
      -34.97358648
     ]
@@ -7644,23 +7474,6 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02650023,
-     -34.97358648
-    ]
-   },
-   "properties": {
-    "name": "48 HUGHES PLACE MURRUMBATEMAN 2582",
-    "locID": "ChIJjWDzqJEDF2sR_G1vq2A-Nu8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712638470"
    }
   },
   {
@@ -7693,45 +7506,11 @@
     ]
    },
    "properties": {
-    "name": "24 TURTON PLACE MURRUMBATEMAN 2582",
-    "locID": "ChIJj6wwLMwDF2sRPrf7twK9phk",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712641842"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05301445,
-     -34.99521703
-    ]
-   },
-   "properties": {
     "name": "26 TURTON PLACE MURRUMBATEMAN 2582",
     "locID": "LOC000037904839",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712641844"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.0277761,
-     -34.96909833
-    ]
-   },
-   "properties": {
-    "name": "13 MIDDLE STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJ27LhRZoDF2sR8rJdbTXo0zY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712642057"
    }
   },
   {
@@ -7759,40 +7538,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.02324914,
-     -34.97592565
-    ]
-   },
-   "properties": {
-    "name": "16 VALLANCE DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJhcBUjI0DF2sRJUZB46KFYaw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712642083"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02387831,
-     -34.97497717
-    ]
-   },
-   "properties": {
-    "name": "17 VALLANCE DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJafeFAJIDF2sRUl4_RFFaZWw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712642084"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.02463873,
      -34.97053311
     ]
@@ -7800,10 +7545,10 @@
    "properties": {
     "name": "3 WEST STREET MURRUMBATEMAN 2582",
     "locID": "LOC000031425270",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712642085",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7820,10 +7565,10 @@
    "properties": {
     "name": "1 WEST STREET MURRUMBATEMAN 2582",
     "locID": "LOC000042031766",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW712642086",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7915,40 +7660,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712655265"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.04274195,
-     -34.98355135
-    ]
-   },
-   "properties": {
-    "name": "9 ELRINGTON CLOSE MURRUMBATEMAN 2582",
-    "locID": "ChIJTw3C67gDF2sRYAAFSLFAnGU",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712655266"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03849953,
-     -35.00411435
-    ]
-   },
-   "properties": {
-    "name": "17 EUROKA AVENUE MURRUMBATEMAN 2582",
-    "locID": "ChIJNSQF1GEBF2sRdl4KE80ucTs",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712655267"
    }
   },
   {
@@ -8251,23 +7962,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.02982375,
-     -34.96961009
-    ]
-   },
-   "properties": {
-    "name": "24 EAST STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJFW2-iJkDF2sR71lnlik1odg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712655297"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.02955326,
      -34.97065941
     ]
@@ -8415,46 +8109,12 @@
     ]
    },
    "properties": {
-    "name": "70B MCINTOSH CIRCUIT MURRUMBATEMAN 2582",
-    "locID": "ChIJrzVtPfYDF2sRhAVPAFs8aJo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712655639"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01321314,
-     -34.98306717
-    ]
-   },
-   "properties": {
     "name": "70A MCINTOSH CIRCUIT MURRUMBATEMAN 2582",
     "locID": "LOC000022380826",
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712655640",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.0274536,
-     -34.96813974
-    ]
-   },
-   "properties": {
-    "name": "82 MIDDLE STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJ8Yl6spsDF2sRJOnSflWja5I",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712658920"
    }
   },
   {
@@ -8751,23 +8411,6 @@
     ]
    },
    "properties": {
-    "name": "54 VALLANCE DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJafeFAJIDF2sR0ASNEDoRdCQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712658948"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02387831,
-     -34.97497717
-    ]
-   },
-   "properties": {
     "name": "58 VALLANCE DRIVE MURRUMBATEMAN 2582",
     "locID": "LOC000070665981",
     "tech": "FTTN",
@@ -8836,40 +8479,6 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02642484,
-     -34.97310773
-    ]
-   },
-   "properties": {
-    "name": "4 VALLANCE DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJLVBL_5ADF2sR4nSDQ6zf7EA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712658955"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02401132,
-     -34.97438298
-    ]
-   },
-   "properties": {
-    "name": "9 VALLANCE DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJmeSs_ZEDF2sRBDLHGuIfPjo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712658959"
    }
   },
   {
@@ -9115,9 +8724,9 @@
     "name": "18 DORSET DRIVE MURRUMBATEMAN 2582",
     "locID": "LOC000046052568",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW712659257",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -9285,10 +8894,10 @@
    "properties": {
     "name": "11 CAMP STREET MURRUMBATEMAN 2582",
     "locID": "LOC000013224258",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW712668677",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9328,23 +8937,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712668690"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03599885,
-     -34.97686882
-    ]
-   },
-   "properties": {
-    "name": "31 DAVIS CIRCUIT MURRUMBATEMAN 2582",
-    "locID": "ChIJ0RNkjb0DF2sRIcy4YZ4pS90",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712668691"
    }
   },
   {
@@ -9615,23 +9207,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.02073325,
-     -34.97583007
-    ]
-   },
-   "properties": {
-    "name": "73 MORRISON PLACE MURRUMBATEMAN 2582",
-    "locID": "ChIJK6hvUowDF2sRQ4fLjwRbuxs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712670085"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.01986953,
      -34.98507469
     ]
@@ -9712,23 +9287,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712672415"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.04069518,
-     -34.97919427
-    ]
-   },
-   "properties": {
-    "name": "26 DAVIS CIRCUIT MURRUMBATEMAN 2582",
-    "locID": "ChIJcx2qBrwDF2sRPqcWy5OOp3A",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712672416"
    }
   },
   {
@@ -9822,23 +9380,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.00208444,
-     -34.99013852
-    ]
-   },
-   "properties": {
-    "name": "12 LAKEVIEW DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJmyyxPwMEF2sRcmHQ06UcuDU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712672446"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.00344214,
      -34.98904389
     ]
@@ -9850,23 +9391,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712672454",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00008243,
-     -34.9896448
-    ]
-   },
-   "properties": {
-    "name": "27 LAKEVIEW DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJcVbAxRwEF2sRtcL-X7SXpVA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712672455"
    }
   },
   {
@@ -9917,7 +9441,7 @@
    "properties": {
     "name": "1 MCINTOSH CIRCUIT MURRUMBATEMAN 2582",
     "locID": "LOC000097685363",
-    "tech": "NULL",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712675685"
    }
@@ -10071,40 +9595,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.05498097,
-     -35.0037024
-    ]
-   },
-   "properties": {
-    "name": "903B PATEMANS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJ2Y06edQDF2sRyc2xmIPsqlk",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712676076"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05498097,
-     -35.0037024
-    ]
-   },
-   "properties": {
-    "name": "12 PATEMANS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJ2Y06edQDF2sRzJOxFpqY6Pc",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712676077"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.05649711,
      -34.99130034
     ]
@@ -10115,40 +9605,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712676078"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05498097,
-     -35.0037024
-    ]
-   },
-   "properties": {
-    "name": "14 PATEMANS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJ2Y06edQDF2sRK9e59jUOUAA",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712676079"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03925904,
-     -35.00914608
-    ]
-   },
-   "properties": {
-    "name": "9 RAMSEY ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJp-5iy2YBF2sRj4MSANqUlVk",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW712676081"
    }
   },
   {
@@ -10347,7 +9803,7 @@
     "name": "19 SYLVIA STREET MURRUMBATEMAN 2582",
     "locID": "LOC000071066075",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712676102",
     "tech_change_status": "Eligible To Order"
    }
@@ -10426,23 +9882,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.01347739,
-     -34.99151452
-    ]
-   },
-   "properties": {
-    "name": "10 GEORGE STREET MURRUMBATEMAN 2582",
-    "locID": "Ei8xMCBHZW9yZ2UgU3QsIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIwEi4KFAoSCR3HEbT4AxdrESH9uHK0CQYTEAoqFAoSCR3HEbT4AxdrEWMkyAOTdho5",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW713166254"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.01718584,
      -35.00230376
     ]
@@ -10504,9 +9943,9 @@
     "name": "12 DORSET DRIVE MURRUMBATEMAN 2582",
     "locID": "LOC000109841438",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715367377",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -10522,9 +9961,9 @@
     "name": "5 DORSET DRIVE MURRUMBATEMAN 2582",
     "locID": "LOC000056933755",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715367378",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -10661,26 +10100,9 @@
     "name": "6 SOUTHDOWN AVENUE MURRUMBATEMAN 2582",
     "locID": "LOC000039479091",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715402703",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03308569,
-     -34.98013752
-    ]
-   },
-   "properties": {
-    "name": "87 MURRUMBATEMAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJRw4LBpUDF2sRz0N1kZQTouY",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW715997106"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -10726,23 +10148,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.00928687,
-     -34.98892561
-    ]
-   },
-   "properties": {
-    "name": "3 ACACIA WAY MURRUMBATEMAN 2582",
-    "locID": "ChIJ8Xgb7wYEF2sRYzgkP08FIYg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716289958"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.00854018,
      -34.99252413
     ]
@@ -10769,9 +10174,9 @@
     "name": "19 MERRYVILLE DRIVE MURRUMBATEMAN 2582",
     "locID": "LOC000078578836",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716336612",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -11003,23 +10408,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.03926971,
-     -35.02685299
-    ]
-   },
-   "properties": {
-    "name": "5 GOODA CREEK ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJZZcLXBQBF2sRlcCnBL737qA",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716398742"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.03452897,
      -34.96168717
     ]
@@ -11065,23 +10453,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716406812"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01420487,
-     -34.97778983
-    ]
-   },
-   "properties": {
-    "name": "56B MCINTOSH CIRCUIT MURRUMBATEMAN 2582",
-    "locID": "ChIJEXagQPUDF2sRLp3bxO5r52o",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716409485"
    }
   },
   {
@@ -11389,26 +10760,9 @@
     "name": "2 SOUTHDOWN AVENUE MURRUMBATEMAN 2582",
     "locID": "LOC000098003138",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716473132",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05569594,
-     -34.9946902
-    ]
-   },
-   "properties": {
-    "name": "1B TURTON PLACE MURRUMBATEMAN 2582",
-    "locID": "ChIJfU5hh8sDF2sRwdKMD8opRXY",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716473956"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -11424,9 +10778,9 @@
     "name": "1 ANGUS PLACE MURRUMBATEMAN 2582",
     "locID": "LOC000012276093",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716592282",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -11442,9 +10796,9 @@
     "name": "3 ANGUS PLACE MURRUMBATEMAN 2582",
     "locID": "LOC000090405115",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716592283",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -11460,9 +10814,9 @@
     "name": "5 ANGUS PLACE MURRUMBATEMAN 2582",
     "locID": "LOC000108070000",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716592284",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -11478,9 +10832,9 @@
     "name": "7 ANGUS PLACE MURRUMBATEMAN 2582",
     "locID": "LOC000060906426",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716592285",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -11530,9 +10884,9 @@
     "name": "21 MERRYVILLE DRIVE MURRUMBATEMAN 2582",
     "locID": "LOC000068907203",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716597151",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -11612,23 +10966,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.05301445,
-     -34.99521703
-    ]
-   },
-   "properties": {
-    "name": "21 TURTON PLACE MURRUMBATEMAN 2582",
-    "locID": "ChIJj6wwLMwDF2sRYVRXzJyGwPc",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716692203"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.01676513,
      -34.98123342
     ]
@@ -11672,9 +11009,9 @@
     "name": "1 DORSET DRIVE MURRUMBATEMAN 2582",
     "locID": "LOC000104479914",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716731376",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -11829,9 +11166,9 @@
     "name": "3 DORSET DRIVE MURRUMBATEMAN 2582",
     "locID": "LOC000044171937",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716873430",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -12710,29 +12047,12 @@
    "properties": {
     "name": "16 CAMP STREET MURRUMBATEMAN 2582",
     "locID": "LOC000006319209",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW716916045",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.9880107,
-     -34.96458309
-    ]
-   },
-   "properties": {
-    "name": "10 CLYDESDALE CLOSE MURRUMBATEMAN 2582",
-    "locID": "ChIJAxyHikEEF2sRxUKiHz7wqgg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716917695"
    }
   },
   {
@@ -13010,23 +12330,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.98879684,
-     -34.96575299
-    ]
-   },
-   "properties": {
-    "name": "8 CLYDESDALE CLOSE MURRUMBATEMAN 2582",
-    "locID": "ChIJ24fq5UEEF2sRE-Xt5eW4AOw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716917711"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.98912994,
      -34.96398315
     ]
@@ -13189,26 +12492,9 @@
     "name": "14 DORSET DRIVE MURRUMBATEMAN 2582",
     "locID": "LOC000012222895",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716919999",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02973367,
-     -34.97005989
-    ]
-   },
-   "properties": {
-    "name": "20 EAST STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJr1Iqj5kDF2sRPTKJJJo3NFQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716920540"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -13226,23 +12512,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716921089"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01440522,
-     -34.99159921
-    ]
-   },
-   "properties": {
-    "name": "3B GEORGE STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJ7alOzvgDF2sR9VTzIonfD2o",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716922441"
    }
   },
   {
@@ -14086,23 +13355,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.03140712,
-     -34.98137737
-    ]
-   },
-   "properties": {
-    "name": "80 MURRUMBATEMAN ROAD MURRUMBATEMAN 2582",
-    "locID": "LOC000061338803",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716929405"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.03301577,
      -34.97921399
     ]
@@ -14246,23 +13498,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.02878962,
-     -34.96629207
-    ]
-   },
-   "properties": {
-    "name": "34 ROSE STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJkwdV9psDF2sRXTjMn4zFOWw",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW716933944"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.02302367,
      -34.97092881
     ]
@@ -14291,9 +13526,9 @@
     "name": "1 SOUTHDOWN AVENUE MURRUMBATEMAN 2582",
     "locID": "LOC000049349261",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716935796",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -14695,23 +13930,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.03925904,
-     -35.00914608
-    ]
-   },
-   "properties": {
-    "name": "5 RAMSEY ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJp-5iy2YBF2sRc8_8J3JFk-s",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717002971"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.0163311,
      -35.00730498
     ]
@@ -14771,12 +13989,12 @@
    "properties": {
     "name": "18-20 HERCULES STREET MURRUMBATEMAN 2582",
     "locID": "LOC000146913693",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717081475",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15058,23 +14276,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717283007"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.07372228,
-     -34.9594956
-    ]
-   },
-   "properties": {
-    "name": "568 GREENWOOD ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJfaKwyO4CF2sRj1eFPqJo0_o",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717285216"
    }
   },
   {
@@ -15456,23 +14657,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.02520075,
-     -34.97769573
-    ]
-   },
-   "properties": {
-    "name": "3003 BARTON HIGHWAY MURRUMBATEMAN 2582",
-    "locID": "EjIzMDAzIEJhcnRvbiBId3ksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIxEi8KFAoSCWVTKS_9AxdrESqef6nkh6xGELsXKhQKEgnLgHtj5VIWaxHauZ-Ycn9euw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717293018"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.02000454,
      -34.9997111
     ]
@@ -15538,74 +14722,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717293022"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02520075,
-     -34.97769573
-    ]
-   },
-   "properties": {
-    "name": "4307 BARTON HIGHWAY MURRUMBATEMAN 2582",
-    "locID": "EjI0MzA3IEJhcnRvbiBId3ksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIxEi8KFAoSCdkoe2aeAxdrEeiv0oFCdcakENMhKhQKEgnLgHtj5VIWaxHauZ-Ycn9euw",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717293023"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02520075,
-     -34.97769573
-    ]
-   },
-   "properties": {
-    "name": "4359 BARTON HIGHWAY MURRUMBATEMAN 2582",
-    "locID": "EjI0MzU5IEJhcnRvbiBId3ksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIxEi8KFAoSCdkoe2aeAxdrEeiv0oFCdcakEIciKhQKEgnLgHtj5VIWaxHauZ-Ycn9euw",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717293024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.06119228,
-     -35.02152875
-    ]
-   },
-   "properties": {
-    "name": "136 BLUEBELL LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJ43Gmyp0BF2sRt27avpVqKLI",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717293735"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.06190027,
-     -35.0186424
-    ]
-   },
-   "properties": {
-    "name": "160 BLUEBELL LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJ0xPEMYMBF2sRMjG1FYTs6WA",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717293736"
    }
   },
   {
@@ -15759,23 +14875,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717295232"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.09174717,
-     -34.96426039
-    ]
-   },
-   "properties": {
-    "name": "33 BUTTS ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJ489wKZACF2sRmecmD38-gAU",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717295233"
    }
   },
   {
@@ -15943,23 +15042,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.03085261,
-     -34.96878465
-    ]
-   },
-   "properties": {
-    "name": "13 EAST STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJ0fPjnZkDF2sR2tU4nO-kFNo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717297574"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.03007076,
      -34.96867861
     ]
@@ -15980,40 +15062,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.04259062,
-     -34.98530475
-    ]
-   },
-   "properties": {
-    "name": "3 ELRINGTON CLOSE MURRUMBATEMAN 2582",
-    "locID": "ChIJc_PGYMcDF2sRLf0997CdC6c",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717297660"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.04102972,
-     -35.00636725
-    ]
-   },
-   "properties": {
-    "name": "8 EUROKA AVENUE MURRUMBATEMAN 2582",
-    "locID": "ChIJN20FiGEBF2sRl_L_2fdQWlc",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717297842"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.02959562,
      -35.02679918
     ]
@@ -16024,23 +15072,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717299366"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03926971,
-     -35.02685299
-    ]
-   },
-   "properties": {
-    "name": "110 GOODA CREEK ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJZZcLXBQBF2sRK7EY7Fntf_c",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717299387"
    }
   },
   {
@@ -16075,40 +15106,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717299389"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.0226915,
-     -35.0253647
-    ]
-   },
-   "properties": {
-    "name": "37 GOODA CREEK ROAD MURRUMBATEMAN 2582",
-    "locID": "EjQzNyBHb29kYSBDcmVlayBSZCwgTXVycnVtYmF0ZW1hbiBOU1cgMjU4MiwgQXVzdHJhbGlhIjASLgoUChIJBdA6XBQBF2sRiKrbzKIMd_oQJSoUChIJ04apjBYBF2sRgNtYxPXa7cQ",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717299390"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.07372228,
-     -34.9594956
-    ]
-   },
-   "properties": {
-    "name": "240 GREENWOOD ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJfaKwyO4CF2sREByp_8WtgUE",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717299626"
    }
   },
   {
@@ -16166,23 +15163,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717300282"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02331817,
-     -34.9683273
-    ]
-   },
-   "properties": {
-    "name": "25-29 HERCULES STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJE5LaNYUDF2sR7mbk8U4v6Dk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717300283"
    }
   },
   {
@@ -16272,23 +15252,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717301382"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00603348,
-     -34.98300575
-    ]
-   },
-   "properties": {
-    "name": "75 ISABEL DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJfc33MA8EF2sRr10Op_JcdU4",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717301383"
    }
   },
   {
@@ -16905,23 +15868,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.00094608,
-     -34.96450336
-    ]
-   },
-   "properties": {
-    "name": "86 MERRYVILLE DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJMbT-H3AEF2sRljEVfFVt3rg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717304611"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.00206337,
      -34.964808
     ]
@@ -16969,23 +15915,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717304614",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00396808,
-     -34.96489774
-    ]
-   },
-   "properties": {
-    "name": "94 MERRYVILLE DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJq4XziHAEF2sRHAwpT5z1WAU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717304615"
    }
   },
   {
@@ -17071,23 +16000,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717305363"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02967078,
-     -34.98222929
-    ]
-   },
-   "properties": {
-    "name": "82 MURRUMBATEMAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJ8eYKVZQDF2sR_8EKT4FGxww",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717305366"
    }
   },
   {
@@ -17200,23 +16112,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.05273209,
-     -35.01625392
-    ]
-   },
-   "properties": {
-    "name": "281 PATEMANS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJu5esi3kBF2sRshwwv5Y9_UQ",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717307915"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.05009131,
      -35.01708166
     ]
@@ -17227,23 +16122,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717307916"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05498097,
-     -35.0037024
-    ]
-   },
-   "properties": {
-    "name": "80 PATEMANS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJk2TibdIDF2sRhnZ13PCfPSs",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717307917"
    }
   },
   {
@@ -17401,23 +16279,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717309967"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01435699,
-     -34.99704258
-    ]
-   },
-   "properties": {
-    "name": "10 SCRUBBY LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJe4cQclUBF2sRifUnPEhBUqc",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717310079"
    }
   },
   {
@@ -17605,23 +16466,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.06182654,
-     -35.017077
-    ]
-   },
-   "properties": {
-    "name": "170 BLUEBELL LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJxyADDoMBF2sRtIY9zF5Jbgc",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717323985"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.96912292,
      -34.94459131
     ]
@@ -17673,23 +16517,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.96492088,
-     -34.9588525
-    ]
-   },
-   "properties": {
-    "name": "1204 DOG TRAP ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJcaWLl7QFF2sRV6xP9rwp7XE",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717329546"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.96084724,
      -34.95588293
     ]
@@ -17724,57 +16551,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.97892603,
-     -34.97682866
-    ]
-   },
-   "properties": {
-    "name": "1467 DOG TRAP ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJUcC-szoEF2sR3bIvwd15Yek",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717329549"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.98312519,
-     -34.9842585
-    ]
-   },
-   "properties": {
-    "name": "1560 DOG TRAP ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJDwsbtyYEF2sRDHqeZscHJKE",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717329550"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.98547079,
-     -34.98467276
-    ]
-   },
-   "properties": {
-    "name": "1601 DOG TRAP ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJb64nOyIEF2sRJ-jFKXVi_Sk",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717329551"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.01394783,
      -34.92112398
     ]
@@ -17785,40 +16561,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717332656"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01469581,
-     -34.91994619
-    ]
-   },
-   "properties": {
-    "name": "322 GOUNYAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJs0e1qVUDF2sRajvKpJ_PaR4",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717332657"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03532578,
-     -34.93214464
-    ]
-   },
-   "properties": {
-    "name": "517 GOUNYAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJl1_j4TcDF2sR7U4dxQjxbhM",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717332658"
    }
   },
   {
@@ -17846,23 +16588,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.02520075,
-     -34.97769573
-    ]
-   },
-   "properties": {
-    "name": "2626 BARTON HIGHWAY MURRUMBATEMAN 2582",
-    "locID": "EjIyNjI2IEJhcnRvbiBId3ksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIxEi8KFAoSCWVTKS_9AxdrESqef6nkh6xGEMIUKhQKEgnLgHtj5VIWaxHauZ-Ycn9euw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717366496"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.99368327,
      -34.97147613
     ]
@@ -17874,23 +16599,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717378916",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.99645573,
-     -34.97282209
-    ]
-   },
-   "properties": {
-    "name": "17A MERRYVILLE DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJCzYGRxMEF2sRs9tDjX6pukc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717466526"
    }
   },
   {
@@ -18056,23 +16764,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.99799249,
-     -34.95823966
-    ]
-   },
-   "properties": {
-    "name": "5 CLOVER CLOSE MURRUMBATEMAN 2582",
-    "locID": "ChIJzTmaYmQEF2sR8inpAIyPU4M",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717593744"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.9964681,
      -34.95809071
     ]
@@ -18084,23 +16775,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717593745",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.99751281,
-     -34.95740724
-    ]
-   },
-   "properties": {
-    "name": "7 CLOVER CLOSE MURRUMBATEMAN 2582",
-    "locID": "ChIJfyjIeGQEF2sRK89-JRj1jG0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717593746"
    }
   },
   {
@@ -18137,23 +16811,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717593748",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.07372228,
-     -34.9594956
-    ]
-   },
-   "properties": {
-    "name": "572 GREENWOOD ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJfaKwyO4CF2sR4otPLylrdh4",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717596925"
    }
   },
   {
@@ -18971,23 +17628,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.02129278,
-     -34.99524333
-    ]
-   },
-   "properties": {
-    "name": "129 MIDDLETONS LANE MURRUMBATEMAN 2582",
-    "locID": "EjBNaWRkbGV0b25zIExuLCBNdXJydW1iYXRlbWFuIE5TVyAyNTgyLCBBdXN0cmFsaWEiLiosChQKEgmbDq30_AMXaxF_BN4grgYghRIUChIJ75lyTVgBF2sRAOFDkLQJBgQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717639514"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.01875676,
      -35.00373479
     ]
@@ -19385,23 +18025,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.00183422,
-     -34.96353809
-    ]
-   },
-   "properties": {
-    "name": "20 BARLEY PLACE MURRUMBATEMAN 2582",
-    "locID": "ChIJffxtp3oEF2sR9QyCbCnFUo8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717666433"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.01533085,
      -34.96752629
     ]
@@ -19449,23 +18072,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717675236",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.99141944,
-     -34.95932519
-    ]
-   },
-   "properties": {
-    "name": "60 MERRYVILLE DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJG5f4t2cEF2sRQy6vFA33-LA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717675237"
    }
   },
   {
@@ -19775,23 +18381,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.00927072,
-     -35.00379092
-    ]
-   },
-   "properties": {
-    "name": "17 JIPARU DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJHSBGpq0GF2sRoeY8tR-WhEM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717794495"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.00585251,
      -35.00478403
     ]
@@ -19810,23 +18399,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.00764528,
-     -35.00355877
-    ]
-   },
-   "properties": {
-    "name": "19 JIPARU DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJQbb2w60GF2sRywNDAiH7bqI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717794497"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.01451197,
      -35.00400191
     ]
@@ -19837,23 +18409,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717794500"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01720826,
-     -35.00562245
-    ]
-   },
-   "properties": {
-    "name": "5 RATTENBURY CLOSE MURRUMBATEMAN 2582",
-    "locID": "ChIJ_fyBMVIBF2sRgoK62vqOgag",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717797131"
    }
   },
   {
@@ -19894,108 +18449,6 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.99713309,
-     -34.96279687
-    ]
-   },
-   "properties": {
-    "name": "73A MERRYVILLE DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJr0YyZG8EF2sROm3-Tkf-Rvk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717822949"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05498097,
-     -35.0037024
-    ]
-   },
-   "properties": {
-    "name": "155 PATEMANS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJ2Y06edQDF2sR22-45HLo1Xc",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717828004"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05598092,
-     -35.01781653
-    ]
-   },
-   "properties": {
-    "name": "295 PATEMANS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJG0J7tnkBF2sRu34YMVl-234",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717828005"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02387831,
-     -34.97497717
-    ]
-   },
-   "properties": {
-    "name": "19 VALLANCE DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJafeFAJIDF2sRAktqkkpVhlA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717835480"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02387831,
-     -34.97497717
-    ]
-   },
-   "properties": {
-    "name": "20 VALLANCE DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJafeFAJIDF2sRRzZrJKZm4oU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717835481"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02387831,
-     -34.97497717
-    ]
-   },
-   "properties": {
-    "name": "22 VALLANCE DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJafeFAJIDF2sRnSQgRo4KgAA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717835482"
    }
   },
   {
@@ -20218,23 +18671,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.07372228,
-     -34.9594956
-    ]
-   },
-   "properties": {
-    "name": "565 GREENWOOD ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJfaKwyO4CF2sRJcgpkNpH_vc",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717874247"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.0175831,
      -34.96693511
     ]
@@ -20300,7 +18736,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717878856",
     "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Dec 2025"
    }
   },
@@ -20320,7 +18756,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717878857",
     "tech_change_status": "In Design",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Dec 2025"
    }
   },
@@ -20425,23 +18861,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717894262"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.07800613,
-     -35.01145058
-    ]
-   },
-   "properties": {
-    "name": "81 BUSHS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJLXaMCyECF2sR--jUKOx4q44",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717917652"
    }
   },
   {
@@ -20610,23 +19029,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.02520075,
-     -34.97769573
-    ]
-   },
-   "properties": {
-    "name": "3002 BARTON HIGHWAY MURRUMBATEMAN 2582",
-    "locID": "EjIzMDAyIEJhcnRvbiBId3ksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIxEi8KFAoSCWVTKS_9AxdrESqef6nkh6xGELoXKhQKEgnLgHtj5VIWaxHauZ-Ycn9euw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717977220"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.98666657,
      -34.97028221
     ]
@@ -20638,125 +19040,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717978467",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03687749,
-     -34.99903933
-    ]
-   },
-   "properties": {
-    "name": "9A CRISPS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJQzxlbd4DF2sRn5cS61qgMAY",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717978978"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02129278,
-     -34.99524333
-    ]
-   },
-   "properties": {
-    "name": "1 MIDDLETONS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJ9RtTi_wDF2sR_ABPHqNSh0c",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717983424"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03925904,
-     -35.00914608
-    ]
-   },
-   "properties": {
-    "name": "11 RAMSEY ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJp-5iy2YBF2sRRiW1iP5MnIg",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717985476"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03925904,
-     -35.00914608
-    ]
-   },
-   "properties": {
-    "name": "12 RAMSEY ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJE8yl42EBF2sR6pU9uE7Xg30",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717985477"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03925904,
-     -35.00914608
-    ]
-   },
-   "properties": {
-    "name": "14 RAMSEY ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJp-5iy2YBF2sRmDHEY9yjPtg",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717985478"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03925904,
-     -35.00914608
-    ]
-   },
-   "properties": {
-    "name": "7 RAMSEY ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJp-5iy2YBF2sRbP5FACM2pts",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717985479"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03925904,
-     -35.00914608
-    ]
-   },
-   "properties": {
-    "name": "7A RAMSEY ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJp-5iy2YBF2sRfnJLON1DYYk",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717985480"
    }
   },
   {
@@ -20846,23 +19129,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717991997",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00956323,
-     -34.96916497
-    ]
-   },
-   "properties": {
-    "name": "1 COLONIAL PLACE MURRUMBATEMAN 2582",
-    "locID": "EjAxIENvbG9uaWFsIFBsLCBNdXJydW1iYXRlbWFuIE5TVyAyNTgyLCBBdXN0cmFsaWEiMBIuChQKEgl1Hz0KdwQXaxG-9vwfOBLNERABKhQKEgnzwnT_dgQXaxEEiwHvxT5_GQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW717993164"
    }
   },
   {
@@ -21049,57 +19315,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.98731372,
-     -34.94203926
-    ]
-   },
-   "properties": {
-    "name": "189 LONGRAIL GULLY ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJR9rJF_MEF2sRpcVdGudrGQE",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718002514"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.97247573,
-     -34.94114037
-    ]
-   },
-   "properties": {
-    "name": "329 LONGRAIL GULLY ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJ9eeBMPkEF2sR_nwgKLV4pKA",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718002515"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.97548454,
-     -34.96987745
-    ]
-   },
-   "properties": {
-    "name": "1018 DOG TRAP ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJrxPYiQAFF2sRvgsCxw3MO14",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718007031"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.98344835,
      -34.98214879
     ]
@@ -21110,57 +19325,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718007032"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00895357,
-     -34.91897188
-    ]
-   },
-   "properties": {
-    "name": "171 GOUNYAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJ5fJgeqsEF2sRBYdZXOGlnZA",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718007894"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03849953,
-     -35.00411435
-    ]
-   },
-   "properties": {
-    "name": "15 EUROKA AVENUE MURRUMBATEMAN 2582",
-    "locID": "EjAxNSBFdXJva2EgQXZlLCBNdXJydW1iYXRlbWFuIE5TVyAyNTgyLCBBdXN0cmFsaWEiMBIuChQKEgnJSA_fYQEXaxHZ23gx0U5xJhAPKhQKEgnB1dB93wMXaxF8EUpa9gM4SA",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718043125"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.97103247,
-     -34.96752493
-    ]
-   },
-   "properties": {
-    "name": "1292 DOG TRAP ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJVZNbNDQEF2sRv-zBA2g2OUk",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718051733"
    }
   },
   {
@@ -21209,46 +19373,12 @@
    "properties": {
     "name": "15 HERCULES STREET MURRUMBATEMAN 2582",
     "locID": "LOC000022813764",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718053503",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02471702,
-     -34.96852684
-    ]
-   },
-   "properties": {
-    "name": "19 HERCULES STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJITBAwpoDF2sR_LkEjaUfVNs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718053504"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02869604,
-     -34.96957523
-    ]
-   },
-   "properties": {
-    "name": "8 HERCULES STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJu5koO5oDF2sRZTEMA1TQE2k",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718053505"
    }
   },
   {
@@ -21266,57 +19396,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718055991"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02878168,
-     -34.96730374
-    ]
-   },
-   "properties": {
-    "name": "26 ROSE STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJR-Bh6JsDF2sRhVN4AsWuIhk",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718058885"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02945239,
-     -34.96769995
-    ]
-   },
-   "properties": {
-    "name": "41 ROSE STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJg2-o35sDF2sR4PdTcxyxlkw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718058886"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02960717,
-     -34.96715582
-    ]
-   },
-   "properties": {
-    "name": "45 ROSE STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJN_hyWJkDF2sR0zOFktRloiY",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718058887"
    }
   },
   {
@@ -21524,23 +19603,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.05620104,
-     -34.98969066
-    ]
-   },
-   "properties": {
-    "name": "603 MURRUMBATEMAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJA3PtgTICF2sRS5TnGqBNbTk",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718103635"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.01243094,
      -34.96742171
     ]
@@ -21552,23 +19614,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718120235",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01274818,
-     -34.96702608
-    ]
-   },
-   "properties": {
-    "name": "1 BARON PLACE MURRUMBATEMAN 2582",
-    "locID": "ChIJ9fQFBIgDF2sRInUTT8Xyoe8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718128520"
    }
   },
   {
@@ -21684,23 +19729,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.01753635,
-     -34.91291344
-    ]
-   },
-   "properties": {
-    "name": "59 VIVIAN LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJaW4kV6kcF2sR2Ez5UuDk1UE",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718208669"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.98423549,
      -34.93623319
     ]
@@ -21762,7 +19790,7 @@
     "name": "11 KINSMAN DRIVE MURRUMBATEMAN 2582",
     "locID": "LOC000121446182",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718264941",
     "tech_change_status": "Eligible To Order"
    }
@@ -21780,7 +19808,7 @@
     "name": "12 KINSMAN DRIVE MURRUMBATEMAN 2582",
     "locID": "LOC000121449221",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718264942",
     "tech_change_status": "Eligible To Order"
    }
@@ -21816,7 +19844,7 @@
     "name": "14 KINSMAN DRIVE MURRUMBATEMAN 2582",
     "locID": "LOC000121458241",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718264944",
     "tech_change_status": "Eligible To Order"
    }
@@ -21977,7 +20005,7 @@
     "name": "8 KINSMAN DRIVE MURRUMBATEMAN 2582",
     "locID": "LOC000121432343",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718264953",
     "tech_change_status": "Eligible To Order"
    }
@@ -22076,57 +20104,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.022681,
-     -34.99272256
-    ]
-   },
-   "properties": {
-    "name": "22 KINSMAN DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJw4BoPPsDF2sR5TAQK7POF0Q",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718284821"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.022681,
-     -34.99272256
-    ]
-   },
-   "properties": {
-    "name": "23 KINSMAN DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJw4BoPPsDF2sRJRjp9L9Bjzw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718284822"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.022681,
-     -34.99272256
-    ]
-   },
-   "properties": {
-    "name": "26 KINSMAN DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJw4BoPPsDF2sRVvF0rNt1__8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718284823"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.10232424,
      -34.97034174
     ]
@@ -22137,414 +20114,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718325162"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.10293258,
-     -34.97140207
-    ]
-   },
-   "properties": {
-    "name": "333 KEIRS ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJERRMRp0CF2sRX9Xc75u4Etw",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718325163"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02520075,
-     -34.97769573
-    ]
-   },
-   "properties": {
-    "name": "2756 BARTON HIGHWAY MURRUMBATEMAN 2582",
-    "locID": "EjIyNzU2IEJhcnRvbiBId3ksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIxEi8KFAoSCWVTKS_9AxdrESqef6nkh6xGEMQVKhQKEgnLgHtj5VIWaxHauZ-Ycn9euw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718327795"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02520075,
-     -34.97769573
-    ]
-   },
-   "properties": {
-    "name": "2780 BARTON HIGHWAY MURRUMBATEMAN 2582",
-    "locID": "EjIyNzgwIEJhcnRvbiBId3ksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIxEi8KFAoSCWVTKS_9AxdrESqef6nkh6xGENwVKhQKEgnLgHtj5VIWaxHauZ-Ycn9euw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718327796"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02520075,
-     -34.97769573
-    ]
-   },
-   "properties": {
-    "name": "3046 BARTON HIGHWAY MURRUMBATEMAN 2582",
-    "locID": "EjIzMDQ2IEJhcnRvbiBId3ksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIxEi8KFAoSCWVTKS_9AxdrESqef6nkh6xGEOYXKhQKEgnLgHtj5VIWaxHauZ-Ycn9euw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718327797"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02520075,
-     -34.97769573
-    ]
-   },
-   "properties": {
-    "name": "3123 BARTON HIGHWAY MURRUMBATEMAN 2582",
-    "locID": "EjIzMTIzIEJhcnRvbiBId3ksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIxEi8KFAoSCWVTKS_9AxdrESqef6nkh6xGELMYKhQKEgnLgHtj5VIWaxHauZ-Ycn9euw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718327798"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02520075,
-     -34.97769573
-    ]
-   },
-   "properties": {
-    "name": "3382 BARTON HIGHWAY MURRUMBATEMAN 2582",
-    "locID": "EjIzMzgyIEJhcnRvbiBId3ksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIxEi8KFAoSCX8vW5OSAxdrEZa7MxSw2qrfELYaKhQKEgnLgHtj5VIWaxHauZ-Ycn9euw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718327799"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02520075,
-     -34.97769573
-    ]
-   },
-   "properties": {
-    "name": "3510 BARTON HIGHWAY MURRUMBATEMAN 2582",
-    "locID": "EjIzNTEwIEJhcnRvbiBId3ksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIxEi8KFAoSCdkoe2aeAxdrEeiv0oFCdcakELYbKhQKEgnLgHtj5VIWaxHauZ-Ycn9euw",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718327800"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02520075,
-     -34.97769573
-    ]
-   },
-   "properties": {
-    "name": "3699 BARTON HIGHWAY MURRUMBATEMAN 2582",
-    "locID": "EjIzNjk5IEJhcnRvbiBId3ksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIxEi8KFAoSCdkoe2aeAxdrEeiv0oFCdcakEPMcKhQKEgnLgHtj5VIWaxHauZ-Ycn9euw",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718327801"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02520075,
-     -34.97769573
-    ]
-   },
-   "properties": {
-    "name": "3869 BARTON HIGHWAY MURRUMBATEMAN 2582",
-    "locID": "EjIzODY5IEJhcnRvbiBId3ksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIxEi8KFAoSCdkoe2aeAxdrEeiv0oFCdcakEJ0eKhQKEgnLgHtj5VIWaxHauZ-Ycn9euw",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718327802"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02520075,
-     -34.97769573
-    ]
-   },
-   "properties": {
-    "name": "3968 BARTON HIGHWAY MURRUMBATEMAN 2582",
-    "locID": "EjIzOTY4IEJhcnRvbiBId3ksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIxEi8KFAoSCdkoe2aeAxdrEeiv0oFCdcakEIAfKhQKEgnLgHtj5VIWaxHauZ-Ycn9euw",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718327803"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.07168554,
-     -35.01735291
-    ]
-   },
-   "properties": {
-    "name": "184 BUSHS LANE MURRUMBATEMAN 2582",
-    "locID": "EitCdXNocyBMbiwgTXVycnVtYmF0ZW1hbiBOU1cgMjU4MiwgQXVzdHJhbGlhIi4qLAoUChIJ08THK4kBF2sRcaittaYX-ucSFAoSCe-Zck1YARdrEQDhQ5C0CQYE",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718328406"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.09174717,
-     -34.96426039
-    ]
-   },
-   "properties": {
-    "name": "105 BUTTS ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJcXvFs5ACF2sRFDnYu3cUCG8",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718328418"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.97548454,
-     -34.96987745
-    ]
-   },
-   "properties": {
-    "name": "1318 DOG TRAP ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJIxYGIjcEF2sR56fKPz5cVUo",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718329185"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.97548454,
-     -34.96987745
-    ]
-   },
-   "properties": {
-    "name": "1669 DOG TRAP ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJIxYGIjcEF2sRNbnFoFMrea0",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718329186"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.97548454,
-     -34.96987745
-    ]
-   },
-   "properties": {
-    "name": "959 DOG TRAP ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJIxYGIjcEF2sR__0Y-oVFzw0",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718329188"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.97548454,
-     -34.96987745
-    ]
-   },
-   "properties": {
-    "name": "994 DOG TRAP ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJIxYGIjcEF2sRC4hNAcAEeIw",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718329189"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.97548454,
-     -34.96987745
-    ]
-   },
-   "properties": {
-    "name": "997 DOG TRAP ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJIxYGIjcEF2sRr55Kf5OYiT0",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718329190"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.031642,
-     -35.02648319
-    ]
-   },
-   "properties": {
-    "name": "13 GOLDFIELDS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJDdFdmz4BF2sRGq8dXpb8rzs",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718329773"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03128629,
-     -35.0301244
-    ]
-   },
-   "properties": {
-    "name": "144 GOODA CREEK ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJN4rIHSMBF2sRqFRWRG5qPcI",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718329778"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.04557926,
-     -35.02347805
-    ]
-   },
-   "properties": {
-    "name": "291 GOODA CREEK ROAD MURRUMBATEMAN 2582",
-    "locID": "EjUyOTEgR29vZGEgQ3JlZWsgUmQsIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIxEi8KFAoSCQXQOlwUARdrEYiq28yiDHf6EKMCKhQKEgnThqmMFgEXaxGA21jE9drtxA",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718329779"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.06288506,
-     -35.02892134
-    ]
-   },
-   "properties": {
-    "name": "427 GOODA CREEK ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJG_qSaDgBF2sRKE89_sbCrXs",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718329780"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01469581,
-     -34.91994619
-    ]
-   },
-   "properties": {
-    "name": "115 GOUNYAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJs0e1qVUDF2sRZscYj1OhVEk",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718329785"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01469581,
-     -34.91994619
-    ]
-   },
-   "properties": {
-    "name": "147 GOUNYAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJs0e1qVUDF2sR2t-UbgBYmbI",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718329786"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01469581,
-     -34.91994619
-    ]
-   },
-   "properties": {
-    "name": "148 GOUNYAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJs0e1qVUDF2sRNEEj2ms__Vs",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718329787"
    }
   },
   {
@@ -22569,244 +20138,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.02503378,
-     -34.91736182
-    ]
-   },
-   "properties": {
-    "name": "323 GOUNYAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJua07FrQcF2sRVEnUEvEO25E",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718329789"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01469581,
-     -34.91994619
-    ]
-   },
-   "properties": {
-    "name": "456 GOUNYAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJs0e1qVUDF2sRFpoly9iE4Lc",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718329790"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.07372228,
-     -34.9594956
-    ]
-   },
-   "properties": {
-    "name": "165 GREENWOOD ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJfaKwyO4CF2sRyIzMM2OoJn0",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718329854"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05079349,
-     -34.96670584
-    ]
-   },
-   "properties": {
-    "name": "393 HILLVIEW DRIVE MURRUMBATEMAN 2582",
-    "locID": "EjIzOTMgSGlsbHZpZXcgRHIsIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIxEi8KFAoSCdv3uB__AhdrEYRgd3sOYKsiEIkDKhQKEgl7RZkXBwMXaxEtFswH-Cg7tw",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718330136"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03462369,
-     -34.96484212
-    ]
-   },
-   "properties": {
-    "name": "46 HILLVIEW DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJ6-yH8J8DF2sRgZmrwb1accc",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718330137"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03671492,
-     -34.96188397
-    ]
-   },
-   "properties": {
-    "name": "47 HILLVIEW DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJdxIEwgoDF2sRhxdNc_cd1wA",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718330138"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.99465767,
-     -34.98042719
-    ]
-   },
-   "properties": {
-    "name": "132 ISABEL DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJ3zcGSRcEF2sRMv7mRBqcKLY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718330273"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.99681926,
-     -34.97743504
-    ]
-   },
-   "properties": {
-    "name": "96 ISABEL DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJJ4syYREEF2sRk0imTzst4hM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718330274"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.09027371,
-     -34.97838243
-    ]
-   },
-   "properties": {
-    "name": "190 KEIRS ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJM6MKKYgCF2sRw9mKUsN4DyA",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718330396"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.10869749,
-     -34.97294394
-    ]
-   },
-   "properties": {
-    "name": "351 KEIRS ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJBw36RmP9FmsR28ymDK1AtR0",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718330397"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.0919817,
-     -34.97157652
-    ]
-   },
-   "properties": {
-    "name": "400 KEIRS ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJwdwCeI8CF2sRAvzCAYy3ENo",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718330398"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.98455159,
-     -34.93703021
-    ]
-   },
-   "properties": {
-    "name": "408 LONGRAIL GULLY ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJMX0Pxe0EF2sRqWgBL9jfZu4",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718330794"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.98455159,
-     -34.93703021
-    ]
-   },
-   "properties": {
-    "name": "433 LONGRAIL GULLY ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJMX0Pxe0EF2sRLwz6hp2qWMw",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718330795"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03915696,
-     -34.98483773
-    ]
-   },
-   "properties": {
-    "name": "177 MURRUMBATEMAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJb5jnkMADF2sRp8NbVqUdwjo",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718331363"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.03973109,
      -34.98696391
     ]
@@ -22817,74 +20148,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718331364"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.04212326,
-     -34.98586777
-    ]
-   },
-   "properties": {
-    "name": "209 MURRUMBATEMAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJBTBVQccDF2sRo2UOPFsh3qM",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718331365"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.04893498,
-     -34.98650436
-    ]
-   },
-   "properties": {
-    "name": "267 MURRUMBATEMAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJQyuo0LcDF2sR2YbmXN-qJEk",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718331366"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05686861,
-     -34.99179939
-    ]
-   },
-   "properties": {
-    "name": "360 MURRUMBATEMAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJ9czCIcsDF2sRyKNxTOwpfKY",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718331367"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05620104,
-     -34.98969066
-    ]
-   },
-   "properties": {
-    "name": "42 MURRUMBATEMAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJtwq2kcoDF2sRvYXWsQDpgwY",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718331368"
    }
   },
   {
@@ -22919,74 +20182,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718331370"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05620104,
-     -34.98969066
-    ]
-   },
-   "properties": {
-    "name": "604 MURRUMBATEMAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJtwq2kcoDF2sRJxkLDh7O1ck",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718331371"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05035549,
-     -35.00506558
-    ]
-   },
-   "properties": {
-    "name": "168 PATEMANS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJtXxzYNYDF2sRPDrVmDZNPpE",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718331981"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05498097,
-     -35.0037024
-    ]
-   },
-   "properties": {
-    "name": "4 PATEMANS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJ2Y06edQDF2sRIGqVNEv_odY",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718331982"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05498097,
-     -35.0037024
-    ]
-   },
-   "properties": {
-    "name": "52 PATEMANS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJ2Y06edQDF2sRYHeJpnxb3ss",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718331983"
    }
   },
   {
@@ -23840,23 +21035,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.99937721,
-     -35.00592355
-    ]
-   },
-   "properties": {
-    "name": "5 PARKLANDS AVENUE MURRUMBATEMAN 2582",
-    "locID": "ChIJR7O4QroGF2sRo8cxdjMRzJI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718370876"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.00543585,
      -35.00596871
     ]
@@ -23922,40 +21100,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718370880",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.99896445,
-     -35.00338423
-    ]
-   },
-   "properties": {
-    "name": "31 JIPARU DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJiy9lxLoGF2sR3KGkkxrbdUY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718378847"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.0005052,
-     -34.99956464
-    ]
-   },
-   "properties": {
-    "name": "43 JIPARU DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJuedzjKUGF2sRPXSo0OsqfY4",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718378848"
    }
   },
   {
@@ -24105,23 +21249,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.02883508,
-     -34.97083499
-    ]
-   },
-   "properties": {
-    "name": "9B ROSE STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJfQIwD5oDF2sR7Hn9RQO711Q",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718441964"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.99798893,
      -34.95877644
     ]
@@ -24151,23 +21278,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718502882",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05620104,
-     -34.98969066
-    ]
-   },
-   "properties": {
-    "name": "1266 MURRUMBATEMAN ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJtwq2kcoDF2sRjnEKmSBCF_4",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718543515"
    }
   },
   {
@@ -24474,23 +21584,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718644942",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02940393,
-     -34.96794824
-    ]
-   },
-   "properties": {
-    "name": "39 ROSE STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJlXA32psDF2sRotq_yhM-VQw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718906407"
    }
   },
   {
@@ -24940,23 +22033,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.02879716,
-     -34.96606034
-    ]
-   },
-   "properties": {
-    "name": "36 ROSE STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJmx81CJwDF2sRaHoFDGefasM",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718930583"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.0287315,
      -34.96533852
     ]
@@ -24984,23 +22060,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718930585"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.0294595,
-     -34.96587442
-    ]
-   },
-   "properties": {
-    "name": "53 ROSE STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJd0fM35sDF2sR7MC68RAd2GU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW718930586"
    }
   },
   {
@@ -25200,23 +22259,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719165774"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.99129236,
-     -34.96920214
-    ]
-   },
-   "properties": {
-    "name": "29A MERRYVILLE DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJpx-f6WoEF2sRg8VIwC8gX84",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719189050"
    }
   },
   {
@@ -25822,23 +22864,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.09532548,
-     -34.97515939
-    ]
-   },
-   "properties": {
-    "name": "216 KEIRS ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJqf_kfoYCF2sRfjCuTY66zwc",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719572213"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.02337686,
      -34.96534199
     ]
@@ -26247,40 +23272,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.12255475,
-     -34.97265345
-    ]
-   },
-   "properties": {
-    "name": "173 TARA LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJ6RTAQ2n9FmsRxYmCKJ6WHQw",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719583089"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.10766228,
-     -34.97604688
-    ]
-   },
-   "properties": {
-    "name": "22 TARA LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJ1wt--Hz9FmsReuptHyQRx5A",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719583460"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.02402034,
      -34.96637458
     ]
@@ -26298,23 +23289,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.11305304,
-     -34.97822412
-    ]
-   },
-   "properties": {
-    "name": "120 TARA LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJ3UFM9XD9FmsRDGzAUWLZnic",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719584096"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.02330452,
      -34.96570835
     ]
@@ -26325,40 +23299,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719584145"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.0919817,
-     -34.97157652
-    ]
-   },
-   "properties": {
-    "name": "398 KEIRS ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJwdwCeI8CF2sRxtdZD80aZjQ",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719591663"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.0919817,
-     -34.97157652
-    ]
-   },
-   "properties": {
-    "name": "396 KEIRS ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJwdwCeI8CF2sRFEVsDzruoZA",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719597449"
    }
   },
   {
@@ -26553,23 +23493,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.0242608,
-     -34.96442243
-    ]
-   },
-   "properties": {
-    "name": "15 MCCLUNG DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJjypprpwDF2sRqTPRxOZaAy0",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719657258"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.02457438,
      -34.96506123
     ]
@@ -26757,125 +23680,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.02875337,
-     -34.96551841
-    ]
-   },
-   "properties": {
-    "name": "40 ROSE STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJ718-EJwDF2sROjdHsUv_h14",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719717445"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02877358,
-     -34.9658806
-    ]
-   },
-   "properties": {
-    "name": "38 ROSE STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJb4nZCJwDF2sRERNOQL4Gf9I",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719717988"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.02704526,
-     -34.9652495
-    ]
-   },
-   "properties": {
-    "name": "39 CAMP STREET MURRUMBATEMAN 2582",
-    "locID": "ChIJAemAfJwDF2sR3DJ3XzGFUD4",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719741884"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.07802585,
-     -35.02145916
-    ]
-   },
-   "properties": {
-    "name": "207 BUSHS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJA295R_MBF2sRC-HD1Zm-qTs",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719803961"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.07848985,
-     -35.024675
-    ]
-   },
-   "properties": {
-    "name": "259 BUSHS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJkaMqeo0BF2sRkYStNOxZLDI",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719804792"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.07730171,
-     -35.02739433
-    ]
-   },
-   "properties": {
-    "name": "291 BUSHS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJdyQeLJMBF2sR8eOZI5ZXq5g",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719809002"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.07723455,
-     -35.01856974
-    ]
-   },
-   "properties": {
-    "name": "175 BUSHS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJpUuIv4sBF2sRTkxFcErPhto",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW719812712"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.0263918,
      -34.96531525
     ]
@@ -26886,91 +23690,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719890924"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.04697237,
-     -35.02932801
-    ]
-   },
-   "properties": {
-    "name": "290A GOODA CREEK ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJyYGJiA0BF2sR595sFP3HSwI",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720017563"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.04953827,
-     -35.0390073
-    ]
-   },
-   "properties": {
-    "name": "356 GOODA CREEK ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJs_UzBwUBF2sRNVNfwFshQDQ",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720018587"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05529817,
-     -35.03008199
-    ]
-   },
-   "properties": {
-    "name": "351 GOODA CREEK ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJ1_ndHQsBF2sRqJeJdXV1eL0",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720078136"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.0599309,
-     -35.03652532
-    ]
-   },
-   "properties": {
-    "name": "410 GOODA CREEK ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJYZBOEqcBF2sRjAKarvj6Sko",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720082212"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05662689,
-     -35.04050765
-    ]
-   },
-   "properties": {
-    "name": "358 GOODA CREEK ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJ6dW3fwYBF2sRTVWjaKJLsCM",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720085526"
    }
   },
   {
@@ -26995,23 +23714,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.04932359,
-     -35.02343821
-    ]
-   },
-   "properties": {
-    "name": "15 BLUEBELL LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJcxgbTHIBF2sRe5wIfTmezEQ",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720086832"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.05520405,
      -35.0353038
     ]
@@ -27022,23 +23724,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720089090"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.07416192,
-     -35.040404
-    ]
-   },
-   "properties": {
-    "name": "419 BUSHS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJO_86x7sBF2sRSS5LiNOgojs",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720155178"
    }
   },
   {
@@ -27539,159 +24224,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.01399675,
-     -35.0000267
-    ]
-   },
-   "properties": {
-    "name": "69 JIPARU DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJW-Er5lQBF2sR9l97xw-Ddk4",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720459862"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01259833,
-     -35.00050679
-    ]
-   },
-   "properties": {
-    "name": "67 JIPARU DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJn81ptFQBF2sRLPCokClh_NQ",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720460839"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.06535509,
-     -35.03082939
-    ]
-   },
-   "properties": {
-    "name": "485 GOODA CREEK ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJFwBgopgBF2sRiJij253VsMk",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720532080"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.0745672,
-     -35.03438408
-    ]
-   },
-   "properties": {
-    "name": "365 BUSHS LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJJdjyeokBF2sRfl5ABHiXqzQ",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720533907"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.06417856,
-     -35.03878448
-    ]
-   },
-   "properties": {
-    "name": "478 GOODA CREEK ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJoccq1KUBF2sRDXhb4byXSzc",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720540271"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01083969,
-     -35.00070827
-    ]
-   },
-   "properties": {
-    "name": "63 JIPARU DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJOatKZ6sGF2sREBuBAE3H3pE",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720549082"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00041737,
-     -35.00123298
-    ]
-   },
-   "properties": {
-    "name": "6A BIDGEE CLOSE MURRUMBATEMAN 2582",
-    "locID": "ChIJMfDFZKUGF2sRHR6lLaljFFw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720549427"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.06136333,
-     -35.02263641
-    ]
-   },
-   "properties": {
-    "name": "124 BLUEBELL LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJVQsR_5wBF2sR8qAqjQFqDOc",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720609884"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.99108785,
-     -34.9993007
-    ]
-   },
-   "properties": {
-    "name": "275 ISABEL DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJfSOlwaIGF2sRQQKtNp6wGHE",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720678557"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.02814762,
      -35.0234209
     ]
@@ -27702,23 +24234,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720777030"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00832963,
-     -34.97624955
-    ]
-   },
-   "properties": {
-    "name": "36 ISABEL DRIVE MURRUMBATEMAN 2582",
-    "locID": "Ei8zNiBJc2FiZWwgRHIsIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIwEi4KFAoSCfOyYB4MBBdrEZccauIya7UDECQqFAoSCaf-ozsbBBdrEQo1oYMmb_yo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720781892"
    }
   },
   {
@@ -28168,74 +24683,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.04565917,
-     -35.03258878
-    ]
-   },
-   "properties": {
-    "name": "266 GOODA CREEK ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJ3S0QxhEBF2sRR7H1Bi73ljI",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW720992719"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.05498097,
-     -35.0037024
-    ]
-   },
-   "properties": {
-    "name": "9 PATEMANS LANE MURRUMBATEMAN 2582",
-    "locID": "EjA5IFBhdGVtYW5zIExuLCBNdXJydW1iYXRlbWFuIE5TVyAyNTgyLCBBdXN0cmFsaWEiMBIuChQKEgkxWk1m1AMXaxEmvKL6cUHgPxAJKhQKEgnh1oz-1QMXaxHCaf98vDRozg",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721008658"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03926971,
-     -35.02685299
-    ]
-   },
-   "properties": {
-    "name": "425 GOODA CREEK ROAD MURRUMBATEMAN 2582",
-    "locID": "ChIJmV1VloYBF2sRNyRhn9Puifk",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721009155"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.03948248,
-     -34.9135719
-    ]
-   },
-   "properties": {
-    "name": "58 VIVIAN LANE MURRUMBATEMAN 2582",
-    "locID": "ChIJJ6OlPcYcF2sRr2W33Gamu0U",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721045885"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.01008855,
      -34.97905514
     ]
@@ -28321,23 +24768,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.00637394,
-     -34.97587281
-    ]
-   },
-   "properties": {
-    "name": "9 GRENACHE WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9HcmVuYWNoZSBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCeuk37oMBBdrEZL8vKdlb6m9EhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721170424"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.01339476,
      -34.9722831
     ]
@@ -28349,40 +24779,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721170462",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00545524,
-     -34.97201955
-    ]
-   },
-   "properties": {
-    "name": "22 MALBEC DRIVE MURRUMBATEMAN 2582",
-    "locID": "Ei8yMiBNYWxiZWMgRHIsIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIwEi4KFAoSCWnVQ4p0BBdrERXDjU5AfXW6EBYqFAoSCWNFtFd0BBdrEam6bWESt4uR",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721170775"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01078076,
-     -34.9737586
-    ]
-   },
-   "properties": {
-    "name": "7 CABERNET WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9DYWJlcm5ldCBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCd-QQ311BBdrEU-aGRU54_QTEhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721170802"
    }
   },
   {
@@ -28441,40 +24837,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.0055054,
-     -34.97084482
-    ]
-   },
-   "properties": {
-    "name": "23 MALBEC DRIVE MURRUMBATEMAN 2582",
-    "locID": "Ei8yMyBNYWxiZWMgRHIsIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIwEi4KFAoSCWnVQ4p0BBdrERTDjU5AfXW6EBcqFAoSCWNFtFd0BBdrEam6bWESt4uR",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721171075"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00667937,
-     -34.97326627
-    ]
-   },
-   "properties": {
-    "name": "21 CABERNET WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9DYWJlcm5ldCBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCd-QQ311BBdrEU-aGRU54_QTEhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721171117"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.00381435,
      -34.97497244
     ]
@@ -28509,23 +24871,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.00645633,
-     -34.97096124
-    ]
-   },
-   "properties": {
-    "name": "21 MALBEC DRIVE MURRUMBATEMAN 2582",
-    "locID": "Ei8yMSBNYWxiZWMgRHIsIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIwEi4KFAoSCWnVQ4p0BBdrERTDjU5AfXW6EBUqFAoSCWNFtFd0BBdrEam6bWESt4uR",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721171552"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.00878237,
      -34.97124584
     ]
@@ -28536,40 +24881,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721171777"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00430677,
-     -34.97187096
-    ]
-   },
-   "properties": {
-    "name": "26 MALBEC DRIVE MURRUMBATEMAN 2582",
-    "locID": "Ei8yNiBNYWxiZWMgRHIsIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIwEi4KFAoSCWnVQ4p0BBdrERXDjU5AfXW6EBoqFAoSCWNFtFd0BBdrEam6bWESt4uR",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721171956"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01115197,
-     -34.97152612
-    ]
-   },
-   "properties": {
-    "name": "9 MALBEC DRIVE MURRUMBATEMAN 2582",
-    "locID": "Ei45IE1hbGJlYyBEciwgTXVycnVtYmF0ZW1hbiBOU1cgMjU4MiwgQXVzdHJhbGlhIjASLgoUChIJadVDinQEF2sRFMONTkB9dboQCSoUChIJY0W0V3QEF2sRqbptYRK3i5E",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721172330"
    }
   },
   {
@@ -28611,23 +24922,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.00943388,
-     -34.97483172
-    ]
-   },
-   "properties": {
-    "name": "12 CABERNET WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9DYWJlcm5ldCBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCd-QQ311BBdrEU-aGRU54_QTEhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721172549"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.00397962,
      -34.97401853
     ]
@@ -28655,23 +24949,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721172615"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00530922,
-     -34.97606493
-    ]
-   },
-   "properties": {
-    "name": "8 GRENACHE WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9HcmVuYWNoZSBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCeuk37oMBBdrEZL8vKdlb6m9EhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721172747"
    }
   },
   {
@@ -28714,23 +24991,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.01096959,
-     -34.97269431
-    ]
-   },
-   "properties": {
-    "name": "4 MALBEC DRIVE MURRUMBATEMAN 2582",
-    "locID": "Ei40IE1hbGJlYyBEciwgTXVycnVtYmF0ZW1hbiBOU1cgMjU4MiwgQXVzdHJhbGlhIjASLgoUChIJadVDinQEF2sRFcONTkB9dboQBCoUChIJY0W0V3QEF2sRqbptYRK3i5E",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721173613"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.02949008,
      -34.96668977
     ]
@@ -28741,40 +25001,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721173709"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01240569,
-     -34.9740366
-    ]
-   },
-   "properties": {
-    "name": "3 CABERNET WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9DYWJlcm5ldCBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCd-QQ311BBdrEU-aGRU54_QTEhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721173763"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00979124,
-     -34.97255527
-    ]
-   },
-   "properties": {
-    "name": "8 MALBEC DRIVE MURRUMBATEMAN 2582",
-    "locID": "Ei44IE1hbGJlYyBEciwgTXVycnVtYmF0ZW1hbiBOU1cgMjU4MiwgQXVzdHJhbGlhIjASLgoUChIJadVDinQEF2sRFcONTkB9dboQCCoUChIJY0W0V3QEF2sRqbptYRK3i5E",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721173798"
    }
   },
   {
@@ -28833,23 +25059,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.01208178,
-     -34.97208575
-    ]
-   },
-   "properties": {
-    "name": "7 MALBEC DRIVE MURRUMBATEMAN 2582",
-    "locID": "Ei43IE1hbGJlYyBEciwgTXVycnVtYmF0ZW1hbiBOU1cgMjU4MiwgQXVzdHJhbGlhIjASLgoUChIJadVDinQEF2sRFMONTkB9dboQByoUChIJY0W0V3QEF2sRqbptYRK3i5E",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721174178"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.00347377,
      -34.97680064
     ]
@@ -28860,23 +25069,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721174363"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00785768,
-     -34.97341202
-    ]
-   },
-   "properties": {
-    "name": "17 CABERNET WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9DYWJlcm5ldCBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCd-QQ311BBdrEU-aGRU54_QTEhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721174408"
    }
   },
   {
@@ -28952,23 +25144,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.00727163,
-     -34.97334083
-    ]
-   },
-   "properties": {
-    "name": "19 CABERNET WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9DYWJlcm5ldCBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCd-QQ311BBdrEU-aGRU54_QTEhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721175056"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.01314972,
      -34.97412225
     ]
@@ -29003,91 +25178,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.01043888,
-     -34.97145175
-    ]
-   },
-   "properties": {
-    "name": "11 MALBEC DRIVE MURRUMBATEMAN 2582",
-    "locID": "Ei8xMSBNYWxiZWMgRHIsIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIwEi4KFAoSCWnVQ4p0BBdrERTDjU5AfXW6EAsqFAoSCWNFtFd0BBdrEam6bWESt4uR",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721175196"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01019046,
-     -34.97369158
-    ]
-   },
-   "properties": {
-    "name": "9 CABERNET WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9DYWJlcm5ldCBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCd-QQ311BBdrEU-aGRU54_QTEhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721175216"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00808594,
-     -34.97466422
-    ]
-   },
-   "properties": {
-    "name": "16 CABERNET WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9DYWJlcm5ldCBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCd-QQ311BBdrEU-aGRU54_QTEhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721175507"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00608445,
-     -34.97735041
-    ]
-   },
-   "properties": {
-    "name": "5 GRENACHE WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9HcmVuYWNoZSBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCeuk37oMBBdrEZL8vKdlb6m9EhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721175734"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00604829,
-     -34.97209362
-    ]
-   },
-   "properties": {
-    "name": "16 GRENACHE WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9HcmVuYWNoZSBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCeuk37oMBBdrEZL8vKdlb6m9EhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721175777"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.00414664,
      -34.97299568
     ]
@@ -29105,40 +25195,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.0103796,
-     -34.97262397
-    ]
-   },
-   "properties": {
-    "name": "6 MALBEC DRIVE MURRUMBATEMAN 2582",
-    "locID": "Ei42IE1hbGJlYyBEciwgTXVycnVtYmF0ZW1hbiBOU1cgMjU4MiwgQXVzdHJhbGlhIjASLgoUChIJadVDinQEF2sRFcONTkB9dboQBioUChIJY0W0V3QEF2sRqbptYRK3i5E",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721175951"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00370554,
-     -34.97872934
-    ]
-   },
-   "properties": {
-    "name": "42 ISABEL DRIVE MURRUMBATEMAN 2582",
-    "locID": "Ei80MiBJc2FiZWwgRHIsIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIwEi4KFAoSCfOyYB4MBBdrEZccauIya7UDECoqFAoSCaf-ozsbBBdrEQo1oYMmb_yo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721175988"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.00430725,
      -34.97796316
     ]
@@ -29149,23 +25205,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721176090"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.9986424,
-     -34.96770071
-    ]
-   },
-   "properties": {
-    "name": "27 MALBEC DRIVE MURRUMBATEMAN 2582",
-    "locID": "Ei8yNyBNYWxiZWMgRHIsIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIwEi4KFAoSCWnVQ4p0BBdrERTDjU5AfXW6EBsqFAoSCWNFtFd0BBdrEam6bWESt4uR",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721176374"
    }
   },
   {
@@ -29191,40 +25230,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.00741944,
-     -34.97456771
-    ]
-   },
-   "properties": {
-    "name": "18 CABERNET WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9DYWJlcm5ldCBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCd-QQ311BBdrEU-aGRU54_QTEhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721176684"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00545191,
-     -34.97521095
-    ]
-   },
-   "properties": {
-    "name": "10 GRENACHE WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9HcmVuYWNoZSBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCeuk37oMBBdrEZL8vKdlb6m9EhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721176776"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.0036505,
      -34.97589069
     ]
@@ -29235,23 +25240,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721176782"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00271886,
-     -34.97860856
-    ]
-   },
-   "properties": {
-    "name": "44 ISABEL DRIVE MURRUMBATEMAN 2582",
-    "locID": "Ei80NCBJc2FiZWwgRHIsIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIwEi4KFAoSCfOyYB4MBBdrEZccauIya7UDECwqFAoSCaf-ozsbBBdrEQo1oYMmb_yo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721176818"
    }
   },
   {
@@ -29344,23 +25332,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.00664556,
-     -34.97438836
-    ]
-   },
-   "properties": {
-    "name": "13 GRENACHE WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9HcmVuYWNoZSBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCeuk37oMBBdrEZL8vKdlb6m9EhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721177717"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.00807577,
      -34.97116371
     ]
@@ -29371,57 +25342,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721177768"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00875539,
-     -34.97475351
-    ]
-   },
-   "properties": {
-    "name": "14 CABERNET WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9DYWJlcm5ldCBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCd-QQ311BBdrEU-aGRU54_QTEhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721177785"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00486372,
-     -34.97194824
-    ]
-   },
-   "properties": {
-    "name": "24 MALBEC DRIVE MURRUMBATEMAN 2582",
-    "locID": "Ei8yNCBNYWxiZWMgRHIsIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIwEi4KFAoSCWnVQ4p0BBdrERXDjU5AfXW6EBgqFAoSCWNFtFd0BBdrEam6bWESt4uR",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721177865"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01195695,
-     -34.97322477
-    ]
-   },
-   "properties": {
-    "name": "3 MALBEC DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJxen--IkDF2sRHdqqQiPcZv4",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721177867"
    }
   },
   {
@@ -29446,91 +25366,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     149.0059325,
-     -34.97812191
-    ]
-   },
-   "properties": {
-    "name": "3 GRENACHE WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9HcmVuYWNoZSBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCeuk37oMBBdrEZL8vKdlb6m9EhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721178135"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00902016,
-     -34.97355454
-    ]
-   },
-   "properties": {
-    "name": "13 CABERNET WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9DYWJlcm5ldCBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCd-QQ311BBdrEU-aGRU54_QTEhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721178144"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00862754,
-     -34.972415
-    ]
-   },
-   "properties": {
-    "name": "12 MALBEC DRIVE MURRUMBATEMAN 2582",
-    "locID": "ChIJNVVuwgcFF2sRb7fwZKLKD_M",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721178454"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01078821,
-     -34.97499161
-    ]
-   },
-   "properties": {
-    "name": "8 CABERNET WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9DYWJlcm5ldCBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCd-QQ311BBdrEU-aGRU54_QTEhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721178617"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00804323,
-     -34.97234356
-    ]
-   },
-   "properties": {
-    "name": "14 MALBEC DRIVE MURRUMBATEMAN 2582",
-    "locID": "Ei8xNCBNYWxiZWMgRHIsIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIwEi4KFAoSCWnVQ4p0BBdrERXDjU5AfXW6EA4qFAoSCWNFtFd0BBdrEam6bWESt4uR",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721178626"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      149.02949008,
      -34.96668977
     ]
@@ -29541,40 +25376,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721178762"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01146547,
-     -34.97507182
-    ]
-   },
-   "properties": {
-    "name": "6 CABERNET WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9DYWJlcm5ldCBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCd-QQ311BBdrEU-aGRU54_QTEhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721178811"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00498229,
-     -34.97805158
-    ]
-   },
-   "properties": {
-    "name": "4 GRENACHE WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9HcmVuYWNoZSBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCeuk37oMBBdrEZL8vKdlb6m9EhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721178906"
    }
   },
   {
@@ -29609,57 +25410,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721179157"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01214274,
-     -34.97515202
-    ]
-   },
-   "properties": {
-    "name": "4 CABERNET WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9DYWJlcm5ldCBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCd-QQ311BBdrEU-aGRU54_QTEhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721179209"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.00623185,
-     -34.97660196
-    ]
-   },
-   "properties": {
-    "name": "7 GRENACHE WAY MURRUMBATEMAN 2582",
-    "locID": "Ei9HcmVuYWNoZSBXYXksIE11cnJ1bWJhdGVtYW4gTlNXIDI1ODIsIEF1c3RyYWxpYSIuKiwKFAoSCeuk37oMBBdrEZL8vKdlb6m9EhQKEgnvmXJNWAEXaxEA4UOQtAkGBA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721179346"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     149.01205698,
-     -34.97264919
-    ]
-   },
-   "properties": {
-    "name": "5 MALBEC DRIVE MURRUMBATEMAN 2582",
-    "locID": "Ei41IE1hbGJlYyBEciwgTXVycnVtYmF0ZW1hbiBOU1cgMjU4MiwgQXVzdHJhbGlhIjASLgoUChIJadVDinQEF2sRFMONTkB9dboQBSoUChIJY0W0V3QEF2sRqbptYRK3i5E",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW721179448"
    }
   },
   {
