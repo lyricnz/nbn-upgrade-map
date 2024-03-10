@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-02-02T12:36:27.193174",
+ "generated": "2024-03-10T17:12:36.732104",
  "suburb": "GEHAM",
  "features": [
   {
@@ -15,10 +15,10 @@
    "properties": {
     "name": "LOT 7 GEHAM STATION ROAD GEHAM 4352",
     "locID": "LOC000105074479",
-    "tech": "SATELLITE",
-    "upgrade": "FW_NA",
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
     "gnaf_pid": "GAQLD156060780",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -102,7 +102,7 @@
    "properties": {
     "name": "172 ROBINSON ROAD GEHAM 4352",
     "locID": "LOC000039241840",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157943235"
    }
@@ -136,7 +136,7 @@
    "properties": {
     "name": "62 CONNOLLY ROAD GEHAM 4352",
     "locID": "LOC000080982859",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157943238"
    }
@@ -238,7 +238,7 @@
    "properties": {
     "name": "59 PERKINS FLAT ROAD GEHAM 4352",
     "locID": "LOC000100916538",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157949413"
    }
@@ -605,23 +605,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.98883256,
-     -27.39507359
-    ]
-   },
-   "properties": {
-    "name": "30 PATZWALD ROAD GEHAM 4352",
-    "locID": "ChIJFYVCNvNjlmsRANxeXZpkVT8",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157959506"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.99812325,
      -27.38427909
     ]
@@ -697,10 +680,10 @@
    "properties": {
     "name": "248 GEHAM STATION ROAD GEHAM 4352",
     "locID": "LOC000105074479",
-    "tech": "SATELLITE",
-    "upgrade": "FW_NA",
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
     "gnaf_pid": "GAQLD157962974",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -715,7 +698,7 @@
    "properties": {
     "name": "47 PERKINS FLAT ROAD GEHAM 4352",
     "locID": "LOC000069981795",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157962981"
    }
@@ -732,10 +715,10 @@
    "properties": {
     "name": "280 REUSHLE ROAD GEHAM 4352",
     "locID": "LOC000103229290",
-    "tech": "SATELLITE",
-    "upgrade": "FW_NA",
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
     "gnaf_pid": "GAQLD157962993",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -784,7 +767,7 @@
    "properties": {
     "name": "112 GEHAM STATION ROAD GEHAM 4352",
     "locID": "LOC000102955338",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157969027"
    }
@@ -818,7 +801,7 @@
    "properties": {
     "name": "61 MOUNT LUKE ROAD GEHAM 4352",
     "locID": "LOC000053545733",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160678557"
    }
@@ -835,7 +818,7 @@
    "properties": {
     "name": "9 MOUNT LUKE ROAD GEHAM 4352",
     "locID": "LOC000052217457",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160678558"
    }
@@ -869,7 +852,7 @@
    "properties": {
     "name": "46 CONNOLLY ROAD GEHAM 4352",
     "locID": "LOC000093878942",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160679032"
    }
@@ -886,12 +869,10 @@
    "properties": {
     "name": "13 MELRIC COURT GEHAM 4352",
     "locID": "LOC000096378698",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD160679033",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -943,9 +924,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD160679037",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1011,8 +990,8 @@
    "properties": {
     "name": "7 MELRIC COURT GEHAM 4352",
     "locID": "LOC000060305370",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD160690858",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1438,23 +1417,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.99704838,
-     -27.41192301
-    ]
-   },
-   "properties": {
-    "name": "LOT 108 NEW ENGLAND HIGHWAY GEHAM 4352",
-    "locID": "ChIJdQKnGEtclmsRcDu97f7JyK8",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161254112"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.99483625,
      -27.40950253
     ]
@@ -1465,23 +1427,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161254120"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.01335545,
-     -27.38198479
-    ]
-   },
-   "properties": {
-    "name": "LOT 698 NEW ENGLAND HIGHWAY GEHAM 4352",
-    "locID": "ChIJd8AqTHFclmsRy8Kz-oIAk-o",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161254134"
    }
   },
   {
@@ -1551,26 +1496,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161289146",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.01426449,
-     -27.3573984
-    ]
-   },
-   "properties": {
-    "name": "LOT 229 VALEWOOD ROAD GEHAM 4352",
-    "locID": "EioyMjkgVmFsZXdvb2QgUmQsIEdlaGFtIFFMRCA0MzUyLCBBdXN0cmFsaWEiMRIvChQKEgnhn2D6a2OWaxGSPPGZnqyHjBDlASoUChIJ78lXIhRjlmsR1vKUiLd-GAc",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161338912"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1605,9 +1531,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161369700",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1625,9 +1549,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161371072",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1642,8 +1564,8 @@
    "properties": {
     "name": "8 REUSHLE ROAD GEHAM 4352",
     "locID": "LOC000062236077",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD161371073",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1753,40 +1675,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161667056"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.00539202,
-     -27.36333812
-    ]
-   },
-   "properties": {
-    "name": "226 KAHLER ROAD GEHAM 4352",
-    "locID": "ChIJQyav1xJjlmsRL6KTuUg99hc",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161696317"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.00057933,
-     -27.38597772
-    ]
-   },
-   "properties": {
-    "name": "70 PIONEER ROAD GEHAM 4352",
-    "locID": "ChIJKyTf6JljlmsR6XgKZf1fxUU",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161709748"
    }
   },
   {
@@ -1974,10 +1862,10 @@
    "properties": {
     "name": "9371 NEW ENGLAND HIGHWAY GEHAM 4352",
     "locID": "LOC000175711631",
-    "tech": "SATELLITE",
-    "upgrade": "FW_NA",
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
     "gnaf_pid": "GAQLD162091269",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -2046,9 +1934,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162093475",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -2080,8 +1966,8 @@
    "properties": {
     "name": "26 REUSHLE ROAD GEHAM 4352",
     "locID": "LOC000072185182",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162093477",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2100,8 +1986,8 @@
    "properties": {
     "name": "2 REUSHLE ROAD GEHAM 4352",
     "locID": "LOC000013494525",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162093478",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2197,7 +2083,7 @@
    "properties": {
     "name": "18 KEN ROAD GEHAM 4352",
     "locID": "LOC000065946576",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162217235"
    }
@@ -2217,23 +2103,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162230656"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.97545996,
-     -27.38244312
-    ]
-   },
-   "properties": {
-    "name": "997 GROOMSVILLE ROAD GEHAM 4352",
-    "locID": "ChIJr_E5eXlklmsRQxKY9yW1YbA",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162230658"
    }
   },
   {
@@ -2336,8 +2205,8 @@
    "properties": {
     "name": "10 MELRIC COURT GEHAM 4352",
     "locID": "LOC000074407068",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162357681",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2416,10 +2285,10 @@
    "properties": {
     "name": "6 MELRIC COURT GEHAM 4352",
     "locID": "LOC000076315289",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162357687",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2439,23 +2308,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162359066"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.99603789,
-     -27.38904148
-    ]
-   },
-   "properties": {
-    "name": "7 PIONEER ROAD GEHAM 4352",
-    "locID": "ChIJfTPND5FjlmsRVVKBke2z8jM",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162361488"
    }
   },
   {
@@ -2531,23 +2383,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.0093436,
-     -27.41656794
-    ]
-   },
-   "properties": {
-    "name": "LOT 31 REUSHLE ROAD GEHAM 4352",
-    "locID": "EigzMSBSZXVzaGxlIFJkLCBHZWhhbSBRTEQgNDM1MiwgQXVzdHJhbGlhIjASLgoUChIJv3fIC-BjlmsRXnwD76NQK_kQHyoUChIJrVxE31dhlmsR41WwqH6o2-8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162362759"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.01409871,
      -27.41016153
     ]
@@ -2582,23 +2417,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.00574871,
-     -27.35958399
-    ]
-   },
-   "properties": {
-    "name": "142 VALEWOOD ROAD GEHAM 4352",
-    "locID": "ChIJubLWuxRjlmsRG8u6INpCySo",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162367210"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.01968112,
      -27.36323846
     ]
@@ -2609,23 +2427,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162367213"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.99643501,
-     -27.36771708
-    ]
-   },
-   "properties": {
-    "name": "45 BUSHELL ROAD GEHAM 4352",
-    "locID": "ChIJLVVPGXFjlmsREEBAzUqhuQw",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162536276"
    }
   },
   {
@@ -2705,23 +2506,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.00539202,
-     -27.36333812
-    ]
-   },
-   "properties": {
-    "name": "158 KAHLER ROAD GEHAM 4352",
-    "locID": "ChIJQyav1xJjlmsRmyKsSKZV3Io",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162629311"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.97867374,
      -27.3921699
     ]
@@ -2780,7 +2564,7 @@
    "properties": {
     "name": "19 LUBACH ROAD GEHAM 4352",
     "locID": "LOC000073977342",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162735812"
    }
@@ -2841,23 +2625,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.00574871,
-     -27.35958399
-    ]
-   },
-   "properties": {
-    "name": "158 VALEWOOD ROAD GEHAM 4352",
-    "locID": "ChIJubLWuxRjlmsRYVgbXv6GZhM",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163072105"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.01294416,
      -27.39580452
     ]
@@ -2865,26 +2632,9 @@
    "properties": {
     "name": "129 PERKINS FLAT ROAD GEHAM 4352",
     "locID": "LOC000043615590",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163228704"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.98115932,
-     -27.39151898
-    ]
-   },
-   "properties": {
-    "name": "978 GROOMSVILLE ROAD GEHAM 4352",
-    "locID": "ChIJzzTRYopjlmsRiuZY5sVkeAI",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163232887"
    }
   },
   {
@@ -2902,40 +2652,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163253479"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.00951418,
-     -27.40641996
-    ]
-   },
-   "properties": {
-    "name": "LOT 40 GEHAM STATION ROAD GEHAM 4352",
-    "locID": "Ei40MCBHZWhhbSBTdGF0aW9uIFJkLCBHZWhhbSBRTEQgNDM1MiwgQXVzdHJhbGlhIjASLgoUChIJq9E3gcFjlmsRgZ0PWPHuABMQKCoUChIJDzDz-cdjlmsRvjOza6WTtPg",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163307721"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.94941815,
-     -27.38168874
-    ]
-   },
-   "properties": {
-    "name": "640 GROOMSVILLE ROAD GEHAM 4352",
-    "locID": "ChIJS_TXi0ZklmsRZ3XIbAbHHIk",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163308952"
    }
   },
   {
@@ -2977,23 +2693,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.98455575,
-     -27.37561906
-    ]
-   },
-   "properties": {
-    "name": "119 MERVYN ROAD GEHAM 4352",
-    "locID": "ChIJbVMFG4FjlmsR2DYThuuLZ8k",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163313448"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.02694175,
      -27.38859876
     ]
@@ -3028,23 +2727,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.98021172,
-     -27.41419726
-    ]
-   },
-   "properties": {
-    "name": "257 REUSHLE ROAD GEHAM 4352",
-    "locID": "ChIJudRlxwBklmsRIMh-39MxdJg",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163316962"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.03604114,
      -27.40316162
     ]
@@ -3055,23 +2737,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163319585"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.0213595,
-     -27.3525693
-    ]
-   },
-   "properties": {
-    "name": "LOT 223 PUSCHMANN ROAD GEHAM 4352",
-    "locID": "EjBQdXNjaG1hbm4gUmQsIE1lcnJpdHRzIENyZWVrIFFMRCA0MzUyLCBBdXN0cmFsaWEiLiosChQKEgkZamDiPGOWaxE7dqsGknOVFBIUChIJc_7v599ilmsR0LYgf_HuAAQ",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163362408"
    }
   },
   {
@@ -3164,23 +2829,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.98731068,
-     -27.37529077
-    ]
-   },
-   "properties": {
-    "name": "LOT 688 STRACK ROAD GEHAM 4352",
-    "locID": "Eig2ODggU3RyYWNrIFJkLCBHZWhhbSBRTEQgNDM1MiwgQXVzdHJhbGlhIjESLwoUChIJh9KrsHdjlmsRoG72V_HuABMQsAUqFAoSCR1dSpB4Y5ZrESfymRpbDpbR",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD424996254"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.00944398,
      -27.40464745
     ]
@@ -3249,23 +2897,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.00862153,
-     -27.40524387
-    ]
-   },
-   "properties": {
-    "name": "128 GEHAM STATION ROAD GEHAM 4352",
-    "locID": "ChIJYdk22cNjlmsRZGx5JwvRjPQ",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425542951"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.00114316,
      -27.38910343
     ]
@@ -3293,23 +2924,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425546362"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.0089407,
-     -27.418085
-    ]
-   },
-   "properties": {
-    "name": "2B REUSHLE ROAD GEHAM 4352",
-    "locID": "ChIJnYysGt9jlmsRsuoNkrqwrlo",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425546363"
    }
   },
   {
@@ -3385,23 +2999,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.01342235,
-     -27.36247732
-    ]
-   },
-   "properties": {
-    "name": "177 VALEWOOD ROAD GEHAM 4352",
-    "locID": "ChIJ1TpkMBFjlmsR9aG5RIFii80",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425842920"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.00417235,
      -27.40430436
     ]
@@ -3453,23 +3050,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.02422143,
-     -27.41939039
-    ]
-   },
-   "properties": {
-    "name": "LOT 538 ROBINSON ROAD GEHAM 4352",
-    "locID": "Eio1MzggUm9iaW5zb24gUmQsIEdlaGFtIFFMRCA0MzUyLCBBdXN0cmFsaWEiMRIvChQKEgmJ2F0Y-2OWaxF7jHDJyNWUJhCaBCoUChIJy4pBDudjlmsRg-e6P4lErGc",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719339146"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.99812325,
      -27.38427909
     ]
@@ -3480,23 +3060,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719367099"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.97171108,
-     -27.40858837
-    ]
-   },
-   "properties": {
-    "name": "LOT 120 FIRTH ROAD GEHAM 4352",
-    "locID": "EicxMjAgRmlydGggUmQsIEdlaGFtIFFMRCA0MzUyLCBBdXN0cmFsaWEiMBIuChQKEgmzpGWjHGSWaxFMRam1xRDxGxB4KhQKEgkjaoM8HWSWaxExQuUo3lE2Cg",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719847078"
    }
   },
   {
@@ -3538,40 +3101,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.96325155,
-     -27.40741085
-    ]
-   },
-   "properties": {
-    "name": "61 FIRTH ROAD GEHAM 4352",
-    "locID": "ChIJR8m68RxklmsRJ3BK-YJkgZE",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719849967"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.96919508,
-     -27.41013054
-    ]
-   },
-   "properties": {
-    "name": "50 FIRTH ROAD GEHAM 4352",
-    "locID": "ChIJ6-ENMR1klmsRBMwM2KPl_zU",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719896794"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.99350689,
      -27.41657563
     ]
@@ -3606,23 +3135,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.01137309,
-     -27.40089404
-    ]
-   },
-   "properties": {
-    "name": "LOT 13 PERKINS FLAT ROAD GEHAM 4352",
-    "locID": "Ei0xMyBQZXJraW5zIEZsYXQgUmQsIEdlaGFtIFFMRCA0MzUyLCBBdXN0cmFsaWEiMBIuChQKEgmXgFXs6WOWaxHjMmNn9hxnghANKhQKEgnTUFW6uGOWaxFLyUiM03mwcQ",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720727340"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.98170711,
      -27.39865345
     ]
@@ -3633,40 +3145,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721116869"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.01511724,
-     -27.40248749
-    ]
-   },
-   "properties": {
-    "name": "108 MCAULEY ROAD GEHAM 4352",
-    "locID": "ChIJf_E6yMdjlmsR8X5O7OZVm2k",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721119941"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.00595895,
-     -27.40322267
-    ]
-   },
-   "properties": {
-    "name": "91 GEHAM STATION ROAD GEHAM 4352",
-    "locID": "ChIJ_wEy8sFjlmsR5Y3nBMm5Ptw",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721228758"
    }
   }
  ]
