@@ -1,0 +1,395 @@
+// Load service worker if supported
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+        navigator.serviceWorker.register('https://lukeprior.github.io/nbn-upgrade-map/serviceworker.js');
+    });
+}
+
+// initialize the map
+var map = L.map('map', {
+    renderer: L.canvas(),
+});
+
+map.setView([-27.5, 133], 5);
+
+// load a tile layer
+L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: 'abcd',
+    crossOrigin: true,
+    maxZoom: 20
+}).addTo(map);
+
+// get url parameters
+var urlParams = new URLSearchParams(window.location.search);
+var default_suburb = null;
+var default_state = null;
+var default_commit = "main";
+var combined_info = null;
+if (urlParams.has("suburb") && urlParams.has("state")) {
+    default_suburb = urlParams.get("suburb");
+    default_state = urlParams.get("state");
+}
+if (urlParams.has("commit")) {
+    default_commit = urlParams.get("commit");
+}
+
+function addControlWithHTML(className, html) {
+    // Add/replace a topright control with given className and innerHTML
+    var dropdown = L.control({ position: 'topright' });
+    dropdown.onAdd = function (map) {
+        var div = L.DomUtil.create('div', className);
+        div.innerHTML = html;
+        return div;
+    }
+    if (document.getElementsByClassName(className).length > 0) {
+        document.getElementsByClassName(className)[0].remove();
+    }
+    dropdown.addTo(map);
+}
+
+function format_suburb_data(data, term) {
+    let formatted_data = [];
+    for (var state in data) {
+        let state_data = {text: state, children: []};
+        for (var suburb of data[state]) {
+            if (term != null && suburb.name.toLowerCase().indexOf(term.toLowerCase()) == -1) {
+                continue;
+            }
+            state_data.children.push({id: state + "/" + suburb.name.toLowerCase().replace(/ /g, "-"), text: suburb.name });
+        }
+        if (state_data.children.length > 0) {
+            formatted_data.push(state_data);
+        }
+    }
+    return {results: formatted_data};
+}
+
+// download combined suburb data if not in cache
+const cacheKey = 'suburb-cache';
+const flatVal = localStorage.getItem(cacheKey) ?? '';
+const [query, strVal, dateStr] = flatVal.split('|');
+if (!query || !strVal || !dateStr) {
+    fetch("https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/combined-suburbs.json").then(res => res.json()).then(data => {
+        const cacheVal = `${cacheKey}|${JSON.stringify(data)}|${(new Date()).toISOString()}`;
+        localStorage.setItem(cacheKey, cacheVal);
+    });
+}
+
+addControlWithHTML('suburb-selector-container', '<select id="suburb" class="suburb-selector" onchange="loadSuburb(this.value, default_commit)" style="width: 300px;"><option></option></select>');
+$(document).ready(function() {
+    $('.suburb-selector').select2({
+        placeholder: "Select a suburb",
+        allowClear: true,
+        minimumInputLength: 3,
+        ajax: {
+            url: "https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/combined-suburbs.json",
+            dataType: 'json',
+            delay: 10,
+            transport: function(params, success, failure) {
+                const cacheKey = 'suburb-cache';
+                const flatVal = localStorage.getItem(cacheKey) ?? '';
+                const [query, strVal, dateStr] = flatVal.split('|');
+                if (query && strVal && dateStr) {
+                    const date = new Date(dateStr);
+                    const expireDate = Date.now() - 24*1000*60*60;
+                    if (date?.getMonth && date > expireDate) {
+                        const value = JSON.parse(strVal);
+                        if (value) success(format_suburb_data(value, params.data.term));
+                        return;
+                    }
+                    localStorage.removeItem(cacheKey); // remove expired
+                }
+                const request = $.ajax(params);
+                request.then(function(data) {
+                    const cacheVal = `${cacheKey}|${JSON.stringify(data)}|${(new Date()).toISOString()}`;
+                    localStorage.setItem(cacheKey, cacheVal);
+                    success(format_suburb_data(data, params.data.term));
+                });
+                request.fail(failure);
+                return request;
+            }
+        }
+    });
+    if (default_suburb != null && default_state != null) {
+        var option = new Option(default_suburb.replace("-", " ").replace(/(^\w|\s\w)/g, m => m.toUpperCase()), default_state + "/" + default_suburb, true, true);
+        $('.suburb-selector').append(option).trigger('change');
+    }
+});
+
+// add legend
+var legend = L.control({ position: 'bottomright' });
+legend.onAdd = function (map) {
+    var div = L.DomUtil.create('div', 'info legend');
+    // include a opacity background over legend
+    div.style.backgroundColor = "#ffffff";
+    div.style.opacity = "0.8";
+    div.style.padding = "5px";
+    div.style.borderRadius = "5px";
+    div.style.width = "150px";
+    var legendHTML = 
+        '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#1D7044" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FTTP<br>' + 
+        '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#75AD6F" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FTTP Upgrade<br>' +
+        '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#C8E3C5" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FTTP Upgrade Soon<br>' +
+        '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#FFBE00" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> HFC<br>' + 
+        '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#FF7E01" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FTTC<br>' +
+        '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#E3071D" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FTTN/FTTB<br>' +
+        '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#C91414" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FW/SAT<br>' +
+        '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#888888" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> Unknown';
+    div.innerHTML = legendHTML;
+    return div;
+}
+legend.addTo(map);
+
+// add link to github repo in bottom left
+var github = L.control({ position: 'bottomleft' });
+github.onAdd = function (map) {
+    var div = L.DomUtil.create('div', 'info');
+    div.style.backgroundColor = "#ffffff";
+    div.style.opacity = "0.8";
+    div.style.padding = "5px";
+    div.style.borderRadius = "5px";
+    div.innerHTML = '<a href="https://github.com/LukePrior/nbn-upgrade-map" target="_blank" style="color: #000000;">View on GitHub</a> | <a href="https://lukeprior.github.io/nbn-upgrade-map/stats" target="_blank" style="color: #000000;">Stats</a>';
+    return div;
+}
+github.addTo(map);
+
+function getColour(tech, upgrade, date, status, generated) {
+    // Already have FTTP
+    if (tech == "FTTP") {
+        return "#1D7044";
+    }
+
+    // Eligible for immediate upgrade
+    if ((status == "Eligible To Order") && (tech == "FTTN" || tech == "FTTC")) {
+        return "#75AD6F";
+    }
+
+    // Eligible for upgrade soon
+    if ((status == "Build Finalised" || status == "MDU Complex Eligible To Apply" || status == "MDU Complex Premises In Build") && (tech == "FTTN" || tech == "FTTC")) {
+        return "#C8E3C5";
+    }
+
+    if (date != null) {
+        [month, year] = date.split(" ")
+        date = new Date(year, ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"].indexOf(month), 1)
+    }
+
+    // Calculate date in reference to when data was fetched
+    var generated = new Date(generated)
+    var diff = (date == null) ? -1 : Math.abs((generated.getFullYear() - date.getFullYear()) * 12 + generated.getMonth() - date.getMonth());
+
+    if (diff < 3 && diff >= 0 && (tech == "FTTN" || tech == "FTTC")) {
+        // Upgrade available in 3 months or less
+        return "#C8E3C5";
+    } else if (diff == -1) {
+        // Legacy FTTP upgrade for records before November 2023
+        switch(upgrade) {
+            case "FTTP_SA":
+                return "#75AD6F";
+            case "FTTP_NA":
+                return "#C8E3C5";
+        }
+    }
+
+    // Non FTTP with no upgrade
+    switch(tech) {
+        case "FTTC":
+            return "#FF7E01";
+        case "FTTB":
+            return "#E3071D";
+        case "FTTN":
+            return "#E3071D";
+        case "HFC":
+            return "#FFBE00";
+        case "WIRELESS":
+            return "#C91414";
+        case "SATELLITE":
+            return "#C91414";
+        case "NULL":
+            return "#888888";
+    }
+
+    // This should never happen
+    return "#000000";
+}
+
+// load GeoJSON from an external file
+async function loadSuburb(state_file, commit, first_load=false) {
+    if (state_file == "") {
+        return;
+    }
+    url = "https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/" + commit + "/results/" + state_file + ".geojson"
+    default_state = state_file.split('/')[0]
+    default_suburb = state_file.split('/')[1]
+    default_commit = commit
+    addControlWithHTML('date-selector', 'Loading...')
+    fetch(url).then(res => res.json()).then(data => {
+        // clear existing markers
+        map.eachLayer(function (layer) {
+            if (layer instanceof L.MarkerClusterGroup) {
+                map.removeLayer(layer);
+            }
+        });
+        var markers = L.markerClusterGroup({
+            showCoverageOnHover: false,
+            zoomToBoundsOnClick: false,
+            maxClusterRadius: 0,
+            iconCreateFunction: function(cluster) {
+                children = cluster.getAllChildMarkers();
+                var techs = [];
+                var upgrades = [];
+                var dates = []
+                var statuss = []
+                for (var child of children) {
+                    techs.push(child.feature.properties.tech);
+                    upgrades.push(child.feature.properties.upgrade);
+                    if ("target_eligibility_quarter" in child.feature.properties) {
+                        dates.push(child.feature.properties.target_eligibility_quarter)
+                    }
+                    if ("tech_change_status" in child.feature.properties) {
+                        statuss.push(child.feature.properties.tech_change_status)
+                    }
+                }
+                var tech = techs.sort((a,b) =>
+                    techs.filter(v => v===a).length
+                    - techs.filter(v => v===b).length
+                ).pop();
+                var upgrade = upgrades.sort((a,b) =>
+                    upgrades.filter(v => v===a).length
+                    - upgrades.filter(v => v===b).length
+                ).pop();
+                var date = dates.sort((a,b) =>
+                    dates.filter(v => v===a).length
+                    - dates.filter(v => v===b).length
+                ).pop();
+                var status = statuss.sort((a,b) =>
+                    statuss.filter(v => v===a).length
+                    - statuss.filter(v => v===b).length
+                ).pop();
+                var color = getColour(tech, upgrade, date, status, data.generated);
+                return L.divIcon({ html: '<div style="background-color: ' + color + '">' + cluster.getChildCount() + '</div>', className: 'marker-cluster' });
+            }
+        });
+        markers.on('clustermouseover', function (a) {
+            if (map.getZoom() > 17) {
+                a.layer.spiderfy();
+            }
+        });
+        // add circle marker for each feature
+        var geojson = L.geoJson(data, {
+            pointToLayer: function (feature, latlng) {
+                var color = getColour(feature.properties.tech, feature.properties.upgrade, feature.properties.target_eligibility_quarter, feature.properties.tech_change_status, data.generated);
+                return L.circleMarker(latlng, {
+                    radius: 5,
+                    fillColor: color,
+                    color: "#000000",
+                    weight: 1,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                });
+            },
+            onEachFeature: function (feature, layer) {
+                // popup with place name and upgrade type
+                var s = "<b>" + feature.properties.name + "</b><br>Location: " + feature.properties.locID + "<br>Current tech: " + feature.properties.tech
+                // legacy FTTP upgrade pre November 2023
+                if (!("target_eligibility_quarter" in feature.properties) && feature.properties.tech != "FTTP" && (feature.properties.tech == "FTTN" || feature.properties.tech == "FTTC")) {
+                    s += "<br>Upgrade available: " + (feature.properties.upgrade == "FTTP_SA" ? "Yes" : (feature.properties.upgrade == "FTTP_NA" ? "Soon" : "No"))
+                }
+                if ("tech_change_status" in feature.properties) {
+                    s += "<br>Tech Change Status: " + feature.properties.tech_change_status
+                }
+                if ("program_type" in feature.properties) {
+                    s += "<br>Program Type: " + feature.properties.program_type
+                }
+                if ("target_eligibility_quarter" in feature.properties) {
+                    s += "<br>Target Eligibility Quarter: " + feature.properties.target_eligibility_quarter
+                }
+
+                layer.bindPopup(s);
+            }
+        })
+        markers.addLayer(geojson);
+        map.addLayer(markers);
+        // Create stats table
+        var stats = L.control({ position: 'bottomright' });
+        stats.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'stats');
+            div.style.backgroundColor = "#ffffff";
+            div.style.opacity = "0.8";
+            div.style.padding = "5px";
+            div.style.borderRadius = "5px";
+            div.style.width = "150px";
+            var statsHTML = '<table><tr><th>Technology</th><th>Count</th></tr>';
+            var techs = {};
+            for (var feature in data["features"]) {
+                feature = data["features"][feature];
+                if (feature.properties.tech in techs) {
+                    techs[feature.properties.tech] += 1;
+                } else {
+                    techs[feature.properties.tech] = 1;
+                }
+            }
+            techs = Object.fromEntries(Object.entries(techs).sort(([, a], [, b]) => b - a));
+            for (var tech in techs) {
+                statsHTML += '<tr><td>' + tech + '</td><td>' + techs[tech] + '</td></tr>';
+            }
+            statsHTML += '</table>';
+            statsHTML += 'As of ' + new Date(data["generated"]).toLocaleDateString("en-AU");
+            [state, file] = state_file.split('/')
+            if (combined_info != null) {
+                for (var suburb of combined_info[state]) {
+                        this_file = suburb.name.toLowerCase().replace(/ /g, "-") // any other sanitisation required? apostrophe OK
+                        if (this_file == file) {
+                            if (suburb.announced_date != null) {
+                                statsHTML += '<br/>Expected: ' + suburb.announced_date;
+                            }
+                            break;
+                        }
+                }
+            }
+
+            div.innerHTML = statsHTML;
+            return div;
+        }
+        if (document.getElementsByClassName("stats").length > 0) {
+            document.getElementsByClassName("stats")[0].remove();
+        }
+        stats.addTo(map);
+
+        var tempUrlParams = new URLSearchParams(window.location.search);
+
+        if (tempUrlParams.has("suburb") && tempUrlParams.has("state")) {
+            if (default_suburb != tempUrlParams.get("suburb") || default_state != tempUrlParams.get("state") || first_load) {
+                map.fitBounds(markers.getBounds());
+            }
+        } else {
+            map.fitBounds(markers.getBounds());
+        }
+
+        // update url
+        window.history.pushState("", "", "?suburb=" + url.split("/").pop().split(".")[0] + "&state=" + url.split("/").slice(-2)[0] + "&commit=" + commit);
+
+        commits_url = "https://api.github.com/repos/LukePrior/nbn-upgrade-map/commits?path=results/" + state_file + ".geojson"
+        fetch(commits_url).then(res => res.json()).then(data => {
+            var dropdownHTML = '<select id="commit" class="commit-selector" onchange="loadSuburb(default_state+&quot;/&quot;+default_suburb, this.value)" style="width: 120px;">';
+            for (const [cid, commit] of Object.entries(data)) {
+                [commit_date, commit_time] = commit.commit.author.date.split('T')
+                commit_date_js = new Date(commit_date)
+                // NBN changed field meanings and we didn't capture new fields
+                if (commit_date_js >= new Date(2023, 9, 22) && commit_date_js <= new Date(2023, 10, 4)) {
+                    continue;
+                }
+                selected_text = (commit.sha == default_commit) ? "selected" : ""
+                dropdownHTML += '<option value=' + commit.sha + ' ' + selected_text + '>' + new Date(commit_date).toLocaleDateString("en-AU") + '</option>';
+            }
+            dropdownHTML += '</select>';
+            addControlWithHTML('date-selector', dropdownHTML)
+            $('.commit-selector').select2();
+        });
+    });
+}
+
+if (default_suburb != null && default_state != null) {
+    loadSuburb(default_state + "/" + default_suburb, default_commit, true);
+}
