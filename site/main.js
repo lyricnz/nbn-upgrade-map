@@ -215,7 +215,7 @@ function getColour(tech, upgrade, date, status, generated) {
 }
 
 // load GeoJSON from an external file
-async function loadSuburb(state_file, commit, first_load=false) {
+function loadSuburb(state_file, commit, first_load=false) {
     if (state_file == "") {
         return;
     }
@@ -232,42 +232,25 @@ async function loadSuburb(state_file, commit, first_load=false) {
             }
         });
         var markers = L.markerClusterGroup({
+            chunkedLoading: true,
+            chunkInterval: 100,
+            chunkDelay: 20,
             showCoverageOnHover: false,
             zoomToBoundsOnClick: false,
             maxClusterRadius: 0,
             iconCreateFunction: function(cluster) {
                 children = cluster.getAllChildMarkers();
-                var techs = [];
-                var upgrades = [];
-                var dates = []
-                var statuss = []
+                var colours = [];
+                
                 for (var child of children) {
-                    techs.push(child.feature.properties.tech);
-                    upgrades.push(child.feature.properties.upgrade);
-                    if ("target_eligibility_quarter" in child.feature.properties) {
-                        dates.push(child.feature.properties.target_eligibility_quarter)
-                    }
-                    if ("tech_change_status" in child.feature.properties) {
-                        statuss.push(child.feature.properties.tech_change_status)
-                    }
+                    colours.push(child.options.fillColor);
                 }
-                var tech = techs.sort((a,b) =>
-                    techs.filter(v => v===a).length
-                    - techs.filter(v => v===b).length
+
+                var color = colours.sort((a, b) =>
+                    colours.filter(v => v === a).length
+                    - colours.filter(v => v === b).length
                 ).pop();
-                var upgrade = upgrades.sort((a,b) =>
-                    upgrades.filter(v => v===a).length
-                    - upgrades.filter(v => v===b).length
-                ).pop();
-                var date = dates.sort((a,b) =>
-                    dates.filter(v => v===a).length
-                    - dates.filter(v => v===b).length
-                ).pop();
-                var status = statuss.sort((a,b) =>
-                    statuss.filter(v => v===a).length
-                    - statuss.filter(v => v===b).length
-                ).pop();
-                var color = getColour(tech, upgrade, date, status, data.generated);
+            
                 return L.divIcon({ html: '<div style="background-color: ' + color + '">' + cluster.getChildCount() + '</div>', className: 'marker-cluster' });
             }
         });
@@ -309,8 +292,8 @@ async function loadSuburb(state_file, commit, first_load=false) {
                 layer.bindPopup(s);
             }
         })
-        markers.addLayer(geojson);
         map.addLayer(markers);
+        markers.addLayer(geojson);
         // Create stats table
         var stats = L.control({ position: 'bottomright' });
         stats.onAdd = function (map) {
@@ -361,10 +344,10 @@ async function loadSuburb(state_file, commit, first_load=false) {
 
         if (tempUrlParams.has("suburb") && tempUrlParams.has("state")) {
             if (default_suburb != tempUrlParams.get("suburb") || default_state != tempUrlParams.get("state") || first_load) {
-                map.fitBounds(markers.getBounds());
+                map.fitBounds(geojson.getBounds());
             }
         } else {
-            map.fitBounds(markers.getBounds());
+            map.fitBounds(geojson.getBounds());
         }
 
         // update url
