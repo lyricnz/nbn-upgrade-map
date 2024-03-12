@@ -67,7 +67,7 @@ def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
         if loc_id := GNAF_PID_TO_LOC.get(address.gnaf_pid):
             address.loc_id = loc_id
         else:
-            address.loc_id = nbn.extended_get_nbn_loc_id(address.gnaf_pid, address.name)
+            address.loc_id = nbn.get_nbn_loc_id(address.gnaf_pid, address.name)
         if address.loc_id and get_status:
             status = nbn.get_nbn_loc_details(address.loc_id)
             address.tech = status["addressDetail"]["techType"]
@@ -75,7 +75,7 @@ def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
             address.tech_change_status = status["addressDetail"].get("techChangeStatus")
             address.program_type = status["addressDetail"].get("programType")
             address.target_eligibility_quarter = status["addressDetail"].get("targetEligibilityQuarter")
-    except requests.exceptions.RequestException as err:
+    except (requests.exceptions.RequestException, ValueError) as err:
         logging.warning("Error fetching NBN data for %s: %s", address.name, err)
     except Exception:
         # gobble all exceptions so we can continue processing!
