@@ -41,8 +41,8 @@ class NBNApi:
         suggestions = result.get("suggestions", [])
         suggestions = [s for s in suggestions if "id" in s and s["id"].startswith("LOC")]
         suggestions = sorted(
-            suggestions, 
-            key=lambda s: difflib.SequenceMatcher(None, address, s["formattedAddress"]).ratio(), 
+            suggestions,
+            key=lambda s: difflib.SequenceMatcher(None, address, s["formattedAddress"]).ratio(),
             reverse=True
         )
         if suggestions:
