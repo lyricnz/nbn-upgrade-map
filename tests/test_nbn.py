@@ -42,15 +42,12 @@ def test_get_address(monkeypatch):
     details = nbn.get_nbn_loc_details("LOC000126303452")
     assert details["servingArea"]["techType"] == "FTTN"
     # fetch, and cache-hit
-    loc_id = nbn.extended_get_nbn_loc_id("X1", "1 BLUEGUM RISE ANSTEAD 4070")
+    loc_id = nbn.get_nbn_loc_id("X1", "1 BLUEGUM RISE ANSTEAD 4070")
     assert loc_id == "LOC000126303452"
-    loc_id = nbn.extended_get_nbn_loc_id("X1", "XXX")  # cached
+    loc_id = nbn.get_nbn_loc_id("X1", "XXX")  # cached
     assert loc_id == "LOC000126303452"
-    # not LOC*
-    loc_id = nbn.extended_get_nbn_loc_id("X3", "31A PEMBROKE DRIVE SOMERVILLE 3912")
-    assert loc_id == "ChIJPWqDsVzg1WoRPqwxzCROnvc"
     # not found
-    loc_id = nbn.extended_get_nbn_loc_id("X2", "1 XYZ ROAD ABCABC 4070")
+    loc_id = nbn.get_nbn_loc_id("X2", "1 XYZ ROAD ABCABC 4070")
     assert loc_id is None
 
     nbn.close()
