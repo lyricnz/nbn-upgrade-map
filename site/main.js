@@ -232,7 +232,6 @@ async function loadSuburb(state_file, commit, first_load=false) {
             }
         });
         var markers = L.markerClusterGroup({
-            chunkedLoading: true,
             showCoverageOnHover: false,
             zoomToBoundsOnClick: false,
             maxClusterRadius: 0,
