@@ -40,13 +40,17 @@ class NBNApi:
         result = self.get_nbn_data_json(self.LOOKUP_URL + urllib.parse.quote(address))
         suggestions = result.get("suggestions", [])
         suggestions = [s for s in suggestions if "id" in s and s["id"].startswith("LOC")]
-        suggestions = sorted(suggestions, key=lambda s: difflib.SequenceMatcher(None, address, s["formattedAddress"]).ratio(), reverse=True)
+        suggestions = sorted(
+            suggestions, 
+            key=lambda s: difflib.SequenceMatcher(None, address, s["formattedAddress"]).ratio(), 
+            reverse=True
+        )
         if suggestions:
             loc_id = result["suggestions"][0]["id"]
             CACHE[key] = loc_id  # cache indefinitely
             return loc_id
         else:
-            # In future use the NBN Nearby API with lat/long to get suggestions and then if close enough match to the address use that.
+            # In future use the NBN Nearby API with lat/long to get suggestions.
             logging.warning("No valid suggestions for %s", address)
 
     def get_nbn_loc_details(self, place_id: str) -> dict:
