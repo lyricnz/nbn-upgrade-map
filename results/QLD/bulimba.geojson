@@ -1,25 +1,8 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-02-08T00:14:47.259016",
+ "generated": "2024-03-14T18:08:57.023652",
  "suburb": "BULIMBA",
  "features": [
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.07060471,
-     -27.45063036
-    ]
-   },
-   "properties": {
-    "name": "154A LYTTON ROAD BULIMBA 4171",
-    "locID": "ChIJyQiL2AxZkWsReao-k9IkngQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD154980118"
-   }
-  },
   {
    "type": "Feature",
    "geometry": {
@@ -228,6 +211,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155077955",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -362,23 +346,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155077981",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.059436,
-     -27.45270535
-    ]
-   },
-   "properties": {
-    "name": "26 SMALLMAN STREET BULIMBA 4171",
-    "locID": "ChIJXyrwW55ZkWsRXWKIFFTtvWE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155077987"
    }
   },
   {
@@ -1726,8 +1693,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155081420",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -1746,8 +1712,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155081427",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -1809,23 +1774,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05280634,
-     -27.44333266
-    ]
-   },
-   "properties": {
-    "name": "137 COUTTS STREET BULIMBA 4171",
-    "locID": "ChIJc36FdqNZkWsRwH-mCrvE9Ts",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155081436"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06040733,
      -27.45312013
     ]
@@ -1874,9 +1822,9 @@
     "name": "36 JAMIESON STREET BULIMBA 4171",
     "locID": "LOC000085697195",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155081443",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2800,7 +2748,7 @@
     "gnaf_pid": "GAQLD155082384",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -4627,23 +4575,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06055178,
-     -27.44307299
-    ]
-   },
-   "properties": {
-    "name": "63 BYRON STREET BULIMBA 4171",
-    "locID": "ChIJ2TADR6dZkWsRv0NwY8AvC0U",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155085244"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06052216,
      -27.44378255
     ]
@@ -4973,23 +4904,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05216576,
-     -27.44294109
-    ]
-   },
-   "properties": {
-    "name": "158 COUTTS STREET BULIMBA 4171",
-    "locID": "ChIJidKWb6NZkWsREsPB87C5s-Q",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155085332"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06045793,
      -27.45283891
     ]
@@ -5058,9 +4972,8 @@
     "name": "14 HOOD STREET BULIMBA 4171",
     "locID": "LOC000097671529",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155086268",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5780,23 +5693,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06823615,
-     -27.44983286
-    ]
-   },
-   "properties": {
-    "name": "124 LYTTON ROAD BULIMBA 4171",
-    "locID": "ChIJ30K6owxZkWsR5aj5yteCj5k",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155087082"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06864015,
      -27.44988388
     ]
@@ -6082,23 +5978,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155087112",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05408577,
-     -27.44736732
-    ]
-   },
-   "properties": {
-    "name": "77A COUTTS STREET BULIMBA 4171",
-    "locID": "ChIJe1n7baJZkWsRM1-8P-O3Ndc",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155087114"
    }
   },
   {
@@ -6408,23 +6287,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06179253,
-     -27.45622504
-    ]
-   },
-   "properties": {
-    "name": "407 HAWTHORNE ROAD BULIMBA 4171",
-    "locID": "ChIJ2baT9Z1ZkWsRWp4WLB0NqAY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155087149"
    }
   },
   {
@@ -6819,23 +6681,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.0572895,
-     -27.45157704
-    ]
-   },
-   "properties": {
-    "name": "111 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJcQWu355ZkWsRJzMNCzK3S-0",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155087203"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05773064,
      -27.45680884
     ]
@@ -7005,23 +6850,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0701499,
-     -27.4485673
-    ]
-   },
-   "properties": {
-    "name": "65 TAYLOR STREET BULIMBA 4171",
-    "locID": "ChIJ8ca5VwxZkWsRwdM-tt2iY6Q",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155087971"
    }
   },
   {
@@ -7650,10 +7478,9 @@
    "properties": {
     "name": "21 COWPER STREET BULIMBA 4171",
     "locID": "LOC000038394838",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155088088",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7987,10 +7814,9 @@
    "properties": {
     "name": "62 MCCONNELL STREET BULIMBA 4171",
     "locID": "LOC000020721427",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155088126",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155088126"
    }
   },
   {
@@ -8948,6 +8774,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155089022",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10199,9 +10026,9 @@
     "name": "20 CARBEEN STREET BULIMBA 4171",
     "locID": "LOC000081631461",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155089972",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10388,10 +10215,9 @@
    "properties": {
     "name": "19 ETON STREET BULIMBA 4171",
     "locID": "LOC000103027981",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155090712",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10564,8 +10390,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155090739",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -11480,9 +11305,8 @@
     "name": "88 BRISBANE STREET BULIMBA 4171",
     "locID": "LOC000106202239",
     "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD155090814",
-    "tech_change_status": "Build Finalised"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155090814"
    }
   },
   {
@@ -11985,10 +11809,10 @@
    "properties": {
     "name": "17 ALE STREET BULIMBA 4171",
     "locID": "LOC000085557555",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAQLD155091514",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -12162,8 +11986,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155091637",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -12182,23 +12005,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155091667",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06540167,
-     -27.44964697
-    ]
-   },
-   "properties": {
-    "name": "72A LYTTON ROAD BULIMBA 4171",
-    "locID": "ChIJ60RyJQtZkWsRqpRVYP8P-eU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155091668"
    }
   },
   {
@@ -12417,23 +12223,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06206181,
-     -27.45477527
-    ]
-   },
-   "properties": {
-    "name": "437 HAWTHORNE ROAD BULIMBA 4171",
-    "locID": "ChIJcX00_3VZkWsRDgY6Ot4xZpA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155091754"
    }
   },
   {
@@ -12786,23 +12575,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05990008,
-     -27.44853082
-    ]
-   },
-   "properties": {
-    "name": "59 WAMBOOL STREET BULIMBA 4171",
-    "locID": "ChIJpzoxO6BZkWsRrgh2zic-USM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156027450"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06098804,
      -27.45004606
     ]
@@ -12851,25 +12623,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156052961",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05406363,
-     -27.45090134
-    ]
-   },
-   "properties": {
-    "name": "37A OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJd47MHZlZkWsRneVtGqpxh88",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156052962"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -12971,23 +12725,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06310301,
-     -27.45211348
-    ]
-   },
-   "properties": {
-    "name": "221 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJdUatc3VZkWsRxEZY-JVkfQ0",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156232049"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06333675,
      -27.45223129
     ]
@@ -13000,7 +12737,7 @@
     "gnaf_pid": "GAQLD156232051",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -13291,23 +13028,6 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156329115"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05526207,
-     -27.45130283
-    ]
-   },
-   "properties": {
-    "name": "67A LOVE STREET BULIMBA 4171",
-    "locID": "ChIJy--uKJlZkWsRWwTIENzVg5Y",
-    "tech": "FTTB",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156329116"
    }
   },
   {
@@ -13742,8 +13462,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156329891",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -13886,23 +13605,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06089152,
-     -27.44699992
-    ]
-   },
-   "properties": {
-    "name": "88 HENDERSON STREET BULIMBA 4171",
-    "locID": "ChIJ8T-EY6BZkWsR4NI1i52iRtE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156329972"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06200017,
      -27.44782575
     ]
@@ -14001,23 +13703,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06119259,
-     -27.4470454
-    ]
-   },
-   "properties": {
-    "name": "94 HENDERSON STREET BULIMBA 4171",
-    "locID": "ChIJqQuffKBZkWsRmgce47cwqSg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156329979"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06129295,
      -27.44706057
     ]
@@ -14051,23 +13736,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0613933,
-     -27.44707573
-    ]
-   },
-   "properties": {
-    "name": "98 HENDERSON STREET BULIMBA 4171",
-    "locID": "ChIJS5ZAfKBZkWsRKSW45zuPABk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156329982"
    }
   },
   {
@@ -14201,23 +13869,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05727811,
-     -27.44547619
-    ]
-   },
-   "properties": {
-    "name": "26 BANYA STREET BULIMBA 4171",
-    "locID": "ChIJx_ABc6FZkWsR6r0wK1ntwTM",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156329991"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05730031,
      -27.44535061
     ]
@@ -14229,23 +13880,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156329992",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05800418,
-     -27.44501816
-    ]
-   },
-   "properties": {
-    "name": "29 BANYA STREET BULIMBA 4171",
-    "locID": "ChIJJVYeF6FZkWsRXld7KVZ_8e4",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156329993"
    }
   },
   {
@@ -14558,23 +14192,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156330020",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05213609,
-     -27.44435582
-    ]
-   },
-   "properties": {
-    "name": "152 COUTTS STREET BULIMBA 4171",
-    "locID": "ChIJ4e6CG6NZkWsRjRde6U1FoE0",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156330021"
    }
   },
   {
@@ -15390,10 +15007,9 @@
    "properties": {
     "name": "31 JAMIESON STREET BULIMBA 4171",
     "locID": "LOC000097405058",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156338567",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15436,23 +15052,6 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06033166,
-     -27.45408575
-    ]
-   },
-   "properties": {
-    "name": "46 JAMIESON STREET BULIMBA 4171",
-    "locID": "ChIJwVSEbZ5ZkWsRuC8cWKBXKao",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156338574"
    }
   },
   {
@@ -15543,9 +15142,8 @@
     "name": "35 JOHNSTON STREET BULIMBA 4171",
     "locID": "LOC000045286398",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAQLD156338619",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156338619"
    }
   },
   {
@@ -15788,23 +15386,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06837142,
-     -27.44856273
-    ]
-   },
-   "properties": {
-    "name": "43A KARTHINA STREET BULIMBA 4171",
-    "locID": "ChIJi83dhQxZkWsRKOGK1hm_D68",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156338636"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06827081,
      -27.44854762
     ]
@@ -15924,23 +15505,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06867328,
-     -27.44860803
-    ]
-   },
-   "properties": {
-    "name": "49 KARTHINA STREET BULIMBA 4171",
-    "locID": "ChIJDSQgiQxZkWsRyFveVfCEjho",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156338643"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.0662286,
      -27.4482411
     ]
@@ -15954,40 +15518,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06877391,
-     -27.44862313
-    ]
-   },
-   "properties": {
-    "name": "55 KARTHINA STREET BULIMBA 4171",
-    "locID": "ChIJvXVqiQxZkWsRtd7E1VVO9uA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156339307"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06887453,
-     -27.44863824
-    ]
-   },
-   "properties": {
-    "name": "57 KARTHINA STREET BULIMBA 4171",
-    "locID": "ChIJtc_diwxZkWsRM7eeoZ1Kt34",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156339308"
    }
   },
   {
@@ -16304,23 +15834,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06748056,
-     -27.44681486
-    ]
-   },
-   "properties": {
-    "name": "112 BOLAN STREET BULIMBA 4171",
-    "locID": "ChIJ9Q09iwtZkWsRx9Ogx2MiOcc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156339394"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06811518,
      -27.44681667
     ]
@@ -16431,57 +15944,6 @@
     "gnaf_pid": "GAQLD156339506",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06160919,
-     -27.44488152
-    ]
-   },
-   "properties": {
-    "name": "34 COWPER STREET BULIMBA 4171",
-    "locID": "ChIJI40kpqBZkWsR_m-QaNVyF5U",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156339509"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06170676,
-     -27.44434366
-    ]
-   },
-   "properties": {
-    "name": "35 COWPER STREET BULIMBA 4171",
-    "locID": "ChIJLw1FqqBZkWsRROSNoaR4Z4I",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156339510"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0620888,
-     -27.45145695
-    ]
-   },
-   "properties": {
-    "name": "214 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJOwXGY3VZkWsREFF1MeQVBus",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156340187"
    }
   },
   {
@@ -16639,23 +16101,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06945919,
-     -27.44717418
-    ]
-   },
-   "properties": {
-    "name": "92 TAYLOR STREET BULIMBA 4171",
-    "locID": "ChIJf2GcQAxZkWsReSRvupt2iEk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156340259"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06947598,
      -27.44708475
     ]
@@ -16716,23 +16161,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06033564,
-     -27.44639453
-    ]
-   },
-   "properties": {
-    "name": "16 TENNYSON STREET BULIMBA 4171",
-    "locID": "ChIJD3jF9KBZkWsR-HkDKuZM11Q",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156340265"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06035283,
      -27.44630484
     ]
@@ -16773,23 +16201,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06037003,
-     -27.44621515
-    ]
-   },
-   "properties": {
-    "name": "20 TENNYSON STREET BULIMBA 4171",
-    "locID": "ChIJaaLIjKBZkWsRZPpx9bzUfnY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156340268"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06038722,
      -27.44612546
     ]
@@ -16803,23 +16214,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06040439,
-     -27.44603577
-    ]
-   },
-   "properties": {
-    "name": "24 TENNYSON STREET BULIMBA 4171",
-    "locID": "ChIJuTfVjKBZkWsR31aH3XX305k",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156340270"
    }
   },
   {
@@ -16982,10 +16376,9 @@
    "properties": {
     "name": "11 KENBURY STREET BULIMBA 4171",
     "locID": "LOC000012770994",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156340295",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156340295"
    }
   },
   {
@@ -17045,23 +16438,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06047315,
-     -27.445677
-    ]
-   },
-   "properties": {
-    "name": "32 TENNYSON STREET BULIMBA 4171",
-    "locID": "ChIJZZ0jk6BZkWsRMfDkTT85v3Q",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156340370"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06049035,
      -27.44558731
     ]
@@ -17102,23 +16478,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06052473,
-     -27.44540793
-    ]
-   },
-   "properties": {
-    "name": "38 TENNYSON STREET BULIMBA 4171",
-    "locID": "ChIJs7LllKBZkWsRLu9T38El1gg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156340373"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06054189,
      -27.44531824
     ]
@@ -17132,23 +16491,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0605591,
-     -27.44522855
-    ]
-   },
-   "properties": {
-    "name": "42 TENNYSON STREET BULIMBA 4171",
-    "locID": "ChIJZQ5JvqBZkWsRIECiJHOsuZ0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156340375"
    }
   },
   {
@@ -17641,23 +16983,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06031788,
-     -27.44999487
-    ]
-   },
-   "properties": {
-    "name": "32 PINE STREET BULIMBA 4171",
-    "locID": "ChIJz9dYjZ9ZkWsRYf8buaDoMcw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156341138"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06089637,
      -27.44985205
     ]
@@ -17734,23 +17059,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06150503,
-     -27.44431278
-    ]
-   },
-   "properties": {
-    "name": "39 COWPER STREET BULIMBA 4171",
-    "locID": "ChIJaW2bq6BZkWsRbtXFhYcglmg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156341144"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06140416,
      -27.44429734
     ]
@@ -17803,23 +17111,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06120244,
-     -27.44426647
-    ]
-   },
-   "properties": {
-    "name": "45 COWPER STREET BULIMBA 4171",
-    "locID": "ChIJtwOfraBZkWsRBTtip-_mhVs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156341149"
    }
   },
   {
@@ -17886,23 +17177,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06079898,
-     -27.44420471
-    ]
-   },
-   "properties": {
-    "name": "53 COWPER STREET BULIMBA 4171",
-    "locID": "ChIJLRjss6BZkWsR6Ahf0onNl9E",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156341153"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06057047,
      -27.44463039
     ]
@@ -17916,23 +17190,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06059726,
-     -27.44417383
-    ]
-   },
-   "properties": {
-    "name": "55A COWPER STREET BULIMBA 4171",
-    "locID": "ChIJLUtOtKBZkWsRSWT1V66fBV0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156341155"
    }
   },
   {
@@ -18160,23 +17417,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05532397,
-     -27.44625881
-    ]
-   },
-   "properties": {
-    "name": "8 THOMPSON STREET BULIMBA 4171",
-    "locID": "ChIJy5eaL6JZkWsRc0EB6g0H5Dk",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156341284"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05587068,
      -27.44645222
     ]
@@ -18341,23 +17581,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06021169,
-     -27.45565101
-    ]
-   },
-   "properties": {
-    "name": "16A WALTER STREET BULIMBA 4171",
-    "locID": "ChIJZR5Mwp1ZkWsRJzTWqyYQNZI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156342026"
    }
   },
   {
@@ -18564,10 +17787,9 @@
    "properties": {
     "name": "40 BYRON STREET BULIMBA 4171",
     "locID": "LOC000053169764",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156342087",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18977,23 +18199,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05802003,
-     -27.44492846
-    ]
-   },
-   "properties": {
-    "name": "31 BANYA STREET BULIMBA 4171",
-    "locID": "ChIJX0upF6FZkWsRqAOOXy6I_Wo",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156342126"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05735748,
      -27.44502713
     ]
@@ -19005,57 +18210,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156342127",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05803585,
-     -27.44483876
-    ]
-   },
-   "properties": {
-    "name": "33 BANYA STREET BULIMBA 4171",
-    "locID": "ChIJnWXPF6FZkWsRElLMkolKxHs",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156342128"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05749755,
-     -27.4442347
-    ]
-   },
-   "properties": {
-    "name": "48 BANYA STREET BULIMBA 4171",
-    "locID": "ChIJU9qgOKFZkWsRN08Rvt0Fa7Q",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156342132"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05751815,
-     -27.44411781
-    ]
-   },
-   "properties": {
-    "name": "52 BANYA STREET BULIMBA 4171",
-    "locID": "ChIJc-1oOKFZkWsR-vsdXFwRzHM",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156342133"
    }
   },
   {
@@ -19412,23 +18566,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05594105,
-     -27.45222753
-    ]
-   },
-   "properties": {
-    "name": "25 GODWIN STREET BULIMBA 4171",
-    "locID": "ChIJM4b0NJlZkWsRlRoKch_hvtU",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156344308"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05576499,
      -27.45244164
     ]
@@ -19457,23 +18594,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156344311"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05586482,
-     -27.45266417
-    ]
-   },
-   "properties": {
-    "name": "35 GODWIN STREET BULIMBA 4171",
-    "locID": "ChIJTVuwS5lZkWsR5miA8HJ6_pI",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156344312"
    }
   },
   {
@@ -19919,23 +19039,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06593343,
-     -27.44911579
-    ]
-   },
-   "properties": {
-    "name": "1A MICHAEL STREET BULIMBA 4171",
-    "locID": "ChIJ19_7FQtZkWsRLtIIYwrkALQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156345115"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06585793,
      -27.44910441
     ]
@@ -19948,23 +19051,6 @@
     "gnaf_pid": "GAQLD156345116",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06636268,
-     -27.44862787
-    ]
-   },
-   "properties": {
-    "name": "10 MICHAEL STREET BULIMBA 4171",
-    "locID": "ChIJOyOUcgtZkWsRlzAuFpTRGZM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156345117"
    }
   },
   {
@@ -20025,23 +19111,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0667252,
-     -27.44925433
-    ]
-   },
-   "properties": {
-    "name": "15 MICHAEL STREET BULIMBA 4171",
-    "locID": "ChIJ4TSjaQtZkWsRRQQsjPrjLAM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156345122"
    }
   },
   {
@@ -20141,23 +19210,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06442814,
-     -27.44886166
-    ]
-   },
-   "properties": {
-    "name": "14A HOOD STREET BULIMBA 4171",
-    "locID": "ChIJIfbi3QpZkWsR92W2lELj5ns",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156345696"
    }
   },
   {
@@ -20342,23 +19394,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05122155,
-     -27.44542098
-    ]
-   },
-   "properties": {
-    "name": "114A QUAY STREET BULIMBA 4171",
-    "locID": "ChIJX4BRw6JZkWsRd23rlNYICwY",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156345738"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05120184,
      -27.44549017
     ]
@@ -20370,23 +19405,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156345739",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05116329,
-     -27.44533557
-    ]
-   },
-   "properties": {
-    "name": "116A QUAY STREET BULIMBA 4171",
-    "locID": "ChIJa5xe26JZkWsRRm3Z3G0IRJk",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156345740"
    }
   },
   {
@@ -20412,23 +19430,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05108655,
-     -27.44515077
-    ]
-   },
-   "properties": {
-    "name": "120 QUAY STREET BULIMBA 4171",
-    "locID": "ChIJRQW926JZkWsRc7EAPW3xjms",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156345743"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05102273,
      -27.4450756
     ]
@@ -20440,23 +19441,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156345744",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05090115,
-     -27.44489248
-    ]
-   },
-   "properties": {
-    "name": "126 QUAY STREET BULIMBA 4171",
-    "locID": "ChIJU1GaJ6NZkWsRPaA5cSNcI08",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156345747"
    }
   },
   {
@@ -20720,40 +19704,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.0594627,
-     -27.45474876
-    ]
-   },
-   "properties": {
-    "name": "67 JAMIESON STREET BULIMBA 4171",
-    "locID": "ChIJ2wGX151ZkWsRWDugX3mCxqA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156345793"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05944429,
-     -27.45485204
-    ]
-   },
-   "properties": {
-    "name": "69 JAMIESON STREET BULIMBA 4171",
-    "locID": "ChIJJ13Z1p1ZkWsRZsgGmN9vByU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156345794"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05946546,
      -27.45495579
     ]
@@ -20785,8 +19735,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156345796",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -21023,10 +19972,9 @@
    "properties": {
     "name": "84 HARRISON STREET BULIMBA 4171",
     "locID": "LOC000096841460",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156345833",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156345833"
    }
   },
   {
@@ -21067,23 +20015,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06853915,
-     -27.44987112
-    ]
-   },
-   "properties": {
-    "name": "128A LYTTON ROAD BULIMBA 4171",
-    "locID": "ChIJV9LbvAxZkWsRweHctU0nvcI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156345845"
    }
   },
   {
@@ -21277,23 +20208,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05227181,
-     -27.44650313
-    ]
-   },
-   "properties": {
-    "name": "73A QUAY STREET BULIMBA 4171",
-    "locID": "ChIJTZodjaJZkWsRCtwmHtiY0yE",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156345862"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05230664,
      -27.44658832
     ]
@@ -21322,23 +20236,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156345864"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05920751,
-     -27.45542581
-    ]
-   },
-   "properties": {
-    "name": "81 JAMIESON STREET BULIMBA 4171",
-    "locID": "ChIJQRk-zJ1ZkWsRrUVwwr4EuH8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156345867"
    }
   },
   {
@@ -21403,23 +20300,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05429378,
-     -27.44903249
-    ]
-   },
-   "properties": {
-    "name": "30A BIRKALLA STREET BULIMBA 4171",
-    "locID": "ChIJu0aJlphZkWsRySweyKDDBTg",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156345876"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05395994,
      -27.45005704
     ]
@@ -21462,10 +20342,9 @@
    "properties": {
     "name": "79A COUTTS STREET BULIMBA 4171",
     "locID": "LOC000126913676",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156345884",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156345884"
    }
   },
   {
@@ -21683,23 +20562,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06810451,
-     -27.4494444
-    ]
-   },
-   "properties": {
-    "name": "39 MICHAEL STREET BULIMBA 4171",
-    "locID": "ChIJIZIsnwxZkWsRQd1-I5AiqMA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156345917"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.0683042,
      -27.44892133
     ]
@@ -21753,23 +20615,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06007636,
-     -27.45118435
-    ]
-   },
-   "properties": {
-    "name": "176 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJuUKQuZ9ZkWsRCCYSPBTHX6g",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346567"
    }
   },
   {
@@ -21875,23 +20720,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05936181,
-     -27.45609108
-    ]
-   },
-   "properties": {
-    "name": "37 CARR STREET BULIMBA 4171",
-    "locID": "ChIJLwaLtp1ZkWsRrgjl5GQwDqg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346581"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05925994,
      -27.45608203
     ]
@@ -21948,23 +20776,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06183958,
-     -27.4542684
-    ]
-   },
-   "properties": {
-    "name": "401 HAWTHORNE ROAD BULIMBA 4171",
-    "locID": "ChIJj2pPi51ZkWsRF9sIC72W-BI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346585"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06125035,
      -27.45572639
     ]
@@ -21975,23 +20786,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156346586"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06129271,
-     -27.45558859
-    ]
-   },
-   "properties": {
-    "name": "404 HAWTHORNE ROAD BULIMBA 4171",
-    "locID": "ChIJpwll-p1ZkWsRXG2W_obRdxA",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346587"
    }
   },
   {
@@ -22244,23 +21038,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06239515,
-     -27.4513996
-    ]
-   },
-   "properties": {
-    "name": "20B NUTTALL STREET BULIMBA 4171",
-    "locID": "ChIJrQWJZnVZkWsRCb6zbX7MUHM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346606"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06236821,
      -27.45090216
     ]
@@ -22314,23 +21091,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06245813,
-     -27.45029324
-    ]
-   },
-   "properties": {
-    "name": "25 NUTTALL STREET BULIMBA 4171",
-    "locID": "ChIJZ8_oUXVZkWsRJefMHSKvRCw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346610"
    }
   },
   {
@@ -22421,10 +21181,9 @@
    "properties": {
     "name": "415 HAWTHORNE ROAD BULIMBA 4171",
     "locID": "LOC000026595271",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156346620",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22767,29 +21526,11 @@
    "properties": {
     "name": "43 CARR STREET BULIMBA 4171",
     "locID": "LOC000093822533",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156346679",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05874968,
-     -27.45603654
-    ]
-   },
-   "properties": {
-    "name": "49 CARR STREET BULIMBA 4171",
-    "locID": "ChIJiax0S5xZkWsRr6JU3rGS2GA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346684"
    }
   },
   {
@@ -22854,23 +21595,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05726259,
-     -27.45069367
-    ]
-   },
-   "properties": {
-    "name": "110 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJSUooPZ9ZkWsRTnil8UiUXQk",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346713"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05748828,
      -27.45072603
     ]
@@ -22881,23 +21605,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156346715"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05766807,
-     -27.4508462
-    ]
-   },
-   "properties": {
-    "name": "122 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJ0ZLQGZ9ZkWsRJXv7DUzgrlo",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346716"
    }
   },
   {
@@ -23180,23 +21887,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.07057368,
-     -27.44734481
-    ]
-   },
-   "properties": {
-    "name": "153 TAYLOR STREET BULIMBA 4171",
-    "locID": "ChIJvcxPNQxZkWsRvm2grL5FK2M",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346762"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06903661,
      -27.44971668
     ]
@@ -23357,23 +22047,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06915482,
-     -27.44879542
-    ]
-   },
-   "properties": {
-    "name": "68 TAYLOR STREET BULIMBA 4171",
-    "locID": "ChIJVxOnjAxZkWsRkL3_ROw4UDc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346774"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06917146,
      -27.44870681
     ]
@@ -23445,23 +22118,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156346797",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05636231,
-     -27.45315335
-    ]
-   },
-   "properties": {
-    "name": "42 GODWIN STREET BULIMBA 4171",
-    "locID": "ChIJke9FsJ5ZkWsRrYrIXM4jYQY",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346798"
    }
   },
   {
@@ -23666,57 +22322,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05994491,
-     -27.44623022
-    ]
-   },
-   "properties": {
-    "name": "25 HARRISON STREET BULIMBA 4171",
-    "locID": "ChIJK86u9KBZkWsRVJPoibWRrcM",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346820"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05928294,
-     -27.44639864
-    ]
-   },
-   "properties": {
-    "name": "26 HARRISON STREET BULIMBA 4171",
-    "locID": "ChIJ7wIAVqBZkWsRfpDrcR7JtvA",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346821"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05996209,
-     -27.44614156
-    ]
-   },
-   "properties": {
-    "name": "27 HARRISON STREET BULIMBA 4171",
-    "locID": "ChIJfZJE8aBZkWsRzzlX-e9yw3g",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346822"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06108066,
      -27.44867729
     ]
@@ -23883,23 +22488,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05938819,
-     -27.44586135
-    ]
-   },
-   "properties": {
-    "name": "38 HARRISON STREET BULIMBA 4171",
-    "locID": "ChIJa08S-6BZkWsRU_cCjL2B0DI",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346842"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.0600721,
      -27.44557422
     ]
@@ -23911,23 +22499,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156346843",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05942328,
-     -27.44568226
-    ]
-   },
-   "properties": {
-    "name": "42 HARRISON STREET BULIMBA 4171",
-    "locID": "ChIJCbzc5KBZkWsRtS-F85AWRq4",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346846"
    }
   },
   {
@@ -24259,23 +22830,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05949343,
-     -27.44532406
-    ]
-   },
-   "properties": {
-    "name": "50 HARRISON STREET BULIMBA 4171",
-    "locID": "ChIJT-5a5qBZkWsRKS9WsKZoVbM",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156346963"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06016061,
      -27.44514999
     ]
@@ -24505,23 +23059,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05527025,
-     -27.45107075
-    ]
-   },
-   "properties": {
-    "name": "63A OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJOz0NKJlZkWsRv35Jtq1BvhQ",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156347515"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05526072,
      -27.4504047
     ]
@@ -24710,40 +23247,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156347534",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0694195,
-     -27.44736817
-    ]
-   },
-   "properties": {
-    "name": "88 TAYLOR STREET BULIMBA 4171",
-    "locID": "ChIJV8QIQQxZkWsRdDwMCFjMnJI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156347538"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06944241,
-     -27.44726361
-    ]
-   },
-   "properties": {
-    "name": "90 TAYLOR STREET BULIMBA 4171",
-    "locID": "ChIJS-rxQAxZkWsR5y1UngKzc9U",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156347539"
    }
   },
   {
@@ -25162,23 +23665,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05853707,
-     -27.44272929
-    ]
-   },
-   "properties": {
-    "name": "33 MCCONNELL STREET BULIMBA 4171",
-    "locID": "ChIJQUgo2qZZkWsRqVezYBstI6s",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156347588"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05843645,
      -27.4427059
     ]
@@ -25190,23 +23676,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156347589",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05833474,
-     -27.44269655
-    ]
-   },
-   "properties": {
-    "name": "37 MCCONNELL STREET BULIMBA 4171",
-    "locID": "ChIJgTrx2qZZkWsRQeEQCBxnXDQ",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156347591"
    }
   },
   {
@@ -25234,23 +23703,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.0671163,
-     -27.44918066
-    ]
-   },
-   "properties": {
-    "name": "64 BOLAN STREET BULIMBA 4171",
-    "locID": "ChIJV9AuZgtZkWsR2tjgEER_t5w",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156347593"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06762054,
      -27.44890827
     ]
@@ -25271,40 +23723,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06709219,
-     -27.44887605
-    ]
-   },
-   "properties": {
-    "name": "68 BOLAN STREET BULIMBA 4171",
-    "locID": "ChIJAdCeZQtZkWsRHufjtuNW-rk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156347595"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06762054,
-     -27.44890827
-    ]
-   },
-   "properties": {
-    "name": "69 BOLAN STREET BULIMBA 4171",
-    "locID": "ChIJFVsvnQxZkWsRUboHw50-L68",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156347596"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.0677439,
      -27.44879051
     ]
@@ -25318,23 +23736,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06714264,
-     -27.44860806
-    ]
-   },
-   "properties": {
-    "name": "72A BOLAN STREET BULIMBA 4171",
-    "locID": "ChIJPeMYewtZkWsR_Is6vn0Veeg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156347599"
    }
   },
   {
@@ -25370,9 +23771,8 @@
     "name": "73 BOLAN STREET BULIMBA 4171",
     "locID": "LOC000006850496",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156347601",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25395,40 +23795,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06718402,
-     -27.44840665
-    ]
-   },
-   "properties": {
-    "name": "76A BOLAN STREET BULIMBA 4171",
-    "locID": "ChIJcWDTewtZkWsRVdx6Z0xa9Ss",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156347604"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06717274,
-     -27.44845372
-    ]
-   },
-   "properties": {
-    "name": "76 BOLAN STREET BULIMBA 4171",
-    "locID": "ChIJMc01egtZkWsRiHF1ybg6vYU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156347605"
    }
   },
   {
@@ -25496,23 +23862,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06721003,
-     -27.44825058
-    ]
-   },
-   "properties": {
-    "name": "80 BOLAN STREET BULIMBA 4171",
-    "locID": "ChIJpyMGeQtZkWsRDD_O0Uj7k2M",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156347609"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06782793,
      -27.44834308
     ]
@@ -25526,23 +23875,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06726064,
-     -27.44798193
-    ]
-   },
-   "properties": {
-    "name": "84 BOLAN STREET BULIMBA 4171",
-    "locID": "ChIJ6YVpggtZkWsRpZ3RUHQJGMk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156347611"
    }
   },
   {
@@ -25641,23 +23973,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05741272,
-     -27.44259141
-    ]
-   },
-   "properties": {
-    "name": "53 MCCONNELL STREET BULIMBA 4171",
-    "locID": "ChIJNT4EuKZZkWsRWRBtQsUusYs",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156347619"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.0550105,
      -27.44545095
     ]
@@ -25723,23 +24038,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156347650",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05540326,
-     -27.44485506
-    ]
-   },
-   "properties": {
-    "name": "75 KENBURY STREET BULIMBA 4171",
-    "locID": "ChIJL0Ll6KNZkWsRYxQda0tjHRg",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156347653"
    }
   },
   {
@@ -25886,29 +24184,11 @@
    "properties": {
     "name": "20 COWPER STREET BULIMBA 4171",
     "locID": "LOC000006670845",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156348328",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06231193,
-     -27.44443628
-    ]
-   },
-   "properties": {
-    "name": "23 COWPER STREET BULIMBA 4171",
-    "locID": "ChIJmWs4AgpZkWsRT4Gqx3IBdGU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156348331"
    }
   },
   {
@@ -26418,23 +24698,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05690347,
-     -27.44253122
-    ]
-   },
-   "properties": {
-    "name": "63 MCCONNELL STREET BULIMBA 4171",
-    "locID": "ChIJQzCBsKZZkWsRmR48nIRHtyE",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156348382"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05671576,
      -27.44310376
     ]
@@ -26506,23 +24769,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05658848,
-     -27.44249983
-    ]
-   },
-   "properties": {
-    "name": "69 MCCONNELL STREET BULIMBA 4171",
-    "locID": "ChIJv6nvr6ZZkWsRI5eCE1i1e3M",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156348388"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05991468,
      -27.44288222
     ]
@@ -26586,23 +24832,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156348392"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05637183,
-     -27.44248542
-    ]
-   },
-   "properties": {
-    "name": "73 MCCONNELL STREET BULIMBA 4171",
-    "locID": "ChIJcStIr6ZZkWsRo1aFTLClgGo",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156348393"
    }
   },
   {
@@ -26705,23 +24934,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05771649,
-     -27.4532612
-    ]
-   },
-   "properties": {
-    "name": "45 STUART STREET BULIMBA 4171",
-    "locID": "ChIJkwK-lp5ZkWsREhbB0lcS9xU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156348401"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05831517,
      -27.45341127
     ]
@@ -26734,40 +24946,6 @@
     "gnaf_pid": "GAQLD156348403",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05811546,
-     -27.44572365
-    ]
-   },
-   "properties": {
-    "name": "27A LANG STREET BULIMBA 4171",
-    "locID": "ChIJUbtpD6FZkWsRTMqR9pyXKJE",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156348443"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05791445,
-     -27.44546517
-    ]
-   },
-   "properties": {
-    "name": "27 LANG STREET BULIMBA 4171",
-    "locID": "ChIJ_ROmG6FZkWsRVzQaGgJlKbQ",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156348444"
    }
   },
   {
@@ -27389,23 +25567,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06729445,
-     -27.44780251
-    ]
-   },
-   "properties": {
-    "name": "88 BOLAN STREET BULIMBA 4171",
-    "locID": "ChIJN8vzgwtZkWsRJOozL45Nwww",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156349300"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06791241,
      -27.44789512
     ]
@@ -27419,23 +25580,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06732825,
-     -27.44762312
-    ]
-   },
-   "properties": {
-    "name": "92 BOLAN STREET BULIMBA 4171",
-    "locID": "ChIJTyqdhgtZkWsRn7EI6EMmWaY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156349304"
    }
   },
   {
@@ -27779,10 +25923,10 @@
    "properties": {
     "name": "22 BYRON STREET BULIMBA 4171",
     "locID": "LOC000016584063",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156349335",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28057,23 +26201,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06319465,
-     -27.44970541
-    ]
-   },
-   "properties": {
-    "name": "25 PARRY STREET BULIMBA 4171",
-    "locID": "ChIJ2ZO6tQpZkWsRbk_EWeYQVFo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156349356"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06284663,
      -27.4501297
     ]
@@ -28124,23 +26251,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06275842,
-     -27.44947154
-    ]
-   },
-   "properties": {
-    "name": "35 PARRY STREET BULIMBA 4171",
-    "locID": "ChIJAQUisgpZkWsRGLNyBToEWnk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156349363"
    }
   },
   {
@@ -28213,10 +26323,10 @@
    "properties": {
     "name": "16 SHAKESPEARE STREET BULIMBA 4171",
     "locID": "LOC000022314431",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156349393",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28238,23 +26348,6 @@
     "gnaf_pid": "GAQLD156349394",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06235417,
-     -27.44537279
-    ]
-   },
-   "properties": {
-    "name": "19 SHAKESPEARE STREET BULIMBA 4171",
-    "locID": "ChIJ9cUlDApZkWsR3dQB5o3zTE8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156349395"
    }
   },
   {
@@ -28295,23 +26388,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06214511,
-     -27.44533159
-    ]
-   },
-   "properties": {
-    "name": "23 SHAKESPEARE STREET BULIMBA 4171",
-    "locID": "ChIJe1LmCwpZkWsRtFhKMs8EHKw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156349398"
    }
   },
   {
@@ -28554,23 +26630,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06154037,
-     -27.44523996
-    ]
-   },
-   "properties": {
-    "name": "35 SHAKESPEARE STREET BULIMBA 4171",
-    "locID": "ChIJyUFDoaBZkWsRgderBxXouP0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156349422"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06163608,
      -27.44580736
     ]
@@ -28619,23 +26678,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156350086"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05408847,
-     -27.44253245
-    ]
-   },
-   "properties": {
-    "name": "46 PORTSIDE PLACE BULIMBA 4171",
-    "locID": "ChIJl3t6dqRZkWsRWXkhhCjNToc",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156350087"
    }
   },
   {
@@ -28787,23 +26829,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05861263,
-     -27.45056692
-    ]
-   },
-   "properties": {
-    "name": "17 PRINCESS STREET BULIMBA 4171",
-    "locID": "ChIJ9fSTC59ZkWsRgMBvMvGrQNw",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156350098"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05802007,
      -27.45025407
     ]
@@ -28894,23 +26919,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06553425,
-     -27.44596562
-    ]
-   },
-   "properties": {
-    "name": "167 APOLLO ROAD BULIMBA 4171",
-    "locID": "ChIJRVlk_QtZkWsR2CJfjzeC9Dw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156350113"
    }
   },
   {
@@ -29226,23 +27234,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06174196,
-     -27.44527051
-    ]
-   },
-   "properties": {
-    "name": "31 SHAKESPEARE STREET BULIMBA 4171",
-    "locID": "ChIJc57GoKBZkWsRYHDkKR7Dpuk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156350144"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06183684,
      -27.44583746
     ]
@@ -29419,23 +27410,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06146044,
-     -27.445781
-    ]
-   },
-   "properties": {
-    "name": "38A SHAKESPEARE STREET BULIMBA 4171",
-    "locID": "ChIJX87-m6BZkWsRnPsnnnUVcrE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156350163"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06153572,
      -27.4457923
     ]
@@ -29449,40 +27423,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0613388,
-     -27.44520942
-    ]
-   },
-   "properties": {
-    "name": "39 SHAKESPEARE STREET BULIMBA 4171",
-    "locID": "ChIJefWYo6BZkWsRjt-NGBGyWTg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156350165"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06133497,
-     -27.44576219
-    ]
-   },
-   "properties": {
-    "name": "40A SHAKESPEARE STREET BULIMBA 4171",
-    "locID": "ChIJh3fRm6BZkWsRpEinqGG2kyw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156350166"
    }
   },
   {
@@ -29542,23 +27482,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06113721,
-     -27.44517887
-    ]
-   },
-   "properties": {
-    "name": "43 SHAKESPEARE STREET BULIMBA 4171",
-    "locID": "ChIJAZywpKBZkWsRkSlSbbVOQ9U",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156350170"
    }
   },
   {
@@ -29674,23 +27597,6 @@
     "gnaf_pid": "GAQLD156350176",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05957938,
-     -27.45207068
-    ]
-   },
-   "properties": {
-    "name": "14 SMALLMAN STREET BULIMBA 4171",
-    "locID": "ChIJpz2mTZ5ZkWsRHYXXtj068rE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156350177"
    }
   },
   {
@@ -30140,23 +28046,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.061467,
-     -27.44615033
-    ]
-   },
-   "properties": {
-    "name": "31A WORDSWORTH STREET BULIMBA 4171",
-    "locID": "ChIJIbJWm6BZkWsRobQXKXIYHUs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156350975"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06156737,
      -27.44616538
     ]
@@ -30402,9 +28291,8 @@
     "name": "32 WORDSWORTH STREET BULIMBA 4171",
     "locID": "LOC000008220138",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156351079",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30447,23 +28335,6 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06126417,
-     -27.44667238
-    ]
-   },
-   "properties": {
-    "name": "36A WORDSWORTH STREET BULIMBA 4171",
-    "locID": "ChIJ5QxUhqBZkWsRL0DFIPlULII",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156351083"
    }
   },
   {
@@ -30562,23 +28433,6 @@
     "gnaf_pid": "GAQLD156351090",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05762497,
-     -27.44878978
-    ]
-   },
-   "properties": {
-    "name": "51 DUKE STREET BULIMBA 4171",
-    "locID": "ChIJnWMI2KFZkWsRU6PfM2Bx4qM",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156351092"
    }
   },
   {
@@ -30750,10 +28604,9 @@
    "properties": {
     "name": "16 CARBEEN STREET BULIMBA 4171",
     "locID": "LOC000050020939",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156351107",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31190,23 +29043,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06386105,
-     -27.4488081
-    ]
-   },
-   "properties": {
-    "name": "25 APOLLO ROAD BULIMBA 4171",
-    "locID": "ChIJBfZcwgpZkWsRbV5JaX7NqoU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156351135"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06320233,
      -27.44933945
     ]
@@ -31311,10 +29147,9 @@
    "properties": {
     "name": "45 APOLLO ROAD BULIMBA 4171",
     "locID": "LOC000093439473",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156351144",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31337,23 +29172,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06315792,
-     -27.44837923
-    ]
-   },
-   "properties": {
-    "name": "49 APOLLO ROAD BULIMBA 4171",
-    "locID": "ChIJR0q0lQpZkWsRIne5zsTvgPk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156351146"
    }
   },
   {
@@ -31512,23 +29330,6 @@
     "gnaf_pid": "GAQLD156351176",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05605499,
-     -27.45157473
-    ]
-   },
-   "properties": {
-    "name": "11 GODWIN STREET BULIMBA 4171",
-    "locID": "ChIJsxJA055ZkWsRvl_LS5ka0MI",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156351183"
    }
   },
   {
@@ -31752,23 +29553,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06783217,
-     -27.44978181
-    ]
-   },
-   "properties": {
-    "name": "116 LYTTON ROAD BULIMBA 4171",
-    "locID": "ChIJ0UCVoAxZkWsRIWbvx44kvE8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156351861"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06791863,
      -27.45043882
     ]
@@ -31914,7 +29698,8 @@
     "locID": "LOC000126953294",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156351873"
+    "gnaf_pid": "GAQLD156351873",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -32046,23 +29831,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06450287,
-     -27.44913877
-    ]
-   },
-   "properties": {
-    "name": "7A APOLLO ROAD BULIMBA 4171",
-    "locID": "ChIJwwch3ApZkWsRFrxe3B73FvY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156351896"
    }
   },
   {
@@ -32330,23 +30098,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05814995,
-     -27.44664975
-    ]
-   },
-   "properties": {
-    "name": "34 HENDERSON STREET BULIMBA 4171",
-    "locID": "ChIJ8bFzpaFZkWsRpraFMsfFz0A",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156351937"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05824988,
      -27.4466636
     ]
@@ -32533,10 +30284,10 @@
    "properties": {
     "name": "21 BULIMBA PARADE BULIMBA 4171",
     "locID": "LOC000021667223",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAQLD156351959",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -32609,23 +30360,6 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156351972",
     "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0513655,
-     -27.44583268
-    ]
-   },
-   "properties": {
-    "name": "106 QUAY STREET BULIMBA 4171",
-    "locID": "ChIJQwR2waJZkWsRJjYncwkg4O4",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156352013"
    }
   },
   {
@@ -32722,23 +30456,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06830504,
-     -27.44947474
-    ]
-   },
-   "properties": {
-    "name": "43 MICHAEL STREET BULIMBA 4171",
-    "locID": "ChIJabpVmAxZkWsRHjmtMeP_hcw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156352044"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06850537,
      -27.44895174
     ]
@@ -32759,57 +30476,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06860595,
-     -27.44896694
-    ]
-   },
-   "properties": {
-    "name": "46 MICHAEL STREET BULIMBA 4171",
-    "locID": "ChIJp-DEjwxZkWsREzTKk7wE9qo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156352047"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06850557,
-     -27.44950508
-    ]
-   },
-   "properties": {
-    "name": "47 MICHAEL STREET BULIMBA 4171",
-    "locID": "ChIJzwSClwxZkWsRTOElAGgJrEE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156352048"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06870652,
-     -27.44898214
-    ]
-   },
-   "properties": {
-    "name": "48 MICHAEL STREET BULIMBA 4171",
-    "locID": "ChIJj4kwjgxZkWsRVoI9vG8JgPA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156352049"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06860583,
      -27.44952026
     ]
@@ -32820,26 +30486,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156352050",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06880709,
-     -27.44899734
-    ]
-   },
-   "properties": {
-    "name": "50 MICHAEL STREET BULIMBA 4171",
-    "locID": "LOC000035865413",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156352052",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -32910,23 +30556,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06306178,
-     -27.4506704
-    ]
-   },
-   "properties": {
-    "name": "11 NUTTALL STREET BULIMBA 4171",
-    "locID": "ChIJqcMLRnVZkWsRipv26mUYRfs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156352057"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06297685,
      -27.45062487
     ]
@@ -32940,23 +30569,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06289192,
-     -27.45057935
-    ]
-   },
-   "properties": {
-    "name": "15 NUTTALL STREET BULIMBA 4171",
-    "locID": "ChIJzeOGRXVZkWsRN5uGGOKVkSk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156352059"
    }
   },
   {
@@ -32991,29 +30603,12 @@
    "properties": {
     "name": "19 NUTTALL STREET BULIMBA 4171",
     "locID": "LOC000079398329",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156352061",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06239923,
-     -27.45154798
-    ]
-   },
-   "properties": {
-    "name": "20A NUTTALL STREET BULIMBA 4171",
-    "locID": "ChIJifBKZHVZkWsRy0Dm3TCYHIs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156352062"
    }
   },
   {
@@ -33176,23 +30771,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.0640206,
-     -27.45064124
-    ]
-   },
-   "properties": {
-    "name": "38A LYTTON ROAD BULIMBA 4171",
-    "locID": "ChIJedwvMHVZkWsRn7SO_Fe2pR8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156353699"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06459086,
      -27.45064124
     ]
@@ -33204,8 +30782,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156353701",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -33306,23 +30883,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06495439,
-     -27.44954127
-    ]
-   },
-   "properties": {
-    "name": "64 LYTTON ROAD BULIMBA 4171",
-    "locID": "ChIJ68ECJwtZkWsR0nQqXIx1XrI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156353711"
    }
   },
   {
@@ -33657,7 +31217,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156353738",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33691,10 +31250,9 @@
    "properties": {
     "name": "10 MCCONNELL STREET BULIMBA 4171",
     "locID": "LOC000001699358",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156353740",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156353740"
    }
   },
   {
@@ -33930,23 +31488,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156354532",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05924574,
-     -27.44279788
-    ]
-   },
-   "properties": {
-    "name": "19 MCCONNELL STREET BULIMBA 4171",
-    "locID": "ChIJqSG9JqdZkWsRij2BNZbEpFY",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156354533"
    }
   },
   {
@@ -34337,23 +31878,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06736205,
-     -27.44744374
-    ]
-   },
-   "properties": {
-    "name": "96 BOLAN STREET BULIMBA 4171",
-    "locID": "ChIJW2ZVjwtZkWsRJqJgf9IENuA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156356259"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06737895,
      -27.44735394
     ]
@@ -34557,23 +32081,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06202027,
-     -27.45091694
-    ]
-   },
-   "properties": {
-    "name": "15 RIDDELL STREET BULIMBA 4171",
-    "locID": "ChIJOTRQXnVZkWsRuL_4AHR8FiI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156356283"
    }
   },
   {
@@ -34969,10 +32476,9 @@
    "properties": {
     "name": "78 MCCONNELL STREET BULIMBA 4171",
     "locID": "LOC000001780904",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156356391",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156356391"
    }
   },
   {
@@ -35094,10 +32600,9 @@
    "properties": {
     "name": "85 MCCONNELL STREET BULIMBA 4171",
     "locID": "LOC000001780904",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156356398",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156356398"
    }
   },
   {
@@ -35116,23 +32621,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156356399",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05565784,
-     -27.44244903
-    ]
-   },
-   "properties": {
-    "name": "87 MCCONNELL STREET BULIMBA 4171",
-    "locID": "ChIJFXWbA6RZkWsRmu2RD63duLY",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156356400"
    }
   },
   {
@@ -35223,23 +32711,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156356405",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0551476,
-     -27.44245981
-    ]
-   },
-   "properties": {
-    "name": "99 MCCONNELL STREET BULIMBA 4171",
-    "locID": "ChIJmXP3BaRZkWsRRFI_ym7hFYw",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156356406"
    }
   },
   {
@@ -35604,9 +33075,8 @@
     "name": "473 HAWTHORNE ROAD BULIMBA 4171",
     "locID": "LOC000009044456",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156356436",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35762,23 +33232,6 @@
     "gnaf_pid": "GAQLD157624153",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06298772,
-     -27.45008384
-    ]
-   },
-   "properties": {
-    "name": "24B PARRY STREET BULIMBA 4171",
-    "locID": "ChIJqZyDS3VZkWsRSACGGvSQsOA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157624154"
    }
   },
   {
@@ -37065,23 +34518,6 @@
     "gnaf_pid": "GAQLD157626819",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0630812,
-     -27.45013455
-    ]
-   },
-   "properties": {
-    "name": "24A PARRY STREET BULIMBA 4171",
-    "locID": "ChIJh-K6S3VZkWsRqYwiumZ39Bc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157626849"
    }
   },
   {
@@ -38394,23 +35830,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06309117,
-     -27.45020086
-    ]
-   },
-   "properties": {
-    "name": "22A PARRY STREET BULIMBA 4171",
-    "locID": "ChIJq_PiS3VZkWsRibMhQMn3UrU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157629586"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.0613374,
      -27.45270328
     ]
@@ -38462,23 +35881,6 @@
     "gnaf_pid": "GAQLD157629590",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06309117,
-     -27.45020086
-    ]
-   },
-   "properties": {
-    "name": "22B PARRY STREET BULIMBA 4171",
-    "locID": "ChIJiczaS3VZkWsR1b07aen_2Zo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157630385"
    }
   },
   {
@@ -40837,23 +38239,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06031515,
-     -27.44296325
-    ]
-   },
-   "properties": {
-    "name": "69B BYRON STREET BULIMBA 4171",
-    "locID": "ChIJYxSSOKdZkWsRpu2z6_nN6v0",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157634269"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05373535,
      -27.44556008
     ]
@@ -41835,23 +39220,6 @@
     "gnaf_pid": "GAQLD157636209",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06293394,
-     -27.45087151
-    ]
-   },
-   "properties": {
-    "name": "22 NUTTALL STREET BULIMBA 4171",
-    "locID": "ChIJIfB-XHVZkWsREQXqowQC3hw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157636211"
    }
   },
   {
@@ -42865,10 +40233,9 @@
    "properties": {
     "name": "UNIT 24, 101 COUTTS STREET BULIMBA 4171",
     "locID": "LOC000096887986",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD157640414",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157640414"
    }
   },
   {
@@ -43309,6 +40676,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157641351",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44169,23 +41537,6 @@
     "gnaf_pid": "GAQLD157643113",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06183958,
-     -27.4542684
-    ]
-   },
-   "properties": {
-    "name": "485 HAWTHORNE ROAD BULIMBA 4171",
-    "locID": "ChIJN2Owg3VZkWsRr1ZHbTBD3b8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157643125"
    }
   },
   {
@@ -45830,23 +43181,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05349353,
-     -27.44299396
-    ]
-   },
-   "properties": {
-    "name": "28 PORTSIDE PLACE BULIMBA 4171",
-    "locID": "ChIJPx1fhKNZkWsRpmf7QupdY4E",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159507151"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06137943,
      -27.44912346
     ]
@@ -46141,108 +43475,6 @@
     ]
    },
    "properties": {
-    "name": "132 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJkZ7ZqZ9ZkWsR5G-K7NvHO-w",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159522907"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05919899,
-     -27.45160286
-    ]
-   },
-   "properties": {
-    "name": "155A OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJNUyYq59ZkWsR8zaRCR45if8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159522909"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05892513,
-     -27.45130794
-    ]
-   },
-   "properties": {
-    "name": "153A OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJkZ7ZqZ9ZkWsRNcqmX-NOcM4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159522910"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05892513,
-     -27.45130794
-    ]
-   },
-   "properties": {
-    "name": "153B OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJkZ7ZqZ9ZkWsRpNgb2-Mbz38",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159522911"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0589228,
-     -27.45156319
-    ]
-   },
-   "properties": {
-    "name": "147A OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJpSZ_qp9ZkWsRo8UtmUMvOgQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159522912"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05892513,
-     -27.45130794
-    ]
-   },
-   "properties": {
-    "name": "141A OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJkZ7ZqZ9ZkWsRNxIYuan1kBI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159522913"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05892513,
-     -27.45130794
-    ]
-   },
-   "properties": {
     "name": "SHOP 2, 77 OXFORD STREET BULIMBA 4171",
     "locID": "LOC000182911884",
     "tech": "FTTC",
@@ -46377,25 +43609,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159522930",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05892513,
-     -27.45130794
-    ]
-   },
-   "properties": {
-    "name": "271 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJJSG15nRZkWsR2QqSbao9_XI",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159522931"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -46728,43 +43942,8 @@
     "name": "54 KENBURY STREET BULIMBA 4171",
     "locID": "LOC000010921169",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAQLD159523457",
-    "tech_change_status": "New Tech Connected"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05185735,
-     -27.4447507
-    ]
-   },
-   "properties": {
-    "name": "115 QUAY STREET BULIMBA 4171",
-    "locID": "ChIJCxhsHqNZkWsRHs1tyObtvT8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159524177"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0523631,
-     -27.44755872
-    ]
-   },
-   "properties": {
-    "name": "138 QUAY STREET BULIMBA 4171",
-    "locID": "ChIJ2yLsJKNZkWsRRPudq1wJTB0",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159524178"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD159523457"
    }
   },
   {
@@ -46960,23 +44139,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06932051,
-     -27.44790877
-    ]
-   },
-   "properties": {
-    "name": "84 TAYLOR STREET BULIMBA 4171",
-    "locID": "ChIJtSzOXAxZkWsRtetvIbzGmLA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159525123"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05377942,
      -27.44641702
     ]
@@ -47014,74 +44176,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06502179,
-     -27.44889402
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 17-19 HOOD STREET BULIMBA 4171",
-    "locID": "ChIJ761xHwtZkWsRwu8s67c0s8k",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159526103"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06502179,
-     -27.44889402
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 17-19 HOOD STREET BULIMBA 4171",
-    "locID": "ChIJ761xHwtZkWsRwu8s67c0s8k",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159526104"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06502179,
-     -27.44889402
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 17-19 HOOD STREET BULIMBA 4171",
-    "locID": "ChIJ761xHwtZkWsRwu8s67c0s8k",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159526105"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06502179,
-     -27.44889402
-    ]
-   },
-   "properties": {
-    "name": "UNIT 4, 17-19 HOOD STREET BULIMBA 4171",
-    "locID": "ChIJ761xHwtZkWsRwu8s67c0s8k",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159526106"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05569347,
      -27.45192938
     ]
@@ -47112,23 +44206,6 @@
     "gnaf_pid": "GAQLD159526788",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05624861,
-     -27.45380465
-    ]
-   },
-   "properties": {
-    "name": "5 CORIO STREET BULIMBA 4171",
-    "locID": "ChIJMwrEAZxZkWsRL-7Z56yfUgk",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159527520"
    }
   },
   {
@@ -47611,23 +44688,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05907345,
-     -27.45158483
-    ]
-   },
-   "properties": {
-    "name": "151A OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJLWBRqp9ZkWsRCfvrtL-UBAA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159537753"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05892513,
      -27.45130794
     ]
@@ -47677,8 +44737,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159537757",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -47697,8 +44756,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159537758",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -47934,40 +44992,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05675304,
-     -27.45072604
-    ]
-   },
-   "properties": {
-    "name": "102A OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJqa1oJZ9ZkWsRudWk-D5Kj-0",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159537776"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05675304,
-     -27.45072604
-    ]
-   },
-   "properties": {
-    "name": "102B OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJqa1oJZ9ZkWsR2q4y2a6vRvI",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159537777"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05778921,
      -27.45092835
     ]
@@ -47997,8 +45021,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159537789",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -48222,8 +45245,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159540192",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -48242,8 +45264,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159540194",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -48281,8 +45302,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159540197",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -48335,8 +45355,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159540200",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -48357,23 +45376,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05940086,
-     -27.45113268
-    ]
-   },
-   "properties": {
-    "name": "158A OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJ6VClpZ9ZkWsRp6JNkVheNf8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159540207"
    }
   },
   {
@@ -48411,25 +45413,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159540209",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05892513,
-     -27.45130794
-    ]
-   },
-   "properties": {
-    "name": "166 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJIcq9r59ZkWsR34uwaEyV0iU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159540210"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -48467,8 +45451,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160702055",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -48486,9 +45469,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160702056",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -48900,8 +45882,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160703474",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -49371,23 +46352,6 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160741726",
     "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05892513,
-     -27.45130794
-    ]
-   },
-   "properties": {
-    "name": "170 OXFORD STREET BULIMBA 4171",
-    "locID": "EioxNzAgT3hmb3JkIFN0LCBCdWxpbWJhIFFMRCA0MTcxLCBBdXN0cmFsaWEiMRIvChQKEgmlQeOwn1mRaxFB0EjMWqMCExCqASoUChIJ17iUqZ9ZkWsRrxva2snCi-0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160741727"
    }
   },
   {
@@ -50473,8 +47437,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160945300",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -51792,23 +48755,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05592611,
-     -27.45556361
-    ]
-   },
-   "properties": {
-    "name": "5 SHORE CRESCENT BULIMBA 4171",
-    "locID": "ChIJ2236iZtZkWsRY7wej-mEP7M",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160984553"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05638549,
      -27.45556949
     ]
@@ -52747,23 +49693,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD160990079",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05565166,
-     -27.45600476
-    ]
-   },
-   "properties": {
-    "name": "81 WATERLINE CRESCENT BULIMBA 4171",
-    "locID": "ChIJ08WIhptZkWsRKRVd8YBetu0",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160990081"
    }
   },
   {
@@ -53725,23 +50654,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05282285,
-     -27.45137791
-    ]
-   },
-   "properties": {
-    "name": "15A ADDISON AVENUE BULIMBA 4171",
-    "locID": "ChIJ74HjpplZkWsRmOUzZdD8QB4",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161043393"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06333212,
      -27.44426996
     ]
@@ -53797,40 +50709,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06170996,
-     -27.44489695
-    ]
-   },
-   "properties": {
-    "name": "32 COWPER STREET BULIMBA 4171",
-    "locID": "ChIJ9-_Qp6BZkWsRVBpEcTUEhiw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161113745"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06050295,
-     -27.44442753
-    ]
-   },
-   "properties": {
-    "name": "54A COWPER STREET BULIMBA 4171",
-    "locID": "ChIJkRxMtqBZkWsRxfEjIiwo51o",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161113746"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05634665,
      -27.45324308
     ]
@@ -53849,23 +50727,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05631533,
-     -27.45342252
-    ]
-   },
-   "properties": {
-    "name": "48 GODWIN STREET BULIMBA 4171",
-    "locID": "ChIJ8yEAr55ZkWsRkIq0EYgrm5A",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161162300"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05849033,
      -27.44490341
     ]
@@ -53876,23 +50737,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161192785"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05321454,
-     -27.44236097
-    ]
-   },
-   "properties": {
-    "name": "104A KENBURY STREET BULIMBA 4171",
-    "locID": "ChIJNQt2f6RZkWsRggZSyo03tN8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161197431"
    }
   },
   {
@@ -55226,23 +52070,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05314858,
-     -27.4546836
-    ]
-   },
-   "properties": {
-    "name": "67B LOVE STREET BULIMBA 4171",
-    "locID": "ChIJGcSuKJlZkWsRfumEcAu3Btk",
-    "tech": "FTTB",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161217422"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06852254,
      -27.45051588
     ]
@@ -55256,74 +52083,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06402532,
-     -27.45092256
-    ]
-   },
-   "properties": {
-    "name": "33A LYTTON ROAD BULIMBA 4171",
-    "locID": "ChIJw2UDJXVZkWsR-pP07MdSmuM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161219243"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06540772,
-     -27.44954864
-    ]
-   },
-   "properties": {
-    "name": "72 LYTTON ROAD BULIMBA 4171",
-    "locID": "ChIJE0nqJAtZkWsR1tpVON6z6DA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161219244"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06162589,
-     -27.45187758
-    ]
-   },
-   "properties": {
-    "name": "UNIT 10, 207 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJ60Z31J9ZkWsRBrSNt6X6jPQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161268226"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06167015,
-     -27.45190258
-    ]
-   },
-   "properties": {
-    "name": "UNIT 11, 207 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJ60Z31J9ZkWsRBrSNt6X6jPQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161268227"
    }
   },
   {
@@ -55439,57 +52198,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06147452,
-     -27.45186993
-    ]
-   },
-   "properties": {
-    "name": "UNIT 7, 207 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJ60Z31J9ZkWsRBrSNt6X6jPQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161268240"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0615362,
-     -27.45184099
-    ]
-   },
-   "properties": {
-    "name": "UNIT 8, 207 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJ60Z31J9ZkWsRBrSNt6X6jPQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161268241"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06158095,
-     -27.45186225
-    ]
-   },
-   "properties": {
-    "name": "UNIT 9, 207 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJ60Z31J9ZkWsRBrSNt6X6jPQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161268242"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05356928,
      -27.44236001
     ]
@@ -55501,23 +52209,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161280837",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05322105,
-     -27.44952699
-    ]
-   },
-   "properties": {
-    "name": "21 QUAY STREET BULIMBA 4171",
-    "locID": "ChIJdzu89ZhZkWsRIcaDPrYrUVo",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161283079"
    }
   },
   {
@@ -55553,74 +52244,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161325821"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05946098,
-     -27.44946382
-    ]
-   },
-   "properties": {
-    "name": "38A WAMBOOL STREET BULIMBA 4171",
-    "locID": "ChIJoUWHhp9ZkWsRZG9IXaGi29w",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161344399"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05942709,
-     -27.44963942
-    ]
-   },
-   "properties": {
-    "name": "38B WAMBOOL STREET BULIMBA 4171",
-    "locID": "ChIJewhXhJ9ZkWsR6l8Im8bUqew",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161344400"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06207424,
-     -27.44651771
-    ]
-   },
-   "properties": {
-    "name": "21A WORDSWORTH STREET BULIMBA 4171",
-    "locID": "ChIJ2SEbeQpZkWsR0BUDopCrfrg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161360074"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05448319,
-     -27.44692546
-    ]
-   },
-   "properties": {
-    "name": "12A KENBURY STREET BULIMBA 4171",
-    "locID": "ChIJKYTVaqJZkWsRaEQd4tBGRpQ",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161368538"
    }
   },
   {
@@ -55814,23 +52437,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06062786,
-     -27.44486979
-    ]
-   },
-   "properties": {
-    "name": "50B TENNYSON STREET BULIMBA 4171",
-    "locID": "ChIJXRkRuaBZkWsR8wcKDU-EN0c",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161669319"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05523956,
      -27.45648108
     ]
@@ -55968,7 +52574,8 @@
     "locID": "LOC000025709999",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161699590"
+    "gnaf_pid": "GAQLD161699590",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -56588,23 +53195,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05301551,
-     -27.45220578
-    ]
-   },
-   "properties": {
-    "name": "25A ADDISON AVENUE BULIMBA 4171",
-    "locID": "ChIJ4wL_nZlZkWsRcUhOIS2ueUU",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161971609"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05388968,
      -27.45222678
     ]
@@ -56832,57 +53422,6 @@
     "gnaf_pid": "GAQLD161973608",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05966129,
-     -27.45444464
-    ]
-   },
-   "properties": {
-    "name": "61 JAMIESON STREET BULIMBA 4171",
-    "locID": "ChIJmXRVeJ5ZkWsRxW_cgD7CIV4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161977740"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0594603,
-     -27.45441587
-    ]
-   },
-   "properties": {
-    "name": "61A JAMIESON STREET BULIMBA 4171",
-    "locID": "ChIJC57_eJ5ZkWsR174AJzG6f_E",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161977741"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05964143,
-     -27.4545575
-    ]
-   },
-   "properties": {
-    "name": "63A JAMIESON STREET BULIMBA 4171",
-    "locID": "ChIJn6QdeJ5ZkWsR_7AAAaopphQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161977742"
    }
   },
   {
@@ -58599,23 +55138,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05760548,
-     -27.45374151
-    ]
-   },
-   "properties": {
-    "name": "1A BARRAMUL STREET BULIMBA 4171",
-    "locID": "ChIJb-_jmJ5ZkWsRHN43yDe_3q0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162120369"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.0567053,
      -27.44351868
     ]
@@ -58654,40 +55176,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06067327,
-     -27.44352742
-    ]
-   },
-   "properties": {
-    "name": "60A BYRON STREET BULIMBA 4171",
-    "locID": "ChIJgXjySKdZkWsR8072VG4pUIw",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162128531"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06946972,
-     -27.44779464
-    ]
-   },
-   "properties": {
-    "name": "59 CARBEEN STREET BULIMBA 4171",
-    "locID": "ChIJQZ4SQwxZkWsRZ-FtBVI4xmU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162129486"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05430993,
      -27.44416197
     ]
@@ -58699,23 +55187,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162134281",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06026763,
-     -27.4445762
-    ]
-   },
-   "properties": {
-    "name": "61 HARRISON STREET BULIMBA 4171",
-    "locID": "ChIJ0V_1t6BZkWsRDLuvNAH70mI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162152773"
    }
   },
   {
@@ -60338,23 +56809,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.0563799,
-     -27.44370546
-    ]
-   },
-   "properties": {
-    "name": "7A MERRY STREET BULIMBA 4171",
-    "locID": "ChIJ84WwUKFZkWsRXIdxpAj3E9w",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162173913"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05298421,
      -27.45086355
     ]
@@ -60400,40 +56854,6 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162189977"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05736386,
-     -27.45450979
-    ]
-   },
-   "properties": {
-    "name": "77 STUART STREET BULIMBA 4171",
-    "locID": "ChIJJfm2GJxZkWsRcir3HK4VH-U",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162197913"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06183958,
-     -27.4542684
-    ]
-   },
-   "properties": {
-    "name": "403 HAWTHORNE ROAD BULIMBA 4171",
-    "locID": "ChIJPca39J1ZkWsRbLsyZ8JXQ1M",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162216291"
    }
   },
   {
@@ -60672,57 +57092,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05517426,
-     -27.45322975
-    ]
-   },
-   "properties": {
-    "name": "100-108 LOVE STREET BULIMBA 4171",
-    "locID": "EigxMDAgTG92ZSBTdCwgQnVsaW1iYSBRTEQgNDE3MSwgQXVzdHJhbGlhIjASLgoUChIJkbVD7ZtZkWsRZRt39hHlCU4QZCoUChIJOSo0sp5ZkWsROGzoXl1Had0",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162304523"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05490825,
-     -27.45111574
-    ]
-   },
-   "properties": {
-    "name": "53-59 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJb4bQJplZkWsRwo5emRRORPs",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162306884"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05565166,
-     -27.45600476
-    ]
-   },
-   "properties": {
-    "name": "11-21 SHORE CRESCENT BULIMBA 4171",
-    "locID": "ChIJ1b6IhptZkWsRbL4cUv4IyWE",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162310051"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05569347,
      -27.45192938
     ]
@@ -60733,23 +57102,6 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162319530"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06829664,
-     -27.45034884
-    ]
-   },
-   "properties": {
-    "name": "123 LYTTON ROAD BULIMBA 4171",
-    "locID": "ChIJT2J6rwxZkWsR3EtnTBTBvU4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162319552"
    }
   },
   {
@@ -60770,40 +57122,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06697103,
-     -27.44975779
-    ]
-   },
-   "properties": {
-    "name": "104 LYTTON ROAD BULIMBA 4171",
-    "locID": "ChIJrS23RAtZkWsRn5wpcledDyQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162356104"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05751766,
-     -27.44293325
-    ]
-   },
-   "properties": {
-    "name": "51A MCCONNELL STREET BULIMBA 4171",
-    "locID": "ChIJ5ZDtyaZZkWsRm7QB2KYURuE",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162357265"
    }
   },
   {
@@ -61118,23 +57436,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05243988,
-     -27.4470649
-    ]
-   },
-   "properties": {
-    "name": "67 QUAY STREET BULIMBA 4171",
-    "locID": "ChIJjUdQj6JZkWsR0BxdUMKD4Ow",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162457867"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05391029,
      -27.45153318
     ]
@@ -61400,23 +57701,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162476321",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0615362,
-     -27.45184099
-    ]
-   },
-   "properties": {
-    "name": "207 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJ60Z31J9ZkWsRBrSNt6X6jPQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162476322"
    }
   },
   {
@@ -63428,57 +59712,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05409558,
-     -27.45371304
-    ]
-   },
-   "properties": {
-    "name": "57 ADDISON AVENUE BULIMBA 4171",
-    "locID": "ChIJ9_5H2ZtZkWsRDwc_7qcWPuY",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162878035"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06633403,
-     -27.44687205
-    ]
-   },
-   "properties": {
-    "name": "61 BALDWIN STREET BULIMBA 4171",
-    "locID": "ChIJqVDxlQtZkWsR_kf-Ir-POjc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162880236"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06553425,
-     -27.44596562
-    ]
-   },
-   "properties": {
-    "name": "70 BALDWIN STREET BULIMBA 4171",
-    "locID": "ChIJd8CzzgtZkWsRJ2uTDhpAgNY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162880237"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05481307,
      -27.45047913
     ]
@@ -63489,23 +59722,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162882048"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06553425,
-     -27.44596562
-    ]
-   },
-   "properties": {
-    "name": "121 BOLAN STREET BULIMBA 4171",
-    "locID": "ChIJd8CzzgtZkWsRpUXq4KFpjzc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162882401"
    }
   },
   {
@@ -63533,23 +59749,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06141815,
-     -27.44886467
-    ]
-   },
-   "properties": {
-    "name": "487 BRISBANE STREET BULIMBA 4171",
-    "locID": "ChIJKdJeD6BZkWsR4is9cAs9m4Y",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162883368"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05449327,
      -27.44737222
     ]
@@ -63561,108 +59760,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162883370",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06553425,
-     -27.44596562
-    ]
-   },
-   "properties": {
-    "name": "10 CARBEEN STREET BULIMBA 4171",
-    "locID": "ChIJd8CzzgtZkWsR5P8TLrNx_Jk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162884967"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06814833,
-     -27.44714611
-    ]
-   },
-   "properties": {
-    "name": "40 CARBEEN STREET BULIMBA 4171",
-    "locID": "ChIJtb_0cwxZkWsRma2OtzTSZKM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162884971"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0694195,
-     -27.44736817
-    ]
-   },
-   "properties": {
-    "name": "64 CARBEEN STREET BULIMBA 4171",
-    "locID": "ChIJn8QIQQxZkWsRIzgIO9dvm1E",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162884972"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05777238,
-     -27.45612792
-    ]
-   },
-   "properties": {
-    "name": "65 CARR STREET BULIMBA 4171",
-    "locID": "ChIJ9dt6Q5xZkWsR9yyfXUHw25Q",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162885212"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05869129,
-     -27.45355447
-    ]
-   },
-   "properties": {
-    "name": "40 ETON STREET BULIMBA 4171",
-    "locID": "ChIJ_-WMiJ5ZkWsR1yg-1b0SeMA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162891829"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06553425,
-     -27.44596562
-    ]
-   },
-   "properties": {
-    "name": "21 HOOD STREET BULIMBA 4171",
-    "locID": "ChIJd8CzzgtZkWsR3eebaANfeHw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162898043"
    }
   },
   {
@@ -63816,23 +59913,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06927712,
-     -27.44614739
-    ]
-   },
-   "properties": {
-    "name": "100 TAYLOR STREET BULIMBA 4171",
-    "locID": "ChIJd8CzzgtZkWsR2HjFfZODAyI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162917425"
    }
   },
   {
@@ -65119,23 +61199,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06456391,
-     -27.44602334
-    ]
-   },
-   "properties": {
-    "name": "157 APOLLO ROAD BULIMBA 4171",
-    "locID": "ChIJoQR0NgpZkWsRsNc623xoQjo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162933117"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05871329,
      -27.44995686
     ]
@@ -65267,108 +61330,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05490825,
-     -27.45111574
-    ]
-   },
-   "properties": {
-    "name": "SHOP 1, 53-57 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJa9HuIJlZkWsRVoLZSILHPIQ",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162976364"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05490825,
-     -27.45111574
-    ]
-   },
-   "properties": {
-    "name": "SHOP 2, 53-57 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJa9HuIJlZkWsRVoLZSILHPIQ",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162976365"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05490825,
-     -27.45111574
-    ]
-   },
-   "properties": {
-    "name": "SHOP 3, 53-57 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJa9HuIJlZkWsRVoLZSILHPIQ",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162976366"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05490825,
-     -27.45111574
-    ]
-   },
-   "properties": {
-    "name": "SHOP 4, 53-57 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJa9HuIJlZkWsRVoLZSILHPIQ",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162976367"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05490825,
-     -27.45111574
-    ]
-   },
-   "properties": {
-    "name": "SHOP 5, 53-57 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJa9HuIJlZkWsRVoLZSILHPIQ",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162976368"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05490825,
-     -27.45111574
-    ]
-   },
-   "properties": {
-    "name": "SHOP 6, 53-57 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJa9HuIJlZkWsRVoLZSILHPIQ",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162976369"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05710305,
      -27.44417349
     ]
@@ -65398,8 +61359,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162996494",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -65419,23 +61379,6 @@
     "gnaf_pid": "GAQLD162996495",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05490825,
-     -27.45111574
-    ]
-   },
-   "properties": {
-    "name": "53-57 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJa9HuIJlZkWsRVoLZSILHPIQ",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162996496"
    }
   },
   {
@@ -65725,40 +61668,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06227695,
-     -27.44682427
-    ]
-   },
-   "properties": {
-    "name": "16 WORDSWORTH STREET BULIMBA 4171",
-    "locID": "ChIJF6jdfQpZkWsRLcpIjgU9J9s",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163072547"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05257642,
-     -27.45265134
-    ]
-   },
-   "properties": {
-    "name": "47A ADDISON AVENUE BULIMBA 4171",
-    "locID": "ChIJuzk-hJlZkWsRvDUT777kSqI",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163095841"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06164013,
      -27.45643738
     ]
@@ -65799,57 +61708,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05856355,
-     -27.45007493
-    ]
-   },
-   "properties": {
-    "name": "25A PRINCESS STREET BULIMBA 4171",
-    "locID": "ChIJQWF0dJ9ZkWsRI-aqmS-TLaY",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163113624"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05849046,
-     -27.45005402
-    ]
-   },
-   "properties": {
-    "name": "25B PRINCESS STREET BULIMBA 4171",
-    "locID": "ChIJtcOSc59ZkWsRtPvanEvsr_U",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163113625"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05841027,
-     -27.45002119
-    ]
-   },
-   "properties": {
-    "name": "25C PRINCESS STREET BULIMBA 4171",
-    "locID": "ChIJtcOSc59ZkWsRhCZ0UTOnYvU",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163113626"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05781582,
      -27.45574636
     ]
@@ -65881,40 +61739,6 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163119067",
     "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05345685,
-     -27.45533302
-    ]
-   },
-   "properties": {
-    "name": "11A WATERLINE CRESCENT BULIMBA 4171",
-    "locID": "ChIJfRHhsZtZkWsRpfLVNL9uh4o",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163119068"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05349965,
-     -27.45617387
-    ]
-   },
-   "properties": {
-    "name": "11B WATERLINE CRESCENT BULIMBA 4171",
-    "locID": "ChIJy7cQB5tZkWsRdNyFYqqiRbI",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163119069"
    }
   },
   {
@@ -65991,40 +61815,6 @@
     "gnaf_pid": "GAQLD163121208",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06199576,
-     -27.45104475
-    ]
-   },
-   "properties": {
-    "name": "11B RIDDELL STREET BULIMBA 4171",
-    "locID": "ChIJkx51YHVZkWsRys6atmHuONU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163127896"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05265864,
-     -27.45103563
-    ]
-   },
-   "properties": {
-    "name": "15B ADDISON AVENUE BULIMBA 4171",
-    "locID": "ChIJw8nKqJlZkWsRSb_FFTDvUZA",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163129375"
    }
   },
   {
@@ -68511,23 +64301,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05739462,
-     -27.45343615
-    ]
-   },
-   "properties": {
-    "name": "7B BARRAMUL STREET BULIMBA 4171",
-    "locID": "ChIJgSpOvZ5ZkWsRHeQLHa_ahow",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD424980945"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06030191,
      -27.44383687
     ]
@@ -68730,23 +64503,6 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD424990444"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06256127,
-     -27.45247339
-    ]
-   },
-   "properties": {
-    "name": "360A RIDING ROAD BULIMBA 4171",
-    "locID": "ChIJt_AEeHVZkWsRFv3GC-n6tm8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD424994429"
    }
   },
   {
@@ -71114,10 +66870,9 @@
    "properties": {
     "name": "26A CAMBRIDGE STREET BULIMBA 4171",
     "locID": "LOC000159970417",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425342502",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -71852,8 +67607,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425499268",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71872,8 +67626,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425499269",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71892,8 +67645,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425499270",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -71934,23 +67686,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05531217,
-     -27.44246251
-    ]
-   },
-   "properties": {
-    "name": "97 MCCONNELL STREET BULIMBA 4171",
-    "locID": "ChIJRwvpBaRZkWsRO9Luutt7dvo",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425544814"
    }
   },
   {
@@ -72050,74 +67785,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05996832,
-     -27.45358572
-    ]
-   },
-   "properties": {
-    "name": "TOWNHOUSE 1, 18 ETON STREET BULIMBA 4171",
-    "locID": "ChIJecRnaZ5ZkWsRgHEHz1D3IDE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425552218"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05996832,
-     -27.45358572
-    ]
-   },
-   "properties": {
-    "name": "TOWNHOUSE 2, 18 ETON STREET BULIMBA 4171",
-    "locID": "ChIJecRnaZ5ZkWsRgHEHz1D3IDE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425552219"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05996832,
-     -27.45358572
-    ]
-   },
-   "properties": {
-    "name": "TOWNHOUSE 3, 18 ETON STREET BULIMBA 4171",
-    "locID": "ChIJecRnaZ5ZkWsRgHEHz1D3IDE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425552220"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05996832,
-     -27.45358572
-    ]
-   },
-   "properties": {
-    "name": "18 ETON STREET BULIMBA 4171",
-    "locID": "ChIJecRnaZ5ZkWsRgHEHz1D3IDE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425552221"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06005333,
      -27.45536784
     ]
@@ -72203,23 +67870,6 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425553418",
     "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05490825,
-     -27.45111574
-    ]
-   },
-   "properties": {
-    "name": "SHOP 1A, 53-57 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJa9HuIJlZkWsRVoLZSILHPIQ",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425553419"
    }
   },
   {
@@ -72353,23 +68003,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05490825,
-     -27.45111574
-    ]
-   },
-   "properties": {
-    "name": "SHOP 3A, 53-57 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJa9HuIJlZkWsRVoLZSILHPIQ",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425553427"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06142388,
      -27.45123667
     ]
@@ -72382,23 +68015,6 @@
     "gnaf_pid": "GAQLD425553428",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05490825,
-     -27.45111574
-    ]
-   },
-   "properties": {
-    "name": "SHOP 3C, 53-57 OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJa9HuIJlZkWsRVoLZSILHPIQ",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425553429"
    }
   },
   {
@@ -75141,23 +70757,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05251428,
-     -27.45054803
-    ]
-   },
-   "properties": {
-    "name": "1C OXFORD STREET BULIMBA 4171",
-    "locID": "ChIJn7n6rJlZkWsRTEyhEjWuwgs",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425797183"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05218459,
      -27.45057785
     ]
@@ -75186,23 +70785,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425797185"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06038902,
-     -27.44692165
-    ]
-   },
-   "properties": {
-    "name": "8 TENNYSON STREET BULIMBA 4171",
-    "locID": "ChIJb5auLfxZkWsRsypjhM1hJy0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425799283"
    }
   },
   {
@@ -77106,23 +72688,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.05921309,
-     -27.45040994
-    ]
-   },
-   "properties": {
-    "name": "UNIT 30, 18A WAMBOOL STREET BULIMBA 4171",
-    "locID": "ChIJIV9En59ZkWsRVLHYq11dBOE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719277476"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05569347,
      -27.45192938
     ]
@@ -77338,23 +72903,6 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719302936"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.05909375,
-     -27.45040015
-    ]
-   },
-   "properties": {
-    "name": "18A WAMBOOL STREET BULIMBA 4171",
-    "locID": "ChIJIV9En59ZkWsRVLHYq11dBOE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719302969"
    }
   },
   {
@@ -77906,8 +73454,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719445900",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -77984,8 +73531,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719446789",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -78043,8 +73589,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719448791",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -78212,8 +73757,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719555821",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -78232,8 +73776,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719556436",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -78251,9 +73794,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719557234",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -78289,8 +73831,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719559531",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -79443,9 +74984,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719725007",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -79464,8 +75004,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719726334",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -79503,8 +75042,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719730411",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -80892,23 +76430,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.0611294,
-     -27.45421537
-    ]
-   },
-   "properties": {
-    "name": "8C BEVIS STREET BULIMBA 4171",
-    "locID": "ChIJe6ioGp5ZkWsRgx5iYl23FUI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719900498"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.05853494,
      -27.4444343
     ]
@@ -81526,23 +77047,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720119975"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06099401,
-     -27.44666032
-    ]
-   },
-   "properties": {
-    "name": "42 WORDSWORTH STREET BULIMBA 4171",
-    "locID": "ChIJ-6lHiKBZkWsR1DMr4j8HkNQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720181001"
    }
   },
   {
@@ -82345,23 +77849,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720312917"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0610563,
-     -27.44287992
-    ]
-   },
-   "properties": {
-    "name": "59A BYRON STREET BULIMBA 4171",
-    "locID": "ChIJkyHMQ6dZkWsRpBtoT3Gfp7M",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720313396"
    }
   },
   {
@@ -84683,23 +80170,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06171387,
-     -27.44297799
-    ]
-   },
-   "properties": {
-    "name": "45A BYRON STREET BULIMBA 4171",
-    "locID": "ChIJF0GvX6dZkWsRxd6WfKyuOX0",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720870441"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06636566,
      -27.44669441
     ]
@@ -84710,23 +80180,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720928065"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06072639,
-     -27.44866981
-    ]
-   },
-   "properties": {
-    "name": "60 PINE STREET BULIMBA 4171",
-    "locID": "ChIJOU1JF6BZkWsRv3laAihRnj4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720928121"
    }
   },
   {
@@ -85656,23 +81109,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.06648678,
-     -27.44959421
-    ]
-   },
-   "properties": {
-    "name": "98 LYTTON ROAD BULIMBA 4171",
-    "locID": "ChIJv7NDQQtZkWsRRLl8nWKSPQI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721079761"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.06783458,
      -27.44894231
     ]
@@ -85686,23 +81122,6 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06365012,
-     -27.45072459
-    ]
-   },
-   "properties": {
-    "name": "32 LYTTON ROAD BULIMBA 4171",
-    "locID": "EikzMiBMeXR0b24gUmQsIEJ1bGltYmEgUUxEIDQxNzEsIEF1c3RyYWxpYSIwEi4KFAoSCQMukjp1WZFrEQCjLcxaowITECAqFAoSCRVCYXINX5FrEWB1UDtdD8c7",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721229858"
    }
   },
   {
