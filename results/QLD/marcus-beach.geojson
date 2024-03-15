@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-02-08T20:32:54.106442",
+ "generated": "2024-03-15T13:42:50.989294",
  "suburb": "MARCUS BEACH",
  "features": [
   {
@@ -1214,6 +1214,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155529252",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2089,9 +2090,8 @@
     "name": "3 HAWTHORN GROVE MARCUS BEACH 4573",
     "locID": "LOC000099962440",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156764743",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2148,10 +2148,10 @@
    "properties": {
     "name": "4 CHERRYWOOD CLOSE MARCUS BEACH 4573",
     "locID": "LOC000050451598",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156767935",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2189,9 +2189,9 @@
     "name": "6 CHERRYWOOD CLOSE MARCUS BEACH 4573",
     "locID": "LOC000061068844",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156767937",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2292,40 +2292,6 @@
     "gnaf_pid": "GAQLD156767944",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09830636,
-     -26.45784945
-    ]
-   },
-   "properties": {
-    "name": "427 DAVID LOW WAY MARCUS BEACH 4573",
-    "locID": "EjM0MjcgRGF2aWQgTG93IFdheSwgTWFyY3VzIEJlYWNoIFFMRCA0NTczLCBBdXN0cmFsaWEiMRIvChQKEgntZAn2om6TaxFWyFxLA_kjyxCrAyoUChIJOc2nmYVuk2sRG_-bK5rOJSg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156767945"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.10139425,
-     -26.45199299
-    ]
-   },
-   "properties": {
-    "name": "437 DAVID LOW WAY MARCUS BEACH 4573",
-    "locID": "ChIJcfO7jKNuk2sR0Z5Rmvmze1Q",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156767946"
    }
   },
   {
@@ -2831,23 +2797,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.09957654,
-     -26.4538215
-    ]
-   },
-   "properties": {
-    "name": "7 JASMIN COURT MARCUS BEACH 4573",
-    "locID": "ChIJF-ZXAqNuk2sRq6nV_TjmVaU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156778707"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.10019221,
      -26.45365483
     ]
@@ -3267,23 +3216,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.0973797,
-     -26.45263397
-    ]
-   },
-   "properties": {
-    "name": "38 MAHOGANY DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJOcwrLKNuk2sRVh12zAnuh3s",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156778746"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.0987129,
      -26.45628086
     ]
@@ -3351,10 +3283,9 @@
    "properties": {
     "name": "43 MAHOGANY DRIVE MARCUS BEACH 4573",
     "locID": "LOC000051651511",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156778751",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3732,7 +3663,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156781947",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5547,23 +5478,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.09639878,
-     -26.45681135
-    ]
-   },
-   "properties": {
-    "name": "11 SANDALWOOD CLOSE MARCUS BEACH 4573",
-    "locID": "ChIJ9U3I75duk2sRMvyam-rKHMI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156810823"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.09686472,
      -26.45646212
     ]
@@ -5592,9 +5506,8 @@
     "name": "13 SANDALWOOD CLOSE MARCUS BEACH 4573",
     "locID": "LOC000060851766",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156810825",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5783,23 +5696,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.09659247,
-     -26.45693686
-    ]
-   },
-   "properties": {
-    "name": "9 SANDALWOOD CLOSE MARCUS BEACH 4573",
-    "locID": "ChIJ1-258Zduk2sRuPZBxK8xjtI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156810853"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.1007751,
      -26.45424888
     ]
@@ -5967,9 +5863,8 @@
     "name": "14 REDWOOD AVENUE MARCUS BEACH 4573",
     "locID": "LOC000053900770",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156813927",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6032,23 +5927,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09937679,
-     -26.45376277
-    ]
-   },
-   "properties": {
-    "name": "22 REDWOOD AVENUE MARCUS BEACH 4573",
-    "locID": "ChIJKdIvHaNuk2sRJvnaGTI8atI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156813932"
    }
   },
   {
@@ -6183,10 +6061,9 @@
    "properties": {
     "name": "36 REDWOOD AVENUE MARCUS BEACH 4573",
     "locID": "LOC000029446181",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156813946",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6488,23 +6365,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09709271,
-     -26.4576871
-    ]
-   },
-   "properties": {
-    "name": "147 PERSIMMON DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJrfCui5duk2sR6A5Q3Pu6Wrc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157008646"
    }
   },
   {
@@ -7282,11 +7142,11 @@
     "name": "UNIT 3, 12 TRISTANIA DRIVE MARCUS BEACH 4573",
     "locID": "LOC000106782263",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD158232283",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "target_eligibility_quarter": "Sep 2023"
    }
   },
   {
@@ -7797,40 +7657,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.0954479,
-     -26.45286964
-    ]
-   },
-   "properties": {
-    "name": "38 HAWTHORN GROVE MARCUS BEACH 4573",
-    "locID": "EjMzOCBIYXd0aG9ybiBHcm92ZSwgTWFyY3VzIEJlYWNoIFFMRCA0NTczLCBBdXN0cmFsaWEiMBIuChQKEglr6t1Mo26TaxFBWB7MWqMCExAmKhQKEgmVCQvQvG6TaxHIvcdh9tI_-g",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160161077"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09597043,
-     -26.45091926
-    ]
-   },
-   "properties": {
-    "name": "43 HAWTHORN GROVE MARCUS BEACH 4573",
-    "locID": "EjM0MyBIYXd0aG9ybiBHcm92ZSwgTWFyY3VzIEJlYWNoIFFMRCA0NTczLCBBdXN0cmFsaWEiMBIuChQKEgn1CFXmvG6TaxGgX2DMWqMCExArKhQKEgmVCQvQvG6TaxHIvcdh9tI_-g",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160161080"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.10071427,
      -26.45554706
     ]
@@ -7987,23 +7813,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.10078794,
-     -26.45406752
-    ]
-   },
-   "properties": {
-    "name": "1 TOONA STREET MARCUS BEACH 4573",
-    "locID": "ChIJAxNyraNuk2sRUZesc7LcFNA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160173621"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.10076281,
      -26.45219164
     ]
@@ -8017,57 +7826,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.10031239,
-     -26.45170444
-    ]
-   },
-   "properties": {
-    "name": "5 ROYENA PLACE MARCUS BEACH 4573",
-    "locID": "ChIJdacqgqNuk2sRnWUb8XgdYv0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160173624"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.10109794,
-     -26.45087601
-    ]
-   },
-   "properties": {
-    "name": "7 ROYENA PLACE MARCUS BEACH 4573",
-    "locID": "ChIJ63fQcaRuk2sRakJNmYZFw2g",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160173625"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.10076281,
-     -26.45219164
-    ]
-   },
-   "properties": {
-    "name": "9 ROYENA PLACE MARCUS BEACH 4573",
-    "locID": "ChIJgXbImqNuk2sRP5cpn8K-wf0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160173626"
    }
   },
   {
@@ -8160,10 +7918,10 @@
    "properties": {
     "name": "38 CALLITRIS CRESCENT MARCUS BEACH 4573",
     "locID": "LOC000024833244",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD160178223",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8206,74 +7964,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09881988,
-     -26.45869411
-    ]
-   },
-   "properties": {
-    "name": "48 CALLITRIS CRESCENT MARCUS BEACH 4573",
-    "locID": "EjM0OCBDYWxsaXRyaXMgQ3JlcywgTWFyY3VzIEJlYWNoIFFMRCA0NTczLCBBdXN0cmFsaWEiMBIuChQKEgkFvhlPmG6TaxHlNkWy8-STQRAwKhQKEgkVMCRPmG6TaxFSTndEnbnqCg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160178228"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09692501,
-     -26.4508172
-    ]
-   },
-   "properties": {
-    "name": "13 PEPPERTREE CLOSE MARCUS BEACH 4573",
-    "locID": "ChIJkRpGqrxuk2sR_KkHa5K4rCs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160179049"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09692501,
-     -26.4508172
-    ]
-   },
-   "properties": {
-    "name": "15 PEPPERTREE CLOSE MARCUS BEACH 4573",
-    "locID": "ChIJkRpGqrxuk2sRRQ11ajiqGOc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160179051"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09573912,
-     -26.45347
-    ]
-   },
-   "properties": {
-    "name": "2 POPLAR PLACE MARCUS BEACH 4573",
-    "locID": "ChIJ68HkIb1uk2sRITFljgPz7eI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160179055"
    }
   },
   {
@@ -8332,176 +8022,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0968556,
-     -26.45672634
-    ]
-   },
-   "properties": {
-    "name": "19 SANDALWOOD CLOSE MARCUS BEACH 4573",
-    "locID": "ChIJ7bDy-Zduk2sRiQIU4eCtTns",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160185824"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0968556,
-     -26.45672634
-    ]
-   },
-   "properties": {
-    "name": "21 SANDALWOOD CLOSE MARCUS BEACH 4573",
-    "locID": "EjIyMSBTYW5kYWx3b29kIENsLCBNYXJjdXMgQmVhY2ggUUxEIDQ1NzMsIEF1c3RyYWxpYSIwEi4KFAoSCddJ8vmXbpNrEXBeHsxaowITEBUqFAoSCddJ8vmXbpNrEaJ1lKLdJMPc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160185826"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09760001,
-     -26.45728921
-    ]
-   },
-   "properties": {
-    "name": "153 PERSIMMON DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJo_BXGZhuk2sROhRC5KsXJQ8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160189382"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09679764,
-     -26.45799166
-    ]
-   },
-   "properties": {
-    "name": "154 PERSIMMON DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJh3Eqj5duk2sRMCEdYu4d7Ic",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160189383"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09679764,
-     -26.45799166
-    ]
-   },
-   "properties": {
-    "name": "157 PERSIMMON DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJh3Eqj5duk2sR_v5qSvUN2JM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160189385"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09679764,
-     -26.45799166
-    ]
-   },
-   "properties": {
-    "name": "159 PERSIMMON DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJh3Eqj5duk2sRgED4vNynblc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160189386"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09927549,
-     -26.45201438
-    ]
-   },
-   "properties": {
-    "name": "62 MAHOGANY DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJvYxMbqNuk2sR9jOq1IWeHtU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160189800"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0993995,
-     -26.45213884
-    ]
-   },
-   "properties": {
-    "name": "64 MAHOGANY DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJARvicaNuk2sREbLHqm0Qmvs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160189802"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09679764,
-     -26.45799166
-    ]
-   },
-   "properties": {
-    "name": "131 PERSIMMON DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJh3Eqj5duk2sR4wTywGeR7js",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160190463"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09679764,
-     -26.45799166
-    ]
-   },
-   "properties": {
-    "name": "133 PERSIMMON DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJh3Eqj5duk2sROigRKgMBnsk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160190464"
    }
   },
   {
@@ -8585,125 +8105,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.10006847,
-     -26.45630329
-    ]
-   },
-   "properties": {
-    "name": "34 TRISTANIA DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJN2huh6Juk2sRLhadRhRc_Jk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160194656"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09679764,
-     -26.45799166
-    ]
-   },
-   "properties": {
-    "name": "135 PERSIMMON DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJh3Eqj5duk2sRfEhelTAk58Y",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160195117"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09679764,
-     -26.45799166
-    ]
-   },
-   "properties": {
-    "name": "137 PERSIMMON DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJh3Eqj5duk2sRDkE2eoTCueI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160195119"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09679764,
-     -26.45799166
-    ]
-   },
-   "properties": {
-    "name": "139 PERSIMMON DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJh3Eqj5duk2sR6T4CAFdtSZs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160195121"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09679764,
-     -26.45799166
-    ]
-   },
-   "properties": {
-    "name": "141 PERSIMMON DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJh3Eqj5duk2sR3Dw-1zCmMj4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160195123"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09653795,
-     -26.45781712
-    ]
-   },
-   "properties": {
-    "name": "145 PERSIMMON DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJJ6AUjpduk2sRH65Ie76ozJ8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160195127"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09736469,
-     -26.452753
-    ]
-   },
-   "properties": {
-    "name": "1B REDWOOD AVENUE MARCUS BEACH 4573",
-    "locID": "ChIJi76JMqNuk2sRSN6b5zRQO7c",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160195199"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.09957654,
      -26.4538215
     ]
@@ -8724,40 +8125,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.09957654,
-     -26.4538215
-    ]
-   },
-   "properties": {
-    "name": "2 JASMIN COURT MARCUS BEACH 4573",
-    "locID": "ChIJF-ZXAqNuk2sRJr6XjcLWNHM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160195307"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09642604,
-     -26.45426776
-    ]
-   },
-   "properties": {
-    "name": "25 MAHOGANY DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJsZMLOr1uk2sRlB_BtgYrgRs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160195921"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.09703229,
      -26.45341133
     ]
@@ -8765,10 +8132,9 @@
    "properties": {
     "name": "32 MAHOGANY DRIVE MARCUS BEACH 4573",
     "locID": "LOC000051651511",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160195926",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8898,57 +8264,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.09854125,
-     -26.45363176
-    ]
-   },
-   "properties": {
-    "name": "50 REDWOOD AVENUE MARCUS BEACH 4573",
-    "locID": "ChIJO5hGIKNuk2sR61JhR9gQLFA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160207274"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09958367,
-     -26.45227338
-    ]
-   },
-   "properties": {
-    "name": "66 MAHOGANY DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJT8TSc6Nuk2sRdbG6Uxm2XFA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160222699"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09973322,
-     -26.45237252
-    ]
-   },
-   "properties": {
-    "name": "68 MAHOGANY DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJ-ySMc6Nuk2sR0a3VFq2yZXU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160222701"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.09861681,
      -26.45897221
     ]
@@ -9066,23 +8381,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.10071007,
-     -26.45324339
-    ]
-   },
-   "properties": {
-    "name": "LOT 1 DAVID LOW WAY MARCUS BEACH 4573",
-    "locID": "Ei9EYXZpZCBMb3cgV2F5LCBNYXJjdXMgQmVhY2ggUUxEIDQ1NzMsIEF1c3RyYWxpYSIuKiwKFAoSCTnNp5mFbpNrERv_myuaziUoEhQKEgn3IIy_u26TaxGAq97zWqMCBQ",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161123181"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.09605494,
      -26.45689254
     ]
@@ -9123,74 +8421,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.09919664,
-     -26.46116352
-    ]
-   },
-   "properties": {
-    "name": "408 DAVID LOW WAY MARCUS BEACH 4573",
-    "locID": "ChIJ9QQKkZluk2sRgloGV381oEA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161433582"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09994385,
-     -26.45460367
-    ]
-   },
-   "properties": {
-    "name": "433 DAVID LOW WAY MARCUS BEACH 4573",
-    "locID": "ChIJtY7g_qJuk2sRZkOGuaAzFi0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161433583"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09910715,
-     -26.45610843
-    ]
-   },
-   "properties": {
-    "name": "LOT 4 DAVID LOW WAY MARCUS BEACH 4573",
-    "locID": "Ei9EYXZpZCBMb3cgV2F5LCBNYXJjdXMgQmVhY2ggUUxEIDQ1NzMsIEF1c3RyYWxpYSIuKiwKFAoSCTnNp5mFbpNrERv_myuaziUoEhQKEgn3IIy_u26TaxGAq97zWqMCBQ",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161433584"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09631902,
-     -26.4553339
-    ]
-   },
-   "properties": {
-    "name": "13A MAHOGANY DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJp5OSUr1uk2sR7ZmKs6zx8-U",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161445296"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.09745154,
      -26.45627329
     ]
@@ -9204,23 +8434,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.09944662,
-     -26.45108271
-    ]
-   },
-   "properties": {
-    "name": "5A ROYENA PLACE MARCUS BEACH 4573",
-    "locID": "ChIJuQvGgqRuk2sRxOAKJ43zDBY",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161456266"
    }
   },
   {
@@ -9267,23 +8480,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.09953946,
-     -26.45711463
-    ]
-   },
-   "properties": {
-    "name": "2 MELALEUCA STREET MARCUS BEACH 4573",
-    "locID": "ChIJZSdJephuk2sRAmJbDIHUJiw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162712741"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.09891966,
      -26.45073146
     ]
@@ -9317,23 +8513,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.10041731,
-     -26.45689397
-    ]
-   },
-   "properties": {
-    "name": "13-25 TRISTANIA DRIVE MARCUS BEACH 4573",
-    "locID": "ChIJU5jpgZhuk2sRoo7SQ4JGoWA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD424870386"
    }
   },
   {
