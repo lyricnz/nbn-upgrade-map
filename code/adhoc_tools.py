@@ -1,4 +1,5 @@
 import argparse
+import csv
 import glob
 import logging
 import os
@@ -255,6 +256,36 @@ def generate_all_suburbs_nbn_tallies():
         tallies["percent"][prop] = {k: f"{100 * v / total_count:.2f}%" for k, v in kvs.items()}
 
     utils.write_json_file("results/all-suburbs-nbn-tallies.json", tallies, indent=1)
+
+
+def generate_state_breakdown():
+    """Generate results/breakdown.STATE.csv containing history of connection-types by state"""
+    output = {}
+    all_ctypes = set()
+    for date, state_info in utils.read_json_file("results/breakdown-suburbs.json").items():
+        logging.info("Processing %s", date)
+        output[date] = {}
+        for state, suburb_list in state_info.items():
+            # logging.info("  State: %s", state)
+            state_tally = {}
+            for suburb, connections in suburb_list.items():
+                # logging.info("    State: %s", suburb)
+                for ctype, ccount in connections.items():
+                    state_tally[ctype] = state_tally.get(ctype, 0) + ccount
+                    all_ctypes.add(ctype)
+            output[date][state] = state_tally
+    utils.write_json_file("results/breakdown-state.json", output)
+
+    # write CSV per state
+    for state in data.STATES:
+        rows = [
+            {"date": date} | {ctype: output[date].get(state, {}).get(ctype, 0) for ctype in all_ctypes}
+            for date in output
+        ]
+        with open(f"results/breakdown.{state}.csv", "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(rows[0].keys())
+            writer.writerows(r.values() for r in rows)
 
 
 if __name__ == "__main__":
