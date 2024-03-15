@@ -1,7 +1,7 @@
+import difflib
 import logging
 import urllib.parse
 
-import difflib
 import diskcache
 import requests
 from requests.adapters import HTTPAdapter
@@ -43,7 +43,7 @@ class NBNApi:
         suggestions = sorted(
             suggestions,
             key=lambda s: difflib.SequenceMatcher(None, address, s["formattedAddress"]).ratio(),
-            reverse=True
+            reverse=True,
         )
         if suggestions:
             loc_id = result["suggestions"][0]["id"]
