@@ -26,8 +26,27 @@
 </head>
 <body>
     <div style="width: 80%; margin: 0 auto;">
+    <select id="region" onchange="loadRegion(this.value)" style="width: 300px;">
+        <option value="">ALL</option>
+        <option value="nsw">NSW</option>
+        <option value="vic">VIC</option>
+        <option value="qld">QLD</option>
+        <option value="sa">SA</option>
+        <option value="wa">WA</option>
+        <option value="tas">TAS</option>
+        <option value="tas">NT</option>
+        <option value="ACT">ACT</option>
+    </select>
+    </div>
+    <script>
+        function loadRegion(region) {
+            window.location.href = window.location.protocol + "//" + window.location.host + window.location.pathname + '?region=' + region;
+        }
+    </script>
+
+    <div style="width: 80%; margin: 0 auto;">
         <!-- Heading for Line Chart -->
-        <h2>Line Chart by Technology</h2>
+        <h2 id="linechart">Line Chart by Technology</h2>
         <!-- Create a taller canvas element to render the line chart -->
         <div style="height: 500px;">
             <canvas id="line-chart"></canvas>
@@ -35,7 +54,7 @@
     </div>
     <div style="width: 80%; margin: 0 auto;">
         <!-- Heading for Pie Chart -->
-        <h2>Pie Chart by Technology</h2>
+        <h2 id="piechart">Pie Chart by Technology</h2>
         <!-- Create a canvas element to render the pie chart -->
         <div style="height: 300px;">
             <canvas id="pie-chart"></canvas>
@@ -50,6 +69,22 @@
         }
 
         var url = region == '' ? '' : '-state';
+
+        // update titles to include the region
+        var regionPrefix = region == '' ? '' : region.toUpperCase() + ": ";
+        document.getElementById("linechart").innerHTML = regionPrefix + "Line Chart by Technology";
+        document.getElementById("piechart").innerHTML = regionPrefix + "Pie Chart by Technology";
+
+        // update the dropdown to match the region
+        var selectElement = document.getElementById('region');
+        for (var i = 0; i < selectElement.options.length; i++) {
+            // If the option value matches the 'region' parameter value, select it
+            if (selectElement.options[i].value === region) {
+                selectElement.options[i].selected = true;
+                break;
+            }
+        }
+
 
         // Function to fetch JSON data
         const fetchData = (() => {
