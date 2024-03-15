@@ -8,16 +8,15 @@ import subprocess
 from collections import Counter, OrderedDict
 from datetime import datetime, timedelta
 
-import requests
-from bs4 import BeautifulSoup
-from tabulate import tabulate
-
 import data
 import db
 import geojson
 import main
+import requests
 import suburbs
 import utils
+from bs4 import BeautifulSoup
+from tabulate import tabulate
 
 NBN_UPGRADE_DATES_URL = (
     "https://www.nbnco.com.au/corporate-information/media-centre/media-statements/nbnco-announces-suburbs-and"
@@ -263,7 +262,7 @@ def generate_state_breakdown():
     """Generate results/breakdown.STATE.csv containing history of connection-types by state"""
     output = {}
     all_ctypes = set()
-    for date, state_info in utils.read_json_file('results/breakdown-suburbs.json').items():
+    for date, state_info in utils.read_json_file("results/breakdown-suburbs.json").items():
         logging.info("Processing %s", date)
         output[date] = {}
         for state, suburb_list in state_info.items():
@@ -275,15 +274,15 @@ def generate_state_breakdown():
                     state_tally[ctype] = state_tally.get(ctype, 0) + ccount
                     all_ctypes.add(ctype)
             output[date][state] = state_tally
-    utils.write_json_file('results/breakdown-state.json', output)
+    utils.write_json_file("results/breakdown-state.json", output)
 
     # write CSV per state
     for state in data.STATES:
         rows = [
-            {'date': date} | {ctype: output[date].get(state, {}).get(ctype, 0) for ctype in all_ctypes}
+            {"date": date} | {ctype: output[date].get(state, {}).get(ctype, 0) for ctype in all_ctypes}
             for date in output
         ]
-        with open(f'results/breakdown.{state}.csv', 'w', newline='') as f:
+        with open(f"results/breakdown.{state}.csv", "w", newline="") as f:
             writer = csv.writer(f)
             writer.writerow(rows[0].keys())
             writer.writerows(r.values() for r in rows)
