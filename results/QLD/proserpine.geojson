@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-02-08T22:05:31.571594",
+ "generated": "2024-03-15T15:25:44.959549",
  "suburb": "PROSERPINE",
  "features": [
   {
@@ -266,23 +266,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58321612,
-     -20.40485954
-    ]
-   },
-   "properties": {
-    "name": "LOT 37 BODE STREET PROSERPINE 4800",
-    "locID": "EiozNyBCb2RlIFN0LCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMBIuChQKEgk1HKecls_ZaxGgTs9X8e4AExAlKhQKEgk1HKecls_ZaxGvs1J8TRmssQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155715727"
    }
   },
   {
@@ -732,8 +715,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155719459",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -1498,23 +1480,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57259699,
-     -20.4000838
-    ]
-   },
-   "properties": {
-    "name": "5 DOHERTY STREET PROSERPINE 4800",
-    "locID": "ChIJ4Qt1CerP2WsR_Ep-f0OlFFw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155728545"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58481366,
      -20.41095511
     ]
@@ -2079,9 +2044,8 @@
     "name": "74 RENWICK ROAD PROSERPINE 4800",
     "locID": "LOC000060475888",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155733093",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3242,40 +3206,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58168647,
-     -20.40242816
-    ]
-   },
-   "properties": {
-    "name": "15 DOBBINS LANE PROSERPINE 4800",
-    "locID": "ChIJYyN37ZXP2WsRTsmaZF_Qgw4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156985155"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58187533,
-     -20.40245464
-    ]
-   },
-   "properties": {
-    "name": "17 DOBBINS LANE PROSERPINE 4800",
-    "locID": "ChIJK5Ti7ZXP2WsRCGwhGIemmrw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156985156"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58704757,
      -20.40417701
     ]
@@ -3287,8 +3217,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156985157",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -4311,40 +4240,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57048795,
-     -20.40421197
-    ]
-   },
-   "properties": {
-    "name": "44 JUPP STREET PROSERPINE 4800",
-    "locID": "Eio0NCBKdXBwIFN0LCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMBIuChQKEglrN5JS6c_ZaxGRas9X8e4AExAsKhQKEgmPZ4tk6c_ZaxFM3_bY6FPibg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156988373"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57048054,
-     -20.40441229
-    ]
-   },
-   "properties": {
-    "name": "46 JUPP STREET PROSERPINE 4800",
-    "locID": "ChIJt5SyTunP2WsRqNvtzQbALBQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156988374"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57039898,
      -20.40499689
     ]
@@ -4964,10 +4859,9 @@
    "properties": {
     "name": "11 CARNATION STREET PROSERPINE 4800",
     "locID": "LOC000042193205",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156988498",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5406,23 +5300,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58244828,
-     -20.40258656
-    ]
-   },
-   "properties": {
-    "name": "25 DOBBINS LANE PROSERPINE 4800",
-    "locID": "ChIJl0Xa5JXP2WsRQAOHnwucMXY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156992248"
    }
   },
   {
@@ -7558,23 +7435,6 @@
     ]
    },
    "properties": {
-    "name": "28 TAYLOR STREET PROSERPINE 4800",
-    "locID": "ChIJC2DqtL3P2WsRTB9YaHEo6IA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156998819"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58487554,
-     -20.40028776
-    ]
-   },
-   "properties": {
     "name": "30 TAYLOR STREET PROSERPINE 4800",
     "locID": "LOC000044433583",
     "tech": "FTTP",
@@ -7583,23 +7443,6 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58487554,
-     -20.40028776
-    ]
-   },
-   "properties": {
-    "name": "32 TAYLOR STREET PROSERPINE 4800",
-    "locID": "ChIJVSzRrL3P2WsReVPBNVcIpnQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156998821"
    }
   },
   {
@@ -7808,10 +7651,9 @@
    "properties": {
     "name": "9 TELFORD STREET PROSERPINE 4800",
     "locID": "LOC000016640335",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156998843",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7872,23 +7714,6 @@
     "gnaf_pid": "GAQLD156998848",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58259494,
-     -20.40255844
-    ]
-   },
-   "properties": {
-    "name": "27 DOBBINS LANE PROSERPINE 4800",
-    "locID": "ChIJ1RxW45XP2WsR04eXYiKydDw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156999231"
    }
   },
   {
@@ -8083,10 +7908,9 @@
    "properties": {
     "name": "10 EDDIE STREET PROSERPINE 4800",
     "locID": "LOC000072478040",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156999263",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8129,23 +7953,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57901599,
-     -20.40794754
-    ]
-   },
-   "properties": {
-    "name": "8 PEPPER STREET PROSERPINE 4800",
-    "locID": "ChIJm2qEFJPP2WsRJWV1wIvdPec",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156999271"
    }
   },
   {
@@ -8584,23 +8391,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.5856314,
-     -20.40811749
-    ]
-   },
-   "properties": {
-    "name": "2 PINDAR PLACE PROSERPINE 4800",
-    "locID": "ChIJK-gyKpHP2WsRXUHUYbL38xw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156999303"
    }
   },
   {
@@ -9125,23 +8915,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58721752,
-     -20.40306868
-    ]
-   },
-   "properties": {
-    "name": "144 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJmcsA4JfP2WsRoUgzNtt1iag",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157002451"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58739033,
      -20.40316414
     ]
@@ -9573,23 +9346,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.5660158,
-     -20.39853422
-    ]
-   },
-   "properties": {
-    "name": "8 FOXLEE STREET PROSERPINE 4800",
-    "locID": "ChIJ_6hhqsLP2WsRoqMxR8SDqKU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157002491"
    }
   },
   {
@@ -10508,23 +10264,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.59317688,
-     -20.40675634
-    ]
-   },
-   "properties": {
-    "name": "30 GARDENIA STREET PROSERPINE 4800",
-    "locID": "ChIJU1uLIJnP2WsRW-SZPHHBZZ0",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157005900"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.59313756,
      -20.40651704
     ]
@@ -10535,23 +10274,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157005901"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59307057,
-     -20.40629798
-    ]
-   },
-   "properties": {
-    "name": "34 GARDENIA STREET PROSERPINE 4800",
-    "locID": "ChIJAf_y3ZjP2WsRDdqP7midfn8",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157005902"
    }
   },
   {
@@ -11841,10 +11563,10 @@
    "properties": {
     "name": "30 CHAPMAN STREET PROSERPINE 4800",
     "locID": "LOC000065959708",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD157009551",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12554,10 +12276,9 @@
    "properties": {
     "name": "184 MAIN STREET PROSERPINE 4800",
     "locID": "LOC000055599891",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157012439",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12884,23 +12605,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.59296396,
-     -20.40599927
-    ]
-   },
-   "properties": {
-    "name": "38 GARDENIA STREET PROSERPINE 4800",
-    "locID": "ChIJQSMd6ZjP2WsRDRKoBzQQh6g",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157012910"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.59243391,
      -20.40652991
     ]
@@ -12994,23 +12698,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59113955,
-     -20.40719329
-    ]
-   },
-   "properties": {
-    "name": "49 GARDENIA STREET PROSERPINE 4800",
-    "locID": "ChIJG-J5ppnP2WsRrycSM77dm5o",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157012917"
    }
   },
   {
@@ -13876,40 +13563,6 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58152769,
-     -20.40334632
-    ]
-   },
-   "properties": {
-    "name": "10 ROBERT STREET PROSERPINE 4800",
-    "locID": "ChIJOwaiwJXP2WsRzyjtj_mOiDk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157013374"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58149454,
-     -20.40361251
-    ]
-   },
-   "properties": {
-    "name": "12 ROBERT STREET PROSERPINE 4800",
-    "locID": "ChIJyxcYuJXP2WsR6g-Y6OO1U98",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157013375"
    }
   },
   {
@@ -14931,23 +14584,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58634984,
-     -20.40179582
-    ]
-   },
-   "properties": {
-    "name": "20 BLAIR STREET PROSERPINE 4800",
-    "locID": "ChIJsb3TcL3P2WsRAyGfbyJz5ZE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157019427"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58668207,
      -20.39997893
     ]
@@ -15414,23 +15050,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58495069,
-     -20.40293895
-    ]
-   },
-   "properties": {
-    "name": "34 HERBERT STREET PROSERPINE 4800",
-    "locID": "ChIJlXXwJZbP2WsRFKoTeSBE9b0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157023306"
    }
   },
   {
@@ -16373,23 +15992,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.59154913,
-     -20.40740867
-    ]
-   },
-   "properties": {
-    "name": "23 ROSE STREET PROSERPINE 4800",
-    "locID": "ChIJH_GiD5nP2WsRceFbkilxsNw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157023772"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.59184129,
      -20.4088425
     ]
@@ -16989,23 +16591,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57864822,
-     -20.40629891
-    ]
-   },
-   "properties": {
-    "name": "47 HINSCHEN STREET PROSERPINE 4800",
-    "locID": "ChIJmcAgoJTP2WsR2fZ0aUC8N3g",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157027011"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57945228,
      -20.40188536
     ]
@@ -17238,23 +16823,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59229323,
-     -20.40702425
-    ]
-   },
-   "properties": {
-    "name": "35 ROSE STREET PROSERPINE 4800",
-    "locID": "ChIJsfbaGpnP2WsR9pCjpDqS28o",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157027451"
    }
   },
   {
@@ -19121,10 +18689,9 @@
    "properties": {
     "name": "1 HOLMES STREET PROSERPINE 4800",
     "locID": "LOC000097737155",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157037394",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19521,10 +19088,10 @@
    "properties": {
     "name": "69 MAIN STREET PROSERPINE 4800",
     "locID": "LOC000045443969",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD157037545",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20467,23 +20034,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.5705434,
-     -20.40399943
-    ]
-   },
-   "properties": {
-    "name": "42 JUPP STREET PROSERPINE 4800",
-    "locID": "ChIJwycgRenP2WsRLNbQnX5eJYo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157386924"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57403693,
      -20.40481138
     ]
@@ -20788,23 +20338,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58202364,
-     -20.40036362
-    ]
-   },
-   "properties": {
-    "name": "13A MILL STREET PROSERPINE 4800",
-    "locID": "ChIJC0LmbL7P2WsRbmJVGXO4euU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158483171"
    }
   },
   {
@@ -21482,23 +21015,6 @@
     "gnaf_pid": "GAQLD158487787",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58024238,
-     -20.4046065
-    ]
-   },
-   "properties": {
-    "name": "24 SMITH STREET PROSERPINE 4800",
-    "locID": "ChIJY72sV5TP2WsRe6yGm0a7BN4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158487794"
    }
   },
   {
@@ -22415,23 +21931,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58607204,
-     -20.40079599
-    ]
-   },
-   "properties": {
-    "name": "11 EDWARD STREET PROSERPINE 4800",
-    "locID": "ChIJu4AfCb3P2WsRTxPBEnU03FA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158494934"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58682135,
      -20.40230727
     ]
@@ -22465,23 +21964,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57136252,
-     -20.40052139
-    ]
-   },
-   "properties": {
-    "name": "121 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJRfNT9unP2WsRtaqnqTP7pzI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158494939"
    }
   },
   {
@@ -22795,23 +22277,6 @@
     "gnaf_pid": "GAQLD158495859",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58682135,
-     -20.40230727
-    ]
-   },
-   "properties": {
-    "name": "97 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJZYY6ZL3P2WsRNyL-HJe6UDU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158495860"
    }
   },
   {
@@ -23246,23 +22711,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58304008,
-     -20.40513481
-    ]
-   },
-   "properties": {
-    "name": "51 CHAPMAN STREET PROSERPINE 4800",
-    "locID": "ChIJI4hggpbP2WsRUJ-YBluapq8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158501425"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58628077,
      -20.39992741
     ]
@@ -23296,23 +22744,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.588688,
-     -20.40756404
-    ]
-   },
-   "properties": {
-    "name": "73 HANSEN DRIVE PROSERPINE 4800",
-    "locID": "ChIJD0ewWJfP2WsR9VUg1cfb0Bs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158501445"
    }
   },
   {
@@ -24159,23 +23590,6 @@
     "gnaf_pid": "GAQLD158508930",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58142727,
-     -20.40216458
-    ]
-   },
-   "properties": {
-    "name": "10 DOBBINS LANE PROSERPINE 4800",
-    "locID": "ChIJUa_gjJXP2WsRg7H1AAuvh_U",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158508932"
    }
   },
   {
@@ -25747,10 +25161,9 @@
    "properties": {
     "name": "35 FULJAMES STREET PROSERPINE 4800",
     "locID": "LOC000093199736",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158514454",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25852,23 +25265,6 @@
     "gnaf_pid": "GAQLD158514806",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58262164,
-     -20.39981924
-    ]
-   },
-   "properties": {
-    "name": "9 WAITE STREET PROSERPINE 4800",
-    "locID": "ChIJJXmIeb7P2WsROiUjWRC-kMs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158514807"
    }
   },
   {
@@ -26188,23 +25584,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57315798,
-     -20.4030403
-    ]
-   },
-   "properties": {
-    "name": "22 LURLINE DRIVE PROSERPINE 4800",
-    "locID": "ChIJqb4ntOvP2WsR92khV2hYRoU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158516243"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57958252,
      -20.40322661
     ]
@@ -26448,23 +25827,6 @@
     "gnaf_pid": "GAQLD158521214",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58390176,
-     -20.40225061
-    ]
-   },
-   "properties": {
-    "name": "98B MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJH3e9HZbP2WsRRGZjT0o2DbU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158521221"
    }
   },
   {
@@ -26762,23 +26124,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58064102,
-     -20.40329504
-    ]
-   },
-   "properties": {
-    "name": "17B MARATHON STREET PROSERPINE 4800",
-    "locID": "ChIJOYX3pJXP2WsRAbx-ndcprfQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158524747"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.5904147,
      -20.4058255
     ]
@@ -26847,23 +26192,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59180118,
-     -20.4050688
-    ]
-   },
-   "properties": {
-    "name": "186 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJSS-Q9JjP2WsR1U6LURmGgGQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158526384"
    }
   },
   {
@@ -26986,23 +26314,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58383116,
-     -20.40220409
-    ]
-   },
-   "properties": {
-    "name": "96 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJ9eZ2HZbP2WsRbkJZ1bUbsoU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158526453"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58444464,
      -20.40440369
     ]
@@ -27118,23 +26429,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58165565,
-     -20.40037712
-    ]
-   },
-   "properties": {
-    "name": "14 MILL STREET PROSERPINE 4800",
-    "locID": "ChIJecLRar7P2WsRJafhx7X-PbA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158526467"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58352298,
      -20.40116268
     ]
@@ -27148,23 +26442,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58682135,
-     -20.40230727
-    ]
-   },
-   "properties": {
-    "name": "95 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJZYY6ZL3P2WsR7cl4keABDwI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158526573"
    }
   },
   {
@@ -27475,7 +26752,7 @@
     "name": "38 SPALLA DRIVE PROSERPINE 4800",
     "locID": "LOC000033488127",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158528618",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -27731,10 +27008,9 @@
    "properties": {
     "name": "18 FLORENCE STREET PROSERPINE 4800",
     "locID": "LOC000065832729",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158530135",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28187,23 +27463,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58565873,
-     -20.40111997
-    ]
-   },
-   "properties": {
-    "name": "15 HERBERT STREET PROSERPINE 4800",
-    "locID": "ChIJLZY2oL3P2WsRe5RyoGMhXRs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158533238"
    }
   },
   {
@@ -29064,40 +28323,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58934657,
-     -20.40132196
-    ]
-   },
-   "properties": {
-    "name": "LOT 13 BRUCE HIGHWAY PROSERPINE 4800",
-    "locID": "EiwxMyBCcnVjZSBId3ksIFByb3NlcnBpbmUgUUxEIDQ4MDAsIEF1c3RyYWxpYSIwEi4KFAoSCfVhchm9z9lrEeWrYN1MU-9WEA0qFAoSCa0amS0fh5NrETz9t7i22LhA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD158958542"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58607204,
-     -20.40079599
-    ]
-   },
-   "properties": {
-    "name": "9 EDWARD STREET PROSERPINE 4800",
-    "locID": "ChIJu4AfCb3P2WsRbWiRuRdSrDc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160432229"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58649433,
      -20.40125373
     ]
@@ -29130,40 +28355,6 @@
     "gnaf_pid": "GAQLD160435493",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58036293,
-     -20.40735783
-    ]
-   },
-   "properties": {
-    "name": "20 STANBURY STREET PROSERPINE 4800",
-    "locID": "ChIJpepqg5PP2WsRWdp3eLGVX4g",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160437185"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58036293,
-     -20.40735783
-    ]
-   },
-   "properties": {
-    "name": "22 STANBURY STREET PROSERPINE 4800",
-    "locID": "ChIJpepqg5PP2WsROEks-VuCoUg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160437186"
    }
   },
   {
@@ -29308,23 +28499,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58279405,
-     -20.40207617
-    ]
-   },
-   "properties": {
-    "name": "72 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJB9uo_5XP2WsRgigGNuTQiwk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160438268"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58390176,
      -20.40225061
     ]
@@ -29358,23 +28532,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58421285,
-     -20.40247415
-    ]
-   },
-   "properties": {
-    "name": "104 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJ34UfH5bP2WsRTsBPd_gNeFA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160438291"
    }
   },
   {
@@ -29534,23 +28691,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58270177,
-     -20.40211483
-    ]
-   },
-   "properties": {
-    "name": "68 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJX8bm_pXP2WsRPYumqBXa1XQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160438556"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58226991,
      -20.40349476
     ]
@@ -29603,108 +28743,6 @@
     "gnaf_pid": "GAQLD160438577",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58260832,
-     -20.4035322
-    ]
-   },
-   "properties": {
-    "name": "37 MARATHON STREET PROSERPINE 4800",
-    "locID": "ChIJP_io3pXP2WsRTZYQ4kSMgwE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160438580"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58299465,
-     -20.40357181
-    ]
-   },
-   "properties": {
-    "name": "39 MARATHON STREET PROSERPINE 4800",
-    "locID": "ChIJP2TydZbP2WsRO7_EspSFTdA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160438581"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58338443,
-     -20.40361852
-    ]
-   },
-   "properties": {
-    "name": "41 MARATHON STREET PROSERPINE 4800",
-    "locID": "ChIJm2yjc5bP2WsRNptllWqus6Q",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160438582"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.585606,
-     -20.40369727
-    ]
-   },
-   "properties": {
-    "name": "63 MARATHON STREET PROSERPINE 4800",
-    "locID": "ChIJY9-uNZbP2WsR3QgGlh3RxEw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160438586"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58581928,
-     -20.40372057
-    ]
-   },
-   "properties": {
-    "name": "65 MARATHON STREET PROSERPINE 4800",
-    "locID": "ChIJY-TUypfP2WsR5CxTwEWTxi8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160438587"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58603608,
-     -20.40374526
-    ]
-   },
-   "properties": {
-    "name": "67 MARATHON STREET PROSERPINE 4800",
-    "locID": "ChIJDZyyy5fP2WsRbmE6OrHBUfc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160438588"
    }
   },
   {
@@ -29789,23 +28827,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58449617,
-     -20.40552389
-    ]
-   },
-   "properties": {
-    "name": "25 FLORENCE STREET PROSERPINE 4800",
-    "locID": "ChIJo_ns8pbP2WsRUPQqaYpuQOo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160440189"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58476698,
      -20.40499494
     ]
@@ -29819,40 +28840,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58471239,
-     -20.40598351
-    ]
-   },
-   "properties": {
-    "name": "19 FLORENCE STREET PROSERPINE 4800",
-    "locID": "ChIJI8L465bP2WsRYu9ipvt0Ds0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160440193"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58465437,
-     -20.40644477
-    ]
-   },
-   "properties": {
-    "name": "21 FLORENCE STREET PROSERPINE 4800",
-    "locID": "ChIJZU-fwZbP2WsRpG8skdueIis",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160440194"
    }
   },
   {
@@ -29927,10 +28914,10 @@
    "properties": {
     "name": "23 FULLER STREET PROSERPINE 4800",
     "locID": "LOC000093261338",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD160440315",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30018,57 +29005,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58199443,
-     -20.40028311
-    ]
-   },
-   "properties": {
-    "name": "11 MILL STREET PROSERPINE 4800",
-    "locID": "ChIJ6TbKbb7P2WsRtaZhVmTPggI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160442577"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58192612,
-     -20.40072384
-    ]
-   },
-   "properties": {
-    "name": "17 MILL STREET PROSERPINE 4800",
-    "locID": "ChIJ2SvwE77P2WsRaRZtkji3bR4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160442580"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58189931,
-     -20.40093727
-    ]
-   },
-   "properties": {
-    "name": "19 MILL STREET PROSERPINE 4800",
-    "locID": "ChIJ0fLVEL7P2WsRHRvfLKJmxOE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160442581"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58371619,
      -20.40387891
     ]
@@ -30081,23 +29017,6 @@
     "gnaf_pid": "GAQLD160442583",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58131907,
-     -20.40179983
-    ]
-   },
-   "properties": {
-    "name": "24 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJE5VTipXP2WsRgBg8M6IziVI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160443239"
    }
   },
   {
@@ -30355,23 +29274,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57518694,
-     -20.40499067
-    ]
-   },
-   "properties": {
-    "name": "29 ANZAC ROAD PROSERPINE 4800",
-    "locID": "ChIJG06Vb-vP2WsRAiDlmN2SopY",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160443310"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57358749,
      -20.40375055
     ]
@@ -30404,40 +29306,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57358749,
-     -20.40375055
-    ]
-   },
-   "properties": {
-    "name": "34 ANZAC ROAD PROSERPINE 4800",
-    "locID": "ChIJ967joOvP2WsRuAxaUGVEGVM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160443314"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57358749,
-     -20.40375055
-    ]
-   },
-   "properties": {
-    "name": "36 ANZAC ROAD PROSERPINE 4800",
-    "locID": "ChIJ967joOvP2WsRfpEpTEgx2yg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160443315"
    }
   },
   {
@@ -30575,23 +29443,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58532075,
-     -20.40178089
-    ]
-   },
-   "properties": {
-    "name": "30 HERBERT STREET PROSERPINE 4800",
-    "locID": "ChIJqTsym73P2WsRuxgtlWyv80A",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160445253"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58927499,
      -20.40683951
     ]
@@ -30643,8 +29494,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160447672",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -30663,8 +29513,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160447677",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -30745,23 +29594,6 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58200345,
-     -20.40198255
-    ]
-   },
-   "properties": {
-    "name": "40 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJK9-X9pXP2WsRUB47-mk8sHQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160447692"
    }
   },
   {
@@ -30899,8 +29731,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160447722",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -30965,40 +29796,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58595297,
-     -20.40295431
-    ]
-   },
-   "properties": {
-    "name": "128 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJrUVw05fP2WsR4prfOszL-ns",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160447727"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58608867,
-     -20.40296925
-    ]
-   },
-   "properties": {
-    "name": "130 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJw4zy05fP2WsREQtGu8GWl5U",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160447728"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58928689,
      -20.40315547
     ]
@@ -31032,23 +29829,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58682135,
-     -20.40230727
-    ]
-   },
-   "properties": {
-    "name": "137 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJZYY6ZL3P2WsRsBROHl-QYWw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160447733"
    }
   },
   {
@@ -31108,23 +29888,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58199955,
-     -20.39993186
-    ]
-   },
-   "properties": {
-    "name": "7 MILL STREET PROSERPINE 4800",
-    "locID": "ChIJOeFlb77P2WsRGY65nff68N8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160447924"
    }
   },
   {
@@ -31285,23 +30048,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58570532,
-     -20.40606556
-    ]
-   },
-   "properties": {
-    "name": "39 RUGE STREET PROSERPINE 4800",
-    "locID": "ChIJcZVD4pbP2WsRJYfGy4Fj9uc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160447976"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57581122,
      -20.40280699
     ]
@@ -31315,23 +30061,6 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58725304,
-     -20.40759252
-    ]
-   },
-   "properties": {
-    "name": "14 TROJAN COURT PROSERPINE 4800",
-    "locID": "ChIJ1yWNSZfP2WsRn5dmklBLL9s",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160448020"
    }
   },
   {
@@ -31483,23 +30212,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58902232,
-     -20.40363091
-    ]
-   },
-   "properties": {
-    "name": "160 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJIZWyBJjP2WsRd5wr6xKpcOs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160448381"
    }
   },
   {
@@ -31690,8 +30402,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160448456",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -31812,23 +30523,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57945228,
-     -20.40188536
-    ]
-   },
-   "properties": {
-    "name": "5A HINSCHEN STREET PROSERPINE 4800",
-    "locID": "ChIJlW-8epXP2WsRL78FtjoXFKo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160449197"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58943184,
      -20.40910967
     ]
@@ -31840,91 +30534,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160449245",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57136252,
-     -20.40052139
-    ]
-   },
-   "properties": {
-    "name": "111 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJRfNT9unP2WsRrgQjRztZJ1g",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160450918"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57136252,
-     -20.40052139
-    ]
-   },
-   "properties": {
-    "name": "113 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJRfNT9unP2WsR3uSpNy2szL8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160450919"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57136252,
-     -20.40052139
-    ]
-   },
-   "properties": {
-    "name": "115 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJRfNT9unP2WsRTBNBR_gbQ8M",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160450921"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57136252,
-     -20.40052139
-    ]
-   },
-   "properties": {
-    "name": "117 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJRfNT9unP2WsRab44ejcfvJ4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160450923"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57136252,
-     -20.40052139
-    ]
-   },
-   "properties": {
-    "name": "119 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJRfNT9unP2WsRtXKJZ_rCdmU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160450925"
    }
   },
   {
@@ -31989,23 +30598,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57358749,
-     -20.40375055
-    ]
-   },
-   "properties": {
-    "name": "38 ANZAC ROAD PROSERPINE 4800",
-    "locID": "ChIJ967joOvP2WsRkDafr-bpf6k",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160452415"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57417949,
      -20.40450901
     ]
@@ -32019,23 +30611,6 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57358749,
-     -20.40375055
-    ]
-   },
-   "properties": {
-    "name": "40 ANZAC ROAD PROSERPINE 4800",
-    "locID": "ChIJ967joOvP2WsRde0k0lEJ-LI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160452417"
    }
   },
   {
@@ -32135,40 +30710,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57298129,
-     -20.40439666
-    ]
-   },
-   "properties": {
-    "name": "51 ANZAC ROAD PROSERPINE 4800",
-    "locID": "ChIJS1clk-vP2WsRU4Mvb39cIMU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160452427"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57586211,
-     -20.40519756
-    ]
-   },
-   "properties": {
-    "name": "21 ANZAC ROAD PROSERPINE 4800",
-    "locID": "ChIJ4WSxQuvP2WsRWqyVt2hk0_c",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160452441"
    }
   },
   {
@@ -32347,8 +30888,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160457113",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -32367,8 +30907,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160457114",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -32447,8 +30986,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160457122",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -32467,8 +31005,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160457123",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -32647,23 +31184,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.5835245,
-     -20.40548701
-    ]
-   },
-   "properties": {
-    "name": "11 BODE STREET PROSERPINE 4800",
-    "locID": "ChIJ96_cmpbP2WsRrDRkbewVIQI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160461801"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57649872,
      -20.4026976
     ]
@@ -32716,40 +31236,6 @@
     "gnaf_pid": "GAQLD160461854",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57373626,
-     -20.40252122
-    ]
-   },
-   "properties": {
-    "name": "7 EDDIE STREET PROSERPINE 4800",
-    "locID": "ChIJPekTVOrP2WsRivNb6duM_eI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160462768"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.5735075,
-     -20.40252849
-    ]
-   },
-   "properties": {
-    "name": "13 EDDIE STREET PROSERPINE 4800",
-    "locID": "ChIJj7C2TerP2WsRBsGevVo3FYk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160462774"
    }
   },
   {
@@ -32815,227 +31301,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57171507,
-     -20.40023816
-    ]
-   },
-   "properties": {
-    "name": "69A FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJDfkAA-rP2WsRqpmpPyC0oS8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160463720"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.569611,
-     -20.40059284
-    ]
-   },
-   "properties": {
-    "name": "86A FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJn5Vvx-nP2WsRK-kFFtO2Pyk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160463723"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.569611,
-     -20.40059284
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 86 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJn5Vvx-nP2WsRO5N0iC_Rgoc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160463724"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.569611,
-     -20.40059284
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 86 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJn5Vvx-nP2WsRO5N0iC_Rgoc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160463725"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.569611,
-     -20.40059284
-    ]
-   },
-   "properties": {
-    "name": "UNIT 4, 86 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJn5Vvx-nP2WsRO5N0iC_Rgoc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160463726"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.569611,
-     -20.40059284
-    ]
-   },
-   "properties": {
-    "name": "UNIT 5, 86 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJn5Vvx-nP2WsRO5N0iC_Rgoc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160463727"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.569611,
-     -20.40059284
-    ]
-   },
-   "properties": {
-    "name": "UNIT 6, 86 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJn5Vvx-nP2WsRO5N0iC_Rgoc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160463728"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.569611,
-     -20.40059284
-    ]
-   },
-   "properties": {
-    "name": "UNIT 7, 86 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJn5Vvx-nP2WsRO5N0iC_Rgoc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160463729"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.569611,
-     -20.40059284
-    ]
-   },
-   "properties": {
-    "name": "UNIT 8, 86 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJn5Vvx-nP2WsRO5N0iC_Rgoc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160463730"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.569611,
-     -20.40059284
-    ]
-   },
-   "properties": {
-    "name": "UNIT 9, 86 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJn5Vvx-nP2WsRO5N0iC_Rgoc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160463731"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.569611,
-     -20.40059284
-    ]
-   },
-   "properties": {
-    "name": "UNIT 10, 86 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJn5Vvx-nP2WsRO5N0iC_Rgoc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160463732"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.569611,
-     -20.40059284
-    ]
-   },
-   "properties": {
-    "name": "UNIT 11, 86 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJn5Vvx-nP2WsRO5N0iC_Rgoc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160463733"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.569611,
-     -20.40059284
-    ]
-   },
-   "properties": {
-    "name": "UNIT 12, 86 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJn5Vvx-nP2WsRO5N0iC_Rgoc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160463734"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57143544,
      -20.40426561
     ]
@@ -33047,8 +31312,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160464039",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -33328,23 +31592,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.56655277,
-     -20.39862598
-    ]
-   },
-   "properties": {
-    "name": "10 KANANDAH STREET PROSERPINE 4800",
-    "locID": "ChIJhxfnp8LP2WsRvTHUUnd7jOk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160468541"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57434318,
      -20.40368571
     ]
@@ -33483,23 +31730,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.569611,
-     -20.40059284
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 86 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJn5Vvx-nP2WsRO5N0iC_Rgoc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160469690"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.56916233,
      -20.39894451
     ]
@@ -33513,40 +31743,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58295797,
-     -20.3994462
-    ]
-   },
-   "properties": {
-    "name": "12 TAYLOR STREET PROSERPINE 4800",
-    "locID": "ChIJfUx91b3P2WsRTT5yEjfU_Gk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160470289"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58403124,
-     -20.39952004
-    ]
-   },
-   "properties": {
-    "name": "22 TAYLOR STREET PROSERPINE 4800",
-    "locID": "ChIJP2rQNLzP2WsRcLX-LEkjBfw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160470290"
    }
   },
   {
@@ -33652,40 +31848,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57120978,
-     -20.39968117
-    ]
-   },
-   "properties": {
-    "name": "73B FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJC9EP_unP2WsRlbhYVOrlQTM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160470408"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.56832414,
-     -20.39937025
-    ]
-   },
-   "properties": {
-    "name": "98 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJc5L-K-jP2WsRX5AlpCwgbOQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160470417"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.5857295,
      -20.405205
     ]
@@ -33698,23 +31860,6 @@
     "gnaf_pid": "GAQLD160473414",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.5857295,
-     -20.405205
-    ]
-   },
-   "properties": {
-    "name": "20 TELIA STREET PROSERPINE 4800",
-    "locID": "ChIJkbz1_5bP2WsRde86RaHuADM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160473415"
    }
   },
   {
@@ -33937,40 +32082,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.5927632,
-     -20.40904196
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 8-10 GARDENIA STREET PROSERPINE 4800",
-    "locID": "ChIJVxcDYZnP2WsR3P_IytTqHeY",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160682389"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.5927632,
-     -20.40904196
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 8-10 GARDENIA STREET PROSERPINE 4800",
-    "locID": "ChIJVxcDYZnP2WsR3P_IytTqHeY",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160682390"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.5808413,
      -20.4026636
     ]
@@ -33983,40 +32094,6 @@
     "gnaf_pid": "GAQLD160699618",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.5927632,
-     -20.40904196
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 8-10 GARDENIA STREET PROSERPINE 4800",
-    "locID": "ChIJVxcDYZnP2WsR3P_IytTqHeY",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160711231"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.5927632,
-     -20.40904196
-    ]
-   },
-   "properties": {
-    "name": "UNIT 4, 8-10 GARDENIA STREET PROSERPINE 4800",
-    "locID": "ChIJVxcDYZnP2WsR3P_IytTqHeY",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160711232"
    }
   },
   {
@@ -34631,23 +32708,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.59249426,
-     -20.40518951
-    ]
-   },
-   "properties": {
-    "name": "194 BRUCE HIGHWAY PROSERPINE 4800",
-    "locID": "ChIJwzs0k5jP2WsR5F5hnCP0iw8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161009508"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58388742,
      -20.40041548
     ]
@@ -34824,40 +32884,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.59259599,
-     -20.40563124
-    ]
-   },
-   "properties": {
-    "name": "200 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJqd5m7ZjP2WsRHJf_B4eIMRk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161018482"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57896035,
-     -20.40914758
-    ]
-   },
-   "properties": {
-    "name": "10 RENWICK ROAD PROSERPINE 4800",
-    "locID": "ChIJA-fk4ZLP2WsRRf3HoCFykso",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161022437"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58783808,
      -20.41006361
     ]
@@ -34871,23 +32897,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59076563,
-     -20.40579998
-    ]
-   },
-   "properties": {
-    "name": "3-5 TULIP COURT PROSERPINE 4800",
-    "locID": "ChIJjaIQTpjP2WsRBYE0qI_t078",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161025600"
    }
   },
   {
@@ -34972,108 +32981,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.55777933,
-     -20.41345255
-    ]
-   },
-   "properties": {
-    "name": "LOT 1 BOUNDARY ROAD PROSERPINE 4800",
-    "locID": "EitCb3VuZGFyeSBSZCwgUHJvc2VycGluZSBRTEQgNDgwMCwgQXVzdHJhbGlhIi4qLAoUChIJV7-VVObP2WsRoQKNTXcKRFISFAoSCb26QvTwz9lrEYAFIX_x7gAF",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161073993"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.56745759,
-     -20.41054069
-    ]
-   },
-   "properties": {
-    "name": "LOT 43 BOUNDARY ROAD PROSERPINE 4800",
-    "locID": "EitCb3VuZGFyeSBSZCwgUHJvc2VycGluZSBRTEQgNDgwMCwgQXVzdHJhbGlhIi4qLAoUChIJV7-VVObP2WsRoQKNTXcKRFISFAoSCb26QvTwz9lrEYAFIX_x7gAF",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161073994"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59335585,
-     -20.40613187
-    ]
-   },
-   "properties": {
-    "name": "LOT 125 BRUCE HIGHWAY PROSERPINE 4800",
-    "locID": "Ei0xMjUgQnJ1Y2UgSHd5LCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMBIuChQKEglPKlgAmM_ZaxFs_Mm-W9Lq5hB9KhQKEgmtGpktH4eTaxE8_be4tti4QA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161083374"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59348823,
-     -20.40753568
-    ]
-   },
-   "properties": {
-    "name": "LOT 126 BRUCE HIGHWAY PROSERPINE 4800",
-    "locID": "Ei0xMjYgQnJ1Y2UgSHd5LCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMBIuChQKEgllmij-l8_ZaxGDSMP9jSnCMhB-KhQKEgmtGpktH4eTaxE8_be4tti4QA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161083375"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59333053,
-     -20.40884107
-    ]
-   },
-   "properties": {
-    "name": "LOT 127 BRUCE HIGHWAY PROSERPINE 4800",
-    "locID": "Ei0xMjcgQnJ1Y2UgSHd5LCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMBIuChQKEglPKlgAmM_ZaxFs_Mm-W9Lq5hB_KhQKEgmtGpktH4eTaxE8_be4tti4QA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161083376"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.5932432,
-     -20.40952744
-    ]
-   },
-   "properties": {
-    "name": "LOT 128 BRUCE HIGHWAY PROSERPINE 4800",
-    "locID": "Ei0xMjggQnJ1Y2UgSHd5LCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMRIvChQKEgllmij-l8_ZaxGDSMP9jSnCMhCAASoUChIJrRqZLR-Hk2sRPP23uLbYuEA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161083377"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.5877651,
      -20.39544997
     ]
@@ -35091,23 +32998,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58583549,
-     -20.39712964
-    ]
-   },
-   "properties": {
-    "name": "LOT 198 BRUCE HIGHWAY PROSERPINE 4800",
-    "locID": "Ei0xOTggQnJ1Y2UgSHd5LCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMRIvChQKEgmPnpuSmM_ZaxHJlnqPTczSFRDGASoUChIJrRqZLR-Hk2sRPP23uLbYuEA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161083379"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58691519,
      -20.40189503
     ]
@@ -35118,40 +33008,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161083380"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58711101,
-     -20.40203562
-    ]
-   },
-   "properties": {
-    "name": "LOT 215 BRUCE HIGHWAY PROSERPINE 4800",
-    "locID": "Ei0yMTUgQnJ1Y2UgSHd5LCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMRIvChQKEgnXDQRHmc_ZaxEb925J496HbxDXASoUChIJrRqZLR-Hk2sRPP23uLbYuEA",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161083381"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.590748,
-     -20.4245107
-    ]
-   },
-   "properties": {
-    "name": "LOT 237 BRUCE HIGHWAY PROSERPINE 4800",
-    "locID": "Ei0yMzcgQnJ1Y2UgSHd5LCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMRIvChQKEgkL6dnom8_ZaxGhsiZO8dLRMRDtASoUChIJrRqZLR-Hk2sRPP23uLbYuEA",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161083382"
    }
   },
   {
@@ -35196,108 +33052,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57570755,
-     -20.39548287
-    ]
-   },
-   "properties": {
-    "name": "LOT 26 DODD STREET PROSERPINE 4800",
-    "locID": "EioyNiBEb2RkIFN0LCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMBIuChQKEglZt9nA68_ZaxFgXs9X8e4AExAaKhQKEgllt4tH6s_ZaxE44tOfrtaKzQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161128263"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57635643,
-     -20.39575639
-    ]
-   },
-   "properties": {
-    "name": "LOT 27 DODD STREET PROSERPINE 4800",
-    "locID": "EioyNyBEb2RkIFN0LCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMBIuChQKEgkH4gL068_ZaxFsxPqXVYBSURAbKhQKEgllt4tH6s_ZaxE44tOfrtaKzQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161128264"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57689597,
-     -20.39595968
-    ]
-   },
-   "properties": {
-    "name": "LOT 28 DODD STREET PROSERPINE 4800",
-    "locID": "EioyOCBEb2RkIFN0LCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMBIuChQKEgkH4gL068_ZaxFsxPqXVYBSURAcKhQKEgllt4tH6s_ZaxE44tOfrtaKzQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161128265"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57376155,
-     -20.39538176
-    ]
-   },
-   "properties": {
-    "name": "LOT 29 DODD STREET PROSERPINE 4800",
-    "locID": "EioyOSBEb2RkIFN0LCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMBIuChQKEgkH4gL068_ZaxFsxPqXVYBSURAdKhQKEgllt4tH6s_ZaxE44tOfrtaKzQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161128266"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57724276,
-     -20.39621916
-    ]
-   },
-   "properties": {
-    "name": "LOT 30 DODD STREET PROSERPINE 4800",
-    "locID": "EiozMCBEb2RkIFN0LCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMBIuChQKEgkH4gL068_ZaxFsxPqXVYBSURAeKhQKEgllt4tH6s_ZaxE44tOfrtaKzQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161128267"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57315134,
-     -20.40141026
-    ]
-   },
-   "properties": {
-    "name": "LOT 47 DODD STREET PROSERPINE 4800",
-    "locID": "Eio0NyBEb2RkIFN0LCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMBIuChQKEgkH4gL068_ZaxFsxPqXVYBSURAvKhQKEgllt4tH6s_ZaxE44tOfrtaKzQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161128268"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57302081,
      -20.40243899
     ]
@@ -35308,57 +33062,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161128269"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57290384,
-     -20.40350314
-    ]
-   },
-   "properties": {
-    "name": "LOT 49 DODD STREET PROSERPINE 4800",
-    "locID": "Eio0OSBEb2RkIFN0LCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMBIuChQKEgkH4gL068_ZaxFsxPqXVYBSURAxKhQKEgllt4tH6s_ZaxE44tOfrtaKzQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161128270"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58044016,
-     -20.42386162
-    ]
-   },
-   "properties": {
-    "name": "LOT 22 DUDLEY ROAD PROSERPINE 4800",
-    "locID": "EiwyMiBEdWRsZXkgUmQsIFByb3NlcnBpbmUgUUxEIDQ4MDAsIEF1c3RyYWxpYSIwEi4KFAoSCZmSuqKRz9lrEa6dnO9zQImcEBYqFAoSCd-oJKuOz9lrEW5cJ0rSM7p_",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161131381"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.56227092,
-     -20.39817539
-    ]
-   },
-   "properties": {
-    "name": "LOT 183 FAUST STREET PROSERPINE 4800",
-    "locID": "EiwxODMgRmF1c3QgU3QsIFByb3NlcnBpbmUgUUxEIDQ4MDAsIEF1c3RyYWxpYSIxEi8KFAoSCXMSWdDCz9lrEThN1J30MU6lELcBKhQKEgkfVs8pws_ZaxGngQSgEBQwgQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161145886"
    }
   },
   {
@@ -35378,23 +33081,6 @@
     "gnaf_pid": "GAQLD161145887",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.5641194,
-     -20.39512181
-    ]
-   },
-   "properties": {
-    "name": "LOT 235 FAUST STREET PROSERPINE 4800",
-    "locID": "EiwyMzUgRmF1c3QgU3QsIFByb3NlcnBpbmUgUUxEIDQ4MDAsIEF1c3RyYWxpYSIxEi8KFAoSCXMSWdDCz9lrEThN1J30MU6lEOsBKhQKEgkfVs8pws_ZaxGngQSgEBQwgQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161145888"
    }
   },
   {
@@ -35498,23 +33184,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.55934606,
-     -20.3886286
-    ]
-   },
-   "properties": {
-    "name": "LOT 108 KELSEY CREEK ROAD PROSERPINE 4800",
-    "locID": "EjYxMDggS2Vsc2V5IENyZWVrIFJkLCBDcnlzdGFsIEJyb29rIFFMRCA0ODAwLCBBdXN0cmFsaWEiMBIuChQKEgnrFCdhJtDZaxGKGKxg-XpN6hBsKhQKEgmXrpW8edDZaxGhvMHWza34qA",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161197278"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.55088746,
      -20.38773565
     ]
@@ -35525,23 +33194,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161197280"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.55856888,
-     -20.38945614
-    ]
-   },
-   "properties": {
-    "name": "LOT 299 KELSEY CREEK ROAD PROSERPINE 4800",
-    "locID": "EjUyOTkgS2Vsc2V5IENyZWVrIFJkLCBLZWxzZXkgQ3JlZWsgUUxEIDQ4MDAsIEF1c3RyYWxpYSIxEi8KFAoSCQGGj0cV0NlrEVl9AdGSqWNsEKsCKhQKEgmXrpW8edDZaxGhvMHWza34qA",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161197286"
    }
   },
   {
@@ -35560,8 +33212,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161222822",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35629,125 +33280,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58012239,
-     -20.39916775
-    ]
-   },
-   "properties": {
-    "name": "LOT 7 MILL STREET PROSERPINE 4800",
-    "locID": "ChIJOeFlb77P2WsRGY65nff68N8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161237020"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.5880343,
-     -20.40976188
-    ]
-   },
-   "properties": {
-    "name": "LOT 106 RENWICK ROAD PROSERPINE 4800",
-    "locID": "Ei4xMDYgUmVud2ljayBSZCwgUHJvc2VycGluZSBRTEQgNDgwMCwgQXVzdHJhbGlhIjASLgoUChIJkVupwZvP2WsRsUHPV_HuABMQaioUChIJGU-4HZHP2WsRQbbJs9iEOJ0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161288818"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58744892,
-     -20.409699
-    ]
-   },
-   "properties": {
-    "name": "LOT 107 RENWICK ROAD PROSERPINE 4800",
-    "locID": "Ei4xMDcgUmVud2ljayBSZCwgUHJvc2VycGluZSBRTEQgNDgwMCwgQXVzdHJhbGlhIjASLgoUChIJkVupwZvP2WsRsUHPV_HuABMQayoUChIJGU-4HZHP2WsRQbbJs9iEOJ0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161288819"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58825035,
-     -20.4097629
-    ]
-   },
-   "properties": {
-    "name": "LOT 113 RENWICK ROAD PROSERPINE 4800",
-    "locID": "ChIJI0nh55vP2WsRXZC9f7eo8JQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161288820"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58851363,
-     -20.4098158
-    ]
-   },
-   "properties": {
-    "name": "LOT 115 RENWICK ROAD PROSERPINE 4800",
-    "locID": "Ei4xMTUgUmVud2ljayBSZCwgUHJvc2VycGluZSBRTEQgNDgwMCwgQXVzdHJhbGlhIjASLgoUChIJ12gVNZrP2WsRYELPV_HuABMQcyoUChIJGU-4HZHP2WsRQbbJs9iEOJ0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161288821"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58916297,
-     -20.40988843
-    ]
-   },
-   "properties": {
-    "name": "LOT 116 RENWICK ROAD PROSERPINE 4800",
-    "locID": "Ei4xMTYgUmVud2ljayBSZCwgUHJvc2VycGluZSBRTEQgNDgwMCwgQXVzdHJhbGlhIjASLgoUChIJ12gVNZrP2WsRYELPV_HuABMQdCoUChIJGU-4HZHP2WsRQbbJs9iEOJ0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161288822"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58982501,
-     -20.40996394
-    ]
-   },
-   "properties": {
-    "name": "LOT 117 RENWICK ROAD PROSERPINE 4800",
-    "locID": "Ei4xMTcgUmVud2ljayBSZCwgUHJvc2VycGluZSBRTEQgNDgwMCwgQXVzdHJhbGlhIjASLgoUChIJ12gVNZrP2WsRYELPV_HuABMQdSoUChIJGU-4HZHP2WsRQbbJs9iEOJ0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161288823"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58219128,
      -20.40941713
     ]
@@ -35761,40 +33293,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58502265,
-     -20.40942203
-    ]
-   },
-   "properties": {
-    "name": "LOT 202 RENWICK ROAD PROSERPINE 4800",
-    "locID": "Ei4yMDIgUmVud2ljayBSZCwgUHJvc2VycGluZSBRTEQgNDgwMCwgQXVzdHJhbGlhIjESLwoUChIJ12gVNZrP2WsRYELPV_HuABMQygEqFAoSCRlPuB2Rz9lrEUG2ybPYhDid",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161288825"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58575895,
-     -20.40951234
-    ]
-   },
-   "properties": {
-    "name": "LOT 203 RENWICK ROAD PROSERPINE 4800",
-    "locID": "Ei4yMDMgUmVud2ljayBSZCwgUHJvc2VycGluZSBRTEQgNDgwMCwgQXVzdHJhbGlhIjESLwoUChIJ12gVNZrP2WsRYELPV_HuABMQywEqFAoSCRlPuB2Rz9lrEUG2ybPYhDid",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161288826"
    }
   },
   {
@@ -35859,40 +33357,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58233228,
-     -20.40068047
-    ]
-   },
-   "properties": {
-    "name": "LOT 57 SETTER LANE PROSERPINE 4800",
-    "locID": "Eiw1NyBTZXR0ZXIgTG4sIFByb3NlcnBpbmUgUUxEIDQ4MDAsIEF1c3RyYWxpYSIwEi4KFAoSCfWz8w6-z9lrEcBLz1fx7gATEDkqFAoSCfWz8w6-z9lrEbJ6-2xKVwCI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161305595"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59018634,
-     -20.40713984
-    ]
-   },
-   "properties": {
-    "name": "LOT 114 SPALLA DRIVE PROSERPINE 4800",
-    "locID": "Ei0xMTQgU3BhbGxhIERyLCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMBIuChQKEgkJBpczmM_ZaxG7ItYwNJzp8RByKhQKEgll4j0tmM_ZaxGIEn6HetPBwg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161312975"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58470292,
      -20.40672807
     ]
@@ -35933,23 +33397,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58323491,
-     -20.39844502
-    ]
-   },
-   "properties": {
-    "name": "LOT 37 TAYLOR STREET PROSERPINE 4800",
-    "locID": "Ei8yNi0zMiBUYXlsb3IgU3QsIFByb3NlcnBpbmUgUUxEIDQ4MDAsIEF1c3RyYWxpYSIwEi4KFAoSCeckDUq8z9lrESFzz1fx7gATEBoqFAoSCVP6b0q8z9lrES7opuEjFCD3",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161325970"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.5834312,
      -20.39698495
     ]
@@ -35962,23 +33409,6 @@
     "gnaf_pid": "GAQLD161325971",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58363633,
-     -20.39563242
-    ]
-   },
-   "properties": {
-    "name": "LOT 39 TAYLOR STREET PROSERPINE 4800",
-    "locID": "Ei8yNi0zMiBUYXlsb3IgU3QsIFByb3NlcnBpbmUgUUxEIDQ4MDAsIEF1c3RyYWxpYSIwEi4KFAoSCeckDUq8z9lrESFzz1fx7gATEBoqFAoSCVP6b0q8z9lrES7opuEjFCD3",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161325972"
    }
   },
   {
@@ -36131,8 +33561,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161653142",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36150,40 +33579,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161680296"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59317202,
-     -20.41083861
-    ]
-   },
-   "properties": {
-    "name": "LOT 8 BRUCE HIGHWAY PROSERPINE 4800",
-    "locID": "Eis4IEJydWNlIEh3eSwgUHJvc2VycGluZSBRTEQgNDgwMCwgQXVzdHJhbGlhIjASLgoUChIJ9WFyGb3P2WsR5atg3UxT71YQCCoUChIJrRqZLR-Hk2sRPP23uLbYuEA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161680297"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59317202,
-     -20.41083861
-    ]
-   },
-   "properties": {
-    "name": "LOT 9 BRUCE HIGHWAY PROSERPINE 4800",
-    "locID": "Eis5IEJydWNlIEh3eSwgUHJvc2VycGluZSBRTEQgNDgwMCwgQXVzdHJhbGlhIjASLgoUChIJ9WFyGb3P2WsR5atg3UxT71YQCSoUChIJrRqZLR-Hk2sRPP23uLbYuEA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161680298"
    }
   },
   {
@@ -36371,23 +33766,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58131907,
-     -20.40179983
-    ]
-   },
-   "properties": {
-    "name": "24-26 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJE5VTipXP2WsRaKovJQ6Ihmw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161790366"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58210267,
      -20.40125439
     ]
@@ -36447,40 +33825,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58165565,
-     -20.40037712
-    ]
-   },
-   "properties": {
-    "name": "22 MILL STREET PROSERPINE 4800",
-    "locID": "ChIJecLRar7P2WsR-Tkt43P6QLM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161791905"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58307354,
-     -20.40663046
-    ]
-   },
-   "properties": {
-    "name": "5-7 STERRY STREET PROSERPINE 4800",
-    "locID": "ChIJWRLZp5bP2WsRRPACi0lPPY8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161798549"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57234771,
      -20.40257527
     ]
@@ -36514,40 +33858,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58682135,
-     -20.40230727
-    ]
-   },
-   "properties": {
-    "name": "43 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJZYY6ZL3P2WsR9aO834kTRyE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162089691"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58682135,
-     -20.40230727
-    ]
-   },
-   "properties": {
-    "name": "99 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJZYY6ZL3P2WsR-m_PfYke_h0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162089692"
    }
   },
   {
@@ -36627,23 +33937,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57511202,
-     -20.40336321
-    ]
-   },
-   "properties": {
-    "name": "32 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJB4eiBOvP2WsRI2hbWRmiG_8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162349216"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.5774507,
      -20.41127959
     ]
@@ -36688,40 +33981,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162356400"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57298129,
-     -20.40439666
-    ]
-   },
-   "properties": {
-    "name": "49-51 ANZAC ROAD PROSERPINE 4800",
-    "locID": "ChIJ5-o2k-vP2WsR39hEISX2CFI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162370058"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57261919,
-     -20.40447019
-    ]
-   },
-   "properties": {
-    "name": "53 ANZAC ROAD PROSERPINE 4800",
-    "locID": "Eis1MyBBbnphYyBSZCwgUHJvc2VycGluZSBRTEQgNDgwMCwgQXVzdHJhbGlhIjASLgoUChIJX9UtlevP2WsRQNpKlsQ-HV0QNSoUChIJ79VLjuvP2WsR-M6Gbgo-RXg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162370059"
    }
   },
   {
@@ -36808,23 +34067,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.569611,
-     -20.40059284
-    ]
-   },
-   "properties": {
-    "name": "86 FAUST STREET PROSERPINE 4800",
-    "locID": "ChIJn5Vvx-nP2WsRO5N0iC_Rgoc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162467379"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58444464,
      -20.40440369
     ]
@@ -36900,40 +34142,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58285254,
-     -20.4014562
-    ]
-   },
-   "properties": {
-    "name": "47-49 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJP4GgB77P2WsRBONLlrbtU2M",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162513338"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59317202,
-     -20.41083861
-    ]
-   },
-   "properties": {
-    "name": "LOT 37 BRUCE HIGHWAY PROSERPINE 4800",
-    "locID": "EiwzNyBCcnVjZSBId3ksIFByb3NlcnBpbmUgUUxEIDQ4MDAsIEF1c3RyYWxpYSIwEi4KFAoSCfVhchm9z9lrEeWrYN1MU-9WECUqFAoSCa0amS0fh5NrETz9t7i22LhA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162535984"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57144703,
      -20.39987456
     ]
@@ -36951,23 +34159,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.5565493,
-     -20.38916305
-    ]
-   },
-   "properties": {
-    "name": "79 KELSEY CREEK ROAD PROSERPINE 4800",
-    "locID": "ChIJSalEndnP2WsRgfRorEoaErI",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162604937"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.59265364,
      -20.39721753
     ]
@@ -36978,74 +34169,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162606010"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59099934,
-     -20.40469424
-    ]
-   },
-   "properties": {
-    "name": "180A MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJT7v3ZpjP2WsRAH8qJ5wWoY8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162606011"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59134346,
-     -20.40484904
-    ]
-   },
-   "properties": {
-    "name": "182A MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJ9Rb4YJjP2WsRQlrK6jOoE1Y",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162606012"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58092982,
-     -20.40320607
-    ]
-   },
-   "properties": {
-    "name": "21-23 MARATHON STREET PROSERPINE 4800",
-    "locID": "ChIJN5GbvJXP2WsRapRGPtAxSZ8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162606079"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57352453,
-     -20.40567718
-    ]
-   },
-   "properties": {
-    "name": "13A NICOL STREET PROSERPINE 4800",
-    "locID": "ChIJI40kd-zP2WsRHqQNEn0RyYk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162607766"
    }
   },
   {
@@ -37669,23 +34792,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.5824131,
-     -20.41059005
-    ]
-   },
-   "properties": {
-    "name": "10 BLUE GUM STREET PROSERPINE 4800",
-    "locID": "ChIJWWAKJZLP2WsRVis-24O6XeI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162823787"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58308924,
      -20.41025875
     ]
@@ -37924,23 +35030,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58202918,
-     -20.40995509
-    ]
-   },
-   "properties": {
-    "name": "5 BLUE GUM STREET PROSERPINE 4800",
-    "locID": "ChIJuVGpM5LP2WsR_iCCoUmbPQo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162823800"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58195763,
      -20.41054483
     ]
@@ -38014,23 +35103,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58250126,
-     -20.4098943
-    ]
-   },
-   "properties": {
-    "name": "10 CALISTA COURT PROSERPINE 4800",
-    "locID": "ChIJ3cLHLJLP2WsRr4nKe_pcLHU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162824377"
    }
   },
   {
@@ -38230,23 +35302,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.5831916,
-     -20.40954477
-    ]
-   },
-   "properties": {
-    "name": "23 CALISTA COURT PROSERPINE 4800",
-    "locID": "ChIJE0VEfJHP2WsRtD1AjEvyAno",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162824388"
    }
   },
   {
@@ -38772,23 +35827,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57918084,
-     -20.40930662
-    ]
-   },
-   "properties": {
-    "name": "26 DAMSON CRESCENT PROSERPINE 4800",
-    "locID": "ChIJvx9a4pLP2WsRGGfErBNyrpc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162825398"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58060808,
      -20.41001949
     ]
@@ -39009,40 +36047,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58503799,
-     -20.41014312
-    ]
-   },
-   "properties": {
-    "name": "1A FULLER STREET PROSERPINE 4800",
-    "locID": "ChIJU7iRCJHP2WsRYArYSDrQh9o",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162826578"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59332235,
-     -20.40622118
-    ]
-   },
-   "properties": {
-    "name": "LOT 120 GARDENIA STREET PROSERPINE 4800",
-    "locID": "Ei8xMjAgR2FyZGVuaWEgU3QsIFByb3NlcnBpbmUgUUxEIDQ4MDAsIEF1c3RyYWxpYSIwEi4KFAoSCcnAW-KYz9lrEVFvz1fx7gATEHgqFAoSCZcU3GyZz9lrEV8VKcxxDvD2",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162826601"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.59272101,
      -20.40570725
     ]
@@ -39106,10 +36110,9 @@
    "properties": {
     "name": "13 HONEY MYRTLE STREET PROSERPINE 4800",
     "locID": "LOC000155037426",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162827411",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39132,23 +36135,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.5791288,
-     -20.41008344
-    ]
-   },
-   "properties": {
-    "name": "15 HONEY MYRTLE STREET PROSERPINE 4800",
-    "locID": "ChIJqxfr7pLP2WsRWe4vVXQ-so8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162827413"
    }
   },
   {
@@ -39532,40 +36518,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58026557,
-     -20.40395773
-    ]
-   },
-   "properties": {
-    "name": "14-16 MARATHON STREET PROSERPINE 4800",
-    "locID": "ChIJR6n9qpXP2WsRKh_-CVD9gW8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162828930"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59127492,
-     -20.40720342
-    ]
-   },
-   "properties": {
-    "name": "206-208 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJC2HpppnP2WsRAC1f2-xRxCc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162847937"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58038837,
      -20.40376896
     ]
@@ -39642,23 +36594,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.5927632,
-     -20.40904196
-    ]
-   },
-   "properties": {
-    "name": "8-10 GARDENIA STREET PROSERPINE 4800",
-    "locID": "ChIJVxcDYZnP2WsR3P_IytTqHeY",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162993800"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.59016027,
      -20.4042333
     ]
@@ -39690,8 +36625,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163022371",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39710,8 +36644,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163022372",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -39894,23 +36827,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163056157"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58488528,
-     -20.40234049
-    ]
-   },
-   "properties": {
-    "name": "114-118 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJcdXWib3P2WsRwflE-Ou8eII",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163057925"
    }
   },
   {
@@ -40264,23 +37180,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57526869,
-     -20.39957225
-    ]
-   },
-   "properties": {
-    "name": "38 TELFORD STREET PROSERPINE 4800",
-    "locID": "ChIJYZhSOsDP2WsRSo3WzC9Mpf4",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163059895"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.5749267,
      -20.40017378
     ]
@@ -40342,23 +37241,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163059899"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57454558,
-     -20.40013114
-    ]
-   },
-   "properties": {
-    "name": "43 TELFORD STREET PROSERPINE 4800",
-    "locID": "ChIJfyf-KsDP2WsRFLQqB8Us81A",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163059900"
    }
   },
   {
@@ -40485,23 +37367,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57378361,
-     -20.40004595
-    ]
-   },
-   "properties": {
-    "name": "51 TELFORD STREET PROSERPINE 4800",
-    "locID": "ChIJ70C518HP2WsRL_Hf-nTp6mc",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163059908"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57389117,
      -20.39941878
     ]
@@ -40620,23 +37485,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57897733,
-     -20.40951572
-    ]
-   },
-   "properties": {
-    "name": "12 HONEY MYRTLE STREET PROSERPINE 4800",
-    "locID": "ChIJTxew5pLP2WsRO9a8TpPG_W4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163063037"
    }
   },
   {
@@ -41043,23 +37891,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.56926751,
-     -20.40451907
-    ]
-   },
-   "properties": {
-    "name": "93 ANZAC ROAD PROSERPINE 4800",
-    "locID": "ChIJQ36xOenP2WsRpzNd50eeV3o",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163247874"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.5832817,
      -20.41154072
     ]
@@ -41093,23 +37924,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59162311,
-     -20.42030028
-    ]
-   },
-   "properties": {
-    "name": "12124 BRUCE HIGHWAY PROSERPINE 4800",
-    "locID": "ChIJbRbhh4bP2WsRRScNzKRVJ74",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163248140"
    }
   },
   {
@@ -41156,23 +37970,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57915959,
-     -20.41070789
-    ]
-   },
-   "properties": {
-    "name": "16 CASCARA STREET PROSERPINE 4800",
-    "locID": "ChIJq4Gvk5LP2WsRUQ7dXT9Y19o",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163248494"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57828041,
      -20.41010823
     ]
@@ -41186,23 +37983,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57782006,
-     -20.41042225
-    ]
-   },
-   "properties": {
-    "name": "2 CASCARA STREET PROSERPINE 4800",
-    "locID": "ChIJA50It5LP2WsR7lotBbNj0L8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163248496"
    }
   },
   {
@@ -41276,10 +38056,9 @@
    "properties": {
     "name": "6 CASCARA STREET PROSERPINE 4800",
     "locID": "LOC000116117840",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163248500",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42426,23 +39205,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58256803,
-     -20.41126491
-    ]
-   },
-   "properties": {
-    "name": "1 GRASS TREE STREET PROSERPINE 4800",
-    "locID": "ChIJOVy2GJLP2WsRachoTYbX-MA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163373227"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58196439,
      -20.4111929
     ]
@@ -42632,40 +39394,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58253267,
-     -20.40214121
-    ]
-   },
-   "properties": {
-    "name": "62-64 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJ5VlH-ZXP2WsRYDvTwTpjSgg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD424846314"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58438624,
-     -20.40151088
-    ]
-   },
-   "properties": {
-    "name": "79A MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJMb0pk73P2WsRVJVHWVOG_Jc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD424846315"
    }
   },
   {
@@ -43052,23 +39780,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58046484,
-     -20.40269016
-    ]
-   },
-   "properties": {
-    "name": "UNIT 308, 2 DOBBINS LANE PROSERPINE 4800",
-    "locID": "ChIJS_rKnpXP2WsRA_puhXGUyLI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD424984640"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58364291,
      -20.41138479
     ]
@@ -43082,23 +39793,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58143515,
-     -20.40740063
-    ]
-   },
-   "properties": {
-    "name": "15-25 RENWICK ROAD PROSERPINE 4800",
-    "locID": "ChIJ2abqjJPP2WsRh-g5MeNj08g",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD424994292"
    }
   },
   {
@@ -43322,23 +40016,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.55031312,
-     -20.38840619
-    ]
-   },
-   "properties": {
-    "name": "145 KELSEY CREEK ROAD PROSERPINE 4800",
-    "locID": "ChIJ42Nd7CbQ2WsRu-1EtPYzQHE",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425124219"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58207622,
      -20.4031432
     ]
@@ -43509,23 +40186,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58807425,
-     -20.41480923
-    ]
-   },
-   "properties": {
-    "name": "LOT 61 BRUCE HIGHWAY PROSERPINE 4800",
-    "locID": "Eiw2MSBCcnVjZSBId3ksIFByb3NlcnBpbmUgUUxEIDQ4MDAsIEF1c3RyYWxpYSIwEi4KFAoSCfVhchm9z9lrEeWrYN1MU-9WED0qFAoSCa0amS0fh5NrETz9t7i22LhA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425261160"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58022089,
      -20.40969618
     ]
@@ -43646,23 +40306,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.59301211,
-     -20.41006165
-    ]
-   },
-   "properties": {
-    "name": "113 RENWICK ROAD PROSERPINE 4800",
-    "locID": "ChIJI0nh55vP2WsRXZC9f7eo8JQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425379371"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.59129522,
      -20.4119886
     ]
@@ -43693,57 +40336,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57795928,
-     -20.40812475
-    ]
-   },
-   "properties": {
-    "name": "60 HINSCHEN STREET PROSERPINE 4800",
-    "locID": "ChIJWdJwL5PP2WsRQbzr2vPcRUo",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425407950"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59298042,
-     -20.40721367
-    ]
-   },
-   "properties": {
-    "name": "26A GARDENIA STREET PROSERPINE 4800",
-    "locID": "ChIJ8wWZIpnP2WsRPtdmGgnucug",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425549357"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59298042,
-     -20.40721367
-    ]
-   },
-   "properties": {
-    "name": "26B GARDENIA STREET PROSERPINE 4800",
-    "locID": "ChIJ8wWZIpnP2WsR2Cnwdp3OXrM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425549358"
    }
   },
   {
@@ -44298,23 +40890,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58711523,
-     -20.40203895
-    ]
-   },
-   "properties": {
-    "name": "LOT 100 BRUCE HIGHWAY PROSERPINE 4800",
-    "locID": "Ei0xMDAgQnJ1Y2UgSHd5LCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMBIuChQKEgllmij-l8_ZaxGDSMP9jSnCMhBkKhQKEgmtGpktH4eTaxE8_be4tti4QA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425653681"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58413476,
      -20.41104425
     ]
@@ -44327,23 +40902,6 @@
     "gnaf_pid": "GAQLD425653886",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58784627,
-     -20.40313184
-    ]
-   },
-   "properties": {
-    "name": "150-152 MAIN STREET PROSERPINE 4800",
-    "locID": "ChIJTZce45fP2WsRv_NCiRVwUos",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425658009"
    }
   },
   {
@@ -44411,23 +40969,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58366234,
-     -20.41746809
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 10 DUDLEY ROAD PROSERPINE 4800",
-    "locID": "ChIJxSgesI7P2WsRa2mxbnejYUA",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425757958"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57732158,
      -20.40167835
     ]
@@ -44440,40 +40981,6 @@
     "gnaf_pid": "GAQLD425758207",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58366234,
-     -20.41746809
-    ]
-   },
-   "properties": {
-    "name": "10 DUDLEY ROAD PROSERPINE 4800",
-    "locID": "ChIJxSgesI7P2WsRa2mxbnejYUA",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425772464"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.56207124,
-     -20.41124439
-    ]
-   },
-   "properties": {
-    "name": "LOT 208 BOUNDARY ROAD PROSERPINE 4800",
-    "locID": "Ei8yMDggQm91bmRhcnkgUmQsIFByb3NlcnBpbmUgUUxEIDQ4MDAsIEF1c3RyYWxpYSIxEi8KFAoSCbcVh6vnz9lrEYOt6jOtR8ffENABKhQKEglXv5VU5s_ZaxGhAo1NdwpEUg",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425792425"
    }
   },
   {
@@ -44558,57 +41065,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.5797939,
-     -20.41230506
-    ]
-   },
-   "properties": {
-    "name": "5 LEET CRESCENT PROSERPINE 4800",
-    "locID": "ChIJ7QNNeY3P2WsRL07IUe9L0FM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425796030"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57980332,
-     -20.41191942
-    ]
-   },
-   "properties": {
-    "name": "6 LEET CRESCENT PROSERPINE 4800",
-    "locID": "ChIJBTjvgZLP2WsRU1bg9TGtKpo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425796031"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57959415,
-     -20.41228224
-    ]
-   },
-   "properties": {
-    "name": "7 LEET CRESCENT PROSERPINE 4800",
-    "locID": "ChIJVTWEe43P2WsRH8mjay-IeuU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425796032"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57958929,
      -20.41189496
     ]
@@ -44619,23 +41075,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425796033"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57938697,
-     -20.41226
-    ]
-   },
-   "properties": {
-    "name": "9 LEET CRESCENT PROSERPINE 4800",
-    "locID": "ChIJsUNNe43P2WsRlbzdOgIuSoU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425796034"
    }
   },
   {
@@ -44703,23 +41142,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57993843,
-     -20.41125242
-    ]
-   },
-   "properties": {
-    "name": "21 TAMARIND CRESCENT PROSERPINE 4800",
-    "locID": "ChIJDclgiJLP2WsRKIixpvZrOFQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425799210"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58012867,
      -20.41127416
     ]
@@ -44760,57 +41182,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57962389,
-     -20.41162593
-    ]
-   },
-   "properties": {
-    "name": "30 TAMARIND CRESCENT PROSERPINE 4800",
-    "locID": "ChIJR5GOg5LP2WsR4qRJGyjrp4U",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425799214"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.57983791,
-     -20.41165039
-    ]
-   },
-   "properties": {
-    "name": "32 TAMARIND CRESCENT PROSERPINE 4800",
-    "locID": "ChIJJwQ1gZLP2WsRh-KaWCBKRAU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425799215"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58002815,
-     -20.41167214
-    ]
-   },
-   "properties": {
-    "name": "34 TAMARIND CRESCENT PROSERPINE 4800",
-    "locID": "ChIJgWRLh5LP2WsRfUzYCqLMd4Q",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425799216"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57868015,
      -20.41263471
     ]
@@ -44831,40 +41202,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.5846141,
-     -20.41260379
-    ]
-   },
-   "properties": {
-    "name": "21 DUDLEY ROAD PROSERPINE 4800",
-    "locID": "ChIJQRud3pHP2WsRXCfbQuav1qo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425836356"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58499207,
-     -20.41362797
-    ]
-   },
-   "properties": {
-    "name": "23 DUDLEY ROAD PROSERPINE 4800",
-    "locID": "ChIJG2k3JY7P2WsRNIII1ewwFAY",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425836357"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57960591,
      -20.40954828
     ]
@@ -44878,23 +41215,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58364417,
-     -20.42228813
-    ]
-   },
-   "properties": {
-    "name": "137A DUDLEY ROAD PROSERPINE 4800",
-    "locID": "ChIJ57V08onP2WsR9OoTXtYnzcQ",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425858788"
    }
   },
   {
@@ -44972,23 +41292,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59080617,
-     -20.40337025
-    ]
-   },
-   "properties": {
-    "name": "19 HORSFORD PLACE PROSERPINE 4800",
-    "locID": "Ei4xOSBIb3JzZm9yZCBQbCwgUHJvc2VycGluZSBRTEQgNDgwMCwgQXVzdHJhbGlhIjASLgoUChIJx5bJlqLP2WsRdSuys2RwSNsQEyoUChIJHYJQmaLP2WsRzSBJQOcAcJE",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425864834"
    }
   },
   {
@@ -45181,57 +41484,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58035559,
-     -20.41129564
-    ]
-   },
-   "properties": {
-    "name": "18 LAGOON BOULEVARD PROSERPINE 4800",
-    "locID": "ChIJRfASY5LP2WsR7LydUXrnlbw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719091346"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58021654,
-     -20.4119654
-    ]
-   },
-   "properties": {
-    "name": "22 LAGOON BOULEVARD PROSERPINE 4800",
-    "locID": "ChIJ2Ye9f5LP2WsRX3exjX0UZ5c",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719092008"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.5801939,
-     -20.41235234
-    ]
-   },
-   "properties": {
-    "name": "24 LAGOON BOULEVARD PROSERPINE 4800",
-    "locID": "ChIJO5CMgY3P2WsRcm8CikIDJo4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719092485"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58682135,
      -20.40230727
     ]
@@ -45268,23 +41520,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.55464029,
-     -20.39358766
-    ]
-   },
-   "properties": {
-    "name": "LOT 206 CRYSTAL BROOK ROAD PROSERPINE 4800",
-    "locID": "EjMyMDYgQ3J5c3RhbGJyb29rIFJkLCBQcm9zZXJwaW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiMRIvChQKEglrWzOX3M_ZaxFu2TCidKZm-BDOASoUChIJcWPJ49rQ2WsR0U__cP0jKbc",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719333152"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.56172984,
      -20.3931094
     ]
@@ -45295,40 +41530,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719334415"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.56632531,
-     -20.39052144
-    ]
-   },
-   "properties": {
-    "name": "330 CRYSTAL BROOK ROAD PROSERPINE 4800",
-    "locID": "ChIJW7YAKcXP2WsRmYFrCadK3T8",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719334721"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.56310672,
-     -20.39401343
-    ]
-   },
-   "properties": {
-    "name": "307 CRYSTAL BROOK ROAD PROSERPINE 4800",
-    "locID": "ChIJFfDTitzP2WsROOB1VQXa_9s",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719335143"
    }
   },
   {
@@ -45382,10 +41583,9 @@
    "properties": {
     "name": "UNIT 2, 13 HONEY MYRTLE STREET PROSERPINE 4800",
     "locID": "LOC000155037426",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719367588",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -45622,23 +41822,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.59270702,
-     -20.41002417
-    ]
-   },
-   "properties": {
-    "name": "4C GARDENIA STREET PROSERPINE 4800",
-    "locID": "ChIJHXYRw5vP2WsRDS0uWzdTUnI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719962613"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.5863356,
      -20.40660662
     ]
@@ -45651,40 +41834,6 @@
     "gnaf_pid": "GAQLD720204671",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.56327327,
-     -20.40089607
-    ]
-   },
-   "properties": {
-    "name": "162 BOUNDARY ROAD PROSERPINE 4800",
-    "locID": "ChIJt0N8VObP2WsRMpMFZpCXh2Q",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720211537"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58432058,
-     -20.41106249
-    ]
-   },
-   "properties": {
-    "name": "LOT 810 DUDLEY ROAD PROSERPINE 4800",
-    "locID": "EipEdWRsZXkgUmQsIEJyZWFkYWxiYW5lIFFMRCA0ODAwLCBBdXN0cmFsaWEiLiosChQKEgnfqCSrjs_ZaxFuXCdK0jO6fxIUChIJK4XOgIfF2WsRUAUhf_HuAAU",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720370637"
    }
   },
   {
@@ -45732,23 +41881,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.58364417,
-     -20.42228813
-    ]
-   },
-   "properties": {
-    "name": "137B DUDLEY ROAD PROSERPINE 4800",
-    "locID": "ChIJ57V08onP2WsRMJoGxVJiNBk",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720618084"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58028183,
      -20.403194
     ]
@@ -45761,23 +41893,6 @@
     "gnaf_pid": "GAQLD720667654",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.56167562,
-     -20.38985743
-    ]
-   },
-   "properties": {
-    "name": "51 KELSEY CREEK ROAD PROSERPINE 4800",
-    "locID": "ChIJXSAZtdvP2WsRDPYWrfgyXUI",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720672939"
    }
   },
   {
@@ -45885,40 +42000,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.5565493,
-     -20.38916305
-    ]
-   },
-   "properties": {
-    "name": "139 KELSEY CREEK ROAD PROSERPINE 4800",
-    "locID": "EjYxMzkgS2Vsc2V5IENyZWVrIFJkLCBDcnlzdGFsIEJyb29rIFFMRCA0ODAwLCBBdXN0cmFsaWEiMRIvChQKEgnrFCdhJtDZaxGKGKxg-XpN6hCLASoUChIJl66VvHnQ2WsRobzB1s2t-Kg",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720930653"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.59317202,
-     -20.41083861
-    ]
-   },
-   "properties": {
-    "name": "12071 BRUCE HIGHWAY PROSERPINE 4800",
-    "locID": "ChIJhyBYlJvP2WsR88xm93Qdwy8",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720940900"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.57893357,
      -20.40213392
     ]
@@ -45997,23 +42078,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.57237452,
-     -20.40737005
-    ]
-   },
-   "properties": {
-    "name": "31 DODD STREET PROSERPINE 4800",
-    "locID": "ChIJx_uvMezP2WsRTS4AC1YLCcU",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721120671"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      148.58165565,
      -20.40037712
     ]
@@ -46025,40 +42089,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721134444",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58261293,
-     -20.40084069
-    ]
-   },
-   "properties": {
-    "name": "7 SETTER LANE PROSERPINE 4800",
-    "locID": "ChIJy130C77P2WsRqkh-uRjuf-k",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721147318"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     148.58299664,
-     -20.40088283
-    ]
-   },
-   "properties": {
-    "name": "9-11 SETTER LANE PROSERPINE 4800",
-    "locID": "ChIJH1Hb4b3P2WsRElt0nW1jft0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721147987"
    }
   },
   {
