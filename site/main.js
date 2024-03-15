@@ -34,6 +34,10 @@ if (urlParams.has("commit")) {
     default_commit = urlParams.get("commit");
 }
 
+if (window.matchMedia('(display-mode: standalone)').matches) {
+    gtag('event', 'PWA');
+}
+
 function addControlWithHTML(className, html) {
     // Add/replace a topright control with given className and innerHTML
     var dropdown = L.control({ position: 'topright' });
@@ -370,6 +374,8 @@ function loadSuburb(state_file, commit, first_load=false) {
             addControlWithHTML('date-selector', dropdownHTML)
             $('.commit-selector').select2();
         });
+
+        gtag('event', 'suburb_load', { 'suburb': default_suburb, 'state': default_state, 'commit': commit });
     });
 }
 
