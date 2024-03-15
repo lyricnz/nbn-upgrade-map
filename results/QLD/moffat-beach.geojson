@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-02-08T14:05:16.255377",
+ "generated": "2024-03-15T06:31:09.746443",
  "suburb": "MOFFAT BEACH",
  "features": [
   {
@@ -586,23 +586,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.13562813,
-     -26.79700712
-    ]
-   },
-   "properties": {
-    "name": "33B QUEEN STREET MOFFAT BEACH 4551",
-    "locID": "ChIJUzEYiDaZk2sRgKDN32ng3rg",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155546952"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.1353217,
      -26.79679172
     ]
@@ -815,10 +798,9 @@
    "properties": {
     "name": "100 RODERICK STREET MOFFAT BEACH 4551",
     "locID": "LOC000050761214",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155548794",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4506,7 +4488,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155566252",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5870,23 +5852,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.13833968,
-     -26.79089571
-    ]
-   },
-   "properties": {
-    "name": "113 NOTHLING STREET MOFFAT BEACH 4551",
-    "locID": "EjExMTMgTm90aGxpbmcgU3QsIE1vZmZhdCBCZWFjaCBRTEQgNDU1MSwgQXVzdHJhbGlhIjASLgoUChIJB0XGr8yek2sRMIshzFqjAhMQcSoUChIJZwwqVsuek2sRaX5YBNmJmfw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155569046"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.14091702,
      -26.79153474
     ]
@@ -6398,23 +6363,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.14089078,
-     -26.79353048
-    ]
-   },
-   "properties": {
-    "name": "9 DERBY ROAD MOFFAT BEACH 4551",
-    "locID": "ChIJ317R4TKZk2sR5FJWsILCm80",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155569417"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.14353406,
      -26.79164758
     ]
@@ -6494,10 +6442,9 @@
    "properties": {
     "name": "14 EDMUND STREET MOFFAT BEACH 4551",
     "locID": "LOC000039111850",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155569422",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155569422"
    }
   },
   {
@@ -6899,10 +6846,10 @@
    "properties": {
     "name": "48 SEAVIEW TERRACE MOFFAT BEACH 4551",
     "locID": "LOC000088900731",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAQLD155570671",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -10051,23 +9998,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.14055414,
-     -26.79450192
-    ]
-   },
-   "properties": {
-    "name": "26 WILLIAM STREET MOFFAT BEACH 4551",
-    "locID": "ChIJFW9GpjOZk2sRfWZ3q5DfRSE",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156816102"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.13629227,
      -26.79184873
     ]
@@ -11092,9 +11022,9 @@
     "name": "23 MOFFAT STREET MOFFAT BEACH 4551",
     "locID": "LOC000069804239",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156826788",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12731,8 +12661,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156840473",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14098,23 +14027,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.13833968,
-     -26.79089571
-    ]
-   },
-   "properties": {
-    "name": "122 NOTHLING STREET MOFFAT BEACH 4551",
-    "locID": "ChIJDf8zVsuek2sRGImprH71JyE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156847936"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.14059189,
      -26.79090514
     ]
@@ -15226,23 +15138,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.13658035,
-     -26.79553351
-    ]
-   },
-   "properties": {
-    "name": "5 FAIRLIE CRESCENT MOFFAT BEACH 4551",
-    "locID": "ChIJl-G8OzSZk2sRUwaoid-2d0s",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156854979"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.14442538,
      -26.79247941
     ]
@@ -16196,10 +16091,9 @@
    "properties": {
     "name": "10 FURLONG DRIVE MOFFAT BEACH 4551",
     "locID": "LOC000091367380",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156858299",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156858299"
    }
   },
   {
@@ -18252,10 +18146,9 @@
    "properties": {
     "name": "7 CARLTON AVENUE MOFFAT BEACH 4551",
     "locID": "LOC000098819727",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156868836",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156868836"
    }
   },
   {
@@ -21322,9 +21215,8 @@
     "name": "UNIT 1, 55 QUEEN STREET MOFFAT BEACH 4551",
     "locID": "LOC000020028946",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158287566",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23817,23 +23709,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.13047789,
-     -26.79146194
-    ]
-   },
-   "properties": {
-    "name": "43 ALLEN STREET MOFFAT BEACH 4551",
-    "locID": "ChIJVZjU6EqZk2sRnQpuZc3J7Tg",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160066912"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.1303231,
      -26.79142949
     ]
@@ -23943,23 +23818,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.14039711,
-     -26.7899586
-    ]
-   },
-   "properties": {
-    "name": "21 RODERICK STREET MOFFAT BEACH 4551",
-    "locID": "ChIJ-TP67syek2sRCAdGvkRWaec",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160068215"
    }
   },
   {
@@ -24411,40 +24269,6 @@
     "gnaf_pid": "GAQLD160071608",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.13711928,
-     -26.79231493
-    ]
-   },
-   "properties": {
-    "name": "3 ROSLIN STREET MOFFAT BEACH 4551",
-    "locID": "ChIJoyEIvTSZk2sROGnJtO83jXI",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160072210"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.13707857,
-     -26.79254273
-    ]
-   },
-   "properties": {
-    "name": "5 ROSLIN STREET MOFFAT BEACH 4551",
-    "locID": "ChIJMRsuljSZk2sRGjmZls-ZFIk",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160072211"
    }
   },
   {
@@ -25844,10 +25668,9 @@
    "properties": {
     "name": "SHOP 1, 9 ALLEN STREET MOFFAT BEACH 4551",
     "locID": "LOC000068997247",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160088527",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25934,23 +25757,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.1402358,
-     -26.79438877
-    ]
-   },
-   "properties": {
-    "name": "30 WILLIAM STREET MOFFAT BEACH 4551",
-    "locID": "ChIJP4mpoDOZk2sR_cVsWI7FP4s",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160089286"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.13110563,
      -26.79246512
     ]
@@ -25998,40 +25804,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD160089995",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.14045583,
-     -26.79442017
-    ]
-   },
-   "properties": {
-    "name": "28 WILLIAM STREET MOFFAT BEACH 4551",
-    "locID": "ChIJPzsqCDOZk2sRrW0ASDfBaPg",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160089999"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.14001502,
-     -26.79435704
-    ]
-   },
-   "properties": {
-    "name": "32 WILLIAM STREET MOFFAT BEACH 4551",
-    "locID": "ChIJKwB0oDOZk2sRA2cwxd4FXV4",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160090003"
    }
   },
   {
@@ -26131,23 +25903,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.14089078,
-     -26.79353048
-    ]
-   },
-   "properties": {
-    "name": "54 SEAVIEW TERRACE MOFFAT BEACH 4551",
-    "locID": "ChIJsYhpGTOZk2sRu94ZCqR3dkc",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160093201"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.14177742,
      -26.79030059
     ]
@@ -26218,23 +25973,6 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.13056052,
-     -26.79251331
-    ]
-   },
-   "properties": {
-    "name": "77 WILLIAM STREET MOFFAT BEACH 4551",
-    "locID": "ChIJuZedWEqZk2sRhofwm9j1MhE",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160093952"
    }
   },
   {
@@ -26546,23 +26284,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.1308466,
-     -26.79133867
-    ]
-   },
-   "properties": {
-    "name": "42 LYON STREET MOFFAT BEACH 4551",
-    "locID": "ChIJH6VZ6kqZk2sRBe6HeQazJH8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160104165"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.13128417,
      -26.7901655
     ]
@@ -26839,40 +26560,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.1308466,
-     -26.79133867
-    ]
-   },
-   "properties": {
-    "name": "36 LYON STREET MOFFAT BEACH 4551",
-    "locID": "ChIJH6VZ6kqZk2sR3fiqTb8RV1g",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160730097"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.1308466,
-     -26.79133867
-    ]
-   },
-   "properties": {
-    "name": "38 LYON STREET MOFFAT BEACH 4551",
-    "locID": "ChIJH6VZ6kqZk2sRSF19w-y212s",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160730098"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.13178646,
      -26.79280585
     ]
@@ -27008,23 +26695,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.14205189,
-     -26.79340296
-    ]
-   },
-   "properties": {
-    "name": "21B SEAVIEW TERRACE MOFFAT BEACH 4551",
-    "locID": "ChIJSYBM3TKZk2sRn9UG-W9dIYM",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160984257"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.14177283,
      -26.79356018
     ]
@@ -27036,23 +26706,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD160984258",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.14177283,
-     -26.79356018
-    ]
-   },
-   "properties": {
-    "name": "23B SEAVIEW TERRACE MOFFAT BEACH 4551",
-    "locID": "ChIJK_4v5zKZk2sRwrXlU07e5GI",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD160984259"
    }
   },
   {
@@ -27231,23 +26884,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.13874428,
-     -26.78846799
-    ]
-   },
-   "properties": {
-    "name": "LOT 19 KINGSFORD SMITH PARADE MOFFAT BEACH 4551",
-    "locID": "EjsxOSBLaW5nc2ZvcmQgU21pdGggUGFyYWRlLCBNb2ZmYXQgQmVhY2ggUUxEIDQ1NTEsIEF1c3RyYWxpYSIwEi4KFAoSCU8HrmjMnpNrEZnhCUpQqSCwEBMqFAoSCVkYNHvMnpNrEZnPA-uve4G_",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161201721"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.13666593,
      -26.79504769
     ]
@@ -27379,74 +27015,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.13703801,
-     -26.79292011
-    ]
-   },
-   "properties": {
-    "name": "LOT 73 ROSLIN STREET MOFFAT BEACH 4551",
-    "locID": "Ei43MyBSb3NsaW4gU3QsIE1vZmZhdCBCZWFjaCBRTEQgNDU1MSwgQXVzdHJhbGlhIjASLgoUChIJKbEZ6zSZk2sRQJQhzFqjAhMQSSoUChIJKbEZ6zSZk2sRHdEeuYt3sx0",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161296232"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.13707007,
-     -26.79274131
-    ]
-   },
-   "properties": {
-    "name": "LOT 74 ROSLIN STREET MOFFAT BEACH 4551",
-    "locID": "Ei43NCBSb3NsaW4gU3QsIE1vZmZhdCBCZWFjaCBRTEQgNDU1MSwgQXVzdHJhbGlhIjASLgoUChIJKbEZ6zSZk2sRQZQhzFqjAhMQSioUChIJKbEZ6zSZk2sRHdEeuYt3sx0",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161296233"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.13710214,
-     -26.79256249
-    ]
-   },
-   "properties": {
-    "name": "LOT 75 ROSLIN STREET MOFFAT BEACH 4551",
-    "locID": "Ei43NSBSb3NsaW4gU3QsIE1vZmZhdCBCZWFjaCBRTEQgNDU1MSwgQXVzdHJhbGlhIjASLgoUChIJKbEZ6zSZk2sRQJQhzFqjAhMQSyoUChIJKbEZ6zSZk2sRHdEeuYt3sx0",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161296234"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.13713419,
-     -26.79238368
-    ]
-   },
-   "properties": {
-    "name": "LOT 76 ROSLIN STREET MOFFAT BEACH 4551",
-    "locID": "Ei43NiBSb3NsaW4gU3QsIE1vZmZhdCBCZWFjaCBRTEQgNDU1MSwgQXVzdHJhbGlhIjASLgoUChIJKbEZ6zSZk2sRQZQhzFqjAhMQTCoUChIJKbEZ6zSZk2sRHdEeuYt3sx0",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161296235"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.14541911,
      -26.79203127
     ]
@@ -27498,23 +27066,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161297981",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.14662606,
-     -26.79221392
-    ]
-   },
-   "properties": {
-    "name": "LOT 17 RUSSELL STREET MOFFAT BEACH 4551",
-    "locID": "Ei8xNyBSdXNzZWxsIFN0LCBTaGVsbHkgQmVhY2ggUUxEIDQ1NTEsIEF1c3RyYWxpYSIwEi4KFAoSCV3ghswymZNrEXGQIcxaowITEBEqFAoSCQN7MKsymZNrEXl-N1CFgFye",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161297982"
    }
   },
   {
@@ -28154,23 +27705,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.14169243,
-     -26.78924324
-    ]
-   },
-   "properties": {
-    "name": "LOT 135 SEAVIEW TERRACE MOFFAT BEACH 4551",
-    "locID": "ChIJUamCqs2ek2sRo5D3zkFFItA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161304595"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.14269415,
      -26.78951098
     ]
@@ -28600,23 +28134,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.13864832,
-     -26.78923892
-    ]
-   },
-   "properties": {
-    "name": "13A BUCCLEUGH STREET MOFFAT BEACH 4551",
-    "locID": "ChIJi70Ig8yek2sRESkcX00eMtE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161680395"
    }
   },
   {
@@ -29114,10 +28631,9 @@
    "properties": {
     "name": "74 RODERICK STREET MOFFAT BEACH 4551",
     "locID": "LOC000106134973",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161981531",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30126,23 +29642,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162351690",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.14206681,
-     -26.79574403
-    ]
-   },
-   "properties": {
-    "name": "LOT 99 HEADLANDS COURT MOFFAT BEACH 4551",
-    "locID": "EjE5OSBIZWFkbGFuZHMgQ3QsIFNoZWxseSBCZWFjaCBRTEQgNDU1MSwgQXVzdHJhbGlhIjASLgoUChIJMWV0WjKZk2sRD1afZvVVH_kQYyoUChIJuXalWzKZk2sRKz17uMEJjTs",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162351691"
    }
   },
   {
@@ -32164,23 +31663,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.13242731,
-     -26.79045564
-    ]
-   },
-   "properties": {
-    "name": "145 GRIGOR STREET WEST MOFFAT BEACH 4551",
-    "locID": "ChIJR_kVqkqZk2sRqzmSTrH-15I",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163062828"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.13115194,
      -26.79114239
     ]
@@ -32310,23 +31792,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.1374049,
-     -26.79593256
-    ]
-   },
-   "properties": {
-    "name": "16A ELM STREET MOFFAT BEACH 4551",
-    "locID": "ChIJg3CfEDSZk2sRlLPuWmnjETQ",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163136484"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.13635194,
      -26.79126159
     ]
@@ -32340,23 +31805,6 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.14185731,
-     -26.78968524
-    ]
-   },
-   "properties": {
-    "name": "2A SEAVIEW TERRACE MOFFAT BEACH 4551",
-    "locID": "ChIJ-94oBM2ek2sRHq67epBcHEg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163145857"
    }
   },
   {
@@ -32627,10 +32075,9 @@
    "properties": {
     "name": "116 GRIGOR STREET WEST MOFFAT BEACH 4551",
     "locID": "LOC000031827725",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163165110",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32839,23 +32286,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.134244,
-     -26.79071682
-    ]
-   },
-   "properties": {
-    "name": "129 GRIGOR STREET WEST MOFFAT BEACH 4551",
-    "locID": "ChIJ6eH1NDWZk2sR7UFC1wye3mw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163165121"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.13249092,
      -26.79132398
     ]
@@ -32888,23 +32318,6 @@
     "gnaf_pid": "GAQLD163165123",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.13297772,
-     -26.79026666
-    ]
-   },
-   "properties": {
-    "name": "141 GRIGOR STREET WEST MOFFAT BEACH 4551",
-    "locID": "ChIJHSNQUzWZk2sRIP_SdLrVJrs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163165124"
    }
   },
   {
@@ -33193,23 +32606,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.132665,
-     -26.79103561
-    ]
-   },
-   "properties": {
-    "name": "103 GRIGOR STREET WEST MOFFAT BEACH 4551",
-    "locID": "ChIJo9BPWDWZk2sROHo3r6jAoD0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163187209"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.13333832,
      -26.7913969
     ]
@@ -33222,23 +32618,6 @@
     "gnaf_pid": "GAQLD163187210",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.1320994,
-     -26.79127198
-    ]
-   },
-   "properties": {
-    "name": "134 GRIGOR STREET WEST MOFFAT BEACH 4551",
-    "locID": "ChIJ7Vq2o0qZk2sRZ9hqHHc7T1o",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163187211"
    }
   },
   {
@@ -33282,23 +32661,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.13141984,
-     -26.7911763
-    ]
-   },
-   "properties": {
-    "name": "142 GRIGOR STREET WEST MOFFAT BEACH 4551",
-    "locID": "ChIJ5Xp9vkqZk2sRHImUJ6Pd9gU",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163187214"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.13205703,
      -26.79068349
     ]
@@ -33310,40 +32672,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD163187215",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.13066349,
-     -26.79128159
-    ]
-   },
-   "properties": {
-    "name": "150 GRIGOR STREET WEST MOFFAT BEACH 4551",
-    "locID": "ChIJ3diI6UqZk2sRYFgXbycEcNQ",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163187216"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.13047789,
-     -26.79146194
-    ]
-   },
-   "properties": {
-    "name": "152 GRIGOR STREET WEST MOFFAT BEACH 4551",
-    "locID": "ChIJ7fCBwkqZk2sRMXnz5uaiya8",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163187217"
    }
   },
   {
@@ -33398,23 +32726,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD163187220",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.132665,
-     -26.79103561
-    ]
-   },
-   "properties": {
-    "name": "160-162 GRIGOR STREET WEST MOFFAT BEACH 4551",
-    "locID": "EjExNjAgR3JpZ29yIFN0IFcsIE1vZmZhdCBCZWFjaCBRTEQgNDU1MSwgQXVzdHJhbGlhIjESLwoUChIJ13-8xEqZk2sRQIohzFqjAhMQoAEqFAoSCY-E91g1mZNrEZh_nq4ug7eH",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163187221"
    }
   },
   {
@@ -33681,23 +32992,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.13685463,
-     -26.79133859
-    ]
-   },
-   "properties": {
-    "name": "69 GRIGOR STREET MOFFAT BEACH 4551",
-    "locID": "ChIJ7ZYVyjSZk2sRzTLeRFBrD_U",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163367658"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.14100521,
      -26.79153536
     ]
@@ -33865,10 +33159,9 @@
    "properties": {
     "name": "70 RODERICK STREET MOFFAT BEACH 4551",
     "locID": "LOC000111259127",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163370530",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34025,23 +33318,6 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.13188957,
-     -26.79162891
-    ]
-   },
-   "properties": {
-    "name": "31A ALLEN STREET MOFFAT BEACH 4551",
-    "locID": "ChIJMSBDmEqZk2sR9ahtqIRQaQY",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425114108"
    }
   },
   {
@@ -35470,8 +34746,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425210979",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35696,8 +34971,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425210991",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35755,23 +35029,6 @@
     "gnaf_pid": "GAQLD425210994",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.14596268,
-     -26.79134577
-    ]
-   },
-   "properties": {
-    "name": "34 MCILWRAITH STREET MOFFAT BEACH 4551",
-    "locID": "ChIJE3Ud69Kek2sRFb2iVnlee9w",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425210995"
    }
   },
   {
@@ -36188,23 +35445,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.14781877,
-     -26.79115817
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 1A MCILWRAITH STREET MOFFAT BEACH 4551",
-    "locID": "ChIJwZceBdOek2sRjElnQnN_MIk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425240193"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.14711485,
      -26.79089096
     ]
@@ -36224,23 +35464,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.14781877,
-     -26.79115817
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 1A MCILWRAITH STREET MOFFAT BEACH 4551",
-    "locID": "ChIJwZceBdOek2sRjElnQnN_MIk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425240196"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.1471063,
      -26.79085908
     ]
@@ -36253,40 +35476,6 @@
     "gnaf_pid": "GAQLD425240198",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.14781877,
-     -26.79115817
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 1A MCILWRAITH STREET MOFFAT BEACH 4551",
-    "locID": "ChIJwZceBdOek2sRjElnQnN_MIk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425240199"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.14781877,
-     -26.79115817
-    ]
-   },
-   "properties": {
-    "name": "1A MCILWRAITH STREET MOFFAT BEACH 4551",
-    "locID": "ChIJwZceBdOek2sRjElnQnN_MIk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425240206"
    }
   },
   {
@@ -36421,8 +35610,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425594258",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36479,8 +35667,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425594261",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36499,8 +35686,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425606677",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Mar 2023"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36538,23 +35724,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.14045228,
-     -26.79052553
-    ]
-   },
-   "properties": {
-    "name": "26B RODERICK STREET MOFFAT BEACH 4551",
-    "locID": "ChIJ15OLwsyek2sRptWIDYxXgQw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425665234"
    }
   },
   {
@@ -37209,23 +36378,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.13663071,
-     -26.79736859
-    ]
-   },
-   "properties": {
-    "name": "28 MALTMAN STREET NORTH MOFFAT BEACH 4551",
-    "locID": "ChIJ8cJrmDaZk2sRNOwfC2wJMM4",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720117270"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.13070709,
      -26.79013599
     ]
@@ -37283,57 +36435,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.14045228,
-     -26.79052553
-    ]
-   },
-   "properties": {
-    "name": "26A RODERICK STREET MOFFAT BEACH 4551",
-    "locID": "ChIJ15OLwsyek2sRX4897HPraf8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720619644"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.13811625,
-     -26.7972875
-    ]
-   },
-   "properties": {
-    "name": "9A THEODORE COURT MOFFAT BEACH 4551",
-    "locID": "ChIJ0-00rDaZk2sRAA9GwwbhRr0",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720942074"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.13490628,
-     -26.7910504
-    ]
-   },
-   "properties": {
-    "name": "115-117 GRIGOR STREET WEST MOFFAT BEACH 4551",
-    "locID": "ChIJyZoWLjWZk2sRrovR3Fen1ss",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720982390"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.14248709,
      -26.79060471
     ]
@@ -37345,40 +36446,6 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD721113518",
     "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.14301615,
-     -26.79133502
-    ]
-   },
-   "properties": {
-    "name": "7 RINALDI STREET MOFFAT BEACH 4551",
-    "locID": "ChIJeyrWRs2ek2sR85nTxN47PAQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721119679"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.13307154,
-     -26.79281239
-    ]
-   },
-   "properties": {
-    "name": "57 WILLIAM STREET MOFFAT BEACH 4551",
-    "locID": "Ei81NyBXaWxsaWFtIFN0LCBNb2ZmYXQgQmVhY2ggUUxEIDQ1NTEsIEF1c3RyYWxpYSIwEi4KFAoSCVcSr4E1mZNrESCTIcxaowITEDkqFAoSCdVYen4zmZNrEarjeY7NxBfR",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721149311"
    }
   },
   {
@@ -37416,23 +36483,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD721227282",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.13221414,
-     -26.79068784
-    ]
-   },
-   "properties": {
-    "name": "32 ULM STREET MOFFAT BEACH 4551",
-    "locID": "ChIJ6VTEqEqZk2sRpkkP2oJP1DE",
-    "tech": "FTTC",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721227589"
    }
   },
   {
@@ -37841,23 +36891,6 @@
     ]
    },
    "properties": {
-    "name": "155 GRIGOR STREET WEST MOFFAT BEACH 4551",
-    "locID": "EjExNTUgR3JpZ29yIFN0IFcsIE1vZmZhdCBCZWFjaCBRTEQgNDU1MSwgQXVzdHJhbGlhIjESLwoUChIJtwwku0qZk2sRwYohzFqjAhMQmwEqFAoSCY-E91g1mZNrEZh_nq4ug7eH",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721257011"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.132665,
-     -26.79103561
-    ]
-   },
-   "properties": {
     "name": "151 GRIGOR STREET WEST MOFFAT BEACH 4551",
     "locID": "LOC000190816488",
     "tech": "FTTP",
@@ -37895,114 +36928,12 @@
     ]
    },
    "properties": {
-    "name": "SHED 2, 27 ULM STREET MOFFAT BEACH 4551",
-    "locID": "Ei0yNyBVbG0gU3QgUywgTW9mZmF0IEJlYWNoIFFMRCA0NTUxLCBBdXN0cmFsaWEiMBIuChQKEgl_Ur6pSpmTaxFZcBJUQG2DvxAbKhQKEgkN-RtwSpmTaxH0KoryNbl8ow",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721263314"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.1321031,
-     -26.79236371
-    ]
-   },
-   "properties": {
-    "name": "SHED 3, 27 ULM STREET MOFFAT BEACH 4551",
-    "locID": "Ei0yNyBVbG0gU3QgUywgTW9mZmF0IEJlYWNoIFFMRCA0NTUxLCBBdXN0cmFsaWEiMBIuChQKEgl_Ur6pSpmTaxFZcBJUQG2DvxAbKhQKEgkN-RtwSpmTaxH0KoryNbl8ow",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721265890"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.1321031,
-     -26.79236371
-    ]
-   },
-   "properties": {
     "name": "40 ULM STREET MOFFAT BEACH 4551",
     "locID": "LOC000014200114",
     "tech": "FTTC",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD721266296",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.1321031,
-     -26.79236371
-    ]
-   },
-   "properties": {
-    "name": "SHED 4, 27 ULM STREET MOFFAT BEACH 4551",
-    "locID": "Ei0yNyBVbG0gU3QgUywgTW9mZmF0IEJlYWNoIFFMRCA0NTUxLCBBdXN0cmFsaWEiMBIuChQKEgl_Ur6pSpmTaxFZcBJUQG2DvxAbKhQKEgkN-RtwSpmTaxH0KoryNbl8ow",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721266531"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.1321031,
-     -26.79236371
-    ]
-   },
-   "properties": {
-    "name": "SHED 1, 27 ULM STREET MOFFAT BEACH 4551",
-    "locID": "Ei0yNyBVbG0gU3QgUywgTW9mZmF0IEJlYWNoIFFMRCA0NTUxLCBBdXN0cmFsaWEiMBIuChQKEgl_Ur6pSpmTaxFZcBJUQG2DvxAbKhQKEgkN-RtwSpmTaxH0KoryNbl8ow",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721266914"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.1321031,
-     -26.79236371
-    ]
-   },
-   "properties": {
-    "name": "27 ULM STREET MOFFAT BEACH 4551",
-    "locID": "Ei0yNyBVbG0gU3QgUywgTW9mZmF0IEJlYWNoIFFMRCA0NTUxLCBBdXN0cmFsaWEiMBIuChQKEgl_Ur6pSpmTaxFZcBJUQG2DvxAbKhQKEgkN-RtwSpmTaxH0KoryNbl8ow",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721266985"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.14161505,
-     -26.79119254
-    ]
-   },
-   "properties": {
-    "name": "1A NOTHLING STREET MOFFAT BEACH 4551",
-    "locID": "ChIJf7L1Js2ek2sR4sGbgJg4LDQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721314960"
    }
   }
  ]
