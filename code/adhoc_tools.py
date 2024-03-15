@@ -285,7 +285,7 @@ def generate_state_breakdown():
         with open(f'results/breakdown.{state}.csv', 'w', newline='') as f:
             writer = csv.writer(f)
             writer.writerow(rows[0].keys())
-            writer.writerows(r.values() for r in rows
+            writer.writerows(r.values() for r in rows)
 
                              
 if __name__ == "__main__":
