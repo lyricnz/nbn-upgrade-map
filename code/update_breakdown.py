@@ -5,7 +5,7 @@ import logging
 from datetime import datetime
 
 import utils
-from adhoc_tools import get_tech_and_upgrade_breakdown, generate_state_breakdown
+from adhoc_tools import generate_state_breakdown, get_tech_and_upgrade_breakdown
 from tabulate import tabulate
 
 
