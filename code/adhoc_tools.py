@@ -288,7 +288,7 @@ def generate_state_breakdown():
             writer.writerow(rows[0].keys())
             writer.writerows(r.values() for r in rows)
 
-                             
+
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
     logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(threadName)s %(message)s")
