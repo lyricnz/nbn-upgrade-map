@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-02-09T00:24:25.727079",
+ "generated": "2024-03-15T17:50:04.500992",
  "suburb": "DOUGLAS",
  "features": [
   {
@@ -100,7 +100,7 @@
    "properties": {
     "name": "146 THUNS ROAD DOUGLAS 4354",
     "locID": "LOC000073965656",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD159901817"
    }
@@ -120,23 +120,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD159901818"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.8825703,
-     -27.35375728
-    ]
-   },
-   "properties": {
-    "name": "91 WELKES ROAD DOUGLAS 4354",
-    "locID": "ChIJb6mZyH5vlmsRdaitoa1Xrys",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD159901819"
    }
   },
   {
@@ -229,40 +212,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.90334532,
-     -27.30023605
-    ]
-   },
-   "properties": {
-    "name": "LOT 53 GOMORAN BERGEN ROAD DOUGLAS 4354",
-    "locID": "EjE1MyBHb21vcmFuIEJlcmdlbiBSZCwgRG91Z2xhcyBRTEQgNDM1NCwgQXVzdHJhbGlhIjASLgoUChIJ1fGmI6x6lmsRYg8q1LNh0VIQNSoUChIJLzOwo2Z6lmsR0merPuBz2dk",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161163447"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.91361009,
-     -27.36715562
-    ]
-   },
-   "properties": {
-    "name": "LOT 7 PETERS ROAD DOUGLAS 4354",
-    "locID": "Eig3IFBldGVycyBSZCwgRG91Z2xhcyBRTEQgNDM1NCwgQXVzdHJhbGlhIjASLgoUChIJ12FcK-VklmsRQiR6k9BHFDsQByoUChIJ4XPIyABllmsRZD9bu6K_3NU",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD161276081"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.90592165,
      -27.28978957
     ]
@@ -305,8 +254,9 @@
     "name": "189 HARTWIGS ROAD DOUGLAS 4354",
     "locID": "LOC000023897779",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161628260"
+    "upgrade": "FW_NA",
+    "gnaf_pid": "GAQLD161628260",
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -2099,10 +2049,9 @@
    "properties": {
     "name": "5 WHITE BEECH COURT DOUGLAS 4814",
     "locID": "LOC000106064283",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162108838",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2139,10 +2088,9 @@
    "properties": {
     "name": "8 WHITE BEECH COURT DOUGLAS 4814",
     "locID": "LOC000042970718",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162108840",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3804,10 +3752,9 @@
    "properties": {
     "name": "8 SILVER LEAF COURT DOUGLAS 4814",
     "locID": "LOC000086818182",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162108924",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4560,23 +4507,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.76037069,
-     -19.31521269
-    ]
-   },
-   "properties": {
-    "name": "2 TENNANT STREET DOUGLAS 4814",
-    "locID": "ChIJad3X-xT61WsRW0pdWXowCxY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162108964"
    }
   },
   {
@@ -5401,10 +5331,10 @@
    "properties": {
     "name": "15 ESTUARY PARADE DOUGLAS 4814",
     "locID": "LOC000076285190",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162109008",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6138,9 +6068,8 @@
     "name": "31 GELLING CRESCENT DOUGLAS 4814",
     "locID": "LOC000065948169",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162109045",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6357,9 +6286,8 @@
     "name": "9 HALLETT CLOSE DOUGLAS 4814",
     "locID": "LOC000085741331",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162109056",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7365,9 +7293,8 @@
     "name": "16 REGATTA CRESCENT DOUGLAS 4814",
     "locID": "LOC000103015921",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162109107",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7504,9 +7431,9 @@
     "name": "14 CILENTO CRESCENT DOUGLAS 4814",
     "locID": "LOC000052425659",
     "tech": "FTTP",
-    "upgrade": "FTTN_NA",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162109114",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7785,7 +7712,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162109128",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8042,23 +7968,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.75706152,
-     -19.3147711
-    ]
-   },
-   "properties": {
-    "name": "58 REGATTA CRESCENT DOUGLAS 4814",
-    "locID": "ChIJ86cgcRP61WsRbqOKcxir0Qg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162109142"
    }
   },
   {
@@ -9577,23 +9486,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74097327,
-     -19.31881759
-    ]
-   },
-   "properties": {
-    "name": "94 RIVERBEND DRIVE DOUGLAS 4814",
-    "locID": "ChIJH0Va_p3w1WsRPd0cYyd9wHQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162109219"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.74152977,
      -19.31653133
     ]
@@ -9640,10 +9532,10 @@
    "properties": {
     "name": "5 RIVERGREEN CIRCUIT DOUGLAS 4814",
     "locID": "LOC000088735197",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162109222",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10318,10 +10210,9 @@
    "properties": {
     "name": "76 SOUTHERN CROSS CIRCUIT DOUGLAS 4814",
     "locID": "LOC000082698789",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162109257",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11134,10 +11025,9 @@
    "properties": {
     "name": "81 ESTUARY PARADE DOUGLAS 4814",
     "locID": "LOC000042844652",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162109304",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11648,10 +11538,9 @@
    "properties": {
     "name": "93 ESTUARY PARADE DOUGLAS 4814",
     "locID": "LOC000050448004",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162109818",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13275,6 +13164,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162109923",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13860,23 +13750,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.75901679,
-     -19.31223816
-    ]
-   },
-   "properties": {
-    "name": "26 FENNER STREET DOUGLAS 4814",
-    "locID": "ChIJZbhAHBT61WsRX0ohn7FAv9I",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162109954"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.7621253,
      -19.31493398
     ]
@@ -14044,9 +13917,9 @@
     "name": "23 GELLING CRESCENT DOUGLAS 4814",
     "locID": "LOC000053622897",
     "tech": "FTTP",
-    "upgrade": "FTTN_NA",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162109964",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14165,6 +14038,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162109970",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14482,9 +14356,8 @@
     "name": "7 GELLING CRESCENT DOUGLAS 4814",
     "locID": "LOC000059721216",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162109986",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14863,6 +14736,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162110005",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14900,9 +14774,9 @@
     "name": "4 VERHOEVEN DRIVE DOUGLAS 4814",
     "locID": "LOC000016571583",
     "tech": "FTTP",
-    "upgrade": "FTTN_NA",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162110007",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14960,9 +14834,9 @@
     "name": "44 VERHOEVEN DRIVE DOUGLAS 4814",
     "locID": "LOC000074416787",
     "tech": "FTTP",
-    "upgrade": "FTTN_NA",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162110011",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15039,9 +14913,9 @@
     "name": "5 VERHOEVEN DRIVE DOUGLAS 4814",
     "locID": "LOC000028592094",
     "tech": "FTTP",
-    "upgrade": "FTTN_NA",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162110015",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15535,10 +15409,9 @@
    "properties": {
     "name": "5 YALE CLOSE DOUGLAS 4814",
     "locID": "LOC000040422404",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162110040",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15833,10 +15706,9 @@
    "properties": {
     "name": "38 KEESING ROAD DOUGLAS 4814",
     "locID": "LOC000095630271",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162110056",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16567,23 +16439,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.76103161,
-     -19.31161976
-    ]
-   },
-   "properties": {
-    "name": "20 DURACK STREET DOUGLAS 4814",
-    "locID": "ChIJDW2bYxb61WsRLV9z8k0vvPE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162110096"
    }
   },
   {
@@ -19974,10 +19829,9 @@
    "properties": {
     "name": "123 FRESHWATER DRIVE DOUGLAS 4814",
     "locID": "LOC000005840853",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162111938",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20256,23 +20110,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73360826,
-     -19.3261532
-    ]
-   },
-   "properties": {
-    "name": "94-100 FRESHWATER DRIVE DOUGLAS 4814",
-    "locID": "ChIJU27rQYTw1WsRpky-kM2CtYk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162111958"
    }
   },
   {
@@ -20568,23 +20405,6 @@
     "gnaf_pid": "GAQLD162111984",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74235722,
-     -19.31981739
-    ]
-   },
-   "properties": {
-    "name": "53-57 RIVERBEND DRIVE DOUGLAS 4814",
-    "locID": "ChIJh5u2E3b61WsR-1grxoRmvsU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162111985"
    }
   },
   {
@@ -21227,23 +21047,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73508094,
-     -19.32572218
-    ]
-   },
-   "properties": {
-    "name": "21-23 WARBLER CRESCENT DOUGLAS 4814",
-    "locID": "ChIJ_66je4Tw1WsRw4no467uFwg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162112027"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.7359495,
      -19.32550903
     ]
@@ -21676,40 +21479,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.7368058,
-     -19.32612066
-    ]
-   },
-   "properties": {
-    "name": "LOT 905 ANGUS SMITH DRIVE DOUGLAS 4814",
-    "locID": "Ei85MDUgQW5ndXMgU21pdGggRHIsIERvdWdsYXMgUUxEIDQ4MTQsIEF1c3RyYWxpYSIxEi8KFAoSCT9SgK998NVrEfvwKiXUjQkREIkHKhQKEgk73OajcPrVaxE65mJZlHbd4Q",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162112063"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.732228,
-     -19.3278935
-    ]
-   },
-   "properties": {
-    "name": "LOT 907 ANGUS SMITH DRIVE DOUGLAS 4814",
-    "locID": "Ei85MDcgQW5ndXMgU21pdGggRHIsIERvdWdsYXMgUUxEIDQ4MTQsIEF1c3RyYWxpYSIxEi8KFAoSCT9SgK998NVrEfvwKiXUjQkREIsHKhQKEgk73OajcPrVaxE65mJZlHbd4Q",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162112065"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73796262,
      -19.31891923
     ]
@@ -22064,7 +21833,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162296894",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22087,40 +21855,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74784024,
-     -19.31954402
-    ]
-   },
-   "properties": {
-    "name": "13 ASHBURTON PLACE DOUGLAS 4814",
-    "locID": "ChIJFfHk5XP61WsRJ-3CcZDBSrg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162296948"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74784024,
-     -19.31954402
-    ]
-   },
-   "properties": {
-    "name": "14 ASHBURTON PLACE DOUGLAS 4814",
-    "locID": "ChIJFfHk5XP61WsRG3KZcwMsV4s",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162296949"
    }
   },
   {
@@ -22175,10 +21909,9 @@
    "properties": {
     "name": "19 ASHBURTON PLACE DOUGLAS 4814",
     "locID": "LOC000027673919",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162296952",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22221,40 +21954,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74784024,
-     -19.31954402
-    ]
-   },
-   "properties": {
-    "name": "22 ASHBURTON PLACE DOUGLAS 4814",
-    "locID": "ChIJFfHk5XP61WsRmHyd-6HwYAA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162296955"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74784024,
-     -19.31954402
-    ]
-   },
-   "properties": {
-    "name": "23 ASHBURTON PLACE DOUGLAS 4814",
-    "locID": "ChIJFfHk5XP61WsRYe80yaSbRzk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162296956"
    }
   },
   {
@@ -22638,23 +22337,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74920926,
-     -19.3203223
-    ]
-   },
-   "properties": {
-    "name": "10-12 BARWIN COURT DOUGLAS 4814",
-    "locID": "ChIJjbFu1nP61WsRwh9d97Cw3v0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162297163"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.74992012,
      -19.32051326
     ]
@@ -22775,23 +22457,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74920926,
-     -19.3203223
-    ]
-   },
-   "properties": {
-    "name": "9-13 BARWIN COURT DOUGLAS 4814",
-    "locID": "ChIJjbFu1nP61WsRqzXLmqV-uKw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162297170"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73426502,
      -19.32870028
     ]
@@ -22890,23 +22555,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.7333869,
-     -19.32835186
-    ]
-   },
-   "properties": {
-    "name": "25 BELYANDO BEND DOUGLAS 4814",
-    "locID": "ChIJw8q4j4bw1WsRT6QDH5mhCSU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162297357"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.7335245,
      -19.32922249
     ]
@@ -22980,23 +22628,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.76221754,
-     -19.31567949
-    ]
-   },
-   "properties": {
-    "name": "8 BENTON COURT DOUGLAS 4814",
-    "locID": "ChIJ-9LHDBX61WsRtTV3q1Vvwgg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162297390"
    }
   },
   {
@@ -23437,23 +23068,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73139779,
-     -19.32915695
-    ]
-   },
-   "properties": {
-    "name": "9 BLOOMFIELD PLACE DOUGLAS 4814",
-    "locID": "ChIJDzn8R4bw1WsR2XsYj9LsclU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162297570"
    }
   },
   {
@@ -24066,9 +23680,8 @@
     "name": "4 CALLIOPE CLOSE DOUGLAS 4814",
     "locID": "LOC000097419186",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162298307",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25293,10 +24906,9 @@
    "properties": {
     "name": "15 DOTTEREL CLOSE DOUGLAS 4814",
     "locID": "LOC000109202203",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162299811",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25458,40 +25070,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73468414,
-     -19.32695
-    ]
-   },
-   "properties": {
-    "name": "7-9 DOTTEREL CLOSE DOUGLAS 4814",
-    "locID": "ChIJW1V3EYTw1WsR42EtbSv2-gI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162299820"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73468414,
-     -19.32695
-    ]
-   },
-   "properties": {
-    "name": "8 DOTTEREL CLOSE DOUGLAS 4814",
-    "locID": "ChIJW1V3EYTw1WsRQ_cHDpYb7rs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162299821"
    }
   },
   {
@@ -25679,23 +25257,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73739716,
-     -19.32399099
-    ]
-   },
-   "properties": {
-    "name": "20-22 ESTUARY PARADE DOUGLAS 4814",
-    "locID": "ChIJcUw6OoPw1WsRFHgeOdSf03M",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162300749"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73814514,
      -19.32173789
     ]
@@ -25723,10 +25284,10 @@
    "properties": {
     "name": "39 ESTUARY PARADE DOUGLAS 4814",
     "locID": "LOC000072047744",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162300751",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26360,9 +25921,9 @@
     "name": "83 ESTUARY PARADE DOUGLAS 4814",
     "locID": "LOC000014248286",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162300783",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26420,9 +25981,9 @@
     "name": "96 ESTUARY PARADE DOUGLAS 4814",
     "locID": "LOC000051171088",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162300786",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26545,23 +26106,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.76018336,
-     -19.31188346
-    ]
-   },
-   "properties": {
-    "name": "17 FENNER STREET DOUGLAS 4814",
-    "locID": "ChIJN5KuhBb61WsR1Swe5QKYnOQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162300961"
    }
   },
   {
@@ -26708,91 +26252,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73589921,
-     -19.32448579
-    ]
-   },
-   "properties": {
-    "name": "10-38 FRESHWATER DRIVE DOUGLAS 4814",
-    "locID": "ChIJ5RT1Y4Pw1WsRBDwWu-WcNjc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162301164"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7337901,
-     -19.32452994
-    ]
-   },
-   "properties": {
-    "name": "118-200 FRESHWATER DRIVE DOUGLAS 4814",
-    "locID": "ChIJ7z-N8YTw1WsRjF8iVAKq6U4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162301165"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73159771,
-     -19.3273215
-    ]
-   },
-   "properties": {
-    "name": "139-147 FRESHWATER DRIVE DOUGLAS 4814",
-    "locID": "ChIJ1T-4dYbw1WsRavjDyD1eZ8o",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162301166"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73047217,
-     -19.3286895
-    ]
-   },
-   "properties": {
-    "name": "189-197 FRESHWATER DRIVE DOUGLAS 4814",
-    "locID": "ChIJKRZ6JIbw1WsRiDThKkXR-Pk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162301168"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73161547,
-     -19.32874212
-    ]
-   },
-   "properties": {
-    "name": "203-205 FRESHWATER DRIVE DOUGLAS 4814",
-    "locID": "ChIJZ8gJQYbw1WsRS8qmNUTtRY4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162301170"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73320536,
      -19.32881101
     ]
@@ -26845,40 +26304,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7328547,
-     -19.33004093
-    ]
-   },
-   "properties": {
-    "name": "233-241 FRESHWATER DRIVE DOUGLAS 4814",
-    "locID": "ChIJg2bq_4bw1WsRUs010VKgoJ4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162301174"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73420903,
-     -19.32997075
-    ]
-   },
-   "properties": {
-    "name": "243-251 FRESHWATER DRIVE DOUGLAS 4814",
-    "locID": "ChIJb62N3Ybw1WsRfksgyZS9cAI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162301175"
    }
   },
   {
@@ -26965,23 +26390,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.7337901,
-     -19.32452994
-    ]
-   },
-   "properties": {
-    "name": "70 FRESHWATER DRIVE DOUGLAS 4814",
-    "locID": "ChIJ7z-N8YTw1WsRMis6EK2WtfA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162301183"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73434584,
      -19.32420401
     ]
@@ -26995,40 +26403,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73383265,
-     -19.32428317
-    ]
-   },
-   "properties": {
-    "name": "87-119 FRESHWATER DRIVE DOUGLAS 4814",
-    "locID": "ChIJAWjY7YTw1WsRBcgKc7NZ_2o",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162301186"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7337901,
-     -19.32452994
-    ]
-   },
-   "properties": {
-    "name": "92-100 FRESHWATER DRIVE DOUGLAS 4814",
-    "locID": "ChIJ7z-N8YTw1WsR676yFPXAXgg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162301187"
    }
   },
   {
@@ -27355,23 +26729,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74996743,
-     -19.3188386
-    ]
-   },
-   "properties": {
-    "name": "12-14 GRANDE PARADE DOUGLAS 4814",
-    "locID": "ChIJEfUgTHL61WsR3vE27oHUuS0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162301697"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.74950309,
      -19.31810608
     ]
@@ -27460,9 +26817,8 @@
     "name": "8 GRANDE PARADE DOUGLAS 4814",
     "locID": "LOC000015013767",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162301702",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27799,23 +27155,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.75371448,
-     -19.31716896
-    ]
-   },
-   "properties": {
-    "name": "23-29 HARVARD STREET DOUGLAS 4814",
-    "locID": "ChIJG4XEQG361WsRDqVmyEOhMOY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162302267"
    }
   },
   {
@@ -28296,23 +27635,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73866433,
-     -19.32212603
-    ]
-   },
-   "properties": {
-    "name": "16-18 HONEYEATER CIRCUIT DOUGLAS 4814",
-    "locID": "Ei4xNiBIb25leWVhdGVyIENjdCwgRG91Z2xhcyBRTEQgNDgxNCwgQXVzdHJhbGlhIjASLgoUChIJ7cw-H53w1WsRkE9uWPHuABMQECoUChIJSbc5H53w1WsRbsFoCjBdv7M",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162302653"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.7389266,
      -19.32219334
     ]
@@ -28524,23 +27846,6 @@
     "gnaf_pid": "GAQLD162302664",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73866433,
-     -19.32212603
-    ]
-   },
-   "properties": {
-    "name": "32 HONEYEATER CIRCUIT DOUGLAS 4814",
-    "locID": "ChIJ30tCH53w1WsRVB1vUQCinEk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162302665"
    }
   },
   {
@@ -28865,74 +28170,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.7403543,
-     -19.32029884
-    ]
-   },
-   "properties": {
-    "name": "18 HORIZON DRIVE DOUGLAS 4814",
-    "locID": "EioxOCBIb3Jpem9uIERyLCBEb3VnbGFzIFFMRCA0ODE0LCBBdXN0cmFsaWEiMBIuChQKEglpI-_ynfDVaxGWbbnBDj6qbRASKhQKEgln7YKNnfDVaxHSAcgDA5EPtg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162302708"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7403543,
-     -19.32029884
-    ]
-   },
-   "properties": {
-    "name": "20 HORIZON DRIVE DOUGLAS 4814",
-    "locID": "EioyMCBIb3Jpem9uIERyLCBEb3VnbGFzIFFMRCA0ODE0LCBBdXN0cmFsaWEiMBIuChQKEglpI-_ynfDVaxGWbbnBDj6qbRAUKhQKEgln7YKNnfDVaxHSAcgDA5EPtg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162302709"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7403543,
-     -19.32029884
-    ]
-   },
-   "properties": {
-    "name": "22 HORIZON DRIVE DOUGLAS 4814",
-    "locID": "ChIJAbObkZ3w1WsRqcpsnorREgQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162302710"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7403543,
-     -19.32029884
-    ]
-   },
-   "properties": {
-    "name": "24 HORIZON DRIVE DOUGLAS 4814",
-    "locID": "ChIJAbObkZ3w1WsRiihpoTkHm0U",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162302711"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.7405813,
      -19.32019727
     ]
@@ -28945,23 +28182,6 @@
     "gnaf_pid": "GAQLD162302712",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7403543,
-     -19.32029884
-    ]
-   },
-   "properties": {
-    "name": "26 HORIZON DRIVE DOUGLAS 4814",
-    "locID": "ChIJAbObkZ3w1WsRRULjeJlfIl8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162302713"
    }
   },
   {
@@ -29174,10 +28394,9 @@
    "properties": {
     "name": "5 JARDINE COURT DOUGLAS 4814",
     "locID": "LOC000008293105",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162302986",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29300,23 +28519,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.75877001,
-     -19.31021635
-    ]
-   },
-   "properties": {
-    "name": "20-30 KEESING ROAD DOUGLAS 4814",
-    "locID": "ChIJXR-LxRb61WsR2RAZp2suwBU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162303488"
    }
   },
   {
@@ -29551,10 +28753,10 @@
    "properties": {
     "name": "8 KREFT COURT DOUGLAS 4814",
     "locID": "LOC000018379809",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162303889",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29610,10 +28812,9 @@
    "properties": {
     "name": "2 KWILA CRESCENT DOUGLAS 4814",
     "locID": "LOC000002631167",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162303911",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30122,23 +29323,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73454885,
-     -19.31980035
-    ]
-   },
-   "properties": {
-    "name": "9-13 LORD HOWE PROMENADE DOUGLAS 4814",
-    "locID": "ChIJB3chnJvw1WsRtiuf5FoiO1I",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162304513"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73740207,
      -19.32184851
     ]
@@ -30370,23 +29554,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73930198,
-     -19.31609506
-    ]
-   },
-   "properties": {
-    "name": "7-9 MORETON ASH DRIVE DOUGLAS 4814",
-    "locID": "ChIJcSovTJ7w1WsRePa1J-1lLm0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162306073"
    }
   },
   {
@@ -30932,10 +30099,9 @@
    "properties": {
     "name": "38 PADDINGTON TERRACE DOUGLAS 4814",
     "locID": "LOC000010793620",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162306989",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31383,23 +30549,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74372812,
-     -19.31959899
-    ]
-   },
-   "properties": {
-    "name": "110-112 RIVERBEND DRIVE DOUGLAS 4814",
-    "locID": "ChIJS3Ojfnb61WsRFSC-NDV5-ks",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162308573"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.74021163,
      -19.31759636
     ]
@@ -31668,7 +30817,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162308587",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32268,23 +31417,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74138654,
-     -19.31938057
-    ]
-   },
-   "properties": {
-    "name": "80 RIVERBEND DRIVE DOUGLAS 4814",
-    "locID": "ChIJRzEqA3b61WsRgC90V6r01BE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162308618"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.74063126,
      -19.31772527
     ]
@@ -32305,40 +31437,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74138654,
-     -19.31938057
-    ]
-   },
-   "properties": {
-    "name": "82 RIVERBEND DRIVE DOUGLAS 4814",
-    "locID": "ChIJRzEqA3b61WsRlvqsW_eJ_uY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162308620"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74138654,
-     -19.31938057
-    ]
-   },
-   "properties": {
-    "name": "84 RIVERBEND DRIVE DOUGLAS 4814",
-    "locID": "ChIJRzEqA3b61WsR2ga-iPTDOmE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162308621"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.74088147,
      -19.3175222
     ]
@@ -32352,40 +31450,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74138654,
-     -19.31938057
-    ]
-   },
-   "properties": {
-    "name": "86 RIVERBEND DRIVE DOUGLAS 4814",
-    "locID": "ChIJRzEqA3b61WsRHJxF8KT7Kvc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162308623"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74138654,
-     -19.31938057
-    ]
-   },
-   "properties": {
-    "name": "88 RIVERBEND DRIVE DOUGLAS 4814",
-    "locID": "ChIJRzEqA3b61WsRZxPwSdS_Els",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162308624"
    }
   },
   {
@@ -33443,57 +32507,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74816944,
-     -19.32069629
-    ]
-   },
-   "properties": {
-    "name": "139-147 RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJ3RCdXXH61WsRlrPRY2p4QQ4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162308721"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74816944,
-     -19.32069629
-    ]
-   },
-   "properties": {
-    "name": "149 RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJ3RCdXXH61WsRr8SjjwZHJYw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162308722"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74816944,
-     -19.32069629
-    ]
-   },
-   "properties": {
-    "name": "165-193 RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJiyuQznX61WsR0ilHsu2b3Bw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162308723"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.7591001,
      -19.31681504
     ]
@@ -33571,91 +32584,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.7375522,
-     -19.31851082
-    ]
-   },
-   "properties": {
-    "name": "247-255 RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJS2jIIZzw1WsR7XHeqbcMT1g",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162308729"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74816944,
-     -19.32069629
-    ]
-   },
-   "properties": {
-    "name": "270-284 RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJ3RCdXXH61WsRguIiQc2h3H8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162308730"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74885877,
-     -19.31870466
-    ]
-   },
-   "properties": {
-    "name": "55-73 RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJ--VurxP61WsRNhI8buLZiaU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162308732"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.75287428,
-     -19.31871194
-    ]
-   },
-   "properties": {
-    "name": "58-76 RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJ1du2g2361WsR-p27_n-WniI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162308733"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73068093,
-     -19.32319859
-    ]
-   },
-   "properties": {
-    "name": "2-14 RIVERWALK WAY DOUGLAS 4814",
-    "locID": "ChIJoYkIaIXw1WsR-cs0FrSN9OU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162308769"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.7307405,
      -19.32338364
     ]
@@ -33709,23 +32637,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.75637913,
-     -19.31574506
-    ]
-   },
-   "properties": {
-    "name": "18 ROWERS LANE DOUGLAS 4814",
-    "locID": "ChIJ5fHFPhP61WsRosDtr1jcuMs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162309481"
    }
   },
   {
@@ -34130,23 +33041,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73339528,
-     -19.32640463
-    ]
-   },
-   "properties": {
-    "name": "16-20 SEA EAGLE CIRCUIT DOUGLAS 4814",
-    "locID": "ChIJP0CXN4Tw1WsRD5X80OWkJPo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162309790"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73322693,
      -19.32683736
     ]
@@ -34412,10 +33306,9 @@
    "properties": {
     "name": "45 SEA EAGLE CIRCUIT DOUGLAS 4814",
     "locID": "LOC000031772702",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162309804",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34708,23 +33601,6 @@
     ]
    },
    "properties": {
-    "name": "24-34 SHEERWATER PARADE DOUGLAS 4814",
-    "locID": "ChIJ7fiLkYXw1WsREad0t4O8MDI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162310017"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73077716,
-     -19.32543656
-    ]
-   },
-   "properties": {
     "name": "2-6 SHEERWATER PARADE DOUGLAS 4814",
     "locID": "LOC000093751641",
     "tech": "FTTN",
@@ -34912,23 +33788,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73077716,
-     -19.32543656
-    ]
-   },
-   "properties": {
-    "name": "54 SHEERWATER PARADE DOUGLAS 4814",
-    "locID": "ChIJ7fiLkYXw1WsR2Ngu0nVtMQA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162310028"
    }
   },
   {
@@ -35142,9 +34001,8 @@
     "name": "6 SILVER LEAF COURT DOUGLAS 4814",
     "locID": "LOC000074159176",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162310125",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35373,23 +34231,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.75196128,
-     -19.31966837
-    ]
-   },
-   "properties": {
-    "name": "8-16 SOUTHERN CROSS CIRCUIT DOUGLAS 4814",
-    "locID": "EjE4IFNvdXRoZXJuIENyb3NzIENjdCwgRG91Z2xhcyBRTEQgNDgxNCwgQXVzdHJhbGlhIjASLgoUChIJm-tGiW361WsR9nIPx4esbpAQCCoUChIJx75Ec3L61WsRmy83BON-MTo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162310261"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.75324066,
      -19.32065511
     ]
@@ -35536,10 +34377,9 @@
    "properties": {
     "name": "4 WAGTAIL COURT DOUGLAS 4814",
     "locID": "LOC000032504454",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162311940",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35749,23 +34589,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73540374,
-     -19.32607515
-    ]
-   },
-   "properties": {
-    "name": "34-48 WARBLER CRESCENT DOUGLAS 4814",
-    "locID": "ChIJT7h5d4Tw1WsRHH1oDkgLx2c",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162312098"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73377737,
      -19.32500079
     ]
@@ -35832,10 +34655,9 @@
    "properties": {
     "name": "5 WARBLER CRESCENT DOUGLAS 4814",
     "locID": "LOC000025392519",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162312102",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35965,23 +34787,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73079405,
-     -19.32251294
-    ]
-   },
-   "properties": {
-    "name": "6-8 WATEREDGE COVE DOUGLAS 4814",
-    "locID": "ChIJP8XaRIXw1WsRpXNVdUU_aAo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162312265"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73060009,
      -19.32671483
     ]
@@ -36061,23 +34866,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73139648,
-     -19.32673766
-    ]
-   },
-   "properties": {
-    "name": "2-16 WATERLILY CIRCUIT DOUGLAS 4814",
-    "locID": "ChIJo37l3YXw1WsRATs9kEEOQsI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162312308"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.72983652,
      -19.32709
     ]
@@ -36086,28 +34874,10 @@
     "name": "32 WATERLILY CIRCUIT DOUGLAS 4814",
     "locID": "LOC000076883590",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162312309",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73047699,
-     -19.32617128
-    ]
-   },
-   "properties": {
-    "name": "36-46 WATERLILY CIRCUIT DOUGLAS 4814",
-    "locID": "ChIJXxgG8YXw1WsRiwPUwcdBlk0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162312310"
    }
   },
   {
@@ -36182,10 +34952,9 @@
    "properties": {
     "name": "3 WESTMINSTER MEWS DOUGLAS 4814",
     "locID": "LOC000023330955",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162312413",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36505,23 +35274,6 @@
     "gnaf_pid": "GAQLD162312446",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74784024,
-     -19.31954402
-    ]
-   },
-   "properties": {
-    "name": "18 ASHBURTON PLACE DOUGLAS 4814",
-    "locID": "ChIJWfllknP61WsRujL4y3Sd9HU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162313509"
    }
   },
   {
@@ -37285,23 +36037,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73849808,
-     -19.31966916
-    ]
-   },
-   "properties": {
-    "name": "UNIT 10, 263 RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJcUgKtZ3w1WsR_j2IIeAns1E",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162322410"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73858944,
      -19.31957474
     ]
@@ -37333,23 +36068,6 @@
     "gnaf_pid": "GAQLD162322414",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73858944,
-     -19.31957474
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 263 RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJcUgKtZ3w1WsR_j2IIeAns1E",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162322416"
    }
   },
   {
@@ -37452,23 +36170,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73858944,
-     -19.31957474
-    ]
-   },
-   "properties": {
-    "name": "UNIT 9, 263 RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJcUgKtZ3w1WsR_j2IIeAns1E",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162322428"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73307785,
      -19.32644359
     ]
@@ -37516,10 +36217,9 @@
    "properties": {
     "name": "13 SEA EAGLE CIRCUIT DOUGLAS 4814",
     "locID": "LOC000037493253",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162323138",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37556,10 +36256,10 @@
    "properties": {
     "name": "21 SEA EAGLE CIRCUIT DOUGLAS 4814",
     "locID": "LOC000085970490",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162323140",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37928,23 +36628,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73250445,
-     -19.32659871
-    ]
-   },
-   "properties": {
-    "name": "6 SEA EAGLE CIRCUIT DOUGLAS 4814",
-    "locID": "ChIJW9o1zIXw1WsRI0XOsBN5Rk0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162323159"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73544453,
      -19.32535696
     ]
@@ -37978,23 +36661,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74314575,
-     -19.31941356
-    ]
-   },
-   "properties": {
-    "name": "15 WHITE BEECH COURT DOUGLAS 4814",
-    "locID": "Ei4xNSBXaGl0ZSBCZWVjaCBDdCwgRG91Z2xhcyBRTEQgNDgxNCwgQXVzdHJhbGlhIjASLgoUChIJdaY8bXb61WsRu97OuuFdnaAQDyoUChIJ-QP-cHb61WsROOvTOQU7I_s",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162325872"
    }
   },
   {
@@ -38114,23 +36780,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162361505"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.94463377,
-     -27.29585851
-    ]
-   },
-   "properties": {
-    "name": "311 SCHMALING ROAD DOUGLAS 4354",
-    "locID": "ChIJRdGqShh7lmsRL99IxSOBhDk",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162363818"
    }
   },
   {
@@ -39130,10 +37779,9 @@
    "properties": {
     "name": "14 BLOOMFIELD PLACE DOUGLAS 4814",
     "locID": "LOC000096598783",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162451370",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39516,10 +38164,10 @@
    "properties": {
     "name": "21 BELYANDO BEND DOUGLAS 4814",
     "locID": "LOC000072926145",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162461838",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39736,10 +38384,9 @@
    "properties": {
     "name": "13 BLOOMFIELD PLACE DOUGLAS 4814",
     "locID": "LOC000093816162",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162462224",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40402,23 +39049,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74556248,
-     -19.32015938
-    ]
-   },
-   "properties": {
-    "name": "24-26 DAMSON COURT DOUGLAS 4814",
-    "locID": "ChIJ5ahCmHb61WsRyfAs0R23rNA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162465404"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.76429377,
      -19.32265538
     ]
@@ -40430,23 +39060,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162465847",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.76053689,
-     -19.31169876
-    ]
-   },
-   "properties": {
-    "name": "15 DURACK STREET DOUGLAS 4814",
-    "locID": "ChIJ80oJhhb61WsRHoC7PVrJIQw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162466226"
    }
   },
   {
@@ -41073,10 +39686,10 @@
    "properties": {
     "name": "11 HAWKESBURY LANE DOUGLAS 4814",
     "locID": "LOC000060689839",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162469664",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -41289,9 +39902,9 @@
     "name": "23 HORIZON DRIVE DOUGLAS 4814",
     "locID": "LOC000096363485",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162470276",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42031,23 +40644,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74083335,
-     -19.32126309
-    ]
-   },
-   "properties": {
-    "name": "14 OUTLOOK CRESCENT DOUGLAS 4814",
-    "locID": "ChIJYzwcgp3w1WsRfpqJ6Boke1c",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162476298"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.74178274,
      -19.32109033
     ]
@@ -42453,10 +41049,9 @@
    "properties": {
     "name": "32 PADDINGTON TERRACE DOUGLAS 4814",
     "locID": "LOC000059856536",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162476425",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42803,23 +41398,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74138654,
-     -19.31938057
-    ]
-   },
-   "properties": {
-    "name": "80-88 RIVERBEND DRIVE DOUGLAS 4814",
-    "locID": "ChIJRzEqA3b61WsRurAvIXvSQSM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162478690"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.7441079,
      -19.31832852
     ]
@@ -42910,23 +41488,6 @@
     "gnaf_pid": "GAQLD162478700",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.75287428,
-     -19.31871194
-    ]
-   },
-   "properties": {
-    "name": "54-72 RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJ1du2g2361WsRvS7NZr2fXz0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162478701"
    }
   },
   {
@@ -43082,6 +41643,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162478717",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43124,23 +41686,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.75670256,
-     -19.31597245
-    ]
-   },
-   "properties": {
-    "name": "17 ROWERS LANE DOUGLAS 4814",
-    "locID": "ChIJYap1RxP61WsRZW7FZMaFor8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162479259"
    }
   },
   {
@@ -43348,23 +41893,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.72989063,
-     -19.32442159
-    ]
-   },
-   "properties": {
-    "name": "36 SHEERWATER PARADE DOUGLAS 4814",
-    "locID": "ChIJC8Dwfo_w1WsRjkzKzVPM5lM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162480042"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.7299337,
      -19.32423473
     ]
@@ -43478,23 +42006,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73077716,
-     -19.32543656
-    ]
-   },
-   "properties": {
-    "name": "59 SHEERWATER PARADE DOUGLAS 4814",
-    "locID": "ChIJ7fiLkYXw1WsRCcsqt2HBlwg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162480049"
    }
   },
   {
@@ -43670,9 +42181,8 @@
     "name": "35 WARBLER CRESCENT DOUGLAS 4814",
     "locID": "LOC000098459660",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162483171",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43794,40 +42304,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73176044,
-     -19.32204267
-    ]
-   },
-   "properties": {
-    "name": "16 WATEREDGE COVE DOUGLAS 4814",
-    "locID": "ChIJuUqpNIXw1WsRpWxWqkOgWS0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162483263"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73191065,
-     -19.32192647
-    ]
-   },
-   "properties": {
-    "name": "18 WATEREDGE COVE DOUGLAS 4814",
-    "locID": "ChIJpdagzJrw1WsRb-y4roE8L80",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162483264"
    }
   },
   {
@@ -43981,10 +42457,9 @@
    "properties": {
     "name": "1 WATERGROVE LANE DOUGLAS 4814",
     "locID": "LOC000082129446",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162483315",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44167,23 +42642,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.72964994,
-     -19.32664348
-    ]
-   },
-   "properties": {
-    "name": "27 WATERLILY CIRCUIT DOUGLAS 4814",
-    "locID": "ChIJUb9SVI_w1WsROD8dCxlu9Hk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162483327"
    }
   },
   {
@@ -44520,23 +42978,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.92137197,
-     -27.30202696
-    ]
-   },
-   "properties": {
-    "name": "372 DOUGLAS PLAINBY ROAD DOUGLAS 4354",
-    "locID": "ChIJj0NiH8V6lmsRTTioqyQg63I",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162538196"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.87946057,
      -27.34674664
     ]
@@ -44544,7 +42985,7 @@
    "properties": {
     "name": "113 GOMORAN DOUGLAS ROAD DOUGLAS 4354",
     "locID": "LOC000024467386",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162616012"
    }
@@ -44562,8 +43003,9 @@
     "name": "297 GOMORAN DOUGLAS ROAD DOUGLAS 4354",
     "locID": "LOC000072110757",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162616013"
+    "upgrade": "FW_NA",
+    "gnaf_pid": "GAQLD162616013",
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -44595,27 +43037,10 @@
    "properties": {
     "name": "423 GOMORAN DOUGLAS ROAD DOUGLAS 4354",
     "locID": "LOC000031750433",
-    "tech": "SATELLITE",
-    "upgrade": "FW_NA",
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
     "gnaf_pid": "GAQLD162616015",
-    "tech_change_status": "Build Finalised"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.76164795,
-     -19.31333532
-    ]
-   },
-   "properties": {
-    "name": "1 AMADIO COURT DOUGLAS 4814",
-    "locID": "ChIJtaUKxRX61WsRUHeLVqtraEU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162621844"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -44636,23 +43061,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73949752,
-     -19.3188242
-    ]
-   },
-   "properties": {
-    "name": "10 SHEOAK CRESCENT DOUGLAS 4814",
-    "locID": "ChIJjZlu3J3w1WsRl-FKa1aNjZ8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162633848"
    }
   },
   {
@@ -45259,91 +43667,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74040118,
-     -19.31903973
-    ]
-   },
-   "properties": {
-    "name": "5 SALWOOD COURT DOUGLAS 4814",
-    "locID": "ChIJ9frq5J3w1WsRWRS2CoLU0FU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162714818"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73416989,
-     -19.32537967
-    ]
-   },
-   "properties": {
-    "name": "39 WARBLER CRESCENT DOUGLAS 4814",
-    "locID": "ChIJ49EnXoTw1WsRe3VPCTSUrw4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162716919"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73047699,
-     -19.32617128
-    ]
-   },
-   "properties": {
-    "name": "64 WATERLILY CIRCUIT DOUGLAS 4814",
-    "locID": "Ei02NCBXYXRlcmxpbHkgQ2N0LCBEb3VnbGFzIFFMRCA0ODE0LCBBdXN0cmFsaWEiMBIuChQKEgm9L6TxhfDVaxHhf_FY8e4AExBAKhQKEgl9-3j6hfDVaxEO5zYuarMxQA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162716965"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.89512456,
-     -27.30773427
-    ]
-   },
-   "properties": {
-    "name": "334 GOMORAN BERGEN ROAD DOUGLAS 4354",
-    "locID": "ChIJP2_e7Kx6lmsR7ksbO_yjrqQ",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162735095"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.90982748,
-     -27.322434
-    ]
-   },
-   "properties": {
-    "name": "372 PLAINBY DOUGLAS ROAD DOUGLAS 4354",
-    "locID": "ChIJQ13xFEhllmsRw9D2N5sv1Fc",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162736768"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.7362822,
      -19.31995396
     ]
@@ -45357,23 +43680,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.90394495,
-     -27.33866867
-    ]
-   },
-   "properties": {
-    "name": "386 GOMORAN DOUGLAS ROAD DOUGLAS 4354",
-    "locID": "ChIJl7O7tW5llmsRGgTZiJMz3Lk",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162743611"
    }
   },
   {
@@ -45410,23 +43716,6 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162850922"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.88613068,
-     -27.33632872
-    ]
-   },
-   "properties": {
-    "name": "LOT 1305 GOOMBUNGEE DAM ROAD DOUGLAS 4354",
-    "locID": "Ei5Hb29tYnVuZ2VlIERhbSBSZCwgRG91Z2xhcyBRTEQgNDM1NCwgQXVzdHJhbGlhIi4qLAoUChIJEzyJnJBvlmsRE7l-U3LXD2sSFAoSCb81zjdIZZZrEWCyIH_x7gAE",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162895042"
    }
   },
   {
@@ -47486,23 +45775,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74231421,
-     -19.32441814
-    ]
-   },
-   "properties": {
-    "name": "78 KLEWARRA BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJaTWfonf61WsRc_Cn4ji00HY",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162974783"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.7448801,
      -19.3219717
     ]
@@ -48091,23 +46363,6 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162976191"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74761723,
-     -19.32295574
-    ]
-   },
-   "properties": {
-    "name": "7 NARWEE PLACE DOUGLAS 4814",
-    "locID": "Eig3IE5hcndlZSBQbCwgRG91Z2xhcyBRTEQgNDgxNCwgQXVzdHJhbGlhIjASLgoUChIJS9_A2XD61WsRMYLxWPHuABMQByoUChIJS9_A2XD61WsR6kAN9Lrv4pc",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162976192"
    }
   },
   {
@@ -48714,40 +46969,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.90949153,
-     -27.36061863
-    ]
-   },
-   "properties": {
-    "name": "LOT 8 PETERS ROAD DOUGLAS 4354",
-    "locID": "Eig4IFBldGVycyBSZCwgRG91Z2xhcyBRTEQgNDM1NCwgQXVzdHJhbGlhIjASLgoUChIJ12FcK-VklmsRQiR6k9BHFDsQCCoUChIJ4XPIyABllmsRZD9bu6K_3NU",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162998883"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.87909263,
-     -27.33624847
-    ]
-   },
-   "properties": {
-    "name": "LOT 4 GOOMBUNGEE DAM ROAD DOUGLAS 4354",
-    "locID": "EjA0IEdvb21idW5nZWUgRGFtIFJkLCBEb3VnbGFzIFFMRCA0MzU0LCBBdXN0cmFsaWEiMBIuChQKEgnRgHgBvG-WaxGBOoxGajxGEhAEKhQKEgkTPImckG-WaxETuX5TctcPaw",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD162998893"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.89498826,
      -27.27796656
     ]
@@ -48773,8 +46994,9 @@
     "name": "LOT 2 GOMORAN DOUGLAS ROAD DOUGLAS 4354",
     "locID": "LOC000072110757",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162998897"
+    "upgrade": "FW_NA",
+    "gnaf_pid": "GAQLD162998897",
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -48843,23 +47065,6 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163025994"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74394272,
-     -19.33013648
-    ]
-   },
-   "properties": {
-    "name": "402-474 ANGUS SMITH DRIVE DOUGLAS 4814",
-    "locID": "ChIJRfnqKX_61WsR9kuyZtAWEhI",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163054892"
    }
   },
   {
@@ -49243,74 +47448,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73160457,
-     -19.32275739
-    ]
-   },
-   "properties": {
-    "name": "9-19 WATEREDGE COVE DOUGLAS 4814",
-    "locID": "ChIJg8ImOIXw1WsRU6UDHBeEM_U",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163182134"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7342687,
-     -19.32122993
-    ]
-   },
-   "properties": {
-    "name": "23-25 LORD HOWE PROMENADE DOUGLAS 4814",
-    "locID": "ChIJAXsfQJvw1WsR5LuIKlr96y4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163189237"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7392157,
-     -19.32519978
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 321-341 ANGUS SMITH DRIVE DOUGLAS 4814",
-    "locID": "ChIJ57AM5ILw1WsRey4Tg3B1nHA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163209877"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7392157,
-     -19.32519978
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 321-341 ANGUS SMITH DRIVE DOUGLAS 4814",
-    "locID": "ChIJ57AM5ILw1WsRey4Tg3B1nHA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163209885"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.76204079,
      -19.32050167
     ]
@@ -49339,23 +47476,6 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163209909"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73843783,
-     -19.32572187
-    ]
-   },
-   "properties": {
-    "name": "321-341 ANGUS SMITH DRIVE DOUGLAS 4814",
-    "locID": "ChIJ57AM5ILw1WsRey4Tg3B1nHA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163209915"
    }
   },
   {
@@ -49392,40 +47512,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163209919",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7556689,
-     -19.31691097
-    ]
-   },
-   "properties": {
-    "name": "LOT 901 ANGUS SMITH DRIVE DOUGLAS 4814",
-    "locID": "Ei85MDEgQW5ndXMgU21pdGggRHIsIERvdWdsYXMgUUxEIDQ4MTQsIEF1c3RyYWxpYSIxEi8KFAoSCT9SgK998NVrEfvwKiXUjQkREIUHKhQKEgk73OajcPrVaxE65mJZlHbd4Q",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163209920"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7575977,
-     -19.31688776
-    ]
-   },
-   "properties": {
-    "name": "LOT 903 ANGUS SMITH DRIVE DOUGLAS 4814",
-    "locID": "Ei85MDMgQW5ndXMgU21pdGggRHIsIERvdWdsYXMgUUxEIDQ4MTQsIEF1c3RyYWxpYSIxEi8KFAoSCT9SgK998NVrEfvwKiXUjQkREIcHKhQKEgk73OajcPrVaxE65mJZlHbd4Q",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163209921"
    }
   },
   {
@@ -49797,23 +47883,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.88865287,
-     -27.34323529
-    ]
-   },
-   "properties": {
-    "name": "LOT 1 GOOMBUNGEE DAM ROAD DOUGLAS 4354",
-    "locID": "EjAxIEdvb21idW5nZWUgRGFtIFJkLCBEb3VnbGFzIFFMRCA0MzU0LCBBdXN0cmFsaWEiMBIuChQKEgnRgHgBvG-WaxGBOoxGajxGEhABKhQKEgkTPImckG-WaxETuX5TctcPaw",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163308498"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.74885573,
      -19.32255013
     ]
@@ -49841,23 +47910,6 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163311441"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.89018059,
-     -27.33839254
-    ]
-   },
-   "properties": {
-    "name": "42 WIRRAGLEN ROAD DOUGLAS 4354",
-    "locID": "ChIJz_qVIHhllmsRpNYhtIG3pME",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163321954"
    }
   },
   {
@@ -51146,40 +49198,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73891835,
-     -19.31852938
-    ]
-   },
-   "properties": {
-    "name": "6 SHEOAK CRESCENT DOUGLAS 4814",
-    "locID": "ChIJaWAd153w1WsRKKX8c4I4n1I",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD163370758"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74913432,
-     -19.32166129
-    ]
-   },
-   "properties": {
-    "name": "266 ANGUS SMITH DRIVE DOUGLAS 4814",
-    "locID": "ChIJK2Ivc3H61WsRHJYNDtnYTn4",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD424840071"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.74015667,
      -19.32412432
     ]
@@ -51191,23 +49209,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD424840072",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73974429,
-     -19.32574151
-    ]
-   },
-   "properties": {
-    "name": "358A ANGUS SMITH DRIVE DOUGLAS 4814",
-    "locID": "ChIJAcva8oLw1WsRq9dr4r3sgMU",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD424840073"
    }
   },
   {
@@ -51408,23 +49409,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73991564,
-     -19.31786793
-    ]
-   },
-   "properties": {
-    "name": "2-6 BOXWOOD COURT DOUGLAS 4814",
-    "locID": "ChIJwy9vDZ7w1WsREY4ez9QotL0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD424841031"
    }
   },
   {
@@ -52841,7 +50825,7 @@
    "properties": {
     "name": "217 GOMORAN BERGEN ROAD DOUGLAS 4354",
     "locID": "LOC000127926877",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD424934024"
    }
@@ -53378,23 +51362,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74778715,
-     -19.32405864
-    ]
-   },
-   "properties": {
-    "name": "63 GIRRAWEEN AVENUE DOUGLAS 4814",
-    "locID": "ChIJcaSYuHD61WsRjR3xivi4xZE",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425002886"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.74892494,
      -19.32243538
     ]
@@ -53422,23 +51389,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425003619"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7625122,
-     -19.31437206
-    ]
-   },
-   "properties": {
-    "name": "489 UNIVERSITY ROAD DOUGLAS 4814",
-    "locID": "ChIJJa2QlhX61WsRo4vXfVbirXY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425005529"
    }
   },
   {
@@ -54454,40 +52404,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73973568,
-     -19.3213699
-    ]
-   },
-   "properties": {
-    "name": "277 RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJ16VcC53w1WsRf9BSzVLBd98",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425059000"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74661347,
-     -19.32402758
-    ]
-   },
-   "properties": {
-    "name": "17-19 GIRRAWEEN AVENUE DOUGLAS 4814",
-    "locID": "ChIJnYc6Snf61WsRwzeFvi6dfRU",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425121599"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.74512325,
      -19.32291623
     ]
@@ -54589,60 +52505,9 @@
    "properties": {
     "name": "LOT 25 GOMORAN DOUGLAS ROAD DOUGLAS 4354",
     "locID": "LOC000024467386",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425289511"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74885877,
-     -19.31870466
-    ]
-   },
-   "properties": {
-    "name": "67 RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJ--VurxP61WsR5jhKYXXVyGE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425333401"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73706753,
-     -19.32972663
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 394 ANGUS SMITH DRIVE DOUGLAS 4814",
-    "locID": "ChIJU2L4FIHw1WsRnVMkSgjK5GU",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425373990"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73706753,
-     -19.32972663
-    ]
-   },
-   "properties": {
-    "name": "394 ANGUS SMITH DRIVE DOUGLAS 4814",
-    "locID": "ChIJU2L4FIHw1WsRnVMkSgjK5GU",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425387838"
    }
   },
   {
@@ -54661,23 +52526,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425405510",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74126545,
-     -19.32629751
-    ]
-   },
-   "properties": {
-    "name": "137 KLEWARRA BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJAQjekILw1WsRYLS0EkCpq4c",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425408448"
    }
   },
   {
@@ -55456,23 +53304,6 @@
     ]
    },
    "properties": {
-    "name": "UNIT 604, 281A RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJFZcCc53w1WsRVTuNizgr7zI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425659628"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73992433,
-     -19.3216315
-    ]
-   },
-   "properties": {
     "name": "UNIT 605, 281A RIVERSIDE BOULEVARD DOUGLAS 4814",
     "locID": "LOC000149045787",
     "tech": "FTTN",
@@ -55625,23 +53456,6 @@
     ]
    },
    "properties": {
-    "name": "UNIT 613, 281A RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJFZcCc53w1WsRVTuNizgr7zI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425659637"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73992433,
-     -19.3216315
-    ]
-   },
-   "properties": {
     "name": "UNIT 614, 281A RIVERSIDE BOULEVARD DOUGLAS 4814",
     "locID": "LOC000149045870",
     "tech": "FTTN",
@@ -55680,23 +53494,6 @@
     ]
    },
    "properties": {
-    "name": "UNIT 701, 281A RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJFZcCc53w1WsRVTuNizgr7zI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425659640"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73992433,
-     -19.3216315
-    ]
-   },
-   "properties": {
     "name": "UNIT 702, 281A RIVERSIDE BOULEVARD DOUGLAS 4814",
     "locID": "LOC000149045901",
     "tech": "FTTN",
@@ -55704,23 +53501,6 @@
     "gnaf_pid": "GAQLD425659641",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73992433,
-     -19.3216315
-    ]
-   },
-   "properties": {
-    "name": "UNIT 703, 281A RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJFZcCc53w1WsRVTuNizgr7zI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425659642"
    }
   },
   {
@@ -55797,23 +53577,6 @@
     "gnaf_pid": "GAQLD425659646",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73992433,
-     -19.3216315
-    ]
-   },
-   "properties": {
-    "name": "UNIT 708, 281A RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJFZcCc53w1WsRVTuNizgr7zI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425659647"
    }
   },
   {
@@ -56016,57 +53779,6 @@
     ]
    },
    "properties": {
-    "name": "UNIT 804, 281A RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJFZcCc53w1WsRVTuNizgr7zI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425659658"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73992433,
-     -19.3216315
-    ]
-   },
-   "properties": {
-    "name": "UNIT 805, 281A RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJFZcCc53w1WsRVTuNizgr7zI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425659659"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73992433,
-     -19.3216315
-    ]
-   },
-   "properties": {
-    "name": "UNIT 806, 281A RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJFZcCc53w1WsRVTuNizgr7zI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425659660"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73992433,
-     -19.3216315
-    ]
-   },
-   "properties": {
     "name": "UNIT 807, 281A RIVERSIDE BOULEVARD DOUGLAS 4814",
     "locID": "LOC000149046109",
     "tech": "FTTN",
@@ -56202,7 +53914,7 @@
    "properties": {
     "name": "282 GOMORAN DOUGLAS ROAD DOUGLAS 4354",
     "locID": "LOC100071916224",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425750045"
    }
@@ -57001,40 +54713,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.90982748,
-     -27.322434
-    ]
-   },
-   "properties": {
-    "name": "568 PLAINBY DOUGLAS ROAD DOUGLAS 4354",
-    "locID": "ChIJQ13xFEhllmsRI64QD3d9VUA",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425812535"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.90982748,
-     -27.322434
-    ]
-   },
-   "properties": {
-    "name": "640 PLAINBY DOUGLAS ROAD DOUGLAS 4354",
-    "locID": "ChIJQ13xFEhllmsRnZURplNV3Gk",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD425812536"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.74151289,
      -19.32738157
     ]
@@ -57687,23 +55365,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.76232302,
-     -19.3167398
-    ]
-   },
-   "properties": {
-    "name": "11B RICHARDSON STREET DOUGLAS 4814",
-    "locID": "ChIJn7ZjQBX61WsRR8NRvrAgNgk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719368758"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.74151289,
      -19.32738157
     ]
@@ -57714,23 +55375,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719559767"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.91694756,
-     -27.33775411
-    ]
-   },
-   "properties": {
-    "name": "69 STENZEL ROAD DOUGLAS 4354",
-    "locID": "ChIJN7l82BVllmsRNJxCSOg4B7g",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719569110"
    }
   },
   {
@@ -57825,176 +55469,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73805635,
-     -19.31700557
-    ]
-   },
-   "properties": {
-    "name": "13 WAVERLEY LANE DOUGLAS 4814",
-    "locID": "ChIJ98KBi57w1WsRcSK6Vr-4Wkc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719953259"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73805635,
-     -19.31700557
-    ]
-   },
-   "properties": {
-    "name": "3 WAVERLEY LANE DOUGLAS 4814",
-    "locID": "ChIJ98KBi57w1WsR5L5zyCK01Us",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719953264"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73805635,
-     -19.31700557
-    ]
-   },
-   "properties": {
-    "name": "5 WAVERLEY LANE DOUGLAS 4814",
-    "locID": "ChIJ98KBi57w1WsRk2VVELpY_ko",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719953323"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73805635,
-     -19.31700557
-    ]
-   },
-   "properties": {
-    "name": "19 WAVERLEY LANE DOUGLAS 4814",
-    "locID": "ChIJ98KBi57w1WsR8_llX1nYzgo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719953363"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73739716,
-     -19.32399099
-    ]
-   },
-   "properties": {
-    "name": "50 ESTUARY PARADE DOUGLAS 4814",
-    "locID": "ChIJcUw6OoPw1WsRbhWP27BGSvM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719953587"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74372812,
-     -19.31959899
-    ]
-   },
-   "properties": {
-    "name": "26 RIVERBEND DRIVE DOUGLAS 4814",
-    "locID": "ChIJS3Ojfnb61WsR5OXpUMBeLHw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719953620"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73805635,
-     -19.31700557
-    ]
-   },
-   "properties": {
-    "name": "7 WAVERLEY LANE DOUGLAS 4814",
-    "locID": "ChIJ98KBi57w1WsRtV8edS2ol5s",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719953715"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73866433,
-     -19.32212603
-    ]
-   },
-   "properties": {
-    "name": "35 HONEYEATER CIRCUIT DOUGLAS 4814",
-    "locID": "ChIJ30tCH53w1WsRM3vgBM1JTVU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719953783"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73868421,
-     -19.32025905
-    ]
-   },
-   "properties": {
-    "name": "5 KIRRIBILLY MEWS DOUGLAS 4814",
-    "locID": "ChIJNQjxrZ3w1WsREG03HSYaWaE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719953804"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73797253,
-     -19.31910257
-    ]
-   },
-   "properties": {
-    "name": "14 ULTIMO MEWS DOUGLAS 4814",
-    "locID": "ChIJX1BLMZzw1WsRzUiuOvag5no",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719953813"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73741901,
      -19.31918186
     ]
@@ -58014,40 +55488,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73868421,
-     -19.32025905
-    ]
-   },
-   "properties": {
-    "name": "19 KIRRIBILLY MEWS DOUGLAS 4814",
-    "locID": "ChIJNQjxrZ3w1WsRklviP6ME0pM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719953989"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7591001,
-     -19.31681504
-    ]
-   },
-   "properties": {
-    "name": "SHOP 8, 1-5 RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJ_WFKsRT61WsRnBLZ2nL_MV8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719954029"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73853038,
      -19.31975925
     ]
@@ -58060,57 +55500,6 @@
     "gnaf_pid": "GAQLD719954032",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7374061,
-     -19.31678813
-    ]
-   },
-   "properties": {
-    "name": "12-14 WAVERLEY LANE DOUGLAS 4814",
-    "locID": "ChIJcwdqk57w1WsRxZiLaRVA8U4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719954136"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7337901,
-     -19.32452994
-    ]
-   },
-   "properties": {
-    "name": "114 FRESHWATER DRIVE DOUGLAS 4814",
-    "locID": "ChIJ7z-N8YTw1WsRnTjzprWBYL4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719954309"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73418475,
-     -19.32069644
-    ]
-   },
-   "properties": {
-    "name": "15 LORD HOWE PROMENADE DOUGLAS 4814",
-    "locID": "ChIJ2Wk1bZvw1WsRfxuB3mjr6JA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719954332"
    }
   },
   {
@@ -58154,23 +55543,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74816944,
-     -19.32069629
-    ]
-   },
-   "properties": {
-    "name": "210 RIVERSIDE BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJ3RCdXXH61WsR3o5gDz3g6Jk",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719954433"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73961553,
      -19.31833761
     ]
@@ -58184,57 +55556,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73628865,
-     -19.3232678
-    ]
-   },
-   "properties": {
-    "name": "64 COCKATOO CIRCUIT DOUGLAS 4814",
-    "locID": "Eiw2NCBDb2NrYXRvbyBDY3QsIERvdWdsYXMgUUxEIDQ4MTQsIEF1c3RyYWxpYSIwEi4KFAoSCa8vxK2c8NVrEUHK81jx7gATEEAqFAoSCZnYflKD8NVrEQAfbtX47cGy",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719954648"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7337901,
-     -19.32452994
-    ]
-   },
-   "properties": {
-    "name": "90-92 FRESHWATER DRIVE DOUGLAS 4814",
-    "locID": "ChIJ7z-N8YTw1WsR26l5b_ZVvnY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719954789"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7335401,
-     -19.32541592
-    ]
-   },
-   "properties": {
-    "name": "58 WARBLER CRESCENT DOUGLAS 4814",
-    "locID": "ChIJP7gQWoTw1WsRGtW9sD_DiNI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719954890"
    }
   },
   {
@@ -58278,40 +55599,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73805635,
-     -19.31700557
-    ]
-   },
-   "properties": {
-    "name": "23 WAVERLEY LANE DOUGLAS 4814",
-    "locID": "ChIJ98KBi57w1WsR9JKTkqjuaHo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719955212"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73946302,
-     -19.32272001
-    ]
-   },
-   "properties": {
-    "name": "1 AZURE COURT DOUGLAS 4814",
-    "locID": "ChIJCZtZOZ3w1WsRENISV98bz5Y",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719955338"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.745558,
      -19.32053949
     ]
@@ -58325,40 +55612,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73797253,
-     -19.31910257
-    ]
-   },
-   "properties": {
-    "name": "12 ULTIMO MEWS DOUGLAS 4814",
-    "locID": "ChIJX1BLMZzw1WsRUDdNWbSrts0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719955553"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73797253,
-     -19.31910257
-    ]
-   },
-   "properties": {
-    "name": "10 ULTIMO MEWS DOUGLAS 4814",
-    "locID": "ChIJX1BLMZzw1WsR5uTcpyv0IEE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719955612"
    }
   },
   {
@@ -58406,40 +55659,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.7337901,
-     -19.32452994
-    ]
-   },
-   "properties": {
-    "name": "110 FRESHWATER DRIVE DOUGLAS 4814",
-    "locID": "ChIJ7z-N8YTw1WsRFs-XXARC3YI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719956157"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73434431,
-     -19.3208781
-    ]
-   },
-   "properties": {
-    "name": "17 LORD HOWE PROMENADE DOUGLAS 4814",
-    "locID": "ChIJ76r1bJvw1WsRmDtEiuA8hao",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719956258"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73866433,
      -19.32212603
     ]
@@ -58453,108 +55672,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73922444,
-     -19.31931496
-    ]
-   },
-   "properties": {
-    "name": "18 KWILA CRESCENT DOUGLAS 4814",
-    "locID": "ChIJ9WDFxZ3w1WsRb0C18Dco2vA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719956359"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73797253,
-     -19.31910257
-    ]
-   },
-   "properties": {
-    "name": "2 ULTIMO MEWS DOUGLAS 4814",
-    "locID": "ChIJX1BLMZzw1WsRlODuTnAhUKI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719956389"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73868421,
-     -19.32025905
-    ]
-   },
-   "properties": {
-    "name": "9 KIRRIBILLY MEWS DOUGLAS 4814",
-    "locID": "ChIJNQjxrZ3w1WsROc-btNtwBg0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719956449"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73868421,
-     -19.32025905
-    ]
-   },
-   "properties": {
-    "name": "17 KIRRIBILLY MEWS DOUGLAS 4814",
-    "locID": "ChIJNQjxrZ3w1WsRU2XC7galbkY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719956658"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73863952,
-     -19.3175055
-    ]
-   },
-   "properties": {
-    "name": "10 BURSARIA COURT DOUGLAS 4814",
-    "locID": "ChIJ55MTY57w1WsRW2gk6lNCEWc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719956772"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73739716,
-     -19.32399099
-    ]
-   },
-   "properties": {
-    "name": "91 ESTUARY PARADE DOUGLAS 4814",
-    "locID": "ChIJcUw6OoPw1WsRAxnks96swe4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719956778"
    }
   },
   {
@@ -58602,74 +55719,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74314575,
-     -19.31941356
-    ]
-   },
-   "properties": {
-    "name": "6 WHITE BEECH COURT DOUGLAS 4814",
-    "locID": "ChIJv5Yed3b61WsRKfwl4EK5hxM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719956888"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73868421,
-     -19.32025905
-    ]
-   },
-   "properties": {
-    "name": "11 KIRRIBILLY MEWS DOUGLAS 4814",
-    "locID": "ChIJNQjxrZ3w1WsRoyEmXpO0Bcg",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719956976"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73949931,
-     -19.31752776
-    ]
-   },
-   "properties": {
-    "name": "22-26 BOXWOOD COURT DOUGLAS 4814",
-    "locID": "ChIJ1x8XbJ7w1WsRftfaBH0L6Nw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719957006"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.7337901,
-     -19.32452994
-    ]
-   },
-   "properties": {
-    "name": "88 FRESHWATER DRIVE DOUGLAS 4814",
-    "locID": "Ei04OCBGcmVzaHdhdGVyIERyLCBEb3VnbGFzIFFMRCA0ODE0LCBBdXN0cmFsaWEiMBIuChQKEgkTIrfxhPDVaxEwx_JY8e4AExBYKhQKEgm5b4vuhPDVaxGJOHcYxYSk1Q",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719957134"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73741901,
      -19.31918186
     ]
@@ -58709,142 +55758,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74159206,
-     -19.31865502
-    ]
-   },
-   "properties": {
-    "name": "9 CARALLIA PLACE DOUGLAS 4814",
-    "locID": "ChIJSy8l_HX61WsR0Yv5C67QfJ4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719957315"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74121316,
-     -19.31638104
-    ]
-   },
-   "properties": {
-    "name": "22 RIVERGREEN CIRCUIT DOUGLAS 4814",
-    "locID": "ChIJMSODgHX61WsRscq4JVOmF1w",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719957451"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73279082,
-     -19.32652671
-    ]
-   },
-   "properties": {
-    "name": "8 SEA EAGLE CIRCUIT DOUGLAS 4814",
-    "locID": "ChIJQ75VM4Tw1WsR5Mle5QQjxzc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719957467"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73805635,
-     -19.31700557
-    ]
-   },
-   "properties": {
-    "name": "15 WAVERLEY LANE DOUGLAS 4814",
-    "locID": "ChIJ98KBi57w1WsRD75cIGy1ACI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719957474"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73805635,
-     -19.31700557
-    ]
-   },
-   "properties": {
-    "name": "11 WAVERLEY LANE DOUGLAS 4814",
-    "locID": "ChIJ98KBi57w1WsRmYM2obJWjWU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719957555"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73797253,
-     -19.31910257
-    ]
-   },
-   "properties": {
-    "name": "16 ULTIMO MEWS DOUGLAS 4814",
-    "locID": "ChIJX1BLMZzw1WsRwIze5_51TKU",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719957697"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73797253,
-     -19.31910257
-    ]
-   },
-   "properties": {
-    "name": "4 ULTIMO MEWS DOUGLAS 4814",
-    "locID": "ChIJf-GgOZzw1WsR1MRoUbWsGw0",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719957713"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73797253,
-     -19.31910257
-    ]
-   },
-   "properties": {
-    "name": "8 ULTIMO MEWS DOUGLAS 4814",
-    "locID": "ChIJX1BLMZzw1WsRluJn1SFxbYs",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719957714"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.7591001,
      -19.31681504
     ]
@@ -58856,40 +55769,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719957719",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73868421,
-     -19.32025905
-    ]
-   },
-   "properties": {
-    "name": "7 KIRRIBILLY MEWS DOUGLAS 4814",
-    "locID": "ChIJNQjxrZ3w1WsRufWE9DZNbIE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719957781"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73517745,
-     -19.31996554
-    ]
-   },
-   "properties": {
-    "name": "5 LORD HOWE PROMENADE DOUGLAS 4814",
-    "locID": "ChIJWafPg5vw1WsR_oQsyyrPElw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719957835"
    }
   },
   {
@@ -58955,23 +55834,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73868421,
-     -19.32025905
-    ]
-   },
-   "properties": {
-    "name": "13 KIRRIBILLY MEWS DOUGLAS 4814",
-    "locID": "ChIJNQjxrZ3w1WsRoyci192sR34",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719958111"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73283555,
      -19.326741
     ]
@@ -58985,23 +55847,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73568181,
-     -19.31949374
-    ]
-   },
-   "properties": {
-    "name": "18 NORFOLK PLACE DOUGLAS 4814",
-    "locID": "ChIJOy24d5zw1WsRsa2KFYcan6k",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719958362"
    }
   },
   {
@@ -59029,74 +55874,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73458286,
-     -19.32526404
-    ]
-   },
-   "properties": {
-    "name": "19 GOSHAWK STREET DOUGLAS 4814",
-    "locID": "ChIJ6UgIYoTw1WsRpCgGhqDcAQY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719958386"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73805635,
-     -19.31700557
-    ]
-   },
-   "properties": {
-    "name": "21 WAVERLEY LANE DOUGLAS 4814",
-    "locID": "ChIJ98KBi57w1WsRxIkiro7Gvb8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719958388"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73797253,
-     -19.31910257
-    ]
-   },
-   "properties": {
-    "name": "6 ULTIMO MEWS DOUGLAS 4814",
-    "locID": "ChIJX1BLMZzw1WsRpa92OJftADQ",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719958518"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73891835,
-     -19.31852938
-    ]
-   },
-   "properties": {
-    "name": "18-22 SHEOAK CRESCENT DOUGLAS 4814",
-    "locID": "ChIJaWAd153w1WsRy3wb9upVNyw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719958532"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.7591001,
      -19.31681504
     ]
@@ -59115,159 +55892,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.7337901,
-     -19.32452994
-    ]
-   },
-   "properties": {
-    "name": "116-118 FRESHWATER DRIVE DOUGLAS 4814",
-    "locID": "ChIJ7z-N8YTw1WsR6L4vcgXRKso",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719958618"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73868421,
-     -19.32025905
-    ]
-   },
-   "properties": {
-    "name": "27 KIRRIBILLY MEWS DOUGLAS 4814",
-    "locID": "ChIJNQjxrZ3w1WsRIEYJ3sfwATw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719958713"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73868421,
-     -19.32025905
-    ]
-   },
-   "properties": {
-    "name": "25 KIRRIBILLY MEWS DOUGLAS 4814",
-    "locID": "ChIJNQjxrZ3w1WsRSID2Dp_HaEo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719958866"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73628865,
-     -19.3232678
-    ]
-   },
-   "properties": {
-    "name": "27 COCKATOO CIRCUIT DOUGLAS 4814",
-    "locID": "EiwyNyBDb2NrYXRvbyBDY3QsIERvdWdsYXMgUUxEIDQ4MTQsIEF1c3RyYWxpYSIwEi4KFAoSCa8vxK2c8NVrEUDK81jx7gATEBsqFAoSCZnYflKD8NVrEQAfbtX47cGy",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719958947"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73868421,
-     -19.32025905
-    ]
-   },
-   "properties": {
-    "name": "29 KIRRIBILLY MEWS DOUGLAS 4814",
-    "locID": "ChIJNQjxrZ3w1WsRb7qIqVZlt-A",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719959000"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73805635,
-     -19.31700557
-    ]
-   },
-   "properties": {
-    "name": "1 WAVERLEY LANE DOUGLAS 4814",
-    "locID": "ChIJ98KBi57w1WsRSnPRR57y6X4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719959171"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73805635,
-     -19.31700557
-    ]
-   },
-   "properties": {
-    "name": "17 WAVERLEY LANE DOUGLAS 4814",
-    "locID": "ChIJ98KBi57w1WsRH4qUPRGYuz4",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719959172"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73885291,
-     -19.32326702
-    ]
-   },
-   "properties": {
-    "name": "11 BUTTERFLY CRESCENT DOUGLAS 4814",
-    "locID": "ChIJny05LJ3w1WsRwVGabUgWVZM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719959213"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74101151,
-     -19.316451
-    ]
-   },
-   "properties": {
-    "name": "7 RIVERGREEN CIRCUIT DOUGLAS 4814",
-    "locID": "ChIJ9V3UK57w1WsRaceyCYa94i8",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719959358"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.7591001,
      -19.31681504
     ]
@@ -59279,74 +55903,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719959430",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73797253,
-     -19.31910257
-    ]
-   },
-   "properties": {
-    "name": "20 ULTIMO MEWS DOUGLAS 4814",
-    "locID": "ChIJX1BLMZzw1WsRfCdVOLDuRWA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719959441"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73797253,
-     -19.31910257
-    ]
-   },
-   "properties": {
-    "name": "18 ULTIMO MEWS DOUGLAS 4814",
-    "locID": "ChIJX1BLMZzw1WsRtnGR0EsJ34I",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719959442"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73868421,
-     -19.32025905
-    ]
-   },
-   "properties": {
-    "name": "15 KIRRIBILLY MEWS DOUGLAS 4814",
-    "locID": "ChIJNQjxrZ3w1WsR2sqQgTPgkrw",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719959524"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74121316,
-     -19.31638104
-    ]
-   },
-   "properties": {
-    "name": "24 RIVERGREEN CIRCUIT DOUGLAS 4814",
-    "locID": "ChIJMSODgHX61WsRuKKrbxidrpY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719959561"
    }
   },
   {
@@ -59374,57 +55930,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73805635,
-     -19.31700557
-    ]
-   },
-   "properties": {
-    "name": "16-18 WAVERLEY LANE DOUGLAS 4814",
-    "locID": "ChIJ98KBi57w1WsRiU1Ms_uxQrM",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719959861"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73868421,
-     -19.32025905
-    ]
-   },
-   "properties": {
-    "name": "21 KIRRIBILLY MEWS DOUGLAS 4814",
-    "locID": "ChIJNQjxrZ3w1WsRi8XaS6mv15E",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719959899"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73868421,
-     -19.32025905
-    ]
-   },
-   "properties": {
-    "name": "23 KIRRIBILLY MEWS DOUGLAS 4814",
-    "locID": "ChIJNQjxrZ3w1WsRQS-i0KugGeA",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD719959900"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.74092822,
      -19.32336944
     ]
@@ -59435,23 +55940,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719961753"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.89027777,
-     -27.34717796
-    ]
-   },
-   "properties": {
-    "name": "44 COZENS ROAD DOUGLAS 4354",
-    "locID": "ChIJTd0KZH5llmsR8mWb4sblDEo",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720043739"
    }
   },
   {
@@ -59486,23 +55974,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720120839"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74039388,
-     -19.32661203
-    ]
-   },
-   "properties": {
-    "name": "147 KLEWARRA BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJqRgcY4Lw1WsRYkc4AxWDVwU",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720194531"
    }
   },
   {
@@ -59588,23 +56059,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720195450"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73948598,
-     -19.32586738
-    ]
-   },
-   "properties": {
-    "name": "17 KARINGAL CLOSE DOUGLAS 4814",
-    "locID": "ChIJybPl84Lw1WsR-Ev8Ike8Cu4",
-    "tech": "FTTP",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720195470"
    }
   },
   {
@@ -59952,23 +56406,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73729521,
-     -19.32893016
-    ]
-   },
-   "properties": {
-    "name": "154 KLEWARRA BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJWax8ZoHw1WsRzkemqalslB0",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720202419"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73946173,
      -19.32703567
     ]
@@ -60013,23 +56450,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720335977"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74231421,
-     -19.32441814
-    ]
-   },
-   "properties": {
-    "name": "171 KLEWARRA BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJxbaOHnj61WsR460tpWFYvnc",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720335994"
    }
   },
   {
@@ -60224,23 +56644,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.74231421,
-     -19.32441814
-    ]
-   },
-   "properties": {
-    "name": "173 KLEWARRA BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJxbaOHnj61WsRPJqBPxgb4UQ",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720337328"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73894735,
      -19.32784642
     ]
@@ -60251,23 +56654,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720337447"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.74231421,
-     -19.32441814
-    ]
-   },
-   "properties": {
-    "name": "175 KLEWARRA BOULEVARD DOUGLAS 4814",
-    "locID": "ChIJxbaOHnj61WsR2SZzRXXzs1E",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720337450"
    }
   },
   {
@@ -61747,23 +58133,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.90037518,
-     -27.27910884
-    ]
-   },
-   "properties": {
-    "name": "799 GOMORAN BERGEN ROAD DOUGLAS 4354",
-    "locID": "ChIJu9SM55p6lmsR64rhTROwiC4",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720977617"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.90045389,
      -27.28483448
     ]
@@ -61774,57 +58143,6 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720980287"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.9036302,
-     -27.27505646
-    ]
-   },
-   "properties": {
-    "name": "28 THUNS ROAD DOUGLAS 4354",
-    "locID": "ChIJc9N86o56lmsRyyl-TmxI0cE",
-    "tech": "WIRELESS",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720981103"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.89512456,
-     -27.30773427
-    ]
-   },
-   "properties": {
-    "name": "112 GOMORAN BERGEN ROAD DOUGLAS 4354",
-    "locID": "ChIJP2_e7Kx6lmsRcLRQo2hEJqk",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD720990328"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73798452,
-     -19.32014015
-    ]
-   },
-   "properties": {
-    "name": "5 ST KILDA ROW DOUGLAS 4814",
-    "locID": "ChIJRanrUZzw1WsR644C8o63kZI",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721064212"
    }
   },
   {
@@ -61865,40 +58183,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73786759,
-     -19.32014049
-    ]
-   },
-   "properties": {
-    "name": "7 ST KILDA ROW DOUGLAS 4814",
-    "locID": "ChIJJ5FLUJzw1WsRVU-ZKMbK39o",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721065644"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73774377,
-     -19.32013825
-    ]
-   },
-   "properties": {
-    "name": "9 ST KILDA ROW DOUGLAS 4814",
-    "locID": "ChIJ27V6UJzw1WsRrL4ZL-MMIJE",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721065933"
    }
   },
   {
@@ -61983,57 +58267,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73782776,
-     -19.31976789
-    ]
-   },
-   "properties": {
-    "name": "15 ST KILDA ROW DOUGLAS 4814",
-    "locID": "ChIJ4XA8T5zw1WsRWGCn_12KdBo",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721067822"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73782796,
-     -19.31987815
-    ]
-   },
-   "properties": {
-    "name": "13 ST KILDA ROW DOUGLAS 4814",
-    "locID": "ChIJ-cynT5zw1WsR7Nkg31PIh4I",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721067920"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     146.73810118,
-     -19.32013991
-    ]
-   },
-   "properties": {
-    "name": "3 ST KILDA ROW DOUGLAS 4814",
-    "locID": "ChIJIYAQUpzw1WsRkBHKIFJhZgY",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721068128"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      146.73792478,
      -19.32049068
     ]
@@ -62094,23 +58327,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.73782694,
-     -19.31997832
-    ]
-   },
-   "properties": {
-    "name": "11 ST KILDA ROW DOUGLAS 4814",
-    "locID": "ChIJPbrFT5zw1WsR0ohwcRWDkAc",
-    "tech": "FTTN",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721069521"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.94038631,
      -27.31093355
     ]
@@ -62119,8 +58335,9 @@
     "name": "189 HARTWIG ROAD DOUGLAS 4354",
     "locID": "LOC000023897779",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721081304"
+    "upgrade": "FW_NA",
+    "gnaf_pid": "GAQLD721081304",
+    "tech_change_status": "Build Finalised"
    }
   },
   {
@@ -62195,23 +58412,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.9003728,
-     -27.31884393
-    ]
-   },
-   "properties": {
-    "name": "1622 PECHEY - MACLAGAN ROAD DOUGLAS 4354",
-    "locID": "EjQxNjIyIFBlY2hleSBNYWNsYWdhbiBSZCwgRG91Z2xhcyBRTEQgNDM1NCwgQXVzdHJhbGlhIjESLwoUChIJ8aP6lU9llmsRXA8RLtcLgpwQ1gwqFAoSCa3dOGg6e5ZrEVIua20GDdjz",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD721307388"
    }
   }
  ]
