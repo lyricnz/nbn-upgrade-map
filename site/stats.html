@@ -23,6 +23,8 @@
     <meta name="description" content="Statistics about current technology type for NBN in Australia.">
     <meta name="author" content="Luke Prior">
     <meta name="keywords" content="nbn,map,australia,statistics,fttn,fttp,fttc,wireless">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <div style="width: 80%; margin: 0 auto;">
@@ -72,18 +74,11 @@
 
         // update titles to include the region
         var regionPrefix = region == '' ? '' : region.toUpperCase() + ": ";
-        document.getElementById("linechart").innerHTML = regionPrefix + "Line Chart by Technology";
-        document.getElementById("piechart").innerHTML = regionPrefix + "Pie Chart by Technology";
+        $("#linechart").text(regionPrefix + "Line Chart by Technology");
+        $("#piechart").text(regionPrefix + "Pie Chart by Technology");
 
         // update the dropdown to match the region
-        var selectElement = document.getElementById('region');
-        for (var i = 0; i < selectElement.options.length; i++) {
-            // If the option value matches the 'region' parameter value, select it
-            if (selectElement.options[i].value === region) {
-                selectElement.options[i].selected = true;
-                break;
-            }
-        }
+        $("select#region").val(region);
 
 
         // Function to fetch JSON data
