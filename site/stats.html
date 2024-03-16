@@ -28,7 +28,7 @@
 </head>
 <body>
     <div style="width: 80%; margin: 0 auto;">
-    <select id="region" onchange="loadRegion(this.value)" style="width: 300px;">
+    <select id="region" style="width: 300px;">
         <option value="">ALL</option>
         <option value="nsw">NSW</option>
         <option value="vic">VIC</option>
@@ -41,9 +41,12 @@
     </select>
     </div>
     <script>
-        function loadRegion(region) {
-            window.location.href = window.location.protocol + "//" + window.location.host + window.location.pathname + '?region=' + region;
-        }
+        // add onchange event to option to change the URL
+        $("select#region").on("change", function() {
+            var region = $(this).find(":selected").text();
+            var url = window.location.protocol + "//" + window.location.host + window.location.pathname + '?region=' + region;
+            $(location).attr('href', url);
+        })
     </script>
 
     <div style="width: 80%; margin: 0 auto;">
