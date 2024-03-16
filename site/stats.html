@@ -44,7 +44,7 @@
         // add onchange event to option to change the URL
         $("select#region").on("change", function() {
             var region = $(this).find(":selected").text();
-            var url = window.location.protocol + "//" + window.location.host + window.location.pathname + '?region=' + region;
+            var url = window.location.protocol + "//" + window.location.host + window.location.pathname + '?region=' + encodeURIComponent(region);
             $(location).attr('href', url);
         })
     </script>
