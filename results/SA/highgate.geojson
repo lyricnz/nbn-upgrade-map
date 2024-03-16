@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-02-10T05:14:08.189367",
+ "generated": "2024-03-16T17:42:36.319334",
  "suburb": "HIGHGATE",
  "features": [
   {
@@ -2250,9 +2250,9 @@
     "name": "33 AVENUE ROAD HIGHGATE 5063",
     "locID": "LOC000054127591",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415435387",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2934,6 +2934,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415446706",
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.62094901,
+     -34.962215
+    ]
+   },
+   "properties": {
+    "name": "46 AVENUE ROAD HIGHGATE 5063",
+    "locID": "LOC000081281896",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415446707",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -4874,10 +4894,10 @@
    "properties": {
     "name": "16 NORTH TERRACE HIGHGATE 5063",
     "locID": "LOC000029504588",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415463892",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5662,10 +5682,9 @@
    "properties": {
     "name": "58 AVENUE ROAD HIGHGATE 5063",
     "locID": "LOC000012465821",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415471972",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5938,10 +5957,10 @@
    "properties": {
     "name": "84 AVENUE ROAD HIGHGATE 5063",
     "locID": "LOC000105326018",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415471986",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10913,8 +10932,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_416061146",
     "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
