@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-02-12T10:21:05.971226",
+ "generated": "2024-03-18T09:47:19.281866",
  "suburb": "TARINGA",
  "features": [
   {
@@ -770,10 +770,10 @@
    "properties": {
     "name": "52 HILLSDON ROAD TARINGA 4068",
     "locID": "LOC000041547630",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAQLD155876494",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -3455,6 +3455,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.98400373,
+     -27.49609143
+    ]
+   },
+   "properties": {
+    "name": "88 BEATRICE STREET TARINGA 4068",
+    "locID": "LOC000193492675",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157152923"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.98398069,
      -27.49620365
     ]
@@ -3517,9 +3534,8 @@
     "name": "54 HILLSDON ROAD TARINGA 4068",
     "locID": "LOC000091192614",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAQLD157152931",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157152931"
    }
   },
   {
@@ -3536,8 +3552,7 @@
     "locID": "LOC000076918442",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157152932",
-    "tech_change_status": "Eligible To Order"
+    "gnaf_pid": "GAQLD157152932"
    }
   },
   {
@@ -3641,10 +3656,9 @@
    "properties": {
     "name": "64 HILLSDON ROAD TARINGA 4068",
     "locID": "LOC000020027505",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD157152940",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157152940"
    }
   },
   {
@@ -4187,8 +4201,9 @@
     "name": "81 OXFORD TERRACE TARINGA 4068",
     "locID": "LOC000037475659",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157153005"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157153005",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -5602,10 +5617,9 @@
    "properties": {
     "name": "70 WOOLLEY STREET TARINGA 4068",
     "locID": "LOC000073223035",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD157153326",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157153326"
    }
   },
   {
@@ -6925,10 +6939,9 @@
    "properties": {
     "name": "18 TODD STREET TARINGA 4068",
     "locID": "LOC000036456769",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD157160000",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157160000"
    }
   },
   {
@@ -7743,7 +7756,8 @@
     "locID": "LOC000085297277",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157160077"
+    "gnaf_pid": "GAQLD157160077",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -8808,96 +8822,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157166835",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.9774841,
-     -27.49190804
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 18 MONTROSE ROAD TARINGA 4068",
-    "locID": "LOC000031706011",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD157166836",
-    "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.97747821,
-     -27.49196626
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 18 MONTROSE ROAD TARINGA 4068",
-    "locID": "LOC000031528862",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD157166837",
-    "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.97746629,
-     -27.49202972
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 18 MONTROSE ROAD TARINGA 4068",
-    "locID": "LOC000031527712",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD157166838",
-    "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.97745445,
-     -27.49208526
-    ]
-   },
-   "properties": {
-    "name": "UNIT 4, 18 MONTROSE ROAD TARINGA 4068",
-    "locID": "LOC000031582738",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD157166839",
-    "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.97744847,
-     -27.49214347
-    ]
-   },
-   "properties": {
-    "name": "UNIT 5, 18 MONTROSE ROAD TARINGA 4068",
-    "locID": "LOC000031881134",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD157166840",
-    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -20102,10 +20026,10 @@
    "properties": {
     "name": "56 ALPHA STREET TARINGA 4068",
     "locID": "LOC000014043168",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAQLD157184401",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -21417,10 +21341,10 @@
    "properties": {
     "name": "246 SWANN ROAD TARINGA 4068",
     "locID": "LOC000024843385",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAQLD157184541",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -25992,10 +25916,10 @@
    "properties": {
     "name": "51A MARMION PARADE TARINGA 4068",
     "locID": "LOC000126213268",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAQLD157188476",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -31803,9 +31727,8 @@
     "name": "42 IONA TERRACE TARINGA 4068",
     "locID": "LOC000061225309",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAQLD157194765",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157194765"
    }
   },
   {
@@ -35284,10 +35207,10 @@
    "properties": {
     "name": "10 FREDERICK STREET TARINGA 4068",
     "locID": "LOC000056622054",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAQLD157198885",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -42197,8 +42120,9 @@
     "name": "UNIT 1, 81 OXFORD TERRACE TARINGA 4068",
     "locID": "LOC000037475659",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158706684"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158706684",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -43765,8 +43689,9 @@
     "name": "UNIT 4, 81 OXFORD TERRACE TARINGA 4068",
     "locID": "LOC000037475659",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158715509"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158715509",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -74441,24 +74366,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD160740826",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.97752498,
-     -27.49185166
-    ]
-   },
-   "properties": {
-    "name": "18 MONTROSE ROAD TARINGA 4068",
-    "locID": "LOC000031582738",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD160741494",
-    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
