@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-02-27T15:57:55.554404",
+ "generated": "2024-03-22T07:02:43.273095",
  "suburb": "HADFIELD",
  "features": [
   {
@@ -901,8 +901,9 @@
     "name": "UNIT 2, 93 HILTON STREET HADFIELD 3046",
     "locID": "LOC000086446245",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC411511665"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC411511665",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -953,8 +954,8 @@
    "properties": {
     "name": "UNIT 2, 6 TALBOT STREET HADFIELD 3046",
     "locID": "LOC000081566095",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC411514366"
    }
   },
@@ -989,8 +990,9 @@
     "name": "UNIT 2, 55 SUTHERLAND STREET HADFIELD 3046",
     "locID": "LOC000051163400",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC411514528"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC411514528",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1364,8 +1366,9 @@
     "name": "UNIT 3, 93 HILTON STREET HADFIELD 3046",
     "locID": "LOC000086446245",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC411524652"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC411524652",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -1794,8 +1797,9 @@
     "name": "UNIT 2, 77 MIDDLE STREET HADFIELD 3046",
     "locID": "LOC000038499192",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC411533510"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC411533510",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -1846,10 +1850,9 @@
    "properties": {
     "name": "1 ST JAMES STREET HADFIELD 3046",
     "locID": "LOC000101740095",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC411533539",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC411533539"
    }
   },
   {
@@ -3671,6 +3674,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.941169,
+     -37.706756
+    ]
+   },
+   "properties": {
+    "name": "26 VOLGA STREET HADFIELD 3046",
+    "locID": "LOC000194412591",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419628527"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.940767,
      -37.706966
     ]
@@ -4413,9 +4433,10 @@
    "properties": {
     "name": "78 NORTH STREET HADFIELD 3046",
     "locID": "LOC000046153313",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC419631204"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419631204",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -4485,9 +4506,8 @@
     "name": "54 WEST STREET HADFIELD 3046",
     "locID": "LOC000002088668",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAVIC419631368",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419631368"
    }
   },
   {
@@ -6153,8 +6173,9 @@
     "name": "UNIT 2, 6 GEUM STREET HADFIELD 3046",
     "locID": "LOC000008530758",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419640523"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419640523",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -7174,8 +7195,9 @@
     "name": "60 NORTH STREET HADFIELD 3046",
     "locID": "LOC000009439042",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419922516"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419922516",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7549,9 +7571,10 @@
    "properties": {
     "name": "77 THE LOOP HADFIELD 3046",
     "locID": "LOC000068285327",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC419923505"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419923505",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -8769,8 +8792,8 @@
    "properties": {
     "name": "64 WEST STREET HADFIELD 3046",
     "locID": "LOC000190631770",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419929932"
    }
   },
@@ -8912,10 +8935,9 @@
    "properties": {
     "name": "19 RODINGS STREET HADFIELD 3046",
     "locID": "LOC000067841689",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419930326",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419930326"
    }
   },
   {
@@ -10381,8 +10403,9 @@
     "name": "79 MIDDLE STREET HADFIELD 3046",
     "locID": "LOC000075586611",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419935856"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC419935856",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -10810,8 +10833,9 @@
     "name": "UNIT 16, 2 TRISTAN COURT HADFIELD 3046",
     "locID": "LOC000162903705",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419980732"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419980732",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -10844,9 +10868,10 @@
    "properties": {
     "name": "UNIT 7, 22 EAST STREET HADFIELD 3046",
     "locID": "LOC000176483005",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC419980735"
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419980735",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -10970,8 +10995,9 @@
     "name": "UNIT 7, 51-53 MIDDLE STREET HADFIELD 3046",
     "locID": "LOC000045771469",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419991920"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC419991920",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -11544,8 +11570,9 @@
     "name": "93 HILTON STREET HADFIELD 3046",
     "locID": "LOC000086446245",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420164937"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420164937",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -12217,24 +12244,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.940552,
-     -37.713504
-    ]
-   },
-   "properties": {
-    "name": "6 HALSBURY STREET HADFIELD 3046",
-    "locID": "LOC000080392477",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420236931",
-    "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.940593,
      -37.713226
     ]
@@ -12672,9 +12681,10 @@
    "properties": {
     "name": "60 WEST STREET HADFIELD 3046",
     "locID": "LOC000104615737",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC420237650"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420237650",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13354,9 +13364,10 @@
    "properties": {
     "name": "78 EAST STREET HADFIELD 3046",
     "locID": "LOC000104722445",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC420242367"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420242367",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13875,6 +13886,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420245111",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.947234,
+     -37.705249
+    ]
+   },
+   "properties": {
+    "name": "26 NORTH STREET HADFIELD 3046",
+    "locID": "LOC000193963564",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420245634"
    }
   },
   {
@@ -15071,8 +15099,8 @@
    "properties": {
     "name": "78 SOUTH STREET HADFIELD 3046",
     "locID": "LOC000105889555",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420255715"
    }
   },
@@ -15911,9 +15939,10 @@
    "properties": {
     "name": "UNIT 7, 2 TRISTAN COURT HADFIELD 3046",
     "locID": "LOC000162904031",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC420301851"
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420301851",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -15982,9 +16011,10 @@
    "properties": {
     "name": "UNIT 16, 22 EAST STREET HADFIELD 3046",
     "locID": "LOC000176482909",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC420301856"
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420301856",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -16126,8 +16156,9 @@
     "name": "UNIT 15, 51-53 MIDDLE STREET HADFIELD 3046",
     "locID": "LOC000045843760",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420311725"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420311725",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -16395,9 +16426,8 @@
     "name": "38 MIDDLE STREET HADFIELD 3046",
     "locID": "LOC000019467789",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAVIC420349288",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420349288"
    }
   },
   {
@@ -16595,6 +16625,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420515965",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.944026,
+     -37.714881
+    ]
+   },
+   "properties": {
+    "name": "87 SOUTH STREET HADFIELD 3046",
+    "locID": "LOC000193388640",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420518363"
    }
   },
   {
@@ -17325,9 +17372,10 @@
    "properties": {
     "name": "60 SUTHERLAND STREET HADFIELD 3046",
     "locID": "LOC000035619244",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC420524910"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420524910",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -17897,10 +17945,9 @@
    "properties": {
     "name": "20 EVERITT STREET HADFIELD 3046",
     "locID": "LOC000063614293",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420527701",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420527701"
    }
   },
   {
@@ -18327,10 +18374,10 @@
    "properties": {
     "name": "1 THE LOOP HADFIELD 3046",
     "locID": "LOC000030070502",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC420529395",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -19565,8 +19612,9 @@
     "name": "9 VOLGA STREET HADFIELD 3046",
     "locID": "LOC000016905760",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420533122"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420533122",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -19919,9 +19967,10 @@
    "properties": {
     "name": "61 EAST STREET HADFIELD 3046",
     "locID": "LOC000016880489",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC420535653"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420535653",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -19954,9 +20003,10 @@
    "properties": {
     "name": "79 EAST STREET HADFIELD 3046",
     "locID": "LOC000047979041",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC420535655"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420535655",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -20921,10 +20971,9 @@
    "properties": {
     "name": "6 SURREY STREET HADFIELD 3046",
     "locID": "LOC000097127504",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420548355",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420548355"
    }
   },
   {
@@ -21208,9 +21257,10 @@
    "properties": {
     "name": "61 DOMAIN STREET HADFIELD 3046",
     "locID": "LOC000037192746",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC420560276"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420560276",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -23405,9 +23455,10 @@
    "properties": {
     "name": "9 SURREY STREET HADFIELD 3046",
     "locID": "LOC000067880524",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC420828917"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420828917",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -25861,8 +25912,9 @@
     "name": "9 TRISTAN COURT HADFIELD 3046",
     "locID": "LOC000038768708",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420854074"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420854074",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -26342,9 +26394,10 @@
    "properties": {
     "name": "UNIT 7, 84-88 MIDDLE STREET HADFIELD 3046",
     "locID": "LOC000006099508",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC420890772"
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC420890772",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27203,8 +27256,9 @@
     "name": "78 MIDDLE STREET HADFIELD 3046",
     "locID": "LOC000069707887",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421108951"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421108951",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -30105,9 +30159,10 @@
    "properties": {
     "name": "9 ST JAMES STREET HADFIELD 3046",
     "locID": "LOC000071959133",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC421141512"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421141512",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -30586,9 +30641,10 @@
    "properties": {
     "name": "9 SOUTH STREET HADFIELD 3046",
     "locID": "LOC000176483112",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC421147134"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421147134",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -31536,9 +31592,10 @@
    "properties": {
     "name": "77 WEST STREET HADFIELD 3046",
     "locID": "LOC000011834487",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC421159891"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421159891",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -31927,9 +31984,10 @@
    "properties": {
     "name": "UNIT 1, 51-53 MIDDLE STREET HADFIELD 3046",
     "locID": "LOC000045368708",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC421201852"
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421201852",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -33489,9 +33547,10 @@
    "properties": {
     "name": "78 DOMAIN STREET HADFIELD 3046",
     "locID": "LOC000073250433",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC421427188"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421427188",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -33936,9 +33995,10 @@
    "properties": {
     "name": "61 NORTH STREET HADFIELD 3046",
     "locID": "LOC000176483080",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC421431332"
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421431332",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34976,9 +35036,10 @@
    "properties": {
     "name": "9 RODINGS STREET HADFIELD 3046",
     "locID": "LOC000033758789",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC421449557"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421449557",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -35033,6 +35094,24 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421449750",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.9403157,
+     -37.7145992
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 121 SOUTH STREET HADFIELD 3046",
+    "locID": "LOC000073711578",
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421449752",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36066,9 +36145,10 @@
    "properties": {
     "name": "9 STAPLES COURT HADFIELD 3046",
     "locID": "LOC000017719595",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC421460570"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421460570",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -37102,9 +37182,10 @@
    "properties": {
     "name": "UNIT 17, 2 TRISTAN COURT HADFIELD 3046",
     "locID": "LOC000162903722",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC421482276"
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421482276",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37155,9 +37236,10 @@
    "properties": {
     "name": "UNIT 17, 22 EAST STREET HADFIELD 3046",
     "locID": "LOC000176482913",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC421482282"
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421482282",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37191,8 +37273,9 @@
     "name": "UNIT 8, 51-53 MIDDLE STREET HADFIELD 3046",
     "locID": "LOC000045766504",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421486308"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421486308",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37513,9 +37596,10 @@
    "properties": {
     "name": "UNIT 16, 51-53 MIDDLE STREET HADFIELD 3046",
     "locID": "LOC000045368708",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC421496685"
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421496685",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -37657,8 +37741,9 @@
     "name": "UNIT 2, 1 GEUM STREET HADFIELD 3046",
     "locID": "LOC000022093130",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421522339"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421522339",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -40560,8 +40645,8 @@
    "properties": {
     "name": "94 WEST STREET HADFIELD 3046",
     "locID": "LOC000187913530",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421746845"
    }
   },
@@ -40847,8 +40932,9 @@
     "name": "61 SUTHERLAND STREET HADFIELD 3046",
     "locID": "LOC000079273744",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421749610"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421749610",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -41222,10 +41308,9 @@
    "properties": {
     "name": "2 THAMES STREET HADFIELD 3046",
     "locID": "LOC000048925181",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421754894",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421754894"
    }
   },
   {
@@ -41511,8 +41596,9 @@
     "name": "9 RICHARD STREET HADFIELD 3046",
     "locID": "LOC000073599902",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421757737"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC421757737",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -42308,6 +42394,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.94373662,
+     -37.71484927
+    ]
+   },
+   "properties": {
+    "name": "91 SOUTH STREET HADFIELD 3046",
+    "locID": "LOC000193388640",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421768634"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.94696403,
      -37.70549812
     ]
@@ -42656,8 +42759,9 @@
     "name": "UNIT 1, 3 RICHMOND STREET HADFIELD 3046",
     "locID": "LOC000098127442",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421773461"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421773461",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -43555,8 +43659,9 @@
     "name": "77 MIDDLE STREET HADFIELD 3046",
     "locID": "LOC000038499192",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422103779"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC422103779",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -44794,9 +44899,10 @@
    "properties": {
     "name": "UNIT 1, 31 LARLAC STREET HADFIELD 3046",
     "locID": "LOC000053002334",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC424045333"
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424045333",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -44865,9 +44971,10 @@
    "properties": {
     "name": "UNIT 1, 3 VOLGA STREET HADFIELD 3046",
     "locID": "LOC000027155787",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC424048078"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424048078",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -45851,8 +45958,9 @@
     "name": "UNIT 1, 3 PATIENCE STREET HADFIELD 3046",
     "locID": "LOC000085137132",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424639105"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424639105",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -46334,9 +46442,10 @@
    "properties": {
     "name": "UNIT 1, 32 SUTHERLAND STREET HADFIELD 3046",
     "locID": "LOC000114525192",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC424766001"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC424766001",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -47249,9 +47358,10 @@
    "properties": {
     "name": "UNIT 3, 93 WEST STREET HADFIELD 3046",
     "locID": "LOC000123022821",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC425031882"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425031882",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -47642,8 +47752,9 @@
     "name": "UNIT 1, 3 SURREY STREET HADFIELD 3046",
     "locID": "LOC000168454368",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425170144"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425170144",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -47999,8 +48110,9 @@
     "name": "UNIT 2, 6 SOUTH STREET HADFIELD 3046",
     "locID": "LOC000154580032",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425320345"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425320345",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -48312,8 +48424,8 @@
    "properties": {
     "name": "UNIT 17, 14 CARINGA STREET HADFIELD 3046",
     "locID": "LOC000168451937",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425462652"
    }
   },
@@ -48329,8 +48441,8 @@
    "properties": {
     "name": "UNIT 18, 14 CARINGA STREET HADFIELD 3046",
     "locID": "LOC000168451944",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425462653"
    }
   },
@@ -48397,8 +48509,8 @@
    "properties": {
     "name": "UNIT 3A, 14 CARINGA STREET HADFIELD 3046",
     "locID": "LOC000168451755",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425462657"
    }
   },
@@ -48482,7 +48594,7 @@
    "properties": {
     "name": "UNIT 7, 14 CARINGA STREET HADFIELD 3046",
     "locID": "LOC000168451803",
-    "tech": "NULL",
+    "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425462662"
    }
@@ -49037,9 +49149,10 @@
    "properties": {
     "name": "UNIT 2, 59 WEST STREET HADFIELD 3046",
     "locID": "LOC000162893242",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC425471967"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425471967",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -49911,8 +50024,8 @@
    "properties": {
     "name": "UNIT 3A, 19 SOUTH STREET HADFIELD 3046",
     "locID": "LOC000168452780",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425570017"
    }
   },
@@ -49928,8 +50041,8 @@
    "properties": {
     "name": "UNIT 3B, 19 SOUTH STREET HADFIELD 3046",
     "locID": "LOC000168452798",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425570018"
    }
   },
@@ -50089,8 +50202,9 @@
     "name": "UNIT 2, 64 FAIRMOUNT STREET HADFIELD 3046",
     "locID": "LOC000168453325",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425614094"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425614094",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -50911,6 +51025,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.94470195,
+     -37.71172529
+    ]
+   },
+   "properties": {
+    "name": "7 WIN-MALEE STREET HADFIELD 3046",
+    "locID": "LOC000194561057",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425707454"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.94502428,
      -37.71181623
     ]
@@ -51296,9 +51427,10 @@
    "properties": {
     "name": "UNIT 1, 30 RODINGS STREET HADFIELD 3046",
     "locID": "LOC000168458752",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC425787089"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425787089",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -51510,9 +51642,10 @@
    "properties": {
     "name": "UNIT 1, 99 EAST STREET HADFIELD 3046",
     "locID": "LOC000060152941",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC425820158"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425820158",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -51563,9 +51696,10 @@
    "properties": {
     "name": "UNIT 3, 99 EAST STREET HADFIELD 3046",
     "locID": "LOC000060152941",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC425820161"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425820161",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -51688,9 +51822,10 @@
    "properties": {
     "name": "UNIT 4, 1 STAPLES COURT HADFIELD 3046",
     "locID": "LOC000168465317",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC425830728"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC425830728",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -51939,9 +52074,10 @@
    "properties": {
     "name": "UNIT 1, 3 STAPLES COURT HADFIELD 3046",
     "locID": "LOC000168457887",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC719007749"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC719007749",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -52244,8 +52380,9 @@
     "name": "UNIT 1, 34 TASSELL STREET HADFIELD 3046",
     "locID": "LOC000168466198",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719113062"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC719113062",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -52765,8 +52902,9 @@
     "name": "UNIT 1, 3 KNOLE STREET HADFIELD 3046",
     "locID": "LOC100065769931",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719311856"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC719311856",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -53859,9 +53997,10 @@
    "properties": {
     "name": "UNIT 2, 9 SOUTH STREET HADFIELD 3046",
     "locID": "LOC000176483112",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC719523937"
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC719523937",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -54217,9 +54356,10 @@
    "properties": {
     "name": "UNIT 1, 30 DAVID STREET HADFIELD 3046",
     "locID": "LOC000176482806",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC719753243"
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC719753243",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -54252,8 +54392,8 @@
    "properties": {
     "name": "UNIT 3, 94 WEST STREET HADFIELD 3046",
     "locID": "LOC000187913530",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719758770"
    }
   },
@@ -54715,8 +54855,9 @@
     "name": "UNIT 7, 12 EILEEN STREET HADFIELD 3046",
     "locID": "LOC100074596741",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719796119"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC719796119",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -55843,8 +55984,8 @@
    "properties": {
     "name": "9 STONEWOOD CIRCUIT HADFIELD 3046",
     "locID": "LOC000179788616",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719924896"
    }
   },
@@ -57398,8 +57539,8 @@
    "properties": {
     "name": "UNIT 2, 7 MIKADO STREET HADFIELD 3046",
     "locID": "LOC000184358731",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720356768"
    }
   },
@@ -58158,6 +58299,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.94024118,
+     -37.70418185
+    ]
+   },
+   "properties": {
+    "name": "2A BARUNAH STREET HADFIELD 3046",
+    "locID": "LOC000187202015",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720752651"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.93887535,
      -37.70585497
     ]
@@ -58185,6 +58343,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720758847"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.94014641,
+     -37.70442705
+    ]
+   },
+   "properties": {
+    "name": "96A NORTH STREET HADFIELD 3046",
+    "locID": "LOC000187202004",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720762914"
    }
   },
   {
@@ -59679,8 +59854,8 @@
    "properties": {
     "name": "UNIT 2, 6-8 MIKADO STREET HADFIELD 3046",
     "locID": "LOC000187269476",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721104817"
    }
   },
@@ -59765,8 +59940,8 @@
    "properties": {
     "name": "UNIT 2, 64 WEST STREET HADFIELD 3046",
     "locID": "LOC000190631770",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721153723"
    }
   },
@@ -60132,8 +60307,8 @@
    "properties": {
     "name": "UNIT 7, 79 WEST STREET HADFIELD 3046",
     "locID": "LOC000191431606",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721214430"
    }
   },
@@ -60381,6 +60556,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.94120742,
+     -37.70359298
+    ]
+   },
+   "properties": {
+    "name": "9A LOCKLEY STREET HADFIELD 3046",
+    "locID": "LOC000191965144",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721221838"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.94333143,
      -37.70461315
     ]
@@ -60457,8 +60649,8 @@
    "properties": {
     "name": "UNIT 2, 79 WEST STREET HADFIELD 3046",
     "locID": "LOC000191431545",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721223558"
    }
   },
@@ -60542,7 +60734,7 @@
    "properties": {
     "name": "UNIT 7, 16 MIKADO STREET HADFIELD 3046",
     "locID": "LOC000194205154",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721226847"
    }
@@ -60695,6 +60887,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.9479851,
+     -37.70506856
+    ]
+   },
+   "properties": {
+    "name": "4B SOUTH BOX COURT HADFIELD 3046",
+    "locID": "LOC000192479905",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721288722"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.95350576,
      -37.70755235
     ]
@@ -60705,6 +60914,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721289593"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.94796815,
+     -37.70516754
+    ]
+   },
+   "properties": {
+    "name": "4A SOUTH BOX COURT HADFIELD 3046",
+    "locID": "LOC000192479895",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721290744"
    }
   },
   {
