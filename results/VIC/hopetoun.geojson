@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-02-27T21:32:25.014186",
+ "generated": "2024-03-22T09:05:39.300463",
  "suburb": "HOPETOUN",
  "features": [
   {
@@ -346,7 +346,7 @@
     "name": "UNIT 4, 59 MANDEVILLE STREET HOPETOUN 3396",
     "locID": "LOC000039532254",
     "tech": "FTTP",
-    "upgrade": "FW_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC411606401",
     "tech_change_status": "Eligible To Order"
    }
@@ -2222,7 +2222,7 @@
     "name": "8 FORD STREET HOPETOUN 3396",
     "locID": "LOC000056215261",
     "tech": "FTTP",
-    "upgrade": "FW_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420374304",
     "tech_change_status": "Eligible To Order"
    }
@@ -2415,7 +2415,7 @@
     "name": "108 LASCELLES STREET HOPETOUN 3396",
     "locID": "LOC000023450744",
     "tech": "FTTP",
-    "upgrade": "FW_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420393716",
     "tech_change_status": "Eligible To Order"
    }
@@ -3629,7 +3629,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420986231",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -3927,7 +3927,7 @@
     "tech": "FTTP",
     "upgrade": "FW_CT",
     "gnaf_pid": "GAVIC421006171",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -4658,7 +4658,7 @@
     "name": "37 LASCELLES STREET HOPETOUN 3396",
     "locID": "LOC000034669495",
     "tech": "FTTP",
-    "upgrade": "FW_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421332267",
     "tech_change_status": "Eligible To Order"
    }
@@ -5220,7 +5220,7 @@
     "name": "67 TOOLE STREET HOPETOUN 3396",
     "locID": "LOC000092895166",
     "tech": "FTTP",
-    "upgrade": "FW_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421593081",
     "tech_change_status": "Eligible To Order"
    }
@@ -8211,6 +8211,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     142.36584454,
+     -35.72570021
+    ]
+   },
+   "properties": {
+    "name": "54 EVELYN STREET HOPETOUN 3396",
+    "locID": "LOC100084672419",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424080839"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      142.36053074,
      -35.73274438
     ]
@@ -8779,6 +8796,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     142.36533468,
+     -35.72838348
+    ]
+   },
+   "properties": {
+    "name": "91 LASCELLES STREET HOPETOUN 3396",
+    "locID": "LOC000124622719",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719105037"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      142.36669893,
      -35.73027016
     ]
@@ -8857,6 +8891,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721027095"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.36531208,
+     -35.72777668
+    ]
+   },
+   "properties": {
+    "name": "80 LASCELLES STREET HOPETOUN 3396",
+    "locID": "LOC100082812328",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721027934"
    }
   },
   {
@@ -8960,6 +9011,40 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721250049"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.37212137,
+     -35.73651069
+    ]
+   },
+   "properties": {
+    "name": "3 CORRONG COURT HOPETOUN 3396",
+    "locID": "LOC100084654289",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721291112"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.37095031,
+     -35.73635209
+    ]
+   },
+   "properties": {
+    "name": "1 CORRONG COURT HOPETOUN 3396",
+    "locID": "LOC100084654289",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721299452"
    }
   }
  ]
