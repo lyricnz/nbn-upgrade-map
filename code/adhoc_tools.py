@@ -253,7 +253,10 @@ def generate_all_suburbs_nbn_tallies():
 
     def _parse_quarter(item: tuple[str, int]):
         """Parse a quarter string into a datetime object.  If NA, return epoch."""
-        return datetime.fromtimestamp(0) if item[0] == "NA" else datetime.strptime(item[0], "%b %Y")
+        try:
+            return datetime.strptime(item[0], "%b %Y")
+        except ValueError:
+            return datetime.fromtimestamp(0)
 
     # sort tallies by frequency, except 'target_eligibility_quarter' which is sorted by date
     tallies = {
