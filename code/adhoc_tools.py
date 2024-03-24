@@ -239,7 +239,11 @@ def generate_all_suburbs_nbn_tallies():
     """Create a file containing a tally of all suburbs by property (tech, upgrade, etc)"""
     exclude_properties = {"name", "locID", "gnaf_pid"}
     tallies = {}  # property-name -> Counter()
-    for file in glob.glob("results/**/*.geojson"):
+    filenames = glob.glob("results/**/*.geojson")
+    for n, file in enumerate(filenames):
+        if n % 100 == 0:
+            utils.print_progress_bar(n, len(filenames), prefix="Progress:", suffix="Complete", length=50)
+
         for feature in utils.read_json_file(file)["features"]:
             for prop, value in feature["properties"].items():
                 if prop not in exclude_properties:
