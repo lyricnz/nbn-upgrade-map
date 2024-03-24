@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import argparse
 import csv
 import glob
@@ -238,13 +239,30 @@ def generate_all_suburbs_nbn_tallies():
     """Create a file containing a tally of all suburbs by property (tech, upgrade, etc)"""
     exclude_properties = {"name", "locID", "gnaf_pid"}
     tallies = {}  # property-name -> Counter()
-    for file in glob.glob("results/**/*.geojson"):
+    filenames = glob.glob("results/**/*.geojson")
+    for n, file in enumerate(filenames):
+        if n % 100 == 0:
+            utils.print_progress_bar(n, len(filenames), prefix="Progress:", suffix="Complete", length=50)
+
         for feature in utils.read_json_file(file)["features"]:
             for prop, value in feature["properties"].items():
                 if prop not in exclude_properties:
                     if prop not in tallies:
                         tallies[prop] = Counter()
                     tallies[prop][value] += 1
+
+    def _parse_quarter(item: tuple[str, int]):
+        """Parse a quarter string into a datetime object.  If NA, return epoch."""
+        try:
+            return datetime.strptime(item[0], "%b %Y")
+        except ValueError:
+            return datetime.fromtimestamp(0)
+
+    # sort tallies by frequency, except 'target_eligibility_quarter' which is sorted by date
+    tallies = {
+        k: OrderedDict(sorted(v.items(), key=_parse_quarter) if k == "target_eligibility_quarter" else v.most_common())
+        for k, v in tallies.items()
+    }
 
     # Add percentages and missing items
     total_count = sum(tallies["tech"].values())  # everything has a tech+NULL
