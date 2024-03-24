@@ -251,6 +251,16 @@ def generate_all_suburbs_nbn_tallies():
                         tallies[prop] = Counter()
                     tallies[prop][value] += 1
 
+    def _parse_quarter(item: tuple[str, int]):
+        """Parse a quarter string into a datetime object.  If NA, return epoch."""
+        return datetime.fromtimestamp(0) if item[0] == "NA" else datetime.strptime(item[0], "%b %Y")
+
+    # sort tallies by frequency, except 'target_eligibility_quarter' which is sorted by date
+    tallies = {
+        k: OrderedDict(sorted(v.items(), key=_parse_quarter) if k == "target_eligibility_quarter" else v.most_common())
+        for k, v in tallies.items()
+    }
+
     # Add percentages and missing items
     total_count = sum(tallies["tech"].values())  # everything has a tech+NULL
     tallies["percent"] = {}
