@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-03T01:54:22.515770",
+ "generated": "2024-03-25T09:37:18.565972",
  "suburb": "FAILFORD",
  "features": [
   {
@@ -143,7 +143,7 @@
    "properties": {
     "name": "152 WILLOW POINT ROAD FAILFORD 2430",
     "locID": "LOC000095598392",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704702772"
    }
@@ -160,7 +160,7 @@
    "properties": {
     "name": "162 WILLOW POINT ROAD FAILFORD 2430",
     "locID": "LOC000067206773",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704702773"
    }
@@ -2206,10 +2206,10 @@
    "properties": {
     "name": "66 WILLOW POINT ROAD FAILFORD 2430",
     "locID": "LOC000022236007",
-    "tech": "SATELLITE",
-    "upgrade": "FW_NA",
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
     "gnaf_pid": "GANSW704718637",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3523,7 +3523,7 @@
    "properties": {
     "name": "204 FAILFORD ROAD FAILFORD 2430",
     "locID": "LOC000082217944",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709145803"
    }
@@ -3650,7 +3650,7 @@
    "properties": {
     "name": "494 FAILFORD ROAD FAILFORD 2430",
     "locID": "LOC000052095823",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709148601"
    }
@@ -3845,10 +3845,10 @@
    "properties": {
     "name": "229 WILLOW POINT ROAD FAILFORD 2430",
     "locID": "LOC000022236007",
-    "tech": "SATELLITE",
-    "upgrade": "FW_NA",
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
     "gnaf_pid": "GANSW713130216",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3934,7 +3934,7 @@
    "properties": {
     "name": "LOT 6 TIPTON PLACE FAILFORD 2430",
     "locID": "LOC000108864817",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716127570"
    }
@@ -3951,7 +3951,7 @@
    "properties": {
     "name": "LOT 7 TIPTON PLACE FAILFORD 2430",
     "locID": "LOC000107649181",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716127571"
    }
@@ -4631,7 +4631,7 @@
    "properties": {
     "name": "6 TIPTON PLACE FAILFORD 2430",
     "locID": "LOC000108864817",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717643470"
    }
@@ -4648,7 +4648,7 @@
    "properties": {
     "name": "7 TIPTON PLACE FAILFORD 2430",
     "locID": "LOC000107649181",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717643471"
    }
@@ -4718,7 +4718,7 @@
    "properties": {
     "name": "LOT 4 TIPTON PLACE FAILFORD 2430",
     "locID": "LOC000108900190",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717663844"
    }
@@ -4873,7 +4873,7 @@
    "properties": {
     "name": "4 TIPTON PLACE FAILFORD 2430",
     "locID": "LOC000108900190",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717930786"
    }
@@ -6608,6 +6608,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.45164849,
+     -32.09082687
+    ]
+   },
+   "properties": {
+    "name": "106 ANGUS DRIVE FAILFORD 2430",
+    "locID": "LOC100084621740",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720803765"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.44768121,
      -32.09091359
     ]
@@ -7084,6 +7101,57 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.44893386,
+     -32.08917668
+    ]
+   },
+   "properties": {
+    "name": "4 HEREFORD PLACE FAILFORD 2430",
+    "locID": "LOC100083314011",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721319972"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.45379384,
+     -32.09386657
+    ]
+   },
+   "properties": {
+    "name": "11 RED CEDAR DRIVE FAILFORD 2430",
+    "locID": "LOC000188753252",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721324964"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.4538005,
+     -32.09458692
+    ]
+   },
+   "properties": {
+    "name": "13 RED CEDAR DRIVE FAILFORD 2430",
+    "locID": "LOC000188753223",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721325168"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.45486246,
      -32.07911828
     ]
@@ -7095,6 +7163,23 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721325487",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.4525401,
+     -32.09448933
+    ]
+   },
+   "properties": {
+    "name": "19 RED CEDAR DRIVE FAILFORD 2430",
+    "locID": "LOC000188753313",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721326905"
    }
   }
  ]

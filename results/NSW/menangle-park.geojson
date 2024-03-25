@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-03T02:06:33.803315",
+ "generated": "2024-03-25T09:45:58.507118",
  "suburb": "MENANGLE PARK",
  "features": [
   {
@@ -672,10 +672,10 @@
    "properties": {
     "name": "122 RACECOURSE AVENUE MENANGLE PARK 2563",
     "locID": "LOC000004122532",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705352287",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -692,10 +692,9 @@
    "properties": {
     "name": "132 RACECOURSE AVENUE MENANGLE PARK 2563",
     "locID": "LOC000100854563",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705352288",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1200,10 +1199,10 @@
    "properties": {
     "name": "82 RACECOURSE AVENUE MENANGLE PARK 2563",
     "locID": "LOC000099627703",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705359694",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4710,6 +4709,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.75931039,
+     -34.10347062
+    ]
+   },
+   "properties": {
+    "name": "67 MOUNT PLEASANT DRIVE MENANGLE PARK 2563",
+    "locID": "LOC000194427821",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720901020"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.76033981,
      -34.10310708
     ]
@@ -7409,23 +7425,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.76201237,
-     -34.09668016
-    ]
-   },
-   "properties": {
-    "name": "1 MENANGLE ROAD MENANGLE PARK 2563",
-    "locID": "LOC000152701468",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW721239442"
    }
   }
  ]
