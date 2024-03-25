@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-03T11:04:32.802299",
+ "generated": "2024-03-25T16:34:46.814269",
  "suburb": "BRUCE",
  "features": [
   {
@@ -2050,7 +2050,7 @@
     "name": "57 JAEGER CIRCUIT BRUCE 2617",
     "locID": "LOC000111130273",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAACT714856613",
     "tech_change_status": "Eligible To Order"
    }
@@ -2085,10 +2085,10 @@
    "properties": {
     "name": "53 JAEGER CIRCUIT BRUCE 2617",
     "locID": "LOC000111567960",
-    "tech": "FTTP",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT714856615",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -26964,10 +26964,9 @@
    "properties": {
     "name": "UNIT 84, 121 THYNNE STREET BRUCE 2617",
     "locID": "LOC000113858716",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAACT716699642",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT716699642"
    }
   },
   {
@@ -30757,8 +30756,9 @@
     "name": "9 HOHNEN STREET BRUCE 2617",
     "locID": "LOC000113739339",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAACT716909685"
+    "upgrade": "FTTC_CT",
+    "gnaf_pid": "GAACT716909685",
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -55748,6 +55748,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     149.10066034,
+     -35.24203734
+    ]
+   },
+   "properties": {
+    "name": "13 PAGET STREET BRUCE 2617",
+    "locID": "LOC000166997304",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT718478416"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      149.10059328,
      -35.24199343
     ]
@@ -55826,6 +55843,23 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAACT718478421"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.10032595,
+     -35.24185383
+    ]
+   },
+   "properties": {
+    "name": "23 PAGET STREET BRUCE 2617",
+    "locID": "LOC000166996139",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAACT718478422"
    }
   },
   {
