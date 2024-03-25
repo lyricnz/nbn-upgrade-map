@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-03T08:50:00.094913",
+ "generated": "2024-03-25T14:47:52.653414",
  "suburb": "NORTH NAROOMA",
  "features": [
   {
@@ -1777,8 +1777,8 @@
    "properties": {
     "name": "29 FISHERMANS CRESCENT NORTH NAROOMA 2546",
     "locID": "LOC000069036979",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705527606",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3209,9 +3209,8 @@
     "name": "4 WOODBURY ROAD NORTH NAROOMA 2546",
     "locID": "LOC000023712174",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705531289",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7797,8 +7796,9 @@
     "name": "71 EASTAWAY AVENUE NORTH NAROOMA 2546",
     "locID": "LOC000121308142",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718289391"
+    "upgrade": "FTTC_CT",
+    "gnaf_pid": "GANSW718289391",
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -8082,6 +8082,23 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.12325753,
+     -36.20194091
+    ]
+   },
+   "properties": {
+    "name": "49 WARBLER CRESCENT NORTH NAROOMA 2546",
+    "locID": "LOC000192555636",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721325684"
    }
   }
  ]
