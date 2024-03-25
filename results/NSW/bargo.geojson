@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-02T21:16:03.979929",
+ "generated": "2024-03-25T06:07:27.132583",
  "suburb": "BARGO",
  "features": [
   {
@@ -263,10 +263,9 @@
    "properties": {
     "name": "56 ELVY STREET BARGO 2574",
     "locID": "LOC000081753304",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704004978",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704004978"
    }
   },
   {
@@ -2365,9 +2364,10 @@
     "name": "12 THORNCROFT CLOSE BARGO 2574",
     "locID": "LOC000080278832",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704005959",
-    "tech_change_status": "New Tech Connected"
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4361,9 +4361,9 @@
     "name": "25 SILICA ROAD BARGO 2574",
     "locID": "LOC000030112544",
     "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704017548",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -13834,6 +13834,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704023471",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.58656353,
+     -34.29387895
+    ]
+   },
+   "properties": {
+    "name": "165B HAWTHORNE ROAD BARGO 2574",
+    "locID": "LOC100082219316",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW704023472",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2024"
@@ -27578,6 +27598,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.57491907,
+     -34.29353002
+    ]
+   },
+   "properties": {
+    "name": "12 PAPERBARK PLACE BARGO 2574",
+    "locID": "LOC000194337520",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW716345372",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.57618758,
      -34.29311998
     ]
@@ -30597,6 +30635,24 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.58466391,
+     -34.28724654
+    ]
+   },
+   "properties": {
+    "name": "40 DYMOND STREET BARGO 2574",
+    "locID": "LOC000194571905",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717993764",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -34700,6 +34756,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.59160082,
+     -34.29868171
+    ]
+   },
+   "properties": {
+    "name": "231 HAWTHORNE ROAD BARGO 2574",
+    "locID": "LOC000194408239",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720005143",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.58381047,
      -34.29211396
     ]
@@ -34804,6 +34878,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720079405"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.57464703,
+     -34.28985608
+    ]
+   },
+   "properties": {
+    "name": "53A KADER STREET BARGO 2574",
+    "locID": "LOC100082219290",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720081321",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2024"
    }
   },
   {
@@ -35368,6 +35462,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720907645"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.57057402,
+     -34.2847698
+    ]
+   },
+   "properties": {
+    "name": "77A ELVY STREET BARGO 2574",
+    "locID": "LOC100082219242",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721005243",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2024"
    }
   },
   {
