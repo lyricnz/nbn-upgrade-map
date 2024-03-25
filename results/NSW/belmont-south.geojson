@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-02T23:03:46.292558",
+ "generated": "2024-03-25T07:45:17.230344",
  "suburb": "BELMONT SOUTH",
  "features": [
   {
@@ -155,8 +155,8 @@
    "properties": {
     "name": "3 ARNDALL PLACE BELMONT SOUTH 2280",
     "locID": "LOC000098535178",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704073118",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -235,8 +235,8 @@
    "properties": {
     "name": "7 ARNDALL PLACE BELMONT SOUTH 2280",
     "locID": "LOC000048342342",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704073122",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -355,8 +355,8 @@
    "properties": {
     "name": "14 HUDSON STREET BELMONT SOUTH 2280",
     "locID": "LOC000047699453",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704073149",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4727,10 +4727,10 @@
    "properties": {
     "name": "9 ELLEN STREET BELMONT SOUTH 2280",
     "locID": "LOC000064313346",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704079242",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4827,10 +4827,9 @@
    "properties": {
     "name": "11 HARRY STREET BELMONT SOUTH 2280",
     "locID": "LOC000018903497",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704079260",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5484,8 +5483,8 @@
    "properties": {
     "name": "18 PALEY CRESCENT BELMONT SOUTH 2280",
     "locID": "LOC000029730001",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704079615",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5524,10 +5523,9 @@
    "properties": {
     "name": "20 PALEY CRESCENT BELMONT SOUTH 2280",
     "locID": "LOC000094790547",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704079617",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8177,10 +8175,9 @@
    "properties": {
     "name": "1 ARTHUR STREET BELMONT SOUTH 2280",
     "locID": "LOC000067803069",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704084108",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12482,6 +12479,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.65471231,
+     -33.04940895
+    ]
+   },
+   "properties": {
+    "name": "2B PALEY CRESCENT BELMONT SOUTH 2280",
+    "locID": "LOC000193445023",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW718849842",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.65620563,
      -33.04782471
     ]
@@ -12709,6 +12726,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.6574825,
+     -33.05421455
+    ]
+   },
+   "properties": {
+    "name": "UNIT 11, 37 HARRY STREET BELMONT SOUTH 2280",
+    "locID": "LOC000189254687",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720906753"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.65748332,
      -33.05420702
     ]
@@ -12787,6 +12821,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720939856"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.6574825,
+     -33.05421455
+    ]
+   },
+   "properties": {
+    "name": "37 HARRY STREET BELMONT SOUTH 2280",
+    "locID": "LOC000189254687",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720946299"
    }
   }
  ]
