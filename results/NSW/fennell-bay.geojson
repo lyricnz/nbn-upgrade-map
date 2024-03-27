@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-05T05:27:17.290339",
+ "generated": "2024-03-27T05:38:26.012299",
  "suburb": "FENNELL BAY",
  "features": [
   {
@@ -644,7 +644,8 @@
     "locID": "LOC000074813453",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704735216"
+    "gnaf_pid": "GANSW704735216",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -946,10 +947,10 @@
    "properties": {
     "name": "25 BROUGHAM AVENUE FENNELL BAY 2283",
     "locID": "LOC000043608290",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GANSW704739756",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -12697,7 +12698,7 @@
     "name": "34 BELLEVUE LANE FENNELL BAY 2283",
     "locID": "LOC000078670827",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716853511",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14546,6 +14547,24 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW719355039",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.59533207,
+     -32.98864054
+    ]
+   },
+   "properties": {
+    "name": "5 GOLDSMITH AVENUE FENNELL BAY 2283",
+    "locID": "LOC000193897742",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719573173",
+    "tech_change_status": "Not Planned"
    }
   },
   {
