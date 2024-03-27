@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-05T14:55:44.218047",
+ "generated": "2024-03-27T13:11:18.988069",
  "suburb": "KENTHURST",
  "features": [
   {
@@ -1689,7 +1689,7 @@
    "properties": {
     "name": "4 IVY PLACE KENTHURST 2156",
     "locID": "LOC000062618528",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705054856"
    }
@@ -5132,10 +5132,10 @@
    "properties": {
     "name": "19 EMPEROR PLACE KENTHURST 2156",
     "locID": "LOC000010574771",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GANSW705060805",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -7946,9 +7946,9 @@
     "name": "10 RAYM ROAD KENTHURST 2156",
     "locID": "LOC000093424490",
     "tech": "FTTP",
-    "upgrade": "FW_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705063492",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -8223,9 +8223,8 @@
     "name": "12 FUGGLES ROAD KENTHURST 2156",
     "locID": "LOC000077193266",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GANSW705064094",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705064094"
    }
   },
   {
@@ -11949,10 +11948,9 @@
    "properties": {
     "name": "21 NYARI ROAD KENTHURST 2156",
     "locID": "LOC000090475399",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW705071390",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705071390"
    }
   },
   {
@@ -16607,10 +16605,9 @@
    "properties": {
     "name": "14 MARIEBA ROAD KENTHURST 2156",
     "locID": "LOC000004237778",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW705076125",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705076125"
    }
   },
   {
@@ -22330,10 +22327,9 @@
    "properties": {
     "name": "3 PARK ROAD KENTHURST 2156",
     "locID": "LOC000061107055",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW705088194",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705088194"
    }
   },
   {
@@ -26289,10 +26285,10 @@
    "properties": {
     "name": "4A NELSON STREET KENTHURST 2156",
     "locID": "LOC000008813945",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GANSW711176594",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -27805,6 +27801,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW711189929",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.00818134,
+     -33.67173074
+    ]
+   },
+   "properties": {
+    "name": "216 KENTHURST ROAD KENTHURST 2156",
+    "locID": "LOC100082224632",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW711189934"
    }
   },
   {
@@ -31103,7 +31116,7 @@
    "properties": {
     "name": "225A PITT TOWN ROAD KENTHURST 2156",
     "locID": "LOC100077977794",
-    "tech": "WIRELESS",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718859552"
    }
@@ -32059,6 +32072,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.93966826,
+     -33.61580527
+    ]
+   },
+   "properties": {
+    "name": "216 MCCLYMONTS ROAD KENTHURST 2156",
+    "locID": "LOC100082224632",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720318139"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.93837894,
      -33.61684928
     ]
@@ -32363,6 +32393,23 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720613985"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.97660681,
+     -33.62720831
+    ]
+   },
+   "properties": {
+    "name": "123A PORTERS ROAD KENTHURST 2156",
+    "locID": "LOC000193636438",
+    "tech": "FTTC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720677988"
    }
   },
   {
