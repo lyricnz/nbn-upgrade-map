@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-06T23:20:05.057250",
+ "generated": "2024-03-28T18:17:30.961853",
  "suburb": "ARCADIA VALE",
  "features": [
   {
@@ -5416,10 +5416,9 @@
    "properties": {
     "name": "99 DONNELLY ROAD ARCADIA VALE 2283",
     "locID": "LOC000083232935",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW703922629",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW703922629"
    }
   },
   {
@@ -7856,7 +7855,8 @@
     "locID": "LOC000096562771",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW703929672"
+    "gnaf_pid": "GANSW703929672",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -8158,10 +8158,9 @@
    "properties": {
     "name": "139 DONNELLY ROAD ARCADIA VALE 2283",
     "locID": "LOC000013896154",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW703929704",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW703929704"
    }
   },
   {
@@ -9508,9 +9507,8 @@
     "name": "56 ARCADIA STREET ARCADIA VALE 2283",
     "locID": "LOC000061967589",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GANSW703934814",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW703934814"
    }
   },
   {
@@ -11644,9 +11642,11 @@
     "name": "80 DONNELLY ROAD ARCADIA VALE 2283",
     "locID": "LOC000120777706",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717650843",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -11966,6 +11966,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720389839"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.58604926,
+     -33.0613105
+    ]
+   },
+   "properties": {
+    "name": "2B BROOKS STREET ARCADIA VALE 2283",
+    "locID": "LOC000194530069",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720779335"
    }
   },
   {
