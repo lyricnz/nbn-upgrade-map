@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-07T09:12:29.292571",
+ "generated": "2024-03-29T03:00:41.843050",
  "suburb": "COOLAMON",
  "features": [
   {
@@ -719,7 +719,8 @@
     "locID": "LOC000121744096",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704462399"
+    "gnaf_pid": "GANSW704462399",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6306,6 +6307,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717666385",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.2098859,
+     -34.81754615
+    ]
+   },
+   "properties": {
+    "name": "8 BANKSIA STREET COOLAMON 2701",
+    "locID": "LOC000193371633",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717666386"
    }
   },
   {
@@ -14479,7 +14497,8 @@
     "locID": "LOC000153737970",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718562501"
+    "gnaf_pid": "GANSW718562501",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -16310,6 +16329,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.19738808,
+     -34.82120059
+    ]
+   },
+   "properties": {
+    "name": "37 IVERACH STREET SOUTH COOLAMON 2701",
+    "locID": "LOC000072022431",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718576673",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.19686958,
      -34.82066578
     ]
@@ -16876,7 +16913,7 @@
     "tech": "FTTC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718596524",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -17640,6 +17677,23 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718607904"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.21983523,
+     -34.82960383
+    ]
+   },
+   "properties": {
+    "name": "26 DOUBLEDAY LANE COOLAMON 2701",
+    "locID": "LOC100082657687",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718609602"
    }
   },
   {
@@ -20271,6 +20325,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.2140358,
+     -34.81823731
+    ]
+   },
+   "properties": {
+    "name": "22 CURTIS STREET COOLAMON 2701",
+    "locID": "LOC100084988780",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720535389"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.19697316,
      -34.79626031
     ]
@@ -20740,6 +20811,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.20522045,
+     -34.81958564
+    ]
+   },
+   "properties": {
+    "name": "85 DEVLIN STREET COOLAMON 2701",
+    "locID": "LOC000191885194",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721247422",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.19746038,
      -34.81290041
     ]
@@ -20873,9 +20962,11 @@
     "name": "18 KURRAJONG STREET COOLAMON 2701",
     "locID": "LOC000090827983",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721327541",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2025"
    }
   }
  ]
