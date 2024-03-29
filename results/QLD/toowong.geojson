@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-07T13:54:19.533982",
+ "generated": "2024-03-29T07:28:36.296733",
  "suburb": "TOOWONG",
  "features": [
   {
@@ -529,8 +529,9 @@
     "name": "66 KENSINGTON TERRACE TOOWONG 4066",
     "locID": "LOC000055218041",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155899304"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155899304",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -2956,8 +2957,9 @@
     "name": "90 KENSINGTON TERRACE TOOWONG 4066",
     "locID": "LOC000051786072",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155901081"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155901081",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -6914,8 +6916,9 @@
     "name": "50 MACDONNELL STREET TOOWONG 4066",
     "locID": "LOC000057760731",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155905242"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155905242",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -6968,8 +6971,11 @@
     "name": "368 BIRDWOOD TERRACE TOOWONG 4066",
     "locID": "LOC000106538399",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155905246"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155905246",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7047,7 +7053,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155905250",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7145,7 +7153,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155905255",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7163,7 +7173,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155905256",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7181,7 +7193,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155905257",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10286,7 +10300,7 @@
    "properties": {
     "name": "2 ELIZABETH STREET TOOWONG 4066",
     "locID": "LOC000188846639",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155908024"
    }
@@ -20901,8 +20915,9 @@
     "name": "UNIT 3, 14 GROVE STREET TOOWONG 4066",
     "locID": "LOC000103712289",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157211673"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157211673",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22047,10 +22062,9 @@
    "properties": {
     "name": "7 JOSLING STREET TOOWONG 4066",
     "locID": "LOC000014955500",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD157215045",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157215045"
    }
   },
   {
@@ -25581,10 +25595,9 @@
    "properties": {
     "name": "18 PIONEER STREET TOOWONG 4066",
     "locID": "LOC000042951156",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD157218822",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157218822"
    }
   },
   {
@@ -26993,6 +27006,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.99462408,
+     -27.48636956
+    ]
+   },
+   "properties": {
+    "name": "40 ARCHER STREET TOOWONG 4066",
+    "locID": "LOC000185828083",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157222240"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.99455012,
      -27.4866524
     ]
@@ -28264,6 +28294,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.98759922,
+     -27.4755237
+    ]
+   },
+   "properties": {
+    "name": "43 VICTORIA CRESCENT TOOWONG 4066",
+    "locID": "LOC000158069650",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157222361"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.98766165,
      -27.47555264
     ]
@@ -28598,9 +28645,8 @@
     "name": "10 ANNERLEY STREET TOOWONG 4066",
     "locID": "LOC000090990124",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAQLD157222417",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157222417"
    }
   },
   {
@@ -30678,7 +30724,7 @@
    "properties": {
     "name": "4 ELIZABETH STREET TOOWONG 4066",
     "locID": "LOC000188846768",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157229393"
    }
@@ -31248,8 +31294,9 @@
     "name": "UNIT 5, 29 HOLLAND STREET TOOWONG 4066",
     "locID": "LOC000032423968",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157232734"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157232734",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -31265,8 +31312,9 @@
     "name": "UNIT 6, 29 HOLLAND STREET TOOWONG 4066",
     "locID": "LOC000032857043",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157232735"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157232735",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -36475,8 +36523,9 @@
     "name": "UNIT 8, 74 KENSINGTON TERRACE TOOWONG 4066",
     "locID": "LOC000088081190",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157246195"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157246195",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -38935,8 +38984,9 @@
     "name": "UNIT 1, 50 MACDONNELL STREET TOOWONG 4066",
     "locID": "LOC000057760731",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157250273"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157250273",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -40311,8 +40361,9 @@
     "name": "27 CAMPBELL STREET TOOWONG 4066",
     "locID": "LOC000043318121",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157253516"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157253516",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -40863,7 +40914,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157253608",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42572,8 +42625,9 @@
     "name": "UNIT 3, 90 KENSINGTON TERRACE TOOWONG 4066",
     "locID": "LOC000051786072",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157256809"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157256809",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -42589,8 +42643,9 @@
     "name": "UNIT 4, 90 KENSINGTON TERRACE TOOWONG 4066",
     "locID": "LOC000051786072",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157256810"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157256810",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -42606,8 +42661,9 @@
     "name": "UNIT 5, 90 KENSINGTON TERRACE TOOWONG 4066",
     "locID": "LOC000051786072",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157256811"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157256811",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -45371,10 +45427,9 @@
    "properties": {
     "name": "18 DEPPER STREET TOOWONG 4066",
     "locID": "LOC000064373715",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD157260675",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157260675"
    }
   },
   {
@@ -48412,8 +48467,9 @@
     "name": "UNIT 2, 66 KENSINGTON TERRACE TOOWONG 4066",
     "locID": "LOC000055313729",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158747138"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158747138",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -49419,10 +49475,9 @@
    "properties": {
     "name": "UNIT 2, 5 BENNETT STREET TOOWONG 4066",
     "locID": "LOC000044737182",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD158749865",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158749865"
    }
   },
   {
@@ -54339,8 +54394,9 @@
     "name": "UNIT 1, 27 CAMPBELL STREET TOOWONG 4066",
     "locID": "LOC000043318121",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158760996"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158760996",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -54497,8 +54553,9 @@
     "name": "UNIT 6, 74 KENSINGTON TERRACE TOOWONG 4066",
     "locID": "LOC000087673603",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158761010"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158761010",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -64505,6 +64562,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.97452198,
+     -27.4836847
+    ]
+   },
+   "properties": {
+    "name": "136 BROSELEY ROAD TOOWONG 4066",
+    "locID": "LOC000157998024",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158776479"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.97904044,
      -27.48182488
     ]
@@ -65614,8 +65688,9 @@
     "name": "UNIT 1, 66 KENSINGTON TERRACE TOOWONG 4066",
     "locID": "LOC000055218041",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158777299"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158777299",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -67803,8 +67878,9 @@
     "name": "UNIT 10, 45 CURLEW STREET TOOWONG 4066",
     "locID": "LOC000077393344",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158779081"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158779081",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -73159,8 +73235,9 @@
     "name": "UNIT 1, 60 KENSINGTON TERRACE TOOWONG 4066",
     "locID": "LOC000015779910",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158785796"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158785796",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -73212,8 +73289,9 @@
     "name": "UNIT 5, 60 KENSINGTON TERRACE TOOWONG 4066",
     "locID": "LOC000015790506",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158785799"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD158785799",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -94394,7 +94472,7 @@
    "properties": {
     "name": "3 MAYNE STREET TOOWONG 4066",
     "locID": "LOC000188064410",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161229853"
    }
@@ -125722,8 +125800,9 @@
     "name": "UNIT 1, 1 KENSINGTON TERRACE TOOWONG 4066",
     "locID": "LOC000055218041",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD719627359"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD719627359",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -126441,9 +126520,8 @@
     "name": "58 HIGH STREET TOOWONG 4066",
     "locID": "LOC000158002975",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD719713165",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719713165"
    }
   },
   {
