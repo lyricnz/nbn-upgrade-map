@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-10T10:58:22.040474",
+ "generated": "2024-04-01T09:17:50.826466",
  "suburb": "CHELSEA",
  "features": [
   {
@@ -5661,10 +5661,10 @@
    "properties": {
     "name": "UNIT 1, 17 SWAN WALK CHELSEA 3196",
     "locID": "LOC000102674040",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC411100528",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -6517,10 +6517,9 @@
    "properties": {
     "name": "2 BATH STREET CHELSEA 3196",
     "locID": "LOC000047433403",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC411102590",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC411102590"
    }
   },
   {
@@ -8110,10 +8109,10 @@
    "properties": {
     "name": "11 CROSS ROAD CHELSEA 3196",
     "locID": "LOC000063597704",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC411105464",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -15561,7 +15560,7 @@
    "properties": {
     "name": "60 BLANTYRE AVENUE CHELSEA 3196",
     "locID": "LOC000036859487",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GAVIC419810306"
    }
@@ -15918,10 +15917,10 @@
    "properties": {
     "name": "4 CROSS ROAD CHELSEA 3196",
     "locID": "LOC000093268984",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC419813190",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -16502,24 +16501,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.11403,
-     -38.051596
-    ]
-   },
-   "properties": {
-    "name": "4 BATH STREET CHELSEA 3196",
-    "locID": "LOC000106390358",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419815886",
-    "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.11429,
      -38.052132
     ]
@@ -16705,10 +16686,10 @@
    "properties": {
     "name": "33 TARELLA ROAD CHELSEA 3196",
     "locID": "LOC000085244829",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC419816915",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -16831,9 +16812,8 @@
     "name": "41 THAMES PROMENADE CHELSEA 3196",
     "locID": "LOC000008017322",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAVIC419818760",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419818760"
    }
   },
   {
@@ -23145,10 +23125,9 @@
    "properties": {
     "name": "20 ELLA GROVE CHELSEA 3196",
     "locID": "LOC000031148453",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420119185",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420119185"
    }
   },
   {
@@ -27604,6 +27583,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.115148,
+     -38.047541
+    ]
+   },
+   "properties": {
+    "name": "6 BLACK STREET CHELSEA 3196",
+    "locID": "LOC000194583234",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420394194"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.117278,
      -38.052045
     ]
@@ -28101,6 +28097,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420397572",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.120659,
+     -38.049062
+    ]
+   },
+   "properties": {
+    "name": "44-46 THAMES PROMENADE CHELSEA 3196",
+    "locID": "LOC000194314884",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420397573"
    }
   },
   {
@@ -35122,7 +35135,8 @@
     "locID": "LOC000104868796",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420700324"
+    "gnaf_pid": "GAVIC420700324",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -37780,10 +37794,10 @@
    "properties": {
     "name": "84 SHERWOOD AVENUE CHELSEA 3196",
     "locID": "LOC000003650996",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC420718835",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -38517,9 +38531,8 @@
     "name": "19 JACKSONS ROAD CHELSEA 3196",
     "locID": "LOC000044302031",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAVIC420721596",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420721596"
    }
   },
   {
@@ -38624,9 +38637,8 @@
     "name": "5 COLLINS COURT CHELSEA 3196",
     "locID": "LOC000056539029",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAVIC420721650",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420721650"
    }
   },
   {
@@ -42129,7 +42141,8 @@
     "locID": "LOC000073759014",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC420964341"
+    "gnaf_pid": "GAVIC420964341",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -43113,10 +43126,9 @@
    "properties": {
     "name": "51 EMBANKMENT GROVE CHELSEA 3196",
     "locID": "LOC000083067796",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421008897",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421008897"
    }
   },
   {
@@ -49220,6 +49232,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.117996,
+     -38.054733
+    ]
+   },
+   "properties": {
+    "name": "354-355 STATION STREET CHELSEA 3196",
+    "locID": "LOC000194543677",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421299073"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.118407,
      -38.056488
     ]
@@ -49587,10 +49616,10 @@
    "properties": {
     "name": "117 EMBANKMENT GROVE CHELSEA 3196",
     "locID": "LOC000039070759",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC421301883",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -59576,9 +59605,8 @@
     "name": "31 CAMP STREET CHELSEA 3196",
     "locID": "LOC000058012149",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAVIC421641718",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421641718"
    }
   },
   {
@@ -71841,10 +71869,9 @@
    "properties": {
     "name": "20A ELLA GROVE CHELSEA 3196",
     "locID": "LOC000031148453",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423452889",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423452889"
    }
   },
   {
@@ -79442,6 +79469,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.11355635,
+     -38.05303999
+    ]
+   },
+   "properties": {
+    "name": "18 THE STRAND CHELSEA 3196",
+    "locID": "LOC000113277662",
+    "tech": "FTTC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424680724"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.12539669,
      -38.05053975
     ]
@@ -79449,10 +79493,9 @@
    "properties": {
     "name": "UNIT 2, 86 CATHERINE AVENUE CHELSEA 3196",
     "locID": "LOC000124090794",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC424682711",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424682711"
    }
   },
   {
@@ -80151,10 +80194,10 @@
    "properties": {
     "name": "17B THAMES PROMENADE CHELSEA 3196",
     "locID": "LOC000113234882",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAVIC424766477",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -80169,10 +80212,9 @@
    "properties": {
     "name": "23A THAMES PROMENADE CHELSEA 3196",
     "locID": "LOC000124058691",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC424766478",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424766478"
    }
   },
   {
@@ -82737,6 +82779,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425468090"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11163477,
+     -38.04670956
+    ]
+   },
+   "properties": {
+    "name": "10B MORTON GROVE CHELSEA 3196",
+    "locID": "LOC000194159824",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425468091"
    }
   },
   {
@@ -87551,6 +87610,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.11510269,
+     -38.05461024
+    ]
+   },
+   "properties": {
+    "name": "39A CAMP STREET CHELSEA 3196",
+    "locID": "LOC000179904288",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719785519"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.11759822,
      -38.0574866
     ]
@@ -91047,6 +91123,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.12611704,
+     -38.04652919
+    ]
+   },
+   "properties": {
+    "name": "31B MULKARRA DRIVE CHELSEA 3196",
+    "locID": "LOC000193800527",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721026520"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.12505857,
      -38.05571319
     ]
@@ -91126,6 +91219,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721035011"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.12603721,
+     -38.04655616
+    ]
+   },
+   "properties": {
+    "name": "31A MULKARRA DRIVE CHELSEA 3196",
+    "locID": "LOC000193800515",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721035282"
    }
   },
   {
@@ -91786,7 +91896,7 @@
    "properties": {
     "name": "60B BLANTYRE AVENUE CHELSEA 3196",
     "locID": "LOC000036859487",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GAVIC721211253"
    }
@@ -91803,7 +91913,7 @@
    "properties": {
     "name": "60A BLANTYRE AVENUE CHELSEA 3196",
     "locID": "LOC000036859487",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GAVIC721213034"
    }
@@ -91881,6 +91991,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.11518181,
+     -38.04757733
+    ]
+   },
+   "properties": {
+    "name": "6B BLACK STREET CHELSEA 3196",
+    "locID": "LOC000194583234",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721295854"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11269407,
+     -38.04720179
+    ]
+   },
+   "properties": {
+    "name": "11 BERWEN LANE CHELSEA 3196",
+    "locID": "LOC000194197556",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721296656"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.11701093,
      -38.05581467
     ]
@@ -91891,6 +92035,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721297734"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11274198,
+     -38.04730497
+    ]
+   },
+   "properties": {
+    "name": "9 BERWEN LANE CHELSEA 3196",
+    "locID": "LOC000194197560",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721299007"
    }
   },
   {
