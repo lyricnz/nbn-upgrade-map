@@ -58,6 +58,14 @@
         </div>
     </div>
     <div style="width: 80%; margin: 0 auto;">
+        <!-- Heading for Line Chart -->
+        <h2>Line Chart by Technology Percentage</h2>
+        <!-- Create a taller canvas element to render the line chart -->
+        <div style="height: 500px;">
+            <canvas id="lineChart-percent"></canvas>
+        </div>
+    </div>
+    <div style="width: 80%; margin: 0 auto;">
         <!-- Heading for Pie Chart -->
         <h2 id="piechart">Pie Chart by Technology</h2>
         <!-- Create a canvas element to render the pie chart -->
@@ -152,6 +160,30 @@
             return { dates, datasets };
         }
 
+        // Function to prepare data for the line chart percentage
+        async function prepareLineChartPercentageData() {
+            const rawData = await fetchData();
+            const dates = Object.keys(rawData).filter(date => date >= "2023-08-01");
+            const newestDate = Object.keys(rawData).sort().reverse()[0];
+            const techData = rawData[newestDate].tech;
+            const sortedTechData = sortTechData(techData);
+
+            const datasets = sortedTechData.map((techData, index) => ({
+                label: techData.label,
+                data: dates.map(date => rawData[date].tech[techData.label]),
+                borderWidth: 2,
+                fill: true,
+            }));
+
+            const total = datasets.map(dataset => dataset.data).reduce((a, b) => a.map((value, index) => value + b[index]));
+
+            datasets.forEach(dataset => {
+                dataset.data = dataset.data.map((value, index) => (value / total[index]) * 100);
+            });
+
+            return { dates, datasets };
+        }
+
         // Function to prepare data for the pie chart
         async function preparePieChartData() {
             const rawData = await fetchData();
@@ -215,6 +247,39 @@
             });
         }
 
+        // Create the line chart percentage
+        async function createLineChartPercentage() {
+            const chartData = await prepareLineChartPercentageData();
+
+            const ctx = document.getElementById('lineChart-percent').getContext('2d');
+            const lineChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: chartData.dates,
+                    datasets: chartData.datasets,
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            stacked: true,
+                            beginAtZero: true,
+                        },
+                    },
+                    plugins: {
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return context.dataset.label + ': ' + Math.round(context.formattedValue * 100) / 100 + '%';
+                                },
+                            },
+                        },
+                    },
+                },
+            });
+        }
+
         // Create the pie chart
         async function createPieChart() {
             const pieData = await preparePieChartData();
@@ -253,6 +318,7 @@
         // Call the functions to create both charts
         createLineChart();
         createPieChart();
+        createLineChartPercentage();
     </script>
 </body>
 </html>
