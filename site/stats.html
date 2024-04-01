@@ -62,7 +62,7 @@
         <h2>Line Chart by Technology Percentage</h2>
         <!-- Create a taller canvas element to render the line chart -->
         <div style="height: 500px;">
-            <canvas id="lineChartPercent"></canvas>
+            <canvas id="lineChart-percent"></canvas>
         </div>
     </div>
     <div style="width: 80%; margin: 0 auto;">
@@ -251,7 +251,7 @@
         async function createLineChartPercentage() {
             const chartData = await prepareLineChartPercentageData();
 
-            const ctx = document.getElementById('lineChartPercent').getContext('2d');
+            const ctx = document.getElementById('lineChart-percent').getContext('2d');
             const lineChart = new Chart(ctx, {
                 type: 'line',
                 data: {
