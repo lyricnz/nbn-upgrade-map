@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-11T00:46:09.639000",
+ "generated": "2024-04-01T23:42:37.897555",
  "suburb": "STRATHFIELD",
  "features": [
   {
@@ -18,6 +18,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW703872786"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0830144,
+     -33.8729346
+    ]
+   },
+   "properties": {
+    "name": "UNIT 8, 74-80 BERESFORD ROAD STRATHFIELD 2135",
+    "locID": "LOC000060208361",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW703874511"
    }
   },
   {
@@ -4132,8 +4149,11 @@
     "name": "2 CLARENCE STREET STRATHFIELD 2135",
     "locID": "LOC000156153728",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705969389"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW705969389",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8431,23 +8451,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.07585415,
-     -33.88266081
-    ]
-   },
-   "properties": {
-    "name": "58 MYRNA ROAD STRATHFIELD 2135",
-    "locID": "LOC000036968721",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705972729"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.0697132,
      -33.87792858
     ]
@@ -10726,6 +10729,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.08294659,
+     -33.87282158
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 74-80 BERESFORD ROAD STRATHFIELD 2135",
+    "locID": "LOC000060208361",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705972898"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.08297038,
+     -33.87286084
+    ]
+   },
+   "properties": {
+    "name": "UNIT 7, 74-80 BERESFORD ROAD STRATHFIELD 2135",
+    "locID": "LOC000060208361",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705972899"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.08262262,
      -33.87305881
     ]
@@ -12664,7 +12701,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705973045",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17400,8 +17439,11 @@
     "name": "12 CHAPMAN STREET STRATHFIELD 2135",
     "locID": "LOC000104725971",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705975898"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW705975898",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35560,7 +35602,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705986178",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35576,8 +35619,11 @@
     "name": "11 CHAPMAN STREET STRATHFIELD 2135",
     "locID": "LOC000091688368",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705986179"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW705986179",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39330,7 +39376,7 @@
    "properties": {
     "name": "1 LYONS STREET STRATHFIELD 2135",
     "locID": "LOC000036313964",
-    "tech": "HFC",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705989345"
    }
@@ -39911,7 +39957,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705989383",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40029,7 +40077,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705989389",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40107,7 +40157,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705989393",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -45152,7 +45203,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705992974",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45539,7 +45592,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705992996",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -52579,8 +52634,11 @@
     "name": "10 LEICESTER AVENUE STRATHFIELD 2135",
     "locID": "LOC000092555594",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705996538"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW705996538",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -52678,7 +52736,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705996543",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -52736,7 +52796,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705996546",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53077,10 +53139,9 @@
    "properties": {
     "name": "12 MINTARO AVENUE STRATHFIELD 2135",
     "locID": "LOC000012160170",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW705996567",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705996567"
    }
   },
   {
@@ -64173,7 +64234,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706003241",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -64211,7 +64273,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW706003243",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -67088,6 +67152,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706003475"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.08281095,
+     -33.87264907
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 74-80 BERESFORD ROAD STRATHFIELD 2135",
+    "locID": "LOC000060208361",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706003481"
    }
   },
   {
@@ -70196,23 +70277,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.09490125,
-     -33.8809524
-    ]
-   },
-   "properties": {
-    "name": "1 SHERARS AVENUE STRATHFIELD 2135",
-    "locID": "LOC000023150277",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706006687"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.0954266,
      -33.88082912
     ]
@@ -70999,23 +71063,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706006758"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.06799672,
-     -33.87478236
-    ]
-   },
-   "properties": {
-    "name": "36 KARUAH STREET STRATHFIELD 2135",
-    "locID": "LOC000050585963",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706006759"
    }
   },
   {
@@ -85097,9 +85144,10 @@
     "name": "57 MANSON ROAD STRATHFIELD 2135",
     "locID": "LOC000184042837",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW706013512",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -86477,23 +86525,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706013733"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.09412293,
-     -33.88281613
-    ]
-   },
-   "properties": {
-    "name": "14 ANGEL ROAD STRATHFIELD 2135",
-    "locID": "ChIJB5-YLOC6EmsRt4EjAPq6p60",
-    "tech": "SATELLITE",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GANSW706013734"
    }
   },
   {
@@ -95970,7 +96001,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW706017097",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -96026,8 +96059,11 @@
     "name": "32 LEICESTER AVENUE STRATHFIELD 2135",
     "locID": "LOC000099879760",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706017100"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW706017100",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -103720,8 +103756,7 @@
     "locID": "LOC000033166511",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706020353",
-    "tech_change_status": "Eligible To Order"
+    "gnaf_pid": "GANSW706020353"
    }
   },
   {
@@ -107161,7 +107196,7 @@
    "properties": {
     "name": "39 WILLEE STREET STRATHFIELD 2135",
     "locID": "LOC000107229099",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "UNKNOWN",
     "gnaf_pid": "GANSW706558136"
    }
@@ -115681,8 +115716,11 @@
     "name": "40A LEICESTER AVENUE STRATHFIELD 2135",
     "locID": "LOC000100119422",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW710958711"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW710958711",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -147063,6 +147101,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.08427421,
+     -33.87284812
+    ]
+   },
+   "properties": {
+    "name": "87-89 ALBERT ROAD STRATHFIELD 2135",
+    "locID": "LOC000193159498",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW716726460"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.08403386,
      -33.8730475
     ]
@@ -149598,7 +149653,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716859729",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -150848,7 +150904,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716995813",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -150904,7 +150961,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716995816",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -150941,7 +150999,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716995818",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -150959,7 +151018,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716995819",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -150977,7 +151037,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716995820",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -151147,7 +151208,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716995829",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -151165,7 +151227,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716995830",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -151259,7 +151322,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716995835",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -151353,7 +151417,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716995840",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -151371,7 +151436,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716995841",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -151408,7 +151474,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716995843",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -151426,7 +151493,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716995844",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -151463,7 +151531,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716995846",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -151500,7 +151569,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716995848",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -151556,7 +151626,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716995851",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -152806,6 +152877,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.08286203,
+     -33.87280392
+    ]
+   },
+   "properties": {
+    "name": "74-80 BERESFORD ROAD STRATHFIELD 2135",
+    "locID": "LOC000060208361",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717419083"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.09273211,
      -33.87625282
     ]
@@ -153207,7 +153295,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717502731",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -153263,7 +153353,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717502735",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -153597,7 +153689,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717519477",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -153615,7 +153709,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717519478",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -153633,7 +153729,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717519479",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -153651,7 +153749,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717519480",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -153688,7 +153788,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717519482",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -153706,7 +153808,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717519483",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -153743,7 +153847,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717519485",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -153761,7 +153867,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717519486",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -154312,7 +154420,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717528786",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -161934,7 +162044,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718096593",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -161952,7 +162063,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718096594",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -161970,7 +162082,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718096595",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -161988,7 +162101,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718096596",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -162006,7 +162120,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718096597",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -162024,7 +162139,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718096598",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -162042,7 +162158,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718096599",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -162060,7 +162177,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718096600",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -162076,9 +162194,10 @@
     "name": "UNIT 6, 5-9 CHAPMAN STREET STRATHFIELD 2135",
     "locID": "LOC000119992997",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718096601",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -162096,7 +162215,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718096602",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -162114,7 +162234,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718096603",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -162132,7 +162253,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718096604",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -162150,7 +162272,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718096605",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172479,7 +172602,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718656016",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172497,7 +172621,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718656017",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172515,7 +172640,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664571",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172533,7 +172659,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664572",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172551,7 +172678,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664573",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172569,7 +172697,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664574",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172587,7 +172716,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664575",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172605,7 +172735,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664576",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172623,7 +172754,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664577",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172641,7 +172773,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664578",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172657,9 +172790,10 @@
     "name": "UNIT 109, 9 HILTS ROAD STRATHFIELD 2135",
     "locID": "LOC000156154382",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664579",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172677,7 +172811,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664580",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172695,7 +172830,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664581",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172713,7 +172849,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664582",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172731,7 +172868,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664583",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172747,9 +172885,10 @@
     "name": "UNIT 204, 9 HILTS ROAD STRATHFIELD 2135",
     "locID": "LOC000156154444",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664584",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172767,7 +172906,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664585",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172785,7 +172925,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664586",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172803,7 +172944,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664587",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172821,7 +172963,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664588",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172839,7 +172982,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664589",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172857,7 +173001,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664590",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172875,7 +173020,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664591",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172893,7 +173039,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664592",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172911,7 +173058,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664593",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172929,7 +173077,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664594",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172947,7 +173096,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664595",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172963,9 +173113,10 @@
     "name": "UNIT 308, 9 HILTS ROAD STRATHFIELD 2135",
     "locID": "LOC000156154590",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664596",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -172983,7 +173134,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664597",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173001,7 +173153,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664598",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173019,7 +173172,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664599",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173037,7 +173191,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664600",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173055,7 +173210,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664601",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173073,7 +173229,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664602",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173091,7 +173248,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664603",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173109,7 +173267,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664604",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173127,7 +173286,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664605",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173145,7 +173305,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664606",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173163,7 +173324,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664607",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173181,7 +173343,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664608",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173199,7 +173362,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664609",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173217,7 +173381,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664610",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173235,7 +173400,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664611",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173253,7 +173419,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664612",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173271,7 +173438,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664613",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173289,7 +173457,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664614",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173307,7 +173476,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664615",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173325,7 +173495,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664616",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173343,7 +173514,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664617",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173361,7 +173533,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664618",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173379,7 +173552,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664619",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173397,7 +173571,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664620",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173415,7 +173590,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664621",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173433,7 +173609,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664622",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173451,7 +173628,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664623",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173469,7 +173647,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664624",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173487,7 +173666,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664625",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173505,7 +173685,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664626",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173523,7 +173704,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718664627",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173662,7 +173844,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737497",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173680,7 +173863,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737498",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173698,7 +173882,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737499",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173716,7 +173901,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737500",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173734,7 +173920,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737501",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173752,7 +173939,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737502",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173770,7 +173958,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737503",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173788,7 +173977,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737504",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173806,7 +173996,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737505",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173824,7 +174015,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737506",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173842,7 +174034,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737507",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173860,7 +174053,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737508",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173878,7 +174072,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737509",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173896,7 +174091,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737510",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173914,7 +174110,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737511",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173932,7 +174129,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737512",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173950,7 +174148,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737513",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173968,7 +174167,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737514",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -173986,7 +174186,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737515",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174004,7 +174205,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737516",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174022,7 +174224,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737517",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174040,7 +174243,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737518",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174058,7 +174262,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737519",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174076,7 +174281,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737520",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174094,7 +174300,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737521",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174112,7 +174319,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737522",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174130,7 +174338,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737523",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174148,7 +174357,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737524",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174166,7 +174376,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718737525",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174405,7 +174616,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718955245",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174423,7 +174635,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718955246",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174441,7 +174654,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718955247",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174459,7 +174673,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718955248",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174477,7 +174692,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718955249",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174495,7 +174711,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718955251",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174513,7 +174730,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718955252",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174531,7 +174749,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718955253",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174549,7 +174768,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718955254",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174567,7 +174787,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718955255",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174585,7 +174806,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718955256",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174603,7 +174825,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718955257",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174621,7 +174844,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718955258",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174637,9 +174861,10 @@
     "name": "UNIT 404, 38 MANSON ROAD STRATHFIELD 2135",
     "locID": "LOC000156155212",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718955259",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174657,7 +174882,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718965216",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174675,7 +174901,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718965217",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174693,7 +174920,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718965218",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174711,7 +174939,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718965219",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174729,7 +174958,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718965220",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174747,7 +174977,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718965221",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174765,7 +174996,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718965222",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174783,7 +175015,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718965223",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174801,7 +175034,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718965224",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174819,7 +175053,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718965225",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -174905,7 +175140,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718974688",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -175739,7 +175975,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719026609",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -176658,7 +176895,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719165537",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -186239,6 +186477,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.0857496,
+     -33.88448375
+    ]
+   },
+   "properties": {
+    "name": "49A COTSWOLD ROAD STRATHFIELD 2135",
+    "locID": "LOC000194160109",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719689581"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.09175664,
      -33.87188681
     ]
@@ -186981,7 +187236,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719805634",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -186999,7 +187255,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719807005",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -187017,7 +187274,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719807157",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -187035,7 +187293,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719808539",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -187053,7 +187312,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719809538",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -187069,9 +187329,10 @@
     "name": "UNIT 13, 57 MANSON ROAD STRATHFIELD 2135",
     "locID": "LOC000184042837",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719809647",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -187089,7 +187350,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719810477",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -187107,7 +187369,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719810582",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -187123,9 +187386,10 @@
     "name": "UNIT 5, 57 MANSON ROAD STRATHFIELD 2135",
     "locID": "LOC000184042837",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719810760",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -187143,7 +187407,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719811528",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -187159,9 +187424,10 @@
     "name": "UNIT 2, 57 MANSON ROAD STRATHFIELD 2135",
     "locID": "LOC000184042837",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719812251",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -187177,9 +187443,10 @@
     "name": "UNIT 3, 57 MANSON ROAD STRATHFIELD 2135",
     "locID": "LOC000184042837",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719814283",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -187195,9 +187462,10 @@
     "name": "UNIT 4, 57 MANSON ROAD STRATHFIELD 2135",
     "locID": "LOC000184042837",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719814638",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -187215,7 +187483,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719814697",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -187233,7 +187502,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719815010",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -193274,9 +193544,10 @@
     "name": "UNIT G3, 57 MANSON ROAD STRATHFIELD 2135",
     "locID": "LOC000184042837",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720395467",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -195536,9 +195807,10 @@
     "name": "UNIT 301, 57 MANSON ROAD STRATHFIELD 2135",
     "locID": "LOC000184042837",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720546741",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -195604,7 +195876,7 @@
    "properties": {
     "name": "UNIT 104, 1 LYONS STREET STRATHFIELD 2135",
     "locID": "LOC000036313964",
-    "tech": "HFC",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720550195"
    }
@@ -196328,6 +196600,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.08049933,
+     -33.87015128
+    ]
+   },
+   "properties": {
+    "name": "26A MEREDITH STREET STRATHFIELD 2135",
+    "locID": "LOC000117836203",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720683507"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.09573888,
      -33.88315855
     ]
@@ -196389,7 +196678,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720777574",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -196424,7 +196714,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720778465",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -196510,7 +196801,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720780706",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -196681,7 +196973,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720784446",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -196733,7 +197026,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720785231",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -196819,7 +197113,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720786785",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -196973,7 +197268,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720789821",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -197025,7 +197321,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720790412",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -197347,9 +197644,10 @@
     "name": "UNIT G1, 57 MANSON ROAD STRATHFIELD 2135",
     "locID": "LOC000184042837",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720845468",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -198520,7 +198818,7 @@
    "properties": {
     "name": "UNIT 103, 1 LYONS STREET STRATHFIELD 2135",
     "locID": "LOC000036313964",
-    "tech": "HFC",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721005925"
    }
@@ -198742,9 +199040,10 @@
     "name": "UNIT 102, 57 MANSON ROAD STRATHFIELD 2135",
     "locID": "LOC000184042837",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721054087",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -199187,7 +199486,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721246843",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -199307,7 +199607,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721261192",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -199342,7 +199643,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721261610",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -199377,7 +199679,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721261934",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -199429,7 +199732,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721262523",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
