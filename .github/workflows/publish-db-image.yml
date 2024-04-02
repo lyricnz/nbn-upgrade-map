@@ -18,7 +18,7 @@ jobs:
           remove-codeql: 'true'
 
       - name: Check out the repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
@@ -26,7 +26,7 @@ jobs:
             !results
 
       - name: Log in to Docker Hub
-        uses: docker/login-action@v2
+        uses: docker/login-action@v3
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
@@ -39,7 +39,7 @@ jobs:
 
       - name: Extract metadata (tags, labels) for Docker
         id: meta
-        uses: docker/metadata-action@v4
+        uses: docker/metadata-action@v5
         with:
           images: lukeprior/nbn-upgrade-map-db
           tags: |
@@ -53,7 +53,7 @@ jobs:
           curl --insecure https://minus34.com/opendata/geoscape-$GNAF_LOADER_TAG/gnaf-$GNAF_LOADER_TAG.dmp --output ./extra/db/gnaf-$GNAF_LOADER_TAG.dmp
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@v4
+        uses: docker/build-push-action@v5
         with:
           context: ./extra/db
           push: true
@@ -71,7 +71,7 @@ jobs:
         run: ./extra/db/docker2sqlite.sh
 
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: sqlite-db-${{ steps.version.outputs.GNAF_LOADER_TAG }}
           body: SQLite DB for the cutdown version of the GNAF address database
