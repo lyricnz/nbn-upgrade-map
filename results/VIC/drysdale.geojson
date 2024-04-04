@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-13T05:25:24.636125",
+ "generated": "2024-04-04T15:26:31.641491",
  "suburb": "DRYSDALE",
  "features": [
   {
@@ -27,8 +27,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.56601039,
-     -38.17125585
+     144.56621497,
+     -38.17128001
     ]
    },
    "properties": {
@@ -1279,16 +1279,19 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.55135098,
-     -38.17936332
+     144.56611969,
+     -38.17762799
     ]
    },
    "properties": {
-    "name": "291 JETTY ROAD DRYSDALE 3222",
-    "locID": "LOC000075672504",
+    "name": "31 NEWCOMBE STREET DRYSDALE 3222",
+    "locID": "LOC000192395127",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC411295531"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC411295533",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1433,23 +1436,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.5786259,
-     -38.16457898
-    ]
-   },
-   "properties": {
-    "name": "5 DRAKES ROAD DRYSDALE 3222",
-    "locID": "LOC000093963685",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC411296419"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.56805619,
      -38.17167198
     ]
@@ -1575,26 +1561,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC411298909",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.57002521,
-     -38.17079365
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 26 CAROLANNE DRIVE DRYSDALE 3222",
-    "locID": "LOC000058900475",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC411298918",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -2317,26 +2283,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC411303541",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.57002521,
-     -38.17079365
-    ]
-   },
-   "properties": {
-    "name": "UNIT 4, 26 CAROLANNE DRIVE DRYSDALE 3222",
-    "locID": "LOC000058900475",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC411303564",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -4581,8 +4527,8 @@
    "properties": {
     "name": "6 NEWCOMBE STREET DRYSDALE 3222",
     "locID": "LOC000025892393",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419637180",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4798,8 +4744,8 @@
    "properties": {
     "name": "225-229 JETTY ROAD DRYSDALE 3222",
     "locID": "LOC000081463999",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419639247",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5095,8 +5041,8 @@
    "properties": {
     "name": "95 BARRANDS LANE DRYSDALE 3222",
     "locID": "LOC000052931107",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419639301",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5315,10 +5261,9 @@
    "properties": {
     "name": "2 CULLEN COURT DRYSDALE 3222",
     "locID": "LOC000080226811",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419643476",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5467,8 +5412,8 @@
    "properties": {
     "name": "131-149 JETTY ROAD DRYSDALE 3222",
     "locID": "LOC000030026469",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419643672",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5607,8 +5552,8 @@
    "properties": {
     "name": "107 BARRANDS LANE DRYSDALE 3222",
     "locID": "LOC000002896573",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419644381",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6102,8 +6047,8 @@
    "properties": {
     "name": "21-23 HUNTINGDON STREET DRYSDALE 3222",
     "locID": "LOC000124172961",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419648937",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6755,8 +6700,8 @@
    "properties": {
     "name": "70-72 WOODVILLE STREET DRYSDALE 3222",
     "locID": "LOC000083778042",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419760148",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7683,9 +7628,9 @@
     "name": "39 DUKE STREET DRYSDALE 3222",
     "locID": "LOC000048987486",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419939702",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7955,10 +7900,10 @@
    "properties": {
     "name": "49-53 BUCCLEUGH STREET DRYSDALE 3222",
     "locID": "LOC000094418984",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419942559",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8263,8 +8208,8 @@
    "properties": {
     "name": "18 NEWCOMBE STREET DRYSDALE 3222",
     "locID": "LOC000045898658",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419946154",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8613,8 +8558,8 @@
    "properties": {
     "name": "10 CULLEN COURT DRYSDALE 3222",
     "locID": "LOC000100296106",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419947406",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8645,8 +8590,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.57125435,
-     -38.16978645
+     144.57124186,
+     -38.16984886
     ]
    },
    "properties": {
@@ -8872,8 +8817,8 @@
    "properties": {
     "name": "58-62 COLLINS STREET DRYSDALE 3222",
     "locID": "LOC000032129358",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420029011",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9488,9 +9433,8 @@
     "name": "11 EASTWOOD CRESCENT DRYSDALE 3222",
     "locID": "LOC000070611590",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420253639",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9665,10 +9609,9 @@
    "properties": {
     "name": "9 CONDY STREET DRYSDALE 3222",
     "locID": "LOC000031886438",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420254517",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9841,8 +9784,8 @@
    "properties": {
     "name": "10 NEWCOMBE STREET DRYSDALE 3222",
     "locID": "LOC000076066067",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420255928",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10587,8 +10530,8 @@
    "properties": {
     "name": "123-131 CENTRAL ROAD DRYSDALE 3222",
     "locID": "LOC000114040509",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420260281",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10760,9 +10703,8 @@
     "name": "13 EASTWOOD CRESCENT DRYSDALE 3222",
     "locID": "LOC000072042588",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420262847",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11096,8 +11038,8 @@
    "properties": {
     "name": "19-20 PEPPERMINT GROVE DRYSDALE 3222",
     "locID": "LOC000093022610",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420338763",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11746,25 +11688,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.56775923,
-     -38.17284356
-    ]
-   },
-   "properties": {
-    "name": "33-37 WYNDHAM STREET DRYSDALE 3222",
-    "locID": "LOC000056822610",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC420537362",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.58800535,
      -38.15340363
     ]
@@ -12229,8 +12152,8 @@
    "properties": {
     "name": "52 DE BURGH ROAD DRYSDALE 3222",
     "locID": "LOC000050227822",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420540159",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12349,8 +12272,8 @@
    "properties": {
     "name": "6 BENNETT STREET DRYSDALE 3222",
     "locID": "LOC000040661427",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420540977",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12588,8 +12511,8 @@
    "properties": {
     "name": "74 CLIFTON SPRINGS ROAD DRYSDALE 3222",
     "locID": "LOC000075775551",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420549243",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12844,8 +12767,8 @@
    "properties": {
     "name": "43 DUKE STREET DRYSDALE 3222",
     "locID": "LOC000050085377",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420554855",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12904,8 +12827,8 @@
    "properties": {
     "name": "52 PALMERSTON STREET DRYSDALE 3222",
     "locID": "LOC000063784007",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420554869",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13489,8 +13412,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.5674248,
-     -38.17663524
+     144.56743148,
+     -38.17664283
     ]
    },
    "properties": {
@@ -13536,8 +13459,8 @@
    "properties": {
     "name": "24-26 CRIMEA STREET DRYSDALE 3222",
     "locID": "LOC000074379683",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420663338",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13914,8 +13837,8 @@
    "properties": {
     "name": "9 CULLEN COURT DRYSDALE 3222",
     "locID": "LOC000019342818",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420832852",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13994,8 +13917,8 @@
    "properties": {
     "name": "14 NEWCOMBE STREET DRYSDALE 3222",
     "locID": "LOC000038050197",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420839802",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14323,8 +14246,8 @@
    "properties": {
     "name": "113 BARRANDS LANE DRYSDALE 3222",
     "locID": "LOC000097016041",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420843395",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14421,8 +14344,8 @@
    "properties": {
     "name": "25-27 STATION STREET DRYSDALE 3222",
     "locID": "LOC000124186630",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420843640",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14441,8 +14364,8 @@
    "properties": {
     "name": "75 COLLINS STREET DRYSDALE 3222",
     "locID": "LOC000047017122",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420843646",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14521,8 +14444,8 @@
    "properties": {
     "name": "8 NEWCOMBE STREET DRYSDALE 3222",
     "locID": "LOC000069406377",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420846869",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14554,25 +14477,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.56611969,
-     -38.17762799
-    ]
-   },
-   "properties": {
-    "name": "31-33 NEWCOMBE STREET DRYSDALE 3222",
-    "locID": "LOC000101809114",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC420846903",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.566492,
      -38.16726784
     ]
@@ -14580,8 +14484,8 @@
    "properties": {
     "name": "3 EASTWOOD CRESCENT DRYSDALE 3222",
     "locID": "LOC000090973205",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420846904",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14900,10 +14804,9 @@
    "properties": {
     "name": "6 TERRY COURT DRYSDALE 3222",
     "locID": "LOC000044528620",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420847992",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15214,8 +15117,8 @@
    "properties": {
     "name": "38 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000047720484",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420860406",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15234,8 +15137,8 @@
    "properties": {
     "name": "29 BENNETT STREET DRYSDALE 3222",
     "locID": "LOC000065737827",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420860413",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15507,8 +15410,8 @@
    "properties": {
     "name": "219-223 JETTY ROAD DRYSDALE 3222",
     "locID": "LOC000050253762",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420864046",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16417,8 +16320,8 @@
    "properties": {
     "name": "15 DUKE STREET DRYSDALE 3222",
     "locID": "LOC000021973713",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421141606",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18001,10 +17904,9 @@
    "properties": {
     "name": "26 ELGIN STREET DRYSDALE 3222",
     "locID": "LOC000026216632",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421264006",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18021,8 +17923,8 @@
    "properties": {
     "name": "3-4 PEPPERMINT GROVE DRYSDALE 3222",
     "locID": "LOC000048011901",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421273267",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18061,8 +17963,8 @@
    "properties": {
     "name": "74-78 WOODVILLE STREET DRYSDALE 3222",
     "locID": "LOC000005312398",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421276808",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18372,10 +18274,9 @@
    "properties": {
     "name": "90 WYNDHAM STREET DRYSDALE 3222",
     "locID": "LOC000107709130",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421398594",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18449,8 +18350,8 @@
    "properties": {
     "name": "20 JAMES COURT DRYSDALE 3222",
     "locID": "LOC000003922518",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421432011",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18659,8 +18560,8 @@
    "properties": {
     "name": "17 JAMES COURT DRYSDALE 3222",
     "locID": "LOC000091470765",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421442460",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18719,8 +18620,8 @@
    "properties": {
     "name": "22 NEWCOMBE STREET DRYSDALE 3222",
     "locID": "LOC000075505405",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421443361",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18777,8 +18678,8 @@
    "properties": {
     "name": "89 COLLINS STREET DRYSDALE 3222",
     "locID": "LOC000071752793",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421443376",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18910,6 +18811,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.57273705,
+     -38.17303315
+    ]
+   },
+   "properties": {
+    "name": "19-21 MURRADOC ROAD DRYSDALE 3222",
+    "locID": "LOC000049128897",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421447008",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.57518119,
      -38.17376499
     ]
@@ -18929,8 +18849,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.55711548,
-     -38.17913392
+     144.55710038,
+     -38.17913339
     ]
    },
    "properties": {
@@ -18956,8 +18876,8 @@
    "properties": {
     "name": "92 CLIFTON SPRINGS ROAD DRYSDALE 3222",
     "locID": "LOC000114897645",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421447332",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19273,8 +19193,8 @@
    "properties": {
     "name": "121-137 PRINCESS STREET DRYSDALE 3222",
     "locID": "LOC000124177283",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421460494",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19413,8 +19333,8 @@
    "properties": {
     "name": "114-116 PRINCESS STREET DRYSDALE 3222",
     "locID": "LOC000124172484",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421468890",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19493,8 +19413,8 @@
    "properties": {
     "name": "43 DE BURGH ROAD DRYSDALE 3222",
     "locID": "LOC000012738682",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421468899",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19688,8 +19608,8 @@
    "properties": {
     "name": "33 DE BURGH ROAD DRYSDALE 3222",
     "locID": "LOC000005112423",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421479676",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20059,8 +19979,8 @@
    "properties": {
     "name": "19 SPROAT STREET DRYSDALE 3222",
     "locID": "LOC000016217486",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421595613",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20199,8 +20119,8 @@
    "properties": {
     "name": "65 BARRANDS LANE DRYSDALE 3222",
     "locID": "LOC000013654825",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421674322",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20654,8 +20574,8 @@
    "properties": {
     "name": "33-35 HUNTINGDON STREET DRYSDALE 3222",
     "locID": "LOC000124212871",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421726537",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20734,8 +20654,8 @@
    "properties": {
     "name": "41 DUKE STREET DRYSDALE 3222",
     "locID": "LOC000007983356",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421729663",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20933,10 +20853,9 @@
    "properties": {
     "name": "105 COLLINS STREET DRYSDALE 3222",
     "locID": "LOC000060432930",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421735905",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21353,8 +21272,8 @@
    "properties": {
     "name": "12 EASTWOOD CRESCENT DRYSDALE 3222",
     "locID": "LOC000011193327",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421748728",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21373,8 +21292,8 @@
    "properties": {
     "name": "36-38 NEWCOMBE STREET DRYSDALE 3222",
     "locID": "LOC000073988751",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421748730",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21393,8 +21312,8 @@
    "properties": {
     "name": "13 DUKE STREET DRYSDALE 3222",
     "locID": "LOC000040376731",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421748732",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21672,8 +21591,8 @@
    "properties": {
     "name": "50 DE BURGH ROAD DRYSDALE 3222",
     "locID": "LOC000070456529",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421755293",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21772,8 +21691,8 @@
    "properties": {
     "name": "130 PRINCESS STREET DRYSDALE 3222",
     "locID": "LOC000058211122",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421755299",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21852,8 +21771,8 @@
    "properties": {
     "name": "16 NEWCOMBE STREET DRYSDALE 3222",
     "locID": "LOC000007116802",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421757827",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -22271,7 +22190,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421830461",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22522,8 +22441,8 @@
    "properties": {
     "name": "13-14 PEPPERMINT GROVE DRYSDALE 3222",
     "locID": "LOC000093953577",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421875144",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23007,8 +22926,8 @@
    "properties": {
     "name": "106 PRINCESS STREET DRYSDALE 3222",
     "locID": "LOC000114082698",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC422022763",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23047,8 +22966,8 @@
    "properties": {
     "name": "21 GLENGARRY COURT DRYSDALE 3222",
     "locID": "LOC000017643191",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC422025921",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23227,8 +23146,8 @@
    "properties": {
     "name": "6 CARRIAGE CRESCENT DRYSDALE 3222",
     "locID": "LOC000082887786",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC422083256",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23385,8 +23304,8 @@
    "properties": {
     "name": "112-118 BARRANDS LANE DRYSDALE 3222",
     "locID": "LOC000124168152",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC422126163",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23498,6 +23417,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.57055336,
+     -38.16510951
+    ]
+   },
+   "properties": {
+    "name": "15 BAYVISTA PARADE DRYSDALE 3222",
+    "locID": "LOC000194086268",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422126873",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.57084626,
      -38.16514463
     ]
@@ -23586,9 +23523,8 @@
     "name": "20 EASTWOOD CRESCENT DRYSDALE 3222",
     "locID": "LOC000046899769",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422143875",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23779,8 +23715,8 @@
    "properties": {
     "name": "11 GLENGARRY COURT DRYSDALE 3222",
     "locID": "LOC000002877586",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC422149988",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23918,8 +23854,8 @@
    "properties": {
     "name": "3 GLENGARRY COURT DRYSDALE 3222",
     "locID": "LOC000011216106",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC422150001",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23958,8 +23894,8 @@
    "properties": {
     "name": "6 GLENGARRY COURT DRYSDALE 3222",
     "locID": "LOC000030255112",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC422150003",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23998,8 +23934,8 @@
    "properties": {
     "name": "8 GLENGARRY COURT DRYSDALE 3222",
     "locID": "LOC000034926402",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC422150006",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24293,8 +24229,8 @@
    "properties": {
     "name": "3 VRON PLACE DRYSDALE 3222",
     "locID": "LOC000081565197",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC422199954",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24333,8 +24269,8 @@
    "properties": {
     "name": "5 VRON PLACE DRYSDALE 3222",
     "locID": "LOC000096945864",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC422199956",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24406,8 +24342,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.5662148,
-     -38.17127988
+     144.56621497,
+     -38.17128001
     ]
    },
    "properties": {
@@ -24921,23 +24857,6 @@
     "gnaf_pid": "GAVIC422387124",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.5786259,
-     -38.16457898
-    ]
-   },
-   "properties": {
-    "name": "1-3 DRAKES ROAD DRYSDALE 3222",
-    "locID": "LOC000124226947",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC422391355"
    }
   },
   {
@@ -25609,8 +25528,8 @@
    "properties": {
     "name": "8 MARSH COURT DRYSDALE 3222",
     "locID": "LOC000085192999",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC423148355",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25872,26 +25791,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423386404",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.5737084,
-     -38.16520575
-    ]
-   },
-   "properties": {
-    "name": "5-17 OAKDEN ROAD DRYSDALE 3222",
-    "locID": "LOC000114313158",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC423386405",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -26265,10 +26164,9 @@
    "properties": {
     "name": "62-64 WYNDHAM STREET DRYSDALE 3222",
     "locID": "LOC000097141770",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423501866",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29206,8 +29104,8 @@
    "properties": {
     "name": "4 THE GLEN DRYSDALE 3222",
     "locID": "LOC000081008140",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC423932300",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -29586,8 +29484,8 @@
    "properties": {
     "name": "41-47 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000066868580",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC423973241",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -30995,8 +30893,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.5592142,
-     -38.19392243
+     144.55517066,
+     -38.19441947
     ]
    },
    "properties": {
@@ -31059,8 +30957,8 @@
    "properties": {
     "name": "35-37 BUCCLEUGH STREET DRYSDALE 3222",
     "locID": "LOC000037822889",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC424351601",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31657,8 +31555,8 @@
    "properties": {
     "name": "22A COLLINS STREET DRYSDALE 3222",
     "locID": "LOC000124181882",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC424352959",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31756,8 +31654,8 @@
    "properties": {
     "name": "21-23 CRIMEA STREET DRYSDALE 3222",
     "locID": "LOC000101677739",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC424353563",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31819,6 +31717,23 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424354400"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.5932732,
+     -38.16643028
+    ]
+   },
+   "properties": {
+    "name": "131-139 DRAKES ROAD DRYSDALE 3222",
+    "locID": "LOC000124226947",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424354401"
    }
   },
   {
@@ -32568,7 +32483,7 @@
     ]
    },
    "properties": {
-    "name": "SHOP 7, 8 HIGH STREET DRYSDALE 3222",
+    "name": "UNIT 7, 8 HIGH STREET DRYSDALE 3222",
     "locID": "LOC000026142984",
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
@@ -32648,10 +32563,9 @@
    "properties": {
     "name": "4 HUMBER WAY DRYSDALE 3222",
     "locID": "LOC000092074189",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424358541",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32705,8 +32619,8 @@
    "properties": {
     "name": "3-5 HUNTINGDON STREET DRYSDALE 3222",
     "locID": "LOC000124203890",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC424358574",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -32781,8 +32695,8 @@
    "properties": {
     "name": "237-241 JETTY ROAD DRYSDALE 3222",
     "locID": "LOC000124182096",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC424358914",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -33420,6 +33334,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.57359204,
+     -38.16486298
+    ]
+   },
+   "properties": {
+    "name": "2-22 OAKDEN ROAD DRYSDALE 3222",
+    "locID": "LOC000194729321",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424363299"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.56733985,
      -38.18105149
     ]
@@ -33585,8 +33516,8 @@
    "properties": {
     "name": "124-128 PRINCESS STREET DRYSDALE 3222",
     "locID": "LOC000124181628",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC424365050",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -35460,8 +35391,8 @@
    "properties": {
     "name": "33 STATION STREET DRYSDALE 3222",
     "locID": "LOC000114099938",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC424722374",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -35480,8 +35411,8 @@
    "properties": {
     "name": "35 STATION STREET DRYSDALE 3222",
     "locID": "LOC000113091028",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC424722375",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -35618,8 +35549,8 @@
    "properties": {
     "name": "14 BUICK MEWS DRYSDALE 3222",
     "locID": "LOC000114083089",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC424744122",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -36653,10 +36584,9 @@
    "properties": {
     "name": "UNIT 1, 8 KIMBERLEY AVENUE DRYSDALE 3222",
     "locID": "LOC000114421596",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424754704",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36813,10 +36743,9 @@
    "properties": {
     "name": "8 KIMBERLEY AVENUE DRYSDALE 3222",
     "locID": "LOC000114421596",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424772604",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37312,10 +37241,9 @@
    "properties": {
     "name": "11 CHEVY AVENUE DRYSDALE 3222",
     "locID": "LOC000124163619",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424875071",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37877,8 +37805,8 @@
    "properties": {
     "name": "37 STATION STREET DRYSDALE 3222",
     "locID": "LOC000124217488",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC425029053",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -41458,10 +41386,9 @@
    "properties": {
     "name": "114A HIGH STREET DRYSDALE 3222",
     "locID": "LOC000180339821",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425465670",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42925,8 +42852,8 @@
    "properties": {
     "name": "114 PRINCESS STREET DRYSDALE 3222",
     "locID": "LOC000124172484",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC425801035",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -42945,8 +42872,8 @@
    "properties": {
     "name": "121 PRINCESS STREET DRYSDALE 3222",
     "locID": "LOC000124177283",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC425801036",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -45220,8 +45147,8 @@
    "properties": {
     "name": "15A PRINCESS STREET DRYSDALE 3222",
     "locID": "LOC000005190044",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC719428310",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -45582,6 +45509,26 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719920213",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.567445,
+     -38.17704637
+    ]
+   },
+   "properties": {
+    "name": "26A ELGIN STREET DRYSDALE 3222",
+    "locID": "LOC000181817094",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC719920985",
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -47332,6 +47279,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.56638322,
+     -38.17763992
+    ]
+   },
+   "properties": {
+    "name": "33 NEWCOMBE STREET DRYSDALE 3222",
+    "locID": "LOC000192395136",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC720234040",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.57849589,
      -38.17445411
     ]
@@ -47566,8 +47533,8 @@
    "properties": {
     "name": "137 PRINCESS STREET DRYSDALE 3222",
     "locID": "LOC000124177283",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720449438",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -47586,8 +47553,8 @@
    "properties": {
     "name": "121-135 PRINCESS STREET DRYSDALE 3222",
     "locID": "LOC000124177283",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720450340",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -47656,6 +47623,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.57845099,
+     -38.18307815
+    ]
+   },
+   "properties": {
+    "name": "50-70 WATERSON PLACE DRYSDALE 3222",
+    "locID": "LOC100082186882",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720474560"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.57827639,
      -38.16591005
     ]
@@ -47663,8 +47647,8 @@
    "properties": {
     "name": "18 MAYALL WAY DRYSDALE 3222",
     "locID": "LOC000104755459",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC720474953",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -47703,6 +47687,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720475450"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.57845477,
+     -38.1639279
+    ]
+   },
+   "properties": {
+    "name": "1-9 REDGUM PLACE DRYSDALE 3222",
+    "locID": "LOC000016122096",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720475599"
    }
   },
   {
@@ -48063,6 +48064,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720514370"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.57895604,
+     -38.16203403
+    ]
+   },
+   "properties": {
+    "name": "155 COLLINS STREET DRYSDALE 3222",
+    "locID": "LOC000186133641",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC720514609",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2024"
    }
   },
   {
@@ -49117,7 +49138,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.56559629,
+     144.5655963,
      -38.17795732
     ]
    },
@@ -49958,6 +49979,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.57428887,
+     -38.16527475
+    ]
+   },
+   "properties": {
+    "name": "15 OAKDEN ROAD DRYSDALE 3222",
+    "locID": "LOC000194729299",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721089517"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.57937774,
      -38.17473133
     ]
@@ -50043,19 +50081,50 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.5729802,
-     -38.165119
+     144.5545423,
+     -38.17969138
     ]
    },
    "properties": {
-    "name": "5 OAKDEN ROAD DRYSDALE 3222",
-    "locID": "LOC000114313158",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC721094024",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "name": "162 HIGH STREET DRYSDALE 3222",
+    "locID": "LOC000193952845",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721094554"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.57363462,
+     -38.16519689
+    ]
+   },
+   "properties": {
+    "name": "11A OAKDEN ROAD DRYSDALE 3222",
+    "locID": "LOC000194729321",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721095007"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.57313871,
+     -38.16513787
+    ]
+   },
+   "properties": {
+    "name": "7 OAKDEN ROAD DRYSDALE 3222",
+    "locID": "LOC000194729129",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721097388"
    }
   },
   {
@@ -50116,19 +50185,16 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.57445064,
-     -38.165294
+     144.57347658,
+     -38.16517808
     ]
    },
    "properties": {
-    "name": "17 OAKDEN ROAD DRYSDALE 3222",
-    "locID": "LOC000114313158",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC721100056",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "name": "9 OAKDEN ROAD DRYSDALE 3222",
+    "locID": "LOC000194729332",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721101277"
    }
   },
   {
@@ -50154,8 +50220,42 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.56743267,
-     -38.17664168
+     144.573951,
+     -38.16523454
+    ]
+   },
+   "properties": {
+    "name": "13 OAKDEN ROAD DRYSDALE 3222",
+    "locID": "LOC000194729309",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721103571"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.57379256,
+     -38.16521568
+    ]
+   },
+   "properties": {
+    "name": "11B OAKDEN ROAD DRYSDALE 3222",
+    "locID": "LOC000194729313",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721103787"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.56743148,
+     -38.17664283
     ]
    },
    "properties": {
@@ -50179,7 +50279,7 @@
     ]
    },
    "properties": {
-    "name": "WAREHOUSE 16, 93 MURRADOC ROAD DRYSDALE 3222",
+    "name": "UNIT 16, 93 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000192932124",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -50196,7 +50296,7 @@
     ]
    },
    "properties": {
-    "name": "WAREHOUSE 5, 93 MURRADOC ROAD DRYSDALE 3222",
+    "name": "UNIT 5, 93 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000192932124",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -50213,7 +50313,7 @@
     ]
    },
    "properties": {
-    "name": "WAREHOUSE 10, 93 MURRADOC ROAD DRYSDALE 3222",
+    "name": "UNIT 10, 93 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000192932124",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -50250,7 +50350,7 @@
     ]
    },
    "properties": {
-    "name": "WAREHOUSE 14, 93 MURRADOC ROAD DRYSDALE 3222",
+    "name": "UNIT 14, 93 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000192932124",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -50267,7 +50367,7 @@
     ]
    },
    "properties": {
-    "name": "WAREHOUSE 6, 93 MURRADOC ROAD DRYSDALE 3222",
+    "name": "UNIT 6, 93 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000192932124",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -50284,7 +50384,7 @@
     ]
    },
    "properties": {
-    "name": "WAREHOUSE 11, 93 MURRADOC ROAD DRYSDALE 3222",
+    "name": "UNIT 11, 93 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000192932124",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -50301,7 +50401,7 @@
     ]
    },
    "properties": {
-    "name": "WAREHOUSE 8, 93 MURRADOC ROAD DRYSDALE 3222",
+    "name": "UNIT 8, 93 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000192932124",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -50338,7 +50438,7 @@
     ]
    },
    "properties": {
-    "name": "WAREHOUSE 12, 93 MURRADOC ROAD DRYSDALE 3222",
+    "name": "UNIT 12, 93 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000192932124",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -50355,7 +50455,7 @@
     ]
    },
    "properties": {
-    "name": "WAREHOUSE 7, 93 MURRADOC ROAD DRYSDALE 3222",
+    "name": "UNIT 7, 93 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000192932124",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -50372,7 +50472,7 @@
     ]
    },
    "properties": {
-    "name": "WAREHOUSE 4, 93 MURRADOC ROAD DRYSDALE 3222",
+    "name": "UNIT 4, 93 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000192932124",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -50389,7 +50489,7 @@
     ]
    },
    "properties": {
-    "name": "WAREHOUSE 3, 93 MURRADOC ROAD DRYSDALE 3222",
+    "name": "UNIT 3, 93 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000192932124",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -50406,7 +50506,7 @@
     ]
    },
    "properties": {
-    "name": "WAREHOUSE 2, 93 MURRADOC ROAD DRYSDALE 3222",
+    "name": "UNIT 2, 93 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000192932124",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -50423,7 +50523,7 @@
     ]
    },
    "properties": {
-    "name": "WAREHOUSE 1, 93 MURRADOC ROAD DRYSDALE 3222",
+    "name": "UNIT 1, 93 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000192932124",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -50440,7 +50540,7 @@
     ]
    },
    "properties": {
-    "name": "WAREHOUSE 9, 93 MURRADOC ROAD DRYSDALE 3222",
+    "name": "UNIT 9, 93 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000192932124",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -50477,7 +50577,7 @@
     ]
    },
    "properties": {
-    "name": "WAREHOUSE 15, 93 MURRADOC ROAD DRYSDALE 3222",
+    "name": "UNIT 15, 93 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000192932124",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -50494,7 +50594,7 @@
     ]
    },
    "properties": {
-    "name": "WAREHOUSE 13, 93 MURRADOC ROAD DRYSDALE 3222",
+    "name": "UNIT 13, 93 MURRADOC ROAD DRYSDALE 3222",
     "locID": "LOC000192932124",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
@@ -50584,6 +50684,92 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721302612"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.57942655,
+     -38.1745675
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 88-90 MURRADOC ROAD DRYSDALE 3222",
+    "locID": "LOC000192440736",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721371363"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.57175584,
+     -38.17440605
+    ]
+   },
+   "properties": {
+    "name": "43 SERENE TERRACE DRYSDALE 3222",
+    "locID": "LOC000194135113",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721372290"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.57931248,
+     -38.17441034
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 88-90 MURRADOC ROAD DRYSDALE 3222",
+    "locID": "LOC000192440743",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721373762"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.57950382,
+     -38.17440677
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 88-90 MURRADOC ROAD DRYSDALE 3222",
+    "locID": "LOC000192440696",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721378120"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.5588379,
+     -38.18638333
+    ]
+   },
+   "properties": {
+    "name": "51-57 MCKIERNAN STREET DRYSDALE 3222",
+    "locID": "LOC000193825575",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721455216",
+    "tech_change_status": "Not Planned"
    }
   }
  ]
