@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-13T21:13:47.800989",
+ "generated": "2024-04-05T14:19:58.200065",
  "suburb": "CLIFTON SPRINGS",
  "features": [
   {
@@ -175,8 +175,8 @@
    "properties": {
     "name": "31 CENTRAL ROAD CLIFTON SPRINGS 3222",
     "locID": "LOC000113094388",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC411122563",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -215,8 +215,8 @@
    "properties": {
     "name": "1 CARAPOOKA AVENUE CLIFTON SPRINGS 3222",
     "locID": "LOC000098080673",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC411122660",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -898,6 +898,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC411127384",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.57528853,
+     -38.15098734
+    ]
+   },
+   "properties": {
+    "name": "79 BEACON POINT ROAD CLIFTON SPRINGS 3222",
+    "locID": "LOC000147264350",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC411127532",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2024"
@@ -1838,26 +1858,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC411133599",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.57064331,
-     -38.15775685
-    ]
-   },
-   "properties": {
-    "name": "165 COUNTRY CLUB DRIVE CLIFTON SPRINGS 3222",
-    "locID": "LOC000012753781",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC411134007",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2024"
@@ -4989,8 +4989,8 @@
    "properties": {
     "name": "33 AMARINA ROAD CLIFTON SPRINGS 3222",
     "locID": "LOC000033871931",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419642664",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5009,8 +5009,8 @@
    "properties": {
     "name": "23 PARRAKOOLA DRIVE CLIFTON SPRINGS 3222",
     "locID": "LOC000016905014",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419642665",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5049,8 +5049,8 @@
    "properties": {
     "name": "32 PARRAKOOLA DRIVE CLIFTON SPRINGS 3222",
     "locID": "LOC000074149286",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419642671",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5962,6 +5962,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.564686,
+     -38.16405355
+    ]
+   },
+   "properties": {
+    "name": "12 ALINGA COURT CLIFTON SPRINGS 3222",
+    "locID": "LOC000194173532",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419643557"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.56471091,
      -38.16393735
     ]
@@ -6229,8 +6246,8 @@
    "properties": {
     "name": "49 LEAWARRA WAY CLIFTON SPRINGS 3222",
     "locID": "LOC000098238727",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419644385",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6448,9 +6465,8 @@
     "name": "37 HILL STREET CLIFTON SPRINGS 3222",
     "locID": "LOC000022042777",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419644445",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6727,8 +6743,8 @@
    "properties": {
     "name": "5 KAWANA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000092814166",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419644579",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7788,9 +7804,8 @@
     "name": "31 LACOORA AVENUE CLIFTON SPRINGS 3222",
     "locID": "LOC000032964368",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419646360",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8447,8 +8462,8 @@
    "properties": {
     "name": "39 ALLARA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000100172838",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419648093",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9343,8 +9358,8 @@
    "properties": {
     "name": "16 PARRAKOOLA DRIVE CLIFTON SPRINGS 3222",
     "locID": "LOC000072892906",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419843831",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9785,26 +9800,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419936767",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.56992448,
-     -38.15785014
-    ]
-   },
-   "properties": {
-    "name": "3 COUNTRY CLUB AVENUE CLIFTON SPRINGS 3222",
-    "locID": "LOC000084803329",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC419936771",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2024"
@@ -10482,8 +10477,8 @@
    "properties": {
     "name": "4 ALOOMBA AVENUE CLIFTON SPRINGS 3222",
     "locID": "LOC000003580350",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419937760",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11699,8 +11694,8 @@
    "properties": {
     "name": "3 BUNDARRA STREET CLIFTON SPRINGS 3222",
     "locID": "LOC000079509667",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419939707",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11719,8 +11714,8 @@
    "properties": {
     "name": "8 ALMERTA AVENUE CLIFTON SPRINGS 3222",
     "locID": "LOC000008665777",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419939709",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11739,8 +11734,8 @@
    "properties": {
     "name": "32 AMARINA ROAD CLIFTON SPRINGS 3222",
     "locID": "LOC000085103694",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419939711",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12538,8 +12533,8 @@
    "properties": {
     "name": "16 KAWANA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000033667269",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419941281",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12611,6 +12606,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.55771659,
+     -38.15946255
+    ]
+   },
+   "properties": {
+    "name": "15 MARABOORA AVENUE CLIFTON SPRINGS 3222",
+    "locID": "LOC000193664763",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419941292",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.55804223,
      -38.15780285
     ]
@@ -12624,6 +12637,24 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.5581084,
+     -38.15728905
+    ]
+   },
+   "properties": {
+    "name": "2 ELANORA WAY CLIFTON SPRINGS 3222",
+    "locID": "LOC000194729460",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419941296",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -13098,8 +13129,8 @@
    "properties": {
     "name": "8 PARRAKOOLA DRIVE CLIFTON SPRINGS 3222",
     "locID": "LOC000067570247",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419942545",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14095,9 +14126,9 @@
     "name": "11 TANDERRA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000102049233",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419943991",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -15172,8 +15203,8 @@
    "properties": {
     "name": "64 CENTRAL ROAD CLIFTON SPRINGS 3222",
     "locID": "LOC000086222394",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419946232",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16991,8 +17022,8 @@
    "properties": {
     "name": "8 ALCHERA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000045505487",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420238509",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18423,8 +18454,8 @@
    "properties": {
     "name": "27 PARRAKOOLA DRIVE CLIFTON SPRINGS 3222",
     "locID": "LOC000089584800",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420253610",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20060,8 +20091,8 @@
    "properties": {
     "name": "115-129 JETTY ROAD CLIFTON SPRINGS 3222",
     "locID": "LOC000033442873",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420256620",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20619,8 +20650,8 @@
    "properties": {
     "name": "9 ACHILPA AVENUE CLIFTON SPRINGS 3222",
     "locID": "LOC000047872986",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420257422",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20639,8 +20670,8 @@
    "properties": {
     "name": "7 ACHILPA AVENUE CLIFTON SPRINGS 3222",
     "locID": "LOC000048726589",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420257423",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21099,8 +21130,8 @@
    "properties": {
     "name": "41 ALLARA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000107123444",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420257637",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21619,8 +21650,8 @@
    "properties": {
     "name": "9 KAWANA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000053215518",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420260124",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21639,8 +21670,8 @@
    "properties": {
     "name": "7 CARAPOOKA AVENUE CLIFTON SPRINGS 3222",
     "locID": "LOC000066522072",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420260126",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21699,8 +21730,8 @@
    "properties": {
     "name": "10 ACHILPA AVENUE CLIFTON SPRINGS 3222",
     "locID": "LOC000048826841",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420260131",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -22119,8 +22150,8 @@
    "properties": {
     "name": "62 CENTRAL ROAD CLIFTON SPRINGS 3222",
     "locID": "LOC000069834129",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420260284",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23956,8 +23987,8 @@
    "properties": {
     "name": "6 PARRAKOOLA DRIVE CLIFTON SPRINGS 3222",
     "locID": "LOC000008711565",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420433874",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26372,9 +26403,8 @@
     "name": "16-18 HILL STREET CLIFTON SPRINGS 3222",
     "locID": "LOC000031095069",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420540922",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26971,8 +27001,8 @@
    "properties": {
     "name": "105 YARRAMUNDI DRIVE CLIFTON SPRINGS 3222",
     "locID": "LOC000061739090",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420541203",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -27451,8 +27481,8 @@
    "properties": {
     "name": "18 ALLARA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000040391589",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420543724",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -27511,8 +27541,8 @@
    "properties": {
     "name": "17 ALLARA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000031728581",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420543727",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -28631,10 +28661,10 @@
    "properties": {
     "name": "3 ALCHERA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000071657682",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420549640",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28892,9 +28922,8 @@
     "name": "4 FLINDERS VIEW DRIVE CLIFTON SPRINGS 3222",
     "locID": "LOC000057661891",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420549712",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29177,6 +29206,26 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.56623058,
+     -38.1635639
+    ]
+   },
+   "properties": {
+    "name": "54-56 PARRAKOOLA DRIVE CLIFTON SPRINGS 3222",
+    "locID": "LOC000124182286",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC420549978",
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30841,26 +30890,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.56956223,
-     -38.15784925
-    ]
-   },
-   "properties": {
-    "name": "4 COUNTRY CLUB AVENUE CLIFTON SPRINGS 3222",
-    "locID": "LOC000115750645",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC420559384",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.56951598,
      -38.1609247
     ]
@@ -31046,8 +31075,8 @@
    "properties": {
     "name": "27 ALLARA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000065806429",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420559451",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31085,8 +31114,8 @@
    "properties": {
     "name": "31 ALLARA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000101614054",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420559459",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31444,8 +31473,8 @@
    "properties": {
     "name": "5 PARRAKOOLA DRIVE CLIFTON SPRINGS 3222",
     "locID": "LOC000084969735",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420724464",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -32464,8 +32493,8 @@
    "properties": {
     "name": "14 KAWANA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000086549800",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420839615",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -32704,10 +32733,9 @@
    "properties": {
     "name": "12 BUNDARRA STREET CLIFTON SPRINGS 3222",
     "locID": "LOC000020283517",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420839796",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32764,8 +32792,8 @@
    "properties": {
     "name": "5 BUNDARRA STREET CLIFTON SPRINGS 3222",
     "locID": "LOC000015257243",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420839803",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -33404,10 +33432,9 @@
    "properties": {
     "name": "32 LEAWARRA WAY CLIFTON SPRINGS 3222",
     "locID": "LOC000096354642",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420841470",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33424,10 +33451,9 @@
    "properties": {
     "name": "53 LEAWARRA WAY CLIFTON SPRINGS 3222",
     "locID": "LOC000036796594",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420841475",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34822,8 +34848,8 @@
    "properties": {
     "name": "15 PARRAKOOLA DRIVE CLIFTON SPRINGS 3222",
     "locID": "LOC000103767935",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420843639",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -36153,8 +36179,8 @@
    "properties": {
     "name": "12 LABULLA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000019447486",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420847234",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -37569,8 +37595,8 @@
    "properties": {
     "name": "36 ALLARA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000100716123",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420854948",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -38068,8 +38094,8 @@
    "properties": {
     "name": "7 ALMERTA AVENUE CLIFTON SPRINGS 3222",
     "locID": "LOC000047358468",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420861160",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -38508,8 +38534,8 @@
    "properties": {
     "name": "101 YARRAMUNDI DRIVE CLIFTON SPRINGS 3222",
     "locID": "LOC000045154561",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420863895",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -38944,8 +38970,8 @@
    "properties": {
     "name": "15-17 HILL STREET CLIFTON SPRINGS 3222",
     "locID": "LOC000083507719",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420870629",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -38964,8 +38990,8 @@
    "properties": {
     "name": "23 ADA STREET CLIFTON SPRINGS 3222",
     "locID": "LOC000057443902",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420870632",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -39504,8 +39530,8 @@
    "properties": {
     "name": "34 PARRAKOOLA DRIVE CLIFTON SPRINGS 3222",
     "locID": "LOC000010675594",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421013824",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -41340,8 +41366,8 @@
    "properties": {
     "name": "23 ALLARA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000065726959",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421142347",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -42279,8 +42305,8 @@
    "properties": {
     "name": "45 MIRRABOOKA DRIVE CLIFTON SPRINGS 3222",
     "locID": "LOC000089126379",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421145871",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -42878,8 +42904,8 @@
    "properties": {
     "name": "56 MIRRABOOKA DRIVE CLIFTON SPRINGS 3222",
     "locID": "LOC000069215409",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421149395",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -42936,8 +42962,8 @@
    "properties": {
     "name": "22 ALLARA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000081258833",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421149403",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -42956,8 +42982,8 @@
    "properties": {
     "name": "3 KAWANA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000038300958",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421149404",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -43237,9 +43263,8 @@
     "name": "58-60 MIRRABOOKA DRIVE CLIFTON SPRINGS 3222",
     "locID": "LOC000109086980",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421150088",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44369,8 +44394,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.57662279,
-     -38.15644766
+     144.57659983,
+     -38.1564812
     ]
    },
    "properties": {
@@ -45549,8 +45574,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.57900889,
-     -38.14651518
+     144.5789679,
+     -38.14650367
     ]
    },
    "properties": {
@@ -47174,8 +47199,8 @@
    "properties": {
     "name": "4 ADINA WAY CLIFTON SPRINGS 3222",
     "locID": "LOC000031025710",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421424485",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -48228,8 +48253,8 @@
    "properties": {
     "name": "12-14 HILL STREET CLIFTON SPRINGS 3222",
     "locID": "LOC000090560146",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421432848",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -49047,10 +49072,9 @@
    "properties": {
     "name": "27 CARAPOOKA AVENUE CLIFTON SPRINGS 3222",
     "locID": "LOC000063446127",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421438962",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49187,8 +49211,8 @@
    "properties": {
     "name": "84 YARRAMUNDI DRIVE CLIFTON SPRINGS 3222",
     "locID": "LOC000071507240",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421438973",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -49500,8 +49524,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.56144181,
-     -38.1596797
+     144.56071514,
+     -38.15946906
     ]
    },
    "properties": {
@@ -50147,8 +50171,8 @@
    "properties": {
     "name": "8 BUNDARRA STREET CLIFTON SPRINGS 3222",
     "locID": "LOC000100578932",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421443078",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -51243,8 +51267,8 @@
    "properties": {
     "name": "34 ALLARA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000056405400",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421447327",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52243,10 +52267,9 @@
    "properties": {
     "name": "6 LACOORA AVENUE CLIFTON SPRINGS 3222",
     "locID": "LOC000028446088",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421454446",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -52383,8 +52406,8 @@
    "properties": {
     "name": "17 LACOORA AVENUE CLIFTON SPRINGS 3222",
     "locID": "LOC000047574706",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421454456",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52743,8 +52766,8 @@
    "properties": {
     "name": "3-5 HILL STREET CLIFTON SPRINGS 3222",
     "locID": "LOC000019429755",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421460491",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -54592,26 +54615,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.56269383,
-     -38.15684467
-    ]
-   },
-   "properties": {
-    "name": "20 BUNGALALLI AVENUE CLIFTON SPRINGS 3222",
-    "locID": "LOC000124221497",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC421621932",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.56952509,
      -38.1560599
     ]
@@ -54656,8 +54659,8 @@
    "properties": {
     "name": "4 PARRAKOOLA DRIVE CLIFTON SPRINGS 3222",
     "locID": "LOC000067916598",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421630384",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -55514,8 +55517,8 @@
    "properties": {
     "name": "18 KAWANA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000094002670",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421718739",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -55534,8 +55537,8 @@
    "properties": {
     "name": "13 CARAPOOKA AVENUE CLIFTON SPRINGS 3222",
     "locID": "LOC000093693755",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421718741",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -55554,8 +55557,8 @@
    "properties": {
     "name": "18 ACHILPA AVENUE CLIFTON SPRINGS 3222",
     "locID": "LOC000102624781",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421718742",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -56114,8 +56117,8 @@
    "properties": {
     "name": "30 ALLARA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000083616854",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421726435",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -57014,6 +57017,24 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.55841263,
+     -38.15775245
+    ]
+   },
+   "properties": {
+    "name": "5-7 ELANORA WAY CLIFTON SPRINGS 3222",
+    "locID": "LOC000194729473",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421735191",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -58388,8 +58409,8 @@
    "properties": {
     "name": "9 BUNDARRA STREET CLIFTON SPRINGS 3222",
     "locID": "LOC000073023902",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421744081",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -58588,8 +58609,8 @@
    "properties": {
     "name": "7 AMARINA ROAD CLIFTON SPRINGS 3222",
     "locID": "LOC000058638757",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421748727",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -58899,8 +58920,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.5740253,
-     -38.14585271
+     144.57397161,
+     -38.1457949
     ]
    },
    "properties": {
@@ -58946,8 +58967,8 @@
    "properties": {
     "name": "20 ALLARA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000028617073",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421751254",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -59006,8 +59027,8 @@
    "properties": {
     "name": "25 ALLARA COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000011052976",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421751263",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -59783,8 +59804,8 @@
    "properties": {
     "name": "28 AMARINA ROAD CLIFTON SPRINGS 3222",
     "locID": "LOC000023401617",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421757838",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -59863,8 +59884,8 @@
    "properties": {
     "name": "26 AMARINA ROAD CLIFTON SPRINGS 3222",
     "locID": "LOC000005081098",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421757842",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -62841,9 +62862,8 @@
     "name": "6 PANORAMIC TERRACE CLIFTON SPRINGS 3222",
     "locID": "LOC000124186925",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422180223",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -64793,26 +64813,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.56107343,
-     -38.15541741
-    ]
-   },
-   "properties": {
-    "name": "41-43 CLIFTON STREET CLIFTON SPRINGS 3222",
-    "locID": "LOC000182683447",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC424236194",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.55439063,
      -38.16370891
     ]
@@ -65360,8 +65360,8 @@
    "properties": {
     "name": "14 WATER VISTAS COURT CLIFTON SPRINGS 3222",
     "locID": "LOC000001926006",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC424508109",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -65620,10 +65620,9 @@
    "properties": {
     "name": "8 WHITE CAPS WAY CLIFTON SPRINGS 3222",
     "locID": "LOC000062506248",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424508571",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65860,8 +65859,8 @@
    "properties": {
     "name": "3 ADINA WAY CLIFTON SPRINGS 3222",
     "locID": "LOC000113210449",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC424666877",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -66260,8 +66259,8 @@
    "properties": {
     "name": "70 CENTRAL ROAD CLIFTON SPRINGS 3222",
     "locID": "LOC000124204279",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC424874844",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -68090,6 +68089,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.58160109,
+     -38.15508816
+    ]
+   },
+   "properties": {
+    "name": "26 GANGE PLACE CLIFTON SPRINGS 3222",
+    "locID": "LOC000193441400",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425277267",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.58144223,
      -38.15498406
     ]
@@ -68163,6 +68180,24 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.58218858,
+     -38.15486718
+    ]
+   },
+   "properties": {
+    "name": "4 GANGE PLACE CLIFTON SPRINGS 3222",
+    "locID": "LOC000193579940",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425277272",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -70050,8 +70085,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.57662279,
-     -38.15644766
+     144.57663558,
+     -38.15642255
     ]
    },
    "properties": {
@@ -70070,8 +70105,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.57662279,
-     -38.15644766
+     144.57687817,
+     -38.15643525
     ]
    },
    "properties": {
@@ -70090,8 +70125,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.57662279,
-     -38.15644766
+     144.57708723,
+     -38.1565336
     ]
    },
    "properties": {
@@ -70238,6 +70273,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425525358",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.58124522,
+     -38.15196037
+    ]
+   },
+   "properties": {
+    "name": "10A GWINGANNA DRIVE CLIFTON SPRINGS 3222",
+    "locID": "LOC100082039845",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425561705",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2024"
@@ -70541,6 +70596,24 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.57619059,
+     -38.14402025
+    ]
+   },
+   "properties": {
+    "name": "14A BEACON POINT ROAD CLIFTON SPRINGS 3222",
+    "locID": "LOC000194262291",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425773541",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -72177,32 +72250,12 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.55521338,
-     -38.16084818
+     144.55521349,
+     -38.1608482
     ]
    },
    "properties": {
-    "name": "UNIT 2, LEVEL 1, 10 PINNAROO AVENUE CLIFTON SPRINGS 3222",
-    "locID": "LOC000190717322",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC719744808",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.55521338,
-     -38.16084818
-    ]
-   },
-   "properties": {
-    "name": "SHOP 1, 10 PINNAROO AVENUE CLIFTON SPRINGS 3222",
+    "name": "UNIT 1, 10 PINNAROO AVENUE CLIFTON SPRINGS 3222",
     "locID": "LOC000124225781",
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
@@ -72928,6 +72981,26 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720164263",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.55521349,
+     -38.1608482
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 10 PINNAROO AVENUE CLIFTON SPRINGS 3222",
+    "locID": "LOC000190717322",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC720164531",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2024"
@@ -74042,19 +74115,17 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.55842548,
-     -38.15768629
+     144.55839388,
+     -38.15784884
     ]
    },
    "properties": {
-    "name": "5A ELANORA WAY CLIFTON SPRINGS 3222",
-    "locID": "LOC000124173324",
+    "name": "7 ELANORA WAY CLIFTON SPRINGS 3222",
+    "locID": "LOC000194729473",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC720831984",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720826735",
+    "tech_change_status": "Not Planned"
    }
   },
   {
