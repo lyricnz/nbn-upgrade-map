@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-14T23:54:35.712556",
+ "generated": "2024-04-06T20:48:05.483485",
  "suburb": "EVERTON PARK",
  "features": [
   {
@@ -2924,10 +2924,9 @@
    "properties": {
     "name": "29 BARRYMORE STREET EVERTON PARK 4053",
     "locID": "LOC000039022722",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155286581",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3300,6 +3299,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155287499",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3566,12 +3566,12 @@
    "properties": {
     "name": "44 QUEENS ROAD EVERTON PARK 4053",
     "locID": "LOC000069819532",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155288375",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7851,6 +7851,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155296055",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12405,17 +12406,16 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.9870505,
-     -27.40776433
+     152.98700744,
+     -27.40777186
     ]
    },
    "properties": {
     "name": "64 GORDON PARADE EVERTON PARK 4053",
     "locID": "LOC000049727444",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155301069",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12653,7 +12653,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155301081",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12909,10 +12908,9 @@
    "properties": {
     "name": "46 MOUNTRIDGE STREET EVERTON PARK 4053",
     "locID": "LOC000082022896",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155301108",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15511,10 +15509,9 @@
    "properties": {
     "name": "26 STELLMACH STREET EVERTON PARK 4053",
     "locID": "LOC000009958898",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155302630",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18916,6 +18913,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.98721748,
+     -27.40330417
+    ]
+   },
+   "properties": {
+    "name": "670 SOUTH PINE ROAD EVERTON PARK 4053",
+    "locID": "LOC000194095356",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155304668"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.98711708,
      -27.40121745
     ]
@@ -21450,9 +21464,9 @@
     "name": "905 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000081468956",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155306084",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21470,9 +21484,9 @@
     "name": "907 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000100824066",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155306085",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21507,9 +21521,9 @@
     "name": "909 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000006753000",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155306087",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21544,9 +21558,9 @@
     "name": "911 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000091214812",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155306089",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21581,9 +21595,9 @@
     "name": "913 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000094074809",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155306091",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24055,10 +24069,9 @@
    "properties": {
     "name": "62 WHITE STREET EVERTON PARK 4053",
     "locID": "LOC000072778746",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155306724",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24210,9 +24223,9 @@
     "name": "957 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000093130475",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155306827",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24230,9 +24243,9 @@
     "name": "961 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000039838133",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155306828",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25541,9 +25554,9 @@
     "name": "915 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000090315228",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155307946",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25561,9 +25574,9 @@
     "name": "917 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000013363733",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155307947",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25581,9 +25594,9 @@
     "name": "918 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000030813360",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155307948",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25601,9 +25614,9 @@
     "name": "920 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000073332776",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155307949",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25620,10 +25633,10 @@
    "properties": {
     "name": "921 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000094610913",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155307950",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25641,9 +25654,9 @@
     "name": "922 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000085454475",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155307951",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25660,12 +25673,12 @@
    "properties": {
     "name": "923 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000076462230",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155307952",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25681,9 +25694,9 @@
     "name": "924 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000056469917",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155307953",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25701,9 +25714,9 @@
     "name": "926 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000033608114",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155307954",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25721,9 +25734,9 @@
     "name": "928 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000031615273",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155307955",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25741,9 +25754,9 @@
     "name": "930 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000063938701",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155307956",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25761,9 +25774,9 @@
     "name": "932 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000005062278",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155307957",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25780,12 +25793,12 @@
    "properties": {
     "name": "949 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000088022005",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155307959",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31431,6 +31444,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.9897829,
+     -27.40983331
+    ]
+   },
+   "properties": {
+    "name": "17 ASHMORE STREET EVERTON PARK 4053",
+    "locID": "LOC000193966065",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155311229"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.99037723,
      -27.40996059
     ]
@@ -32662,26 +32692,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.98509064,
-     -27.40825341
-    ]
-   },
-   "properties": {
-    "name": "100 GORDON PARADE EVERTON PARK 4053",
-    "locID": "LOC000054711733",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155312103",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.98489466,
      -27.40830235
     ]
@@ -32766,10 +32776,9 @@
    "properties": {
     "name": "112 GORDON PARADE EVERTON PARK 4053",
     "locID": "LOC000186835942",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155312110",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34120,9 +34129,9 @@
     "name": "943 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000024084608",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156042982",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35336,10 +35345,9 @@
    "properties": {
     "name": "40 WHITE STREET EVERTON PARK 4053",
     "locID": "LOC000006614574",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156068983",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35728,11 +35736,11 @@
     "name": "919 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000054787301",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156070851",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35748,9 +35756,9 @@
     "name": "947 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000030867126",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156070852",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36394,12 +36402,12 @@
    "properties": {
     "name": "20 QUEENS ROAD EVERTON PARK 4053",
     "locID": "LOC000098910167",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156552408",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43708,12 +43716,12 @@
    "properties": {
     "name": "16 QUEENS ROAD EVERTON PARK 4053",
     "locID": "LOC000090102728",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156571343",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45844,6 +45852,23 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98590247,
+     -27.40748153
+    ]
+   },
+   "properties": {
+    "name": "93 GORDON PARADE EVERTON PARK 4053",
+    "locID": "LOC000193758989",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156572865"
    }
   },
   {
@@ -54164,9 +54189,9 @@
     "name": "953 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000021545758",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157925198",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -58724,9 +58749,9 @@
     "name": "3 ROGERS PARADE WEST EVERTON PARK 4053",
     "locID": "LOC000105489789",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157936792",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -63772,7 +63797,7 @@
     "gnaf_pid": "GAQLD160985236",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2022"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -64716,7 +64741,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD161184620",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65154,19 +65179,19 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.9773495,
-     -27.3927477
+     152.9774879,
+     -27.39259861
     ]
    },
    "properties": {
     "name": "14 ROGERS PARADE WEST EVERTON PARK 4053",
     "locID": "LOC000190058436",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161294164",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -72839,9 +72864,9 @@
     "name": "899 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000190914558",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD424945560",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -72859,9 +72884,9 @@
     "name": "901 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000126410908",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD424945561",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -72879,9 +72904,9 @@
     "name": "903 SOUTH PINE ROAD EVERTON PARK 4053",
     "locID": "LOC000126410912",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD424945562",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -77658,6 +77683,25 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425240622",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.99015225,
+     -27.40938558
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 8 ASHMORE STREET EVERTON PARK 4053",
+    "locID": "LOC000159880752",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD425249201",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -87665,8 +87709,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.98700802,
-     -27.40747754
+     152.98710543,
+     -27.4077474
     ]
    },
    "properties": {
@@ -87786,10 +87830,9 @@
    "properties": {
     "name": "21 VENNING STREET EVERTON PARK 4053",
     "locID": "LOC000181666561",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719548666",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -88799,6 +88842,23 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719724621",
     "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98014989,
+     -27.39431514
+    ]
+   },
+   "properties": {
+    "name": "69 RUSSELL STREET EVERTON PARK 4053",
+    "locID": "LOC000193922052",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719724720"
    }
   },
   {
@@ -91010,6 +91070,57 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.99211603,
+     -27.40885153
+    ]
+   },
+   "properties": {
+    "name": "43 WOOLWORTHS STREET EVERTON PARK 4053",
+    "locID": "LOC000193898616",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720042306"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.99183975,
+     -27.40839145
+    ]
+   },
+   "properties": {
+    "name": "49 WOOLWORTHS STREET EVERTON PARK 4053",
+    "locID": "LOC000193898671",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720043429"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.99255394,
+     -27.4088127
+    ]
+   },
+   "properties": {
+    "name": "37 WOOLWORTHS STREET EVERTON PARK 4053",
+    "locID": "LOC000193898556",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720043594"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.99248979,
      -27.40880353
     ]
@@ -91022,6 +91133,23 @@
     "gnaf_pid": "GAQLD720044818",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.99236299,
+     -27.40846801
+    ]
+   },
+   "properties": {
+    "name": "31 WOOLWORTHS STREET EVERTON PARK 4053",
+    "locID": "LOC000193898491",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720045483"
    }
   },
   {
@@ -95034,8 +95162,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99091334,
+     -27.41255441
     ]
    },
    "properties": {
@@ -95051,8 +95179,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99163888,
+     -27.41165281
     ]
    },
    "properties": {
@@ -95068,8 +95196,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99138173,
+     -27.4121106
     ]
    },
    "properties": {
@@ -95085,8 +95213,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99146939,
+     -27.41181413
     ]
    },
    "properties": {
@@ -95102,8 +95230,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99119327,
+     -27.41194192
     ]
    },
    "properties": {
@@ -95119,8 +95247,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99169549,
+     -27.41197453
     ]
    },
    "properties": {
@@ -95136,8 +95264,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99151901,
+     -27.41176929
     ]
    },
    "properties": {
@@ -95153,8 +95281,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99078488,
+     -27.41260658
     ]
    },
    "properties": {
@@ -95170,8 +95298,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99113627,
+     -27.41240461
     ]
    },
    "properties": {
@@ -95187,8 +95315,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99103463,
+     -27.41247572
     ]
    },
    "properties": {
@@ -95204,8 +95332,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99130918,
+     -27.41203425
     ]
    },
    "properties": {
@@ -95221,8 +95349,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99125545,
+     -27.4119845
     ]
    },
    "properties": {
@@ -95257,8 +95385,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99159385,
+     -27.41170033
     ]
    },
    "properties": {
@@ -95274,8 +95402,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99123623,
+     -27.41230237
     ]
    },
    "properties": {
@@ -95349,8 +95477,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99128748,
+     -27.41225506
     ]
    },
    "properties": {
@@ -95366,8 +95494,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99118431,
+     -27.41235367
     ]
    },
    "properties": {
@@ -95383,8 +95511,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99063686,
+     -27.41263417
     ]
    },
    "properties": {
@@ -95400,8 +95528,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99071246,
+     -27.41261889
     ]
    },
    "properties": {
@@ -95417,8 +95545,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99056476,
+     -27.41265117
     ]
    },
    "properties": {
@@ -95434,8 +95562,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99179227,
+     -27.41187304
     ]
    },
    "properties": {
@@ -95508,8 +95636,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.98794203,
+     -27.40692214
+    ]
+   },
+   "properties": {
+    "name": "25 EVERTON TERRACE EVERTON PARK 4053",
+    "locID": "LOC000193345261",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721235618"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.99097261,
+     -27.41251411
     ]
    },
    "properties": {
@@ -95564,6 +95709,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.98818939,
+     -27.40937283
+    ]
+   },
+   "properties": {
+    "name": "46 BARRYMORE STREET EVERTON PARK 4053",
+    "locID": "LOC000191191671",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD721312893",
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.98362698,
      -27.40808981
     ]
@@ -95575,6 +95740,26 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD721313057",
     "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98486316,
+     -27.40868372
+    ]
+   },
+   "properties": {
+    "name": "115 GRIFFITH STREET EVERTON PARK 4053",
+    "locID": "LOC000191550285",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD721315006",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -95873,8 +96058,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99169143,
+     -27.41160072
     ]
    },
    "properties": {
@@ -96002,6 +96187,25 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721339107"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.99247691,
+     -27.40474996
+    ]
+   },
+   "properties": {
+    "name": "41A SIZER STREET EVERTON PARK 4053",
+    "locID": "LOC000191526235",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721339165",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -96349,8 +96553,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99143658,
+     -27.41215403
     ]
    },
    "properties": {
@@ -96400,8 +96604,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.99098127,
-     -27.41268519
+     152.99174111,
+     -27.41192579
     ]
    },
    "properties": {
@@ -96716,6 +96920,61 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721340328"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98445828,
+     -27.40899429
+    ]
+   },
+   "properties": {
+    "name": "62A BURWOOD ROAD EVERTON PARK 4053",
+    "locID": "LOC000192876308",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721401300"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98759633,
+     -27.40948424
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 12A BROOK STREET EVERTON PARK 4053",
+    "locID": "LOC000182968086",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD721451231",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98759633,
+     -27.40948424
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 12A BROOK STREET EVERTON PARK 4053",
+    "locID": "LOC100078946496",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD721451752",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   }
  ]
