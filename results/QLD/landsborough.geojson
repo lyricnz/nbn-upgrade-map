@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-15T09:14:06.372301",
+ "generated": "2024-04-07T05:17:02.538489",
  "suburb": "LANDSBOROUGH",
  "features": [
   {
@@ -1952,7 +1952,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155487833",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -2520,26 +2520,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155491244"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.96714666,
-     -26.80832751
-    ]
-   },
-   "properties": {
-    "name": "LOT 18 DYER STREET LANDSBOROUGH 4550",
-    "locID": "LOC000108935425",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD155491248",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
    }
   },
   {
@@ -12590,7 +12570,8 @@
     "locID": "LOC000033892996",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156786925"
+    "gnaf_pid": "GAQLD156786925",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13337,8 +13318,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96726252,
-     -26.80897413
+     152.96748548,
+     -26.8085129
     ]
    },
    "properties": {
@@ -19049,6 +19030,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.96897785,
+     -26.81175377
+    ]
+   },
+   "properties": {
+    "name": "3 PAPERBARK LANE LANDSBOROUGH 4550",
+    "locID": "LOC000037616867",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160058709",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.94729374,
      -26.81162941
     ]
@@ -21747,26 +21748,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96897785,
-     -26.81175377
-    ]
-   },
-   "properties": {
-    "name": "6 PAPERBARK LANE LANDSBOROUGH 4550",
-    "locID": "LOC000037616867",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD160958183",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.96580736,
      -26.79633288
     ]
@@ -22372,46 +22353,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96690045,
-     -26.80916926
-    ]
-   },
-   "properties": {
-    "name": "LOT 17 CALOUNDRA STREET LANDSBOROUGH 4550",
-    "locID": "LOC000031784568",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD161091390",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.96706543,
-     -26.80935121
-    ]
-   },
-   "properties": {
-    "name": "LOT 18 CALOUNDRA STREET LANDSBOROUGH 4550",
-    "locID": "LOC000078408011",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD161091391",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.97235054,
      -26.80851343
     ]
@@ -22564,26 +22505,6 @@
     "gnaf_pid": "GAQLD161115360",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.96750872,
-     -26.8084195
-    ]
-   },
-   "properties": {
-    "name": "LOT 17 DYER STREET LANDSBOROUGH 4550",
-    "locID": "LOC000028559530",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD161132953",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Sep 2024"
    }
   },
@@ -25171,9 +25092,8 @@
     "name": "7 WINSTON COURT LANDSBOROUGH 4550",
     "locID": "LOC000030813394",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAQLD161802066",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161802066"
    }
   },
   {
@@ -26289,9 +26209,9 @@
     "name": "6 DAWN COURT LANDSBOROUGH 4550",
     "locID": "LOC000011682217",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162315694",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -28578,8 +28498,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96007242,
-     -26.80398729
+     152.96050332,
+     -26.80390762
     ]
    },
    "properties": {
@@ -32635,7 +32555,7 @@
    "properties": {
     "name": "29 EUMERALLA CRESCENT LANDSBOROUGH 4550",
     "locID": "LOC000178314572",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719275656"
    }
@@ -34396,9 +34316,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719719787",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "target_eligibility_quarter": "Sep 2024"
    }
   },
   {
@@ -37298,6 +37218,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.96198568,
+     -26.80174011
+    ]
+   },
+   "properties": {
+    "name": "16 BELLA STREET LANDSBOROUGH 4550",
+    "locID": "LOC000194413467",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720665314"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.97476996,
      -26.81179745
     ]
@@ -37668,6 +37605,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720676003"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.96194087,
+     -26.80198317
+    ]
+   },
+   "properties": {
+    "name": "14 BELLA STREET LANDSBOROUGH 4550",
+    "locID": "LOC000194413451",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720676285"
    }
   },
   {
@@ -39116,8 +39070,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97236942,
-     -26.80434871
+     152.97246674,
+     -26.80436154
     ]
    },
    "properties": {
@@ -39269,8 +39223,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97212572,
-     -26.80566337
+     152.97207106,
+     -26.80578816
     ]
    },
    "properties": {
@@ -39313,6 +39267,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720932274"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97251119,
+     -26.80530227
+    ]
+   },
+   "properties": {
+    "name": "11 CORPORATE PLACE LANDSBOROUGH 4550",
+    "locID": "LOC000194243989",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720932709"
    }
   },
   {
@@ -39371,8 +39342,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.9726855,
-     -26.80553465
+     152.97277307,
+     -26.80558246
     ]
    },
    "properties": {
@@ -39388,8 +39359,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97294493,
-     -26.80685402
+     152.97287734,
+     -26.80673288
     ]
    },
    "properties": {
@@ -40012,6 +39983,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.96126989,
+     -26.80245243
+    ]
+   },
+   "properties": {
+    "name": "10A BELLA STREET LANDSBOROUGH 4550",
+    "locID": "LOC000190742512",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721305791"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.96127116,
+     -26.80281569
+    ]
+   },
+   "properties": {
+    "name": "5B WILLIAM STREET LANDSBOROUGH 4550",
+    "locID": "LOC000190742549",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721305958"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.97117189,
      -26.80535892
     ]
@@ -40165,26 +40170,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96800648,
-     -26.80854904
-    ]
-   },
-   "properties": {
-    "name": "1 GANTRY ROAD LANDSBOROUGH 4550",
-    "locID": "LOC000128332396",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD721309405",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.96368151,
      -26.80699198
     ]
@@ -40233,6 +40218,23 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.96112493,
+     -26.80278951
+    ]
+   },
+   "properties": {
+    "name": "5C WILLIAM STREET LANDSBOROUGH 4550",
+    "locID": "LOC000190742531",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721310629"
    }
   },
   {
@@ -40451,8 +40453,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.9726855,
-     -26.80553465
+     152.9613442,
+     -26.80208477
+    ]
+   },
+   "properties": {
+    "name": "12 BELLA STREET LANDSBOROUGH 4550",
+    "locID": "LOC000190742508",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721314295"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97283755,
+     -26.80539322
     ]
    },
    "properties": {
@@ -40553,8 +40572,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.9726855,
-     -26.80553465
+     152.97247075,
+     -26.80561148
     ]
    },
    "properties": {
@@ -40590,8 +40609,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97236942,
-     -26.80434871
+     152.97229968,
+     -26.80437185
     ]
    },
    "properties": {
@@ -40607,8 +40626,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97236942,
-     -26.80434871
+     152.97236797,
+     -26.80447084
     ]
    },
    "properties": {
@@ -40624,8 +40643,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97236942,
-     -26.80434871
+     152.97224401,
+     -26.80419216
     ]
    },
    "properties": {
@@ -40641,8 +40660,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.9726855,
-     -26.80553465
+     152.97264645,
+     -26.80548868
     ]
    },
    "properties": {
@@ -40658,8 +40677,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.9726855,
-     -26.80553465
+     152.97258053,
+     -26.80551353
     ]
    },
    "properties": {
@@ -40692,8 +40711,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97236942,
-     -26.80434871
+     152.97235251,
+     -26.80416843
     ]
    },
    "properties": {
@@ -40729,8 +40748,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.9726855,
-     -26.80553465
+     152.97251836,
+     -26.80554434
     ]
    },
    "properties": {
@@ -40746,8 +40765,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97236942,
-     -26.80434871
+     152.97224846,
+     -26.80426291
     ]
    },
    "properties": {
@@ -40763,8 +40782,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97236942,
-     -26.80434871
+     152.97226875,
+     -26.80447514
     ]
    },
    "properties": {
@@ -40797,8 +40816,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97236942,
-     -26.80434871
+     152.97227642,
+     -26.80431608
     ]
    },
    "properties": {
@@ -40814,8 +40833,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.9726855,
-     -26.80553465
+     152.97270875,
+     -26.80545782
     ]
    },
    "properties": {
@@ -40831,8 +40850,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97236942,
-     -26.80434871
+     152.97235619,
+     -26.80441914
     ]
    },
    "properties": {
@@ -40882,8 +40901,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.9726855,
-     -26.80553465
+     152.972771,
+     -26.80542697
     ]
    },
    "properties": {
@@ -40980,6 +40999,142 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721340289"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97290058,
+     -26.80694605
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 5 LENCO CRESCENT LANDSBOROUGH 4550",
+    "locID": "LOC000192475791",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389485"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97213914,
+     -26.80559188
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 12 LENCO CRESCENT LANDSBOROUGH 4550",
+    "locID": "LOC000193069004",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390050"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97219728,
+     -26.80556302
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 12 LENCO CRESCENT LANDSBOROUGH 4550",
+    "locID": "LOC000193069062",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391505"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97208162,
+     -26.80562021
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 12 LENCO CRESCENT LANDSBOROUGH 4550",
+    "locID": "LOC000193069058",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392309"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97225597,
+     -26.80552316
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 12 LENCO CRESCENT LANDSBOROUGH 4550",
+    "locID": "LOC000193069004",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392619"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97305192,
+     -26.80687104
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 5 LENCO CRESCENT LANDSBOROUGH 4550",
+    "locID": "LOC000193069062",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393344"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97196661,
+     -26.80567455
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 12 LENCO CRESCENT LANDSBOROUGH 4550",
+    "locID": "LOC000193069004",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393943"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97376717,
+     -26.80985241
+    ]
+   },
+   "properties": {
+    "name": "15B PLANTATION CIRCUIT LANDSBOROUGH 4550",
+    "locID": "LOC000187011737",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721398139"
    }
   }
  ]
