@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-15T16:36:14.086325",
+ "generated": "2024-04-07T14:08:28.226502",
  "suburb": "BATTERY HILL",
  "features": [
   {
@@ -846,9 +846,9 @@
     "name": "48 ENFIELD CRESCENT BATTERY HILL 4551",
     "locID": "LOC000030732477",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154996017",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2823,10 +2823,10 @@
    "properties": {
     "name": "65 BEERBURRUM STREET BATTERY HILL 4551",
     "locID": "LOC000031570141",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD154998061",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6175,7 +6175,7 @@
     "name": "56 ENFIELD CRESCENT BATTERY HILL 4551",
     "locID": "LOC000029837257",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156248958",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7606,9 +7606,8 @@
     "name": "22 IKARA STREET BATTERY HILL 4551",
     "locID": "LOC000083822152",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156249856",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8443,10 +8442,10 @@
    "properties": {
     "name": "9 ANZAC STREET BATTERY HILL 4551",
     "locID": "LOC000062949990",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156251555",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9033,10 +9032,10 @@
    "properties": {
     "name": "57 CAREEN STREET BATTERY HILL 4551",
     "locID": "LOC000040623036",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156252443",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12279,7 +12278,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156254266",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14490,10 +14489,10 @@
    "properties": {
     "name": "5 CRUSADER STREET BATTERY HILL 4551",
     "locID": "LOC000106630600",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156258481",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20948,7 +20947,7 @@
     "name": "UNIT 29, 9A BROWNING BOULEVARD BATTERY HILL 4551",
     "locID": "LOC000090989230",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157518033",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23206,8 +23205,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.13209679,
-     -26.77991427
+     153.13196446,
+     -26.77975634
     ]
    },
    "properties": {
@@ -23253,6 +23252,23 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163020953"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.12648564,
+     -26.77847958
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2112, 36 BROWNING BOULEVARD BATTERY HILL 4551",
+    "locID": "LOC000017440702",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD163020954"
    }
   },
   {
