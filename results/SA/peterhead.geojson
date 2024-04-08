@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-16T19:56:48.742632",
+ "generated": "2024-04-08T20:06:25.922189",
  "suburb": "PETERHEAD",
  "features": [
   {
@@ -794,8 +794,8 @@
    "properties": {
     "name": "11 RUBY STREET PETERHEAD 5016",
     "locID": "LOC000066628794",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_414940249",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1031,10 +1031,10 @@
    "properties": {
     "name": "22 SANDWELL STREET PETERHEAD 5016",
     "locID": "LOC000082431454",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_414941053",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2709,10 +2709,9 @@
    "properties": {
     "name": "30 WHYTE STREET PETERHEAD 5016",
     "locID": "LOC000084533620",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414992495",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3306,8 +3305,8 @@
    "properties": {
     "name": "17 SANDERSON STREET PETERHEAD 5016",
     "locID": "LOC000016140855",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_414998800",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3366,8 +3365,8 @@
    "properties": {
     "name": "11 SANDERSON STREET PETERHEAD 5016",
     "locID": "LOC000005435644",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_414998803",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3386,8 +3385,8 @@
    "properties": {
     "name": "9 SANDERSON STREET PETERHEAD 5016",
     "locID": "LOC000072300134",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_414998804",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3537,8 +3536,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.49310634,
-     -34.8334072
+     138.49302476,
+     -34.83332741
     ]
    },
    "properties": {
@@ -10889,8 +10888,8 @@
    "properties": {
     "name": "145 MEAD STREET PETERHEAD 5016",
     "locID": "LOC000006284603",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_423867990",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13683,6 +13682,26 @@
     "gnaf_pid": "GASA_721111551",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.49895041,
+     -34.83258403
+    ]
+   },
+   "properties": {
+    "name": "8 PHILLIS TERRACE PETERHEAD 5016",
+    "locID": "LOC000111539896",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_721412640",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Dec 2024"
    }
   }
