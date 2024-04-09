@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-17T13:58:55.580405",
+ "generated": "2024-04-09T12:12:09.644620",
  "suburb": "FREMANTLE",
  "features": [
   {
@@ -2271,10 +2271,9 @@
    "properties": {
     "name": "31 HOWARD STREET FREMANTLE 6160",
     "locID": "LOC000027800468",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146752249",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3009,9 +3008,11 @@
     "name": "10 STACK STREET FREMANTLE 6160",
     "locID": "LOC000083107765",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_146754554",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2024"
    }
   },
   {
@@ -3197,8 +3198,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.76511,
-     -32.04988
+     115.76509183,
+     -32.04977661
     ]
    },
    "properties": {
@@ -3217,8 +3218,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.76495,
-     -32.04989
+     115.76492901,
+     -32.04977764
     ]
    },
    "properties": {
@@ -3918,9 +3919,9 @@
     "name": "22 ASHBURTON TERRACE FREMANTLE 6160",
     "locID": "LOC000031407626",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146756358",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9292,7 +9293,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GAWA_146759626",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -11225,8 +11226,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.77653659,
-     -32.04784259
+     115.77653855,
+     -32.0478447
     ]
    },
    "properties": {
@@ -11718,8 +11719,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74574813,
-     -32.05914618
+     115.74929713,
+     -32.06332361
     ]
    },
    "properties": {
@@ -14063,10 +14064,9 @@
    "properties": {
     "name": "26 SAMSON STREET FREMANTLE 6160",
     "locID": "LOC000042318334",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146762166",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15016,8 +15016,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -17834,10 +17834,10 @@
    "properties": {
     "name": "7 EAST STREET FREMANTLE 6160",
     "locID": "LOC000064997683",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAWA_146764146",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17854,10 +17854,10 @@
    "properties": {
     "name": "3 EAST STREET FREMANTLE 6160",
     "locID": "LOC000092572860",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAWA_146764147",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21794,8 +21794,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74826836,
-     -32.05421824
+     115.74826844,
+     -32.0542182
     ]
    },
    "properties": {
@@ -23904,10 +23904,9 @@
    "properties": {
     "name": "29 TUCKFIELD STREET FREMANTLE 6160",
     "locID": "LOC000002179378",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146766501",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24089,7 +24088,7 @@
     "gnaf_pid": "GAWA_146766694",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -24222,10 +24221,9 @@
    "properties": {
     "name": "48 STEVENS STREET FREMANTLE 6160",
     "locID": "LOC000102083702",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146766701",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24255,8 +24253,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.76376202,
-     -32.05652891
+     115.76382316,
+     -32.05681997
     ]
    },
    "properties": {
@@ -28320,10 +28318,9 @@
    "properties": {
     "name": "59 TUCKFIELD STREET FREMANTLE 6160",
     "locID": "LOC000089621959",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146773683",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30672,9 +30669,11 @@
     "name": "9 MONTREAL STREET FREMANTLE 6160",
     "locID": "LOC000005638433",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAWA_147096318",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2024"
    }
   },
   {
@@ -36601,8 +36600,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -36621,8 +36620,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -36641,8 +36640,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -36661,8 +36660,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -36681,8 +36680,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -36701,8 +36700,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -41936,8 +41935,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -41954,8 +41953,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -43231,8 +43230,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -44076,8 +44075,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -45043,8 +45042,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -45063,8 +45062,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -45083,8 +45082,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -45103,8 +45102,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -45123,8 +45122,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -45143,8 +45142,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -45163,8 +45162,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -45183,8 +45182,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -45203,8 +45202,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -45223,8 +45222,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -47105,8 +47104,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -47555,8 +47554,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75516964,
-     -32.0595607
+     115.75516972,
+     -32.05956063
     ]
    },
    "properties": {
@@ -50472,9 +50471,8 @@
     "name": "2 BOLTON PLACE FREMANTLE 6160",
     "locID": "LOC000042871300",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147294962",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54830,8 +54828,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75043724,
-     -32.05888234
+     115.75042438,
+     -32.05888005
     ]
    },
    "properties": {
@@ -54994,10 +54992,9 @@
    "properties": {
     "name": "25 HOWARD STREET FREMANTLE 6160",
     "locID": "LOC000077049749",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147407536",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -56306,7 +56303,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -57993,8 +57990,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75516964,
-     -32.0595607
+     115.75516972,
+     -32.05956063
     ]
    },
    "properties": {
@@ -58013,8 +58010,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75516964,
-     -32.0595607
+     115.75516972,
+     -32.05956063
     ]
    },
    "properties": {
@@ -58033,8 +58030,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75516964,
-     -32.0595607
+     115.75516972,
+     -32.05956063
     ]
    },
    "properties": {
@@ -58053,8 +58050,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75516964,
-     -32.0595607
+     115.75516972,
+     -32.05956063
     ]
    },
    "properties": {
@@ -58229,7 +58226,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -59422,8 +59419,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74826836,
-     -32.05421824
+     115.74826844,
+     -32.0542182
     ]
    },
    "properties": {
@@ -60833,8 +60830,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75516964,
-     -32.0595607
+     115.75516972,
+     -32.05956063
     ]
    },
    "properties": {
@@ -60853,8 +60850,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75516964,
-     -32.0595607
+     115.75516972,
+     -32.05956063
     ]
    },
    "properties": {
@@ -61324,7 +61321,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -62185,10 +62182,11 @@
     "name": "UNIT 4, 22 SAMSON STREET FREMANTLE 6160",
     "locID": "LOC000079117411",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_147704803",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -65186,7 +65184,7 @@
     "gnaf_pid": "GAWA_147706899",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Jun 2023"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -65373,7 +65371,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -65970,7 +65968,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -68195,7 +68193,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -69758,7 +69756,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -71406,7 +71404,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -71446,8 +71444,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75516964,
-     -32.0595607
+     115.75516972,
+     -32.05956063
     ]
    },
    "properties": {
@@ -71466,8 +71464,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75516964,
-     -32.0595607
+     115.75516972,
+     -32.05956063
     ]
    },
    "properties": {
@@ -71486,8 +71484,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75516964,
-     -32.0595607
+     115.75516972,
+     -32.05956063
     ]
    },
    "properties": {
@@ -71506,8 +71504,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75516964,
-     -32.0595607
+     115.75516972,
+     -32.05956063
     ]
    },
    "properties": {
@@ -71526,8 +71524,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75516964,
-     -32.0595607
+     115.75516972,
+     -32.05956063
     ]
    },
    "properties": {
@@ -71546,8 +71544,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75516964,
-     -32.0595607
+     115.75516972,
+     -32.05956063
     ]
    },
    "properties": {
@@ -71566,8 +71564,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75516964,
-     -32.0595607
+     115.75516972,
+     -32.05956063
     ]
    },
    "properties": {
@@ -71586,8 +71584,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75092932,
-     -32.06035755
+     115.75092955,
+     -32.06035581
     ]
    },
    "properties": {
@@ -72918,8 +72916,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75092932,
-     -32.06035755
+     115.75092955,
+     -32.06035581
     ]
    },
    "properties": {
@@ -73746,7 +73744,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -73806,7 +73804,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -74024,7 +74022,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -75183,10 +75181,11 @@
     "name": "UNIT 3, 22 SAMSON STREET FREMANTLE 6160",
     "locID": "LOC000079058156",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_147717063",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -76015,8 +76014,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75092932,
-     -32.06035755
+     115.75092955,
+     -32.06035581
     ]
    },
    "properties": {
@@ -77145,7 +77144,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -78180,7 +78179,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -78868,8 +78867,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75043724,
-     -32.05888234
+     115.75048772,
+     -32.05883528
     ]
    },
    "properties": {
@@ -79214,7 +79213,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -80129,10 +80128,11 @@
     "name": "UNIT 1, 22 SAMSON STREET FREMANTLE 6160",
     "locID": "LOC000079262713",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_147720718",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -80186,10 +80186,11 @@
     "name": "UNIT 2, 22 SAMSON STREET FREMANTLE 6160",
     "locID": "LOC000079058156",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_147720722",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -80255,8 +80256,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.76376202,
-     -32.05652891
+     115.76376205,
+     -32.05652881
     ]
    },
    "properties": {
@@ -81019,8 +81020,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75092932,
-     -32.06035755
+     115.75092955,
+     -32.06035581
     ]
    },
    "properties": {
@@ -82125,7 +82126,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -82581,8 +82582,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75092932,
-     -32.06035755
+     115.75092955,
+     -32.06035581
     ]
    },
    "properties": {
@@ -83458,8 +83459,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75092932,
-     -32.06035755
+     115.75092955,
+     -32.06035581
     ]
    },
    "properties": {
@@ -83945,8 +83946,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75043724,
-     -32.05888234
+     115.75042438,
+     -32.05888005
     ]
    },
    "properties": {
@@ -84744,7 +84745,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -88808,7 +88809,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -91880,8 +91881,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75092932,
-     -32.06035755
+     115.75092955,
+     -32.06035581
     ]
    },
    "properties": {
@@ -92122,8 +92123,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75092932,
-     -32.06035755
+     115.75092955,
+     -32.06035581
     ]
    },
    "properties": {
@@ -92141,8 +92142,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75092932,
-     -32.06035755
+     115.75092955,
+     -32.06035581
     ]
    },
    "properties": {
@@ -92160,8 +92161,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75092932,
-     -32.06035755
+     115.75092955,
+     -32.06035581
     ]
    },
    "properties": {
@@ -94015,8 +94016,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74826836,
-     -32.05421824
+     115.74826844,
+     -32.0542182
     ]
    },
    "properties": {
@@ -94033,8 +94034,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74826836,
-     -32.05421824
+     115.74826844,
+     -32.0542182
     ]
    },
    "properties": {
@@ -94799,8 +94800,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.7556857,
-     -32.0546962
+     115.75568575,
+     -32.05469613
     ]
    },
    "properties": {
@@ -95805,8 +95806,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -102782,10 +102783,11 @@
     "name": "22 SAMSON STREET FREMANTLE 6160",
     "locID": "LOC000079058156",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAWA_162415845",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -104299,8 +104301,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -104317,8 +104319,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -104335,8 +104337,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -104353,8 +104355,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -104371,8 +104373,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -104389,8 +104391,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -104407,8 +104409,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -104425,8 +104427,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -104443,8 +104445,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -104461,8 +104463,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -104479,8 +104481,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -104497,8 +104499,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -104515,8 +104517,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -104533,8 +104535,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -104551,8 +104553,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75106281,
-     -32.04657036
+     115.75106107,
+     -32.04657281
     ]
    },
    "properties": {
@@ -105171,8 +105173,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75092932,
-     -32.06035755
+     115.75092955,
+     -32.06035581
     ]
    },
    "properties": {
@@ -105693,8 +105695,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74792498,
-     -32.05186901
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -105812,8 +105814,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.77653659,
-     -32.04784259
+     115.77653855,
+     -32.0478447
     ]
    },
    "properties": {
@@ -105832,8 +105834,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.77653659,
-     -32.04784259
+     115.77653855,
+     -32.0478447
     ]
    },
    "properties": {
@@ -112116,8 +112118,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.76376202,
-     -32.05652891
+     115.76376205,
+     -32.05652881
     ]
    },
    "properties": {
@@ -113909,8 +113911,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75543698,
-     -32.05804631
+     115.75543705,
+     -32.05804624
     ]
    },
    "properties": {
@@ -116413,7 +116415,7 @@
     "gnaf_pid": "GAWA_163151915",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2022"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -116433,7 +116435,7 @@
     "gnaf_pid": "GAWA_163151916",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2022"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -116453,7 +116455,7 @@
     "gnaf_pid": "GAWA_163151917",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2022"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -117192,8 +117194,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75335353,
-     -32.05836319
+     115.75543705,
+     -32.05804624
     ]
    },
    "properties": {
@@ -117621,8 +117623,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.76382313,
-     -32.05682008
+     115.76382316,
+     -32.05681997
     ]
    },
    "properties": {
@@ -119665,7 +119667,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -119685,7 +119687,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -120348,7 +120350,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.75959762,
+     115.75959763,
      -32.05284329
     ]
    },
@@ -134955,6 +134957,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.76552283,
+     -32.05215821
+    ]
+   },
+   "properties": {
+    "name": "59 BLINCO STREET FREMANTLE 6160",
+    "locID": "LOC000194691004",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720279719"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.76510057,
      -32.05246183
     ]
@@ -137778,23 +137797,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74826836,
-     -32.05421824
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 6 NEWMAN COURT FREMANTLE 6160",
-    "locID": "LOC000182581246",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720715332"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.74327852,
      -32.05701803
     ]
@@ -137929,23 +137931,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74826836,
-     -32.05421824
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 6 NEWMAN COURT FREMANTLE 6160",
-    "locID": "LOC000182581246",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720717145"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.75585523,
      -32.05917675
     ]
@@ -137993,23 +137978,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720718176",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74826836,
-     -32.05421824
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 6 NEWMAN COURT FREMANTLE 6160",
-    "locID": "LOC000182581246",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720718714"
    }
   },
   {
@@ -138377,8 +138345,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74826836,
-     -32.05421824
+     115.74826844,
+     -32.0542182
     ]
    },
    "properties": {
@@ -138542,652 +138510,6 @@
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Jun 2024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 11, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894121"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 5, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347228",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894122"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 39, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894123"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 31, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894161"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 33, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189346969",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894179"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 32, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894186"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 20, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894187"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 36, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894193"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 28, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894204"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 38, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189346969",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894263"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 34, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189346969",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894264"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 22, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894265"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 13, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894266"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 12, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894267"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 8, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894269"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 19, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894331"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 16, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189346969",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894340"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 10, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189346969",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894341"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 6, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347228",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894342"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 9, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894419"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 23, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894424"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 37, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189346969",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894425"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 25, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189346969",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894426"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 4, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347228",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894427"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347133",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894428"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 27, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894430"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 15, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894498"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 29, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894501"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 17, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189346969",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894502"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 30, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347122",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894506"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 26, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894561"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 18, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894563"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 40, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347228",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894630"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 7, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189346969",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894631"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 14, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894635"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 24, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894636"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 21, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894637"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "UNIT 35, 52 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189346969",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_720894638"
    }
   },
   {
@@ -140034,7 +139356,7 @@
     "type": "Point",
     "coordinates": [
      115.74889123,
-     -32.05467375
+     -32.05467374
     ]
    },
    "properties": {
@@ -140087,7 +139409,7 @@
     "type": "Point",
     "coordinates": [
      115.74889123,
-     -32.05467375
+     -32.05467374
     ]
    },
    "properties": {
@@ -140105,7 +139427,7 @@
     "type": "Point",
     "coordinates": [
      115.74889123,
-     -32.05467375
+     -32.05467374
     ]
    },
    "properties": {
@@ -140123,7 +139445,7 @@
     "type": "Point",
     "coordinates": [
      115.74889123,
-     -32.05467375
+     -32.05467374
     ]
    },
    "properties": {
@@ -140141,7 +139463,7 @@
     "type": "Point",
     "coordinates": [
      115.74889123,
-     -32.05467375
+     -32.05467374
     ]
    },
    "properties": {
@@ -140159,7 +139481,7 @@
     "type": "Point",
     "coordinates": [
      115.74889123,
-     -32.05467375
+     -32.05467374
     ]
    },
    "properties": {
@@ -140177,7 +139499,7 @@
     "type": "Point",
     "coordinates": [
      115.74889123,
-     -32.05467375
+     -32.05467374
     ]
    },
    "properties": {
@@ -140195,7 +139517,7 @@
     "type": "Point",
     "coordinates": [
      115.74889123,
-     -32.05467375
+     -32.05467374
     ]
    },
    "properties": {
@@ -140213,7 +139535,7 @@
     "type": "Point",
     "coordinates": [
      115.74889123,
-     -32.05467375
+     -32.05467374
     ]
    },
    "properties": {
@@ -140231,7 +139553,7 @@
     "type": "Point",
     "coordinates": [
      115.74889123,
-     -32.05467375
+     -32.05467374
     ]
    },
    "properties": {
@@ -140266,7 +139588,7 @@
     "type": "Point",
     "coordinates": [
      115.74889123,
-     -32.05467375
+     -32.05467374
     ]
    },
    "properties": {
@@ -140322,7 +139644,7 @@
     "type": "Point",
     "coordinates": [
      115.74889123,
-     -32.05467375
+     -32.05467374
     ]
    },
    "properties": {
@@ -140340,7 +139662,7 @@
     "type": "Point",
     "coordinates": [
      115.74889123,
-     -32.05467375
+     -32.05467374
     ]
    },
    "properties": {
@@ -140357,8 +139679,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140374,8 +139696,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140391,8 +139713,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140408,25 +139730,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "8 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000189347048",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_721084348"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140442,8 +139747,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140459,8 +139764,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140476,8 +139781,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140493,8 +139798,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140510,8 +139815,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140527,8 +139832,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140544,28 +139849,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
-    ]
-   },
-   "properties": {
-    "name": "10 ADELAIDE STREET FREMANTLE 6160",
-    "locID": "LOC000173602276",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_721084465",
-    "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Sep 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140581,8 +139866,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140598,8 +139883,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140615,8 +139900,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140632,8 +139917,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140649,8 +139934,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140666,8 +139951,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140683,8 +139968,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140700,8 +139985,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140717,8 +140002,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140734,8 +140019,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140751,8 +140036,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140768,8 +140053,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140785,8 +140070,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140802,8 +140087,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140819,8 +140104,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140836,8 +140121,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140853,8 +140138,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140870,8 +140155,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140887,8 +140172,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140904,8 +140189,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140921,8 +140206,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140938,8 +140223,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140955,8 +140240,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140972,8 +140257,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -140989,8 +140274,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141007,8 +140292,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141024,8 +140309,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141041,8 +140326,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141058,8 +140343,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141075,8 +140360,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141092,8 +140377,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141109,8 +140394,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141126,8 +140411,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141143,8 +140428,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141160,8 +140445,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141177,8 +140462,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141194,8 +140479,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141211,8 +140496,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141228,8 +140513,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141245,8 +140530,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141262,8 +140547,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141279,8 +140564,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141296,8 +140581,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141313,8 +140598,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141330,8 +140615,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141347,8 +140632,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141364,8 +140649,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141381,8 +140666,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141398,8 +140683,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141415,8 +140700,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141432,8 +140717,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141449,8 +140734,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141466,8 +140751,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141483,8 +140768,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141500,8 +140785,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141517,8 +140802,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141534,8 +140819,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141551,8 +140836,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141568,8 +140853,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141585,8 +140870,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141602,8 +140887,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.74812775,
-     -32.05230676
+     115.74812783,
+     -32.05230671
     ]
    },
    "properties": {
@@ -141963,6 +141248,94 @@
     "tech_change_status": "In Design",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Sep 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.76535833,
+     -32.05228537
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 59 BLINCO STREET FREMANTLE 6160",
+    "locID": "LOC000194691015",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721404937"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.76543493,
+     -32.05200186
+    ]
+   },
+   "properties": {
+    "name": "61 BLINCO STREET FREMANTLE 6160",
+    "locID": "LOC000017246655",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_721405391",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Jun 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.76544602,
+     -32.05228425
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 59 BLINCO STREET FREMANTLE 6160",
+    "locID": "LOC000194691036",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721406323"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.76539753,
+     -32.05209742
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 59 BLINCO STREET FREMANTLE 6160",
+    "locID": "LOC000194691004",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721407253"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.76539813,
+     -32.05217971
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 59 BLINCO STREET FREMANTLE 6160",
+    "locID": "LOC000194691027",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721407700"
    }
   }
  ]
