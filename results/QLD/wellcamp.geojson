@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-18T13:38:50.661666",
+ "generated": "2024-04-10T09:54:14.942351",
  "suburb": "WELLCAMP",
  "features": [
   {
@@ -1980,6 +1980,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.82529911,
+     -27.54223649
+    ]
+   },
+   "properties": {
+    "name": "LOT 6 TOOWOOMBA - CECIL PLAINS ROAD WELLCAMP 4350",
+    "locID": "LOC000103207099",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162611352"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.80554693,
      -27.5724526
     ]
@@ -2558,23 +2575,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.79386974,
-     -27.55949337
-    ]
-   },
-   "properties": {
-    "name": "LOT 11 AIRPORT DRIVE WELLCAMP 4350",
-    "locID": "LOC100081459228",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD719268733"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.77373648,
      -27.56369097
     ]
@@ -2668,9 +2668,11 @@
     "name": "LOT 35 CARRINGTON ROAD WELLCAMP 4350",
     "locID": "LOC000095125450",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720031036",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2024"
    }
   },
   {
@@ -2811,6 +2813,23 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721305696"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.79386974,
+     -27.55949337
+    ]
+   },
+   "properties": {
+    "name": "1 AIRPORT DRIVE WELLCAMP 4350",
+    "locID": "LOC100081459228",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721426852"
    }
   }
  ]
