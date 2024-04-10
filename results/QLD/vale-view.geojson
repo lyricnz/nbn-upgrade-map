@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-18T12:31:28.176733",
+ "generated": "2024-04-10T08:57:44.496996",
  "suburb": "VALE VIEW",
  "features": [
   {
@@ -2567,8 +2567,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.91500362,
-     -27.65723567
+     151.91160648,
+     -27.65188215
     ]
    },
    "properties": {
@@ -2676,7 +2676,7 @@
    "properties": {
     "name": "82 SMITH CREEK ROAD VALE VIEW 4352",
     "locID": "LOC000004519924",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719266610"
    }
@@ -2744,10 +2744,10 @@
    "properties": {
     "name": "LOT 14 SMITH CREEK ROAD VALE VIEW 4352",
     "locID": "LOC000041886399",
-    "tech": "SATELLITE",
-    "upgrade": "FW_NA",
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
     "gnaf_pid": "GAQLD719268607",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -2898,7 +2898,7 @@
    "properties": {
     "name": "LOT 13 SMITH CREEK ROAD VALE VIEW 4352",
     "locID": "LOC000098494509",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719272637"
    }
@@ -2966,10 +2966,10 @@
    "properties": {
     "name": "158 SMITH CREEK ROAD VALE VIEW 4352",
     "locID": "LOC000041886399",
-    "tech": "SATELLITE",
-    "upgrade": "FW_NA",
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
     "gnaf_pid": "GAQLD719275592",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3086,7 +3086,7 @@
    "properties": {
     "name": "152 SMITH CREEK ROAD VALE VIEW 4352",
     "locID": "LOC000098494509",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD719278426"
    }
@@ -3172,8 +3172,11 @@
     "name": "150 LUCK ROAD VALE VIEW 4352",
     "locID": "LOC000127933923",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD719301584"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD719301584",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3205,9 +3208,43 @@
    "properties": {
     "name": "LOT 12 SMITH CREEK ROAD VALE VIEW 4352",
     "locID": "LOC000004519924",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720117503"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.8870686,
+     -27.67919563
+    ]
+   },
+   "properties": {
+    "name": "61 SKINNER ROAD VALE VIEW 4352",
+    "locID": "LOC000139428218",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721427984"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.88652069,
+     -27.67316561
+    ]
+   },
+   "properties": {
+    "name": "37 SKINNER ROAD VALE VIEW 4352",
+    "locID": "LOC000144400536",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721428613"
    }
   }
  ]
