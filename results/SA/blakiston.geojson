@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-18T19:06:57.958498",
+ "generated": "2024-04-10T14:37:29.520021",
  "suburb": "BLAKISTON",
  "features": [
   {
@@ -458,8 +458,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.87963965,
-     -35.04072997
+     138.87964,
+     -35.04073
     ]
    },
    "properties": {
@@ -548,8 +548,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.87961333,
-     -35.04217452
+     138.879613,
+     -35.042175
     ]
    },
    "properties": {
@@ -987,9 +987,9 @@
     "name": "3 DAIRY COURT BLAKISTON 5250",
     "locID": "LOC000077193854",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424657211",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -1990,8 +1990,11 @@
     "name": "LOT 14 OLD PRINCES HIGHWAY BLAKISTON 5250",
     "locID": "LOC000148706848",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424825130"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424825130",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2009,7 +2012,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424825131",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
