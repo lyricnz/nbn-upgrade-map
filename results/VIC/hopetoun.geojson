@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-22T09:05:39.300463",
+ "generated": "2024-04-13T08:44:15.938486",
  "suburb": "HOPETOUN",
  "features": [
   {
@@ -35,7 +35,7 @@
     "tech": "FTTP",
     "upgrade": "FW_CT",
     "gnaf_pid": "GAVIC411566048",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -451,9 +451,9 @@
     "name": "93 LASCELLES STREET HOPETOUN 3396",
     "locID": "LOC000178635838",
     "tech": "FTTP",
-    "upgrade": "FW_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC414275709",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -590,9 +590,9 @@
     "name": "48 EVELYN STREET HOPETOUN 3396",
     "locID": "LOC000046096394",
     "tech": "FTTP",
-    "upgrade": "FW_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419665216",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -1152,9 +1152,9 @@
     "name": "28 DENNYS STREET HOPETOUN 3396",
     "locID": "LOC000051786979",
     "tech": "FTTP",
-    "upgrade": "FW_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419784644",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -1942,7 +1942,7 @@
     "tech": "FTTP",
     "upgrade": "FW_CT",
     "gnaf_pid": "GAVIC420090437",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -2204,9 +2204,9 @@
     "name": "31 GARRARD STREET HOPETOUN 3396",
     "locID": "LOC000020283160",
     "tech": "FTTP",
-    "upgrade": "FW_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420374303",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -2417,7 +2417,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420393716",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -2683,7 +2683,7 @@
     "name": "72 LASCELLES STREET HOPETOUN 3396",
     "locID": "LOC000075542093",
     "tech": "FTTP",
-    "upgrade": "FW_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420407096",
     "tech_change_status": "Eligible To Order"
    }
@@ -3820,7 +3820,7 @@
     "name": "24 CONRAN STREET HOPETOUN 3396",
     "locID": "LOC000104317916",
     "tech": "FTTP",
-    "upgrade": "FW_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421001698",
     "tech_change_status": "Eligible To Order"
    }
@@ -3925,9 +3925,9 @@
     "name": "149 LASCELLES STREET HOPETOUN 3396",
     "locID": "LOC000103873750",
     "tech": "FTTP",
-    "upgrade": "FW_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421006171",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -4311,7 +4311,7 @@
     "tech": "FTTP",
     "upgrade": "FW_CT",
     "gnaf_pid": "GAVIC421281358",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -5398,9 +5398,9 @@
     "name": "33 TOOLE STREET HOPETOUN 3396",
     "locID": "LOC000070222819",
     "tech": "FTTP",
-    "upgrade": "FW_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421625048",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -5486,9 +5486,10 @@
    "properties": {
     "name": "39 LASCELLES STREET HOPETOUN 3396",
     "locID": "LOC000082729922",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421807604"
+    "tech": "FTTP",
+    "upgrade": "FW_CT",
+    "gnaf_pid": "GAVIC421807604",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5715,7 +5716,7 @@
     "tech": "FTTP",
     "upgrade": "FW_CT",
     "gnaf_pid": "GAVIC421868011",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -8089,23 +8090,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     142.36709409,
-     -35.72868428
-    ]
-   },
-   "properties": {
-    "name": "87-89 EVELYN STREET HOPETOUN 3396",
-    "locID": "LOC000124622669",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424025736"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      142.37014135,
      -35.73522558
     ]
@@ -8806,6 +8790,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719105037"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.42182332,
+     -35.69151082
+    ]
+   },
+   "properties": {
+    "name": "5325 HENTY HIGHWAY HOPETOUN 3396",
+    "locID": "LOC100085531766",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC719121345"
    }
   },
   {
