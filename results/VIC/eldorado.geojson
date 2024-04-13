@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-22T00:14:32.645865",
+ "generated": "2024-04-13T00:41:04.764959",
  "suburb": "ELDORADO",
  "features": [
   {
@@ -824,8 +824,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.51377047,
-     -36.31294633
+     146.51369714,
+     -36.31290784
     ]
    },
    "properties": {
@@ -2855,8 +2855,11 @@
     "name": "1 MCKOY STREET ELDORADO 3746",
     "locID": "LOC000186625171",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720911216"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC720911216",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2911,7 +2914,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC720922648",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
