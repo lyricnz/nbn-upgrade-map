@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-24T20:20:53.527274",
+ "generated": "2024-04-15T16:30:05.398824",
  "suburb": "BERRILEE",
  "features": [
   {
@@ -304,7 +304,7 @@
    "properties": {
     "name": "92 BAY ROAD BERRILEE 2159",
     "locID": "LOC000082795813",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704100719"
    }
@@ -1120,7 +1120,7 @@
    "properties": {
     "name": "8 MCCALLUMS ROAD BERRILEE 2159",
     "locID": "LOC000057795073",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717958978"
    }
@@ -1154,9 +1154,10 @@
    "properties": {
     "name": "1-15 MCCALLUMS ROAD BERRILEE 2159",
     "locID": "LOC000107016028",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717983179"
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
+    "gnaf_pid": "GANSW717983179",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1208,6 +1209,23 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720161350"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.10355297,
+     -33.6186449
+    ]
+   },
+   "properties": {
+    "name": "4B JACK RUSSELL ROAD BERRILEE 2159",
+    "locID": "LOC000177773281",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721454446"
    }
   }
  ]
