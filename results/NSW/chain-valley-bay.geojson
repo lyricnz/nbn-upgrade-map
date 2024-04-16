@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-25T05:35:33.836679",
+ "generated": "2024-04-16T01:16:55.801530",
  "suburb": "CHAIN VALLEY BAY",
  "features": [
   {
@@ -15989,9 +15989,8 @@
     "name": "20 TERAGALIN DRIVE CHAIN VALLEY BAY 2259",
     "locID": "LOC000081042031",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717362893",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16768,10 +16767,9 @@
    "properties": {
     "name": "70 TERAGALIN DRIVE CHAIN VALLEY BAY 2259",
     "locID": "LOC000004705064",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717362934",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27321,7 +27319,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719378089",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Build Finalised",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28661,6 +28661,46 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721184118"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.56410322,
+     -33.17536264
+    ]
+   },
+   "properties": {
+    "name": "2A BRIDGE AVENUE CHAIN VALLEY BAY 2259",
+    "locID": "LOC100082820228",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721383908",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.56445763,
+     -33.17554991
+    ]
+   },
+   "properties": {
+    "name": "1A ELABANA AVENUE CHAIN VALLEY BAY 2259",
+    "locID": "LOC100085447659",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721441303",
+    "tech_change_status": "Build Finalised",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   }
  ]
