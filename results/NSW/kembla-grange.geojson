@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-25T11:19:03.765882",
+ "generated": "2024-04-16T06:56:22.644391",
  "suburb": "KEMBLA GRANGE",
  "features": [
   {
@@ -55,8 +55,8 @@
    "properties": {
     "name": "10 MANIKATO PLACE KEMBLA GRANGE 2526",
     "locID": "LOC000010522014",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705055880",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -95,8 +95,8 @@
    "properties": {
     "name": "2 MANIKATO PLACE KEMBLA GRANGE 2526",
     "locID": "LOC000057904883",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705055882",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -329,8 +329,8 @@
    "properties": {
     "name": "10 KINGSTON TOWN DRIVE KEMBLA GRANGE 2526",
     "locID": "LOC000062631890",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705059116",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -883,6 +883,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705061776",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1386,23 +1387,6 @@
     "gnaf_pid": "GANSW712412703",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.77469543,
-     -34.46423498
-    ]
-   },
-   "properties": {
-    "name": "LOT 1 PAYNES ROAD KEMBLA GRANGE 2526",
-    "locID": "LOC000112827503",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716038703"
    }
   },
   {
@@ -2685,40 +2669,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.77469543,
-     -34.46423498
-    ]
-   },
-   "properties": {
-    "name": "63 PAYNES ROAD KEMBLA GRANGE 2526",
-    "locID": "LOC000192768787",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720250585"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.77469543,
-     -34.46423498
-    ]
-   },
-   "properties": {
-    "name": "73 PAYNES ROAD KEMBLA GRANGE 2526",
-    "locID": "LOC000180601660",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720273225"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.82680473,
      -34.4735518
     ]
@@ -2732,23 +2682,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.77469543,
-     -34.46423498
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 73 PAYNES ROAD KEMBLA GRANGE 2526",
-    "locID": "LOC000180601660",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW721055160"
    }
   },
   {
@@ -2773,67 +2706,16 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.77469543,
-     -34.46423498
+     150.79624925,
+     -34.46186288
     ]
    },
    "properties": {
-    "name": "UNIT 3, 63 PAYNES ROAD KEMBLA GRANGE 2526",
-    "locID": "LOC000192768794",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW721260256"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.77469543,
-     -34.46423498
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 63 PAYNES ROAD KEMBLA GRANGE 2526",
-    "locID": "LOC000192768787",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW721260423"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.77469543,
-     -34.46423498
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 63 PAYNES ROAD KEMBLA GRANGE 2526",
-    "locID": "LOC000192768787",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW721261124"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.80689383,
-     -34.47059205
-    ]
-   },
-   "properties": {
-    "name": "LOT 2 WEST DAPTO ROAD KEMBLA GRANGE 2526",
-    "locID": "LOC000180732842",
+    "name": "10 REDDALLS ROAD KEMBLA GRANGE 2526",
+    "locID": "LOC000037457808",
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW721331751"
+    "gnaf_pid": "GANSW721457817"
    }
   }
  ]

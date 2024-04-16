@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-25T11:28:35.891103",
+ "generated": "2024-04-16T07:06:32.764560",
  "suburb": "WESTON",
  "features": [
   {
@@ -13003,7 +13003,8 @@
     "locID": "LOC000099006282",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706293787"
+    "gnaf_pid": "GANSW706293787",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -26953,9 +26954,8 @@
     "name": "9 BLUEBELL CLOSE WESTON 2326",
     "locID": "LOC000091931442",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GANSW715524765",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW715524765"
    }
   },
   {
@@ -27515,10 +27515,9 @@
    "properties": {
     "name": "20 GREY GUM DRIVE WESTON 2326",
     "locID": "LOC000019210997",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW715884010",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW715884010"
    }
   },
   {
@@ -29818,10 +29817,10 @@
    "properties": {
     "name": "1 GOVERNMENT ROAD WESTON 2326",
     "locID": "LOC000113647470",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GANSW718099487",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -32966,10 +32965,10 @@
    "properties": {
     "name": "55B WOODLANDS DRIVE WESTON 2326",
     "locID": "LOC000174706629",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GANSW719466288",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -34179,7 +34178,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW721005658",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34275,6 +34274,24 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721321853",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.46157073,
+     -32.80656991
+    ]
+   },
+   "properties": {
+    "name": "23A EIGHTH STREET WESTON 2326",
+    "locID": "LOC000192998227",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721384698",
     "tech_change_status": "Not Planned"
    }
   }
