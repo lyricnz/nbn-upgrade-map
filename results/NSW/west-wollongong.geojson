@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-25T06:58:38.980574",
+ "generated": "2024-04-16T02:39:53.198472",
  "suburb": "WEST WOLLONGONG",
  "features": [
   {
@@ -12855,8 +12855,8 @@
    "properties": {
     "name": "6 SHEPPARD STREET WEST WOLLONGONG 2500",
     "locID": "LOC000093738530",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW706292604",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -28447,10 +28447,9 @@
    "properties": {
     "name": "25 RESERVE STREET WEST WOLLONGONG 2500",
     "locID": "LOC000101726994",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706522243",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30310,7 +30309,7 @@
     "gnaf_pid": "GANSW712367093",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2022"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -39208,6 +39207,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.87258606,
+     -34.42564836
+    ]
+   },
+   "properties": {
+    "name": "505 CROWN STREET WEST WOLLONGONG 2500",
+    "locID": "LOC000135112659",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718275687"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.87293963,
      -34.42577103
     ]
@@ -41716,6 +41732,57 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721328146"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.87487268,
+     -34.4193187
+    ]
+   },
+   "properties": {
+    "name": "10A GILMORE STREET WEST WOLLONGONG 2500",
+    "locID": "LOC000192264788",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721359129"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86232805,
+     -34.42149071
+    ]
+   },
+   "properties": {
+    "name": "2B LEXBURN AVENUE WEST WOLLONGONG 2500",
+    "locID": "LOC000193039630",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721438743"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86223462,
+     -34.42153119
+    ]
+   },
+   "properties": {
+    "name": "2A LEXBURN AVENUE WEST WOLLONGONG 2500",
+    "locID": "LOC000193039624",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721443057"
    }
   }
  ]
