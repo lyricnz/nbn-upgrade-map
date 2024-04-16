@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-25T03:38:30.377112",
+ "generated": "2024-04-15T23:27:34.163578",
  "suburb": "GUMLY GUMLY",
  "features": [
   {
@@ -1670,7 +1670,7 @@
    "properties": {
     "name": "5 GUMLY ROAD GUMLY GUMLY 2652",
     "locID": "LOC000183278308",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712741902"
    }
@@ -2404,9 +2404,11 @@
     "name": "1 TASMAN ROAD GUMLY GUMLY 2652",
     "locID": "LOC000183559117",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717451568",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2024"
    }
   },
   {
@@ -2847,7 +2849,7 @@
    "properties": {
     "name": "53 TASMAN ROAD GUMLY GUMLY 2652",
     "locID": "LOC000183278308",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718516708"
    }
@@ -4261,6 +4263,74 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721269365"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.43388646,
+     -35.14735144
+    ]
+   },
+   "properties": {
+    "name": "26 GOLDEN DRIVE GUMLY GUMLY 2652",
+    "locID": "LOC000194763018",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721437178"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.4298192,
+     -35.14589329
+    ]
+   },
+   "properties": {
+    "name": "6 SALAMANDER WAY GUMLY GUMLY 2652",
+    "locID": "LOC000191512443",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721441232"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.42956264,
+     -35.14474424
+    ]
+   },
+   "properties": {
+    "name": "3 SALAMANDER WAY GUMLY GUMLY 2652",
+    "locID": "LOC000171019372",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721443387"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.43045093,
+     -35.14499314
+    ]
+   },
+   "properties": {
+    "name": "5 SALAMANDER WAY GUMLY GUMLY 2652",
+    "locID": "LOC000185498700",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721446177"
    }
   }
  ]
