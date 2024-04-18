@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-27T18:21:21.404294",
+ "generated": "2024-04-18T05:39:26.880397",
  "suburb": "ALLORA",
  "features": [
   {
@@ -4423,9 +4423,11 @@
     "name": "53 FORDE STREET ALLORA 4362",
     "locID": "LOC000089792223",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156198856",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2024"
    }
   },
   {
@@ -6176,10 +6178,10 @@
    "properties": {
     "name": "40 HERBERT STREET ALLORA 4362",
     "locID": "LOC000095439933",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAQLD156200594",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6212,10 +6214,10 @@
    "properties": {
     "name": "42 HERBERT STREET ALLORA 4362",
     "locID": "LOC000084858078",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAQLD156200596",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7447,6 +7449,24 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157434111"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.9776369,
+     -28.03453658
+    ]
+   },
+   "properties": {
+    "name": "40 ARNOLD STREET ALLORA 4362",
+    "locID": "LOC000014530305",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157434135",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -8882,10 +8902,10 @@
    "properties": {
     "name": "2 HERBERT STREET ALLORA 4362",
     "locID": "LOC000084858078",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAQLD159947473",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -9135,7 +9155,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159959207",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Build Finalised",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10122,23 +10144,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161180517"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.98831511,
-     -28.02259084
-    ]
-   },
-   "properties": {
-    "name": "LOT 2 NEW ENGLAND HIGHWAY ALLORA 4362",
-    "locID": "LOC000006636140",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161253901"
    }
   },
   {
@@ -13748,6 +13753,40 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD720931072",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.01346543,
+     -28.05171715
+    ]
+   },
+   "properties": {
+    "name": "79 SHANREIS ROAD ALLORA 4362",
+    "locID": "LOC000179259911",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721435345"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.9757157,
+     -28.0412637
+    ]
+   },
+   "properties": {
+    "name": "193 SOUTH STREET ALLORA 4362",
+    "locID": "LOC100083329928",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721435894"
    }
   }
  ]
