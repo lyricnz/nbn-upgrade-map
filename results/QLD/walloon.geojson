@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-29T08:02:05.568705",
+ "generated": "2024-04-19T14:53:35.494544",
  "suburb": "WALLOON",
  "features": [
   {
@@ -348,8 +348,8 @@
    "properties": {
     "name": "50 FARRELL DRIVE WALLOON 4306",
     "locID": "LOC000060688921",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155930743",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -368,8 +368,8 @@
    "properties": {
     "name": "55 FARRELL DRIVE WALLOON 4306",
     "locID": "LOC000055618454",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155930747",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -688,8 +688,8 @@
    "properties": {
     "name": "1 HONEYSUCKLE COURT WALLOON 4306",
     "locID": "LOC000061222967",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155941914",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1246,8 +1246,8 @@
    "properties": {
     "name": "22 FARRELL DRIVE WALLOON 4306",
     "locID": "LOC000070243584",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155947953",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1713,8 +1713,8 @@
    "properties": {
     "name": "14 POINCIANNA COURT WALLOON 4306",
     "locID": "LOC000076160629",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155954711",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1793,10 +1793,9 @@
    "properties": {
     "name": "6 POINCIANNA COURT WALLOON 4306",
     "locID": "LOC000019122341",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155956549",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4020,8 +4019,8 @@
    "properties": {
     "name": "61-63 FARRELL DRIVE WALLOON 4306",
     "locID": "LOC000031552377",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD157290936",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5640,6 +5639,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.65225112,
+     -27.59549952
+    ]
+   },
+   "properties": {
+    "name": "120 TAYLORS ROAD WALLOON 4306",
+    "locID": "LOC000127605063",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158832467"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.66439142,
      -27.6215322
     ]
@@ -5815,8 +5831,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.64376881,
-     -27.5959924
+     152.64376132,
+     -27.59600167
     ]
    },
    "properties": {
@@ -6316,23 +6332,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161294229"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.65332703,
-     -27.59715986
-    ]
-   },
-   "properties": {
-    "name": "LOT 14 TAYLORS ROAD WALLOON 4306",
-    "locID": "LOC000034597099",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161326130"
    }
   },
   {
@@ -8426,8 +8425,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.65347794,
-     -27.59580063
+     152.65347365,
+     -27.59580182
     ]
    },
    "properties": {
@@ -8436,23 +8435,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163319553"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.65231799,
-     -27.59550839
-    ]
-   },
-   "properties": {
-    "name": "120-124 TAYLORS ROAD WALLOON 4306",
-    "locID": "LOC000127605063",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163319554"
    }
   },
   {
@@ -9274,8 +9256,8 @@
    "properties": {
     "name": "27 FLAME TREE COURT WALLOON 4306",
     "locID": "LOC000059891941",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD425749332",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9294,8 +9276,8 @@
    "properties": {
     "name": "28 FLAME TREE COURT WALLOON 4306",
     "locID": "LOC000047878512",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD425749333",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9374,8 +9356,8 @@
    "properties": {
     "name": "31 FLAME TREE COURT WALLOON 4306",
     "locID": "LOC000093297278",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD425749337",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9474,8 +9456,8 @@
    "properties": {
     "name": "36 FLAME TREE COURT WALLOON 4306",
     "locID": "LOC000102650027",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD425749342",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9572,10 +9554,10 @@
    "properties": {
     "name": "40 FLAME TREE COURT WALLOON 4306",
     "locID": "LOC000001726160",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD425749347",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9592,8 +9574,8 @@
    "properties": {
     "name": "41 FLAME TREE COURT WALLOON 4306",
     "locID": "LOC000041504505",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD425749348",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9612,8 +9594,8 @@
    "properties": {
     "name": "42 FLAME TREE COURT WALLOON 4306",
     "locID": "LOC000044469470",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD425749349",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9652,8 +9634,8 @@
    "properties": {
     "name": "44 FLAME TREE COURT WALLOON 4306",
     "locID": "LOC000106905766",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD425749351",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9750,10 +9732,10 @@
    "properties": {
     "name": "49 FLAME TREE COURT WALLOON 4306",
     "locID": "LOC000009104148",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD425749356",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9790,8 +9772,8 @@
    "properties": {
     "name": "50 FLAME TREE COURT WALLOON 4306",
     "locID": "LOC000101819470",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD425749358",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10007,8 +9989,8 @@
    "properties": {
     "name": "12 FLAME TREE COURT WALLOON 4306",
     "locID": "LOC000059891941",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD425767491",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13947,8 +13929,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.65133521,
-     -27.60141794
+     152.65089986,
+     -27.60167742
     ]
    },
    "properties": {
@@ -19031,8 +19013,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.65338462,
-     -27.60432587
+     152.65342747,
+     -27.60433458
     ]
    },
    "properties": {
@@ -19048,8 +19030,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.65338462,
-     -27.60432587
+     152.65342747,
+     -27.60433458
     ]
    },
    "properties": {
@@ -19065,8 +19047,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.65338462,
-     -27.60432587
+     152.65342747,
+     -27.60433458
     ]
    },
    "properties": {
@@ -19082,8 +19064,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.65338462,
-     -27.60432587
+     152.65342747,
+     -27.60433458
     ]
    },
    "properties": {
@@ -19099,8 +19081,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.65338462,
-     -27.60432587
+     152.65342747,
+     -27.60433458
     ]
    },
    "properties": {
@@ -19109,6 +19091,2454 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721258482"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65194336,
+     -27.59912354
+    ]
+   },
+   "properties": {
+    "name": "4 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005612",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388033"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65669392,
+     -27.60314019
+    ]
+   },
+   "properties": {
+    "name": "10 MORGAN STREET WALLOON 4306",
+    "locID": "LOC000189184536",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388068"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65274344,
+     -27.59725543
+    ]
+   },
+   "properties": {
+    "name": "25 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005620",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388079"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65196288,
+     -27.59901208
+    ]
+   },
+   "properties": {
+    "name": "6 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005608",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388085"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65279518,
+     -27.5984518
+    ]
+   },
+   "properties": {
+    "name": "3 LAWSON STREET WALLOON 4306",
+    "locID": "LOC000193005942",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388187"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65633362,
+     -27.60309014
+    ]
+   },
+   "properties": {
+    "name": "16 MORGAN STREET WALLOON 4306",
+    "locID": "LOC000189184504",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388462"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65562607,
+     -27.60251689
+    ]
+   },
+   "properties": {
+    "name": "30 REASIDE ROAD WALLOON 4306",
+    "locID": "LOC000189184349",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388509"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65144455,
+     -27.59718688
+    ]
+   },
+   "properties": {
+    "name": "12 ABBOTT STREET WALLOON 4306",
+    "locID": "LOC000193005801",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388578"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65139709,
+     -27.59779435
+    ]
+   },
+   "properties": {
+    "name": "9 KENDALL STREET WALLOON 4306",
+    "locID": "LOC000193005903",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388820"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65290154,
+     -27.59805343
+    ]
+   },
+   "properties": {
+    "name": "6 LAWSON STREET WALLOON 4306",
+    "locID": "LOC000193005743",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388871"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65203355,
+     -27.59860864
+    ]
+   },
+   "properties": {
+    "name": "12 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005575",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388872"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65273846,
+     -27.59912314
+    ]
+   },
+   "properties": {
+    "name": "5 MALOUF CLOSE WALLOON 4306",
+    "locID": "LOC000193005497",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388950"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65259943,
+     -27.59938369
+    ]
+   },
+   "properties": {
+    "name": "83 WALLACE STREET WALLOON 4306",
+    "locID": "LOC000193005445",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388970"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65183385,
+     -27.5979929
+    ]
+   },
+   "properties": {
+    "name": "12 KENDALL STREET WALLOON 4306",
+    "locID": "LOC000193005817",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388971"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.6588426,
+     -27.60364619
+    ]
+   },
+   "properties": {
+    "name": "8 ROHL ROAD WALLOON 4306",
+    "locID": "LOC000189388011",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389138"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65320586,
+     -27.59851129
+    ]
+   },
+   "properties": {
+    "name": "9 LAWSON STREET WALLOON 4306",
+    "locID": "LOC000193005974",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389290"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65264311,
+     -27.59782781
+    ]
+   },
+   "properties": {
+    "name": "17 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005665",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389291"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65200856,
+     -27.59875129
+    ]
+   },
+   "properties": {
+    "name": "10 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005581",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389295"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65780324,
+     -27.60343356
+    ]
+   },
+   "properties": {
+    "name": "42 JOHN STREET WALLOON 4306",
+    "locID": "LOC000189185400",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389303"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65271666,
+     -27.59740786
+    ]
+   },
+   "properties": {
+    "name": "23 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005631",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389551"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.6559075,
+     -27.60285009
+    ]
+   },
+   "properties": {
+    "name": "22 MORGAN STREET WALLOON 4306",
+    "locID": "LOC000189184486",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389678"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.6523371,
+     -27.59933352
+    ]
+   },
+   "properties": {
+    "name": "1 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005575",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389745"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65225018,
+     -27.59737003
+    ]
+   },
+   "properties": {
+    "name": "32 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005683",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389885"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65733728,
+     -27.60330723
+    ]
+   },
+   "properties": {
+    "name": "37 JOHN STREET WALLOON 4306",
+    "locID": "LOC000189184589",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390101"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65854209,
+     -27.60360472
+    ]
+   },
+   "properties": {
+    "name": "52 JANET STREET WALLOON 4306",
+    "locID": "LOC000189363711",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390120"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65218147,
+     -27.59776234
+    ]
+   },
+   "properties": {
+    "name": "26 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005715",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390314"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65237419,
+     -27.59908282
+    ]
+   },
+   "properties": {
+    "name": "1 MALOUF CLOSE WALLOON 4306",
+    "locID": "LOC000193005466",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390360"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65269308,
+     -27.59754249
+    ]
+   },
+   "properties": {
+    "name": "21 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005649",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390449"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65188141,
+     -27.59772141
+    ]
+   },
+   "properties": {
+    "name": "8 KENDALL STREET WALLOON 4306",
+    "locID": "LOC000193005838",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390505"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65192827,
+     -27.59745392
+    ]
+   },
+   "properties": {
+    "name": "4 KENDALL STREET WALLOON 4306",
+    "locID": "LOC000193005864",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390529"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65711932,
+     -27.60319927
+    ]
+   },
+   "properties": {
+    "name": "4 MORGAN STREET WALLOON 4306",
+    "locID": "LOC000189184562",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390547"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65880175,
+     -27.60387824
+    ]
+   },
+   "properties": {
+    "name": "4 ROHL ROAD WALLOON 4306",
+    "locID": "LOC000189388030",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390597"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65207376,
+     -27.59837905
+    ]
+   },
+   "properties": {
+    "name": "16 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005552",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390655"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65146463,
+     -27.59740874
+    ]
+   },
+   "properties": {
+    "name": "3 KENDALL STREET WALLOON 4306",
+    "locID": "LOC000193005872",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390690"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65293379,
+     -27.59847107
+    ]
+   },
+   "properties": {
+    "name": "5 LAWSON STREET WALLOON 4306",
+    "locID": "LOC000193005957",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390691"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65614371,
+     -27.60304485
+    ]
+   },
+   "properties": {
+    "name": "18 MORGAN STREET WALLOON 4306",
+    "locID": "LOC000189184493",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390832"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65255686,
+     -27.59848272
+    ]
+   },
+   "properties": {
+    "name": "9 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005926",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390891"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65256251,
+     -27.59800611
+    ]
+   },
+   "properties": {
+    "name": "2 LAWSON STREET WALLOON 4306",
+    "locID": "LOC000193005762",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390940"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.6519064,
+     -27.59757875
+    ]
+   },
+   "properties": {
+    "name": "6 KENDALL STREET WALLOON 4306",
+    "locID": "LOC000193005840",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391033"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65247433,
+     -27.59936629
+    ]
+   },
+   "properties": {
+    "name": "85 WALLACE STREET WALLOON 4306",
+    "locID": "LOC000193005450",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391121"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65220646,
+     -27.59761968
+    ]
+   },
+   "properties": {
+    "name": "28 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005704",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391222"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65215649,
+     -27.597905
+    ]
+   },
+   "properties": {
+    "name": "24 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005727",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391269"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65203271,
+     -27.59726736
+    ]
+   },
+   "properties": {
+    "name": "4 ABBOTT STREET WALLOON 4306",
+    "locID": "LOC000193005770",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391270"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65205424,
+     -27.5984905
+    ]
+   },
+   "properties": {
+    "name": "14 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005568",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391272"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.6530664,
+     -27.5984895
+    ]
+   },
+   "properties": {
+    "name": "7 LAWSON STREET WALLOON 4306",
+    "locID": "LOC000193005961",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391477"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65254705,
+     -27.59913938
+    ]
+   },
+   "properties": {
+    "name": "3 MALOUF CLOSE WALLOON 4306",
+    "locID": "LOC000193005484",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391664"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65272791,
+     -27.59803139
+    ]
+   },
+   "properties": {
+    "name": "4 LAWSON STREET WALLOON 4306",
+    "locID": "LOC000193005758",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391835"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65646122,
+     -27.60310787
+    ]
+   },
+   "properties": {
+    "name": "14 MORGAN STREET WALLOON 4306",
+    "locID": "LOC000189184515",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391912"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65809951,
+     -27.60349764
+    ]
+   },
+   "properties": {
+    "name": "37 JANET STREET WALLOON 4306",
+    "locID": "LOC000189363500",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391933"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65258309,
+     -27.59835041
+    ]
+   },
+   "properties": {
+    "name": "11 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005935",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391960"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65274204,
+     -27.59940352
+    ]
+   },
+   "properties": {
+    "name": "81 WALLACE STREET WALLOON 4306",
+    "locID": "LOC000193005432",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391981"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65137484,
+     -27.59792141
+    ]
+   },
+   "properties": {
+    "name": "11 KENDALL STREET WALLOON 4306",
+    "locID": "LOC000193005919",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392018"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65280997,
+     -27.5987258
+    ]
+   },
+   "properties": {
+    "name": "6 MALOUF CLOSE WALLOON 4306",
+    "locID": "LOC000193005510",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392060"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65684404,
+     -27.60316104
+    ]
+   },
+   "properties": {
+    "name": "8 MORGAN STREET WALLOON 4306",
+    "locID": "LOC000189184543",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392120"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65506085,
+     -27.60246577
+    ]
+   },
+   "properties": {
+    "name": "29 REASIDE ROAD WALLOON 4306",
+    "locID": "LOC000189184331",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392159"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.6518933,
+     -27.59725099
+    ]
+   },
+   "properties": {
+    "name": "6 ABBOTT STREET WALLOON 4306",
+    "locID": "LOC000193005789",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392161"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65882281,
+     -27.60375788
+    ]
+   },
+   "properties": {
+    "name": "6 ROHL ROAD WALLOON 4306",
+    "locID": "LOC000189388024",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392337"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.6526681,
+     -27.59768514
+    ]
+   },
+   "properties": {
+    "name": "19 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005654",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392499"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.6526349,
+     -27.59865718
+    ]
+   },
+   "properties": {
+    "name": "4 MALOUF CLOSE WALLOON 4306",
+    "locID": "LOC000193005523",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392504"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65185642,
+     -27.59786406
+    ]
+   },
+   "properties": {
+    "name": "10 KENDALL STREET WALLOON 4306",
+    "locID": "LOC000193005829",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392847"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65198357,
+     -27.59889395
+    ]
+   },
+   "properties": {
+    "name": "8 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005599",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392932"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65244754,
+     -27.59866401
+    ]
+   },
+   "properties": {
+    "name": "2 MALOUF CLOSE WALLOON 4306",
+    "locID": "LOC000193005534",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393243"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65209524,
+     -27.59825645
+    ]
+   },
+   "properties": {
+    "name": "18 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005547",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393400"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65227082,
+     -27.59723698
+    ]
+   },
+   "properties": {
+    "name": "34 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005677",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393467"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.6528062,
+     -27.59892838
+    ]
+   },
+   "properties": {
+    "name": "8 MALOUF CLOSE WALLOON 4306",
+    "locID": "LOC000193005506",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393508"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65222832,
+     -27.59749486
+    ]
+   },
+   "properties": {
+    "name": "30 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005696",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393566"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65656631,
+     -27.60312247
+    ]
+   },
+   "properties": {
+    "name": "12 MORGAN STREET WALLOON 4306",
+    "locID": "LOC000189184527",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393663"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65143964,
+     -27.5975514
+    ]
+   },
+   "properties": {
+    "name": "5 KENDALL STREET WALLOON 4306",
+    "locID": "LOC000193005886",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393704"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65698165,
+     -27.60318016
+    ]
+   },
+   "properties": {
+    "name": "6 MORGAN STREET WALLOON 4306",
+    "locID": "LOC000189184558",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393940"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65213392,
+     -27.59803384
+    ]
+   },
+   "properties": {
+    "name": "22 BANJO DRIVE WALLOON 4306",
+    "locID": "LOC000193005736",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721394301"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65141778,
+     -27.59767622
+    ]
+   },
+   "properties": {
+    "name": "7 KENDALL STREET WALLOON 4306",
+    "locID": "LOC000193005893",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721394334"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65384877,
+     -27.60252561
+    ]
+   },
+   "properties": {
+    "name": "77 PARKLAND DRIVE WALLOON 4306",
+    "locID": "LOC000193179708",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721425611"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65422972,
+     -27.60252786
+    ]
+   },
+   "properties": {
+    "name": "4 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179670",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721425677"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65387889,
+     -27.6030504
+    ]
+   },
+   "properties": {
+    "name": "82 PARKLAND DRIVE WALLOON 4306",
+    "locID": "LOC000193179783",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721425896"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.6542064,
+     -27.60264594
+    ]
+   },
+   "properties": {
+    "name": "2 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179689",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721426606"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65366898,
+     -27.60147759
+    ]
+   },
+   "properties": {
+    "name": "12 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180060",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721426691"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65417173,
+     -27.60309111
+    ]
+   },
+   "properties": {
+    "name": "78 PARKLAND DRIVE WALLOON 4306",
+    "locID": "LOC000193179810",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721426822"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65376413,
+     -27.60222151
+    ]
+   },
+   "properties": {
+    "name": "8 GILMORE STREET WALLOON 4306",
+    "locID": "LOC000193179899",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721426941"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65495163,
+     -27.60121626
+    ]
+   },
+   "properties": {
+    "name": "23 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179564",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721427184"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65361489,
+     -27.60103167
+    ]
+   },
+   "properties": {
+    "name": "15 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180162",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721427300"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65488914,
+     -27.6015729
+    ]
+   },
+   "properties": {
+    "name": "17 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179538",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721427695"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65375154,
+     -27.60178138
+    ]
+   },
+   "properties": {
+    "name": "9 GILMORE STREET WALLOON 4306",
+    "locID": "LOC000193179950",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721427855"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65437014,
+     -27.60178521
+    ]
+   },
+   "properties": {
+    "name": "16 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179627",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721427863"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65444949,
+     -27.60312974
+    ]
+   },
+   "properties": {
+    "name": "74 PARKLAND DRIVE WALLOON 4306",
+    "locID": "LOC000193179834",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721428009"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65404086,
+     -27.60226001
+    ]
+   },
+   "properties": {
+    "name": "4 GILMORE STREET WALLOON 4306",
+    "locID": "LOC000193179913",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721428256"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65465301,
+     -27.60263571
+    ]
+   },
+   "properties": {
+    "name": "69 PARKLAND DRIVE WALLOON 4306",
+    "locID": "LOC000193179457",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721428304"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65427784,
+     -27.60112387
+    ]
+   },
+   "properties": {
+    "name": "5 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180115",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721428317"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65346096,
+     -27.6029923
+    ]
+   },
+   "properties": {
+    "name": "88 PARKLAND DRIVE WALLOON 4306",
+    "locID": "LOC000193179754",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721428334"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65441453,
+     -27.60151854
+    ]
+   },
+   "properties": {
+    "name": "20 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179604",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721428335"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65315328,
+     -27.60140597
+    ]
+   },
+   "properties": {
+    "name": "20 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180025",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721428426"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.6534821,
+     -27.60101323
+    ]
+   },
+   "properties": {
+    "name": "17 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180170",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721428629"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65497126,
+     -27.60110433
+    ]
+   },
+   "properties": {
+    "name": "25 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179572",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721429001"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65328591,
+     -27.6014244
+    ]
+   },
+   "properties": {
+    "name": "18 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180039",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721429319"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65413889,
+     -27.60183524
+    ]
+   },
+   "properties": {
+    "name": "3 GILMORE STREET WALLOON 4306",
+    "locID": "LOC000193179921",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721429416"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65414523,
+     -27.60110543
+    ]
+   },
+   "properties": {
+    "name": "7 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180127",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721429457"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65388777,
+     -27.60106962
+    ]
+   },
+   "properties": {
+    "name": "11 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180143",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721429475"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65350636,
+     -27.60218576
+    ]
+   },
+   "properties": {
+    "name": "12 GILMORE STREET WALLOON 4306",
+    "locID": "LOC000193179875",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721429484"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65434304,
+     -27.6019264
+    ]
+   },
+   "properties": {
+    "name": "14 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179636",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721429541"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65349375,
+     -27.60174552
+    ]
+   },
+   "properties": {
+    "name": "13 GILMORE STREET WALLOON 4306",
+    "locID": "LOC000193179978",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721429544"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65310332,
+     -27.60169133
+    ]
+   },
+   "properties": {
+    "name": "19 GILMORE STREET WALLOON 4306",
+    "locID": "LOC000193180018",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721429613"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65337373,
+     -27.60216734
+    ]
+   },
+   "properties": {
+    "name": "14 GILMORE STREET WALLOON 4306",
+    "locID": "LOC000193179868",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721429959"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65429685,
+     -27.60310851
+    ]
+   },
+   "properties": {
+    "name": "76 PARKLAND DRIVE WALLOON 4306",
+    "locID": "LOC000193179823",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721430038"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65324111,
+     -27.60214891
+    ]
+   },
+   "properties": {
+    "name": "16 GILMORE STREET WALLOON 4306",
+    "locID": "LOC000193179852",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721430722"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65474065,
+     -27.6024215
+    ]
+   },
+   "properties": {
+    "name": "3 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179461",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721431020"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65358904,
+     -27.60248952
+    ]
+   },
+   "properties": {
+    "name": "81 PARKLAND DRIVE WALLOON 4306",
+    "locID": "LOC000193179720",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721431028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65399087,
+     -27.60254533
+    ]
+   },
+   "properties": {
+    "name": "75 PARKLAND DRIVE WALLOON 4306",
+    "locID": "LOC000193179691",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721431164"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65371416,
+     -27.60250689
+    ]
+   },
+   "properties": {
+    "name": "79 PARKLAND DRIVE WALLOON 4306",
+    "locID": "LOC000193179712",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721431190"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65493093,
+     -27.60133439
+    ]
+   },
+   "properties": {
+    "name": "21 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179555",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721431377"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.6539342,
+     -27.60151449
+    ]
+   },
+   "properties": {
+    "name": "8 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180087",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721431533"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65491023,
+     -27.60145253
+    ]
+   },
+   "properties": {
+    "name": "19 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179540",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721431761"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65476522,
+     -27.60227925
+    ]
+   },
+   "properties": {
+    "name": "5 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179474",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721432031"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65321685,
+     -27.60097636
+    ]
+   },
+   "properties": {
+    "name": "21 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180191",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721432043"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65426254,
+     -27.60234063
+    ]
+   },
+   "properties": {
+    "name": "8 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179658",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721432112"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65400929,
+     -27.60181721
+    ]
+   },
+   "properties": {
+    "name": "5 GILMORE STREET WALLOON 4306",
+    "locID": "LOC000193179932",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721432143"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65418891,
+     -27.60154992
+    ]
+   },
+   "properties": {
+    "name": "4 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180104",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721432239"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65361891,
+     -27.60176294
+    ]
+   },
+   "properties": {
+    "name": "11 GILMORE STREET WALLOON 4306",
+    "locID": "LOC000193179966",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721432408"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65354376,
+     -27.60146019
+    ]
+   },
+   "properties": {
+    "name": "14 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180056",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721432612"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65310347,
+     -27.60212979
+    ]
+   },
+   "properties": {
+    "name": "18 GILMORE STREET WALLOON 4306",
+    "locID": "LOC000193179847",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721432681"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65336858,
+     -27.60172818
+    ]
+   },
+   "properties": {
+    "name": "15 GILMORE STREET WALLOON 4306",
+    "locID": "LOC000193179984",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721432713"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65428065,
+     -27.60222229
+    ]
+   },
+   "properties": {
+    "name": "10 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179643",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721432838"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65334947,
+     -27.60099479
+    ]
+   },
+   "properties": {
+    "name": "19 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180189",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721432914"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65478685,
+     -27.60215691
+    ]
+   },
+   "properties": {
+    "name": "7 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179488",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721433364"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65486806,
+     -27.60169327
+    ]
+   },
+   "properties": {
+    "name": "15 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179529",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721433443"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65345641,
+     -27.60247112
+    ]
+   },
+   "properties": {
+    "name": "83 PARKLAND DRIVE WALLOON 4306",
+    "locID": "LOC000193179731",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721433512"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65380159,
+     -27.60149604
+    ]
+   },
+   "properties": {
+    "name": "10 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180073",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721433533"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65440293,
+     -27.60114127
+    ]
+   },
+   "properties": {
+    "name": "3 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193179593",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721433705"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65482808,
+     -27.60192266
+    ]
+   },
+   "properties": {
+    "name": "11 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179501",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721433720"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.653639,
+     -27.60220414
+    ]
+   },
+   "properties": {
+    "name": "10 GILMORE STREET WALLOON 4306",
+    "locID": "LOC000193179881",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721433921"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65480715,
+     -27.60204101
+    ]
+   },
+   "properties": {
+    "name": "9 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179490",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721433985"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65388419,
+     -27.6017998
+    ]
+   },
+   "properties": {
+    "name": "7 GILMORE STREET WALLOON 4306",
+    "locID": "LOC000193179945",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721434446"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65484836,
+     -27.60180447
+    ]
+   },
+   "properties": {
+    "name": "13 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179517",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721434468"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65323595,
+     -27.60170975
+    ]
+   },
+   "properties": {
+    "name": "17 GILMORE STREET WALLOON 4306",
+    "locID": "LOC000193180002",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721434866"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65358609,
+     -27.60300969
+    ]
+   },
+   "properties": {
+    "name": "86 PARKLAND DRIVE WALLOON 4306",
+    "locID": "LOC000193179765",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721434886"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65375517,
+     -27.60105118
+    ]
+   },
+   "properties": {
+    "name": "13 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180158",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721435053"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65332834,
+     -27.60297386
+    ]
+   },
+   "properties": {
+    "name": "90 PARKLAND DRIVE WALLOON 4306",
+    "locID": "LOC000193179749",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721435082"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65389875,
+     -27.60224023
+    ]
+   },
+   "properties": {
+    "name": "6 GILMORE STREET WALLOON 4306",
+    "locID": "LOC000193179909",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721435084"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65401273,
+     -27.6010871
+    ]
+   },
+   "properties": {
+    "name": "9 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180136",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721435197"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65439202,
+     -27.60166039
+    ]
+   },
+   "properties": {
+    "name": "18 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179615",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721435353"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65403907,
+     -27.60307269
+    ]
+   },
+   "properties": {
+    "name": "80 PARKLAND DRIVE WALLOON 4306",
+    "locID": "LOC000193179806",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721435381"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.6540593,
+     -27.60153189
+    ]
+   },
+   "properties": {
+    "name": "6 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180094",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721435388"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65424612,
+     -27.60243425
+    ]
+   },
+   "properties": {
+    "name": "6 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193179662",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721435841"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65499198,
+     -27.60098574
+    ]
+   },
+   "properties": {
+    "name": "27 PATERSON ROAD WALLOON 4306",
+    "locID": "LOC000193180209",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721436081"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65341853,
+     -27.60144282
+    ]
+   },
+   "properties": {
+    "name": "16 DAVIS WAY WALLOON 4306",
+    "locID": "LOC000193180041",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721436113"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.65371872,
+     -27.60302813
+    ]
+   },
+   "properties": {
+    "name": "84 PARKLAND DRIVE WALLOON 4306",
+    "locID": "LOC000193179777",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721436273"
    }
   }
  ]

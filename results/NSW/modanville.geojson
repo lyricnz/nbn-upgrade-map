@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-29T08:07:54.676983",
+ "generated": "2024-04-19T14:58:12.460504",
  "suburb": "MODANVILLE",
  "features": [
   {
@@ -593,7 +593,7 @@
    "properties": {
     "name": "22 BARRYS ROAD MODANVILLE 2480",
     "locID": "LOC000025334172",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705384161"
    }
@@ -627,7 +627,7 @@
    "properties": {
     "name": "27 BARRYS ROAD MODANVILLE 2480",
     "locID": "LOC000093438620",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705384163"
    }
@@ -780,7 +780,7 @@
    "properties": {
     "name": "14 HIGHVIEW CRESCENT MODANVILLE 2480",
     "locID": "LOC000068801179",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705387339"
    }
@@ -865,7 +865,7 @@
    "properties": {
     "name": "40 BARRYS ROAD MODANVILLE 2480",
     "locID": "LOC000023127360",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705388142"
    }
@@ -1613,7 +1613,7 @@
    "properties": {
     "name": "995 DUNOON ROAD MODANVILLE 2480",
     "locID": "LOC000104903630",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705391497"
    }
@@ -2140,7 +2140,7 @@
    "properties": {
     "name": "43 FUNNELL DRIVE MODANVILLE 2480",
     "locID": "LOC000017311785",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705392229"
    }
@@ -2548,9 +2548,10 @@
    "properties": {
     "name": "14 EVERSHAM DRIVE MODANVILLE 2480",
     "locID": "LOC000036094216",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705394817"
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
+    "gnaf_pid": "GANSW705394817",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -2650,7 +2651,7 @@
    "properties": {
     "name": "7 EVERSHAM DRIVE MODANVILLE 2480",
     "locID": "LOC000055417107",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705394823"
    }
@@ -3228,7 +3229,7 @@
    "properties": {
     "name": "18 BARRYS ROAD MODANVILLE 2480",
     "locID": "LOC000012142278",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705398951"
    }
@@ -3262,7 +3263,7 @@
    "properties": {
     "name": "50 BARRYS ROAD MODANVILLE 2480",
     "locID": "LOC000052657646",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705398961"
    }
@@ -3602,9 +3603,10 @@
    "properties": {
     "name": "8 CRAIGLEA COURT MODANVILLE 2480",
     "locID": "LOC000107552291",
-    "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705398983"
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
+    "gnaf_pid": "GANSW705398983",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3986,6 +3988,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.30470032,
+     -28.71988798
+    ]
+   },
+   "properties": {
+    "name": "1 BIRDWING PLACE MODANVILLE 2480",
+    "locID": "LOC100085569047",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721046787"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.30469528,
      -28.71924905
     ]
@@ -4013,6 +4032,23 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721051451"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.3028562,
+     -28.71941424
+    ]
+   },
+   "properties": {
+    "name": "8 BIRDWING PLACE MODANVILLE 2480",
+    "locID": "LOC100085589076",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721051747"
    }
   }
  ]
