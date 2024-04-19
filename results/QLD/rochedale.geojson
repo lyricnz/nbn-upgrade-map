@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-29T01:09:56.147628",
+ "generated": "2024-04-19T09:09:56.504127",
  "suburb": "ROCHEDALE",
  "features": [
   {
@@ -554,8 +554,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.11967335,
-     -27.57986712
+     153.11967733,
+     -27.57987913
     ]
    },
    "properties": {
@@ -1339,6 +1339,24 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155759517",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.12367512,
+     -27.57797895
+    ]
+   },
+   "properties": {
+    "name": "645 ROCHEDALE ROAD ROCHEDALE 4123",
+    "locID": "LOC000068885824",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155759518",
     "tech_change_status": "Not Planned"
    }
   },
@@ -2837,8 +2855,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.1171509,
-     -27.56560931
+     153.11715032,
+     -27.56561236
     ]
    },
    "properties": {
@@ -2918,10 +2936,10 @@
    "properties": {
     "name": "50 GLENMORE CRESCENT ROCHEDALE 4123",
     "locID": "LOC000009960999",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD157050104",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2958,10 +2976,10 @@
    "properties": {
     "name": "70 GLENMORE CRESCENT ROCHEDALE 4123",
     "locID": "LOC000051039133",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD157050106",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3105,8 +3123,8 @@
    "properties": {
     "name": "302 GRIEVE ROAD ROCHEDALE 4123",
     "locID": "LOC000033252021",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD157050122",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3145,8 +3163,8 @@
    "properties": {
     "name": "307 GRIEVE ROAD ROCHEDALE 4123",
     "locID": "LOC000029916074",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD157050124",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3258,24 +3276,6 @@
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD157050561",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.10781138,
-     -27.58025458
-    ]
-   },
-   "properties": {
-    "name": "29 SCHOOL ROAD ROCHEDALE 4123",
-    "locID": "LOC000043081574",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157050564",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -3468,8 +3468,8 @@
    "properties": {
     "name": "335 GRIEVE ROAD ROCHEDALE 4123",
     "locID": "LOC000023321638",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD157053426",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4101,7 +4101,7 @@
    "properties": {
     "name": "326 PRIESTDALE ROAD ROCHEDALE 4123",
     "locID": "LOC000193312235",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157056933"
    }
@@ -4218,7 +4218,7 @@
    "properties": {
     "name": "416 PRIESTDALE ROAD ROCHEDALE 4123",
     "locID": "LOC000193312363",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157056939"
    }
@@ -4236,9 +4236,8 @@
     "name": "421 PRIESTDALE ROAD ROCHEDALE 4123",
     "locID": "LOC000034047526",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157056940",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4332,7 +4331,7 @@
    "properties": {
     "name": "440 PRIESTDALE ROAD ROCHEDALE 4123",
     "locID": "LOC000193312623",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157060253"
    }
@@ -6073,8 +6072,8 @@
    "properties": {
     "name": "667 ROCHEDALE ROAD ROCHEDALE 4123",
     "locID": "LOC000187306907",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD157092473",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6093,8 +6092,8 @@
    "properties": {
     "name": "712 ROCHEDALE ROAD ROCHEDALE 4123",
     "locID": "LOC000040290037",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD157092477",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6277,8 +6276,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.1171509,
-     -27.56560931
+     153.11715032,
+     -27.56561236
     ]
    },
    "properties": {
@@ -6484,8 +6483,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.1171509,
-     -27.56560931
+     153.11715032,
+     -27.56561236
     ]
    },
    "properties": {
@@ -6543,7 +6542,7 @@
    "properties": {
     "name": "467 ROCHEDALE ROAD ROCHEDALE 4123",
     "locID": "LOC000193313118",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158566957"
    }
@@ -7505,8 +7504,8 @@
    "properties": {
     "name": "814 ROCHEDALE ROAD ROCHEDALE 4123",
     "locID": "LOC000159201918",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD159382696",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9466,8 +9465,8 @@
    "properties": {
     "name": "307 ROCHEDALE ROAD ROCHEDALE 4123",
     "locID": "LOC000029916074",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162929373",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19567,8 +19566,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.1171509,
-     -27.56560931
+     153.11715032,
+     -27.56561236
     ]
    },
    "properties": {
@@ -44876,6 +44875,1265 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721315066"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11749949,
+     -27.58527783
+    ]
+   },
+   "properties": {
+    "name": "9 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312634",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388207"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11942025,
+     -27.58587853
+    ]
+   },
+   "properties": {
+    "name": "40 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312469",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388569"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11923946,
+     -27.58628128
+    ]
+   },
+   "properties": {
+    "name": "37 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312363",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388570"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.1191614,
+     -27.58392979
+    ]
+   },
+   "properties": {
+    "name": "47 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312901",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388571"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11763288,
+     -27.5850777
+    ]
+   },
+   "properties": {
+    "name": "13 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312652",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388572"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11986812,
+     -27.58404211
+    ]
+   },
+   "properties": {
+    "name": "61 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193313092",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388576"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11900174,
+     -27.58624868
+    ]
+   },
+   "properties": {
+    "name": "41 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312385",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388677"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11929119,
+     -27.58395451
+    ]
+   },
+   "properties": {
+    "name": "49 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312964",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388953"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11833403,
+     -27.58427048
+    ]
+   },
+   "properties": {
+    "name": "33 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312756",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388954"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11911435,
+     -27.58626412
+    ]
+   },
+   "properties": {
+    "name": "39 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312371",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388955"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11956978,
+     -27.58632657
+    ]
+   },
+   "properties": {
+    "name": "31 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312337",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388956"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11975387,
+     -27.58592426
+    ]
+   },
+   "properties": {
+    "name": "48 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312424",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388984"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11976312,
+     -27.58402713
+    ]
+   },
+   "properties": {
+    "name": "57 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193313085",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388986"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11856744,
+     -27.58576161
+    ]
+   },
+   "properties": {
+    "name": "22 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312532",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389354"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11769415,
+     -27.58497901
+    ]
+   },
+   "properties": {
+    "name": "15 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312668",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389355"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11880837,
+     -27.58579446
+    ]
+   },
+   "properties": {
+    "name": "28 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312513",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389394"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11833074,
+     -27.58615638
+    ]
+   },
+   "properties": {
+    "name": "17 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312290",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389731"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11986712,
+     -27.58593891
+    ]
+   },
+   "properties": {
+    "name": "50 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312411",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389773"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.1200903,
+     -27.5840738
+    ]
+   },
+   "properties": {
+    "name": "65 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193313118",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389775"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11798363,
+     -27.58451566
+    ]
+   },
+   "properties": {
+    "name": "25 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312718",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389825"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11967488,
+     -27.58634099
+    ]
+   },
+   "properties": {
+    "name": "29 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312328",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721389873"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11946467,
+     -27.58631216
+    ]
+   },
+   "properties": {
+    "name": "33 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312344",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390156"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.1174659,
+     -27.5856106
+    ]
+   },
+   "properties": {
+    "name": "6 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312606",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390160"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11729378,
+     -27.58600876
+    ]
+   },
+   "properties": {
+    "name": "1 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312647",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390161"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11757507,
+     -27.5860525
+    ]
+   },
+   "properties": {
+    "name": "5 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312235",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390163"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11952034,
+     -27.58589225
+    ]
+   },
+   "properties": {
+    "name": "42 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312448",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390182"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11941311,
+     -27.58397719
+    ]
+   },
+   "properties": {
+    "name": "51 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193313028",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390261"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11930764,
+     -27.58586309
+    ]
+   },
+   "properties": {
+    "name": "38 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312476",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390300"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11888918,
+     -27.58623342
+    ]
+   },
+   "properties": {
+    "name": "43 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312392",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390337"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11795703,
+     -27.58609423
+    ]
+   },
+   "properties": {
+    "name": "11 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312261",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390513"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.1187875,
+     -27.58404055
+    ]
+   },
+   "properties": {
+    "name": "41 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312787",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390566"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11867893,
+     -27.58410151
+    ]
+   },
+   "properties": {
+    "name": "39 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312773",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390953"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11783928,
+     -27.58565781
+    ]
+   },
+   "properties": {
+    "name": "12 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312578",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721390988"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11803111,
+     -27.58442512
+    ]
+   },
+   "properties": {
+    "name": "27 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312725",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391056"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11787797,
+     -27.5846829
+    ]
+   },
+   "properties": {
+    "name": "21 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312699",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391059"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11919504,
+     -27.58584765
+    ]
+   },
+   "properties": {
+    "name": "36 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312482",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391131"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11813083,
+     -27.58569788
+    ]
+   },
+   "properties": {
+    "name": "16 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312566",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391331"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11757102,
+     -27.58517357
+    ]
+   },
+   "properties": {
+    "name": "11 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312647",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391530"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11770519,
+     -27.58607039
+    ]
+   },
+   "properties": {
+    "name": "7 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312242",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391729"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.12021929,
+     -27.58409198
+    ]
+   },
+   "properties": {
+    "name": "67 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193313125",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391731"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11898244,
+     -27.58581833
+    ]
+   },
+   "properties": {
+    "name": "30 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312509",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391736"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11901643,
+     -27.58393981
+    ]
+   },
+   "properties": {
+    "name": "45 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312843",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391738"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11935707,
+     -27.58629741
+    ]
+   },
+   "properties": {
+    "name": "35 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312359",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391767"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11843537,
+     -27.58423073
+    ]
+   },
+   "properties": {
+    "name": "35 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312760",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391848"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11978903,
+     -27.58635563
+    ]
+   },
+   "properties": {
+    "name": "27 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312316",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721391849"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11733582,
+     -27.58559023
+    ]
+   },
+   "properties": {
+    "name": "2 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312610",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392132"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11729378,
+     -27.58600876
+    ]
+   },
+   "properties": {
+    "name": "1 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312219",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392133"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.1184183,
+     -27.58574117
+    ]
+   },
+   "properties": {
+    "name": "20 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312545",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392162"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11812311,
+     -27.58434147
+    ]
+   },
+   "properties": {
+    "name": "29 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312739",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392171"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11770812,
+     -27.58564381
+    ]
+   },
+   "properties": {
+    "name": "10 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312584",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392172"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11744551,
+     -27.58540325
+    ]
+   },
+   "properties": {
+    "name": "7 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312623",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392175"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11775543,
+     -27.5848803
+    ]
+   },
+   "properties": {
+    "name": "17 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312675",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392176"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.1178328,
+     -27.58608793
+    ]
+   },
+   "properties": {
+    "name": "9 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312257",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392263"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11888712,
+     -27.58398379
+    ]
+   },
+   "properties": {
+    "name": "43 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312804",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392264"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11781669,
+     -27.5847816
+    ]
+   },
+   "properties": {
+    "name": "19 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312681",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392546"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11824266,
+     -27.5843094
+    ]
+   },
+   "properties": {
+    "name": "31 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312741",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392654"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11820062,
+     -27.58613849
+    ]
+   },
+   "properties": {
+    "name": "15 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312288",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392911"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11909494,
+     -27.58583393
+    ]
+   },
+   "properties": {
+    "name": "32 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312495",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392956"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11733582,
+     -27.58559023
+    ]
+   },
+   "properties": {
+    "name": "5 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193313063",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393178"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11758701,
+     -27.58562721
+    ]
+   },
+   "properties": {
+    "name": "8 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312597",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393309"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11744495,
+     -27.58603461
+    ]
+   },
+   "properties": {
+    "name": "3 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312226",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393312"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11942853,
+     -27.58117994
+    ]
+   },
+   "properties": {
+    "name": "559 MILES PLATTING ROAD ROCHEDALE 4123",
+    "locID": "LOC000126898503",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393314",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11845986,
+     -27.58617319
+    ]
+   },
+   "properties": {
+    "name": "19 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312300",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393413"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11807801,
+     -27.58612164
+    ]
+   },
+   "properties": {
+    "name": "13 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312274",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393416"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11793311,
+     -27.58459406
+    ]
+   },
+   "properties": {
+    "name": "23 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193312702",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393417"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11827366,
+     -27.58572134
+    ]
+   },
+   "properties": {
+    "name": "18 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312550",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393418"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11952812,
+     -27.58399361
+    ]
+   },
+   "properties": {
+    "name": "53 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193313063",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393419"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.1196456,
+     -27.58401036
+    ]
+   },
+   "properties": {
+    "name": "55 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193313071",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393693"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.1196371,
+     -27.58590826
+    ]
+   },
+   "properties": {
+    "name": "46 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312430",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721393694"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11869456,
+     -27.58577905
+    ]
+   },
+   "properties": {
+    "name": "26 ABLOOM STREET ROCHEDALE 4123",
+    "locID": "LOC000193312521",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721394124"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11997312,
+     -27.58405709
+    ]
+   },
+   "properties": {
+    "name": "63 EVERGREEN STREET ROCHEDALE 4123",
+    "locID": "LOC000193313102",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721394240"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11813083,
+     -27.58569788
+    ]
+   },
+   "properties": {
+    "name": "1 ROSEMARY CIRCUIT ROCHEDALE 4123",
+    "locID": "LOC000193727053",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721428140"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11783928,
+     -27.58565781
+    ]
+   },
+   "properties": {
+    "name": "2 ROSEMARY CIRCUIT ROCHEDALE 4123",
+    "locID": "LOC000193726821",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721434283"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11611785,
+     -27.57962693
+    ]
+   },
+   "properties": {
+    "name": "UNIT 34, 21 HARRIER STREET ROCHEDALE 4123",
+    "locID": "LOC000190310249",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721450032"
    }
   }
  ]
