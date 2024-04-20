@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-31T00:49:38.886743",
+ "generated": "2024-04-20T21:19:18.355995",
  "suburb": "KINGS PARK",
  "features": [
   {
@@ -424,8 +424,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.76912584,
-     -37.72629999
+     144.76912522,
+     -37.7263
     ]
    },
    "properties": {
@@ -23043,7 +23043,7 @@
    "properties": {
     "name": "20 PARABURDOO LANE KINGS PARK 3021",
     "locID": "LOC000029132489",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420468137",
     "tech_change_status": "Eligible To Order",
@@ -23063,10 +23063,10 @@
    "properties": {
     "name": "21 PARABURDOO LANE KINGS PARK 3021",
     "locID": "LOC000020534706",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420468138",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25581,10 +25581,10 @@
    "properties": {
     "name": "32 PARABURDOO LANE KINGS PARK 3021",
     "locID": "LOC000024767791",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420751309",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29305,10 +29305,10 @@
    "properties": {
     "name": "29 UNICORN WAY KINGS PARK 3021",
     "locID": "LOC000071862651",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC420773725",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37052,6 +37052,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421091751"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.77947,
+     -37.730539
+    ]
+   },
+   "properties": {
+    "name": "3 WATTLE AVENUE KINGS PARK 3021",
+    "locID": "LOC000194739165",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421092239"
    }
   },
   {
@@ -49493,10 +49510,10 @@
    "properties": {
     "name": "395 TAYLORS ROAD KINGS PARK 3021",
     "locID": "LOC000021025287",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421913832",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50382,8 +50399,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.76912584,
-     -37.72629999
+     144.76912522,
+     -37.7263
     ]
    },
    "properties": {
@@ -50910,6 +50927,40 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720456187"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.77946551,
+     -37.73049098
+    ]
+   },
+   "properties": {
+    "name": "3B WATTLE AVENUE KINGS PARK 3021",
+    "locID": "LOC000194739177",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720598003"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.77945375,
+     -37.730559
+    ]
+   },
+   "properties": {
+    "name": "3A WATTLE AVENUE KINGS PARK 3021",
+    "locID": "LOC000194739165",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720598103"
    }
   },
   {
