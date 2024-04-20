@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-30T12:38:45.143056",
+ "generated": "2024-04-20T12:26:47.002585",
  "suburb": "STIRLING",
  "features": [
   {
@@ -3337,9 +3337,9 @@
     "name": "7 PEPPER AVENUE STIRLING 5152",
     "locID": "LOC000013343596",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415085561",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6698,8 +6698,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.72244288,
-     -35.0075146
+     138.7225178,
+     -35.00743125
     ]
    },
    "properties": {
@@ -10090,8 +10090,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.73242296,
-     -35.00094285
+     138.73242162,
+     -35.00095177
     ]
    },
    "properties": {
@@ -13494,8 +13494,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.71691848,
-     -35.00759062
+     138.71691597,
+     -35.00758762
     ]
    },
    "properties": {
@@ -16049,7 +16049,7 @@
     "name": "39 BRAESIDE ROAD STIRLING 5152",
     "locID": "LOC000004520622",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415483592",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20415,8 +20415,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.742308,
-     -34.99345447
+     138.74335779,
+     -34.99154371
     ]
    },
    "properties": {
@@ -24046,8 +24046,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.72088504,
-     -35.00695747
+     138.72077754,
+     -35.00732079
     ]
    },
    "properties": {
@@ -26816,26 +26816,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.74335779,
-     -34.99154371
-    ]
-   },
-   "properties": {
-    "name": "LOT 53 GOLFLINKS ROAD STIRLING 5152",
-    "locID": "LOC000104152225",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_423734978",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.71940246,
      -35.00807235
     ]
@@ -28006,26 +27986,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.71239783,
-     -35.01005077
-    ]
-   },
-   "properties": {
-    "name": "LOT 257 STONEHENGE AVENUE STIRLING 5152",
-    "locID": "LOC000005377557",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_424212675",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.70913988,
      -35.0013286
     ]
@@ -28069,11 +28029,151 @@
     ]
    },
    "properties": {
+    "name": "UNIT 1, 8-12 MOUNT BARKER ROAD STIRLING 5152",
+    "locID": "LOC000104365359",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424411976",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.71568127,
+     -35.00464208
+    ]
+   },
+   "properties": {
     "name": "UNIT 2, 8-12 MOUNT BARKER ROAD STIRLING 5152",
     "locID": "LOC000104288595",
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424411977",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.71568127,
+     -35.00464208
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 8-12 MOUNT BARKER ROAD STIRLING 5152",
+    "locID": "LOC000104381564",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424411978",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.71568127,
+     -35.00464208
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 8-12 MOUNT BARKER ROAD STIRLING 5152",
+    "locID": "LOC000104059026",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424411979",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.71568127,
+     -35.00464208
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 8-12 MOUNT BARKER ROAD STIRLING 5152",
+    "locID": "LOC000104655098",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424411980",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.71568127,
+     -35.00464208
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 8-12 MOUNT BARKER ROAD STIRLING 5152",
+    "locID": "LOC000104353178",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424411981",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.71568127,
+     -35.00464208
+    ]
+   },
+   "properties": {
+    "name": "UNIT 7, 8-12 MOUNT BARKER ROAD STIRLING 5152",
+    "locID": "LOC000104579558",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424411982",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.71568127,
+     -35.00464208
+    ]
+   },
+   "properties": {
+    "name": "UNIT 8, 8-12 MOUNT BARKER ROAD STIRLING 5152",
+    "locID": "LOC000104059026",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424411983",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Dec 2025"
@@ -29158,8 +29258,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.717037,
-     -35.0061439
+     138.7170331,
+     -35.00617052
     ]
    },
    "properties": {
@@ -29650,8 +29750,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.71563384,
-     -35.00446071
+     138.71568457,
+     -35.00444254
     ]
    },
    "properties": {
@@ -29711,7 +29811,7 @@
     "type": "Point",
     "coordinates": [
      138.71746768,
-     -35.00267494
+     -35.00267495
     ]
    },
    "properties": {
@@ -29731,7 +29831,7 @@
     "type": "Point",
     "coordinates": [
      138.71746768,
-     -35.00267494
+     -35.00267495
     ]
    },
    "properties": {
@@ -30131,126 +30231,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.71568127,
-     -35.00464208
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 8 MOUNT BARKER ROAD STIRLING 5152",
-    "locID": "LOC000102745282",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_719858987",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.71568127,
-     -35.00464208
-    ]
-   },
-   "properties": {
-    "name": "UNIT 5, 8 MOUNT BARKER ROAD STIRLING 5152",
-    "locID": "LOC000064169221",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_719859805",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.71568127,
-     -35.00464208
-    ]
-   },
-   "properties": {
-    "name": "UNIT 4, 8 MOUNT BARKER ROAD STIRLING 5152",
-    "locID": "LOC000104059026",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_719859997",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.71568127,
-     -35.00464208
-    ]
-   },
-   "properties": {
-    "name": "UNIT 7, 8 MOUNT BARKER ROAD STIRLING 5152",
-    "locID": "LOC000104579558",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_719860610",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.71568127,
-     -35.00464208
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 8 MOUNT BARKER ROAD STIRLING 5152",
-    "locID": "LOC000007537791",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_719862200",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.71568127,
-     -35.00464208
-    ]
-   },
-   "properties": {
-    "name": "UNIT 6, 8 MOUNT BARKER ROAD STIRLING 5152",
-    "locID": "LOC000064169221",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_719862844",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.71531651,
      -35.00535301
     ]
@@ -30261,46 +30241,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_719863724",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.71568127,
-     -35.00464208
-    ]
-   },
-   "properties": {
-    "name": "UNIT 8, 8 MOUNT BARKER ROAD STIRLING 5152",
-    "locID": "LOC000064169221",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_719863970",
-    "tech_change_status": "Committed",
-    "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.71138656,
-     -35.00828177
-    ]
-   },
-   "properties": {
-    "name": "26-30 STONEHENGE AVENUE STIRLING 5152",
-    "locID": "LOC000048355475",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_719864694",
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Dec 2025"
@@ -30660,7 +30600,7 @@
     "type": "Point",
     "coordinates": [
      138.71746768,
-     -35.00267494
+     -35.00267495
     ]
    },
    "properties": {
@@ -30817,48 +30757,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.71496172,
-     -35.00615814
-    ]
-   },
-   "properties": {
-    "name": "LOT 2 DRUID AVENUE STIRLING 5152",
-    "locID": "LOC000075874966",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_721110764",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.73236574,
-     -35.00123416
-    ]
-   },
-   "properties": {
-    "name": "LOT 11 PEPPER AVENUE STIRLING 5152",
-    "locID": "LOC000016080932",
-    "tech": "FTTP",
-    "upgrade": "FTTN_CT",
-    "gnaf_pid": "GASA_721110958",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.71707301,
-     -35.00785779
+     138.71707212,
+     -35.00785568
     ]
    },
    "properties": {
@@ -30961,6 +30861,86 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721277771",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.71496172,
+     -35.00615814
+    ]
+   },
+   "properties": {
+    "name": "17 MILAN TERRACE STIRLING 5152",
+    "locID": "LOC000187442829",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_721348987",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.71563384,
+     -35.00446071
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 6 MOUNT BARKER ROAD STIRLING 5152",
+    "locID": "LOC000104353178",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_721410169",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.71563384,
+     -35.00446071
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 6 MOUNT BARKER ROAD STIRLING 5152",
+    "locID": "LOC000064095297",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_721411221",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.71563384,
+     -35.00446071
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 6 MOUNT BARKER ROAD STIRLING 5152",
+    "locID": "LOC000102551405",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_721413525",
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
    }
   }
  ]

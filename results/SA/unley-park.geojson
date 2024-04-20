@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-30T12:56:32.759789",
+ "generated": "2024-04-20T12:39:28.571112",
  "suburb": "UNLEY PARK",
  "features": [
   {
@@ -833,10 +833,9 @@
    "properties": {
     "name": "10 HIGH STREET UNLEY PARK 5061",
     "locID": "LOC000082189889",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415155667",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415155667"
    }
   },
   {
@@ -1405,10 +1404,10 @@
    "properties": {
     "name": "15 NORTHGATE STREET UNLEY PARK 5061",
     "locID": "LOC000019230541",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415390513",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2070,10 +2069,9 @@
    "properties": {
     "name": "10 GEORGE STREET UNLEY PARK 5061",
     "locID": "LOC000009224882",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415390607",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415390607"
    }
   },
   {
@@ -2905,8 +2903,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.603218,
-     -34.96314349
+     138.60320327,
+     -34.96303294
     ]
    },
    "properties": {
@@ -3659,8 +3657,8 @@
    "properties": {
     "name": "16 NORTHGATE STREET UNLEY PARK 5061",
     "locID": "LOC000067921066",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415419595",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5224,10 +5222,10 @@
    "properties": {
     "name": "11 HIGH STREET UNLEY PARK 5061",
     "locID": "LOC000052377579",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GASA_415433361",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -5424,7 +5422,8 @@
     "locID": "LOC000065819070",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415433380"
+    "gnaf_pid": "GASA_415433380",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5895,10 +5894,9 @@
    "properties": {
     "name": "23 HIGH STREET UNLEY PARK 5061",
     "locID": "LOC000030302415",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415434723",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415434723"
    }
   },
   {
@@ -6219,8 +6217,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.60492697,
-     -34.96066967
+     138.60496347,
+     -34.96056493
     ]
    },
    "properties": {
@@ -7587,6 +7585,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415546046",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9873,6 +9872,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.60410518,
+     -34.96431297
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 25 HIGH STREET UNLEY PARK 5061",
+    "locID": "LOC000027449484",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_415701164",
+    "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.60354487,
      -34.96208933
     ]
@@ -11559,8 +11576,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.60459833,
-     -34.96166159
+     138.59582447,
+     -34.96161391
+    ]
+   },
+   "properties": {
+    "name": "2B ELM STREET UNLEY PARK 5061",
+    "locID": "LOC000081863468",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_424413706"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.6050494,
+     -34.96163211
     ]
    },
    "properties": {
@@ -11578,8 +11612,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.60743568,
-     -34.95968046
+     138.60720684,
+     -34.95969246
     ]
    },
    "properties": {
@@ -11630,8 +11664,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.60768286,
-     -34.96255908
+     138.60799944,
+     -34.96255993
     ]
    },
    "properties": {
