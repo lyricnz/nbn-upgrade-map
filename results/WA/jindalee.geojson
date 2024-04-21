@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-31T12:24:58.039699",
+ "generated": "2024-04-21T06:12:42.691226",
  "suburb": "JINDALEE",
  "features": [
   {
@@ -5623,10 +5623,9 @@
    "properties": {
     "name": "6 SPRITSAIL WAY JINDALEE 6036",
     "locID": "LOC000033067946",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162269846",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5663,10 +5662,10 @@
    "properties": {
     "name": "2 STINGRAY WAY JINDALEE 6036",
     "locID": "LOC000055046478",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAWA_162270031",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11401,9 +11400,9 @@
     "name": "21 ROUNDHOUSE PARADE JINDALEE 6036",
     "locID": "LOC000153355895",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAWA_718391713",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11618,7 +11617,7 @@
     "name": "37 WINDJAMMER PARKWAY JINDALEE 6036",
     "locID": "LOC000153368549",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAWA_718393013",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12662,6 +12661,23 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720561899"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.67763832,
+     -31.63585929
+    ]
+   },
+   "properties": {
+    "name": "60 ANOMIA ROAD JINDALEE 6036",
+    "locID": "LOC100082016315",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721343608"
    }
   }
  ]
