@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-03-31T09:33:32.581697",
+ "generated": "2024-04-21T04:06:52.233492",
  "suburb": "ASHBY",
  "features": [
   {
@@ -8374,10 +8374,10 @@
    "properties": {
     "name": "6 SIENA LINK ASHBY 6065",
     "locID": "LOC000064286038",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAWA_160661396",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8613,9 +8613,9 @@
     "name": "34 SEURAT LOOP ASHBY 6065",
     "locID": "LOC000098036591",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_160663231",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11654,10 +11654,9 @@
    "properties": {
     "name": "27 HENNESSY DRIVE ASHBY 6065",
     "locID": "LOC000024550590",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_161030104",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18350,10 +18349,9 @@
    "properties": {
     "name": "143 CAROSA ROAD ASHBY 6065",
     "locID": "LOC000102602486",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162638411",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24121,6 +24119,40 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_721017905"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.80349136,
+     -31.72837695
+    ]
+   },
+   "properties": {
+    "name": "64 ROCCELLA LOOP ASHBY 6065",
+    "locID": "LOC000137132898",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721406555"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.80362012,
+     -31.72837675
+    ]
+   },
+   "properties": {
+    "name": "62 ROCCELLA LOOP ASHBY 6065",
+    "locID": "LOC000137132879",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721407483"
    }
   }
  ]
