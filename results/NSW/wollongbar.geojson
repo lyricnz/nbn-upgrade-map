@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-03T18:17:45.488861",
+ "generated": "2024-04-23T19:32:36.781747",
  "suburb": "WOLLONGBAR",
  "features": [
   {
@@ -311,7 +311,7 @@
    "properties": {
     "name": "1 CONVERYS LANE WOLLONGBAR 2477",
     "locID": "LOC000035686843",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706295064"
    }
@@ -328,7 +328,7 @@
    "properties": {
     "name": "12 CONVERYS LANE WOLLONGBAR 2477",
     "locID": "LOC000011345271",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706295065"
    }
@@ -430,7 +430,7 @@
    "properties": {
     "name": "71 CONVERYS LANE WOLLONGBAR 2477",
     "locID": "LOC000063781091",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706295071"
    }
@@ -682,7 +682,7 @@
    "properties": {
     "name": "1 MCLEANS RIDGES ROAD WOLLONGBAR 2477",
     "locID": "LOC000093780649",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706295317"
    }
@@ -767,7 +767,7 @@
    "properties": {
     "name": "6 MCLEANS RIDGES ROAD WOLLONGBAR 2477",
     "locID": "LOC000096405901",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706295322"
    }
@@ -2395,8 +2395,9 @@
     "name": "58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706302245"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW706302245",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -3851,7 +3852,7 @@
    "properties": {
     "name": "162 LINDENDALE ROAD WOLLONGBAR 2477",
     "locID": "LOC000028195566",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706308772"
    }
@@ -3953,7 +3954,7 @@
    "properties": {
     "name": "223 LINDENDALE ROAD WOLLONGBAR 2477",
     "locID": "LOC000043853971",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706308778"
    }
@@ -3970,7 +3971,7 @@
    "properties": {
     "name": "226 LINDENDALE ROAD WOLLONGBAR 2477",
     "locID": "LOC000010502630",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706308779"
    }
@@ -4591,8 +4592,8 @@
    "properties": {
     "name": "18 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000045494453",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GANSW706312492",
     "tech_change_status": "Eligible To Order"
    }
@@ -5004,7 +5005,7 @@
    "properties": {
     "name": "1256 BRUXNER HIGHWAY WOLLONGBAR 2477",
     "locID": "LOC000066738079",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706312536"
    }
@@ -5021,7 +5022,7 @@
    "properties": {
     "name": "1266 BRUXNER HIGHWAY WOLLONGBAR 2477",
     "locID": "LOC000051416702",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706312537"
    }
@@ -5463,10 +5464,9 @@
    "properties": {
     "name": "26 MIDWAY AVENUE WOLLONGBAR 2477",
     "locID": "LOC000086894448",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706316126",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7956,7 +7956,7 @@
     "name": "6 ACACIA STREET WOLLONGBAR 2477",
     "locID": "LOC000017568291",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706322768",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7975,10 +7975,9 @@
    "properties": {
     "name": "7 ACACIA STREET WOLLONGBAR 2477",
     "locID": "LOC000011344150",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706322769",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8529,7 +8528,7 @@
    "properties": {
     "name": "1246 BRUXNER HIGHWAY WOLLONGBAR 2477",
     "locID": "LOC000025378335",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706322804"
    }
@@ -9117,10 +9116,10 @@
    "properties": {
     "name": "16 WOLLONGBAR DRIVE WOLLONGBAR 2477",
     "locID": "LOC000001395802",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW706326065",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11421,7 +11420,7 @@
    "properties": {
     "name": "61 SNEATHS ROAD WOLLONGBAR 2477",
     "locID": "LOC000068456572",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706336319"
    }
@@ -12425,7 +12424,7 @@
    "properties": {
     "name": "30 CERRETO CIRCUIT WOLLONGBAR 2477",
     "locID": "LOC000079165317",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706339084"
    }
@@ -12445,7 +12444,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW706339085",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12632,10 +12631,9 @@
    "properties": {
     "name": "5 WOLLONGBAR DRIVE WOLLONGBAR 2477",
     "locID": "LOC000015022277",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706339112",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14826,10 +14824,10 @@
    "properties": {
     "name": "134 CHESWORTH LANE WOLLONGBAR 2477",
     "locID": "LOC000010944534",
-    "tech": "SATELLITE",
-    "upgrade": "FW_NA",
+    "tech": "WIRELESS",
+    "upgrade": "SAT_CT",
     "gnaf_pid": "GANSW706346650",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -15096,7 +15094,7 @@
    "properties": {
     "name": "74 CONVERYS LANE WOLLONGBAR 2477",
     "locID": "LOC000047718786",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706657838"
    }
@@ -15130,7 +15128,7 @@
    "properties": {
     "name": "74 CHESWORTH LANE WOLLONGBAR 2477",
     "locID": "LOC000065456797",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706661419"
    }
@@ -17922,7 +17920,7 @@
    "properties": {
     "name": "32 CERRETO CIRCUIT WOLLONGBAR 2477",
     "locID": "LOC000079165317",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716389621"
    }
@@ -18712,7 +18710,7 @@
    "properties": {
     "name": "65 CHESWORTH LANE WOLLONGBAR 2477",
     "locID": "LOC000052341528",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716916786"
    }
@@ -18876,7 +18874,7 @@
    "properties": {
     "name": "30-32 CERRETO CIRCUIT WOLLONGBAR 2477",
     "locID": "LOC000079165317",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717137924"
    }
@@ -19606,7 +19604,7 @@
    "properties": {
     "name": "63 NORMAN JONES LANE WOLLONGBAR 2477",
     "locID": "LOC000110600960",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718158294"
    }
@@ -20785,7 +20783,7 @@
    "properties": {
     "name": "46 SNEATHS ROAD WOLLONGBAR 2477",
     "locID": "LOC000141857137",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718206043"
    }
@@ -20878,7 +20876,7 @@
    "properties": {
     "name": "HOUSE 1, 1243 BRUXNER HIGHWAY WOLLONGBAR 2477",
     "locID": "LOC000121205093",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718275166"
    }
@@ -20895,7 +20893,7 @@
    "properties": {
     "name": "HOUSE 2, 1243 BRUXNER HIGHWAY WOLLONGBAR 2477",
     "locID": "LOC000121205064",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718275167"
    }
@@ -21040,10 +21038,9 @@
    "properties": {
     "name": "1 AVALON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000121186787",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718305194",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26831,8 +26828,9 @@
     "name": "UNIT 14, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720317614"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720317614",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26865,8 +26863,9 @@
     "name": "UNIT 9, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720318096"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720318096",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26882,8 +26881,9 @@
     "name": "UNIT 8, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720318106"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720318106",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26917,8 +26917,9 @@
     "name": "UNIT 13, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720318451"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720318451",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -26934,8 +26935,9 @@
     "name": "UNIT 15, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720318547"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720318547",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27072,8 +27074,9 @@
     "name": "UNIT 16, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720324507"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720324507",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27141,8 +27144,9 @@
     "name": "54 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000178974232",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720326984"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720326984",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27158,8 +27162,9 @@
     "name": "UNIT 12, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720327273"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720327273",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27175,8 +27180,9 @@
     "name": "UNIT 17, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720327350"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720327350",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -27226,8 +27232,9 @@
     "name": "UNIT 11, 58 SIMPSON AVENUE WOLLONGBAR 2477",
     "locID": "LOC000186024752",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720327639"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720327639",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
