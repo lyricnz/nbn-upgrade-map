@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-04T10:04:44.485419",
+ "generated": "2024-04-24T08:14:59.104526",
  "suburb": "CRANBOURNE",
  "features": [
   {
@@ -39800,10 +39800,9 @@
    "properties": {
     "name": "5 EARLSTON CIRCUIT CRANBOURNE 3977",
     "locID": "LOC000081309709",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420406225",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65327,23 +65326,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.285346,
-     -38.109049
-    ]
-   },
-   "properties": {
-    "name": "21 CODRINGTON STREET CRANBOURNE 3977",
-    "locID": "LOC000038999631",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421007355"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.285399,
      -38.108752
     ]
@@ -68090,10 +68072,10 @@
    "properties": {
     "name": "1475 SOUTH GIPPSLAND HIGHWAY CRANBOURNE 3977",
     "locID": "LOC000090882008",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421021460",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -134508,8 +134490,8 @@
    "properties": {
     "name": "11 ARIES STREET CRANBOURNE 3977",
     "locID": "LOC000194747940",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423963042"
    }
   },
@@ -166216,6 +166198,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.2903481,
+     -38.10618136
+    ]
+   },
+   "properties": {
+    "name": "135 CLARENDON STREET CRANBOURNE 3977",
+    "locID": "LOC000194844874",
+    "tech": "NULL",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAVIC721371581"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.27454793,
      -38.10743369
     ]
@@ -166260,6 +166259,40 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721375323"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.26743049,
+     -38.09985558
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 110 MONAHANS ROAD CRANBOURNE 3977",
+    "locID": "LOC000194847601",
+    "tech": "NULL",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAVIC721417847"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.26743049,
+     -38.09985558
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 110 MONAHANS ROAD CRANBOURNE 3977",
+    "locID": "LOC000194847601",
+    "tech": "NULL",
+    "upgrade": "UNKNOWN",
+    "gnaf_pid": "GAVIC721420161"
    }
   }
  ]
