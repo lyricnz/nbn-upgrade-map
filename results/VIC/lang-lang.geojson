@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-04T18:36:34.846614",
+ "generated": "2024-04-24T16:02:17.274850",
  "suburb": "LANG LANG",
  "features": [
   {
@@ -1583,7 +1583,7 @@
     "tech": "WIRELESS",
     "upgrade": "SAT_CT",
     "gnaf_pid": "GAVIC420002718",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -2319,6 +2319,23 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420295349"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.58150912,
+     -38.2684678
+    ]
+   },
+   "properties": {
+    "name": "95 RANGE ROAD LANG LANG 3984",
+    "locID": "LOC000125691322",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420328840"
    }
   },
   {
@@ -7286,7 +7303,7 @@
     "name": "4 TRESIZE COURT LANG LANG 3984",
     "locID": "LOC000027647714",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421616350",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7597,9 +7614,9 @@
     "name": "14 SALISBURY STREET LANG LANG 3984",
     "locID": "LOC000067339068",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC421638920",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8034,9 +8051,9 @@
     "name": "21 TRESIZE COURT LANG LANG 3984",
     "locID": "LOC000031622778",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421893880",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10193,6 +10210,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423670856",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10354,10 +10372,10 @@
    "properties": {
     "name": "53 WESTERNPORT ROAD LANG LANG 3984",
     "locID": "LOC000074712927",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC423670865",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11987,11 +12005,9 @@
     "name": "46 GAINSBOROUGH AVENUE LANG LANG 3984",
     "locID": "LOC000037150024",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424081366",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -12007,11 +12023,9 @@
     "name": "51 GAINSBOROUGH AVENUE LANG LANG 3984",
     "locID": "LOC000092814902",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424081367",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -13831,10 +13845,9 @@
    "properties": {
     "name": "197 MCDONALDS TRACK LANG LANG 3984",
     "locID": "LOC000150315805",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425229393",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
