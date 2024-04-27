@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-08T20:01:03.981379",
+ "generated": "2024-04-27T22:52:17.246336",
  "suburb": "WOODVILLE GARDENS",
  "features": [
   {
@@ -5519,6 +5519,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.5545715,
+     -34.86797257
+    ]
+   },
+   "properties": {
+    "name": "118 HUMPHRIES TERRACE WOODVILLE GARDENS 5012",
+    "locID": "LOC000194710647",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415083194"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.5545653,
      -34.86788267
     ]
@@ -5706,10 +5723,10 @@
    "properties": {
     "name": "71 SECOND AVENUE WOODVILLE GARDENS 5012",
     "locID": "LOC000017084982",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415083451",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9047,7 +9064,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415368237",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10499,8 +10516,9 @@
     "name": "UNIT 3, 22 LIBERTY GROVE WOODVILLE GARDENS 5012",
     "locID": "LOC000085823269",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415741585"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415741585",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -11709,10 +11727,9 @@
    "properties": {
     "name": "4 SIXTH AVENUE WOODVILLE GARDENS 5012",
     "locID": "LOC000032515518",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415818005",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13733,10 +13750,10 @@
    "properties": {
     "name": "56 THIRD AVENUE WOODVILLE GARDENS 5012",
     "locID": "LOC000013448062",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415835503",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15090,10 +15107,9 @@
    "properties": {
     "name": "7 PINE STREET WOODVILLE GARDENS 5012",
     "locID": "LOC000102825627",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_416406102",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_416406102"
    }
   },
   {
@@ -19836,7 +19852,7 @@
    "properties": {
     "name": "24 FOURTH AVENUE WOODVILLE GARDENS 5012",
     "locID": "LOC000193119509",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424301954"
    }
@@ -25245,7 +25261,7 @@
    "properties": {
     "name": "28B FOURTH AVENUE WOODVILLE GARDENS 5012",
     "locID": "LOC000193119521",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721411527"
    }
@@ -25279,7 +25295,7 @@
    "properties": {
     "name": "26B FOURTH AVENUE WOODVILLE GARDENS 5012",
     "locID": "LOC000193119901",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721411826"
    }
@@ -25296,7 +25312,7 @@
    "properties": {
     "name": "26A FOURTH AVENUE WOODVILLE GARDENS 5012",
     "locID": "LOC000193119760",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721412264"
    }
@@ -25313,7 +25329,7 @@
    "properties": {
     "name": "28A FOURTH AVENUE WOODVILLE GARDENS 5012",
     "locID": "LOC000193119513",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721413506"
    }
