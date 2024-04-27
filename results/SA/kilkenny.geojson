@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-08T14:48:24.224501",
+ "generated": "2024-04-27T19:00:13.995529",
  "suburb": "KILKENNY",
  "features": [
   {
@@ -1182,7 +1182,8 @@
     "locID": "LOC000055646152",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_414952187"
+    "gnaf_pid": "GASA_414952187",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -2070,9 +2071,9 @@
     "name": "21 GRAYSON STREET KILKENNY 5009",
     "locID": "LOC000046607385",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415020527",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4085,10 +4086,9 @@
    "properties": {
     "name": "10A COPLEY STREET KILKENNY 5009",
     "locID": "LOC000006738700",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415059975",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5958,7 +5958,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415226240",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -6088,9 +6088,9 @@
     "name": "72 WILPENA TERRACE KILKENNY 5009",
     "locID": "LOC000048846752",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415380757",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7009,10 +7009,9 @@
    "properties": {
     "name": "52 DOWNER STREET KILKENNY 5009",
     "locID": "LOC000062407761",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415420115",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7029,10 +7028,9 @@
    "properties": {
     "name": "54 DOWNER STREET KILKENNY 5009",
     "locID": "LOC000059500287",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415420116",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7309,10 +7307,10 @@
    "properties": {
     "name": "38 DOWNER STREET KILKENNY 5009",
     "locID": "LOC000050875365",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415422532",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7604,10 +7602,9 @@
    "properties": {
     "name": "20 YALLUM TERRACE KILKENNY 5009",
     "locID": "LOC000026844324",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415422785",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8412,9 +8409,8 @@
     "name": "25 MUNDULLA STREET KILKENNY 5009",
     "locID": "LOC000065864831",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GASA_415425127",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415425127"
    }
   },
   {
@@ -8562,10 +8558,10 @@
    "properties": {
     "name": "30 WILPENA TERRACE KILKENNY 5009",
     "locID": "LOC000054168829",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415425154",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11673,8 +11669,9 @@
     "name": "UNIT 1, 7 AROONA ROAD KILKENNY 5009",
     "locID": "LOC000068177255",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415697742"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415697742",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14953,10 +14950,10 @@
    "properties": {
     "name": "36 KILKENNY ROAD KILKENNY 5009",
     "locID": "LOC000129917121",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GASA_416485417",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -14971,10 +14968,10 @@
    "properties": {
     "name": "UNIT 2, 36 KILKENNY ROAD KILKENNY 5009",
     "locID": "LOC000129917121",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GASA_416485418",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -18992,9 +18989,9 @@
     "name": "61 FIRST AVENUE KILKENNY 5009",
     "locID": "LOC000018356043",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_423742435",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
