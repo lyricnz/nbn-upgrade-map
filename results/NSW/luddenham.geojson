@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-09T20:18:12.402016",
+ "generated": "2024-04-28T21:38:30.274264",
  "suburb": "LUDDENHAM",
  "features": [
   {
@@ -696,9 +696,8 @@
     "name": "12 HAWKINS AVENUE LUDDENHAM 2745",
     "locID": "LOC000102549531",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705242673",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1742,10 +1741,9 @@
    "properties": {
     "name": "40 JAMISON STREET LUDDENHAM 2745",
     "locID": "LOC000043257489",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705248572",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3066,8 +3064,8 @@
    "properties": {
     "name": "1 JAMISON STREET LUDDENHAM 2745",
     "locID": "LOC000155352142",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709593459",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3157,10 +3155,9 @@
    "properties": {
     "name": "2 JAMISON STREET LUDDENHAM 2745",
     "locID": "LOC000043257489",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709609820",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4575,10 +4572,9 @@
    "properties": {
     "name": "62 PORTRUSH CRESCENT LUDDENHAM 2745",
     "locID": "LOC000021417163",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW716823060",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW716823060"
    }
   },
   {
@@ -4837,10 +4833,10 @@
    "properties": {
     "name": "4 ETHAN CLOSE LUDDENHAM 2745",
     "locID": "LOC000065146961",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716857868",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9474,6 +9470,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.69512556,
+     -33.87857869
+    ]
+   },
+   "properties": {
+    "name": "50-80 ADAMS ROAD LUDDENHAM 2745",
+    "locID": "LOC000176166893",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718398484"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.68116838,
      -33.90105838
     ]
@@ -10383,6 +10396,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.75530498,
+     -33.85137397
+    ]
+   },
+   "properties": {
+    "name": "31 HALMSTAD BOULEVARD LUDDENHAM 2745",
+    "locID": "LOC000194767436",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719236560"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.7547977,
      -33.85225807
     ]
@@ -10390,10 +10420,9 @@
    "properties": {
     "name": "5 BRIDPORT PLACE LUDDENHAM 2745",
     "locID": "LOC100071988871",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW719237873",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719237873"
    }
   },
   {
@@ -10711,10 +10740,10 @@
    "properties": {
     "name": "12 FARMINGDALE COURT LUDDENHAM 2745",
     "locID": "LOC000184055179",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GANSW719257753",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -10786,6 +10815,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW719260131",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.756831,
+     -33.85395357
+    ]
+   },
+   "properties": {
+    "name": "15 FARMINGDALE COURT LUDDENHAM 2745",
+    "locID": "LOC000194727278",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719260132"
    }
   },
   {
