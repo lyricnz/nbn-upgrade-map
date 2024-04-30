@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-11T14:56:19.160547",
+ "generated": "2024-04-30T15:01:52.836797",
  "suburb": "WINDSOR GARDENS",
  "features": [
   {
@@ -12728,8 +12728,9 @@
     "name": "UNIT 1, 4 PIBROCH AVENUE WINDSOR GARDENS 5087",
     "locID": "LOC000100534045",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415682132"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415682132",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -12923,8 +12924,9 @@
     "name": "UNIT 2, 16 PIPERS AVENUE WINDSOR GARDENS 5087",
     "locID": "LOC000008440841",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415701948"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415701948",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -19527,10 +19529,10 @@
    "properties": {
     "name": "2 GREENBANK DRIVE WINDSOR GARDENS 5087",
     "locID": "LOC000062239587",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GASA_415795323",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -21604,23 +21606,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415799358"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.6459219,
-     -34.86912254
-    ]
-   },
-   "properties": {
-    "name": "34 COOKES ROAD WINDSOR GARDENS 5087",
-    "locID": "LOC000109228147",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415799359"
    }
   },
   {
@@ -27959,8 +27944,9 @@
     "name": "1 PIBROCH AVENUE WINDSOR GARDENS 5087",
     "locID": "LOC000100534045",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415821354"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415821354",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -34914,8 +34900,9 @@
     "name": "4 PIBROCH AVENUE WINDSOR GARDENS 5087",
     "locID": "LOC000100534045",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_422041332"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_422041332",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -44649,24 +44636,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.66456447,
-     -34.86390988
-    ]
-   },
-   "properties": {
-    "name": "22 RIVER VALLEY DRIVE WINDSOR GARDENS 5087",
-    "locID": "LOC000171462435",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_425503566",
-    "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.66474751,
      -34.8638463
     ]
@@ -49342,6 +49311,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.65336286,
+     -34.86677019
+    ]
+   },
+   "properties": {
+    "name": "7A REDBANK GROVE WINDSOR GARDENS 5087",
+    "locID": "LOC000194819188",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721003133"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.66428932,
      -34.85874024
     ]
@@ -49495,23 +49481,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.6459219,
-     -34.86912254
-    ]
-   },
-   "properties": {
-    "name": "34C COOKES ROAD WINDSOR GARDENS 5087",
-    "locID": "LOC000109228147",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_721253233"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.6459975,
      -34.86931418
     ]
@@ -49522,40 +49491,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721253249"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.64611447,
-     -34.86892887
-    ]
-   },
-   "properties": {
-    "name": "34A COOKES ROAD WINDSOR GARDENS 5087",
-    "locID": "LOC000109228147",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_721253615"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.64587935,
-     -34.86903053
-    ]
-   },
-   "properties": {
-    "name": "34B COOKES ROAD WINDSOR GARDENS 5087",
-    "locID": "LOC000109228147",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_721254041"
    }
   },
   {
