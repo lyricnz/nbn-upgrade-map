@@ -70,11 +70,16 @@ def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
             address.loc_id = nbn.get_nbn_loc_id(address.gnaf_pid, address.name)
         if address.loc_id and get_status:
             status = nbn.get_nbn_loc_details(address.loc_id)
-            address.tech = status["addressDetail"]["techType"]
-            address.upgrade = status["addressDetail"].get("altReasonCode", "UNKNOWN")
-            address.tech_change_status = status["addressDetail"].get("techChangeStatus")
-            address.program_type = status["addressDetail"].get("programType")
-            address.target_eligibility_quarter = status["addressDetail"].get("targetEligibilityQuarter")
+            address_detail = status["addressDetail"]
+            if address_detail["reasonCode"] == "FTTN_SA" and address_detail["altReasonCode"] == "FW_CT":
+                address.tech = "FW"
+                address.upgrade = address_detail["reasonCode"]  # FTTN_SA
+            else:
+                address.tech = address_detail["techType"]
+                address.upgrade = address_detail.get("altReasonCode", "UNKNOWN")
+            address.tech_change_status = address_detail.get("techChangeStatus")
+            address.program_type = address_detail.get("programType")
+            address.target_eligibility_quarter = address_detail.get("targetEligibilityQuarter")
     except (requests.exceptions.RequestException, ValueError) as err:
         logging.warning("Error fetching NBN data for %s: %s", address.name, err)
     except Exception:
