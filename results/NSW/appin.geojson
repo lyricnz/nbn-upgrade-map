@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-22T12:34:27.167934",
+ "generated": "2024-05-13T10:03:11.311293",
  "suburb": "APPIN",
  "features": [
   {
@@ -1571,8 +1571,8 @@
    "properties": {
     "name": "6 NEAL PLACE APPIN 2560",
     "locID": "LOC000007257523",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW703914995",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2296,8 +2296,8 @@
    "properties": {
     "name": "7B CHURCH STREET APPIN 2560",
     "locID": "LOC000017222646",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW703915038",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2458,8 +2458,8 @@
    "properties": {
     "name": "12 NEAL PLACE APPIN 2560",
     "locID": "LOC000078893751",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW703915776",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5128,10 +5128,10 @@
    "properties": {
     "name": "14 KING STREET APPIN 2560",
     "locID": "LOC000019965791",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW703918411",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6336,8 +6336,8 @@
    "properties": {
     "name": "12 GLEBE CLOSE APPIN 2560",
     "locID": "LOC000104989737",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW703919165",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7046,9 +7046,8 @@
     "name": "1 TOGGERAI STREET APPIN 2560",
     "locID": "LOC000074204502",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW703920956",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9278,9 +9277,9 @@
     "name": "1 MARKET STREET APPIN 2560",
     "locID": "LOC000094325744",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW703924351",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10149,8 +10148,8 @@
    "properties": {
     "name": "14 CHURCH STREET APPIN 2560",
     "locID": "LOC000012388352",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW703930576",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13064,6 +13063,23 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718416738"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.78438653,
+     -34.18725027
+    ]
+   },
+   "properties": {
+    "name": "165 APPIN ROAD APPIN 2560",
+    "locID": "LOC000037318890",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718641612"
    }
   },
   {
@@ -18868,6 +18884,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.78549456,
+     -34.20604362
+    ]
+   },
+   "properties": {
+    "name": "16 APPIN ROAD APPIN 2560",
+    "locID": "LOC000037867558",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718838034",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.7895125,
      -34.19896225
     ]
@@ -20420,10 +20454,10 @@
    "properties": {
     "name": "23A MACQUARIEDALE ROAD APPIN 2560",
     "locID": "LOC000181923109",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720152472",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
