@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-22T14:01:57.937904",
+ "generated": "2024-05-13T13:07:40.183774",
  "suburb": "KELSO",
  "features": [
   {
@@ -412,8 +412,8 @@
    "properties": {
     "name": "20 URALLA CIRCUIT KELSO 2795",
     "locID": "LOC000099630782",
-    "tech": "FTTN",
-    "upgrade": "FW_CT",
+    "tech": "FW",
+    "upgrade": "FTTN_SA",
     "gnaf_pid": "GANSW705046437",
     "tech_change_status": "Eligible To Order"
    }
@@ -787,10 +787,10 @@
    "properties": {
     "name": "34 HUGHES STREET KELSO 2795",
     "locID": "LOC000007975998",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705051641",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1124,10 +1124,9 @@
    "properties": {
     "name": "38 ROSEMONT AVENUE KELSO 2795",
     "locID": "LOC000019694865",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705051677",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2097,10 +2096,10 @@
    "properties": {
     "name": "32 MIRIYAN DRIVE KELSO 2795",
     "locID": "LOC000040981625",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705053123",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2336,10 +2335,10 @@
    "properties": {
     "name": "44 MIRIYAN DRIVE KELSO 2795",
     "locID": "LOC000024782705",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705053135",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2456,8 +2455,8 @@
    "properties": {
     "name": "4 WEERONGA WAY KELSO 2795",
     "locID": "LOC000090809018",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705053141",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2596,9 +2595,9 @@
     "name": "17 HALFPENNY DRIVE KELSO 2795",
     "locID": "LOC000078570159",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705053157",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3014,7 +3013,7 @@
     "name": "28 WENTWORTH DRIVE KELSO 2795",
     "locID": "LOC000065116764",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705053179",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3153,10 +3152,12 @@
    "properties": {
     "name": "6 NANCARROW PLACE KELSO 2795",
     "locID": "LOC000060812514",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705053189",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3171,8 +3172,8 @@
    "properties": {
     "name": "7 NANCARROW PLACE KELSO 2795",
     "locID": "LOC000009578686",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705053190",
     "tech_change_status": "Eligible To Order"
    }
@@ -3189,8 +3190,8 @@
    "properties": {
     "name": "8 NANCARROW PLACE KELSO 2795",
     "locID": "LOC000052872858",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705053191",
     "tech_change_status": "Eligible To Order"
    }
@@ -3207,10 +3208,12 @@
    "properties": {
     "name": "9 NANCARROW PLACE KELSO 2795",
     "locID": "LOC000013054893",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705053192",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3446,9 +3449,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705053209",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3466,9 +3469,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705053210",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3486,9 +3489,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705053211",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3506,9 +3509,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705053226",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3526,9 +3529,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705053227",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3546,9 +3549,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705053228",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3566,9 +3569,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705053229",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3683,8 +3686,8 @@
    "properties": {
     "name": "15 WOLERY CLOSE KELSO 2795",
     "locID": "LOC000072417820",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705053235",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3883,9 +3886,9 @@
     "name": "31 GILMOUR STREET KELSO 2795",
     "locID": "LOC000049980414",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705055730",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4045,7 +4048,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705055739",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4323,9 +4325,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055753",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4343,9 +4345,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055754",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5113,10 +5115,12 @@
    "properties": {
     "name": "10 NANCARROW PLACE KELSO 2795",
     "locID": "LOC000095299017",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705055793",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5227,10 +5231,12 @@
    "properties": {
     "name": "64 HALFPENNY DRIVE KELSO 2795",
     "locID": "LOC000016429235",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705055799",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5245,10 +5251,12 @@
    "properties": {
     "name": "66 HALFPENNY DRIVE KELSO 2795",
     "locID": "LOC000013992243",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705055800",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5264,7 +5272,7 @@
     "name": "68 HALFPENNY DRIVE KELSO 2795",
     "locID": "LOC000022137757",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705055801",
     "tech_change_status": "Eligible To Order"
    }
@@ -5281,10 +5289,12 @@
    "properties": {
     "name": "70 HALFPENNY DRIVE KELSO 2795",
     "locID": "LOC000038249062",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705055802",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5299,10 +5309,12 @@
    "properties": {
     "name": "72 HALFPENNY DRIVE KELSO 2795",
     "locID": "LOC000069369431",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705055803",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5583,9 +5595,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055819",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5603,9 +5615,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055820",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5623,9 +5635,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055821",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5643,9 +5655,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055822",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5663,9 +5675,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055823",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5683,9 +5695,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055824",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5703,9 +5715,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055825",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5723,9 +5735,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055826",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5743,9 +5755,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055827",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5783,9 +5795,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055829",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5803,9 +5815,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055830",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5823,9 +5835,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055831",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5843,9 +5855,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055832",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5863,9 +5875,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055833",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5883,9 +5895,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055834",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5903,9 +5915,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055835",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5923,9 +5935,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055836",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5943,9 +5955,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055837",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5963,9 +5975,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055838",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5983,9 +5995,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055839",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6003,9 +6015,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055840",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6180,10 +6192,10 @@
    "properties": {
     "name": "8 WOLERY CLOSE KELSO 2795",
     "locID": "LOC000081105486",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705055863",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8689,9 +8701,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705059043",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8726,9 +8738,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705059045",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8746,9 +8758,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705059046",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8766,9 +8778,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705059082",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8786,9 +8798,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705059083",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8826,9 +8838,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705059100",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9919,9 +9931,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705059765",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9939,9 +9951,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705059766",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -10389,9 +10401,9 @@
     "name": "17 MIRIYAN DRIVE KELSO 2795",
     "locID": "LOC000040562276",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705059812",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10507,8 +10519,8 @@
    "properties": {
     "name": "22 MIRIYAN DRIVE KELSO 2795",
     "locID": "LOC000104147805",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705059818",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10952,9 +10964,9 @@
     "name": "29 HALFPENNY DRIVE KELSO 2795",
     "locID": "LOC000061094629",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705061675",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11151,10 +11163,12 @@
    "properties": {
     "name": "39 HALFPENNY DRIVE KELSO 2795",
     "locID": "LOC000122156139",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705061685",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11263,10 +11277,12 @@
    "properties": {
     "name": "45 HALFPENNY DRIVE KELSO 2795",
     "locID": "LOC000077762076",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705061691",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11301,10 +11317,12 @@
    "properties": {
     "name": "47 HALFPENNY DRIVE KELSO 2795",
     "locID": "LOC000093898854",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705061693",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11357,10 +11375,12 @@
    "properties": {
     "name": "50 HALFPENNY DRIVE KELSO 2795",
     "locID": "LOC000058901792",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705061696",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11375,10 +11395,12 @@
    "properties": {
     "name": "52 HALFPENNY DRIVE KELSO 2795",
     "locID": "LOC000028290956",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705061697",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11393,8 +11415,8 @@
    "properties": {
     "name": "11 NANCARROW PLACE KELSO 2795",
     "locID": "LOC000030428619",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705061698",
     "tech_change_status": "Eligible To Order"
    }
@@ -11412,9 +11434,9 @@
     "name": "3 NANCARROW PLACE KELSO 2795",
     "locID": "LOC000055621613",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705061699",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -11447,10 +11469,12 @@
    "properties": {
     "name": "60 HALFPENNY DRIVE KELSO 2795",
     "locID": "LOC000017910799",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705061701",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11485,8 +11509,8 @@
    "properties": {
     "name": "90 BANNERMAN CRESCENT KELSO 2795",
     "locID": "LOC000013729041",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705061703",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11605,8 +11629,8 @@
    "properties": {
     "name": "19 PATTERSON PLACE KELSO 2795",
     "locID": "LOC000007374610",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705061718",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12126,9 +12150,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705061752",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12146,9 +12170,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705061753",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12166,9 +12190,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705061755",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12186,9 +12210,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705061756",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12206,9 +12230,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705061757",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12226,9 +12250,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705061758",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12950,10 +12974,10 @@
    "properties": {
     "name": "20 MCMENAMIN PLACE KELSO 2795",
     "locID": "LOC000019594256",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705062400",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13459,8 +13483,8 @@
    "properties": {
     "name": "65 GILMOUR STREET KELSO 2795",
     "locID": "LOC000024107208",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705062428",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13737,10 +13761,9 @@
    "properties": {
     "name": "8 VIEW STREET KELSO 2795",
     "locID": "LOC000063518811",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705062443",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14751,9 +14774,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705063151",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14771,9 +14794,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705063153",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14831,9 +14854,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705063157",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15546,10 +15569,10 @@
    "properties": {
     "name": "31 BARKER CIRCUIT KELSO 2795",
     "locID": "LOC000051578349",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705064371",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15806,8 +15829,8 @@
    "properties": {
     "name": "9 PERRIER PLACE KELSO 2795",
     "locID": "LOC000038011478",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705064384",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16548,8 +16571,8 @@
    "properties": {
     "name": "41A BOYD STREET KELSO 2795",
     "locID": "LOC000052079984",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705065894",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16591,9 +16614,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705065905",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -16611,9 +16634,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705065907",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -16949,9 +16972,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705065930",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17566,9 +17589,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705066000",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17606,9 +17629,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705066002",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17626,9 +17649,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705066003",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17646,9 +17669,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705066004",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -17720,9 +17743,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705066012",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18097,9 +18120,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705066051",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18117,9 +18140,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705066052",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18137,9 +18160,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705066054",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18276,9 +18299,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705066080",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19229,7 +19252,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705066827",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19581,8 +19604,8 @@
    "properties": {
     "name": "15 BONNOR STREET KELSO 2795",
     "locID": "LOC000069980185",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705067366",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19903,9 +19926,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705067420",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -20323,6 +20346,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705067454",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20340,9 +20364,9 @@
     "name": "8 RIVETT PLACE KELSO 2795",
     "locID": "LOC000026368734",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705067455",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21697,9 +21721,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068042",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21717,9 +21741,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068043",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21737,9 +21761,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068044",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21757,9 +21781,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068045",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21777,9 +21801,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068046",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21817,9 +21841,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068049",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21837,9 +21861,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068050",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21874,9 +21898,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068512",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21914,9 +21938,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068514",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22013,9 +22037,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068520",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22033,9 +22057,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068600",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22053,9 +22077,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068601",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22073,9 +22097,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068602",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22093,9 +22117,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068603",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22113,9 +22137,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068604",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22133,9 +22157,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068605",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22153,9 +22177,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068606",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22173,9 +22197,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068607",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22193,9 +22217,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068608",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22213,9 +22237,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068609",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22233,9 +22257,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068610",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22253,9 +22277,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068611",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22273,9 +22297,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068612",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22293,9 +22317,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068613",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22313,9 +22337,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068614",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22333,9 +22357,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068615",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22353,9 +22377,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068616",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22373,9 +22397,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068645",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22393,9 +22417,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068647",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22473,9 +22497,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705068651",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22735,8 +22759,8 @@
    "properties": {
     "name": "5 ALCHERINGA ROAD KELSO 2795",
     "locID": "LOC000044251106",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705069517",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23330,10 +23354,9 @@
    "properties": {
     "name": "4 LIMEKILNS ROAD KELSO 2795",
     "locID": "LOC000085785212",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705069652",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23401,8 +23424,8 @@
    "properties": {
     "name": "5 LIMEKILNS ROAD KELSO 2795",
     "locID": "LOC000087640726",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705069656",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23998,8 +24021,8 @@
    "properties": {
     "name": "9 HOLTERMAN PLACE KELSO 2795",
     "locID": "LOC000052548900",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705070060",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24239,7 +24262,7 @@
     "name": "5 HORAN CLOSE KELSO 2795",
     "locID": "LOC000032236044",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705070074",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24695,8 +24718,8 @@
    "properties": {
     "name": "6 BONNOR STREET KELSO 2795",
     "locID": "LOC000050250889",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705070097",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25631,8 +25654,8 @@
    "properties": {
     "name": "6 CHARLES PLACE KELSO 2795",
     "locID": "LOC000076935017",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705070595",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26089,8 +26112,8 @@
    "properties": {
     "name": "22 SCHOFIELD WAY KELSO 2795",
     "locID": "LOC000057636770",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705070806",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26189,8 +26212,8 @@
    "properties": {
     "name": "6 SCHOFIELD WAY KELSO 2795",
     "locID": "LOC000087411602",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705070811",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26252,9 +26275,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705071154",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26332,9 +26355,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705071158",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27167,10 +27190,12 @@
    "properties": {
     "name": "54 HALFPENNY DRIVE KELSO 2795",
     "locID": "LOC000108328686",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705072206",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27185,10 +27210,12 @@
    "properties": {
     "name": "56 HALFPENNY DRIVE KELSO 2795",
     "locID": "LOC000031346924",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705072207",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27204,7 +27231,7 @@
     "name": "58 HALFPENNY DRIVE KELSO 2795",
     "locID": "LOC000054644269",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705072208",
     "tech_change_status": "Eligible To Order"
    }
@@ -27775,9 +27802,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072923",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27795,9 +27822,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072924",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27835,9 +27862,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072926",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27873,9 +27900,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072928",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27933,9 +27960,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072931",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27953,9 +27980,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072932",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27973,9 +28000,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072933",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -27993,9 +28020,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072934",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28013,9 +28040,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072935",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28033,9 +28060,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072936",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28073,9 +28100,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072938",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28093,9 +28120,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072939",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28113,9 +28140,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072940",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28133,9 +28160,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072941",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28153,9 +28180,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072942",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28287,8 +28314,8 @@
    "properties": {
     "name": "13 TAREENA AVENUE KELSO 2795",
     "locID": "LOC000094793717",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705072949",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -28566,9 +28593,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072965",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28586,9 +28613,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072966",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28666,9 +28693,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072970",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28746,9 +28773,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072978",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28766,9 +28793,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072979",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28786,9 +28813,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072981",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28806,9 +28833,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705072982",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30340,8 +30367,8 @@
    "properties": {
     "name": "14 SCHOFIELD WAY KELSO 2795",
     "locID": "LOC000032366482",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705073413",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -30699,8 +30726,8 @@
    "properties": {
     "name": "61 BOYD STREET KELSO 2795",
     "locID": "LOC000031740200",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705073434",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31889,9 +31916,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705074568",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31909,9 +31936,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705074569",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31929,9 +31956,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705074570",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31969,9 +31996,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705074572",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31989,9 +32016,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705074573",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32009,9 +32036,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705074574",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32029,9 +32056,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705074575",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32049,9 +32076,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705074576",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32069,9 +32096,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705074577",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32089,9 +32116,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705074578",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32109,9 +32136,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705074579",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32328,10 +32355,9 @@
    "properties": {
     "name": "11 VIEW STREET KELSO 2795",
     "locID": "LOC000068219631",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705074611",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32567,10 +32593,10 @@
    "properties": {
     "name": "27 VIEW STREET KELSO 2795",
     "locID": "LOC000042123326",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705074623",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33482,9 +33508,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075545",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33502,9 +33528,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075546",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33522,9 +33548,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075547",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33542,9 +33568,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075548",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33562,9 +33588,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075549",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33582,9 +33608,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075550",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33602,9 +33628,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075551",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33622,9 +33648,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075552",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33642,9 +33668,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075553",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33662,9 +33688,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075554",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33682,9 +33708,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075555",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33702,9 +33728,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075556",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33722,9 +33748,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075557",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33742,9 +33768,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075558",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33799,8 +33825,8 @@
    "properties": {
     "name": "22 TAREENA AVENUE KELSO 2795",
     "locID": "LOC000092491648",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705075561",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -33860,9 +33886,8 @@
     "name": "31 TAREENA AVENUE KELSO 2795",
     "locID": "LOC000053933877",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705075565",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34000,9 +34025,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075572",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34020,9 +34045,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075573",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34040,9 +34065,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075574",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34060,9 +34085,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075575",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34080,9 +34105,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075576",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34100,9 +34125,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705075577",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34251,8 +34276,8 @@
    "properties": {
     "name": "1 TYNDALL STREET KELSO 2795",
     "locID": "LOC000073680817",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705075603",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -34691,8 +34716,8 @@
    "properties": {
     "name": "42 CHURINGA CLOSE KELSO 2795",
     "locID": "LOC000071096174",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW705075882",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -34989,9 +35014,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076010",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35029,9 +35054,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076012",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36060,9 +36085,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076758",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36080,9 +36105,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076759",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36100,9 +36125,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076760",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36120,9 +36145,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076761",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36140,9 +36165,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076762",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36160,9 +36185,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076763",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36180,9 +36205,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076764",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36200,9 +36225,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076765",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36220,9 +36245,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076766",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36240,9 +36265,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076767",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36557,10 +36582,10 @@
    "properties": {
     "name": "42 KABLE CLOSE KELSO 2795",
     "locID": "LOC000063471500",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076790",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37090,10 +37115,9 @@
    "properties": {
     "name": "5 SUNDOWN DRIVE KELSO 2795",
     "locID": "LOC000074556929",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705076822",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37233,9 +37257,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076831",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37293,9 +37317,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076834",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37313,9 +37337,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076835",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37353,9 +37377,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076837",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37453,9 +37477,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076842",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37473,9 +37497,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076898",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37493,9 +37517,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076899",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37533,9 +37557,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076901",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37553,9 +37577,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076903",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -37611,9 +37635,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705076965",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38496,9 +38520,8 @@
     "name": "9 BELL PLACE KELSO 2795",
     "locID": "LOC000060120496",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705078151",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38811,9 +38834,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705078182",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -38970,9 +38993,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705078190",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39269,9 +39292,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705080758",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39289,9 +39312,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705080759",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39309,9 +39332,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705080760",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39329,9 +39352,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705080761",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39349,9 +39372,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705080762",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39369,9 +39392,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705080763",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39389,9 +39412,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705080764",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39429,9 +39452,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705080766",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39449,9 +39472,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705080767",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39469,9 +39492,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705080768",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39489,9 +39512,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705080769",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39509,9 +39532,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705080770",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39529,9 +39552,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705080771",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39549,9 +39572,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705080772",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39609,9 +39632,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705082982",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39765,9 +39788,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705088935",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39785,9 +39808,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705088936",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39805,9 +39828,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705088937",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39825,9 +39848,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705088938",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39845,9 +39868,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705091533",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -39862,10 +39885,10 @@
    "properties": {
     "name": "10 CRIPPS PLACE KELSO 2795",
     "locID": "LOC000006782563",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705091537",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40161,9 +40184,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705091576",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40181,9 +40204,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705091577",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40201,9 +40224,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705091578",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40221,9 +40244,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705091579",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40241,9 +40264,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW705091580",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40664,9 +40687,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW709429907",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40684,9 +40707,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW709429914",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40775,8 +40798,8 @@
    "properties": {
     "name": "2A CHARLES PLACE KELSO 2795",
     "locID": "LOC000008971678",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW709441835",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -40912,9 +40935,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW709470251",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41147,9 +41170,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW712969593",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41167,9 +41190,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW712969615",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41207,9 +41230,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW712969620",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41227,9 +41250,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW712972816",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43085,9 +43108,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW713007076",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43105,9 +43128,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW713007095",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43125,9 +43148,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW713007098",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43145,9 +43168,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW713007099",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43245,9 +43268,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW713010718",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43265,9 +43288,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW713010721",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43285,9 +43308,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW713010722",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43325,9 +43348,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW713013928",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43345,9 +43368,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW713013931",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43365,9 +43388,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW713013932",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43405,9 +43428,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW713013984",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43714,8 +43737,8 @@
    "properties": {
     "name": "2 WENTWORTH DRIVE KELSO 2795",
     "locID": "LOC000055993591",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW713035007",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -43737,9 +43760,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW713038243",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -44990,9 +45013,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715603952",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45070,9 +45093,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715647466",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45090,9 +45113,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715659143",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45504,9 +45527,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715692522",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45524,9 +45547,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715692523",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45544,9 +45567,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715725164",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -46155,9 +46178,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715870071",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -47325,8 +47348,8 @@
    "properties": {
     "name": "6 JARRAH COURT KELSO 2795",
     "locID": "LOC000058751109",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW715917694",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -47550,8 +47573,8 @@
    "properties": {
     "name": "12 MUSGROVE AVENUE KELSO 2795",
     "locID": "LOC000029070592",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW715997510",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -47571,7 +47594,7 @@
     "name": "13 MUSGROVE AVENUE KELSO 2795",
     "locID": "LOC000041016259",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715997511",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -47610,8 +47633,8 @@
    "properties": {
     "name": "16 MUSGROVE AVENUE KELSO 2795",
     "locID": "LOC000066749782",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW715997513",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -47871,9 +47894,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716008060",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48062,8 +48085,8 @@
    "properties": {
     "name": "9 PALMER WAY KELSO 2795",
     "locID": "LOC000065674188",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW716033698",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -48225,9 +48248,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716048592",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48537,10 +48560,9 @@
    "properties": {
     "name": "27 SAPPHIRE CRESCENT KELSO 2795",
     "locID": "LOC000088605506",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716083049",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -48557,8 +48579,8 @@
    "properties": {
     "name": "28 SAPPHIRE CRESCENT KELSO 2795",
     "locID": "LOC000038209665",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW716083050",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -48657,8 +48679,8 @@
    "properties": {
     "name": "33 SAPPHIRE CRESCENT KELSO 2795",
     "locID": "LOC000068643376",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW716083056",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -48837,9 +48859,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716111425",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48935,9 +48957,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716178153",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48955,9 +48977,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305013",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48975,9 +48997,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305014",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48995,9 +49017,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305015",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49015,9 +49037,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305016",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49035,9 +49057,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305017",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49055,9 +49077,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305018",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49075,9 +49097,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305019",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49095,9 +49117,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305020",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49115,9 +49137,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305021",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49135,9 +49157,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305022",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49155,9 +49177,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305023",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49175,9 +49197,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305024",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49195,9 +49217,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305025",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49215,9 +49237,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305026",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49235,9 +49257,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305027",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49255,9 +49277,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305028",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49275,9 +49297,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305029",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49295,9 +49317,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305030",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49315,9 +49337,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305031",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49335,9 +49357,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305032",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49355,9 +49377,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305033",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49375,9 +49397,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305034",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49395,9 +49417,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305035",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49415,9 +49437,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305036",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49435,9 +49457,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305037",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49455,9 +49477,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305039",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49475,9 +49497,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716305040",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49495,9 +49517,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313582",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49515,9 +49537,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313583",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49535,9 +49557,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313584",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49555,9 +49577,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313585",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49575,9 +49597,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313586",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49595,9 +49617,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313587",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49615,9 +49637,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313588",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49635,9 +49657,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313589",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49655,9 +49677,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313590",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49675,9 +49697,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313591",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49695,9 +49717,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313592",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49715,9 +49737,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313593",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49735,9 +49757,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313594",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49755,9 +49777,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313595",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49775,9 +49797,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313596",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49795,9 +49817,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313597",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49815,9 +49837,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313598",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49835,9 +49857,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313599",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49855,9 +49877,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313600",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49875,9 +49897,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313601",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49895,9 +49917,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313602",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -49915,9 +49937,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716313603",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -50395,10 +50417,9 @@
    "properties": {
     "name": "2 PALMER WAY KELSO 2795",
     "locID": "LOC000053837883",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716345270",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50458,9 +50479,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716359292",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -50478,9 +50499,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716359293",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -51366,9 +51387,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716424876",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -51386,9 +51407,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716424877",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -51406,9 +51427,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716424878",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -51693,9 +51714,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716636024",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -52283,11 +52304,11 @@
     "name": "SHOP 7, 170 SYDNEY ROAD KELSO 2795",
     "locID": "LOC000038425731",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716690004",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "NA"
+    "target_eligibility_quarter": "Jun 2024"
    }
   },
   {
@@ -53333,8 +53354,8 @@
    "properties": {
     "name": "4 DOUGLAS COURT KELSO 2795",
     "locID": "LOC000038412357",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW716731399",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -53564,9 +53585,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716742842",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53584,9 +53605,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716742843",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53624,9 +53645,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716746636",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53644,9 +53665,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716746637",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53664,9 +53685,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716751786",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53684,9 +53705,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716757315",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -53982,7 +54003,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716857266",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55291,9 +55311,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716865117",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -55943,9 +55963,8 @@
     "name": "6 WALPOLE CLOSE KELSO 2795",
     "locID": "LOC000098029234",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716866981",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -56025,9 +56044,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716927980",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -56045,9 +56064,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716927981",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -56065,9 +56084,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716936509",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -56345,9 +56364,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716993263",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -56365,9 +56384,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716998499",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -56385,9 +56404,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716998500",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -56405,9 +56424,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716998501",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -56425,9 +56444,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716998502",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -57141,9 +57160,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717067026",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58108,9 +58127,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717194531",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58128,9 +58147,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717194532",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58669,9 +58688,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269261",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58689,9 +58708,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269262",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58709,9 +58728,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269263",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58729,9 +58748,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269264",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58749,9 +58768,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269265",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58769,9 +58788,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269266",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58789,9 +58808,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269267",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58809,9 +58828,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269268",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58829,9 +58848,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269269",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58849,9 +58868,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269270",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58869,9 +58888,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269271",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58889,9 +58908,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269272",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58909,9 +58928,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269273",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58929,9 +58948,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269274",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58949,9 +58968,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269275",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58969,9 +58988,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269276",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58989,9 +59008,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269277",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -59009,9 +59028,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269278",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -59029,9 +59048,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269279",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -59049,9 +59068,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269280",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -59069,9 +59088,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269281",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -59089,9 +59108,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269283",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -59109,9 +59128,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269284",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -59129,9 +59148,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269285",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -59149,9 +59168,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717269286",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -59209,9 +59228,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717296033",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -59327,9 +59346,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717304035",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -59783,9 +59802,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717332133",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -60061,8 +60080,8 @@
    "properties": {
     "name": "82 HUGHES STREET KELSO 2795",
     "locID": "LOC000036227561",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW717334884",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -60243,9 +60262,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717358450",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -60955,9 +60974,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717703574",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61150,9 +61169,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717708929",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61170,9 +61189,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717708930",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61190,9 +61209,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717708931",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61210,9 +61229,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717708932",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61230,9 +61249,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717708933",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61250,9 +61269,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717708934",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61270,9 +61289,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717708935",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61290,9 +61309,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717708936",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61330,9 +61349,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717708938",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61612,9 +61631,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717804170",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61632,9 +61651,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717804171",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61652,9 +61671,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717818966",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61814,9 +61833,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717854099",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61834,9 +61853,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717854100",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -61854,9 +61873,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717854101",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62328,9 +62347,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717895030",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62606,9 +62625,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717947436",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62744,9 +62763,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717957135",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62764,9 +62783,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717957499",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62784,9 +62803,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717958722",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62978,8 +62997,8 @@
    "properties": {
     "name": "3 SHE OAK CLOSE KELSO 2795",
     "locID": "LOC000114202298",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW717966062",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -63020,9 +63039,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717966089",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63100,9 +63119,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW717968528",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63373,9 +63392,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718028575",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63393,9 +63412,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718028576",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63413,9 +63432,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718028577",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63433,9 +63452,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718028578",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63453,9 +63472,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718028579",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63493,9 +63512,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718028581",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63513,9 +63532,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718028582",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63721,9 +63740,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718033229",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63741,9 +63760,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718033230",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63761,9 +63780,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718033231",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63781,9 +63800,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718033232",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63801,9 +63820,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718033233",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63821,9 +63840,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718033234",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63841,9 +63860,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718033237",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63861,9 +63880,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718033238",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -63881,9 +63900,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718033239",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -64056,9 +64075,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718061389",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -64188,9 +64207,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718070740",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -64443,9 +64462,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718091740",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -65132,10 +65151,9 @@
    "properties": {
     "name": "9 WATTLE CLOSE KELSO 2795",
     "locID": "LOC000122138092",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718108428",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65288,9 +65306,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718134360",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -65798,9 +65816,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718244491",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -65818,9 +65836,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718245336",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -66009,11 +66027,11 @@
     "name": "SITE 27, 250 SYDNEY ROAD KELSO 2795",
     "locID": "LOC000061101720",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718279700",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
-    "target_eligibility_quarter": "NA"
+    "target_eligibility_quarter": "Jun 2024"
    }
   },
   {
@@ -66484,9 +66502,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718283577",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -66578,9 +66596,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718285359",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69680,10 +69698,10 @@
    "properties": {
     "name": "2 GREVILLE STREET KELSO 2795",
     "locID": "LOC000147042934",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718459198",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -69719,8 +69737,8 @@
    "properties": {
     "name": "33 GREVILLE STREET KELSO 2795",
     "locID": "LOC000147042746",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW718459200",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -69799,10 +69817,10 @@
    "properties": {
     "name": "3 GREVILLE STREET KELSO 2795",
     "locID": "LOC000147042808",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718459204",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -69879,10 +69897,10 @@
    "properties": {
     "name": "5 GREVILLE STREET KELSO 2795",
     "locID": "LOC000147042812",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718459208",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -69902,7 +69920,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW718459209",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -71273,9 +71291,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718603148",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -71684,9 +71702,8 @@
     "name": "41A JAMES BARNET DRIVE KELSO 2795",
     "locID": "LOC000179085166",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718617411",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -71726,9 +71743,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718642079",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -71746,9 +71763,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718642080",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -71766,9 +71783,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718642081",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -73631,8 +73648,8 @@
    "properties": {
     "name": "7 BYRNE CLOSE KELSO 2795",
     "locID": "LOC000147044824",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW718721402",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -73731,10 +73748,10 @@
    "properties": {
     "name": "13 CHEVIOT DRIVE KELSO 2795",
     "locID": "LOC000147044637",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718721982",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -73891,9 +73908,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718729369",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -79385,9 +79402,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719281992",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -79883,8 +79900,8 @@
    "properties": {
     "name": "15-19 BONNOR STREET KELSO 2795",
     "locID": "LOC000069980185",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW719360271",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -82382,9 +82399,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW719889806",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -83007,9 +83024,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720024574",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
