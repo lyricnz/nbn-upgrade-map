@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-22T19:48:56.535457",
+ "generated": "2024-05-13T23:38:31.720277",
  "suburb": "HELENSBURGH",
  "features": [
   {
@@ -524,8 +524,8 @@
    "properties": {
     "name": "1A HUME DRIVE HELENSBURGH 2508",
     "locID": "LOC000016807709",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704932361",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -585,9 +585,9 @@
     "name": "10 HUME DRIVE HELENSBURGH 2508",
     "locID": "LOC000107112539",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704932364",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2442,7 +2442,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704943307",
     "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
    }
   },
@@ -2462,7 +2462,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704943308",
     "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
    }
   },
@@ -2482,7 +2482,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704943309",
     "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
    }
   },
@@ -2502,7 +2502,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704943310",
     "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
    }
   },
@@ -2522,7 +2522,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704943311",
     "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
    }
   },
@@ -2582,7 +2582,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704943316",
     "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
    }
   },
@@ -2602,7 +2602,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704943317",
     "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
    }
   },
@@ -2622,7 +2622,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704943318",
     "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
    }
   },
@@ -3717,8 +3717,8 @@
    "properties": {
     "name": "14A ROBERTSON STREET HELENSBURGH 2508",
     "locID": "LOC000053978036",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704943394",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9355,9 +9355,8 @@
     "name": "52A THE CRESCENT HELENSBURGH 2508",
     "locID": "LOC000037737330",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GANSW704947167",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704947167"
    }
   },
   {
@@ -9766,7 +9765,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704947484",
     "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
    }
   },
@@ -9786,7 +9785,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704947485",
     "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
    }
   },
@@ -10162,10 +10161,9 @@
    "properties": {
     "name": "37 POSTMANS TRACK HELENSBURGH 2508",
     "locID": "LOC000062128360",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704947516",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704947516"
    }
   },
   {
@@ -12001,10 +11999,9 @@
    "properties": {
     "name": "134 PARKES STREET HELENSBURGH 2508",
     "locID": "LOC000048510848",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704948167",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704948167"
    }
   },
   {
@@ -13038,7 +13035,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704948609",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13573,8 +13570,8 @@
    "properties": {
     "name": "5 HUME DRIVE HELENSBURGH 2508",
     "locID": "LOC000092987653",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704948647",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18998,10 +18995,9 @@
    "properties": {
     "name": "32 THE RIDGE HELENSBURGH 2508",
     "locID": "LOC000080574535",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704950868",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704950868"
    }
   },
   {
@@ -19205,7 +19201,7 @@
     "name": "17A SHORT STREET HELENSBURGH 2508",
     "locID": "LOC000067556619",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704951095",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19225,7 +19221,7 @@
     "name": "17 SHORT STREET HELENSBURGH 2508",
     "locID": "LOC000067556619",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704951096",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19745,9 +19741,8 @@
     "name": "10 STUART STREET HELENSBURGH 2508",
     "locID": "LOC000052552256",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GANSW704951958",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704951958"
    }
   },
   {
@@ -22633,8 +22628,8 @@
    "properties": {
     "name": "30 FRANCES STREET HELENSBURGH 2508",
     "locID": "LOC000089083303",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704953426",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -22692,9 +22687,8 @@
     "name": "5 FRANCES STREET HELENSBURGH 2508",
     "locID": "LOC000055870647",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704953429",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24512,7 +24506,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704955225",
     "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
    }
   },
@@ -29028,8 +29022,8 @@
    "properties": {
     "name": "98 PARKES STREET HELENSBURGH 2508",
     "locID": "LOC000064522280",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704956772",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31666,10 +31660,9 @@
    "properties": {
     "name": "200 PARKES STREET HELENSBURGH 2508",
     "locID": "LOC000048510848",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW712380140",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW712380140"
    }
   },
   {
@@ -32530,10 +32523,10 @@
    "properties": {
     "name": "9 EAST STREET HELENSBURGH 2508",
     "locID": "LOC000019163352",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW712405077",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32786,10 +32779,10 @@
    "properties": {
     "name": "14 MCMILLAN STREET HELENSBURGH 2508",
     "locID": "LOC000042723711",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW712409939",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33786,10 +33779,9 @@
    "properties": {
     "name": "1B LAURINA AVENUE HELENSBURGH 2508",
     "locID": "LOC000011360288",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW715382674",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW715382674"
    }
   },
   {
@@ -33884,7 +33876,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715944006",
     "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
    }
   },
@@ -34018,7 +34010,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW716330452",
     "tech_change_status": "In Design",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
    }
   },
@@ -35579,9 +35571,8 @@
     "name": "49 OLD QUARRY CIRCUIT HELENSBURGH 2508",
     "locID": "LOC000084585842",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716817660",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37171,8 +37162,8 @@
    "properties": {
     "name": "LOT 339 FREW AVENUE HELENSBURGH 2508",
     "locID": "LOC000154663214",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW717356307",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -39068,9 +39059,8 @@
     "name": "71 OLD QUARRY CIRCUIT HELENSBURGH 2508",
     "locID": "LOC000066612777",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717676563",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43528,9 +43518,8 @@
     "name": "UNIT 2, 38 ROBERTSON STREET HELENSBURGH 2508",
     "locID": "LOC000154664256",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718540502",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44738,8 +44727,8 @@
    "properties": {
     "name": "14 FREW AVENUE HELENSBURGH 2508",
     "locID": "LOC000154663214",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW718781074",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -46625,10 +46614,9 @@
    "properties": {
     "name": "56 WALKER STREET HELENSBURGH 2508",
     "locID": "LOC000154663969",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW719584634",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719584634"
    }
   },
   {
@@ -46906,8 +46894,8 @@
    "properties": {
     "name": "23A HARPER LANE HELENSBURGH 2508",
     "locID": "LOC000180383179",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW719875039",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
