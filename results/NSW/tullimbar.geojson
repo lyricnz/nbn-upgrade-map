@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-23T00:21:25.624186",
+ "generated": "2024-05-14T08:06:53.166799",
  "suburb": "TULLIMBAR",
  "features": [
   {
@@ -869,8 +869,8 @@
    "properties": {
     "name": "46 BROUGHTON AVENUE TULLIMBAR 2527",
     "locID": "LOC000087480389",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW717367541",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1218,9 +1218,9 @@
     "name": "10 WONGAWILLI STREET TULLIMBAR 2527",
     "locID": "LOC000090442937",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717903498",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2090,10 +2090,9 @@
    "properties": {
     "name": "23 YELLOW ROCK ROAD TULLIMBAR 2527",
     "locID": "LOC000121266158",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718322788",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2368,8 +2367,8 @@
    "properties": {
     "name": "5 GERROA LANE TULLIMBAR 2527",
     "locID": "LOC000173332878",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW718504978",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21103,6 +21102,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.75886688,
+     -34.57786766
+    ]
+   },
+   "properties": {
+    "name": "93 TERRAGONG STREET TULLIMBAR 2527",
+    "locID": "LOC000194900385",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721329473"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.75552816,
      -34.5804532
     ]
@@ -21334,6 +21350,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721330735"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.75886688,
+     -34.57786766
+    ]
+   },
+   "properties": {
+    "name": "91 TERRAGONG STREET TULLIMBAR 2527",
+    "locID": "LOC000194900261",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721330883"
    }
   },
   {
@@ -21776,6 +21809,346 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721338714"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.75088548,
+     -34.5814176
+    ]
+   },
+   "properties": {
+    "name": "2 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877978",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721354312"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.7502263,
+     -34.5814353
+    ]
+   },
+   "properties": {
+    "name": "12 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877834",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721354371"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.75090214,
+     -34.58235498
+    ]
+   },
+   "properties": {
+    "name": "3 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877749",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721354435"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.74999882,
+     -34.58191859
+    ]
+   },
+   "properties": {
+    "name": "13 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877847",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721355030"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.74974322,
+     -34.58174951
+    ]
+   },
+   "properties": {
+    "name": "17 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877881",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721355229"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.75000396,
+     -34.58145551
+    ]
+   },
+   "properties": {
+    "name": "10 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877810",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721356074"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.74946533,
+     -34.58159244
+    ]
+   },
+   "properties": {
+    "name": "21 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877921",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721357527"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.75058277,
+     -34.58187755
+    ]
+   },
+   "properties": {
+    "name": "9 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877806",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721357767"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.75072746,
+     -34.58227297
+    ]
+   },
+   "properties": {
+    "name": "5 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877765",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721358240"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.7505065,
+     -34.5815418
+    ]
+   },
+   "properties": {
+    "name": "6 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877777",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721359181"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.74961556,
+     -34.58166489
+    ]
+   },
+   "properties": {
+    "name": "19 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877909",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721360304"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.74987086,
+     -34.58183413
+    ]
+   },
+   "properties": {
+    "name": "15 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877868",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721361682"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.75043311,
+     -34.58134335
+    ]
+   },
+   "properties": {
+    "name": "14 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877852",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721361725"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.75027965,
+     -34.58162885
+    ]
+   },
+   "properties": {
+    "name": "8 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877796",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721361743"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.7490881,
+     -34.58137644
+    ]
+   },
+   "properties": {
+    "name": "25 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877966",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721362761"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.74922831,
+     -34.58128514
+    ]
+   },
+   "properties": {
+    "name": "27 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877984",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721362829"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.75024632,
+     -34.58205883
+    ]
+   },
+   "properties": {
+    "name": "11 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877823",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721363117"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.74933519,
+     -34.58149133
+    ]
+   },
+   "properties": {
+    "name": "23 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877945",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721363167"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.75069863,
+     -34.58147841
+    ]
+   },
+   "properties": {
+    "name": "4 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877754",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721363384"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.75054459,
+     -34.58219203
+    ]
+   },
+   "properties": {
+    "name": "7 KIAH CLOSE TULLIMBAR 2527",
+    "locID": "LOC000190877783",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721364316"
    }
   },
   {
