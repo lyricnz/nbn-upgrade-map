@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-23T16:42:28.961154",
+ "generated": "2024-05-15T02:01:00.724476",
  "suburb": "HOMEBUSH WEST",
  "features": [
   {
@@ -35,10 +35,10 @@
    "properties": {
     "name": "59 COURALLIE AVENUE HOMEBUSH WEST 2140",
     "locID": "LOC000072417693",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704957552",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55,8 +55,8 @@
    "properties": {
     "name": "61 COURALLIE AVENUE HOMEBUSH WEST 2140",
     "locID": "LOC000055577686",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704957555",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -75,8 +75,8 @@
    "properties": {
     "name": "63 COURALLIE AVENUE HOMEBUSH WEST 2140",
     "locID": "LOC000052346218",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704957557",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2397,8 +2397,8 @@
    "properties": {
     "name": "72 COURALLIE AVENUE HOMEBUSH WEST 2140",
     "locID": "LOC000052346218",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704966731",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2417,10 +2417,10 @@
    "properties": {
     "name": "74 COURALLIE AVENUE HOMEBUSH WEST 2140",
     "locID": "LOC000072417693",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704966733",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9211,10 +9211,9 @@
    "properties": {
     "name": "5 TELOPEA AVENUE HOMEBUSH WEST 2140",
     "locID": "LOC000085094003",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704980561",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11047,8 +11046,8 @@
    "properties": {
     "name": "11 TELOPEA AVENUE HOMEBUSH WEST 2140",
     "locID": "LOC000062692603",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704983171",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12381,8 +12380,8 @@
    "properties": {
     "name": "47 COURALLIE AVENUE HOMEBUSH WEST 2140",
     "locID": "LOC000053594751",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GANSW704987015",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -59120,23 +59119,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.06220477,
-     -33.86251677
-    ]
-   },
-   "properties": {
-    "name": "UNIT 202, 81-86 COURALLIE AVENUE HOMEBUSH WEST 2140",
-    "locID": "LOC000175248557",
-    "tech": "FTTB",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW720801821"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.06115716,
      -33.86161247
     ]
@@ -60711,6 +60693,23 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720806486"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.06398316,
+     -33.86273779
+    ]
+   },
+   "properties": {
+    "name": "UNIT 202, 81-86 COURALLIE AVENUE HOMEBUSH WEST 2140",
+    "locID": "LOC000175248557",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720806496"
    }
   },
   {
@@ -68323,23 +68322,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.06398316,
-     -33.86273779
-    ]
-   },
-   "properties": {
-    "name": "UNIT G06, 81-86 COURALLIE AVENUE HOMEBUSH WEST 2140",
-    "locID": "LOC000175251680",
-    "tech": "FTTB",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW721239511"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.06241667,
      -33.86125516
     ]
@@ -68962,6 +68944,23 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721249213"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.06217254,
+     -33.86013361
+    ]
+   },
+   "properties": {
+    "name": "UNIT G06, 81-86 COURALLIE AVENUE HOMEBUSH WEST 2140",
+    "locID": "LOC000175251680",
+    "tech": "FTTB",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721249451"
    }
   },
   {
