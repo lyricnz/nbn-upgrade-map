@@ -9,16 +9,15 @@ import subprocess
 from collections import Counter, OrderedDict
 from datetime import datetime, timedelta
 
-import requests
-from bs4 import BeautifulSoup
-from tabulate import tabulate
-
 import data
 import db
 import geojson
 import main
+import requests
 import suburbs
 import utils
+from bs4 import BeautifulSoup
+from tabulate import tabulate
 
 NBN_UPGRADE_DATES_URL = (
     "https://www.nbnco.com.au/corporate-information/media-centre/media-statements/nbnco-announces-suburbs-and"
@@ -343,8 +342,8 @@ def fix_fw_tech_type_breakdowns():
     # breakdown-suburbs.json
     breakdowns = utils.read_json_file("results/breakdown-suburbs.json")
     for date, date_info in breakdowns.items():
-        for state, suburbs in date_info.items():
-            for suburb, breakdown in suburbs.items():
+        for state, suburb_list in date_info.items():
+            for suburb, breakdown in suburb_list.items():
                 fix_tech_breakdown(breakdown)
     utils.write_json_file("results/breakdown-suburbs.json", breakdowns)
 
