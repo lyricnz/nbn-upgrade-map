@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-24T15:57:44.699564",
+ "generated": "2024-05-16T02:47:57.570346",
  "suburb": "BAYSWATER",
  "features": [
   {
@@ -7966,10 +7966,9 @@
    "properties": {
     "name": "77 SASSES AVENUE BAYSWATER 3153",
     "locID": "LOC000094141643",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC410838542",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC410838542"
    }
   },
   {
@@ -37711,9 +37710,8 @@
     "name": "52 HOLLOWAY DRIVE BAYSWATER 3153",
     "locID": "LOC000088769095",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAVIC419562400",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419562400"
    }
   },
   {
@@ -59697,10 +59695,10 @@
    "properties": {
     "name": "75 SCORESBY ROAD BAYSWATER 3153",
     "locID": "LOC000058600200",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420209192",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -66372,6 +66370,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420487138",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -72960,10 +72959,9 @@
    "properties": {
     "name": "13 HOLLOWAY DRIVE BAYSWATER 3153",
     "locID": "LOC000092724009",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420777445",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420777445"
    }
   },
   {
@@ -93484,10 +93482,9 @@
    "properties": {
     "name": "7 HUXLEY COURT BAYSWATER 3153",
     "locID": "LOC000050390178",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421666664",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421666664"
    }
   },
   {
@@ -95376,6 +95373,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421677754"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.256428,
+     -37.846178
+    ]
+   },
+   "properties": {
+    "name": "31 KUMALA ROAD BAYSWATER 3153",
+    "locID": "LOC000194786622",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421677755"
    }
   },
   {
@@ -98329,6 +98343,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.257344,
+     -37.845885
+    ]
+   },
+   "properties": {
+    "name": "24 BEGONIA AVENUE BAYSWATER 3153",
+    "locID": "LOC000194815082",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421703144"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.257772,
      -37.845558
     ]
@@ -100090,8 +100121,11 @@
     "name": "415 DORSET ROAD BAYSWATER 3153",
     "locID": "LOC000058608063",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421855542"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421855542",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -119964,8 +119998,11 @@
     "name": "FACTORY 2, 415 DORSET ROAD BAYSWATER 3153",
     "locID": "LOC000058608063",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424464875"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC424464875",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -140757,6 +140794,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719909978",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -140810,6 +140848,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719917217",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
