@@ -343,8 +343,8 @@ def fix_fw_tech_type_breakdowns():
     # breakdown-suburbs.json
     breakdowns = utils.read_json_file("results/breakdown-suburbs.json")
     for date, date_info in breakdowns.items():
-        for state, suburbs in date_info.items():
-            for suburb, breakdown in suburbs.items():
+        for state, suburb_list in date_info.items():
+            for suburb, breakdown in suburb_list.items():
                 fix_tech_breakdown(breakdown)
     utils.write_json_file("results/breakdown-suburbs.json", breakdowns)
 
