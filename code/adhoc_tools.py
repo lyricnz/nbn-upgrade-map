@@ -324,6 +324,34 @@ def fix_fw_tech_type():
             utils.write_json_file(file, geojson, indent=1)
             logging.info("Fixed %d in %s", found, file)
 
+
+def fix_fw_tech_type_breakdowns():
+    """Fix any tech-type 'FW' should be 'WIRELES' in breakdown files."""
+
+    def fix_tech_breakdown(tech):
+        """Move any FW values to WIRELESS."""
+        if "FW" in tech:
+            tech["WIRELESS"] += tech["FW"]
+            del tech["FW"]
+
+    # breakdown.json
+    breakdowns = utils.read_json_file("results/breakdown.json")
+    for date, date_info in breakdowns.items():
+        fix_tech_breakdown(date_info["tech"])
+    utils.write_json_file("results/breakdown.json", breakdowns)
+
+    # breakdown-suburbs.json
+    breakdowns = utils.read_json_file("results/breakdown-suburbs.json")
+    for date, date_info in breakdowns.items():
+        for state, suburbs in date_info.items():
+            for suburb, breakdown in suburbs.items():
+                fix_tech_breakdown(breakdown)
+    utils.write_json_file("results/breakdown-suburbs.json", breakdowns)
+
+    # breakdown-state.json and breakdown.STATE.csv (uses breakdown-suburbs.json)
+    generate_state_breakdown()
+
+
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
     logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(threadName)s %(message)s")
