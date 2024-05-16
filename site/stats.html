@@ -170,7 +170,7 @@
 
             const datasets = sortedTechData.map((techData, index) => ({
                 label: techData.label,
-                data: dates.map(date => rawData[date].tech[techData.label]),
+                data: dates.map(date => rawData[date].tech[techData.label] || 0),
                 borderWidth: 2,
                 fill: true,
             }));
