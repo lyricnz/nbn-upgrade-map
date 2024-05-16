@@ -121,29 +121,40 @@ $(document).ready(function() {
     }
 });
 
-// add legend
-var legend = L.control({ position: 'bottomright' });
-legend.onAdd = function (map) {
-    var div = L.DomUtil.create('div', 'info legend');
-    // include a opacity background over legend
-    div.style.backgroundColor = "#ffffff";
-    div.style.opacity = "0.8";
-    div.style.padding = "5px";
-    div.style.borderRadius = "5px";
-    div.style.width = "150px";
-    var legendHTML = 
-        '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#1D7044" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FTTP<br>' + 
-        '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#75AD6F" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FTTP Upgrade<br>' +
-        '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#C8E3C5" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FTTP Upgrade Soon<br>' +
-        '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#FFBE00" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> HFC<br>' + 
-        '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#FF7E01" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FTTC<br>' +
-        '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#E3071D" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FTTN/FTTB<br>' +
-        '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#C91414" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> FW/SAT<br>' +
-        '<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#888888" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> Unknown';
-    div.innerHTML = legendHTML;
-    return div;
-}
-legend.addTo(map);
+const dotTypes = {
+    FTTP: {
+        label: 'FTTP',
+        colour: '#1D7044'
+    },
+    FTTPUpgrade: {
+        label: 'FTTP Upgrade',
+        colour: '#75AD6F'
+    },
+    FTTPUpgradeSoon: {
+        label: 'FTTP Upgrade Soon',
+        colour: '#C8E3C5'
+    },
+    HFC: {
+        label: 'HFC',
+        colour: '#FFBE00',
+    },
+    FTTC: {
+        label: 'FTTC',
+        colour: '#FF7E01'
+    },
+    FTTN_FTTB: {
+        label: 'FTTC',
+        colour: '#E3071D'
+    },
+    WirelessSat: {
+        label: 'FW/SAT',
+        colour: '#C91414'
+    },
+    Unknown: {
+        label: 'Unknown',
+        colour: '#888888'
+    },
+};
 
 // add link to github repo in bottom left
 var github = L.control({ position: 'bottomleft' });
@@ -158,20 +169,20 @@ github.onAdd = function (map) {
 }
 github.addTo(map);
 
-function getColour(tech, upgrade, date, status, generated) {
+function getDotType(tech, upgrade, date, status, generated) {
     // Already have FTTP
     if (tech == "FTTP") {
-        return "#1D7044";
+        return dotTypes.FTTP;
     }
 
     // Eligible for immediate upgrade
     if ((status == "Eligible To Order") && (tech == "FTTN" || tech == "FTTC")) {
-        return "#75AD6F";
+        return dotTypes.FTTPUpgrade;
     }
 
     // Eligible for upgrade soon
     if ((status == "Build Finalised" || status == "MDU Complex Eligible To Apply" || status == "MDU Complex Premises In Build") && (tech == "FTTN" || tech == "FTTC")) {
-        return "#C8E3C5";
+        return dotTypes.FTTPUpgradeSoon;
     }
 
     if (date != null) {
@@ -185,37 +196,38 @@ function getColour(tech, upgrade, date, status, generated) {
 
     if (diff < 3 && diff >= 0 && (tech == "FTTN" || tech == "FTTC")) {
         // Upgrade available in 3 months or less
-        return "#C8E3C5";
+        return dotTypes.FTTPUpgradeSoon;
+
     } else if (diff == -1) {
         // Legacy FTTP upgrade for records before November 2023
         switch(upgrade) {
             case "FTTP_SA":
-                return "#75AD6F";
+                return dotTypes.FTTPUpgrade;
             case "FTTP_NA":
-                return "#C8E3C5";
+                return dotTypes.FTTPUpgradeSoon;
         }
     }
 
     // Non FTTP with no upgrade
     switch(tech) {
         case "FTTC":
-            return "#FF7E01";
+            return dotTypes.FTTC;
         case "FTTB":
-            return "#E3071D";
+            return dotTypes.FTTN_FTTB;
         case "FTTN":
-            return "#E3071D";
+            return dotTypes.FTTN_FTTB;
         case "HFC":
-            return "#FFBE00";
+            return dotTypes.HFC;
         case "WIRELESS":
-            return "#C91414";
+            return dotTypes.WirelessSat;
         case "SATELLITE":
-            return "#C91414";
+            return dotTypes.WirelessSat;
         case "NULL":
-            return "#888888";
+            return dotTypes.Unknown;
     }
 
     // This should never happen
-    return "#000000";
+    return dotTypes.Unknown;
 }
 
 // load GeoJSON from an external file
@@ -264,12 +276,14 @@ function loadSuburb(state_file, commit, first_load=false) {
             }
         });
         // add circle marker for each feature
+        var foundDotTypes = new Set();
         var geojson = L.geoJson(data, {
             pointToLayer: function (feature, latlng) {
-                var color = getColour(feature.properties.tech, feature.properties.upgrade, feature.properties.target_eligibility_quarter, feature.properties.tech_change_status, data.generated);
+                var dotType = getDotType(feature.properties.tech, feature.properties.upgrade, feature.properties.target_eligibility_quarter, feature.properties.tech_change_status, data.generated);
+                foundDotTypes.add(dotType);
                 return L.circleMarker(latlng, {
                     radius: 5,
-                    fillColor: color,
+                    fillColor: dotType.colour,
                     color: "#000000",
                     weight: 1,
                     opacity: 1,
@@ -296,6 +310,33 @@ function loadSuburb(state_file, commit, first_load=false) {
                 layer.bindPopup(s);
             }
         })
+
+        // add legend
+        var legend = L.control({ position: 'bottomright' });
+        legend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'info legend');
+            // include a opacity background over legend
+            div.style.backgroundColor = "#ffffff";
+            div.style.opacity = "0.8";
+            div.style.padding = "5px";
+            div.style.borderRadius = "5px";
+            div.style.width = "150px";
+
+            var legendHTML = '';
+            for (const [key, value] of Object.entries(dotTypes)) {
+                if (foundDotTypes.has(value)) {
+                    legendHTML += `<svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="${value.colour}" stroke="#000000" stroke-width="1" opacity="1" fill-opacity="0.8" /></svg> ${value.label}<br>`;
+
+                }
+            }
+            div.innerHTML = legendHTML;
+            return div;
+        }
+        if (document.getElementsByClassName("legend").length > 0) {
+            document.getElementsByClassName("legend")[0].remove();
+        }
+        legend.addTo(map);
+
         map.addLayer(markers);
         markers.addLayer(geojson);
         // Create stats table
