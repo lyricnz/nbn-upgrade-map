@@ -72,7 +72,7 @@ def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
             status = nbn.get_nbn_loc_details(address.loc_id)
             address_detail = status["addressDetail"]
             if address_detail["reasonCode"] == "FTTN_SA" and address_detail["altReasonCode"] == "FW_CT":
-                address.tech = "FW"
+                address.tech = "WIRELESS"
                 address.upgrade = address_detail["reasonCode"]  # FTTN_SA
             else:
                 address.tech = address_detail["techType"]

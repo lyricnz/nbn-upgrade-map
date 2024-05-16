@@ -9,15 +9,16 @@ import subprocess
 from collections import Counter, OrderedDict
 from datetime import datetime, timedelta
 
+import requests
+from bs4 import BeautifulSoup
+from tabulate import tabulate
+
 import data
 import db
 import geojson
 import main
-import requests
 import suburbs
 import utils
-from bs4 import BeautifulSoup
-from tabulate import tabulate
 
 NBN_UPGRADE_DATES_URL = (
     "https://www.nbnco.com.au/corporate-information/media-centre/media-statements/nbnco-announces-suburbs-and"
@@ -304,6 +305,51 @@ def generate_state_breakdown():
             writer = csv.writer(f)
             writer.writerow(rows[0].keys())
             writer.writerows(r.values() for r in rows)
+
+
+def fix_fw_tech_type():
+    """Fix any tech-type 'fw' should be 'wireless'."""
+    filenames = glob.glob("results/**/*.geojson")
+    for n, file in enumerate(filenames):
+        if n % 100 == 0:
+            utils.print_progress_bar(n, len(filenames), prefix="Progress:", suffix="Complete", length=50)
+
+        found = 0
+        geojson = utils.read_json_file(file)
+        for feature in geojson["features"]:
+            if feature["properties"]["tech"] == "FW":
+                feature["properties"]["tech"] = "WIRELESS"
+                found += 1
+        if found:
+            utils.write_json_file(file, geojson, indent=1)
+            logging.info("Fixed %d in %s", found, file)
+
+
+def fix_fw_tech_type_breakdowns():
+    """Fix any tech-type 'FW' should be 'WIRELES' in breakdown files."""
+
+    def fix_tech_breakdown(tech):
+        """Move any FW values to WIRELESS."""
+        if "FW" in tech:
+            tech["WIRELESS"] += tech["FW"]
+            del tech["FW"]
+
+    # breakdown.json
+    breakdowns = utils.read_json_file("results/breakdown.json")
+    for date, date_info in breakdowns.items():
+        fix_tech_breakdown(date_info["tech"])
+    utils.write_json_file("results/breakdown.json", breakdowns)
+
+    # breakdown-suburbs.json
+    breakdowns = utils.read_json_file("results/breakdown-suburbs.json")
+    for date, date_info in breakdowns.items():
+        for state, suburbs in date_info.items():
+            for suburb, breakdown in suburbs.items():
+                fix_tech_breakdown(breakdown)
+    utils.write_json_file("results/breakdown-suburbs.json", breakdowns)
+
+    # breakdown-state.json and breakdown.STATE.csv (uses breakdown-suburbs.json)
+    generate_state_breakdown()
 
 
 if __name__ == "__main__":
