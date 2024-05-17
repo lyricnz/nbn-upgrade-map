@@ -3,7 +3,7 @@
 
 import logging
 
-from adhoc_tools import generate_state_breakdown, update_breakdown, print_breakdowns
+from adhoc_tools import generate_state_breakdown, print_breakdowns, update_breakdown
 
 if __name__ == "__main__":  # pragma: no cover
     logging.basicConfig(level=logging.INFO)
