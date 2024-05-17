@@ -365,7 +365,7 @@ def check_tech_change_status_upgrade():
             if tech_change:
                 if tech_change not in tallies:
                     tallies[tech_change] = Counter()
-                tallies[tech_change][feature["properties"].get('upgrade')] += 1
+                tallies[tech_change][feature["properties"].get("upgrade")] += 1
 
     print()
     pprint.pprint(tallies)
