@@ -351,6 +351,7 @@ def fix_fw_tech_type_breakdowns():
     # breakdown-state.json and breakdown.STATE.csv (uses breakdown-suburbs.json)
     generate_state_breakdown()
 
+
 def check_tech_change_status_upgrade():
     """Emit tally on the upgrade field for all locations with tech_change_status."""
     tallies = {}
