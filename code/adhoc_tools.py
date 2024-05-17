@@ -369,7 +369,38 @@ def fix_ct_upgrades():
         if found:
             utils.write_json_file(file, geojson, indent=1)
             logging.info("Fixed %d in %s", found, file)
-    # TODO: fix breakdown.json - if possible?
+
+    # update breakdown.json and breakdown-suburbs.json
+    update_breakdown()
+    # update breakdown-state.json and breakdown.STATE.csv
+    generate_state_breakdown()
+
+
+def update_breakdown():
+    """Update the breakdown.json file with the latest results (vs current checkout)."""
+    breakdown_file = "results/breakdown.json"
+    breakdowns = utils.read_json_file(breakdown_file, True)
+    breakdown_suburbs_file = "results/breakdown-suburbs.json"
+    breakdown_suburbs = utils.read_json_file(breakdown_suburbs_file, True)
+    date_key = datetime.now().date().isoformat()
+    if date_key in breakdowns:
+        logging.info("Skipping %s", date_key)
+    else:
+        logging.info("Processing %s", date_key)
+        breakdowns[date_key] = get_tech_and_upgrade_breakdown()
+        breakdown_suburbs[date_key] = breakdowns[date_key].pop("suburb_tech")
+        utils.write_json_file(breakdown_file, breakdowns)
+        utils.write_json_file(breakdown_suburbs_file, breakdown_suburbs)
+
+    return breakdowns
+
+
+def print_breakdowns(breakdowns):
+    """Dump the breakdowns to the console as tables."""
+    for key in {"tech", "upgrade"}:
+        rows = [{"date": run_date} | breakdowns[run_date][key] for run_date in sorted(breakdowns)]
+        print()
+        print(tabulate(rows, headers="keys", tablefmt="github"))
 
 
 if __name__ == "__main__":
