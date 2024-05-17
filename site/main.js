@@ -257,7 +257,7 @@ function loadSuburb(state_file, commit, first_load=false) {
             iconCreateFunction: function(cluster) {
                 children = cluster.getAllChildMarkers();
                 var colours = [];
-                
+
                 for (var child of children) {
                     colours.push(child.options.fillColor);
                 }
@@ -266,7 +266,7 @@ function loadSuburb(state_file, commit, first_load=false) {
                     colours.filter(v => v === a).length
                     - colours.filter(v => v === b).length
                 ).pop();
-            
+
                 return L.divIcon({ html: '<div style="background-color: ' + color + '">' + cluster.getChildCount() + '</div>', className: 'marker-cluster' });
             }
         });
@@ -299,6 +299,9 @@ function loadSuburb(state_file, commit, first_load=false) {
                 }
                 if ("tech_change_status" in feature.properties) {
                     s += "<br>Tech Change Status: " + feature.properties.tech_change_status
+                    if ("upgrade" in feature.properties) {
+                        s += " (" + feature.properties.upgrade.split("_")[0] + ")"
+                    }
                 }
                 if ("program_type" in feature.properties) {
                     s += "<br>Program Type: " + feature.properties.program_type
