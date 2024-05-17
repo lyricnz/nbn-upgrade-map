@@ -9,15 +9,16 @@ import subprocess
 from collections import Counter, OrderedDict
 from datetime import datetime, timedelta
 
+import requests
+from bs4 import BeautifulSoup
+from tabulate import tabulate
+
 import data
 import db
 import geojson
 import main
-import requests
 import suburbs
 import utils
-from bs4 import BeautifulSoup
-from tabulate import tabulate
 
 NBN_UPGRADE_DATES_URL = (
     "https://www.nbnco.com.au/corporate-information/media-centre/media-statements/nbnco-announces-suburbs-and"
@@ -349,6 +350,26 @@ def fix_fw_tech_type_breakdowns():
 
     # breakdown-state.json and breakdown.STATE.csv (uses breakdown-suburbs.json)
     generate_state_breakdown()
+
+def fix_ct_upgrades():
+    """Update all locations with upgrade=XXX_CT and tech=OTHER to be tech=XXX and upgrade=OTHER"""
+    filenames = glob.glob("results/**/*.geojson")
+    for n, file in enumerate(filenames):
+        if n % 100 == 0:
+            utils.print_progress_bar(n, len(filenames), prefix="Progress:", suffix="Complete", length=50)
+
+        found = 0
+        geojson = utils.read_json_file(file)
+        for feature in geojson["features"]:
+            upgrade_val = feature["properties"]["upgrade"]
+            if upgrade_val in main.CT_UPGRADE_MAP:
+                feature["properties"]["upgrade"] = feature["properties"]["tech"]
+                feature["properties"]["tech"] = main.CT_UPGRADE_MAP[upgrade_val]
+                found += 1
+        if found:
+            utils.write_json_file(file, geojson, indent=1)
+            logging.info("Fixed %d in %s", found, file)
+    # TODO: fix breakdown.json - if possible?
 
 
 if __name__ == "__main__":
