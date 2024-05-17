@@ -12,8 +12,9 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 from threading import Lock
 
-import geojson
 import requests
+
+import geojson
 from data import Address, AddressList
 from db import AddressDB, add_db_arguments, connect_to_db
 from geojson import write_geojson_file
@@ -38,6 +39,7 @@ CT_UPGRADE_MAP = {
     'FTTB_CT': 'FTTB',
     'HFC_CT': 'HFC',
 }
+
 
 def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str, str], None, None]:
     """Return a generator(suburb,state) tuple based on the provided input or the next suburb in the list."""
@@ -99,7 +101,7 @@ def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
 
 
 def get_all_addresses(
-    db_addresses: AddressList, max_threads: int = 10, get_status: bool = True, progress_bar: bool = False
+        db_addresses: AddressList, max_threads: int = 10, get_status: bool = True, progress_bar: bool = False
 ) -> AddressList:
     """Fetch all addresses for suburb+state from the DB and then fetch the upgrade+tech details for each address."""
     # return list of Address
@@ -113,7 +115,7 @@ def get_all_addresses(
         nbn = NBNApi()
 
         results = []
-        sub_chunks = (addresses_chunk[i : i + sub_chunk_size] for i in range(0, len(addresses_chunk), sub_chunk_size))
+        sub_chunks = (addresses_chunk[i: i + sub_chunk_size] for i in range(0, len(addresses_chunk), sub_chunk_size))
         for sub_chunk in sub_chunks:
             results.extend(get_address(nbn, address, get_status) for address in sub_chunk)
             with lock:
@@ -131,7 +133,7 @@ def get_all_addresses(
 
     logging.info("Submitting %d requests to add NBNco data...", len(db_addresses))
     with ThreadPoolExecutor(max_workers=max_threads, thread_name_prefix="nbn") as executor:
-        chunks = (db_addresses[i : i + chunk_size] for i in range(0, len(db_addresses), chunk_size))
+        chunks = (db_addresses[i: i + chunk_size] for i in range(0, len(db_addresses), chunk_size))
         chunk_results = executor.map(process_chunk, chunks)
 
     addresses = list(itertools.chain.from_iterable(chunk_results))
@@ -153,11 +155,11 @@ def remove_duplicate_addresses(addresses: AddressList) -> AddressList:
 
 
 def process_suburb(
-    db: AddressDB,
-    state: str,
-    suburb: str,
-    max_threads: int = 10,
-    progress_bar: bool = False,
+        db: AddressDB,
+        state: str,
+        suburb: str,
+        max_threads: int = 10,
+        progress_bar: bool = False,
 ):
     """Query the DB for addresses, augment them with upgrade+tech details, and write the results to a file."""
     # get addresses from DB

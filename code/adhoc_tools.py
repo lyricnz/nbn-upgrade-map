@@ -351,6 +351,7 @@ def fix_fw_tech_type_breakdowns():
     # breakdown-state.json and breakdown.STATE.csv (uses breakdown-suburbs.json)
     generate_state_breakdown()
 
+
 def fix_ct_upgrades():
     """Update all locations with upgrade=XXX_CT and tech=OTHER to be tech=XXX and upgrade=OTHER"""
     filenames = glob.glob("results/**/*.geojson")
