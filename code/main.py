@@ -29,6 +29,15 @@ from utils import print_progress_bar
 GNAF_PID_TO_LOC: dict[str, str] = {}
 MAX_LOC_CACHE_AGE_DAYS = 180
 
+# map the 'upgrade' value ending with _CT to a new 'tech' status
+CT_UPGRADE_MAP = {
+    'FTTN_CT': 'FTTN',
+    'SAT_CT': 'SATELLITE',
+    'FTTC_CT': 'FTTC',
+    'FW_CT': 'WIRELESS',
+    'FTTB_CT': 'FTTB',
+    'HFC_CT': 'HFC',
+}
 
 def select_suburb(target_suburb: str, target_state: str) -> Generator[tuple[str, str], None, None]:
     """Return a generator(suburb,state) tuple based on the provided input or the next suburb in the list."""
@@ -71,9 +80,9 @@ def get_address(nbn: NBNApi, address: Address, get_status=True) -> Address:
         if address.loc_id and get_status:
             status = nbn.get_nbn_loc_details(address.loc_id)
             address_detail = status["addressDetail"]
-            if address_detail["reasonCode"] == "FTTN_SA" and address_detail["altReasonCode"] == "FW_CT":
-                address.tech = "WIRELESS"
-                address.upgrade = address_detail["reasonCode"]  # FTTN_SA
+            if address_detail["altReasonCode"] in CT_UPGRADE_MAP:
+                address.tech = CT_UPGRADE_MAP[address_detail["altReasonCode"]]
+                address.upgrade = address_detail["techType"]
             else:
                 address.tech = address_detail["techType"]
                 address.upgrade = address_detail.get("altReasonCode", "UNKNOWN")
