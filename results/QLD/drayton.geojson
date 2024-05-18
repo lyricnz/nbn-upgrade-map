@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-27T06:40:46.913417",
+ "generated": "2024-05-18T18:47:51.348798",
  "suburb": "DRAYTON",
  "features": [
   {
@@ -632,10 +632,10 @@
    "properties": {
     "name": "22 LADNER STREET DRAYTON 4350",
     "locID": "LOC000003371205",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155246622",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3374,6 +3374,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.91984706,
+     -27.59255624
+    ]
+   },
+   "properties": {
+    "name": "45 GIPPS STREET DRAYTON 4350",
+    "locID": "LOC000194942318",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156515478"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.91970488,
      -27.59268656
     ]
@@ -4434,8 +4451,8 @@
    "properties": {
     "name": "3 CORNWALL COURT DRAYTON 4350",
     "locID": "LOC000075359862",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156523285",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7442,9 +7459,9 @@
     "name": "23 LUCK STREET DRAYTON 4350",
     "locID": "LOC000033987087",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157230083",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7835,8 +7852,8 @@
    "properties": {
     "name": "12 MCPHERSON STREET DRAYTON 4350",
     "locID": "LOC000021626389",
-    "tech": "FTTN",
-    "upgrade": "FW_CT",
+    "tech": "WIRELESS",
+    "upgrade": "FTTN_SA",
     "gnaf_pid": "GAQLD157860569",
     "tech_change_status": "Eligible To Order"
    }
@@ -10437,7 +10454,7 @@
     "gnaf_pid": "GAQLD159902092",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2025"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -10457,7 +10474,7 @@
     "gnaf_pid": "GAQLD159902093",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Jun 2025"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -11228,8 +11245,8 @@
    "properties": {
     "name": "10-16 MCPHERSON STREET DRAYTON 4350",
     "locID": "LOC000021626389",
-    "tech": "FTTN",
-    "upgrade": "FW_CT",
+    "tech": "WIRELESS",
+    "upgrade": "FTTN_SA",
     "gnaf_pid": "GAQLD162090319",
     "tech_change_status": "Eligible To Order"
    }
@@ -13796,8 +13813,8 @@
    "properties": {
     "name": "1-9 YOUNG STREET DRAYTON 4350",
     "locID": "LOC000127830966",
-    "tech": "FTTN",
-    "upgrade": "FW_CT",
+    "tech": "WIRELESS",
+    "upgrade": "FTTN_SA",
     "gnaf_pid": "GAQLD162210006",
     "tech_change_status": "Eligible To Order"
    }
