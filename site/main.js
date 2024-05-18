@@ -299,7 +299,7 @@ function loadSuburb(state_file, commit, first_load=false) {
                 }
                 if ("tech_change_status" in feature.properties) {
                     s += "<br>Tech Change Status: " + feature.properties.tech_change_status
-                    if ("upgrade" in feature.properties) {
+                    if ("upgrade" in feature.properties && feature.properties.upgrade != "NULL_NA") {
                         s += " (" + feature.properties.upgrade.split("_")[0] + ")"
                     }
                 }
