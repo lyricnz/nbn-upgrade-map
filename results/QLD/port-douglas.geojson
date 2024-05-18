@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-26T22:31:03.941343",
+ "generated": "2024-05-18T10:26:30.948332",
  "suburb": "PORT DOUGLAS",
  "features": [
   {
@@ -1794,8 +1794,8 @@
    "properties": {
     "name": "346 PORT DOUGLAS ROAD PORT DOUGLAS 4877",
     "locID": "LOC000062662818",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155719409",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4248,8 +4248,8 @@
    "properties": {
     "name": "9 HELMET STREET PORT DOUGLAS 4877",
     "locID": "LOC000060517259",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155734081",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12934,6 +12934,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.46431136,
+     -16.48849047
+    ]
+   },
+   "properties": {
+    "name": "24 MUDLO STREET PORT DOUGLAS 4877",
+    "locID": "LOC000058948843",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD157002580",
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.46399936,
      -16.48883595
     ]
@@ -17091,9 +17111,8 @@
     "name": "50 ENDEAVOUR STREET PORT DOUGLAS 4877",
     "locID": "LOC000041741900",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157016471",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23089,9 +23108,8 @@
     "name": "16 RIBBON AVENUE PORT DOUGLAS 4877",
     "locID": "LOC000007519505",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157034193",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -47800,6 +47818,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161966136",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
