@@ -4,6 +4,7 @@ import csv
 import glob
 import logging
 import os
+import pprint
 import re
 import subprocess
 from collections import Counter, OrderedDict
@@ -349,6 +350,25 @@ def fix_fw_tech_type_breakdowns():
 
     # breakdown-state.json and breakdown.STATE.csv (uses breakdown-suburbs.json)
     generate_state_breakdown()
+
+
+def check_tech_change_status_upgrade():
+    """Emit tally on the upgrade field for all locations with tech_change_status."""
+    tallies = {}
+    filenames = glob.glob("results/**/*.geojson")
+    for n, file in enumerate(filenames):
+        if n % 100 == 0:
+            utils.print_progress_bar(n, len(filenames), prefix="Progress:", suffix="Complete", length=50)
+        geojson = utils.read_json_file(file)
+        for feature in geojson["features"]:
+            tech_change = feature["properties"].get("tech_change_status")
+            if tech_change:
+                if tech_change not in tallies:
+                    tallies[tech_change] = Counter()
+                tallies[tech_change][feature["properties"].get("upgrade")] += 1
+
+    print()
+    pprint.pprint(tallies)
 
 
 if __name__ == "__main__":
