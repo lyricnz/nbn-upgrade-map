@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-27T20:54:21.800173",
+ "generated": "2024-05-19T12:14:46.776496",
  "suburb": "PORT ADELAIDE",
  "features": [
   {
@@ -2541,9 +2541,8 @@
     "name": "23 GLOBE PLACE PORT ADELAIDE 5015",
     "locID": "LOC000029213603",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415193188",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2720,10 +2719,10 @@
    "properties": {
     "name": "11 KNAPMAN CRESCENT PORT ADELAIDE 5015",
     "locID": "LOC000019168718",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415193796",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2839,10 +2838,10 @@
    "properties": {
     "name": "16 FORMBY CRESCENT PORT ADELAIDE 5015",
     "locID": "LOC000041229415",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415195856",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4404,7 +4403,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415423164",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7548,8 +7547,8 @@
    "properties": {
     "name": "94 ST VINCENT STREET PORT ADELAIDE 5015",
     "locID": "LOC000099662685",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415768032",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8977,7 +8976,7 @@
     "gnaf_pid": "GASA_415778379",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -9630,7 +9629,7 @@
     "gnaf_pid": "GASA_415793013",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -9876,10 +9875,10 @@
    "properties": {
     "name": "18 FORMBY CRESCENT PORT ADELAIDE 5015",
     "locID": "LOC000051358696",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415806049",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9917,9 +9916,8 @@
     "name": "21 DIVETT STREET PORT ADELAIDE 5015",
     "locID": "LOC000033149885",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415806106",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11651,7 +11649,7 @@
     "name": "58 WELLINGTON STREET PORT ADELAIDE 5015",
     "locID": "LOC000033190786",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415843481",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11771,6 +11769,23 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.50817924,
+     -34.85429648
+    ]
+   },
+   "properties": {
+    "name": "85 WEBB STREET PORT ADELAIDE 5015",
+    "locID": "LOC000194946226",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415846165"
    }
   },
   {
@@ -16882,8 +16897,11 @@
     "name": "SHOP 3, 200 COMMERCIAL ROAD PORT ADELAIDE 5015",
     "locID": "LOC100056932143",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_416517434"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_416517434",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19314,10 +19332,9 @@
    "properties": {
     "name": "12 TIMPSON STREET PORT ADELAIDE 5015",
     "locID": "LOC000020828139",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_422271458",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29758,8 +29775,8 @@
    "properties": {
     "name": "UNIT 2, 94 ST VINCENT STREET PORT ADELAIDE 5015",
     "locID": "LOC000099662685",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_718980967",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -30751,8 +30768,8 @@
    "properties": {
     "name": "UNIT 1, 94 ST VINCENT STREET PORT ADELAIDE 5015",
     "locID": "LOC000099662685",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_718985853",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
