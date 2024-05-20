@@ -134,6 +134,14 @@ const dotTypes = {
         label: 'FTTP Upgrade Soon',
         colour: '#C8E3C5'
     },
+    OtherUpgrade: {
+        label: 'Other Upgrade',
+        colour: '#4464AD'
+    },
+    OtherUpgradeSoon: {
+        label: 'Other Upgrade Soon',
+        colour: '#44C5E3'
+    },
     HFC: {
         label: 'HFC',
         colour: '#FFBE00',
@@ -143,7 +151,7 @@ const dotTypes = {
         colour: '#FF7E01'
     },
     FTTN_FTTB: {
-        label: 'FTTC',
+        label: 'FTTN/FTTB',
         colour: '#E3071D'
     },
     WirelessSat: {
@@ -176,13 +184,14 @@ function getDotType(tech, upgrade, date, status, generated) {
     }
 
     // Eligible for immediate upgrade
-    if ((status == "Eligible To Order") && (tech == "FTTN" || tech == "FTTC")) {
-        return dotTypes.FTTPUpgrade;
+    upgrade_type = upgrade.split("_")[0]
+    if (status == "Eligible To Order") {
+        return (upgrade_type == "FTTP") ? dotTypes.FTTPUpgrade : dotTypes.OtherUpgrade;
     }
 
     // Eligible for upgrade soon
-    if ((status == "Build Finalised" || status == "MDU Complex Eligible To Apply" || status == "MDU Complex Premises In Build") && (tech == "FTTN" || tech == "FTTC")) {
-        return dotTypes.FTTPUpgradeSoon;
+    if (status == "Build Finalised" || status == "MDU Complex Eligible To Apply" || status == "MDU Complex Premises In Build") {
+        return (upgrade_type == "FTTP") ? dotTypes.FTTPUpgradeSoon : dotTypes.OtherUpgradeSoon;
     }
 
     if (date != null) {
@@ -194,9 +203,9 @@ function getDotType(tech, upgrade, date, status, generated) {
     var generated = new Date(generated)
     var diff = (date == null) ? -1 : Math.abs((generated.getFullYear() - date.getFullYear()) * 12 + generated.getMonth() - date.getMonth());
 
-    if (diff < 3 && diff >= 0 && (tech == "FTTN" || tech == "FTTC")) {
-        // Upgrade available in 3 months or less
-        return dotTypes.FTTPUpgradeSoon;
+    // Upgrade available in 3 months or less
+    if (diff < 3 && diff >= 0) {
+        return (upgrade_type == "FTTP") ? dotTypes.FTTPUpgradeSoon : dotTypes.OtherUpgradeSoon;
 
     } else if (diff == -1) {
         // Legacy FTTP upgrade for records before November 2023

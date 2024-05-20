@@ -423,6 +423,28 @@ def print_breakdowns(breakdowns):
         print(tabulate(rows, headers="keys", tablefmt="github"))
 
 
+def dump_status_tech_upgrade():
+    """Dump the tech and upgrade breakdowns to the console."""
+    tallies = {}  # status -> tech -> upgrade:count
+    filenames = glob.glob("results/**/*.geojson")
+    for n, file in enumerate(filenames):
+        if n % 100 == 0:
+            utils.print_progress_bar(n, len(filenames), prefix="Progress:", suffix="Complete", length=50)
+
+        geojson = utils.read_json_file(file)
+        for feature in geojson["features"]:
+            status = feature["properties"].get("tech_change_status", "?")
+            tech = feature["properties"]["tech"]
+            upgrade = feature["properties"]["upgrade"]
+            if status not in tallies:
+                tallies[status] = {}
+            if tech not in tallies[status]:
+                tallies[status][tech] = {}
+            tallies[status][tech][upgrade] = tallies[status][tech].get(upgrade, 0) + 1
+
+    pprint.pprint(tallies)
+
+
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
     logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(threadName)s %(message)s")
