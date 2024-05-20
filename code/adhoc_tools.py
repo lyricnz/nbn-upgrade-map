@@ -442,10 +442,6 @@ def dump_status_tech_upgrade():
                 tallies[status][tech] = {}
             tallies[status][tech][upgrade] = tallies[status][tech].get(upgrade, 0) + 1
 
-            if status == 'Eligible To Order' and tech == 'SATELLITE' and upgrade != 'WIRELESS' and upgrade != 'FTTP':
-                print(file, feature["properties"])
-                break
-
     pprint.pprint(tallies)
 
 
