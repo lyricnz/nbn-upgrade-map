@@ -3,9 +3,8 @@
 
 import logging
 
-from tabulate import tabulate
-
 from adhoc_tools import generate_state_breakdown, update_breakdown
+from tabulate import tabulate
 
 
 def print_breakdowns(breakdowns):

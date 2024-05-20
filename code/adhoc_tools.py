@@ -19,7 +19,6 @@ import suburbs
 import utils
 from bs4 import BeautifulSoup
 from tabulate import tabulate
-
 from utils import get_all_features
 
 NBN_UPGRADE_DATES_URL = (
