@@ -445,6 +445,22 @@ def dump_status_tech_upgrade():
     pprint.pprint(tallies)
 
 
+def get_all_geojson_files(show_progress: bool = True):
+    """A generator that returns (filename, geojson_data) for each GeoJSON file in the results directory"""
+    filenames = glob.glob("results/**/*.geojson")
+    for n, filename in enumerate(filenames):
+        if show_progress and n % 100 == 0:
+            utils.print_progress_bar(n, len(filenames), prefix="Progress:", suffix="Complete", length=50)
+        yield filename, utils.read_json_file(filename)
+
+
+def get_all_features(show_progress: bool = True):
+    """A generator that returns (filename, geojson_data, feature) for every Feature in every GeoJSON file."""
+    for filename, geojson_data in get_all_geojson_files(show_progress):
+        for feature in geojson_data["features"]:
+            yield filename, geojson_data, feature
+
+
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
     logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(threadName)s %(message)s")
