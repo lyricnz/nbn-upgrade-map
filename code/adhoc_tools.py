@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import copy
 import csv
 import glob
 import logging
@@ -240,17 +241,12 @@ def generate_all_suburbs_nbn_tallies():
     """Create a file containing a tally of all suburbs by property (tech, upgrade, etc)"""
     exclude_properties = {"name", "locID", "gnaf_pid"}
     tallies = {}  # property-name -> Counter()
-    filenames = glob.glob("results/**/*.geojson")
-    for n, file in enumerate(filenames):
-        if n % 100 == 0:
-            utils.print_progress_bar(n, len(filenames), prefix="Progress:", suffix="Complete", length=50)
-
-        for feature in utils.read_json_file(file)["features"]:
-            for prop, value in feature["properties"].items():
-                if prop not in exclude_properties:
-                    if prop not in tallies:
-                        tallies[prop] = Counter()
-                    tallies[prop][value] += 1
+    for _, _, feature in get_all_features():
+        for prop, value in feature["properties"].items():
+            if prop not in exclude_properties:
+                if prop not in tallies:
+                    tallies[prop] = Counter()
+                tallies[prop][value] += 1
 
     def _parse_quarter(item: tuple[str, int]):
         """Parse a quarter string into a datetime object.  If NA, return epoch."""
@@ -309,20 +305,9 @@ def generate_state_breakdown():
 
 def fix_fw_tech_type():
     """Fix any tech-type 'fw' should be 'wireless'."""
-    filenames = glob.glob("results/**/*.geojson")
-    for n, file in enumerate(filenames):
-        if n % 100 == 0:
-            utils.print_progress_bar(n, len(filenames), prefix="Progress:", suffix="Complete", length=50)
-
-        found = 0
-        geojson = utils.read_json_file(file)
-        for feature in geojson["features"]:
-            if feature["properties"]["tech"] == "FW":
-                feature["properties"]["tech"] = "WIRELESS"
-                found += 1
-        if found:
-            utils.write_json_file(file, geojson, indent=1)
-            logging.info("Fixed %d in %s", found, file)
+    for _, _, feature in get_all_features(rewrite_geojson=True):
+        if feature["properties"]["tech"] == "FW":
+            feature["properties"]["tech"] = "WIRELESS"
 
 
 def fix_fw_tech_type_breakdowns():
@@ -355,40 +340,23 @@ def fix_fw_tech_type_breakdowns():
 def check_tech_change_status_upgrade():
     """Emit tally on the upgrade field for all locations with tech_change_status."""
     tallies = {}
-    filenames = glob.glob("results/**/*.geojson")
-    for n, file in enumerate(filenames):
-        if n % 100 == 0:
-            utils.print_progress_bar(n, len(filenames), prefix="Progress:", suffix="Complete", length=50)
-        geojson = utils.read_json_file(file)
-        for feature in geojson["features"]:
-            tech_change = feature["properties"].get("tech_change_status")
-            if tech_change:
-                if tech_change not in tallies:
-                    tallies[tech_change] = Counter()
-                tallies[tech_change][feature["properties"].get("upgrade")] += 1
+    for _, _, feature in get_all_features():
+        tech_change = feature["properties"].get("tech_change_status")
+        if tech_change:
+            if tech_change not in tallies:
+                tallies[tech_change] = Counter()
+            tallies[tech_change][feature["properties"].get("upgrade")] += 1
 
-    print()
     pprint.pprint(tallies)
 
 
 def fix_ct_upgrades():
     """Update all locations with upgrade=XXX_CT and tech=OTHER to be tech=XXX and upgrade=OTHER"""
-    filenames = glob.glob("results/**/*.geojson")
-    for n, file in enumerate(filenames):
-        if n % 100 == 0:
-            utils.print_progress_bar(n, len(filenames), prefix="Progress:", suffix="Complete", length=50)
-
-        found = 0
-        geojson = utils.read_json_file(file)
-        for feature in geojson["features"]:
-            upgrade_val = feature["properties"]["upgrade"]
-            if upgrade_val in main.CT_UPGRADE_MAP:
-                feature["properties"]["upgrade"] = feature["properties"]["tech"]
-                feature["properties"]["tech"] = main.CT_UPGRADE_MAP[upgrade_val]
-                found += 1
-        if found:
-            utils.write_json_file(file, geojson, indent=1)
-            logging.info("Fixed %d in %s", found, file)
+    for _, _, feature in get_all_features(rewrite_geojson=True):
+        upgrade_val = feature["properties"]["upgrade"]
+        if upgrade_val in main.CT_UPGRADE_MAP:
+            feature["properties"]["upgrade"] = feature["properties"]["tech"]
+            feature["properties"]["tech"] = main.CT_UPGRADE_MAP[upgrade_val]
 
     # update breakdown.json and breakdown-suburbs.json
     update_breakdown()
@@ -418,37 +386,42 @@ def update_breakdown():
 def dump_status_tech_upgrade():
     """Dump the tech and upgrade breakdowns to the console."""
     tallies = {}  # status -> tech -> upgrade:count
-    filenames = glob.glob("results/**/*.geojson")
-    for n, file in enumerate(filenames):
-        if n % 100 == 0:
-            utils.print_progress_bar(n, len(filenames), prefix="Progress:", suffix="Complete", length=50)
-
-        geojson = utils.read_json_file(file)
-        for feature in geojson["features"]:
-            status = feature["properties"].get("tech_change_status", "?")
-            tech = feature["properties"]["tech"]
-            upgrade = feature["properties"]["upgrade"]
-            if status not in tallies:
-                tallies[status] = {}
-            if tech not in tallies[status]:
-                tallies[status][tech] = {}
-            tallies[status][tech][upgrade] = tallies[status][tech].get(upgrade, 0) + 1
+    for _, _, feature in get_all_features():
+        status = feature["properties"].get("tech_change_status", "?")
+        tech = feature["properties"]["tech"]
+        upgrade = feature["properties"]["upgrade"]
+        if status not in tallies:
+            tallies[status] = {}
+        if tech not in tallies[status]:
+            tallies[status][tech] = {}
+        tallies[status][tech][upgrade] = tallies[status][tech].get(upgrade, 0) + 1
 
     pprint.pprint(tallies)
 
 
-def get_all_geojson_files(show_progress: bool = True):
+def get_all_geojson_files(show_progress: bool = True, rewrite_geojson: bool = False):
     """A generator that returns (filename, geojson_data) for each GeoJSON file in the results directory"""
-    filenames = glob.glob("results/**/*.geojson")
+    filenames = glob.glob("results/V**/s*.geojson")  # FIXME
     for n, filename in enumerate(filenames):
         if show_progress and n % 100 == 0:
             utils.print_progress_bar(n, len(filenames), prefix="Progress:", suffix="Complete", length=50)
-        yield filename, utils.read_json_file(filename)
+        geojson_data = utils.read_json_file(filename)
+        if rewrite_geojson:
+            # take a copy of the GeoJSON, and if it is modified, write it back to the original file
+            geojson_data_copy = copy.deepcopy(geojson_data)
+            yield filename, geojson_data
+            if geojson_data != geojson_data_copy:
+                utils.write_json_file(filename, geojson_data, indent=1)
+        else:
+            yield filename, geojson_data
+
+    # final 100% output
+    utils.print_progress_bar(1, 1, prefix="Progress:", suffix="Complete", length=50)
 
 
-def get_all_features(show_progress: bool = True):
+def get_all_features(show_progress: bool = True, rewrite_geojson: bool = False):
     """A generator that returns (filename, geojson_data, feature) for every Feature in every GeoJSON file."""
-    for filename, geojson_data in get_all_geojson_files(show_progress):
+    for filename, geojson_data in get_all_geojson_files(show_progress, rewrite_geojson):
         for feature in geojson_data["features"]:
             yield filename, geojson_data, feature
 
