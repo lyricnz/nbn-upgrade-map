@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import argparse
-import copy
 import csv
 import glob
 import logging
@@ -20,6 +19,8 @@ import suburbs
 import utils
 from bs4 import BeautifulSoup
 from tabulate import tabulate
+
+from utils import get_all_features
 
 NBN_UPGRADE_DATES_URL = (
     "https://www.nbnco.com.au/corporate-information/media-centre/media-statements/nbnco-announces-suburbs-and"
@@ -397,33 +398,6 @@ def dump_status_tech_upgrade():
         tallies[status][tech][upgrade] = tallies[status][tech].get(upgrade, 0) + 1
 
     pprint.pprint(tallies)
-
-
-def get_all_geojson_files(show_progress: bool = True, rewrite_geojson: bool = False):
-    """A generator that returns (filename, geojson_data) for each GeoJSON file in the results directory"""
-    filenames = glob.glob("results/V**/s*.geojson")  # FIXME
-    for n, filename in enumerate(filenames):
-        if show_progress and n % 100 == 0:
-            utils.print_progress_bar(n, len(filenames), prefix="Progress:", suffix="Complete", length=50)
-        geojson_data = utils.read_json_file(filename)
-        if rewrite_geojson:
-            # take a copy of the GeoJSON, and if it is modified, write it back to the original file
-            geojson_data_copy = copy.deepcopy(geojson_data)
-            yield filename, geojson_data
-            if geojson_data != geojson_data_copy:
-                utils.write_json_file(filename, geojson_data, indent=1)
-        else:
-            yield filename, geojson_data
-
-    # final 100% output
-    utils.print_progress_bar(1, 1, prefix="Progress:", suffix="Complete", length=50)
-
-
-def get_all_features(show_progress: bool = True, rewrite_geojson: bool = False):
-    """A generator that returns (filename, geojson_data, feature) for every Feature in every GeoJSON file."""
-    for filename, geojson_data in get_all_geojson_files(show_progress, rewrite_geojson):
-        for feature in geojson_data["features"]:
-            yield filename, geojson_data, feature
 
 
 if __name__ == "__main__":
