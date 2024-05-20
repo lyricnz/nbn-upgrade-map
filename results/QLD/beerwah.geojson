@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-27T03:26:55.494889",
+ "generated": "2024-05-18T15:26:15.737060",
  "suburb": "BEERWAH",
  "features": [
   {
@@ -242,10 +242,10 @@
    "properties": {
     "name": "6 ARCADIA DRIVE BEERWAH 4519",
     "locID": "LOC000022540619",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155005115",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -542,23 +542,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155006113"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.94301063,
-     -26.84893942
-    ]
-   },
-   "properties": {
-    "name": "170 PINE CAMP ROAD BEERWAH 4519",
-    "locID": "LOC000066318318",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155006137"
    }
   },
   {
@@ -887,10 +870,10 @@
    "properties": {
     "name": "38 PINE CAMP ROAD BEERWAH 4519",
     "locID": "LOC000043150225",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155007010",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2234,10 +2217,9 @@
    "properties": {
     "name": "9A MELLUMVIEW DRIVE BEERWAH 4519",
     "locID": "LOC000062628524",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155007920",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4093,10 +4075,10 @@
    "properties": {
     "name": "2524 OLD GYMPIE ROAD BEERWAH 4519",
     "locID": "LOC000088345477",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAQLD155008981",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -6825,6 +6807,25 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.95173293,
+     -26.8585824
+    ]
+   },
+   "properties": {
+    "name": "63 PEACHESTER ROAD BEERWAH 4519",
+    "locID": "LOC000116035102",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155013399",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -12558,6 +12559,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.95191591,
+     -26.8585728
+    ]
+   },
+   "properties": {
+    "name": "61 PEACHESTER ROAD BEERWAH 4519",
+    "locID": "LOC000116035085",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD156025824",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.9441315,
      -26.85012963
     ]
@@ -14140,26 +14160,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.95637609,
-     -26.85236692
-    ]
-   },
-   "properties": {
-    "name": "2 NORTH STREET BEERWAH 4519",
-    "locID": "LOC000101696772",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156260991",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.95610796,
      -26.85180188
     ]
@@ -14646,8 +14646,8 @@
    "properties": {
     "name": "7 BARBARA COURT BEERWAH 4519",
     "locID": "LOC000106408196",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156262081",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15339,9 +15339,8 @@
     "name": "12 BARBARA COURT BEERWAH 4519",
     "locID": "LOC000001724056",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156263696",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15577,9 +15576,9 @@
     "name": "23 MELLUMVIEW DRIVE BEERWAH 4519",
     "locID": "LOC000020212254",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156263712",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18360,10 +18359,10 @@
    "properties": {
     "name": "7 TUDOR COURT BEERWAH 4519",
     "locID": "LOC000061572615",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156266410",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18525,10 +18524,9 @@
    "properties": {
     "name": "5 DIAMANTINA DRIVE BEERWAH 4519",
     "locID": "LOC000087074703",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156266433",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156266433"
    }
   },
   {
@@ -20882,7 +20880,7 @@
     "name": "12 BELTON COURT BEERWAH 4519",
     "locID": "LOC000013394590",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156271343",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21158,8 +21156,8 @@
    "properties": {
     "name": "24 BELTON COURT BEERWAH 4519",
     "locID": "LOC000108407259",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156271382",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24777,8 +24775,8 @@
    "properties": {
     "name": "27 TWIN PEAKS DRIVE BEERWAH 4519",
     "locID": "LOC000072683706",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD157523287",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26777,8 +26775,8 @@
    "properties": {
     "name": "53 PEACHESTER ROAD BEERWAH 4519",
     "locID": "LOC000090029248",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD157534393",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -32874,10 +32872,9 @@
    "properties": {
     "name": "6 TORIANA PLACE BEERWAH 4519",
     "locID": "LOC000062557254",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161718693",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161718693"
    }
   },
   {
@@ -35049,10 +35046,9 @@
    "properties": {
     "name": "12 USHER BOULEVARD BEERWAH 4519",
     "locID": "LOC000059695037",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162107787",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36997,7 +36993,7 @@
    "properties": {
     "name": "32 STOKES ROAD BEERWAH 4519",
     "locID": "LOC000088205966",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162310422"
    }
@@ -43872,10 +43868,10 @@
    "properties": {
     "name": "19 MONARCH PLACE BEERWAH 4519",
     "locID": "LOC000031580119",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD162857800",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44543,10 +44539,9 @@
    "properties": {
     "name": "97 SHAWS ROAD BEERWAH 4519",
     "locID": "LOC000064821953",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162946530",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162946530"
    }
   },
   {
@@ -44850,10 +44845,10 @@
    "properties": {
     "name": "10 FAIRY WREN COURT BEERWAH 4519",
     "locID": "LOC000016546483",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD163032714",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -46775,10 +46770,9 @@
    "properties": {
     "name": "7 PEPPER TREE WAY BEERWAH 4519",
     "locID": "LOC000003528576",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163191434",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54002,8 +53996,8 @@
    "properties": {
     "name": "19 BILENDA CLOSE BEERWAH 4519",
     "locID": "LOC000165961077",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD425638638",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -54379,10 +54373,10 @@
    "properties": {
     "name": "4 LLOYD STREET BEERWAH 4519",
     "locID": "LOC000165633333",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD425641128",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -64222,8 +64216,8 @@
    "properties": {
     "name": "29 TWIN PEAKS DRIVE BEERWAH 4519",
     "locID": "LOC000183605582",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD720310365",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -64622,7 +64616,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD720629746",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
    }

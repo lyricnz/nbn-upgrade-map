@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-25T21:18:52.147692",
+ "generated": "2024-05-17T08:50:09.609867",
  "suburb": "ELTHAM",
  "features": [
   {
@@ -717,8 +717,8 @@
    "properties": {
     "name": "40 KALBAR ROAD ELTHAM 3095",
     "locID": "LOC000003482033",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC411307947",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23643,8 +23643,8 @@
    "properties": {
     "name": "487 REYNOLDS ROAD ELTHAM 3095",
     "locID": "LOC000015564179",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419814406",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -27155,9 +27155,9 @@
     "name": "8 SCARLET ASH COURT ELTHAM 3095",
     "locID": "LOC000100345818",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419825001",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27973,8 +27973,8 @@
    "properties": {
     "name": "28 NYORA ROAD ELTHAM 3095",
     "locID": "LOC000037626150",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC419827560",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -30744,23 +30744,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419833305"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.152756,
-     -37.717644
-    ]
-   },
-   "properties": {
-    "name": "13 GREY STREET ELTHAM 3095",
-    "locID": "LOC000101248210",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419833306"
    }
   },
   {
@@ -34114,9 +34097,9 @@
     "name": "34 NYORA ROAD ELTHAM 3095",
     "locID": "LOC000012935375",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420113191",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -66772,7 +66755,7 @@
    "properties": {
     "name": "33 ARTHUR STREET ELTHAM 3095",
     "locID": "LOC000194434869",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420736714"
    }
@@ -73760,8 +73743,8 @@
    "properties": {
     "name": "27 DIOSMA ROAD ELTHAM 3095",
     "locID": "LOC000062277237",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421033149",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -79510,8 +79493,8 @@
    "properties": {
     "name": "19 DARKAN COURT ELTHAM 3095",
     "locID": "LOC000071758065",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421047522",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -81822,10 +81805,9 @@
    "properties": {
     "name": "10 CROWE COURT ELTHAM 3095",
     "locID": "LOC000062693097",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421315297",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -86813,7 +86795,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GAVIC421342381",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -89643,26 +89625,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421354373",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.174151,
-     -37.705252
-    ]
-   },
-   "properties": {
-    "name": "13 GRIFFIN COURT ELTHAM 3095",
-    "locID": "LOC000026084858",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421354374",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -105838,23 +105800,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.154515,
-     -37.721727
-    ]
-   },
-   "properties": {
-    "name": "153 PITT STREET ELTHAM 3095",
-    "locID": "LOC000058471233",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421891280"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.163501,
      -37.711179
     ]
@@ -107884,9 +107829,8 @@
     "name": "15 CAMERON COURT ELTHAM 3095",
     "locID": "LOC000060115956",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421906236",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -115508,10 +115452,9 @@
    "properties": {
     "name": "5 DUKE RETREAT ELTHAM 3095",
     "locID": "LOC000080286570",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421949583",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -143927,7 +143870,7 @@
    "properties": {
     "name": "UNIT 9, 33 ARTHUR STREET ELTHAM 3095",
     "locID": "LOC000194434905",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721156796"
    }
@@ -143944,7 +143887,7 @@
    "properties": {
     "name": "UNIT 1, 33 ARTHUR STREET ELTHAM 3095",
     "locID": "LOC000194434732",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721157098"
    }
@@ -143961,7 +143904,7 @@
    "properties": {
     "name": "UNIT 3, 33 ARTHUR STREET ELTHAM 3095",
     "locID": "LOC000194434830",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721157885"
    }
@@ -143995,7 +143938,7 @@
    "properties": {
     "name": "UNIT 7, 33 ARTHUR STREET ELTHAM 3095",
     "locID": "LOC000194434876",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721160063"
    }
@@ -144012,7 +143955,7 @@
    "properties": {
     "name": "UNIT 2, 33 ARTHUR STREET ELTHAM 3095",
     "locID": "LOC000194434824",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721162190"
    }
@@ -144029,7 +143972,7 @@
    "properties": {
     "name": "UNIT 8, 33 ARTHUR STREET ELTHAM 3095",
     "locID": "LOC000194434882",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721162841"
    }
@@ -144046,7 +143989,7 @@
    "properties": {
     "name": "UNIT 6, 33 ARTHUR STREET ELTHAM 3095",
     "locID": "LOC000194434869",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721164556"
    }
@@ -144063,7 +144006,7 @@
    "properties": {
     "name": "UNIT 4, 33 ARTHUR STREET ELTHAM 3095",
     "locID": "LOC000194434848",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721166597"
    }
@@ -144097,7 +144040,7 @@
    "properties": {
     "name": "UNIT 5, 33 ARTHUR STREET ELTHAM 3095",
     "locID": "LOC000194434853",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721169096"
    }

@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-26T20:37:02.739372",
+ "generated": "2024-05-18T08:10:22.283469",
  "suburb": "BILOELA",
  "features": [
   {
@@ -748,10 +748,10 @@
    "properties": {
     "name": "1 COLLARD STREET BILOELA 4715",
     "locID": "LOC000037604675",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155019890",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3068,9 +3068,8 @@
     "name": "27 PROSPECT STREET BILOELA 4715",
     "locID": "LOC000087224783",
     "tech": "FTTP",
-    "upgrade": "FTTC_CT",
-    "gnaf_pid": "GAQLD155021642",
-    "tech_change_status": "New Tech Connected"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155021642"
    }
   },
   {
@@ -9550,7 +9549,8 @@
     "locID": "LOC000088286629",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155025569"
+    "gnaf_pid": "GAQLD155025569",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -9601,8 +9601,8 @@
    "properties": {
     "name": "141 BELL STREET BILOELA 4715",
     "locID": "LOC000080140374",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155026133",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9838,7 +9838,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155026252",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11472,9 +11472,9 @@
     "name": "145 RAINBOW STREET BILOELA 4715",
     "locID": "LOC000062889028",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155027031",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15258,6 +15258,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.5058183,
+     -24.40548401
+    ]
+   },
+   "properties": {
+    "name": "44 DAWSON HIGHWAY BILOELA 4715",
+    "locID": "LOC100055409402",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155029947"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.50529923,
      -24.4061108
     ]
@@ -16699,7 +16716,7 @@
     "name": "41 WASHPOOL STREET BILOELA 4715",
     "locID": "LOC000036394691",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155031761",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24706,10 +24723,10 @@
    "properties": {
     "name": "22 BUCKLAND STREET BILOELA 4715",
     "locID": "LOC000002563511",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAQLD156276799",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -30743,9 +30760,9 @@
     "name": "18 NETLEY STREET BILOELA 4715",
     "locID": "LOC000094548027",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156283660",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31033,7 +31050,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156283686",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32495,7 +32512,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156284714",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -56004,7 +56021,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425750229",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -58040,7 +58057,7 @@
     "name": "15 QUARRIE LANE BILOELA 4715",
     "locID": "LOC100081715041",
     "tech": "WIRELESS",
-    "upgrade": "SAT_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720672859",
     "tech_change_status": "Eligible To Order"
    }
@@ -58473,23 +58490,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD721311680",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.53810762,
-     -24.41014494
-    ]
-   },
-   "properties": {
-    "name": "199 VALENTINE PLAINS ROAD BILOELA 4715",
-    "locID": "LOC000165365272",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721313181"
    }
   },
   {

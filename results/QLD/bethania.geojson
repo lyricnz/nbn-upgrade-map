@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-27T07:00:48.772073",
+ "generated": "2024-05-18T19:08:23.523238",
  "suburb": "BETHANIA",
  "features": [
   {
@@ -1492,7 +1492,7 @@
     "name": "51 JESSIE CRESCENT BETHANIA 4205",
     "locID": "LOC000102751760",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155025322",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2508,10 +2508,12 @@
    "properties": {
     "name": "43 JESSIE CRESCENT BETHANIA 4205",
     "locID": "LOC000023526650",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155029633",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -11450,9 +11452,9 @@
     "name": "30 JESSIE CRESCENT BETHANIA 4205",
     "locID": "LOC000094522263",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156277484",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -15976,10 +15978,10 @@
    "properties": {
     "name": "5 LYNETTE COURT BETHANIA 4205",
     "locID": "LOC000100665076",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156280796",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16016,8 +16018,8 @@
    "properties": {
     "name": "7 LYNETTE COURT BETHANIA 4205",
     "locID": "LOC000038300666",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156280798",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16037,7 +16039,7 @@
     "name": "8 LYNETTE COURT BETHANIA 4205",
     "locID": "LOC000082582236",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156280799",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26017,6 +26019,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.151214,
+     -27.697868
+    ]
+   },
+   "properties": {
+    "name": "8 LAKE COURT BETHANIA 4205",
+    "locID": "LOC000073677301",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157539119",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.15213311,
      -27.68846381
     ]
@@ -26331,6 +26351,24 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157539877",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.152816,
+     -27.698432
+    ]
+   },
+   "properties": {
+    "name": "5 ROYAL DRIVE BETHANIA 4205",
+    "locID": "LOC000174301634",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157540011",
     "tech_change_status": "Not Planned"
    }
   },
@@ -27258,6 +27296,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.150924,
+     -27.698087
+    ]
+   },
+   "properties": {
+    "name": "8 PALM COURT BETHANIA 4205",
+    "locID": "LOC000073677301",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157541624",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.150497,
      -27.697883
     ]
@@ -27485,6 +27541,24 @@
     "gnaf_pid": "GAQLD157541927",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.153244,
+     -27.698274
+    ]
+   },
+   "properties": {
+    "name": "8 ROYAL DRIVE BETHANIA 4205",
+    "locID": "LOC000174301634",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157541995",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -28950,6 +29024,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.150711,
+     -27.698879
+    ]
+   },
+   "properties": {
+    "name": "5 CEDAR COURT BETHANIA 4205",
+    "locID": "LOC000075405408",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157548583",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.15673464,
      -27.69583549
     ]
@@ -29376,6 +29468,24 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157549495",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.15155,
+     -27.69819
+    ]
+   },
+   "properties": {
+    "name": "5 LAKE COURT BETHANIA 4205",
+    "locID": "LOC000075405408",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157549679",
     "tech_change_status": "Not Planned"
    }
   },
@@ -50072,6 +50182,23 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720620443",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.15727892,
+     -27.70111785
+    ]
+   },
+   "properties": {
+    "name": "8 FLETCHER ROAD BETHANIA 4205",
+    "locID": "LOC000194864500",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD720629310"
    }
   },
   {

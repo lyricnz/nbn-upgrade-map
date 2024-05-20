@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-27T11:49:31.987512",
+ "generated": "2024-05-19T00:24:25.140522",
  "suburb": "BOWDEN",
  "features": [
   {
@@ -1531,9 +1531,9 @@
     "name": "99B DRAYTON STREET BOWDEN 5007",
     "locID": "LOC000072163995",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415252050",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2067,10 +2067,9 @@
    "properties": {
     "name": "128 DRAYTON STREET BOWDEN 5007",
     "locID": "LOC000082066643",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415408651",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3525,7 +3524,8 @@
     "locID": "LOC000026707147",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415461878"
+    "gnaf_pid": "GASA_415461878",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7958,6 +7958,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.58066467,
+     -34.9032682
+    ]
+   },
+   "properties": {
+    "name": "16 NINTH STREET BOWDEN 5007",
+    "locID": "LOC000194946545",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_416472943"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.57702201,
      -34.90430583
     ]
@@ -8563,8 +8580,8 @@
    "properties": {
     "name": "117A GIBSON STREET BOWDEN 5007",
     "locID": "LOC000050805954",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_423815482",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23712,6 +23729,74 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.58054236,
+     -34.90318662
+    ]
+   },
+   "properties": {
+    "name": "16C NINTH STREET BOWDEN 5007",
+    "locID": "LOC000194946681",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721251831"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.58062045,
+     -34.90323846
+    ]
+   },
+   "properties": {
+    "name": "16A NINTH STREET BOWDEN 5007",
+    "locID": "LOC000194946566",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721253026"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.58049772,
+     -34.90315693
+    ]
+   },
+   "properties": {
+    "name": "16D NINTH STREET BOWDEN 5007",
+    "locID": "LOC000194946773",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721253676"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.58058141,
+     -34.90321254
+    ]
+   },
+   "properties": {
+    "name": "16B NINTH STREET BOWDEN 5007",
+    "locID": "LOC000194946606",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721254147"
    }
   },
   {

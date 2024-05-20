@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-26T22:04:43.219641",
+ "generated": "2024-05-18T09:56:30.027482",
  "suburb": "PIALBA",
  "features": [
   {
@@ -680,7 +680,7 @@
     "gnaf_pid": "GAQLD155694657",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -800,7 +800,7 @@
     "gnaf_pid": "GAQLD155694663",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -1270,10 +1270,10 @@
    "properties": {
     "name": "10 TENIMBY STREET PIALBA 4655",
     "locID": "LOC000043456873",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155695398",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2763,8 +2763,8 @@
    "properties": {
     "name": "7 PALM MEADOWS PLACE PIALBA 4655",
     "locID": "LOC000087103865",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155699008",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3112,9 +3112,9 @@
     "name": "56 HYTHE STREET PIALBA 4655",
     "locID": "LOC000040365487",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155700044",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5834,7 +5834,7 @@
     "gnaf_pid": "GAQLD155711364",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -6905,7 +6905,7 @@
     "gnaf_pid": "GAQLD155712385",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -7968,10 +7968,9 @@
    "properties": {
     "name": "242 BOAT HARBOUR DRIVE PIALBA 4655",
     "locID": "LOC000066234737",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155714593",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16401,7 +16400,7 @@
     "gnaf_pid": "GAQLD157001512",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -16461,7 +16460,7 @@
     "gnaf_pid": "GAQLD157001528",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -17767,10 +17766,9 @@
    "properties": {
     "name": "208 LONG STREET PIALBA 4655",
     "locID": "LOC000064893597",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD157005934",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157005934"
    }
   },
   {
@@ -58279,6 +58277,24 @@
     ]
    },
    "properties": {
+    "name": "38 WATSON STREET PIALBA 4655",
+    "locID": "LOC000194940397",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719565459",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.83582906,
+     -25.27878861
+    ]
+   },
+   "properties": {
     "name": "34 WATSON STREET PIALBA 4655",
     "locID": "LOC000188283084",
     "tech": "FTTP",
@@ -63763,9 +63779,8 @@
     "name": "2 MCLIVER STREET PIALBA 4655",
     "locID": "LOC000074047048",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD721189586",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721189586"
    }
   },
   {

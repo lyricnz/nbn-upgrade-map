@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-27T11:09:22.804049",
+ "generated": "2024-05-18T23:23:27.192881",
  "suburb": "REYNELLA",
  "features": [
   {
@@ -23605,10 +23605,10 @@
    "properties": {
     "name": "7 ZELDA CLOSE REYNELLA 5161",
     "locID": "LOC000006833182",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415377137",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26054,8 +26054,8 @@
    "properties": {
     "name": "18 FIELD STREET REYNELLA 5161",
     "locID": "LOC000043167094",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415383733",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26728,8 +26728,8 @@
    "properties": {
     "name": "5 ALLAN PLACE REYNELLA 5161",
     "locID": "LOC000074051130",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GASA_415386489",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26769,9 +26769,9 @@
     "name": "9 ALLAN PLACE REYNELLA 5161",
     "locID": "LOC000059069911",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415386491",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37214,9 +37214,9 @@
     "name": "14 MORNINGTON PLACE REYNELLA 5161",
     "locID": "LOC000064139225",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_423423651",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39256,7 +39256,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424109156",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Mar 2025"
    }
@@ -43808,6 +43808,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.52393026,
+     -35.09772031
+    ]
+   },
+   "properties": {
+    "name": "23 CAMBRIDGE STREET REYNELLA 5161",
+    "locID": "LOC100085857505",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_425359436",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.52406819,
      -35.09777136
     ]
@@ -45170,6 +45188,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.52412645,
+     -35.09737159
+    ]
+   },
+   "properties": {
+    "name": "43A THE STRAND REYNELLA 5161",
+    "locID": "LOC100085857580",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_720302575",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.51655912,
      -35.10515963
     ]
@@ -45986,7 +46022,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_721275075",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Mar 2025"
    }
@@ -46006,6 +46042,42 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721349875",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.51830958,
+     -35.1011823
+    ]
+   },
+   "properties": {
+    "name": "16B WILLIAM ROAD REYNELLA 5161",
+    "locID": "LOC100085857630",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721410226",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.51823462,
+     -35.10118627
+    ]
+   },
+   "properties": {
+    "name": "16A WILLIAM ROAD REYNELLA 5161",
+    "locID": "LOC100085857624",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721413809",
     "tech_change_status": "Not Planned"
    }
   }

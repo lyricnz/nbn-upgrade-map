@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-27T00:33:51.738952",
+ "generated": "2024-05-18T12:39:59.529917",
  "suburb": "OXLEY",
  "features": [
   {
@@ -1109,7 +1109,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155664281",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2684,8 +2684,8 @@
    "properties": {
     "name": "6 SUNNINGDALE STREET OXLEY 4075",
     "locID": "LOC000101890659",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155667820",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3553,8 +3553,8 @@
    "properties": {
     "name": "22 INGHAM STREET OXLEY 4075",
     "locID": "LOC000034636203",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155679444",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5893,10 +5893,12 @@
    "properties": {
     "name": "184 FORT ROAD OXLEY 4075",
     "locID": "LOC000096291271",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155681969",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -9184,8 +9186,8 @@
    "properties": {
     "name": "5 MERION CLOSE OXLEY 4075",
     "locID": "LOC000041763517",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155684112",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11290,7 +11292,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155685899",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11874,8 +11876,8 @@
    "properties": {
     "name": "36 GLENEAGLES CRESCENT OXLEY 4075",
     "locID": "LOC000084709246",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155686589",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12185,10 +12187,9 @@
    "properties": {
     "name": "46 GLENEAGLES CRESCENT OXLEY 4075",
     "locID": "LOC000074864270",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155686631",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12877,9 +12878,8 @@
     "name": "26 EDENVALE STREET OXLEY 4075",
     "locID": "LOC000010827169",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155686817",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15732,8 +15732,8 @@
    "properties": {
     "name": "24 ORMOND ROAD OXLEY 4075",
     "locID": "LOC000072302207",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155689742",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16676,8 +16676,8 @@
    "properties": {
     "name": "2 RIVIERA COURT OXLEY 4075",
     "locID": "LOC000056668987",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155690665",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16966,6 +16966,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155691316",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17576,7 +17577,7 @@
     "name": "24 CHAPMAN PLACE OXLEY 4075",
     "locID": "LOC000032403866",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155691617",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20366,10 +20367,12 @@
    "properties": {
     "name": "152 FORT ROAD OXLEY 4075",
     "locID": "LOC000040242903",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156929325",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -20384,10 +20387,12 @@
    "properties": {
     "name": "158 FORT ROAD OXLEY 4075",
     "locID": "LOC000083466922",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156929328",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -20421,9 +20426,9 @@
     "name": "162 FORT ROAD OXLEY 4075",
     "locID": "LOC000073346439",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156929330",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -20438,10 +20443,12 @@
    "properties": {
     "name": "178 FORT ROAD OXLEY 4075",
     "locID": "LOC000098695141",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156929334",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -20456,10 +20463,12 @@
    "properties": {
     "name": "182 FORT ROAD OXLEY 4075",
     "locID": "LOC000063011537",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156929336",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -21304,10 +21313,12 @@
    "properties": {
     "name": "56 FORT ROAD OXLEY 4075",
     "locID": "LOC000040242903",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156932692",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -24421,9 +24432,9 @@
     "name": "4 STEPHENSON STREET OXLEY 4075",
     "locID": "LOC000005853354",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156939689",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25516,10 +25527,10 @@
    "properties": {
     "name": "170 DOWDING STREET OXLEY 4075",
     "locID": "LOC000027630969",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156940106",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32254,8 +32265,8 @@
    "properties": {
     "name": "27 SUSANNAH STREET OXLEY 4075",
     "locID": "LOC000091248404",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156960918",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -33512,8 +33523,8 @@
    "properties": {
     "name": "11 IRWIN TERRACE OXLEY 4075",
     "locID": "LOC000044414378",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156964642",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -33592,8 +33603,8 @@
    "properties": {
     "name": "17 IRWIN TERRACE OXLEY 4075",
     "locID": "LOC000178317568",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156964646",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -36504,8 +36515,8 @@
    "properties": {
     "name": "51 IRWIN TERRACE OXLEY 4075",
     "locID": "LOC000178317568",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156971643",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -39388,8 +39399,8 @@
    "properties": {
     "name": "76 MUIRLEA STREET OXLEY 4075",
     "locID": "LOC000084539726",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156975322",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -39806,7 +39817,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156978289",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -51111,10 +51122,12 @@
    "properties": {
     "name": "199 FORT ROAD OXLEY 4075",
     "locID": "LOC000087318609",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161828809",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -51893,10 +51906,9 @@
    "properties": {
     "name": "17 YORK CLOSE OXLEY 4075",
     "locID": "LOC000035289596",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161888541",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -51972,10 +51984,10 @@
    "properties": {
     "name": "4 YORK CLOSE OXLEY 4075",
     "locID": "LOC000010426859",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD161888545",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -52012,8 +52024,8 @@
    "properties": {
     "name": "6 YORK CLOSE OXLEY 4075",
     "locID": "LOC000046028403",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD161888547",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -59144,10 +59156,10 @@
    "properties": {
     "name": "114 ENGLEFIELD ROAD OXLEY 4075",
     "locID": "LOC000008255307",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD163178934",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -59181,10 +59193,10 @@
    "properties": {
     "name": "12 KRYSTELLE CLOSE OXLEY 4075",
     "locID": "LOC000020901937",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD163263923",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -60736,7 +60748,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD425173970",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }

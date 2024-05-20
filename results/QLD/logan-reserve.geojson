@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-27T04:00:25.917001",
+ "generated": "2024-05-18T15:59:36.396540",
  "suburb": "LOGAN RESERVE",
  "features": [
   {
@@ -413,10 +413,9 @@
    "properties": {
     "name": "13 LAKE AMAROO COURT LOGAN RESERVE 4133",
     "locID": "LOC000050980355",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155497966",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -692,9 +691,9 @@
     "name": "39 LAKE AMAROO COURT LOGAN RESERVE 4133",
     "locID": "LOC000068680904",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155497981",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -905,9 +904,9 @@
     "name": "9 LAKE BOGONG COURT LOGAN RESERVE 4133",
     "locID": "LOC000077728872",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155502987",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2476,8 +2475,8 @@
    "properties": {
     "name": "43-79 SCHOOL ROAD LOGAN RESERVE 4133",
     "locID": "LOC000052586442",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156766047",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6975,8 +6974,8 @@
    "properties": {
     "name": "56-64 SCHOOL ROAD LOGAN RESERVE 4133",
     "locID": "LOC000039223210",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD161302903",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7254,8 +7253,8 @@
    "properties": {
     "name": "8 LAKE COOTHARABA PLACE LOGAN RESERVE 4133",
     "locID": "LOC000105713185",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD161660619",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7397,6 +7396,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161660631",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8632,8 +8632,8 @@
    "properties": {
     "name": "13 LAKE BORUMBA STREET LOGAN RESERVE 4133",
     "locID": "LOC000037456695",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD161843209",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9899,8 +9899,8 @@
    "properties": {
     "name": "54 LAKE MANCHESTER STREET LOGAN RESERVE 4133",
     "locID": "LOC000062120063",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD161843280",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -66565,6 +66565,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.10738853,
+     -27.71570924
+    ]
+   },
+   "properties": {
+    "name": "49 CAVANAGH DRIVE LOGAN RESERVE 4133",
+    "locID": "LOC000191561563",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721227932"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.10825091,
      -27.7153532
     ]
@@ -67170,6 +67187,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721229599"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.10842677,
+     -27.71509358
+    ]
+   },
+   "properties": {
+    "name": "30 CAVANAGH DRIVE LOGAN RESERVE 4133",
+    "locID": "LOC000191561268",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721229600"
    }
   },
   {
@@ -68054,6 +68088,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721233897"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.10733849,
+     -27.71599454
+    ]
+   },
+   "properties": {
+    "name": "53 CAVANAGH DRIVE LOGAN RESERVE 4133",
+    "locID": "LOC000191562068",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721233983"
    }
   },
   {
@@ -69014,6 +69065,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.10624915,
+     -27.72458585
+    ]
+   },
+   "properties": {
+    "name": "85 TAHOE STREET LOGAN RESERVE 4133",
+    "locID": "LOC000192367629",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721306789"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.10396613,
      -27.70201091
     ]
@@ -69749,6 +69817,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.10626666,
+     -27.72446836
+    ]
+   },
+   "properties": {
+    "name": "87 TAHOE STREET LOGAN RESERVE 4133",
+    "locID": "LOC000192367617",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721313185"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.10737362,
      -27.72369274
     ]
@@ -70209,6 +70294,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.10803854,
+     -27.71672514
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 6 MCCLUNE STREET LOGAN RESERVE 4133",
+    "locID": "LOC000191561867",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721338867"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.10774837,
      -27.71634165
     ]
@@ -70243,6 +70345,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.10878704,
+     -27.71655329
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 15 PLATELL STREET LOGAN RESERVE 4133",
+    "locID": "LOC000191561456",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721339025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.10703622,
      -27.72462821
     ]
@@ -70270,6 +70389,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721339081"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.10738853,
+     -27.71570924
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 49 CAVANAGH DRIVE LOGAN RESERVE 4133",
+    "locID": "LOC000191561563",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721339122"
    }
   },
   {
@@ -70379,6 +70515,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.10895842,
+     -27.71587574
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 17 TEMPLETON STREET LOGAN RESERVE 4133",
+    "locID": "LOC000191561138",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721339394"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.10432855,
      -27.69971493
     ]
@@ -70406,6 +70559,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721339558"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.10895842,
+     -27.71587574
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 17 TEMPLETON STREET LOGAN RESERVE 4133",
+    "locID": "LOC000191561138",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721339582"
    }
   },
   {
@@ -70542,6 +70712,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721340046"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.10733849,
+     -27.71599454
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 53 CAVANAGH DRIVE LOGAN RESERVE 4133",
+    "locID": "LOC000191562068",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721340066"
    }
   },
   {
@@ -70968,6 +71155,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721388651"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.1045569,
+     -27.70116566
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 10 ALDER STREET LOGAN RESERVE 4133",
+    "locID": "LOC000193456329",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721388725"
    }
   },
   {
@@ -71944,6 +72148,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.1045569,
+     -27.70116566
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 10 ALDER STREET LOGAN RESERVE 4133",
+    "locID": "LOC000193456329",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721392457"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.10799021,
      -27.71934658
     ]
@@ -72617,6 +72838,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721399585"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.10501593,
+     -27.69980673
+    ]
+   },
+   "properties": {
+    "name": "17B SUNLINE COURT LOGAN RESERVE 4133",
+    "locID": "LOC000192558687",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721399916"
    }
   },
   {
@@ -74861,6 +75099,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721456141"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11494289,
+     -27.72501944
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 47 TREVI CIRCUIT LOGAN RESERVE 4133",
+    "locID": "LOC000191380470",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721456301"
    }
   },
   {

@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-26T19:05:07.514428",
+ "generated": "2024-05-18T06:41:09.832375",
  "suburb": "BURLEIGH WATERS",
  "features": [
   {
@@ -34,11 +34,12 @@
    "properties": {
     "name": "109 WEST BURLEIGH ROAD BURLEIGH WATERS 4220",
     "locID": "LOC000170718996",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155092571",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3970,7 +3971,7 @@
     "name": "8 MUSTIQUE COURT BURLEIGH WATERS 4220",
     "locID": "LOC000094640251",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155094631",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7950,10 +7951,12 @@
    "properties": {
     "name": "11 SHOALWATER COURT BURLEIGH WATERS 4220",
     "locID": "LOC000035811421",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155095494",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8047,7 +8050,7 @@
     "name": "18 SHOALWATER COURT BURLEIGH WATERS 4220",
     "locID": "LOC000040815781",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155095499",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8126,10 +8129,10 @@
    "properties": {
     "name": "28 SHOALWATER COURT BURLEIGH WATERS 4220",
     "locID": "LOC000043964613",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAQLD155095503",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -8241,10 +8244,12 @@
    "properties": {
     "name": "38 SHOALWATER COURT BURLEIGH WATERS 4220",
     "locID": "LOC000073467924",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155095509",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8687,10 +8692,10 @@
    "properties": {
     "name": "4 CORAL SEA COURT BURLEIGH WATERS 4220",
     "locID": "LOC000026583961",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155096267",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9579,7 +9584,7 @@
     "name": "60 GALEEN DRIVE BURLEIGH WATERS 4220",
     "locID": "LOC000063053618",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155096432",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9805,10 +9810,9 @@
    "properties": {
     "name": "52 DIPPER DRIVE BURLEIGH WATERS 4220",
     "locID": "LOC000033455888",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155096452",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20494,10 +20498,10 @@
    "properties": {
     "name": "144 DUNLIN DRIVE BURLEIGH WATERS 4220",
     "locID": "LOC000005754457",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155101920",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22480,23 +22484,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.41985765,
-     -28.0990865
-    ]
-   },
-   "properties": {
-    "name": "17 MATTOCKS ROAD BURLEIGH WATERS 4220",
-    "locID": "LOC000059709255",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155102980"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.41992619,
      -28.09873402
     ]
@@ -23436,8 +23423,8 @@
    "properties": {
     "name": "55 SEVILLE CIRCUIT BURLEIGH WATERS 4220",
     "locID": "LOC000035070920",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155103794",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25171,7 +25158,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155104851",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33947,8 +33934,8 @@
    "properties": {
     "name": "66 HARRIER DRIVE BURLEIGH WATERS 4220",
     "locID": "LOC000056925684",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155111081",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -34472,8 +34459,8 @@
    "properties": {
     "name": "38 GARDENDALE CRESCENT BURLEIGH WATERS 4220",
     "locID": "LOC000043465933",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155111938",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -35403,9 +35390,8 @@
     "name": "23 SEA EAGLE DRIVE BURLEIGH WATERS 4220",
     "locID": "LOC000072075578",
     "tech": "FTTP",
-    "upgrade": "FTTN_CT",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155112031",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38193,8 +38179,8 @@
    "properties": {
     "name": "52 SEA EAGLE DRIVE BURLEIGH WATERS 4220",
     "locID": "LOC000100621252",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD155113842",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -44391,10 +44377,10 @@
    "properties": {
     "name": "14 BUSHTREE COURT BURLEIGH WATERS 4220",
     "locID": "LOC000030000253",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTC_CT",
     "gnaf_pid": "GAQLD155120356",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -47686,8 +47672,8 @@
    "properties": {
     "name": "99 HARRIER DRIVE BURLEIGH WATERS 4220",
     "locID": "LOC000039710325",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156022057",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -48350,10 +48336,12 @@
    "properties": {
     "name": "22 TROPICANA CIRCUIT BURLEIGH WATERS 4220",
     "locID": "LOC000094616483",
-    "tech": "FTTC",
-    "upgrade": "FTTN_CT",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156034527",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -70532,8 +70520,8 @@
    "properties": {
     "name": "22 RAINBIRD CLOSE BURLEIGH WATERS 4220",
     "locID": "LOC000036435784",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156363526",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -77303,8 +77291,8 @@
    "properties": {
     "name": "16 RAINBIRD CLOSE BURLEIGH WATERS 4220",
     "locID": "LOC000097564351",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD156366066",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -79214,11 +79202,12 @@
    "properties": {
     "name": "SHOP 3, 109 WEST BURLEIGH ROAD BURLEIGH WATERS 4220",
     "locID": "LOC000170718996",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156366496",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -79250,11 +79239,12 @@
    "properties": {
     "name": "SHOP 9, 109 WEST BURLEIGH ROAD BURLEIGH WATERS 4220",
     "locID": "LOC000170718996",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156366498",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -95444,10 +95434,9 @@
    "properties": {
     "name": "UNIT 1, 20 STYER CIRCUIT BURLEIGH WATERS 4220",
     "locID": "LOC000105900037",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157666949",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -96800,7 +96789,7 @@
     "tech": "FTTP",
     "upgrade": "FTTN_CT",
     "gnaf_pid": "GAQLD160685174",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -101097,11 +101086,12 @@
    "properties": {
     "name": "SHOP 11, 109 WEST BURLEIGH ROAD BURLEIGH WATERS 4220",
     "locID": "LOC000170718996",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160990195",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -101116,11 +101106,12 @@
    "properties": {
     "name": "SHOP 12, 109 WEST BURLEIGH ROAD BURLEIGH WATERS 4220",
     "locID": "LOC000170718996",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160990198",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -101152,11 +101143,12 @@
    "properties": {
     "name": "SHOP 13, 109 WEST BURLEIGH ROAD BURLEIGH WATERS 4220",
     "locID": "LOC000170718996",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160990201",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -101188,11 +101180,12 @@
    "properties": {
     "name": "SHOP 15, 109 WEST BURLEIGH ROAD BURLEIGH WATERS 4220",
     "locID": "LOC000170718996",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160990207",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -101224,11 +101217,12 @@
    "properties": {
     "name": "SHOP 16, 109 WEST BURLEIGH ROAD BURLEIGH WATERS 4220",
     "locID": "LOC000170718996",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160990210",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -101260,11 +101254,12 @@
    "properties": {
     "name": "SHOP 17, 109 WEST BURLEIGH ROAD BURLEIGH WATERS 4220",
     "locID": "LOC000170718996",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160990213",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -101296,11 +101291,12 @@
    "properties": {
     "name": "SHOP 18, 109 WEST BURLEIGH ROAD BURLEIGH WATERS 4220",
     "locID": "LOC000170718996",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160990217",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -101661,11 +101657,12 @@
    "properties": {
     "name": "SHOP 2, 109 WEST BURLEIGH ROAD BURLEIGH WATERS 4220",
     "locID": "LOC000170718996",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160990267",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -102373,11 +102370,12 @@
    "properties": {
     "name": "SHOP 5, 109 WEST BURLEIGH ROAD BURLEIGH WATERS 4220",
     "locID": "LOC000170718996",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160990370",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -102547,11 +102545,12 @@
    "properties": {
     "name": "SHOP 6, 109 WEST BURLEIGH ROAD BURLEIGH WATERS 4220",
     "locID": "LOC000170718996",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160990387",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -102619,11 +102618,12 @@
    "properties": {
     "name": "SHOP 7, 109 WEST BURLEIGH ROAD BURLEIGH WATERS 4220",
     "locID": "LOC000170718996",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160990394",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -102674,11 +102674,12 @@
    "properties": {
     "name": "SHOP 8, 109 WEST BURLEIGH ROAD BURLEIGH WATERS 4220",
     "locID": "LOC000170718996",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD160990399",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
