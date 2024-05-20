@@ -143,7 +143,7 @@ const dotTypes = {
         colour: '#FF7E01'
     },
     FTTN_FTTB: {
-        label: 'FTTC',
+        label: 'FTTN/FTTB',
         colour: '#E3071D'
     },
     WirelessSat: {
