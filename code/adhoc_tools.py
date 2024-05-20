@@ -415,14 +415,6 @@ def update_breakdown():
     return breakdowns
 
 
-def print_breakdowns(breakdowns):
-    """Dump the breakdowns to the console as tables."""
-    for key in {"tech", "upgrade"}:
-        rows = [{"date": run_date} | breakdowns[run_date][key] for run_date in sorted(breakdowns)]
-        print()
-        print(tabulate(rows, headers="keys", tablefmt="github"))
-
-
 def dump_status_tech_upgrade():
     """Dump the tech and upgrade breakdowns to the console."""
     tallies = {}  # status -> tech -> upgrade:count
