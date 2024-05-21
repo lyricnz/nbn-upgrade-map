@@ -3,7 +3,17 @@
 
 import logging
 
-from adhoc_tools import generate_state_breakdown, print_breakdowns, update_breakdown
+from adhoc_tools import generate_state_breakdown, update_breakdown
+from tabulate import tabulate
+
+
+def print_breakdowns(breakdowns):
+    """Dump the breakdowns to the console as tables."""
+    for key in {"tech", "upgrade"}:
+        rows = [{"date": run_date} | breakdowns[run_date][key] for run_date in sorted(breakdowns)]
+        print()
+        print(tabulate(rows, headers="keys", tablefmt="github"))
+
 
 if __name__ == "__main__":  # pragma: no cover
     logging.basicConfig(level=logging.INFO)
