@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-28T12:43:05.193411",
+ "generated": "2024-05-21T00:58:01.559782",
  "suburb": "OSBORNE PARK",
  "features": [
   {
@@ -352,7 +352,7 @@
     "name": "209 ALBERT STREET OSBORNE PARK 6017",
     "locID": "LOC000067808953",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146570736",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -572,7 +572,7 @@
     "name": "22 VICTORIA WAY OSBORNE PARK 6017",
     "locID": "LOC000056352007",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146571592",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8600,7 +8600,8 @@
     "locID": "LOC000037446497",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146633096"
+    "gnaf_pid": "GAWA_146633096",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -12584,9 +12585,8 @@
     "name": "4 GORDON ROAD WEST OSBORNE PARK 6017",
     "locID": "LOC000015416560",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_146649799",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146649799"
    }
   },
   {
@@ -13208,10 +13208,9 @@
    "properties": {
     "name": "3 JOSIP PLACE OSBORNE PARK 6017",
     "locID": "LOC000012881604",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAWA_147082253",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_147082253"
    }
   },
   {
@@ -33611,7 +33610,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147311244",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36821,10 +36820,9 @@
    "properties": {
     "name": "200 MAIN STREET OSBORNE PARK 6017",
     "locID": "LOC000097956601",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147340618",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40686,24 +40684,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.82856674,
-     -31.911594
-    ]
-   },
-   "properties": {
-    "name": "28 MAIN STREET OSBORNE PARK 6017",
-    "locID": "LOC000102311861",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_147970849",
-    "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.82860332,
      -31.91054294
     ]
@@ -43876,10 +43856,9 @@
    "properties": {
     "name": "97A MAIN STREET OSBORNE PARK 6017",
     "locID": "LOC000060224327",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147997746",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -46634,10 +46613,9 @@
    "properties": {
     "name": "9 VICTORIA WAY OSBORNE PARK 6017",
     "locID": "LOC000090482746",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148002358",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -47888,7 +47866,7 @@
     "name": "4A PHILLIP WAY OSBORNE PARK 6017",
     "locID": "LOC000013778421",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_148005548",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -56029,6 +56007,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148037658",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65322,8 +65301,9 @@
     "name": "UNIT 1, 4 GORDON ROAD WEST OSBORNE PARK 6017",
     "locID": "LOC000015469689",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148377389"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148377389",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -65339,9 +65319,8 @@
     "name": "UNIT 2, 4 GORDON ROAD WEST OSBORNE PARK 6017",
     "locID": "LOC000015416560",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_148377390",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_148377390"
    }
   },
   {
@@ -82611,24 +82590,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.82594,
-     -31.90527
-    ]
-   },
-   "properties": {
-    "name": "94A ALBERT STREET OSBORNE PARK 6017",
-    "locID": "LOC000013621844",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_160641947",
-    "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.8265625,
      -31.89819961
     ]
@@ -87492,6 +87453,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_161923333",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -88498,10 +88460,9 @@
    "properties": {
     "name": "207C ALBERT STREET OSBORNE PARK 6017",
     "locID": "LOC000054036017",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162258473",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -102377,9 +102338,8 @@
     "name": "UNIT 3, 4 GORDON ROAD WEST OSBORNE PARK 6017",
     "locID": "LOC000113583750",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAWA_163394173",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_163394173"
    }
   },
   {
@@ -104666,8 +104626,9 @@
     "name": "14A NEIL STREET OSBORNE PARK 6017",
     "locID": "LOC000193851153",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_718681612"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_718681612",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
