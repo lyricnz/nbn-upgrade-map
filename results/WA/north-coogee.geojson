@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-28T20:12:59.763910",
+ "generated": "2024-05-21T09:42:06.674175",
  "suburb": "NORTH COOGEE",
  "features": [
   {
@@ -632,8 +632,11 @@
     "name": "LOT 1946 ROLLINSON ROAD NORTH COOGEE 6163",
     "locID": "LOC000132977971",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_162249324"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_162249324",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1473,9 +1476,9 @@
     "name": "20 HEIRISSON WAY NORTH COOGEE 6163",
     "locID": "LOC000012839800",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_162407117",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1865,10 +1868,9 @@
    "properties": {
     "name": "28 MEWSTONE CRESCENT NORTH COOGEE 6163",
     "locID": "LOC000043228141",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162492028",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2025,10 +2027,9 @@
    "properties": {
     "name": "4 SOUTH BEACH PROMENADE NORTH COOGEE 6163",
     "locID": "LOC000019855932",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162492360",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2324,10 +2325,9 @@
    "properties": {
     "name": "27 ARABELLA LOOP NORTH COOGEE 6163",
     "locID": "LOC000048378589",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162553378",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3101,10 +3101,9 @@
    "properties": {
     "name": "56 BREAKSEA DRIVE NORTH COOGEE 6163",
     "locID": "LOC000051966583",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162556833",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11037,10 +11036,9 @@
    "properties": {
     "name": "11 HYDASPE VISTA NORTH COOGEE 6163",
     "locID": "LOC000074880502",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_163199690",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17852,6 +17850,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_718487663"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.75854982,
+     -32.09784731
+    ]
+   },
+   "properties": {
+    "name": "9A CHELYDRA POINT NORTH COOGEE 6163",
+    "locID": "LOC000194916198",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_718488542"
    }
   },
   {
