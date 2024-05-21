@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-28T17:25:08.591831",
+ "generated": "2024-05-21T06:32:10.917595",
  "suburb": "YOKINE",
  "features": [
   {
@@ -873,9 +873,9 @@
     "name": "182 WANNEROO ROAD YOKINE 6060",
     "locID": "LOC000031441285",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146581989",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1706,10 +1706,10 @@
    "properties": {
     "name": "23 FAGAN STREET YOKINE 6060",
     "locID": "LOC000050083337",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146587160",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2280,10 +2280,9 @@
    "properties": {
     "name": "14 FAGAN STREET YOKINE 6060",
     "locID": "LOC000095905318",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146590087",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3603,8 +3602,8 @@
    "properties": {
     "name": "101 MOULDEN AVENUE YOKINE 6060",
     "locID": "LOC000025436797",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146594156",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4282,7 +4281,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146596336",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4976,10 +4975,9 @@
    "properties": {
     "name": "153 SWAN STREET YOKINE 6060",
     "locID": "LOC000079898559",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146596689",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7766,10 +7764,9 @@
    "properties": {
     "name": "211 FLINDERS STREET YOKINE 6060",
     "locID": "LOC000006566896",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146601994",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7932,6 +7929,23 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.84349,
+     -31.88967
+    ]
+   },
+   "properties": {
+    "name": "31 DAVID STREET YOKINE 6060",
+    "locID": "LOC000194829031",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146602005"
    }
   },
   {
@@ -8763,10 +8777,9 @@
    "properties": {
     "name": "139 SWAN STREET YOKINE 6060",
     "locID": "LOC000013704609",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146602853",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9082,10 +9095,9 @@
    "properties": {
     "name": "25 BRADLEY STREET YOKINE 6060",
     "locID": "LOC000004777480",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146603430",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10860,7 +10872,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146608628",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11419,23 +11431,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.85182492,
-     -31.89794512
-    ]
-   },
-   "properties": {
-    "name": "37 HAYES AVENUE YOKINE 6060",
-    "locID": "LOC000097807934",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_146611534"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.85164756,
      -31.89778223
     ]
@@ -11502,10 +11497,9 @@
    "properties": {
     "name": "150 FLINDERS STREET YOKINE 6060",
     "locID": "LOC000099349202",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146611544",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14699,23 +14693,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146639833"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.85125632,
-     -31.90758476
-    ]
-   },
-   "properties": {
-    "name": "11 BOURKE STREET YOKINE 6060",
-    "locID": "LOC000024760680",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_146639834"
    }
   },
   {
@@ -18833,10 +18810,9 @@
    "properties": {
     "name": "37 SPENCER AVENUE YOKINE 6060",
     "locID": "LOC000004798451",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_146643858",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146643858"
    }
   },
   {
@@ -19135,10 +19111,10 @@
    "properties": {
     "name": "439 HECTOR STREET YOKINE 6060",
     "locID": "LOC000005625000",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146644574",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19175,10 +19151,9 @@
    "properties": {
     "name": "437 HECTOR STREET YOKINE 6060",
     "locID": "LOC000044392655",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146644576",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20617,10 +20592,9 @@
    "properties": {
     "name": "424 HECTOR STREET YOKINE 6060",
     "locID": "LOC000091131898",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146646166",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21220,10 +21194,9 @@
    "properties": {
     "name": "103 WORDSWORTH AVENUE YOKINE 6060",
     "locID": "LOC000098001722",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_146646789",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146646789"
    }
   },
   {
@@ -21687,10 +21660,9 @@
    "properties": {
     "name": "49 MILTON STREET YOKINE 6060",
     "locID": "LOC000020453551",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_146646891",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146646891"
    }
   },
   {
@@ -22564,10 +22536,9 @@
    "properties": {
     "name": "308 CAPE STREET YOKINE 6060",
     "locID": "LOC000017048196",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146647658",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23082,8 +23053,8 @@
    "properties": {
     "name": "28 WARREN ROAD YOKINE 6060",
     "locID": "LOC000022873297",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146647853",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26703,8 +26674,8 @@
    "properties": {
     "name": "29 CHAUCER STREET YOKINE 6060",
     "locID": "LOC000082357804",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146650448",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -29088,9 +29059,9 @@
     "name": "184 ROYAL STREET YOKINE 6060",
     "locID": "LOC000018669215",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146658714",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30962,10 +30933,10 @@
    "properties": {
     "name": "35 FAGAN STREET YOKINE 6060",
     "locID": "LOC000059421052",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147129519",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39939,9 +39910,9 @@
     "name": "24 WANDARRIE AVENUE YOKINE 6060",
     "locID": "LOC000073436224",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147201826",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -46229,9 +46200,9 @@
     "name": "44 MOULDEN AVENUE YOKINE 6060",
     "locID": "LOC000084592912",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147268908",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49192,7 +49163,8 @@
     "locID": "LOC000080825605",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147282532"
+    "gnaf_pid": "GAWA_147282532",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -50867,8 +50839,8 @@
    "properties": {
     "name": "8 FAGAN STREET YOKINE 6060",
     "locID": "LOC000021160375",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147292858",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -52835,10 +52807,9 @@
    "properties": {
     "name": "20 KNIGHT AVENUE YOKINE 6060",
     "locID": "LOC000027743292",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147400609",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53388,10 +53359,9 @@
    "properties": {
     "name": "37C HEATON ROAD YOKINE 6060",
     "locID": "LOC000108227226",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148234266",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55450,10 +55420,9 @@
    "properties": {
     "name": "60D WANDARRIE AVENUE YOKINE 6060",
     "locID": "LOC000066249950",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAWA_148241969",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_148241969"
    }
   },
   {
@@ -55995,9 +55964,9 @@
     "name": "UNIT 2, 136 WANNEROO ROAD YOKINE 6060",
     "locID": "LOC000084897489",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_148242097",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -60848,9 +60817,9 @@
     "name": "21 VILLIERS STREET YOKINE 6060",
     "locID": "LOC000094443761",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_148245155",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -63941,23 +63910,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.85030997,
-     -31.89203122
-    ]
-   },
-   "properties": {
-    "name": "143B MOULDEN AVENUE YOKINE 6060",
-    "locID": "LOC000053915255",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_148247277"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      115.84241,
      -31.89805
     ]
@@ -64063,9 +64015,9 @@
     "name": "UNIT 3, 178 SWAN STREET YOKINE 6060",
     "locID": "LOC000025548796",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_148247293",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -64522,10 +64474,9 @@
    "properties": {
     "name": "179B ROYAL STREET YOKINE 6060",
     "locID": "LOC000080306561",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148247354",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -64562,10 +64513,9 @@
    "properties": {
     "name": "3 CROYDON AVENUE YOKINE 6060",
     "locID": "LOC000110109684",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148247356",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65461,10 +65411,9 @@
    "properties": {
     "name": "UNIT 3, 25 ROSCORLA AVENUE YOKINE 6060",
     "locID": "LOC000014619803",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148247983",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -67157,8 +67106,8 @@
    "properties": {
     "name": "54A DAVID STREET YOKINE 6060",
     "locID": "LOC000053692970",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148248929",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -69207,10 +69156,9 @@
    "properties": {
     "name": "UNIT 3, 207 ROYAL STREET YOKINE 6060",
     "locID": "LOC000005662377",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148250287",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -69285,9 +69233,9 @@
     "name": "UNIT 1, 178 SWAN STREET YOKINE 6060",
     "locID": "LOC000025548796",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_148250293",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -69956,10 +69904,9 @@
    "properties": {
     "name": "12B VIRGIL AVENUE YOKINE 6060",
     "locID": "LOC000061056542",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148250798",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -71555,10 +71502,9 @@
    "properties": {
     "name": "UNIT 3, 63 GOLF VIEW STREET YOKINE 6060",
     "locID": "LOC000037750998",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148251678",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -73120,10 +73066,9 @@
    "properties": {
     "name": "52 LOCKWOOD STREET YOKINE 6060",
     "locID": "LOC000102426344",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148252796",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -73997,23 +73942,6 @@
     "gnaf_pid": "GAWA_148253919",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.85030997,
-     -31.89203122
-    ]
-   },
-   "properties": {
-    "name": "143A MOULDEN AVENUE YOKINE 6060",
-    "locID": "LOC000053708986",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAWA_148253923"
    }
   },
   {
@@ -75527,10 +75455,9 @@
    "properties": {
     "name": "UNIT 3, 18 CLEARVIEW AVENUE YOKINE 6060",
     "locID": "LOC000086516485",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148255295",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -78245,8 +78172,8 @@
    "properties": {
     "name": "66A LONSDALE STREET YOKINE 6060",
     "locID": "LOC000076692376",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_148258366",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -82444,8 +82371,9 @@
     "name": "268A MCDONALD STREET YOKINE 6060",
     "locID": "LOC000017295104",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_148261578"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAWA_148261578",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -82514,10 +82442,9 @@
    "properties": {
     "name": "7B SPENCER AVENUE YOKINE 6060",
     "locID": "LOC000008619562",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_148261628",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_148261628"
    }
   },
   {
@@ -84476,9 +84403,9 @@
     "name": "1A HEATON ROAD YOKINE 6060",
     "locID": "LOC000093006499",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_148264900",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -90167,10 +90094,9 @@
    "properties": {
     "name": "2 TUART STREET YOKINE 6060",
     "locID": "LOC000072918163",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148576699",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -90264,10 +90190,9 @@
    "properties": {
     "name": "23A ROSCORLA AVENUE YOKINE 6060",
     "locID": "LOC000017124976",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_148577969",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -95831,8 +95756,8 @@
    "properties": {
     "name": "17B FAGAN STREET YOKINE 6060",
     "locID": "LOC000063495127",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_160674299",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -99474,10 +99399,9 @@
    "properties": {
     "name": "73C BYRON ROAD YOKINE 6060",
     "locID": "LOC000021577741",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_161922700",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_161922700"
    }
   },
   {
@@ -99572,10 +99496,9 @@
    "properties": {
     "name": "35 LATROBE STREET YOKINE 6060",
     "locID": "LOC000042541203",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_161924230",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_161924230"
    }
   },
   {
@@ -100981,8 +100904,8 @@
    "properties": {
     "name": "12A HEATON ROAD YOKINE 6060",
     "locID": "LOC000002113739",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_162245281",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -101001,8 +100924,8 @@
    "properties": {
     "name": "12B HEATON ROAD YOKINE 6060",
     "locID": "LOC000002119475",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_162245282",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -101659,10 +101582,10 @@
    "properties": {
     "name": "8B HINDMARSH AVENUE YOKINE 6060",
     "locID": "LOC000092674639",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162264304",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -102638,10 +102561,9 @@
    "properties": {
     "name": "15B CABELL STREET YOKINE 6060",
     "locID": "LOC000092790340",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_162327620",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -103256,10 +103178,9 @@
    "properties": {
     "name": "27 DRYDEN STREET YOKINE 6060",
     "locID": "LOC000090256272",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_162394294",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_162394294"
    }
   },
   {
@@ -106736,9 +106657,9 @@
     "name": "178 SWAN STREET YOKINE 6060",
     "locID": "LOC000025548796",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_162417891",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -111159,8 +111080,8 @@
    "properties": {
     "name": "18B FRAPE AVENUE YOKINE 6060",
     "locID": "LOC000057138937",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_162696401",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -117657,10 +117578,9 @@
    "properties": {
     "name": "50 MILTON STREET YOKINE 6060",
     "locID": "LOC000132198970",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_718218572",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_718218572"
    }
   },
   {
@@ -117747,10 +117667,9 @@
    "properties": {
     "name": "14A WYNDHAM WAY YOKINE 6060",
     "locID": "LOC000116367184",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_718222916",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -118739,10 +118658,9 @@
    "properties": {
     "name": "180A ROYAL STREET YOKINE 6060",
     "locID": "LOC000186951694",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_718299734",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -128107,10 +128025,9 @@
    "properties": {
     "name": "139C ROYAL STREET YOKINE 6060",
     "locID": "LOC100056850374",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_719306622",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -130557,10 +130474,9 @@
    "properties": {
     "name": "39A LONSDALE STREET YOKINE 6060",
     "locID": "LOC000103599625",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_719857377",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_719857377"
    }
   },
   {
@@ -130689,10 +130605,9 @@
    "properties": {
     "name": "404C HECTOR STREET YOKINE 6060",
     "locID": "LOC000182008368",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_719966940",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -132993,6 +132908,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.84199635,
+     -31.89210965
+    ]
+   },
+   "properties": {
+    "name": "22B BRADLEY STREET YOKINE 6060",
+    "locID": "LOC000062597710",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAWA_720718676",
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.84190779,
      -31.89210931
     ]
@@ -133536,6 +133471,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_720974172"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.84390892,
+     -31.89786624
+    ]
+   },
+   "properties": {
+    "name": "32B GOLF VIEW STREET YOKINE 6060",
+    "locID": "LOC000194776335",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_720974214"
    }
   },
   {
@@ -134485,6 +134437,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_721209627"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.84503299,
+     -31.89110299
+    ]
+   },
+   "properties": {
+    "name": "54B MICHAEL STREET YOKINE 6060",
+    "locID": "LOC000192761846",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721209638"
    }
   },
   {
