@@ -43,7 +43,7 @@ def read_json_file(filename: str, empty_if_missing=False) -> dict:
 
 def get_all_geojson_files(show_progress: bool = True, rewrite_geojson: bool = False):
     """A generator that returns (filename, geojson_data) for each GeoJSON file in the results directory"""
-    filenames = glob.glob("results/V**/s*.geojson")  # FIXME
+    filenames = glob.glob("results/**/*.geojson")
     for n, filename in enumerate(filenames):
         if show_progress and n % 100 == 0:
             print_progress_bar(n, len(filenames), prefix="Progress:", suffix="Complete", length=50)
