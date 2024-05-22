@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-04-29T17:38:56.087046",
+ "generated": "2024-05-22T11:19:33.694835",
  "suburb": "DEVON PARK",
  "features": [
   {
@@ -209,10 +209,9 @@
    "properties": {
     "name": "4 BELFORD AVENUE DEVON PARK 5008",
     "locID": "LOC000043459692",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GASA_415017394",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415017394"
    }
   },
   {
@@ -10432,9 +10431,8 @@
     "name": "1A PLYMOUTH AVENUE DEVON PARK 5008",
     "locID": "LOC000181122211",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_719774226",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_719774226"
    }
   },
   {
@@ -11992,6 +11990,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.57637435,
+     -34.88959749
+    ]
+   },
+   "properties": {
+    "name": "49 BOLTON AVENUE DEVON PARK 5008",
+    "locID": "LOC000194924307",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721200601"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.57760996,
      -34.8899811
     ]
@@ -12055,8 +12070,9 @@
     "name": "71A HARRISON ROAD DEVON PARK 5008",
     "locID": "LOC000193918347",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_721436725"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_721436725",
+    "tech_change_status": "Eligible To Order"
    }
   }
  ]
