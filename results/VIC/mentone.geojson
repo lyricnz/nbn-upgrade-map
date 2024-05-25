@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-02T23:57:18.327347",
+ "generated": "2024-05-25T18:13:07.570023",
  "suburb": "MENTONE",
  "features": [
   {
@@ -4182,8 +4182,9 @@
     "name": "UNIT 1, 96 COLLINS STREET MENTONE 3194",
     "locID": "LOC000082960772",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC411849480"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC411849480",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -6851,9 +6852,8 @@
     "name": "UNIT 2, 96 COLLINS STREET MENTONE 3194",
     "locID": "LOC000080830326",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC413941586",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC413941586"
    }
   },
   {
@@ -24107,10 +24107,9 @@
    "properties": {
     "name": "1 VIRGINIA COURT MENTONE 3194",
     "locID": "LOC000037136751",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419966245",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419966245"
    }
   },
   {
@@ -28102,6 +28101,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420024434"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.05726195,
+     -37.98389695
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 39 PLUMMER ROAD MENTONE 3194",
+    "locID": "LOC000083490419",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420024435"
    }
   },
   {
@@ -79720,9 +79736,9 @@
     "name": "9 VIRGINIA COURT MENTONE 3194",
     "locID": "LOC000045842921",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421446814",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -85648,8 +85664,9 @@
     "name": "96 COLLINS STREET MENTONE 3194",
     "locID": "LOC000082960772",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421643302"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC421643302",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -85718,23 +85735,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421656448"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.05835139,
-     -37.98123312
-    ]
-   },
-   "properties": {
-    "name": "69 PLUMMER ROAD MENTONE 3194",
-    "locID": "LOC000016043301",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC421656449"
    }
   },
   {
@@ -119735,6 +119735,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.073175,
+     -37.977651
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 41 RIVIERA STREET MENTONE 3194",
+    "locID": "LOC000092045386",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720544921"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.08834412,
      -37.98107761
     ]
@@ -120816,6 +120833,57 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721300624"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.06848316,
+     -37.98483657
+    ]
+   },
+   "properties": {
+    "name": "1A STAWELL STREET MENTONE 3194",
+    "locID": "LOC000194789311",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721373429"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.06850978,
+     -37.98469743
+    ]
+   },
+   "properties": {
+    "name": "6A ROGERS STREET MENTONE 3194",
+    "locID": "LOC000194789324",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721377952"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.06867965,
+     -37.98487332
+    ]
+   },
+   "properties": {
+    "name": "1B STAWELL STREET MENTONE 3194",
+    "locID": "LOC000194789307",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721379298"
    }
   },
   {
