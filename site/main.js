@@ -301,7 +301,7 @@ function loadSuburb(state_file, commit, first_load=false) {
             },
             onEachFeature: function (feature, layer) {
                 // popup with place name and upgrade type
-                var s = "<b>" + feature.properties.name + "</b><br>Location: " + feature.properties.locID + "<br>Current tech: " + feature.properties.tech
+                var s = "<b>" + feature.properties.name + " (" + default_state + ")</b><br>Location: " + feature.properties.locID + "<br>Current tech: " + feature.properties.tech
                 // legacy FTTP upgrade pre November 2023
                 if (!("target_eligibility_quarter" in feature.properties) && feature.properties.tech != "FTTP" && (feature.properties.tech == "FTTN" || feature.properties.tech == "FTTC")) {
                     s += "<br>Upgrade available: " + (feature.properties.upgrade == "FTTP_SA" ? "Yes" : (feature.properties.upgrade == "FTTP_NA" ? "Soon" : "No"))
