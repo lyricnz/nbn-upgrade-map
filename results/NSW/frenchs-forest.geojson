@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-05T07:20:11.606454",
+ "generated": "2024-05-28T06:28:57.446562",
  "suburb": "FRENCHS FOREST",
  "features": [
   {
@@ -1011,10 +1011,12 @@
    "properties": {
     "name": "60 DAREEN STREET FRENCHS FOREST 2086",
     "locID": "LOC000030031990",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704758221",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2406,7 +2408,7 @@
     "name": "7 MAGNOLIA CLOSE FRENCHS FOREST 2086",
     "locID": "LOC000110170844",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704758305",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2866,8 +2868,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.22149459,
-     -33.7452586
+     151.22149613,
+     -33.7452706
     ]
    },
    "properties": {
@@ -45851,10 +45853,9 @@
    "properties": {
     "name": "22 PEPPERCORN DRIVE FRENCHS FOREST 2086",
     "locID": "LOC000008334655",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704780372",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -57632,8 +57633,9 @@
     "name": "76 PRINCE CHARLES ROAD FRENCHS FOREST 2086",
     "locID": "LOC000193070982",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704792603"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW704792603",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -77681,10 +77683,9 @@
    "properties": {
     "name": "18 MAY GIBBS WAY FRENCHS FOREST 2086",
     "locID": "LOC000064605243",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716636189",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -88006,9 +88007,9 @@
     "name": "7 BAYVIEW CLOSE FRENCHS FOREST 2086",
     "locID": "LOC100073863202",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718918242",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -90036,8 +90037,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.22149459,
-     -33.7452586
+     151.22149613,
+     -33.7452706
     ]
    },
    "properties": {
@@ -90053,8 +90054,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.22149459,
-     -33.7452586
+     151.22149613,
+     -33.7452706
     ]
    },
    "properties": {
@@ -90070,8 +90071,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.22149459,
-     -33.7452586
+     151.22149613,
+     -33.7452706
     ]
    },
    "properties": {
@@ -90087,8 +90088,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.22149459,
-     -33.7452586
+     151.22149613,
+     -33.7452706
     ]
    },
    "properties": {
@@ -90638,6 +90639,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.21325696,
+     -33.7471177
+    ]
+   },
+   "properties": {
+    "name": "70A KENS ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000194980678",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720903102"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.22382512,
      -33.74743595
     ]
@@ -90655,8 +90673,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.23768653,
-     -33.75067527
+     151.23773375,
+     -33.75070323
     ]
    },
    "properties": {
@@ -90912,6 +90930,363 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.23740754,
+     -33.7504953
+    ]
+   },
+   "properties": {
+    "name": "UNIT 202, 7 SKYLINE PLACE FRENCHS FOREST 2086",
+    "locID": "LOC000189694373",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721496862"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.23740754,
+     -33.7504953
+    ]
+   },
+   "properties": {
+    "name": "UNIT 402, 7 SKYLINE PLACE FRENCHS FOREST 2086",
+    "locID": "LOC000189694534",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721496972"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.23740754,
+     -33.7504953
+    ]
+   },
+   "properties": {
+    "name": "UNIT 208, 7 SKYLINE PLACE FRENCHS FOREST 2086",
+    "locID": "LOC000189694599",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721497339"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.23740754,
+     -33.7504953
+    ]
+   },
+   "properties": {
+    "name": "UNIT 301, 7 SKYLINE PLACE FRENCHS FOREST 2086",
+    "locID": "LOC000189694167",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721498872"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2478319,
+     -33.74650173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 20, 60 BARNES ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000192126159",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721525249"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2478319,
+     -33.74650173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 60 BARNES ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000192126192",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721525250"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2478319,
+     -33.74650173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 60 BARNES ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000192126308",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721525311"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2478319,
+     -33.74650173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 60 BARNES ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000192126144",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721525743"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2478319,
+     -33.74650173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 41, 60 BARNES ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000192126246",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721526198"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2478319,
+     -33.74650173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 60 BARNES ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000192126233",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721526775"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2478319,
+     -33.74650173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 9, 60 BARNES ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000192126429",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721527101"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2478319,
+     -33.74650173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 31, 60 BARNES ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000192126222",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721527276"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2478319,
+     -33.74650173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 60 BARNES ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000192126267",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721527412"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2478319,
+     -33.74650173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 60 BARNES ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000192126246",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721527473"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2478319,
+     -33.74650173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 32, 60 BARNES ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000192126233",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721527483"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2478319,
+     -33.74650173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 12, 60 BARNES ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000192126088",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721527971"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2478319,
+     -33.74650173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 7, 60 BARNES ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000192126365",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721527972"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2478319,
+     -33.74650173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 11, 60 BARNES ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000192126144",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721528346"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2478319,
+     -33.74650173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 8, 60 BARNES ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000192126396",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721528347"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2478319,
+     -33.74650173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 22, 60 BARNES ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000192126205",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721528418"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2478319,
+     -33.74650173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 21, 60 BARNES ROAD FRENCHS FOREST 2086",
+    "locID": "LOC000192126192",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721528419"
    }
   }
  ]
