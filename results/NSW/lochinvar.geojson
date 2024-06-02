@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-08T01:56:49.385729",
+ "generated": "2024-06-02T03:33:02.548910",
  "suburb": "LOCHINVAR",
  "features": [
   {
@@ -10616,8 +10616,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.45526675,
-     -32.70558847
+     151.45521411,
+     -32.70558102
     ]
    },
    "properties": {
@@ -14019,6 +14019,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.44584734,
+     -32.69843921
+    ]
+   },
+   "properties": {
+    "name": "13 MAHONEY STREET LOCHINVAR 2321",
+    "locID": "LOC000192633519",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721177140"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.46107453,
      -32.70256317
     ]
@@ -14361,8 +14378,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.45526675,
-     -32.70558847
+     151.45531935,
+     -32.70559593
     ]
    },
    "properties": {
@@ -14583,7 +14600,7 @@
     "type": "Point",
     "coordinates": [
      151.46056088,
-     -32.70321806
+     -32.70321807
     ]
    },
    "properties": {
@@ -14932,6 +14949,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721238483",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15087,7 +15105,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW721239583",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15452,7 +15472,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW721242759",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -16257,9 +16279,11 @@
     "name": "6 TREU STREET LOCHINVAR 2321",
     "locID": "LOC000066059595",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721248996",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -16309,9 +16333,11 @@
     "name": "4 KIME STREET LOCHINVAR 2321",
     "locID": "LOC000064536860",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721249499",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -19226,8 +19252,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.46771878,
-     -32.70360592
+     151.46765459,
+     -32.70370719
     ]
    },
    "properties": {
@@ -19236,6 +19262,91 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721458505"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.4578315,
+     -32.70863921
+    ]
+   },
+   "properties": {
+    "name": "2 LINDEN STREET LOCHINVAR 2321",
+    "locID": "LOC000188597574",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721493552"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.46056088,
+     -32.70321807
+    ]
+   },
+   "properties": {
+    "name": "15A TREVALLYN AVENUE LOCHINVAR 2321",
+    "locID": "LOC000190175120",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721494581"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.45523068,
+     -32.70694627
+    ]
+   },
+   "properties": {
+    "name": "118 SPRINGFIELD DRIVE LOCHINVAR 2321",
+    "locID": "LOC000187816528",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721494992"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.4372539,
+     -32.70546455
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 2 JOHANNES STREET LOCHINVAR 2321",
+    "locID": "LOC000187484487",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721496115"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.45399536,
+     -32.70680826
+    ]
+   },
+   "properties": {
+    "name": "128 SPRINGFIELD DRIVE LOCHINVAR 2321",
+    "locID": "LOC000187816626",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721497884"
    }
   }
  ]
