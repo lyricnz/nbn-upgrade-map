@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-08T15:05:50.293051",
+ "generated": "2024-06-02T16:46:59.429854",
  "suburb": "ORCHARD HILLS",
  "features": [
   {
@@ -72,7 +72,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705588771",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -90,7 +92,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW705588772",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -106,8 +110,11 @@
     "name": "160-162 BRINGELLY ROAD ORCHARD HILLS 2748",
     "locID": "LOC000122032283",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705588774"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW705588774",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -874,6 +881,23 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705591643"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.75324047,
+     -33.79195282
+    ]
+   },
+   "properties": {
+    "name": "16-20 LANSDOWNE ROAD ORCHARD HILLS 2748",
+    "locID": "LOC000105196749",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705591644"
    }
   },
   {
@@ -1720,6 +1744,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.76574851,
+     -33.79597408
+    ]
+   },
+   "properties": {
+    "name": "279-295 MAMRE ROAD ORCHARD HILLS 2748",
+    "locID": "LOC000042948024",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705602004"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.76394126,
      -33.79673918
     ]
@@ -1833,10 +1874,9 @@
    "properties": {
     "name": "112-146 CALVERTS ROAD ORCHARD HILLS 2748",
     "locID": "LOC000122067895",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705602273",
-    "tech_change_status": "Not Planned"
+    "gnaf_pid": "GANSW705602273"
    }
   },
   {
@@ -2923,9 +2963,9 @@
     "name": "LOT 61 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000166629188",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705615488",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -2941,9 +2981,9 @@
     "name": "LOT 62 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000122057941",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705615489",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -2958,10 +2998,9 @@
    "properties": {
     "name": "LOT 63 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000122057973",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705615490",
-    "tech_change_status": "Not Planned"
+    "gnaf_pid": "GANSW705615490"
    }
   },
   {
@@ -2977,9 +3016,9 @@
     "name": "65 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000003757218",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705615492",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -2995,9 +3034,9 @@
     "name": "80 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000063951753",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705615493",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3013,9 +3052,9 @@
     "name": "81 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000048620457",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705615494",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3031,9 +3070,9 @@
     "name": "82 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000062172476",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705615495",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3049,9 +3088,9 @@
     "name": "83 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000050497217",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705615496",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3067,9 +3106,9 @@
     "name": "84 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000122062791",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705615497",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3085,9 +3124,9 @@
     "name": "LOT 85 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000042924401",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705615498",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3103,9 +3142,9 @@
     "name": "86 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000090495497",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705615499",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3121,9 +3160,9 @@
     "name": "LOT 87 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000032395869",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705615500",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3139,9 +3178,9 @@
     "name": "LOT 88 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000047020091",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705615501",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3157,9 +3196,9 @@
     "name": "89 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000030569994",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705615502",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3175,9 +3214,9 @@
     "name": "90 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000009217877",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705615503",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3193,9 +3232,9 @@
     "name": "91 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000086293114",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705615504",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3602,10 +3641,9 @@
    "properties": {
     "name": "LOT 92 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000074456133",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705625777",
-    "tech_change_status": "Not Planned"
+    "gnaf_pid": "GANSW705625777"
    }
   },
   {
@@ -3621,9 +3659,9 @@
     "name": "93 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000027322467",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705625778",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3639,9 +3677,9 @@
     "name": "94 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000006290282",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705625779",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3657,9 +3695,9 @@
     "name": "LOT 95 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000008057638",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705625780",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5291,9 +5329,9 @@
     "name": "1 SWEETWATER GROVE ORCHARD HILLS 2748",
     "locID": "LOC000067572575",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705639296",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5308,10 +5346,9 @@
    "properties": {
     "name": "14 SWEETWATER GROVE ORCHARD HILLS 2748",
     "locID": "LOC000005063758",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705639298",
-    "tech_change_status": "Not Planned"
+    "gnaf_pid": "GANSW705639298"
    }
   },
   {
@@ -5327,9 +5364,9 @@
     "name": "15 SWEETWATER GROVE ORCHARD HILLS 2748",
     "locID": "LOC000040944733",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705639299",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5345,9 +5382,9 @@
     "name": "16 SWEETWATER GROVE ORCHARD HILLS 2748",
     "locID": "LOC000080047915",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705639300",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5362,10 +5399,9 @@
    "properties": {
     "name": "17 SWEETWATER GROVE ORCHARD HILLS 2748",
     "locID": "LOC000059490072",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705639301",
-    "tech_change_status": "Not Planned"
+    "gnaf_pid": "GANSW705639301"
    }
   },
   {
@@ -5381,9 +5417,9 @@
     "name": "2 SWEETWATER GROVE ORCHARD HILLS 2748",
     "locID": "LOC000025422329",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705639302",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5399,9 +5435,9 @@
     "name": "3 SWEETWATER GROVE ORCHARD HILLS 2748",
     "locID": "LOC000044252188",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705639303",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5417,9 +5453,9 @@
     "name": "4 SWEETWATER GROVE ORCHARD HILLS 2748",
     "locID": "LOC000102072119",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705639304",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5435,9 +5471,9 @@
     "name": "5 SWEETWATER GROVE ORCHARD HILLS 2748",
     "locID": "LOC000016372233",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705639305",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5453,9 +5489,9 @@
     "name": "6 SWEETWATER GROVE ORCHARD HILLS 2748",
     "locID": "LOC000095094368",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705639306",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5471,9 +5507,9 @@
     "name": "7 SWEETWATER GROVE ORCHARD HILLS 2748",
     "locID": "LOC000122058093",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705639307",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -5605,8 +5641,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.72113677,
-     -33.78583964
+     150.72220172,
+     -33.77619103
     ]
    },
    "properties": {
@@ -6055,24 +6091,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712799241"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.72113677,
-     -33.78583964
-    ]
-   },
-   "properties": {
-    "name": "100 KINGSWOOD ROAD ORCHARD HILLS 2748",
-    "locID": "LOC000173776110",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW712804591",
-    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -6662,7 +6680,7 @@
    "properties": {
     "name": "191 WENTWORTH ROAD ORCHARD HILLS 2748",
     "locID": "LOC000114165022",
-    "tech": "WIRELESS",
+    "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712828684"
    }
@@ -6877,9 +6895,9 @@
     "name": "68 SWEETWATER GROVE ORCHARD HILLS 2748",
     "locID": "LOC000025422329",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW712845245",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7016,9 +7034,9 @@
     "name": "LOT 65 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000003757218",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW715390226",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7106,9 +7124,9 @@
     "name": "64 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000102900666",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW715685065",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7176,9 +7194,9 @@
     "name": "62 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000122057941",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716339923",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7194,9 +7212,9 @@
     "name": "85 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000042924401",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716339924",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7212,9 +7230,9 @@
     "name": "87 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000032395869",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716339925",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7230,9 +7248,9 @@
     "name": "88 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000047020091",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716339926",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7247,10 +7265,9 @@
    "properties": {
     "name": "92 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000074456133",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716339927",
-    "tech_change_status": "Not Planned"
+    "gnaf_pid": "GANSW716339927"
    }
   },
   {
@@ -7266,9 +7283,9 @@
     "name": "95 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000008057638",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716339928",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7408,9 +7425,9 @@
     "name": "LOT 80 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000063951753",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716636915",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7426,9 +7443,9 @@
     "name": "LOT 81 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000048620457",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716636916",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7444,9 +7461,9 @@
     "name": "LOT 83 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000050497217",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716636917",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7462,9 +7479,9 @@
     "name": "LOT 86 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000090495497",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716636918",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7480,9 +7497,9 @@
     "name": "LOT 90 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000009217877",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716636919",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7498,9 +7515,9 @@
     "name": "LOT 91 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000086293114",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716636920",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7516,9 +7533,9 @@
     "name": "LOT 93 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000027322467",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716636921",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7534,9 +7551,9 @@
     "name": "LOT 94 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000006290282",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716636922",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7833,9 +7850,9 @@
     "name": "LOT 89 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000030569994",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716880949",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -8180,9 +8197,9 @@
     "name": "LOT 82 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000062172476",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716999914",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -8321,10 +8338,9 @@
    "properties": {
     "name": "384 WENTWORTH ROAD ORCHARD HILLS 2748",
     "locID": "LOC000122050970",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW717510166",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717510166"
    }
   },
   {
@@ -8587,10 +8603,9 @@
    "properties": {
     "name": "61 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000122057918",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718316156",
-    "tech_change_status": "Not Planned"
+    "gnaf_pid": "GANSW718316156"
    }
   },
   {
@@ -8605,10 +8620,9 @@
    "properties": {
     "name": "63 MUSCATEL WAY ORCHARD HILLS 2748",
     "locID": "LOC000122057973",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718316157",
-    "tech_change_status": "Not Planned"
+    "gnaf_pid": "GANSW718316157"
    }
   },
   {
@@ -8679,7 +8693,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW718513133",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -8857,8 +8872,11 @@
     "name": "160 BRINGELLY ROAD ORCHARD HILLS 2748",
     "locID": "LOC000122032283",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW719364192"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW719364192",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9139,7 +9157,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720166290",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -9157,7 +9176,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW720266216",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -9432,6 +9452,24 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721448385"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.77318723,
+     -33.81712628
+    ]
+   },
+   "properties": {
+    "name": "25 MANDALONG CLOSE ORCHARD HILLS 2748",
+    "locID": "LOC100056312054",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW721494975",
+    "tech_change_status": "Eligible To Order"
    }
   }
  ]
