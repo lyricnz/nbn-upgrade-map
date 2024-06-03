@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-08T21:38:40.296559",
+ "generated": "2024-06-02T23:52:48.013812",
  "suburb": "SALISBURY",
  "features": [
   {
@@ -868,7 +868,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155781428",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -926,7 +927,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155781432",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -964,7 +967,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155781435",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2702,8 +2707,11 @@
     "name": "54 RAYNHAM STREET SALISBURY 4107",
     "locID": "LOC000072926215",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155782992"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155782992",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5703,8 +5711,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.03230381,
-     -27.55764184
+     153.03227916,
+     -27.55761092
     ]
    },
    "properties": {
@@ -5720,8 +5728,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.03226447,
-     -27.55780469
+     153.03225154,
+     -27.55776863
     ]
    },
    "properties": {
@@ -8843,7 +8851,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155789638",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -13078,7 +13087,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155793462",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13199,7 +13210,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155793521",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14288,7 +14300,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155794112",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14306,7 +14320,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155794114",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14531,7 +14546,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155794585",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19105,7 +19121,7 @@
    "properties": {
     "name": "220 LILLIAN AVENUE SALISBURY 4107",
     "locID": "LOC000040308708",
-    "tech": "NULL",
+    "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157048149"
    }
@@ -21063,7 +21079,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157055500",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -21183,23 +21201,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157055521"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.03350215,
-     -27.55716746
-    ]
-   },
-   "properties": {
-    "name": "5 GOLDA AVENUE SALISBURY 4107",
-    "locID": "LOC000061176624",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157055522"
    }
   },
   {
@@ -21455,23 +21456,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157055557"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.02676234,
-     -27.55408314
-    ]
-   },
-   "properties": {
-    "name": "107 LILLIAN AVENUE SALISBURY 4107",
-    "locID": "LOC000102115825",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD157055559"
    }
   },
   {
@@ -23515,7 +23499,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157069520",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23531,8 +23517,11 @@
     "name": "26 PRECISION STREET SALISBURY 4107",
     "locID": "LOC000077735281",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157069522"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157069522",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23570,7 +23559,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157069525",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24411,7 +24402,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157073108",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24429,7 +24422,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157073109",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24447,7 +24442,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157073110",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24465,7 +24462,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157073112",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24563,7 +24562,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157073118",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -28744,9 +28744,9 @@
     "name": "25 ASSEMBLY STREET SALISBURY 4107",
     "locID": "LOC000036888401",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157105072",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28764,8 +28764,11 @@
     "name": "42 ASSEMBLY STREET SALISBURY 4107",
     "locID": "LOC000189709314",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157105074"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157105074",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28801,8 +28804,11 @@
     "name": "45 ASSEMBLY STREET SALISBURY 4107",
     "locID": "LOC000126435993",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157105076"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157105076",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29523,8 +29529,11 @@
     "name": "62 ASSEMBLY STREET SALISBURY 4107",
     "locID": "LOC000126445167",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157105685"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157105685",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33358,8 +33367,11 @@
     "name": "1 STANDISH STREET SALISBURY 4107",
     "locID": "LOC000126454005",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157122508"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157122508",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -33397,7 +33409,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157122513",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34115,7 +34129,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157126166",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -34650,7 +34666,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157129825",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -35556,7 +35573,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157133166",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35613,7 +35632,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD157133174",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -35649,9 +35670,11 @@
     "name": "601 TARRAGINDI ROAD SALISBURY 4107",
     "locID": "LOC000126445105",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157133176",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -36078,8 +36101,11 @@
     "name": "145 EVANS ROAD SALISBURY 4107",
     "locID": "LOC000088439101",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157136837"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157136837",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36113,8 +36139,11 @@
     "name": "163 EVANS ROAD SALISBURY 4107",
     "locID": "LOC000126467609",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157136839"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157136839",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -36132,7 +36161,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157136841",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36150,7 +36180,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157136842",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36168,7 +36199,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157136843",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36186,7 +36218,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157136844",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36204,7 +36237,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157136845",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36222,7 +36256,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD157136846",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -36425,8 +36460,11 @@
     "name": "8 HOLBORN STREET SALISBURY 4107",
     "locID": "LOC000126454257",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157136875"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD157136875",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -41748,7 +41786,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD159274913",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42327,7 +42367,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD159279366",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42345,7 +42387,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD159279367",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42362,7 +42406,9 @@
     "locID": "LOC000102809647",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD159279372"
+    "gnaf_pid": "GAQLD159279372",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43046,7 +43092,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159289130",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -43064,7 +43111,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD159289206",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43082,7 +43131,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159289207",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -43100,7 +43150,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159289208",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -43118,7 +43169,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159289209",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -43136,7 +43188,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159289210",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -43154,7 +43207,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159289211",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -43429,7 +43483,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159292028",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -43447,7 +43502,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159292029",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -43465,7 +43521,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159292030",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -43653,7 +43710,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD159292953",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -44190,7 +44248,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD159295745",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -44208,7 +44268,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD159295746",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -44712,7 +44774,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161013145",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -44889,7 +44952,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161143497",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -44907,7 +44971,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD161143498",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -44959,7 +45024,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161325613",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -46289,8 +46356,11 @@
     "name": "14 ENGINEERING STREET SALISBURY 4107",
     "locID": "LOC000126463506",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162141764"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD162141764",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -46445,7 +46515,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162142619",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -47790,7 +47861,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162466986",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -48389,7 +48461,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162882283",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -48679,7 +48753,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163032659",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -50706,7 +50781,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425499426",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -50724,7 +50800,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425499427",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -50742,7 +50819,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425499428",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -50760,7 +50838,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425499429",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -50778,7 +50857,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD425499430",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -53473,7 +53553,7 @@
    "properties": {
     "name": "UNIT 3, 220 LILLIAN AVENUE SALISBURY 4107",
     "locID": "LOC000188432394",
-    "tech": "NULL",
+    "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720119862"
    }
@@ -53490,7 +53570,7 @@
    "properties": {
     "name": "UNIT 2, 220 LILLIAN AVENUE SALISBURY 4107",
     "locID": "LOC000188998705",
-    "tech": "NULL",
+    "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720121208"
    }
@@ -53507,7 +53587,7 @@
    "properties": {
     "name": "UNIT 4, 220 LILLIAN AVENUE SALISBURY 4107",
     "locID": "LOC000188998705",
-    "tech": "NULL",
+    "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720121209"
    }
@@ -53524,7 +53604,7 @@
    "properties": {
     "name": "UNIT 1, 220 LILLIAN AVENUE SALISBURY 4107",
     "locID": "LOC000040308708",
-    "tech": "NULL",
+    "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD720122119"
    }
