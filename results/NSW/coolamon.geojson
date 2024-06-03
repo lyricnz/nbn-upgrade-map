@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-08T22:28:30.614545",
+ "generated": "2024-06-03T00:50:15.549344",
  "suburb": "COOLAMON",
  "features": [
   {
@@ -941,8 +941,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     147.19973235,
-     -34.80869631
+     147.19876272,
+     -34.8089617
     ]
    },
    "properties": {
@@ -959,8 +959,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     147.20004277,
-     -34.80859717
+     147.19899242,
+     -34.80890263
     ]
    },
    "properties": {
@@ -4342,7 +4342,7 @@
     "name": "6 LOUGHNAN STREET COOLAMON 2701",
     "locID": "LOC000097297706",
     "tech": "WIRELESS",
-    "upgrade": "FTTN_SA",
+    "upgrade": "FTTN",
     "gnaf_pid": "GANSW712757407",
     "tech_change_status": "Eligible To Order"
    }
@@ -4946,7 +4946,7 @@
     "name": "9 BOOTH STREET COOLAMON 2701",
     "locID": "LOC000093580423",
     "tech": "WIRELESS",
-    "upgrade": "FTTN_SA",
+    "upgrade": "FTTN",
     "gnaf_pid": "GANSW712791461",
     "tech_change_status": "Eligible To Order"
    }
@@ -4991,24 +4991,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     147.19925477,
-     -34.80883417
-    ]
-   },
-   "properties": {
-    "name": "30 DUNROBIN STREET COOLAMON 2701",
-    "locID": "LOC000083692745",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW712797264",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      147.19414225,
      -34.81015545
     ]
@@ -5019,24 +5001,6 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712797266",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     147.19951038,
-     -34.80877464
-    ]
-   },
-   "properties": {
-    "name": "32 DUNROBIN STREET COOLAMON 2701",
-    "locID": "LOC000028816764",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW712797270",
     "tech_change_status": "Not Planned"
    }
   },
@@ -10089,24 +10053,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718421215"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     147.21032936,
-     -34.8158198
-    ]
-   },
-   "properties": {
-    "name": "87-93 WADE STREET COOLAMON 2701",
-    "locID": "LOC000153733228",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW718427833",
-    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -20165,6 +20111,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     147.18478239,
+     -34.82837475
+    ]
+   },
+   "properties": {
+    "name": "1 JERRICKS LANE COOLAMON 2701",
+    "locID": "LOC000180717617",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720431352"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      147.18581968,
      -34.83169941
     ]
@@ -20921,9 +20884,11 @@
     "name": "18 KURRAJONG STREET COOLAMON 2701",
     "locID": "LOC000090827983",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721327541",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Jun 2025"
    }
   },
   {
@@ -20960,6 +20925,24 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721448231",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.20585311,
+     -34.81603689
+    ]
+   },
+   "properties": {
+    "name": "71 WADE STREET COOLAMON 2701",
+    "locID": "LOC000162720410",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW721497994",
+    "tech_change_status": "Eligible To Order"
    }
   }
  ]
