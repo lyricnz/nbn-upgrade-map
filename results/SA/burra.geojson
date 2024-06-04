@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-10T01:40:28.721801",
+ "generated": "2024-06-04T01:58:46.404547",
  "suburb": "BURRA",
  "features": [
   {
@@ -3487,8 +3487,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.94313135,
-     -33.68610217
+     138.9428166,
+     -33.68584173
     ]
    },
    "properties": {
@@ -3605,24 +3605,6 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415512493",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.92756219,
-     -33.6730692
-    ]
-   },
-   "properties": {
-    "name": "LOT 794 GRAINGER STREET BURRA 5417",
-    "locID": "LOC000065908980",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415513001",
     "tech_change_status": "Not Planned"
    }
   },
@@ -9986,8 +9968,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.94682479,
-     -33.68863339
+     138.94688517,
+     -33.68754424
     ]
    },
    "properties": {
@@ -10409,7 +10391,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_424190013",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13788,8 +13772,11 @@
     "name": "LOT 2 BARRIER HIGHWAY BURRA 5417",
     "locID": "LOC000131522545",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_720073055"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_720073055",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
