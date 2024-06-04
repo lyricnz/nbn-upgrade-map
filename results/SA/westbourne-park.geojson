@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-10T05:18:23.771568",
+ "generated": "2024-06-04T05:44:48.883383",
  "suburb": "WESTBOURNE PARK",
  "features": [
   {
@@ -474,7 +474,7 @@
     "name": "146 GRANGE ROAD WESTBOURNE PARK 5041",
     "locID": "LOC000006652830",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_414995352",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1238,8 +1238,8 @@
    "properties": {
     "name": "94 GRANGE ROAD WESTBOURNE PARK 5041",
     "locID": "LOC000078121484",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415033636",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5591,10 +5591,9 @@
    "properties": {
     "name": "24 SUSSEX TERRACE WESTBOURNE PARK 5041",
     "locID": "LOC000009280339",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GASA_415422687",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415422687"
    }
   },
   {
@@ -9958,7 +9957,7 @@
     "tech": "FTTC",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_415441491",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -10376,8 +10375,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.59648379,
-     -34.97496961
+     138.59647918,
+     -34.9749849
     ]
    },
    "properties": {
@@ -10411,8 +10410,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.59643148,
-     -34.9756872
+     138.5964335,
+     -34.97571434
     ]
    },
    "properties": {
@@ -11984,10 +11983,9 @@
    "properties": {
     "name": "46 NORSEMAN AVENUE WESTBOURNE PARK 5041",
     "locID": "LOC000025800785",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415448313",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415448313"
    }
   },
   {
@@ -12125,8 +12123,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.59271513,
-     -34.9667578
+     138.59272918,
+     -34.96663186
     ]
    },
    "properties": {
@@ -12356,10 +12354,9 @@
    "properties": {
     "name": "13 ELMO AVENUE WESTBOURNE PARK 5041",
     "locID": "LOC000087870205",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415449963",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415449963"
    }
   },
   {
@@ -13453,8 +13450,11 @@
     "name": "152 GRANGE ROAD WESTBOURNE PARK 5041",
     "locID": "LOC000130351664",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415482784"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415482784",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18636,7 +18636,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424649645",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19089,7 +19091,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425709432",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19107,7 +19110,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425709433",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19125,7 +19129,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425709434",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -19143,7 +19148,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425709435",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
