@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-13T10:03:11.311293",
+ "generated": "2024-06-06T09:03:31.505385",
  "suburb": "APPIN",
  "features": [
   {
@@ -1574,7 +1574,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW703914995",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2107,7 +2107,7 @@
     "name": "28 CHURCH STREET APPIN 2560",
     "locID": "LOC000046080512",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW703915028",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3807,8 +3807,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.7879036,
-     -34.20517288
+     150.78795324,
+     -34.205063
     ]
    },
    "properties": {
@@ -7184,10 +7184,10 @@
    "properties": {
     "name": "16 TOGGERAI STREET APPIN 2560",
     "locID": "LOC000028360307",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW703920963",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7382,7 +7382,7 @@
     "name": "26 TOGGERAI STREET APPIN 2560",
     "locID": "LOC000087539028",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW703920973",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7401,10 +7401,10 @@
    "properties": {
     "name": "27 TOGGERAI STREET APPIN 2560",
     "locID": "LOC000020894699",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW703920974",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11945,9 +11945,9 @@
     "name": "21 MACNAMARA PLACE APPIN 2560",
     "locID": "LOC000057559894",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717612814",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12387,7 +12387,7 @@
     "name": "2-4 MACQUARIEDALE ROAD APPIN 2560",
     "locID": "LOC000121501648",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717820834",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12633,7 +12633,7 @@
     "name": "4 MACQUARIEDALE ROAD APPIN 2560",
     "locID": "LOC000121501648",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718156104",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15239,6 +15239,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718693402"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.82964984,
+     -34.24522429
+    ]
+   },
+   "properties": {
+    "name": "1 BADEN POWELL DRIVE APPIN 2560",
+    "locID": "LOC000108603882",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718695584"
    }
   },
   {
@@ -21129,8 +21146,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.79151974,
-     -34.20643541
+     150.79151975,
+     -34.20643542
     ]
    },
    "properties": {
@@ -21146,8 +21163,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.79216159,
-     -34.20674379
+     150.79205327,
+     -34.20671098
     ]
    },
    "properties": {
@@ -21384,8 +21401,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.79216159,
-     -34.20674379
+     150.79224789,
+     -34.20676993
     ]
    },
    "properties": {
@@ -21394,6 +21411,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721364281"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.79086848,
+     -34.18752807
+    ]
+   },
+   "properties": {
+    "name": "1 APPIN ROAD APPIN 2560",
+    "locID": "LOC000194194841",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721496849"
    }
   }
  ]
