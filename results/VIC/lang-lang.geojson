@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-16T02:52:58.801955",
+ "generated": "2024-06-08T15:53:42.489474",
  "suburb": "LANG LANG",
  "features": [
   {
@@ -1120,7 +1120,7 @@
     "name": "30 STATION STREET LANG LANG 3984",
     "locID": "LOC000041183665",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419798089",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1357,7 +1357,7 @@
     "name": "25 TRESIZE COURT LANG LANG 3984",
     "locID": "LOC000047355292",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419798302",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3544,10 +3544,10 @@
    "properties": {
     "name": "150 MCDONALDS TRACK LANG LANG 3984",
     "locID": "LOC000021156674",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420623419",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5939,10 +5939,9 @@
    "properties": {
     "name": "29 NELLIE STREET LANG LANG 3984",
     "locID": "LOC000019692850",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421287726",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10208,7 +10207,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423670856",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10792,10 +10790,9 @@
    "properties": {
     "name": "35 WESTERNPORT ROAD LANG LANG 3984",
     "locID": "LOC000085008327",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423678479",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15333,23 +15330,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425569976"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.5583228,
-     -38.33810082
-    ]
-   },
-   "properties": {
-    "name": "5 RAYNER HOFF DRIVE LANG LANG 3984",
-    "locID": "LOC100074050792",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425622404"
    }
   },
   {
