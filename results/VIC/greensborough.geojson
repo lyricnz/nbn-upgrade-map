@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-16T00:25:36.706523",
+ "generated": "2024-06-08T14:22:50.605731",
  "suburb": "GREENSBOROUGH",
  "features": [
   {
@@ -8427,6 +8427,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.09189176,
+     -37.70380665
+    ]
+   },
+   "properties": {
+    "name": "536 GREENSBOROUGH ROAD GREENSBOROUGH 3088",
+    "locID": "LOC000166740619",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC413250860"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.09651491,
      -37.7054932
     ]
@@ -14178,7 +14195,8 @@
     "locID": "LOC000094706110",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419809406"
+    "gnaf_pid": "GAVIC419809406",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -22268,8 +22286,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.10689271,
-     -37.70235993
+     145.10689182,
+     -37.70236296
     ]
    },
    "properties": {
@@ -29508,7 +29526,7 @@
     "name": "2 PURRI CLOSE GREENSBOROUGH 3088",
     "locID": "LOC000079539537",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420096930",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -29764,8 +29782,8 @@
    "properties": {
     "name": "43 MANATUNGA CIRCUIT GREENSBOROUGH 3088",
     "locID": "LOC000037637649",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420097656",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -32404,10 +32422,9 @@
    "properties": {
     "name": "12 DELFIN CRESCENT GREENSBOROUGH 3088",
     "locID": "LOC000006025957",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420108204",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -45109,8 +45126,8 @@
    "properties": {
     "name": "2 ULMARA PLACE GREENSBOROUGH 3088",
     "locID": "LOC000031702667",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420394238",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -48816,7 +48833,7 @@
     "name": "26 PAMBURRA COURT GREENSBOROUGH 3088",
     "locID": "LOC000014300066",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420411867",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -53357,7 +53374,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420418913",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54946,10 +54963,9 @@
    "properties": {
     "name": "122 ELDER STREET GREENSBOROUGH 3088",
     "locID": "LOC000006888873",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420420587",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420420587"
    }
   },
   {
@@ -55036,23 +55052,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420420620"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.10969263,
-     -37.71415897
-    ]
-   },
-   "properties": {
-    "name": "252 NEPEAN STREET GREENSBOROUGH 3088",
-    "locID": "LOC000074853873",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC420420621"
    }
   },
   {
@@ -56428,10 +56427,10 @@
    "properties": {
     "name": "37 PLENTY RIVER DRIVE GREENSBOROUGH 3088",
     "locID": "LOC000036857307",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420423634",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -81224,9 +81223,9 @@
     "name": "10 WOLANGI COURT GREENSBOROUGH 3088",
     "locID": "LOC000002783736",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421009426",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -84294,10 +84293,9 @@
    "properties": {
     "name": "502 GREENSBOROUGH ROAD GREENSBOROUGH 3088",
     "locID": "LOC000016061640",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC421016800",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421016800"
    }
   },
   {
@@ -87351,10 +87349,9 @@
    "properties": {
     "name": "28 WARRALONG AVENUE GREENSBOROUGH 3088",
     "locID": "LOC000071469022",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421029193",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421029193"
    }
   },
   {
@@ -121270,7 +121267,7 @@
     "name": "12 ULMARA PLACE GREENSBOROUGH 3088",
     "locID": "LOC000071770259",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421650582",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -130293,7 +130290,7 @@
     "name": "33 AVANDINA CRESCENT GREENSBOROUGH 3088",
     "locID": "LOC000007692390",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421921968",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -133832,8 +133829,8 @@
    "properties": {
     "name": "65 MANATUNGA CIRCUIT GREENSBOROUGH 3088",
     "locID": "LOC000056601714",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421935229",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -138020,10 +138017,9 @@
    "properties": {
     "name": "30 WARRALONG AVENUE GREENSBOROUGH 3088",
     "locID": "LOC000100291982",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421953950",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421953950"
    }
   },
   {
@@ -167367,23 +167363,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.10830881,
-     -37.7176683
-    ]
-   },
-   "properties": {
-    "name": "266-268 ELDER STREET GREENSBOROUGH 3088",
-    "locID": "LOC000031812901",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720443365"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.12704409,
      -37.69604939
     ]
@@ -169824,8 +169803,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.10689271,
-     -37.70235993
+     145.10689182,
+     -37.70236296
     ]
    },
    "properties": {
@@ -169875,8 +169854,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.10689271,
-     -37.70235993
+     145.10689182,
+     -37.70236296
     ]
    },
    "properties": {
@@ -169909,8 +169888,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.10689271,
-     -37.70235993
+     145.10689182,
+     -37.70236296
     ]
    },
    "properties": {
@@ -169926,8 +169905,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.10689271,
-     -37.70235993
+     145.10689182,
+     -37.70236296
     ]
    },
    "properties": {
@@ -169943,8 +169922,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.10689271,
-     -37.70235993
+     145.10689182,
+     -37.70236296
     ]
    },
    "properties": {
@@ -169953,6 +169932,91 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721455366"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.10541465,
+     -37.71315326
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 203 NEPEAN STREET GREENSBOROUGH 3088",
+    "locID": "LOC000192389279",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721480590"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.10540618,
+     -37.71323964
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 203 NEPEAN STREET GREENSBOROUGH 3088",
+    "locID": "LOC000192389279",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721483570"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.10541187,
+     -37.71341859
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 203 NEPEAN STREET GREENSBOROUGH 3088",
+    "locID": "LOC000192389267",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721486003"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.10551838,
+     -37.71299088
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 203 NEPEAN STREET GREENSBOROUGH 3088",
+    "locID": "LOC000192389320",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721489142"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.10746,
+     -37.704984
+    ]
+   },
+   "properties": {
+    "name": "UNIT 18, 8 GRIMSHAW STREET GREENSBOROUGH 3088",
+    "locID": "LOC000194847733",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721512442"
    }
   }
  ]
