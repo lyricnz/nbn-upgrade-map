@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-15T17:04:20.664440",
+ "generated": "2024-06-08T06:54:29.588441",
  "suburb": "HENDON",
  "features": [
   {
@@ -1087,11 +1087,9 @@
     "name": "LOT 16 FORDE STREET HENDON 4362",
     "locID": "LOC000061059888",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161742280",
-    "tech_change_status": "Build Finalised",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1109,9 +1107,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161742281",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1129,9 +1125,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161742282",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1163,12 +1157,12 @@
    "properties": {
     "name": "LOT 11 FORDE STREET HENDON 4362",
     "locID": "LOC000127774524",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD162028429",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2213,23 +2207,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.95730052,
-     -28.07235087
-    ]
-   },
-   "properties": {
-    "name": "LOT 507 BARRON STREET HENDON 4362",
-    "locID": "LOC100085205353",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD719269207"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.9495592,
      -28.07096873
     ]
@@ -2427,6 +2404,40 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721450076"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.95619208,
+     -28.07172057
+    ]
+   },
+   "properties": {
+    "name": "55 BARRON STREET HENDON 4362",
+    "locID": "LOC000060357793",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721507959"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.95730052,
+     -28.07235087
+    ]
+   },
+   "properties": {
+    "name": "43 BARRON STREET HENDON 4362",
+    "locID": "LOC000041456713",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721511457"
    }
   }
  ]
