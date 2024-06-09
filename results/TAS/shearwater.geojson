@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-16T15:57:41.345754",
+ "generated": "2024-06-09T05:32:03.994841",
  "suburb": "SHEARWATER",
  "features": [
   {
@@ -886,7 +886,7 @@
     "name": "57 ALEXANDER STREET SHEARWATER 7307",
     "locID": "LOC000079885621",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702184317",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4358,7 +4358,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702249067",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5247,7 +5246,7 @@
     "name": "25 SEABREEZE AVENUE SHEARWATER 7307",
     "locID": "LOC000026204250",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702324585",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8566,10 +8565,10 @@
    "properties": {
     "name": "76 SHEARWATER BOULEVARD SHEARWATER 7307",
     "locID": "LOC000102887108",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702346396",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12514,10 +12513,9 @@
    "properties": {
     "name": "19 ALEXANDER STREET SHEARWATER 7307",
     "locID": "LOC000015086224",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS716619274",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15001,10 +14999,10 @@
    "properties": {
     "name": "121 SHEARWATER BOULEVARD SHEARWATER 7307",
     "locID": "LOC000081123522",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS716846701",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18431,7 +18429,7 @@
     "name": "50 HAVEN DRIVE SHEARWATER 7307",
     "locID": "LOC000110342846",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS717912838",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19145,10 +19143,10 @@
    "properties": {
     "name": "5 FRANKLIN DRIVE SHEARWATER 7307",
     "locID": "LOC000112701300",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GATAS717937643",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25123,7 +25121,7 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.53218033,
+     146.53218034,
      -41.15570362
     ]
    },
@@ -25553,6 +25551,40 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS721273339"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.53213481,
+     -41.15582151
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 25 MASON PLACE SHEARWATER 7307",
+    "locID": "LOC000190107103",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721462217"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.53217997,
+     -41.15563944
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 25 MASON PLACE SHEARWATER 7307",
+    "locID": "LOC000190107103",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS721462879"
    }
   }
  ]
