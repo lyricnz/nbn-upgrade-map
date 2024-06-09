@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-16T21:27:12.917078",
+ "generated": "2024-06-09T11:08:54.544799",
  "suburb": "BARWON HEADS",
  "features": [
   {
@@ -466,8 +466,8 @@
    "properties": {
     "name": "16 REID STREET BARWON HEADS 3227",
     "locID": "LOC000065344969",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC410822106",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -576,8 +576,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.49188581,
-     -38.27927665
+     144.49188092,
+     -38.27931818
     ]
    },
    "properties": {
@@ -2827,17 +2827,17 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.49003338,
-     -38.28034607
+     144.49227668,
+     -38.28290256
     ]
    },
    "properties": {
     "name": "3 BRIDGE ROAD BARWON HEADS 3227",
     "locID": "LOC000124316178",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC410831201",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3213,25 +3213,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC410832992",
-    "tech_change_status": "MDU Complex Eligible To Apply",
-    "program_type": "Customer-initiated N2P MDU Complex"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.49226515,
-     -38.28222732
-    ]
-   },
-   "properties": {
-    "name": "1 GRANDVIEW PARADE BARWON HEADS 3227",
-    "locID": "LOC000031007014",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC410833355",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
    }
@@ -5513,7 +5494,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419642554",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5567,7 +5550,7 @@
     "name": "7 TAITS ROAD BARWON HEADS 3227",
     "locID": "LOC000029279891",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419642558",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7657,8 +7640,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.4867824,
-     -38.28502638
+     144.48678172,
+     -38.2849986
     ]
    },
    "properties": {
@@ -8952,9 +8935,9 @@
     "name": "7 JASPER AVENUE BARWON HEADS 3227",
     "locID": "LOC000048635091",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419937594",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9330,7 +9313,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419941875",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9603,7 +9588,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419945512",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11210,6 +11197,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419959715",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11446,8 +11434,8 @@
    "properties": {
     "name": "20 TREMONT COURT BARWON HEADS 3227",
     "locID": "LOC000016916878",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419960712",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14005,10 +13993,9 @@
    "properties": {
     "name": "47 HITCHCOCK AVENUE BARWON HEADS 3227",
     "locID": "LOC000004425778",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420249849",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14188,26 +14175,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420251363",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.49298655,
-     -38.28025913
-    ]
-   },
-   "properties": {
-    "name": "3 COLITE STREET BARWON HEADS 3227",
-    "locID": "LOC000096682541",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420251364",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -16023,9 +15990,9 @@
     "name": "28 TAITS ROAD BARWON HEADS 3227",
     "locID": "LOC000081703969",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420537849",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18745,7 +18712,7 @@
     "name": "70 HITCHCOCK AVENUE BARWON HEADS 3227",
     "locID": "LOC000018458311",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420569408",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19138,10 +19105,9 @@
    "properties": {
     "name": "20 FURNEAUX CLOSE BARWON HEADS 3227",
     "locID": "LOC000089729749",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420653692",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19638,7 +19604,7 @@
     "name": "43 MARGATE STREET BARWON HEADS 3227",
     "locID": "LOC000067969864",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420832887",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20275,10 +20241,10 @@
    "properties": {
     "name": "110 HITCHCOCK AVENUE BARWON HEADS 3227",
     "locID": "LOC000002743724",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420838897",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20752,10 +20718,10 @@
    "properties": {
     "name": "3 AITKEN STREET BARWON HEADS 3227",
     "locID": "LOC000036568513",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420844316",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21830,7 +21796,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420854917",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22458,7 +22426,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420874183",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24436,7 +24406,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421149218",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24820,8 +24792,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.4961777,
-     -38.27256609
+     144.49618748,
+     -38.27253476
     ]
    },
    "properties": {
@@ -25121,7 +25093,7 @@
     "name": "60 SHEEPWASH ROAD BARWON HEADS 3227",
     "locID": "LOC000089822555",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421158137",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25410,8 +25382,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.48683984,
-     -38.28478445
+     144.48680752,
+     -38.28485089
     ]
    },
    "properties": {
@@ -25938,7 +25910,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421164517",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26016,7 +25990,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421171876",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26907,7 +26883,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421424503",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28942,7 +28920,7 @@
     "name": "75-77 TAITS ROAD BARWON HEADS 3227",
     "locID": "LOC000029279891",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421467913",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31193,7 +31171,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421729590",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32173,7 +32151,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421751670",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -32387,10 +32367,10 @@
    "properties": {
     "name": "58 TAITS ROAD BARWON HEADS 3227",
     "locID": "LOC000057274630",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421755976",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34644,10 +34624,10 @@
    "properties": {
     "name": "22 SEAVIEW AVENUE BARWON HEADS 3227",
     "locID": "LOC000113053868",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422001867",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -36224,7 +36204,7 @@
     "name": "1 EWING BLYTH DRIVE BARWON HEADS 3227",
     "locID": "LOC000040537160",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423762631",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -40481,7 +40461,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424235965",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40817,8 +40797,8 @@
    "properties": {
     "name": "14 BLACK SWAN COURT BARWON HEADS 3227",
     "locID": "LOC000047202223",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424260485",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -41477,7 +41457,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC424349247",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43594,8 +43576,8 @@
    "properties": {
     "name": "38 THOMSON DRIVE BARWON HEADS 3227",
     "locID": "LOC000113137913",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424506853",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -44937,7 +44919,7 @@
     "name": "42 MIDDEN TERRACE BARWON HEADS 3227",
     "locID": "LOC000113092198",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424719279",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -48820,6 +48802,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.49541184,
+     -38.26791206
+    ]
+   },
+   "properties": {
+    "name": "31B TAITS ROAD BARWON HEADS 3227",
+    "locID": "LOC000195014690",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425624290"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.48883153,
      -38.28457648
     ]
@@ -51783,7 +51782,7 @@
     ]
    },
    "properties": {
-    "name": "APARTMENT 4, 1 GOLIGHTLY STREET BARWON HEADS 3227",
+    "name": "UNIT 4, 1 GOLIGHTLY STREET BARWON HEADS 3227",
     "locID": "LOC000060482479",
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
@@ -51803,7 +51802,7 @@
     ]
    },
    "properties": {
-    "name": "APARTMENT 5, 1 GOLIGHTLY STREET BARWON HEADS 3227",
+    "name": "UNIT 5, 1 GOLIGHTLY STREET BARWON HEADS 3227",
     "locID": "LOC000060482479",
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
@@ -51823,7 +51822,7 @@
     ]
    },
    "properties": {
-    "name": "APARTMENT 2, 1 GOLIGHTLY STREET BARWON HEADS 3227",
+    "name": "UNIT 2, 1 GOLIGHTLY STREET BARWON HEADS 3227",
     "locID": "LOC000060482479",
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
@@ -51843,7 +51842,7 @@
     ]
    },
    "properties": {
-    "name": "APARTMENT 6, 1 GOLIGHTLY STREET BARWON HEADS 3227",
+    "name": "UNIT 6, 1 GOLIGHTLY STREET BARWON HEADS 3227",
     "locID": "LOC000060482479",
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
@@ -51863,7 +51862,7 @@
     ]
    },
    "properties": {
-    "name": "APARTMENT 3, 1 GOLIGHTLY STREET BARWON HEADS 3227",
+    "name": "UNIT 3, 1 GOLIGHTLY STREET BARWON HEADS 3227",
     "locID": "LOC000060482479",
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
@@ -51883,7 +51882,7 @@
     ]
    },
    "properties": {
-    "name": "APARTMENT 1, 1 GOLIGHTLY STREET BARWON HEADS 3227",
+    "name": "UNIT 1, 1 GOLIGHTLY STREET BARWON HEADS 3227",
     "locID": "LOC000060482479",
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
@@ -51903,30 +51902,14 @@
     ]
    },
    "properties": {
-    "name": "1B COTTESLOE DRIVE BARWON HEADS 3227",
-    "locID": "LOC000194131353",
+    "name": "UNIT 3, 1 COTTESLOE DRIVE BARWON HEADS 3227",
+    "locID": "LOC000112961979",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721365003",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.48848862,
-     -38.27189811
-    ]
-   },
-   "properties": {
-    "name": "1A COTTESLOE DRIVE BARWON HEADS 3227",
-    "locID": "LOC000194131348",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721373141",
-    "tech_change_status": "Not Planned"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC721483737",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2024"
    }
   }
  ]
