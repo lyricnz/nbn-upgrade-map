@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-17T03:54:45.236699",
+ "generated": "2024-06-09T16:58:11.747908",
  "suburb": "BELL PARK",
  "features": [
   {
@@ -2759,8 +2759,9 @@
     "name": "91A SEPARATION STREET BELL PARK 3215",
     "locID": "LOC000051324043",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC414050526"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC414050526",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -3790,8 +3791,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.33532606,
-     -38.11634215
+     144.33532925,
+     -38.11632555
     ]
    },
    "properties": {
@@ -3969,26 +3970,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419640079",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.33606207,
-     -38.11185696
-    ]
-   },
-   "properties": {
-    "name": "45 THORBURN STREET BELL PARK 3215",
-    "locID": "LOC000182842423",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC419640081",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4897,7 +4878,7 @@
     "name": "43 CURTIN STREET BELL PARK 3215",
     "locID": "LOC000040751625",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419641178",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5306,23 +5287,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC419642958",
     "tech_change_status": "Eligible To Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.33295526,
-     -38.11711435
-    ]
-   },
-   "properties": {
-    "name": "7 MAPLE CRESCENT BELL PARK 3215",
-    "locID": "LOC000189457030",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC419642960"
    }
   },
   {
@@ -6605,23 +6569,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419647674"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.332046,
-     -38.11528758
-    ]
-   },
-   "properties": {
-    "name": "8 ALDER CRESCENT BELL PARK 3215",
-    "locID": "LOC000006118845",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC419647677"
    }
   },
   {
@@ -8123,7 +8070,7 @@
     "name": "5 FURNER AVENUE BELL PARK 3215",
     "locID": "LOC000078994339",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419939073",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8616,8 +8563,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.3369508,
-     -38.10831495
+     144.33693318,
+     -38.10831283
     ]
    },
    "properties": {
@@ -10539,7 +10486,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419953376",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10700,24 +10647,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419953386",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.34259527,
-     -38.11153002
-    ]
-   },
-   "properties": {
-    "name": "4 MILAN STREET BELL PARK 3215",
-    "locID": "LOC000180329239",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC419953610",
-    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -14278,6 +14207,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.33219518,
+     -38.11451495
+    ]
+   },
+   "properties": {
+    "name": "18 ALDER CRESCENT BELL PARK 3215",
+    "locID": "LOC000194874671",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420242546"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.33246257,
      -38.11142593
     ]
@@ -15285,7 +15231,7 @@
     "name": "14 HEDGELEY ROAD BELL PARK 3215",
     "locID": "LOC000009393657",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420256888",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15621,26 +15567,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420263912",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.33835281,
-     -38.09506955
-    ]
-   },
-   "properties": {
-    "name": "31 MALINDA CRESCENT BELL PARK 3215",
-    "locID": "LOC000185187813",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420263948",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -17281,26 +17207,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.33796377,
-     -38.1124869
-    ]
-   },
-   "properties": {
-    "name": "13 LEVOCA COURT BELL PARK 3215",
-    "locID": "LOC000164750160",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC420552379",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.337896,
      -38.10722703
     ]
@@ -17746,6 +17652,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420559177",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19367,10 +19274,9 @@
    "properties": {
     "name": "148 SEPARATION STREET BELL PARK 3215",
     "locID": "LOC000099319200",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420564771",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420564771"
    }
   },
   {
@@ -20575,24 +20481,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.33309214,
-     -38.11716908
-    ]
-   },
-   "properties": {
-    "name": "9 MAPLE CRESCENT BELL PARK 3215",
-    "locID": "LOC000106216313",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420841099",
-    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -21845,10 +21733,9 @@
    "properties": {
     "name": "9 KARLOVAC COURT BELL PARK 3215",
     "locID": "LOC000059974012",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420848999",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22126,8 +22013,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.33505979,
-     -38.10871965
+     144.33508216,
+     -38.10870573
     ]
    },
    "properties": {
@@ -22628,9 +22515,9 @@
     "name": "29 OZONE CRESCENT BELL PARK 3215",
     "locID": "LOC000106836131",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420858185",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22866,10 +22753,9 @@
    "properties": {
     "name": "2 ROWAN COURT BELL PARK 3215",
     "locID": "LOC000103208637",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420859060",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23124,10 +23010,9 @@
    "properties": {
     "name": "17 ASHLEIGH CRESCENT BELL PARK 3215",
     "locID": "LOC000069663397",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420859752",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23157,8 +23042,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.3379442,
-     -38.11264337
+     144.33794339,
+     -38.11260247
     ]
    },
    "properties": {
@@ -23353,10 +23238,9 @@
    "properties": {
     "name": "55-57 HUGHES STREET BELL PARK 3215",
     "locID": "LOC000056673662",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420862820",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23393,8 +23277,8 @@
    "properties": {
     "name": "39-41 HUGHES STREET BELL PARK 3215",
     "locID": "LOC000124291781",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420864143",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31833,10 +31717,9 @@
    "properties": {
     "name": "32 ASHLEIGH CRESCENT BELL PARK 3215",
     "locID": "LOC000014229963",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421458536",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33888,9 +33771,9 @@
     "name": "6 OZONE CRESCENT BELL PARK 3215",
     "locID": "LOC000002824917",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421733784",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33927,10 +33810,9 @@
    "properties": {
     "name": "31 NICHOLSON CRESCENT BELL PARK 3215",
     "locID": "LOC000068154319",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421737048",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35132,8 +35014,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.33753959,
-     -38.10810085
+     144.33755979,
+     -38.10810328
     ]
    },
    "properties": {
@@ -35394,7 +35276,7 @@
     "name": "6 NAREBAR STREET BELL PARK 3215",
     "locID": "LOC000048184863",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421751093",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -36992,6 +36874,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.33491808,
+     -38.11231221
+    ]
+   },
+   "properties": {
+    "name": "20 YARAAN STREET BELL PARK 3215",
+    "locID": "LOC000194961301",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421796135"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.33547535,
      -38.09738859
     ]
@@ -38275,10 +38174,9 @@
    "properties": {
     "name": "2 VIOLA CLOSE BELL PARK 3215",
     "locID": "LOC000008508023",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421988636",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421988636"
    }
   },
   {
@@ -39237,10 +39135,9 @@
    "properties": {
     "name": "1 CARISSA MEWS BELL PARK 3215",
     "locID": "LOC000034721305",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC422134247",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422134247"
    }
   },
   {
@@ -42241,6 +42138,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423134259",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -49522,10 +49420,9 @@
    "properties": {
     "name": "UNIT 1, 27 DEAKIN STREET BELL PARK 3215",
     "locID": "LOC000124270197",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424909711",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53259,8 +53156,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.3334011,
-     -38.11388493
+     144.33345918,
+     -38.11389256
     ]
    },
    "properties": {
@@ -56788,10 +56685,10 @@
    "properties": {
     "name": "UNIT 2, 53 DEAKIN STREET BELL PARK 3215",
     "locID": "LOC000181425078",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719615906",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -59344,7 +59241,9 @@
     "tech": "NULL",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720131744",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -60778,10 +60677,10 @@
    "properties": {
     "name": "UNIT 1A, 51 CURTIN STREET BELL PARK 3215",
     "locID": "LOC000187561786",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC720830839",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -61457,40 +61356,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.332046,
-     -38.11528758
-    ]
-   },
-   "properties": {
-    "name": "8A ALDER CRESCENT BELL PARK 3215",
-    "locID": "LOC000006118845",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC721163026"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.3320591,
-     -38.11521971
-    ]
-   },
-   "properties": {
-    "name": "8B ALDER CRESCENT BELL PARK 3215",
-    "locID": "LOC000006118845",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAVIC721165825"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.33379171,
      -38.10376915
     ]
@@ -61674,7 +61539,7 @@
    "properties": {
     "name": "84 MCCLELLAND STREET BELL PARK 3215",
     "locID": "LOC000192857783",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721364876"
    }
