@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-18T02:42:23.031014",
+ "generated": "2024-06-10T16:32:47.690460",
  "suburb": "NINGI",
  "features": [
   {
@@ -55,7 +55,7 @@
     "name": "8 PHARLAP COURT NINGI 4511",
     "locID": "LOC000039283284",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155634947",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -95,7 +95,7 @@
     "name": "17 BERNBOROUGH WAY NINGI 4511",
     "locID": "LOC000084261542",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155635967",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -114,10 +114,10 @@
    "properties": {
     "name": "21 BERNBOROUGH WAY NINGI 4511",
     "locID": "LOC000040415554",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155635968",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1840,10 +1840,9 @@
    "properties": {
     "name": "35 SUNNY COURT NINGI 4511",
     "locID": "LOC000026509771",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155662067",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1860,10 +1859,10 @@
    "properties": {
     "name": "17 TAKSAN PLACE NINGI 4511",
     "locID": "LOC000027726622",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155662073",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2235,7 +2234,7 @@
     "name": "125 RELESAH DRIVE NINGI 4511",
     "locID": "LOC000039801974",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156894565",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3185,10 +3184,10 @@
    "properties": {
     "name": "47 RANALD AVENUE NINGI 4511",
     "locID": "LOC000105823914",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156934080",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3430,6 +3429,23 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.09878643,
+     -27.06700907
+    ]
+   },
+   "properties": {
+    "name": "81 RANALD AVENUE NINGI 4511",
+    "locID": "LOC000195061074",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156934161"
    }
   },
   {
@@ -5111,10 +5127,10 @@
    "properties": {
     "name": "56 ANALIE STREET NINGI 4511",
     "locID": "LOC000007694218",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156965545",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5312,9 +5328,9 @@
     "name": "70 AYLWARD ROAD NINGI 4511",
     "locID": "LOC000015837161",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156965567",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5511,7 +5527,7 @@
     "name": "43 TRITON COURT NINGI 4511",
     "locID": "LOC000059431954",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156969299",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5570,10 +5586,10 @@
    "properties": {
     "name": "73-75 BERNBOROUGH WAY NINGI 4511",
     "locID": "LOC000042001356",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156972622",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5946,10 +5962,9 @@
    "properties": {
     "name": "138 RELESAH DRIVE NINGI 4511",
     "locID": "LOC000081252251",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158390385",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6165,7 +6180,7 @@
     "name": "674 BESTMANN ROAD NINGI 4511",
     "locID": "LOC000023415419",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158391254",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6224,7 +6239,7 @@
     "name": "42 JODI CLOSE NINGI 4511",
     "locID": "LOC000085023635",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158391265",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6765,8 +6780,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.10031454,
-     -27.06576853
+     153.10006645,
+     -27.06583624
     ]
    },
    "properties": {
@@ -7359,10 +7374,10 @@
    "properties": {
     "name": "33 BERNBOROUGH WAY NINGI 4511",
     "locID": "LOC000010762262",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158402137",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8537,7 +8552,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158424042",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9374,7 +9389,7 @@
     "name": "17-23 AYLWARD ROAD NINGI 4511",
     "locID": "LOC000073495562",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160084536",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11651,8 +11666,8 @@
    "properties": {
     "name": "41-43 LEVER COURT NINGI 4511",
     "locID": "LOC000094502894",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161443971",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12776,7 +12791,7 @@
     "name": "47 WRENAUS WAY NINGI 4511",
     "locID": "LOC000032557506",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161464563",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12836,7 +12851,7 @@
     "name": "60 WRENAUS WAY NINGI 4511",
     "locID": "LOC000082765010",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161464567",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14838,7 +14853,7 @@
     "name": "24-26 SANDHEATH PLACE NINGI 4511",
     "locID": "LOC000013224121",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162479590",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18347,7 +18362,7 @@
     "name": "70 SANDHEATH PLACE NINGI 4511",
     "locID": "LOC000060662781",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162750108",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19906,10 +19921,9 @@
    "properties": {
     "name": "22 NINGI WATERS DRIVE NINGI 4511",
     "locID": "LOC000027581720",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162969732",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20718,10 +20732,9 @@
    "properties": {
     "name": "83 SANDSTONE BOULEVARD NINGI 4511",
     "locID": "LOC000099444438",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163041923",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20838,10 +20851,9 @@
    "properties": {
     "name": "31-33 NEYLON DRIVE NINGI 4511",
     "locID": "LOC000081156373",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163070333",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20859,7 +20871,7 @@
     "name": "35-37 NEYLON DRIVE NINGI 4511",
     "locID": "LOC000058569118",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163070334",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20996,8 +21008,8 @@
    "properties": {
     "name": "15 BROADLEAF PLACE NINGI 4511",
     "locID": "LOC000039707333",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163184097",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21197,7 +21209,7 @@
     "name": "3 BROADLEAF PLACE NINGI 4511",
     "locID": "LOC000049178587",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163184109",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21611,7 +21623,7 @@
     "name": "13 RICEFLOWER COURT NINGI 4511",
     "locID": "LOC000015341050",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163191878",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23191,10 +23203,9 @@
    "properties": {
     "name": "41 NINGI WATERS DRIVE NINGI 4511",
     "locID": "LOC000027581720",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163314822",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25729,7 +25740,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163369254",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26024,10 +26035,9 @@
    "properties": {
     "name": "62 NINGI WATERS DRIVE NINGI 4511",
     "locID": "LOC000136974063",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163369559",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26287,25 +26297,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD424849436",
     "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.0680697,
-     -27.06185415
-    ]
-   },
-   "properties": {
-    "name": "UNIT 3, 3 BERNBOROUGH WAY NINGI 4511",
-    "locID": "LOC000176332740",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD424853053",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27639,7 +27630,7 @@
     "name": "1265 BRIBIE ISLAND ROAD NINGI 4511",
     "locID": "LOC000037579668",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425260930",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -27698,8 +27689,8 @@
    "properties": {
     "name": "1268 BRIBIE ISLAND ROAD NINGI 4511",
     "locID": "LOC000069071616",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425260933",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -27878,10 +27869,10 @@
    "properties": {
     "name": "1279 BRIBIE ISLAND ROAD NINGI 4511",
     "locID": "LOC000067470330",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425260942",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29117,10 +29108,9 @@
    "properties": {
     "name": "1369 BRIBIE ISLAND ROAD NINGI 4511",
     "locID": "LOC000064623995",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425261005",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30883,7 +30873,7 @@
     "name": "71 NINGI ESPLANADE NINGI 4511",
     "locID": "LOC000085783609",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425332518",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31685,8 +31675,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.07010916,
-     -27.06491374
+     153.07013386,
+     -27.06489969
     ]
    },
    "properties": {
@@ -33173,7 +33163,7 @@
     "name": "25 WATER GUM CRESCENT NINGI 4511",
     "locID": "LOC000083882703",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425661621",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -34274,9 +34264,9 @@
     "name": "70 AUSTRAL ROAD NINGI 4511",
     "locID": "LOC000015837161",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425809056",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38008,9 +37998,9 @@
     "name": "11 WATERVIEW CLOSE NINGI 4511",
     "locID": "LOC000174796260",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD719959164",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }

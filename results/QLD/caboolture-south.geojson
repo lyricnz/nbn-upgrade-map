@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-18T03:07:26.860187",
+ "generated": "2024-06-10T16:57:43.764294",
  "suburb": "CABOOLTURE SOUTH",
  "features": [
   {
@@ -18,7 +18,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155107233",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -78,7 +78,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155107237",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -173,8 +173,8 @@
    "properties": {
     "name": "15 DORSET DRIVE CABOOLTURE SOUTH 4510",
     "locID": "LOC000007578358",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155107242",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1141,7 +1141,7 @@
     "name": "12 KEVIN GROVE CABOOLTURE SOUTH 4510",
     "locID": "LOC000050360965",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155107318",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1856,7 +1856,7 @@
     "name": "38 JOHN STREET CABOOLTURE SOUTH 4510",
     "locID": "LOC000105074175",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155107391",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1918,7 +1918,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155107395",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3348,7 +3348,7 @@
     "name": "11 FORTUNE ESPLANADE CABOOLTURE SOUTH 4510",
     "locID": "LOC000059643530",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155108311",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3802,7 +3802,7 @@
     "name": "39 FRANK STREET CABOOLTURE SOUTH 4510",
     "locID": "LOC000075014726",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155108353",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4238,7 +4238,7 @@
     "name": "32 FORTUNE ESPLANADE CABOOLTURE SOUTH 4510",
     "locID": "LOC000013628852",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155109105",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4297,7 +4297,7 @@
     "name": "39 FORTUNE ESPLANADE CABOOLTURE SOUTH 4510",
     "locID": "LOC000002547380",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155109110",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4872,7 +4872,7 @@
     "name": "28 KYLIE STREET CABOOLTURE SOUTH 4510",
     "locID": "LOC000095609948",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155109172",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5607,10 +5607,10 @@
    "properties": {
     "name": "44 MATTHEW FLINDERS DRIVE CABOOLTURE SOUTH 4510",
     "locID": "LOC000011602579",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155109600",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5789,6 +5789,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155109621",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.94528145,
+     -27.09611374
+    ]
+   },
+   "properties": {
+    "name": "62 DOMNICK STREET CABOOLTURE SOUTH 4510",
+    "locID": "LOC000066187018",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155109623",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6382,10 +6402,9 @@
    "properties": {
     "name": "32 MACADAMIA STREET CABOOLTURE SOUTH 4510",
     "locID": "LOC000096732129",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155109667",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6816,10 +6835,9 @@
    "properties": {
     "name": "10 MAINSAIL DRIVE CABOOLTURE SOUTH 4510",
     "locID": "LOC000028928777",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155109694",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10043,7 +10061,7 @@
     "name": "33 AVOCADO DRIVE CABOOLTURE SOUTH 4510",
     "locID": "LOC000077937661",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155114507",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10570,6 +10588,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.94853085,
+     -27.09573177
+    ]
+   },
+   "properties": {
+    "name": "6 FRANK STREET CABOOLTURE SOUTH 4510",
+    "locID": "LOC000145655778",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155116452",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.94577233,
      -27.09535398
     ]
@@ -10598,7 +10635,7 @@
     "name": "62 FRANK STREET CABOOLTURE SOUTH 4510",
     "locID": "LOC000097616055",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155116464",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10618,7 +10655,7 @@
     "name": "64 FRANK STREET CABOOLTURE SOUTH 4510",
     "locID": "LOC000056588017",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155116466",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10895,7 +10932,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155117227",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12222,10 +12258,9 @@
    "properties": {
     "name": "7 OAKLANDS DRIVE CABOOLTURE SOUTH 4510",
     "locID": "LOC000106555798",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155118331",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12858,7 +12893,7 @@
     "name": "13 ADELAIDE DRIVE CABOOLTURE SOUTH 4510",
     "locID": "LOC000023959671",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155118814",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13057,6 +13092,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155119015",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13669,9 +13705,9 @@
     "name": "2 JULIE DRIVE CABOOLTURE SOUTH 4510",
     "locID": "LOC000017406725",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155120077",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13729,7 +13765,7 @@
     "name": "37 JULIE DRIVE CABOOLTURE SOUTH 4510",
     "locID": "LOC000044550873",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155120080",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13964,10 +14000,10 @@
    "properties": {
     "name": "54 JULIE DRIVE CABOOLTURE SOUTH 4510",
     "locID": "LOC000061359617",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155120095",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14244,7 +14280,7 @@
     "name": "8 RHODA STREET CABOOLTURE SOUTH 4510",
     "locID": "LOC000104126074",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155120111",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14859,7 +14895,7 @@
     "name": "9 DEANNE COURT CABOOLTURE SOUTH 4510",
     "locID": "LOC000097690763",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155120163",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15079,7 +15115,7 @@
     "name": "1 KEVIN GROVE CABOOLTURE SOUTH 4510",
     "locID": "LOC000063982765",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155120204",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15314,9 +15350,9 @@
     "name": "25 KEVIN GROVE CABOOLTURE SOUTH 4510",
     "locID": "LOC000055342980",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155120229",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16820,10 +16856,9 @@
    "properties": {
     "name": "132 GRANT ROAD CABOOLTURE SOUTH 4510",
     "locID": "LOC000103499852",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155121054",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17100,7 +17135,7 @@
     "name": "50 MOON STREET CABOOLTURE SOUTH 4510",
     "locID": "LOC000001689027",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155124996",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -17594,8 +17629,8 @@
    "properties": {
     "name": "107 TORRENS ROAD CABOOLTURE SOUTH 4510",
     "locID": "LOC000066043962",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155125060",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18389,7 +18424,7 @@
     "name": "58 FORTUNE ESPLANADE CABOOLTURE SOUTH 4510",
     "locID": "LOC000061615138",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155125144",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18429,7 +18464,7 @@
     "name": "60 FORTUNE ESPLANADE CABOOLTURE SOUTH 4510",
     "locID": "LOC000050996066",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155125146",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19423,10 +19458,9 @@
    "properties": {
     "name": "52 MATTHEW FLINDERS DRIVE CABOOLTURE SOUTH 4510",
     "locID": "LOC000023520471",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156056811",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19824,26 +19858,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156067222",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.94791126,
-     -27.0992813
-    ]
-   },
-   "properties": {
-    "name": "128 MORAYFIELD ROAD CABOOLTURE SOUTH 4510",
-    "locID": "LOC000061295716",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156067224",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -20660,7 +20674,7 @@
     "name": "75 FRANK STREET CABOOLTURE SOUTH 4510",
     "locID": "LOC000016576635",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156372173",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20840,6 +20854,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156373079",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21075,7 +21090,7 @@
     "name": "2 PALM PARADE CABOOLTURE SOUTH 4510",
     "locID": "LOC000002610583",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156373110",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21549,7 +21564,7 @@
     "name": "6 NANBAREE AVENUE CABOOLTURE SOUTH 4510",
     "locID": "LOC000066059792",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156373174",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -22066,7 +22081,7 @@
     "name": "6 RHODA STREET CABOOLTURE SOUTH 4510",
     "locID": "LOC000082093779",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156374050",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23918,6 +23933,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156375791",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25164,7 +25180,7 @@
     "name": "50 QUEEN STREET CABOOLTURE SOUTH 4510",
     "locID": "LOC000018272078",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156377041",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25244,7 +25260,7 @@
     "name": "75 QUEEN STREET CABOOLTURE SOUTH 4510",
     "locID": "LOC000016576635",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156377053",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26160,10 +26176,9 @@
    "properties": {
     "name": "34 FRANK STREET CABOOLTURE SOUTH 4510",
     "locID": "LOC000013563687",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156377443",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26519,7 +26534,7 @@
     "name": "21 FORTUNE ESPLANADE CABOOLTURE SOUTH 4510",
     "locID": "LOC000059098898",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156377492",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -27174,7 +27189,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156377568",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27987,7 +28001,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156379121",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28203,10 +28217,9 @@
    "properties": {
     "name": "55 MOON STREET CABOOLTURE SOUTH 4510",
     "locID": "LOC000077813102",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156379175",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28801,7 +28814,7 @@
     "name": "52 FORTUNE ESPLANADE CABOOLTURE SOUTH 4510",
     "locID": "LOC000038536938",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156379323",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -29272,10 +29285,10 @@
    "properties": {
     "name": "10 FOWLER DRIVE CABOOLTURE SOUTH 4510",
     "locID": "LOC000035602177",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156381014",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29355,6 +29368,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156381021",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29689,10 +29703,10 @@
    "properties": {
     "name": "2 CATO COURT CABOOLTURE SOUTH 4510",
     "locID": "LOC000018282827",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160675770",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37278,8 +37292,8 @@
    "properties": {
     "name": "65 DORSET DRIVE CABOOLTURE SOUTH 4510",
     "locID": "LOC000007578358",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161434390",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -38221,7 +38235,7 @@
     "name": "LOT 39 RIVER DRIVE CABOOLTURE SOUTH 4510",
     "locID": "LOC000003358427",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161455692",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -40905,7 +40919,7 @@
     "name": "4 BALSA COURT CABOOLTURE SOUTH 4510",
     "locID": "LOC000072217193",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162422874",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -42577,7 +42591,7 @@
     "name": "1 HACKETT COURT CABOOLTURE SOUTH 4510",
     "locID": "LOC000092303905",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162743964",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -42907,10 +42921,9 @@
    "properties": {
     "name": "44 JULIE DRIVE CABOOLTURE SOUTH 4510",
     "locID": "LOC000065916843",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162926999",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -46263,23 +46276,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.94853085,
-     -27.09573177
-    ]
-   },
-   "properties": {
-    "name": "6-8 FRANK STREET CABOOLTURE SOUTH 4510",
-    "locID": "LOC000192176368",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163294914"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.94416279,
      -27.10032908
     ]
@@ -46348,9 +46344,9 @@
     "name": "2-4 CHURCH STREET CABOOLTURE SOUTH 4510",
     "locID": "LOC000128282120",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163304361",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -46412,24 +46408,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.94531637,
-     -27.09620938
-    ]
-   },
-   "properties": {
-    "name": "62-64 DOMNICK STREET CABOOLTURE SOUTH 4510",
-    "locID": "LOC000191286169",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163305805",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -46782,10 +46760,9 @@
    "properties": {
     "name": "30-32 QUEEN STREET CABOOLTURE SOUTH 4510",
     "locID": "LOC000128275987",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163316589",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -67268,6 +67245,42 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721428346"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.94853085,
+     -27.09573177
+    ]
+   },
+   "properties": {
+    "name": "8 FRANK STREET CABOOLTURE SOUTH 4510",
+    "locID": "LOC000145655797",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD721519394",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.94888543,
+     -27.09606179
+    ]
+   },
+   "properties": {
+    "name": "90 MORAYFIELD ROAD CABOOLTURE SOUTH 4510",
+    "locID": "LOC000192176381",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721520949"
    }
   }
  ]
