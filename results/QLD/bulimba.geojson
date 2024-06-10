@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-17T15:51:38.481807",
+ "generated": "2024-06-10T05:28:13.185257",
  "suburb": "BULIMBA",
  "features": [
   {
@@ -845,7 +845,8 @@
     "locID": "LOC000090146139",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155078840"
+    "gnaf_pid": "GAQLD155078840",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -1392,7 +1393,7 @@
     "name": "78 SMALLMAN STREET BULIMBA 4171",
     "locID": "LOC000012514764",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155078906",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3098,10 +3099,10 @@
    "properties": {
     "name": "46 TENNYSON STREET BULIMBA 4171",
     "locID": "LOC000002595406",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155082514",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4450,10 +4451,10 @@
    "properties": {
     "name": "49 BALDWIN STREET BULIMBA 4171",
     "locID": "LOC000075973316",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD155084362",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5122,7 +5123,7 @@
     "name": "12 CARR STREET BULIMBA 4171",
     "locID": "LOC000052246122",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155087011",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6240,9 +6241,9 @@
     "name": "30 CARR STREET BULIMBA 4171",
     "locID": "LOC000038349685",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155087139",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6972,10 +6973,9 @@
    "properties": {
     "name": "18 PARKLANE PLACE BULIMBA 4171",
     "locID": "LOC000048918811",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155088012",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155088012"
    }
   },
   {
@@ -7397,10 +7397,9 @@
    "properties": {
     "name": "14 PARRY STREET BULIMBA 4171",
     "locID": "LOC000079239897",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155088084",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9515,10 +9514,9 @@
    "properties": {
     "name": "19 SMALLMAN STREET BULIMBA 4171",
     "locID": "LOC000060244100",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155089824",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9903,7 +9901,7 @@
     "name": "33 WORDSWORTH STREET BULIMBA 4171",
     "locID": "LOC000026554971",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155089930",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10398,7 +10396,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155090741",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15887,6 +15885,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156339506",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17441,6 +17440,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.0636053,
+     -27.44364342
+    ]
+   },
+   "properties": {
+    "name": "3 BYRON STREET BULIMBA 4171",
+    "locID": "LOC000194482581",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156342016"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.06185117,
      -27.44339222
     ]
@@ -17844,7 +17860,7 @@
     "name": "52 BYRON STREET BULIMBA 4171",
     "locID": "LOC000095468572",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156342098",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20342,10 +20358,10 @@
    "properties": {
     "name": "11 COWPER STREET BULIMBA 4171",
     "locID": "LOC000055405696",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156345891",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20634,10 +20650,9 @@
    "properties": {
     "name": "36 CARR STREET BULIMBA 4171",
     "locID": "LOC000089360266",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156346580",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22726,10 +22741,9 @@
    "properties": {
     "name": "45 HARRISON STREET BULIMBA 4171",
     "locID": "LOC000112586059",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156346959",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156346959"
    }
   },
   {
@@ -23867,10 +23881,9 @@
    "properties": {
     "name": "7 KENBURY STREET BULIMBA 4171",
     "locID": "LOC000004967535",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156347650",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156347650"
    }
   },
   {
@@ -24055,7 +24068,7 @@
     "name": "26 COWPER STREET BULIMBA 4171",
     "locID": "LOC000011860026",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156348334",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25790,8 +25803,8 @@
    "properties": {
     "name": "24 BYRON STREET BULIMBA 4171",
     "locID": "LOC000009951917",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156349337",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26434,23 +26447,6 @@
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06173646,
-     -27.44582241
-    ]
-   },
-   "properties": {
-    "name": "34 SHAKESPEARE STREET BULIMBA 4171",
-    "locID": "LOC000061196948",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156349421"
    }
   },
   {
@@ -27369,23 +27365,6 @@
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.06093347,
-     -27.44570196
-    ]
-   },
-   "properties": {
-    "name": "48 SHAKESPEARE STREET BULIMBA 4171",
-    "locID": "LOC000061196948",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD156350174"
    }
   },
   {
@@ -28513,6 +28492,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156351113",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30958,10 +30938,9 @@
    "properties": {
     "name": "72 HARRISON STREET BULIMBA 4171",
     "locID": "LOC000112586059",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156353734",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156353734"
    }
   },
   {
@@ -45595,8 +45574,9 @@
     "name": "UNIT 11, 77 OXFORD STREET BULIMBA 4171",
     "locID": "LOC000032518043",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160741725"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD160741725",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -47431,9 +47411,9 @@
     "name": "10 SHORE CRESCENT BULIMBA 4171",
     "locID": "LOC000067422818",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160984520",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -56240,10 +56220,9 @@
    "properties": {
     "name": "10 REACH PLACE BULIMBA 4171",
     "locID": "LOC000097503021",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD162377983",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162377983"
    }
   },
   {
@@ -56400,10 +56379,9 @@
    "properties": {
     "name": "7 RIVERBEND PLACE BULIMBA 4171",
     "locID": "LOC000011619958",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162378137",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162378137"
    }
   },
   {
@@ -56821,7 +56799,7 @@
     "name": "35 SMALLMAN STREET BULIMBA 4171",
     "locID": "LOC000012514764",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162480362",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -65128,7 +65106,7 @@
     "name": "47 PARRY STREET BULIMBA 4171",
     "locID": "LOC000159973713",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425151934",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",

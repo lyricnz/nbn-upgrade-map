@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-17T15:47:25.221342",
+ "generated": "2024-06-10T05:23:11.722962",
  "suburb": "TUGUN",
  "features": [
   {
@@ -3117,8 +3117,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.48618008,
-     -28.13936227
+     153.48619912,
+     -28.1394169
     ]
    },
    "properties": {
@@ -5999,7 +5999,7 @@
     "name": "48 KITCHENER STREET TUGUN 4224",
     "locID": "LOC000064757710",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155918003",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6306,9 +6306,9 @@
     "name": "15 PERIWINKLE CRESCENT TUGUN 4224",
     "locID": "LOC000076287583",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155918036",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7541,10 +7541,10 @@
    "properties": {
     "name": "8 PYRENE PLACE TUGUN 4224",
     "locID": "LOC000068648960",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155918759",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7819,23 +7819,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155919534"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.49212504,
-     -28.14893948
-    ]
-   },
-   "properties": {
-    "name": "40 CABARITA AVENUE TUGUN 4224",
-    "locID": "LOC000095803247",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155919547"
    }
   },
   {
@@ -10042,10 +10025,9 @@
    "properties": {
     "name": "5 MULBERRY PARADE TUGUN 4224",
     "locID": "LOC000091149027",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155921351",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13102,23 +13084,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155926987"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.48765159,
-     -28.13996183
-    ]
-   },
-   "properties": {
-    "name": "25 WINDERS AVENUE TUGUN 4224",
-    "locID": "LOC000067500618",
-    "tech": "NULL",
-    "upgrade": "UNKNOWN",
-    "gnaf_pid": "GAQLD155926988"
    }
   },
   {
@@ -25933,8 +25898,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.49198721,
-     -28.14611745
+     153.49187633,
+     -28.1461157
     ]
    },
    "properties": {
@@ -39731,8 +39696,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.48618008,
-     -28.13936227
+     153.48609276,
+     -28.1393409
     ]
    },
    "properties": {
@@ -43861,8 +43826,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.48618008,
-     -28.13936227
+     153.48623626,
+     -28.13935313
     ]
    },
    "properties": {
@@ -71176,6 +71141,57 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721428969"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.4925363,
+     -28.14604557
+    ]
+   },
+   "properties": {
+    "name": "9A CHAFFEY STREET TUGUN 4224",
+    "locID": "LOC000194863242",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721506885"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.49059017,
+     -28.14203361
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 39 DURRAN STREET TUGUN 4224",
+    "locID": "LOC000194049847",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721517859"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.49059017,
+     -28.14203361
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 39 DURRAN STREET TUGUN 4224",
+    "locID": "LOC000194049852",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721520096"
    }
   }
  ]
