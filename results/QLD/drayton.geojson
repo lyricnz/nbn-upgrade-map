@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-18T18:47:51.348798",
+ "generated": "2024-06-11T09:49:58.762853",
  "suburb": "DRAYTON",
  "features": [
   {
@@ -615,7 +615,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155246328",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -863,9 +863,9 @@
     "name": "4 BOOTHBY STREET DRAYTON 4350",
     "locID": "LOC000099024781",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155248544",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2665,10 +2665,10 @@
    "properties": {
     "name": "15 GIPPS STREET DRAYTON 4350",
     "locID": "LOC000028603844",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156512791",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4431,8 +4431,8 @@
    "properties": {
     "name": "1 CORNWALL COURT DRAYTON 4350",
     "locID": "LOC000019198298",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156523284",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4531,8 +4531,8 @@
    "properties": {
     "name": "7 CORNWALL COURT DRAYTON 4350",
     "locID": "LOC000054808974",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156523289",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7853,7 +7853,7 @@
     "name": "12 MCPHERSON STREET DRAYTON 4350",
     "locID": "LOC000021626389",
     "tech": "WIRELESS",
-    "upgrade": "FTTN_SA",
+    "upgrade": "FTTN",
     "gnaf_pid": "GAQLD157860569",
     "tech_change_status": "Eligible To Order"
    }
@@ -9322,9 +9322,9 @@
     "name": "18A LADNER STREET DRAYTON 4350",
     "locID": "LOC000013636531",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157872364",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9673,8 +9673,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.91396335,
-     -27.60124279
+     151.91394128,
+     -27.60125967
     ]
    },
    "properties": {
@@ -10500,6 +10500,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.91330193,
+     -27.59461952
+    ]
+   },
+   "properties": {
+    "name": "40 CANNING STREET DRAYTON 4350",
+    "locID": "LOC000127835972",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160689293",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.91961605,
      -27.59620895
     ]
@@ -10738,7 +10756,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161370586",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11246,7 +11264,7 @@
     "name": "10-16 MCPHERSON STREET DRAYTON 4350",
     "locID": "LOC000021626389",
     "tech": "WIRELESS",
-    "upgrade": "FTTN_SA",
+    "upgrade": "FTTN",
     "gnaf_pid": "GAQLD162090319",
     "tech_change_status": "Eligible To Order"
    }
@@ -11995,23 +12013,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162124709"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.88884422,
-     -27.59394987
-    ]
-   },
-   "properties": {
-    "name": "1094-1104 BOUNDARY STREET SOUTH DRAYTON 4350",
-    "locID": "LOC000073184559",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162124710"
    }
   },
   {
@@ -13814,7 +13815,7 @@
     "name": "1-9 YOUNG STREET DRAYTON 4350",
     "locID": "LOC000127830966",
     "tech": "WIRELESS",
-    "upgrade": "FTTN_SA",
+    "upgrade": "FTTN",
     "gnaf_pid": "GAQLD162210006",
     "tech_change_status": "Eligible To Order"
    }
@@ -15360,9 +15361,9 @@
     "name": "UNIT 2, 18A LADNER STREET DRAYTON 4350",
     "locID": "LOC000013636531",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425269698",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19784,6 +19785,24 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721265799",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.91330193,
+     -27.59461952
+    ]
+   },
+   "properties": {
+    "name": "42 CANNING STREET DRAYTON 4350",
+    "locID": "LOC000194139000",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721515836",
     "tech_change_status": "Not Planned"
    }
   }

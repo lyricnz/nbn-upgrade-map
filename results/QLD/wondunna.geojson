@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-05-18T18:45:56.895567",
+ "generated": "2024-06-11T09:47:52.081589",
  "suburb": "WONDUNNA",
  "features": [
   {
@@ -1708,10 +1708,9 @@
    "properties": {
     "name": "63 CARRICK WAY WONDUNNA 4655",
     "locID": "LOC000104070131",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD155979066",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155979066"
    }
   },
   {
@@ -2056,10 +2055,9 @@
    "properties": {
     "name": "15-17 LANCEWOOD COURT WONDUNNA 4655",
     "locID": "LOC000041206447",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155981442",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2810,8 +2808,8 @@
    "properties": {
     "name": "22 SANDALWOOD DRIVE WONDUNNA 4655",
     "locID": "LOC000059031763",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155985429",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2911,7 +2909,7 @@
     "name": "27 SANDALWOOD DRIVE WONDUNNA 4655",
     "locID": "LOC000075803935",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155985434",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2950,10 +2948,9 @@
    "properties": {
     "name": "3 SANDALWOOD DRIVE WONDUNNA 4655",
     "locID": "LOC000090157344",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155985436",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3010,10 +3007,10 @@
    "properties": {
     "name": "33 SANDALWOOD DRIVE WONDUNNA 4655",
     "locID": "LOC000080612223",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155985439",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4483,24 +4480,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157279753",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.85845055,
-     -25.31647428
-    ]
-   },
-   "properties": {
-    "name": "95-105 GILSTON ROAD WONDUNNA 4655",
-    "locID": "LOC000128987113",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD157279754",
-    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -7374,6 +7353,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.85845055,
+     -25.31647428
+    ]
+   },
+   "properties": {
+    "name": "95 GILSTON ROAD WONDUNNA 4655",
+    "locID": "LOC000088350295",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD158889841",
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.85965159,
      -25.30521439
     ]
@@ -7944,9 +7943,9 @@
     "name": "6 GLEN EAGLES CLOSE WONDUNNA 4655",
     "locID": "LOC000055214806",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161367322",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9779,7 +9778,7 @@
     "name": "174 GILSTON ROAD WONDUNNA 4655",
     "locID": "LOC000053446833",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161976300",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11947,8 +11946,8 @@
    "properties": {
     "name": "53 ROSEWOOD AVENUE WONDUNNA 4655",
     "locID": "LOC000059456079",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162106604",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12929,10 +12928,10 @@
    "properties": {
     "name": "15-17 SANDALWOOD DRIVE WONDUNNA 4655",
     "locID": "LOC000129005988",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162363688",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13325,7 +13324,7 @@
     "name": "49 ROSEDALE DRIVE WONDUNNA 4655",
     "locID": "LOC000105658519",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162386810",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25348,6 +25347,64 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD721457263",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.85921272,
+     -25.31672143
+    ]
+   },
+   "properties": {
+    "name": "91 GILSTON ROAD WONDUNNA 4655",
+    "locID": "LOC000094404961",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD721518324",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.86015151,
+     -25.31214833
+    ]
+   },
+   "properties": {
+    "name": "22 CARRICK WAY WONDUNNA 4655",
+    "locID": "LOC000033344744",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD721519646",
+    "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.85921272,
+     -25.31672143
+    ]
+   },
+   "properties": {
+    "name": "89 GILSTON ROAD WONDUNNA 4655",
+    "locID": "LOC000044697189",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD721520598",
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   }
  ]
