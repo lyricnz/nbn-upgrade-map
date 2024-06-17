@@ -53,7 +53,7 @@ jobs:
           curl --insecure https://minus34.com/opendata/geoscape-$GNAF_LOADER_TAG/gnaf-$GNAF_LOADER_TAG.dmp --output ./extra/db/gnaf-$GNAF_LOADER_TAG.dmp
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: ./extra/db
           push: true
