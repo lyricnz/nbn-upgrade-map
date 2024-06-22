@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-06-02T10:51:03.611958",
+ "generated": "2024-06-22T05:06:24.603884",
  "suburb": "DAYBORO",
  "features": [
   {
@@ -175,10 +175,9 @@
    "properties": {
     "name": "43 RODERICK STREET DAYBORO 4521",
     "locID": "LOC000147697546",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155224985",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -975,7 +974,8 @@
     "locID": "LOC100080586557",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155229964"
+    "gnaf_pid": "GAQLD155229964",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -5390,7 +5390,8 @@
     "locID": "LOC000040697079",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157833084"
+    "gnaf_pid": "GAQLD157833084",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -5984,7 +5985,8 @@
     "locID": "LOC000016658492",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157854922"
+    "gnaf_pid": "GAQLD157854922",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -6197,10 +6199,9 @@
    "properties": {
     "name": "20 ENCHELMAIER STREET DAYBORO 4521",
     "locID": "LOC000043781510",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157859641",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6337,7 +6338,8 @@
     "locID": "LOC000185999577",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158947855"
+    "gnaf_pid": "GAQLD158947855",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -6644,7 +6646,8 @@
     "locID": "LOC000099529933",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160676740"
+    "gnaf_pid": "GAQLD160676740",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -6738,7 +6741,7 @@
     "name": "61 SADDLEBACK DRIVE DAYBORO 4521",
     "locID": "LOC000102937883",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD160682984",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7117,7 +7120,8 @@
     "locID": "LOC000044901726",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160691882"
+    "gnaf_pid": "GAQLD160691882",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -7295,23 +7299,6 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.82414983,
-     -27.20228389
-    ]
-   },
-   "properties": {
-    "name": "6 LAIDLAW STREET DAYBORO 4521",
-    "locID": "LOC000184506736",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160698095"
    }
   },
   {
@@ -8303,7 +8290,8 @@
     "locID": "LOC000156697650",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161194137"
+    "gnaf_pid": "GAQLD161194137",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -8416,7 +8404,8 @@
     "locID": "LOC000128241681",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161319610"
+    "gnaf_pid": "GAQLD161319610",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -8726,7 +8715,8 @@
     "locID": "LOC000089573711",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161690815"
+    "gnaf_pid": "GAQLD161690815",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -8783,7 +8773,8 @@
     "locID": "LOC000108083500",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD161697614"
+    "gnaf_pid": "GAQLD161697614",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -10749,7 +10740,10 @@
     "locID": "LOC000150755868",
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162137004"
+    "gnaf_pid": "GAQLD162137004",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -11018,7 +11012,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176424"
+    "gnaf_pid": "GAQLD162176424",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11035,7 +11030,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176425"
+    "gnaf_pid": "GAQLD162176425",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11052,7 +11048,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176426"
+    "gnaf_pid": "GAQLD162176426",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11069,7 +11066,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176427"
+    "gnaf_pid": "GAQLD162176427",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11086,7 +11084,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176428"
+    "gnaf_pid": "GAQLD162176428",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11103,7 +11102,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176429"
+    "gnaf_pid": "GAQLD162176429",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11120,7 +11120,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176430"
+    "gnaf_pid": "GAQLD162176430",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11137,7 +11138,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176433"
+    "gnaf_pid": "GAQLD162176433",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11154,7 +11156,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176434"
+    "gnaf_pid": "GAQLD162176434",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11171,7 +11174,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176437"
+    "gnaf_pid": "GAQLD162176437",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11188,7 +11192,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176439"
+    "gnaf_pid": "GAQLD162176439",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11205,7 +11210,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176440"
+    "gnaf_pid": "GAQLD162176440",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11222,7 +11228,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176441"
+    "gnaf_pid": "GAQLD162176441",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11239,7 +11246,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176443"
+    "gnaf_pid": "GAQLD162176443",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11256,7 +11264,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176445"
+    "gnaf_pid": "GAQLD162176445",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11273,7 +11282,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176446"
+    "gnaf_pid": "GAQLD162176446",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11290,7 +11300,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176447"
+    "gnaf_pid": "GAQLD162176447",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11307,7 +11318,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176448"
+    "gnaf_pid": "GAQLD162176448",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11324,7 +11336,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176449"
+    "gnaf_pid": "GAQLD162176449",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11341,7 +11354,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176450"
+    "gnaf_pid": "GAQLD162176450",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11358,7 +11372,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176451"
+    "gnaf_pid": "GAQLD162176451",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11375,7 +11390,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176452"
+    "gnaf_pid": "GAQLD162176452",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11392,7 +11408,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176453"
+    "gnaf_pid": "GAQLD162176453",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11409,7 +11426,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176454"
+    "gnaf_pid": "GAQLD162176454",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11466,7 +11484,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176458"
+    "gnaf_pid": "GAQLD162176458",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11483,7 +11502,8 @@
     "locID": "LOC000159690452",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162176459"
+    "gnaf_pid": "GAQLD162176459",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -11942,7 +11962,8 @@
     "locID": "LOC000116042731",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162388567"
+    "gnaf_pid": "GAQLD162388567",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -12573,7 +12594,8 @@
     "locID": "LOC000029076149",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162610735"
+    "gnaf_pid": "GAQLD162610735",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -12743,10 +12765,9 @@
    "properties": {
     "name": "3525 MOUNT MEE ROAD DAYBORO 4521",
     "locID": "LOC000029000639",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162659211",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13104,9 +13125,9 @@
     "name": "11 RAIL CLOSE DAYBORO 4521",
     "locID": "LOC000078069134",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162831661",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13163,10 +13184,9 @@
    "properties": {
     "name": "15 RAIL CLOSE DAYBORO 4521",
     "locID": "LOC000004059134",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162831664",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13183,10 +13203,9 @@
    "properties": {
     "name": "16 RAIL CLOSE DAYBORO 4521",
     "locID": "LOC000068841897",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162831665",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13405,7 +13424,8 @@
     "locID": "LOC000128241681",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162833116"
+    "gnaf_pid": "GAQLD162833116",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -13422,7 +13442,8 @@
     "locID": "LOC000128241699",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162833117"
+    "gnaf_pid": "GAQLD162833117",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -13480,7 +13501,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162852494",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13769,7 +13792,8 @@
     "locID": "LOC000178123857",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD162996406"
+    "gnaf_pid": "GAQLD162996406",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -14418,7 +14442,8 @@
     "locID": "LOC000024514857",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163233754"
+    "gnaf_pid": "GAQLD163233754",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -15782,7 +15807,7 @@
     "name": "68 SADDLEBACK DRIVE DAYBORO 4521",
     "locID": "LOC000102937883",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425241734",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15999,7 +16024,10 @@
     "locID": "LOC000108656473",
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD425595529"
+    "gnaf_pid": "GAQLD425595529",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -16494,7 +16522,8 @@
     "locID": "LOC000128241681",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD719301720"
+    "gnaf_pid": "GAQLD719301720",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -16511,7 +16540,10 @@
     "locID": "LOC000064798513",
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD719328330"
+    "gnaf_pid": "GAQLD719328330",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -16528,7 +16560,10 @@
     "locID": "LOC000184077449",
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD719328563"
+    "gnaf_pid": "GAQLD719328563",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -16545,7 +16580,10 @@
     "locID": "LOC000064202404",
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD719336727"
+    "gnaf_pid": "GAQLD719336727",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -16562,7 +16600,8 @@
     "locID": "LOC000089573711",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD719338680"
+    "gnaf_pid": "GAQLD719338680",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -16579,7 +16618,10 @@
     "locID": "LOC000064202404",
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD719338801"
+    "gnaf_pid": "GAQLD719338801",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -16596,7 +16638,8 @@
     "locID": "LOC000178123857",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD719368632"
+    "gnaf_pid": "GAQLD719368632",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -16613,7 +16656,8 @@
     "locID": "LOC000178123857",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD719370052"
+    "gnaf_pid": "GAQLD719370052",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -16790,7 +16834,8 @@
     "locID": "LOC100071915190",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD719720567"
+    "gnaf_pid": "GAQLD719720567",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -16827,7 +16872,8 @@
     "locID": "LOC100071915220",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD719724742"
+    "gnaf_pid": "GAQLD719724742",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -18540,7 +18586,8 @@
     "locID": "LOC100079175484",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD720596868"
+    "gnaf_pid": "GAQLD720596868",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -19009,7 +19056,8 @@
     "locID": "LOC000190019505",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD720930257"
+    "gnaf_pid": "GAQLD720930257",
+    "tech_change_status": "Not Planned"
    }
   },
   {
