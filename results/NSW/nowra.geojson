@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-06-06T03:29:18.143436",
+ "generated": "2024-06-25T14:13:56.154642",
  "suburb": "NOWRA",
  "features": [
   {
@@ -7969,7 +7969,10 @@
     "locID": "LOC000158356952",
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW705565457"
+    "gnaf_pid": "GANSW705565457",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11959,8 +11962,8 @@
    "properties": {
     "name": "64 CLIPPER ROAD NOWRA 2541",
     "locID": "LOC000031433325",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705566843",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -47526,10 +47529,9 @@
    "properties": {
     "name": "8 ABERGELDIE STREET NOWRA 2541",
     "locID": "LOC000107779737",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705585725",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -61446,9 +61448,9 @@
     "name": "6 JUNEE LINK NOWRA 2541",
     "locID": "LOC000076994172",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706401971",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -63405,8 +63407,8 @@
    "properties": {
     "name": "4 NINEVEH CLOSE NOWRA 2541",
     "locID": "LOC000030659727",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709898533",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -66162,10 +66164,9 @@
    "properties": {
     "name": "6 BATEMAN CLOSE NOWRA 2541",
     "locID": "LOC000020180791",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712503538",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -66202,8 +66203,8 @@
    "properties": {
     "name": "2 BATEMAN CLOSE NOWRA 2541",
     "locID": "LOC000049438809",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712503541",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -81156,10 +81157,9 @@
    "properties": {
     "name": "32 BURRADOO CRESCENT NOWRA 2541",
     "locID": "LOC000025039847",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715595013",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -83961,10 +83961,9 @@
    "properties": {
     "name": "13 CARRINGTON PARK DRIVE NOWRA 2541",
     "locID": "LOC000011473513",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716466664",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -90127,7 +90126,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW716961260",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -91214,7 +91213,8 @@
     "locID": "LOC000078127551",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717343224"
+    "gnaf_pid": "GANSW717343224",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -110166,6 +110166,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.6080109,
+     -34.89008047
+    ]
+   },
+   "properties": {
+    "name": "12 TAIPAN TERRACE NOWRA 2541",
+    "locID": "LOC000193098604",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721177807"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.60390936,
      -34.88474855
     ]
@@ -110482,6 +110499,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721240130"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.61673814,
+     -34.89766397
+    ]
+   },
+   "properties": {
+    "name": "3 ARILLA STREET NOWRA 2541",
+    "locID": "LOC000179378538",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721241117"
    }
   },
   {
