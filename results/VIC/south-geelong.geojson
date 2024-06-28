@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-06-08T20:48:16.912248",
+ "generated": "2024-06-28T07:24:11.281478",
  "suburb": "SOUTH GEELONG",
  "features": [
   {
@@ -2394,9 +2394,9 @@
     "name": "92 FOSTER STREET SOUTH GEELONG 3220",
     "locID": "LOC000054005916",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419643457",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2830,10 +2830,10 @@
    "properties": {
     "name": "22 LONSDALE STREET SOUTH GEELONG 3220",
     "locID": "LOC000080212385",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419649051",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4351,8 +4351,8 @@
    "properties": {
     "name": "127 FYANS STREET SOUTH GEELONG 3220",
     "locID": "LOC000015228506",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419959763",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8012,9 +8012,9 @@
     "name": "7 CROWN STREET SOUTH GEELONG 3220",
     "locID": "LOC000056849668",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420863144",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -11152,10 +11152,9 @@
    "properties": {
     "name": "5 STRONG STREET SOUTH GEELONG 3220",
     "locID": "LOC000068023770",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421728978",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12895,9 +12894,9 @@
     "name": "UNIT 1, 7 CROWN STREET SOUTH GEELONG 3220",
     "locID": "LOC000056849668",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC422441484",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -13831,9 +13830,9 @@
     "name": "UNIT 2, 7 CROWN STREET SOUTH GEELONG 3220",
     "locID": "LOC000056849668",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423529347",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -16153,7 +16152,10 @@
     "locID": "LOC000124247061",
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC424362293"
+    "gnaf_pid": "GAVIC424362293",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
