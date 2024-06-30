@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-06-10T18:17:09.638639",
+ "generated": "2024-06-30T03:46:32.256754",
  "suburb": "MOUNT WARREN PARK",
  "features": [
   {
@@ -5267,10 +5267,10 @@
    "properties": {
     "name": "8 SHONA COURT MOUNT WARREN PARK 4207",
     "locID": "LOC000030749563",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155611968",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5784,10 +5784,10 @@
    "properties": {
     "name": "12 BOAT COURT MOUNT WARREN PARK 4207",
     "locID": "LOC000012744274",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155614373",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11341,8 +11341,8 @@
    "properties": {
     "name": "31 HARTWIG CRESCENT MOUNT WARREN PARK 4207",
     "locID": "LOC000054549044",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156875032",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12252,6 +12252,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.19505408,
+     -27.72870722
+    ]
+   },
+   "properties": {
+    "name": "7 HARTWIG CRESCENT MOUNT WARREN PARK 4207",
+    "locID": "LOC000195143274",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156878663"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.19422442,
      -27.72919567
     ]
@@ -12470,7 +12487,7 @@
     "name": "273 MOUNT WARREN BOULEVARD MOUNT WARREN PARK 4207",
     "locID": "LOC000067226667",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156878956",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12509,10 +12526,9 @@
    "properties": {
     "name": "277 MOUNT WARREN BOULEVARD MOUNT WARREN PARK 4207",
     "locID": "LOC000016719015",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156878960",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44160,7 +44176,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD721134823",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
