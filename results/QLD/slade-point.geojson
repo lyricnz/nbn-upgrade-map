@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-06-11T06:37:21.776624",
+ "generated": "2024-06-30T16:51:48.420045",
  "suburb": "SLADE POINT",
  "features": [
   {
@@ -6378,7 +6378,8 @@
     "locID": "LOC000029408745",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155819405"
+    "gnaf_pid": "GAQLD155819405",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -7014,7 +7015,8 @@
     "locID": "LOC100078007197",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD155819859"
+    "gnaf_pid": "GAQLD155819859",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -8765,8 +8767,8 @@
    "properties": {
     "name": "42 PACIFIC ESPLANADE SLADE POINT 4740",
     "locID": "LOC000097751795",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155821450",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9963,7 +9965,7 @@
     "name": "9 TEAL STREET SLADE POINT 4740",
     "locID": "LOC000103521937",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155821768",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13308,10 +13310,10 @@
    "properties": {
     "name": "6 EAGLE STREET SLADE POINT 4740",
     "locID": "LOC000060595997",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155823775",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14328,10 +14330,10 @@
    "properties": {
     "name": "10 RUSSELL AVENUE SLADE POINT 4740",
     "locID": "LOC000014048186",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155824171",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18560,7 +18562,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157103325",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23830,6 +23832,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     149.2218891,
+     -21.06712007
+    ]
+   },
+   "properties": {
+    "name": "56 OCEAN AVENUE SLADE POINT 4740",
+    "locID": "LOC000195106303",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD157131890"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      149.22202723,
      -21.06695833
     ]
@@ -25212,10 +25231,9 @@
    "properties": {
     "name": "15 SLADE ESPLANADE SLADE POINT 4740",
     "locID": "LOC000008573982",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157138171",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25551,7 +25569,8 @@
     "locID": "LOC000029408745",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157144990"
+    "gnaf_pid": "GAQLD157144990",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -25747,7 +25766,8 @@
     "locID": "LOC000029408745",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157145002"
+    "gnaf_pid": "GAQLD157145002",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -27580,10 +27600,9 @@
    "properties": {
     "name": "1 SEABREEZE COURT SLADE POINT 4740",
     "locID": "LOC000019111595",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158615407",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29783,7 +29802,10 @@
     "locID": "LOC100056442341",
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD158633680"
+    "gnaf_pid": "GAQLD158633680",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -31750,7 +31772,8 @@
     "locID": "LOC000029408745",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD160427163"
+    "gnaf_pid": "GAQLD160427163",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -32221,8 +32244,8 @@
    "properties": {
     "name": "10 PACIFIC ESPLANADE SLADE POINT 4740",
     "locID": "LOC000097751795",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160727593",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -33360,7 +33383,8 @@
     "locID": "LOC000112752817",
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163311148"
+    "gnaf_pid": "GAQLD163311148",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -34038,7 +34062,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425659981",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
