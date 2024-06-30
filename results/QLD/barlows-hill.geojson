@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-06-11T00:38:26.451880",
+ "generated": "2024-06-30T10:21:36.324622",
  "suburb": "BARLOWS HILL",
  "features": [
   {
@@ -3286,8 +3286,8 @@
    "properties": {
     "name": "28 STROW STREET BARLOWS HILL 4703",
     "locID": "LOC000021913530",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156248962",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3307,9 +3307,9 @@
     "name": "3 STROW STREET BARLOWS HILL 4703",
     "locID": "LOC000020205606",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156248963",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5000,10 +5000,9 @@
    "properties": {
     "name": "8 STROW STREET BARLOWS HILL 4703",
     "locID": "LOC000103483338",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156256137",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6158,9 +6157,9 @@
     "name": "6 JARMAN STREET BARLOWS HILL 4703",
     "locID": "LOC000005876852",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157516599",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7406,7 +7405,10 @@
     "locID": "LOC000185973849",
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721429442"
+    "gnaf_pid": "GAQLD721429442",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7423,7 +7425,10 @@
     "locID": "LOC000129124031",
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721434532"
+    "gnaf_pid": "GAQLD721434532",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   }
  ]
