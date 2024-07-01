@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-06-12T02:21:46.112451",
+ "generated": "2024-07-01T13:34:53.769278",
  "suburb": "ELIZABETH DOWNS",
  "features": [
   {
@@ -2479,10 +2479,9 @@
    "properties": {
     "name": "30 BARTLETT STREET ELIZABETH DOWNS 5113",
     "locID": "LOC000021793252",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415093323",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415093323"
    }
   },
   {
@@ -3702,9 +3701,9 @@
     "name": "46 STAKES CRESCENT ELIZABETH DOWNS 5113",
     "locID": "LOC000052516005",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415139576",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -8126,9 +8125,11 @@
     "name": "18 BURDELL STREET ELIZABETH DOWNS 5113",
     "locID": "LOC000181794731",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415284747",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -8184,9 +8185,11 @@
     "name": "37 LOFTIS ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000180588820",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415284750",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -8866,8 +8869,11 @@
     "name": "50 MCKENZIE ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000190869070",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415289397"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415289397",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9497,10 +9503,10 @@
    "properties": {
     "name": "18 MCKENZIE ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000064981143",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415291372",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11254,7 +11260,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415299261",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11374,7 +11380,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415299267",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13786,9 +13794,11 @@
     "name": "4 KENTISH ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000182552711",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415303615",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -15245,9 +15255,11 @@
     "name": "13 PARHAM STREET ELIZABETH DOWNS 5113",
     "locID": "LOC000192174813",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415306319",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -15894,6 +15906,23 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Mar 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.69043837,
+     -34.70302925
+    ]
+   },
+   "properties": {
+    "name": "233 MIDWAY ROAD ELIZABETH DOWNS 5113",
+    "locID": "LOC000195010873",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415309035"
    }
   },
   {
@@ -19562,10 +19591,9 @@
    "properties": {
     "name": "26 CRISP ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000093365223",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415315894",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415315894"
    }
   },
   {
@@ -20898,10 +20926,9 @@
    "properties": {
     "name": "36 CRISP ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000072912094",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415318805",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415318805"
    }
   },
   {
@@ -21566,10 +21593,9 @@
    "properties": {
     "name": "47 HANSON ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000064857319",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415321367",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415321367"
    }
   },
   {
@@ -23867,10 +23893,9 @@
    "properties": {
     "name": "15 WINKLE STREET ELIZABETH DOWNS 5113",
     "locID": "LOC000048430688",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415331738",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26200,8 +26225,11 @@
     "name": "LOT 1160 DRAGE STREET ELIZABETH DOWNS 5113",
     "locID": "LOC100037582246",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415340773"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415340773",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -26239,7 +26267,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_415340775",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -30798,9 +30828,11 @@
     "name": "58 CAMPBELL ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000159769890",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415367591",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -32214,9 +32246,11 @@
     "name": "LOT 82 FORTRESS STREET ELIZABETH DOWNS 5113",
     "locID": "LOC100029226100",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415370428",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -35542,9 +35576,11 @@
     "name": "70 CAMPBELL ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000159770112",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415387580",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -36306,7 +36342,8 @@
     "locID": "LOC000093672579",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415391765"
+    "gnaf_pid": "GASA_415391765",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -38883,9 +38920,11 @@
     "name": "28 MAVROS ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000159771239",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415523601",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -39018,10 +39057,9 @@
    "properties": {
     "name": "32 MCKENZIE ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000109958599",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415942469",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40380,10 +40418,9 @@
    "properties": {
     "name": "1 KENNER STREET ELIZABETH DOWNS 5113",
     "locID": "LOC000041493649",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415968657",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415968657"
    }
   },
   {
@@ -41315,9 +41352,11 @@
     "name": "LOT 38 MIDWAY ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC100020900576",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424114676",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -42310,9 +42349,11 @@
     "name": "257A MIDWAY ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000181338158",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424824108",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -42346,8 +42387,11 @@
     "name": "69A HAMBLYNN ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC100023803112",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424920540"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424920540",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42796,7 +42840,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425297876",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42813,7 +42859,9 @@
     "locID": "LOC000159766382",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425300164"
+    "gnaf_pid": "GASA_425300164",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42849,7 +42897,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425358516",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42921,9 +42971,11 @@
     "name": "58A CAMPBELL ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000159769888",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425597126",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -42939,9 +42991,11 @@
     "name": "58B CAMPBELL ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000159769890",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425635825",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -42957,9 +43011,11 @@
     "name": "70B CAMPBELL ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000159770112",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425635826",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -42977,7 +43033,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425636612",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -42995,7 +43053,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425636613",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43029,8 +43089,11 @@
     "name": "18A JUSTINIAN STREET ELIZABETH DOWNS 5113",
     "locID": "LOC000159769740",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425711417"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425711417",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43048,7 +43111,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425711419",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43099,9 +43164,11 @@
     "name": "3A KENTISH ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000159769565",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425717320",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -43440,9 +43507,11 @@
     "name": "70A CAMPBELL ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000159770120",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_719045624",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -43493,9 +43562,11 @@
     "name": "UNIT 1, 3 WAITE STREET ELIZABETH DOWNS 5113",
     "locID": "LOC000188838015",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_719184477",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -43511,9 +43582,11 @@
     "name": "UNIT 11, 3 WAITE STREET ELIZABETH DOWNS 5113",
     "locID": "LOC000188838015",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_719186896",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -43529,9 +43602,11 @@
     "name": "3B KENTISH ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000159769577",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_719246739",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -43638,7 +43713,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719396841",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43656,7 +43733,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719397486",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43746,7 +43825,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719512809",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43780,9 +43861,11 @@
     "name": "28B MAVROS ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000159771239",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_719522010",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -43800,7 +43883,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_719649726",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -43871,9 +43956,11 @@
     "name": "29A KENTISH ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC100072576144",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_719773153",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -43909,9 +43996,11 @@
     "name": "29B KENTISH ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC100072576159",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_719783332",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -43963,9 +44052,11 @@
     "name": "4A KENTISH ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000182552711",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_719864561",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -43999,9 +44090,11 @@
     "name": "11B PARHAM STREET ELIZABETH DOWNS 5113",
     "locID": "LOC000190382457",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_719964516",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -44035,9 +44128,11 @@
     "name": "11A PARHAM STREET ELIZABETH DOWNS 5113",
     "locID": "LOC000190382442",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_719965229",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -44071,9 +44166,11 @@
     "name": "20 BURDELL STREET ELIZABETH DOWNS 5113",
     "locID": "LOC000180983333",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_719966257",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -44146,7 +44243,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_720073718",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -44164,7 +44263,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_720368613",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -44180,9 +44281,11 @@
     "name": "29C KENTISH ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC100072576144",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_720397338",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -44254,7 +44357,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_720703369",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -44270,9 +44375,11 @@
     "name": "27A KENTISH ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000190914562",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_720704126",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -44288,9 +44395,11 @@
     "name": "46 JOHNSTON ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000190869027",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_720704852",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -44306,9 +44415,11 @@
     "name": "27B KENTISH ROAD ELIZABETH DOWNS 5113",
     "locID": "LOC000190914570",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_720706325",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -44342,9 +44453,11 @@
     "name": "18A WIMBORNE STREET ELIZABETH DOWNS 5113",
     "locID": "LOC000189391608",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_721072414",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -45311,6 +45424,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.69576297,
+     -34.70085865
+    ]
+   },
+   "properties": {
+    "name": "9B HANSON ROAD ELIZABETH DOWNS 5113",
+    "locID": "LOC000192151808",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721267519"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.69168374,
      -34.70341853
     ]
@@ -45319,9 +45449,11 @@
     "name": "UNIT 13, 3 WAITE STREET ELIZABETH DOWNS 5113",
     "locID": "LOC000182867413",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_721283118",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
