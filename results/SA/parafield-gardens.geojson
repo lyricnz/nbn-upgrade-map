@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-06-12T01:20:17.036618",
+ "generated": "2024-07-01T12:31:28.133258",
  "suburb": "PARAFIELD GARDENS",
  "features": [
   {
@@ -15353,10 +15353,9 @@
    "properties": {
     "name": "16 SEABRIGHT AVENUE PARAFIELD GARDENS 5107",
     "locID": "LOC000035402749",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415208623",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16917,10 +16916,10 @@
    "properties": {
     "name": "46 PARKWAY CIRCUIT PARAFIELD GARDENS 5107",
     "locID": "LOC000041469910",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415221755",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22806,23 +22805,6 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415291645"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.61654414,
-     -34.7872623
-    ]
-   },
-   "properties": {
-    "name": "16 SHEPHERDSON ROAD PARAFIELD GARDENS 5107",
-    "locID": "LOC000035037992",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415291650"
    }
   },
   {
@@ -88845,40 +88827,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.61693611,
-     -34.78746602
-    ]
-   },
-   "properties": {
-    "name": "12 SHEPHERDSON ROAD PARAFIELD GARDENS 5107",
-    "locID": "LOC000055204195",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_422071971"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.61674319,
-     -34.78735291
-    ]
-   },
-   "properties": {
-    "name": "14 SHEPHERDSON ROAD PARAFIELD GARDENS 5107",
-    "locID": "LOC000019159175",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_422071972"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.59910864,
      -34.77286886
     ]
@@ -98405,40 +98353,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.60894043,
-     -34.78249482
-    ]
-   },
-   "properties": {
-    "name": "LOT 12 SHEPHERDSON ROAD PARAFIELD GARDENS 5107",
-    "locID": "LOC000055204195",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424209517"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.61104121,
-     -34.78367697
-    ]
-   },
-   "properties": {
-    "name": "LOT 14 SHEPHERDSON ROAD PARAFIELD GARDENS 5107",
-    "locID": "LOC000019159175",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424209519"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.60484506,
      -34.77389267
     ]
@@ -105502,7 +105416,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_424700420",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -106222,7 +106138,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424925211",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -106239,7 +106157,9 @@
     "locID": "LOC000130555261",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424925212"
+    "gnaf_pid": "GASA_424925212",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -106255,8 +106175,11 @@
     "name": "5 MOSS STREET PARAFIELD GARDENS 5107",
     "locID": "LOC000130555359",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424925213"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424925213",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -106272,8 +106195,11 @@
     "name": "6 MOSS STREET PARAFIELD GARDENS 5107",
     "locID": "LOC000130558478",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424925214"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424925214",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -106291,7 +106217,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424925215",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -106309,7 +106237,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424925812",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -106325,8 +106255,11 @@
     "name": "50 THE BOULEVARD PARAFIELD GARDENS 5107",
     "locID": "LOC000130555371",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424925813"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424925813",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -106344,7 +106277,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424925814",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -106361,7 +106296,9 @@
     "locID": "LOC000130555424",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424925815"
+    "gnaf_pid": "GASA_424925815",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -106377,8 +106314,11 @@
     "name": "54 THE BOULEVARD PARAFIELD GARDENS 5107",
     "locID": "LOC000130555430",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424925816"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424925816",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -106414,8 +106354,11 @@
     "name": "1 WILLOW PLACE PARAFIELD GARDENS 5107",
     "locID": "LOC000130549044",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424952604"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424952604",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -106433,7 +106376,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_424952605",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -106449,8 +106394,11 @@
     "name": "5 WILLOW PLACE PARAFIELD GARDENS 5107",
     "locID": "LOC000130555363",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424952606"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424952606",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -106468,7 +106416,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_424952607",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -106520,7 +106470,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425064754",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107388,7 +107340,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_425259588",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107424,7 +107378,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425299135",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107510,7 +107466,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_425358589",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107612,7 +107570,9 @@
     "locID": "LOC000152560916",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425392879"
+    "gnaf_pid": "GASA_425392879",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107629,7 +107589,9 @@
     "locID": "LOC000152563598",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425392880"
+    "gnaf_pid": "GASA_425392880",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107647,7 +107609,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_425392881",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107665,7 +107629,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425392883",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107683,7 +107649,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_425392884",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107701,7 +107669,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425392885",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107719,7 +107689,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425392886",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107737,7 +107709,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425392887",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107754,7 +107728,9 @@
     "locID": "LOC000147576351",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425392888"
+    "gnaf_pid": "GASA_425392888",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107772,7 +107748,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425392889",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107790,7 +107768,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425392890",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107806,8 +107786,11 @@
     "name": "23 MOSS STREET PARAFIELD GARDENS 5107",
     "locID": "LOC000157140995",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425392891"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425392891",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107823,8 +107806,11 @@
     "name": "24 MOSS STREET PARAFIELD GARDENS 5107",
     "locID": "LOC000152563918",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425392892"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425392892",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107841,7 +107827,9 @@
     "locID": "LOC000157141027",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425392893"
+    "gnaf_pid": "GASA_425392893",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107858,7 +107846,9 @@
     "locID": "LOC000152563939",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425392894"
+    "gnaf_pid": "GASA_425392894",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107874,8 +107864,11 @@
     "name": "27 MOSS STREET PARAFIELD GARDENS 5107",
     "locID": "LOC000157141036",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425392895"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425392895",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107891,8 +107884,11 @@
     "name": "28 MOSS STREET PARAFIELD GARDENS 5107",
     "locID": "LOC000157141043",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425392896"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425392896",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107910,7 +107906,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425392897",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107927,7 +107925,9 @@
     "locID": "LOC000152563941",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425392898"
+    "gnaf_pid": "GASA_425392898",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107945,7 +107945,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425392899",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107963,7 +107965,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_425392900",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107981,7 +107985,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425392901",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -107998,7 +108004,9 @@
     "locID": "LOC000157141117",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425392902"
+    "gnaf_pid": "GASA_425392902",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -108016,7 +108024,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425392903",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -108033,7 +108043,9 @@
     "locID": "LOC000152560900",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425392904"
+    "gnaf_pid": "GASA_425392904",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -108049,8 +108061,11 @@
     "name": "LOT 750 MOSS STREET PARAFIELD GARDENS 5107",
     "locID": "LOC000130555359",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425392905"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425392905",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -108406,8 +108421,11 @@
     "name": "LOT 726 MOSS STREET PARAFIELD GARDENS 5107",
     "locID": "LOC000130555359",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425445314"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425445314",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -111493,7 +111511,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425533830",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -111509,8 +111529,11 @@
     "name": "LOT 2008 MOSS STREET PARAFIELD GARDENS 5107",
     "locID": "LOC000130555359",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425534164"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425534164",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {

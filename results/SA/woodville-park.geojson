@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-06-12T00:43:39.368919",
+ "generated": "2024-07-01T11:51:34.835906",
  "suburb": "WOODVILLE PARK",
  "features": [
   {
@@ -297,7 +297,9 @@
     "locID": "LOC100076663186",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_414950851"
+    "gnaf_pid": "GASA_414950851",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -718,26 +720,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_414962573",
     "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.54759263,
-     -34.887792
-    ]
-   },
-   "properties": {
-    "name": "18 JEANETTE STREET WOODVILLE PARK 5011",
-    "locID": "LOC000059380785",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_414962574",
-    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1590,10 +1572,9 @@
    "properties": {
     "name": "64 WINDSOR AVENUE WOODVILLE PARK 5011",
     "locID": "LOC000048508035",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GASA_414975469",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_414975469"
    }
   },
   {
@@ -3634,9 +3615,9 @@
     "name": "53 RANELAGH STREET WOODVILLE PARK 5011",
     "locID": "LOC000004189912",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_414991267",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -8016,8 +7997,11 @@
     "name": "25A KILKENNY ROAD WOODVILLE PARK 5011",
     "locID": "LOC000129902736",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415435082"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415435082",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8053,8 +8037,11 @@
     "name": "31 KILKENNY ROAD WOODVILLE PARK 5011",
     "locID": "LOC000129906290",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415435084"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415435084",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14495,7 +14482,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_424694413",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14532,7 +14521,9 @@
     "locID": "LOC000112298447",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424694415"
+    "gnaf_pid": "GASA_424694415",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14550,7 +14541,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424694416",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14644,9 +14637,9 @@
     "name": "4 PARK STREET SOUTH WOODVILLE PARK 5011",
     "locID": "LOC000166904337",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_425067302",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -14698,8 +14691,11 @@
     "name": "23 BELMORE TERRACE WOODVILLE PARK 5011",
     "locID": "LOC000166106841",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425195624"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425195624",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14735,7 +14731,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425358717",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14753,7 +14750,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425358718",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14771,7 +14769,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425358719",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14789,7 +14788,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425360979",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14807,7 +14807,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425360980",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14825,7 +14826,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425360981",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14843,7 +14845,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425360982",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14861,7 +14864,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_425360983",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -14917,7 +14921,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_425635719",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14935,7 +14941,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_425635720",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14953,7 +14961,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425635721",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14971,7 +14981,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425635722",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -14989,7 +15001,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425635723",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15007,7 +15021,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425635724",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15025,7 +15041,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_425636331",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15043,7 +15061,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425636332",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15061,7 +15081,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425636333",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15079,7 +15101,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_425636334",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15097,7 +15121,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_425636335",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15115,7 +15141,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_425636336",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15131,8 +15159,11 @@
     "name": "1A GARTH STREET WOODVILLE PARK 5011",
     "locID": "LOC000166904300",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425636337"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425636337",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15981,7 +16012,9 @@
     "locID": "LOC100076663193",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_720705886"
+    "gnaf_pid": "GASA_720705886",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -16135,8 +16168,11 @@
     "name": "22A ELGIN STREET WOODVILLE PARK 5011",
     "locID": "LOC000178190103",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_721502586"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_721502586",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
