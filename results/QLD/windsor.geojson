@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-06-13T22:22:15.442067",
+ "generated": "2024-07-03T08:58:04.414571",
  "suburb": "WINDSOR",
  "features": [
   {
@@ -5731,6 +5731,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155974860",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.03646521,
+     -27.43542506
+    ]
+   },
+   "properties": {
+    "name": "6 ALBANY STREET WINDSOR 4030",
+    "locID": "LOC000195138074",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155974878"
    }
   },
   {
@@ -15290,8 +15307,9 @@
     "name": "58 MCDONALD ROAD WINDSOR 4030",
     "locID": "LOC000126127975",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD157264801"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD157264801",
+    "tech_change_status": "Eligible To Order"
    }
   },
   {
@@ -54446,9 +54464,11 @@
     "name": "7A EARLE STREET WINDSOR 4030",
     "locID": "LOC000096466107",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD163294555",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
