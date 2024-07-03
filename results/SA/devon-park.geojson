@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-06-14T06:23:53.814659",
+ "generated": "2024-07-03T16:39:55.386899",
  "suburb": "DEVON PARK",
  "features": [
   {
@@ -2802,10 +2802,9 @@
    "properties": {
     "name": "21 BELFORD AVENUE DEVON PARK 5008",
     "locID": "LOC000025809803",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415412048",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415412048"
    }
   },
   {
@@ -2947,8 +2946,11 @@
     "name": "31 EXETER TERRACE DEVON PARK 5008",
     "locID": "LOC000130014332",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415413907"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415413907",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12019,7 +12021,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_721203573",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12035,9 +12039,9 @@
     "name": "71A HARRISON ROAD DEVON PARK 5008",
     "locID": "LOC000193918347",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_721436725",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
