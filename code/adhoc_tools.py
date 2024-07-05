@@ -420,7 +420,7 @@ def generate_local_website():
             # disable date selector
             .replace("addControlWithHTML('date-selector'", "// ")
             .replace("fetch(commits_url)", "new Promise( () => {} )")
-            # disable gtagr
+            # disable gtags
             .replace("gtag(", "// gtag(")
         )
 
