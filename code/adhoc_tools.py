@@ -429,7 +429,7 @@ def generate_local_website():
 
     # to view this locally, start a simple web-server with the following command (from the top level directory):
     #     python -m http.server 8000
-    # and open http://localhost:8000/index-local.html
+    # and open http://localhost:8000/site/index-local.html
 
 
 if __name__ == "__main__":
