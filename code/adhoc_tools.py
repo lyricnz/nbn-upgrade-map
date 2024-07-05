@@ -399,6 +399,39 @@ def dump_status_tech_upgrade():
     pprint.pprint(tallies)
 
 
+def generate_local_website():
+    """Generate a version of the website with all data local."""
+    # copy index.html -> index-local.html
+    with open("./site/index.html") as f:
+        index_html = f.read().replace("main.js", "main-local.js")
+        with open("./site/index-local.html", "w") as f:
+            f.write(index_html)
+
+    # copy main.js -> main-local.js
+    with open("./site/main.js") as f:
+        gh_prefix = "https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map"
+        main_js = (
+            f.read()
+            # use local results files
+            .replace(gh_prefix + "/main/results", "../results")
+            .replace(gh_prefix + '/" + commit + "/results', "../results")
+            # disable serviceworkerr
+            .replace("navigator.serviceWorker.", "// ")
+            # disable date selector
+            .replace("addControlWithHTML('date-selector'", "// ")
+            .replace("fetch(commits_url)", "new Promise( () => {} )")
+            # disable gtags
+            .replace("gtag(", "// gtag(")
+        )
+
+        with open("./site/main-local.js", "w") as f:
+            f.write(main_js)
+
+    # to view this locally, start a simple web-server with the following command (from the top level directory):
+    #     python -m http.server 8000
+    # and open http://localhost:8000/site/index-local.html
+
+
 if __name__ == "__main__":
     LOGLEVEL = os.environ.get("LOGLEVEL", "INFO").upper()
     logging.basicConfig(level=LOGLEVEL, format="%(asctime)s %(levelname)s %(threadName)s %(message)s")
