@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-06-22T05:10:03.315211",
+ "generated": "2024-07-11T11:41:56.820196",
  "suburb": "DELANEYS CREEK",
  "features": [
   {
@@ -276,7 +276,7 @@
     "name": "41 COMET COURT DELANEYS CREEK 4514",
     "locID": "LOC000010919350",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155245308",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -316,11 +316,11 @@
     "name": "14-16 COMET COURT DELANEYS CREEK 4514",
     "locID": "LOC000128240109",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155248657",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -873,9 +873,9 @@
     "name": "45-47 DASHER STREET DELANEYS CREEK 4514",
     "locID": "LOC000128240301",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155253414",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1231,7 +1231,7 @@
     "name": "22-24 COMET COURT DELANEYS CREEK 4514",
     "locID": "LOC000128259530",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156062778",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1388,12 +1388,12 @@
    "properties": {
     "name": "2-8 COMET COURT DELANEYS CREEK 4514",
     "locID": "LOC000128253755",
-    "tech": "FTTN",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156516827",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1409,11 +1409,11 @@
     "name": "44-46 DASHER STREET DELANEYS CREEK 4514",
     "locID": "LOC000070123241",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD156521138",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2422,7 +2422,7 @@
     "name": "90 BLEAKLEY ROAD DELANEYS CREEK 4514",
     "locID": "LOC000039686503",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157859091",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2668,11 +2668,11 @@
     "name": "102 MOUNT MEE ROAD DELANEYS CREEK 4514",
     "locID": "LOC000018328287",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD160027195",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -2954,11 +2954,11 @@
     "name": "110 MOUNT MEE ROAD DELANEYS CREEK 4514",
     "locID": "LOC000055493084",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD160037329",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3146,11 +3146,11 @@
     "name": "10-12 COMET COURT DELANEYS CREEK 4514",
     "locID": "LOC000072030200",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD160678083",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3188,6 +3188,24 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160678151",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.75356763,
+     -26.9968854
+    ]
+   },
+   "properties": {
+    "name": "340 NEWMAN LANE DELANEYS CREEK 4514",
+    "locID": "LOC100086159089",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160678429",
     "tech_change_status": "Not Planned"
    }
   },
@@ -3510,10 +3528,9 @@
    "properties": {
     "name": "19-21 COMET COURT DELANEYS CREEK 4514",
     "locID": "LOC000037108082",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161365783",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3531,11 +3548,11 @@
     "name": "28-30 DASHER STREET DELANEYS CREEK 4514",
     "locID": "LOC000053563492",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD161366111",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4001,11 +4018,11 @@
     "name": "24-26 DASHER STREET DELANEYS CREEK 4514",
     "locID": "LOC000034400628",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162083586",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4193,7 +4210,7 @@
     "name": "105 MOUNT MEE ROAD DELANEYS CREEK 4514",
     "locID": "LOC000018388053",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162105125",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4213,11 +4230,11 @@
     "name": "109 MOUNT MEE ROAD DELANEYS CREEK 4514",
     "locID": "LOC000100611838",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162105126",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4233,11 +4250,11 @@
     "name": "119 MOUNT MEE ROAD DELANEYS CREEK 4514",
     "locID": "LOC000102717956",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162105127",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -4865,10 +4882,9 @@
    "properties": {
     "name": "129-131 BLEAKLEY ROAD DELANEYS CREEK 4514",
     "locID": "LOC000128237393",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162738960",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5086,11 +5102,11 @@
     "name": "25-27 DASHER STREET DELANEYS CREEK 4514",
     "locID": "LOC000128217373",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162889014",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5696,7 +5712,7 @@
     "name": "11-13 RUDOLF COURT DELANEYS CREEK 4514",
     "locID": "LOC000128232085",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162913501",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5811,11 +5827,11 @@
     "name": "80 BLEAKLEY ROAD DELANEYS CREEK 4514",
     "locID": "LOC000024399155",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162934161",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6021,7 +6037,7 @@
     "name": "11 RUDOLF COURT DELANEYS CREEK 4514",
     "locID": "LOC000128232085",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162946073",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6061,11 +6077,11 @@
     "name": "11-13 SHELFORD DRIVE DELANEYS CREEK 4514",
     "locID": "LOC000078456824",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162946535",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6101,11 +6117,11 @@
     "name": "15-17 SHELFORD DRIVE DELANEYS CREEK 4514",
     "locID": "LOC000083099236",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162946537",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6338,11 +6354,11 @@
     "name": "3-5 SHELFORD DRIVE DELANEYS CREEK 4514",
     "locID": "LOC000016715804",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162946551",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6378,11 +6394,11 @@
     "name": "7-9 SHELFORD DRIVE DELANEYS CREEK 4514",
     "locID": "LOC000065917600",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD162946553",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -6638,9 +6654,9 @@
     "name": "12-14 BULLABURRA STREET DELANEYS CREEK 4514",
     "locID": "LOC000016540662",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163029090",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7195,11 +7211,11 @@
     "name": "82-84 BLEAKLEY ROAD DELANEYS CREEK 4514",
     "locID": "LOC000165842993",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD163211084",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -7215,11 +7231,11 @@
     "name": "86-88 BLEAKLEY ROAD DELANEYS CREEK 4514",
     "locID": "LOC000041949310",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD163211085",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8050,6 +8066,24 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425331875",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.74911558,
+     -27.01814991
+    ]
+   },
+   "properties": {
+    "name": "LOT 8 MERVYN CAVANAGH COURT DELANEYS CREEK 4514",
+    "locID": "LOC100086173684",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425331879",
     "tech_change_status": "Not Planned"
    }
   },
@@ -11121,11 +11155,8 @@
     "name": "111 SHELFORD DRIVE DELANEYS CREEK 4514",
     "locID": "LOC000190035724",
     "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD721232665",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721232665"
    }
   },
   {
@@ -11192,11 +11223,8 @@
     "name": "105 SHELFORD DRIVE DELANEYS CREEK 4514",
     "locID": "LOC000190035724",
     "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD721235041",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721235041"
    }
   },
   {
