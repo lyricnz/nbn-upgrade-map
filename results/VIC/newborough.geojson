@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-06-24T07:20:31.833527",
+ "generated": "2024-07-13T15:15:38.475634",
  "suburb": "NEWBOROUGH",
  "features": [
   {
@@ -14415,7 +14415,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420031940",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -20543,10 +20545,10 @@
    "properties": {
     "name": "33 DINWOODIE DRIVE NEWBOROUGH 3825",
     "locID": "LOC000082521967",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420339598",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40679,10 +40681,10 @@
    "properties": {
     "name": "2 MATLOCK STREET NEWBOROUGH 3825",
     "locID": "LOC000072757016",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421239103",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44354,10 +44356,9 @@
    "properties": {
     "name": "43 SOUTHWELL AVENUE NEWBOROUGH 3825",
     "locID": "LOC000088863712",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421501133",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44813,10 +44814,9 @@
    "properties": {
     "name": "6 TARRA COURT NEWBOROUGH 3825",
     "locID": "LOC000016895460",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421509267",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -57607,6 +57607,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.27155118,
+     -38.16352498
+    ]
+   },
+   "properties": {
+    "name": "80 OLD SALE ROAD NEWBOROUGH 3825",
+    "locID": "LOC000049950354",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422178791",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.27911952,
      -38.15679187
     ]
@@ -65236,6 +65254,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.28984954,
+     -38.18640813
+    ]
+   },
+   "properties": {
+    "name": "19A CENTRAL AVENUE NEWBOROUGH 3825",
+    "locID": "LOC000021880137",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425079643",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.28996862,
      -38.18635375
     ]
@@ -66366,7 +66404,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719216605",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -69044,9 +69084,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721019611",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Sep 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
