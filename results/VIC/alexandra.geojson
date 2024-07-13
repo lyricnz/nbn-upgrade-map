@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-06-23T21:31:23.834257",
+ "generated": "2024-07-13T06:09:56.000886",
  "suburb": "ALEXANDRA",
  "features": [
   {
@@ -724,10 +724,9 @@
    "properties": {
     "name": "48 NIHIL STREET ALEXANDRA 3714",
     "locID": "LOC000042606775",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC410737276",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6304,10 +6303,9 @@
    "properties": {
     "name": "6 OSWALD DRIVE ALEXANDRA 3714",
     "locID": "LOC000016178169",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419940155",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6746,7 +6744,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419942490",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15205,9 +15202,9 @@
     "name": "10 DOWNEY STREET ALEXANDRA 3714",
     "locID": "LOC000011129868",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420836697",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16799,7 +16796,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420955803",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19061,10 +19057,9 @@
    "properties": {
     "name": "28 THOM STREET ALEXANDRA 3714",
     "locID": "LOC000001966889",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421151022",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19244,7 +19239,9 @@
     "tech": "SATELLITE",
     "upgrade": "WIRELESS",
     "gnaf_pid": "GAVIC421152456",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -20952,10 +20949,9 @@
    "properties": {
     "name": "54 DOWNEY STREET ALEXANDRA 3714",
     "locID": "LOC000036745845",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421447484",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23342,10 +23338,10 @@
    "properties": {
     "name": "42 JONES CLOSE ALEXANDRA 3714",
     "locID": "LOC000038780147",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421716050",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23425,7 +23421,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421717181",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -23539,10 +23537,10 @@
    "properties": {
     "name": "23 DOWNEY STREET ALEXANDRA 3714",
     "locID": "LOC000049967359",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421718702",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23842,7 +23840,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421729846",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -24716,26 +24716,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC421758624",
-    "tech_change_status": "Eligible To Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.71033354,
-     -37.19800375
-    ]
-   },
-   "properties": {
-    "name": "66 BAYLEY STREET ALEXANDRA 3714",
-    "locID": "LOC000070363040",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421758626",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -30704,10 +30684,9 @@
    "properties": {
     "name": "55A NIHIL STREET ALEXANDRA 3714",
     "locID": "LOC000125042741",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424760210",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31398,8 +31377,8 @@
    "properties": {
     "name": "4 THOM STREET ALEXANDRA 3714",
     "locID": "LOC100061042854",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC425092333",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -32619,6 +32598,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.7291746,
+     -37.20409147
+    ]
+   },
+   "properties": {
+    "name": "12 LEW TON CIRCUIT ALEXANDRA 3714",
+    "locID": "LOC100086303642",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720216651",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.70359967,
      -37.19934119
     ]
@@ -32683,6 +32680,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "Dec 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.72523916,
+     -37.20495482
+    ]
+   },
+   "properties": {
+    "name": "25 LEW TON CIRCUIT ALEXANDRA 3714",
+    "locID": "LOC100086303661",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720218598",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -32794,6 +32809,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.72653964,
+     -37.20278165
+    ]
+   },
+   "properties": {
+    "name": "33 LEW TON CIRCUIT ALEXANDRA 3714",
+    "locID": "LOC100086303674",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720226818",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.72998384,
      -37.20434138
     ]
@@ -32822,6 +32855,24 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720227039",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.72947982,
+     -37.20441923
+    ]
+   },
+   "properties": {
+    "name": "17 LEW TON CIRCUIT ALEXANDRA 3714",
+    "locID": "LOC100086303661",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720227755",
     "tech_change_status": "Not Planned"
    }
   },
@@ -32959,6 +33010,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.72427218,
+     -37.20329677
+    ]
+   },
+   "properties": {
+    "name": "29 LEW TON CIRCUIT ALEXANDRA 3714",
+    "locID": "LOC100086288770",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720231382",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.72893215,
      -37.20205804
     ]
@@ -33060,6 +33129,42 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720233491"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.72804098,
+     -37.20266229
+    ]
+   },
+   "properties": {
+    "name": "22 LEW TON CIRCUIT ALEXANDRA 3714",
+    "locID": "LOC100086289418",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720233638",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.72667661,
+     -37.20350607
+    ]
+   },
+   "properties": {
+    "name": "18 LEW TON CIRCUIT ALEXANDRA 3714",
+    "locID": "LOC100086289439",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720233716",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -34154,12 +34259,29 @@
    "properties": {
     "name": "91 COOPER STREET ALEXANDRA 3714",
     "locID": "LOC000193079485",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC721169433",
     "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.716598,
+     -37.20012926
+    ]
+   },
+   "properties": {
+    "name": "6 WATTLEVIEW COURT ALEXANDRA 3714",
+    "locID": "LOC000195146910",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721215393"
    }
   }
  ]
