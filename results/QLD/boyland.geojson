@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-06-25T00:34:29.039572",
+ "generated": "2024-07-14T08:14:49.186555",
  "suburb": "BOYLAND",
  "features": [
   {
@@ -986,10 +986,9 @@
    "properties": {
     "name": "67-77 BAMBLING ROAD BOYLAND 4275",
     "locID": "LOC000089338564",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161744250",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161744250"
    }
   },
   {
@@ -1420,10 +1419,9 @@
    "properties": {
     "name": "11-19 CHERRY TREE COURT BOYLAND 4275",
     "locID": "LOC000075527378",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161748309",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161748309"
    }
   },
   {
@@ -1624,7 +1622,9 @@
     "tech": "SATELLITE",
     "upgrade": "WIRELESS",
     "gnaf_pid": "GAQLD161753261",
-    "tech_change_status": "Eligible To Order"
+    "tech_change_status": "Eligible To Order",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -1863,7 +1863,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161762963",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -2692,10 +2694,9 @@
    "properties": {
     "name": "144 WAGONWHEEL ROAD BOYLAND 4275",
     "locID": "LOC000039363745",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161772058",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161772058"
    }
   },
   {
@@ -4857,10 +4858,9 @@
    "properties": {
     "name": "17-33 FENWICK ROAD BOYLAND 4275",
     "locID": "LOC000165621453",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD425143304",
-    "tech_change_status": "Eligible To Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425143304"
    }
   },
   {
@@ -5604,6 +5604,24 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD721064161",
     "tech_change_status": "Eligible To Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.0972998,
+     -27.94720811
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 31 FOUR MILE LANE BOYLAND 4275",
+    "locID": "LOC100086332436",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721133728",
+    "tech_change_status": "Not Planned"
    }
   },
   {
