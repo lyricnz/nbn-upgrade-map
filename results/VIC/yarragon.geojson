@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-06-28T05:30:20.268442",
+ "generated": "2024-07-17T10:26:36.998864",
  "suburb": "YARRAGON",
  "features": [
   {
@@ -406,9 +406,9 @@
     "name": "41 LOCH STREET YARRAGON 3823",
     "locID": "LOC000068586468",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC412676420",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -661,10 +661,9 @@
    "properties": {
     "name": "1 YARRAGON-SHADY CREEK ROAD YARRAGON 3823",
     "locID": "LOC000083479702",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412680519",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -722,9 +721,9 @@
     "name": "43 ROLLO STREET YARRAGON 3823",
     "locID": "LOC000045801570",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC412682109",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2786,9 +2785,9 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420070641",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -5530,9 +5529,9 @@
     "name": "63 PRINCES HIGHWAY YARRAGON 3823",
     "locID": "LOC000052495149",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421291064",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5929,9 +5928,9 @@
     "name": "22 MARKET STREET YARRAGON 3823",
     "locID": "LOC000045758620",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421580613",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11779,10 +11778,10 @@
    "properties": {
     "name": "14 DURLING CLOSE YARRAGON 3823",
     "locID": "LOC000022550493",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424354532",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13031,9 +13030,9 @@
     "name": "4 WATTLE COURT YARRAGON 3823",
     "locID": "LOC000034320732",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424508239",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14317,8 +14316,11 @@
     "name": "50 HANNS LANE YARRAGON 3823",
     "locID": "LOC000193058999",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC425018113"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC425018113",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15596,9 +15598,10 @@
     "name": "13 WILLOW BOULEVARD YARRAGON 3823",
     "locID": "LOC000195071946",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425703471",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -18462,8 +18465,11 @@
     "name": "UNIT 2, 50 HANNS LANE YARRAGON 3823",
     "locID": "LOC000193058999",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721415534"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC721415534",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18479,8 +18485,11 @@
     "name": "UNIT 3, 50 HANNS LANE YARRAGON 3823",
     "locID": "LOC000193058999",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721418256"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC721418256",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18496,8 +18505,11 @@
     "name": "UNIT 1, 50 HANNS LANE YARRAGON 3823",
     "locID": "LOC000193058952",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721420856"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC721420856",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
