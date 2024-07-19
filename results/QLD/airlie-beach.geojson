@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-06-30T08:40:07.405335",
+ "generated": "2024-07-19T16:06:55.164320",
  "suburb": "AIRLIE BEACH",
  "features": [
   {
@@ -1853,8 +1853,8 @@
    "properties": {
     "name": "2 AIRLIE CRESCENT AIRLIE BEACH 4802",
     "locID": "LOC000070218089",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD154924727",
     "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3451,9 +3451,9 @@
     "name": "10 SIMMONS STREET AIRLIE BEACH 4802",
     "locID": "LOC000103020708",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156164083",
-    "tech_change_status": "Eligible To Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5817,10 +5817,9 @@
    "properties": {
     "name": "UNIT 3, 6 BEGLEY STREET AIRLIE BEACH 4802",
     "locID": "LOC000015702513",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157408123",
-    "tech_change_status": "Eligible To Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9862,7 +9861,7 @@
     "gnaf_pid": "GAQLD157411272",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
+    "target_eligibility_quarter": "Sep 2024"
    }
   },
   {
@@ -31841,6 +31840,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     148.7222772,
+     -20.26796892
+    ]
+   },
+   "properties": {
+    "name": "15 AIRLIE ESPLANADE AIRLIE BEACH 4802",
+    "locID": "LOC000147771991",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD425862544",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      148.71914514,
      -20.27744901
     ]
@@ -31905,6 +31924,24 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425865946",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.71620327,
+     -20.27900421
+    ]
+   },
+   "properties": {
+    "name": "132 MOUNT WHITSUNDAY DRIVE AIRLIE BEACH 4802",
+    "locID": "LOC100086172438",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425865948",
     "tech_change_status": "Not Planned"
    }
   },
