@@ -185,7 +185,7 @@ function getDotType(tech, upgrade, date, status, generated) {
 
     // Eligible for immediate upgrade
     upgrade_type = upgrade.split("_")[0]
-    if (status == "Eligible To Order") {
+    if (status == "Eligible To Order" || status == "Eligible to Order") {
         return (upgrade_type == "FTTP") ? dotTypes.FTTPUpgrade : dotTypes.OtherUpgrade;
     }
 
