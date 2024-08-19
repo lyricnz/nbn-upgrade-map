@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-07-27T06:48:16.228118",
+ "generated": "2024-08-19T02:19:24.331015",
  "suburb": "OAKDALE",
  "features": [
   {
@@ -12490,6 +12490,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.49845001,
+     -34.07541904
+    ]
+   },
+   "properties": {
+    "name": "51 STEVEYS FOREST ROAD OAKDALE 2570",
+    "locID": "LOC000001574463",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717606111",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.51165396,
      -34.07601486
     ]
@@ -15832,9 +15850,11 @@
     "name": "1869A BARKERS LODGE ROAD OAKDALE 2570",
     "locID": "LOC100086158838",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721361042",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2024"
    }
   }
  ]
