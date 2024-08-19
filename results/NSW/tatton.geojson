@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-07-27T11:49:57.561944",
+ "generated": "2024-08-19T07:44:47.876651",
  "suburb": "TATTON",
  "features": [
   {
@@ -1622,10 +1622,9 @@
    "properties": {
     "name": "12 SELWYN PLACE TATTON 2650",
     "locID": "LOC000014729887",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706034810",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3023,10 +3022,10 @@
    "properties": {
     "name": "20 ATHERTON CRESCENT TATTON 2650",
     "locID": "LOC000078639574",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706045411",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -3116,7 +3115,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW706045416",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -5512,10 +5511,9 @@
    "properties": {
     "name": "63 TAMAR DRIVE TATTON 2650",
     "locID": "LOC000069056269",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW706058652",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706058652"
    }
   },
   {
@@ -14839,7 +14837,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717667500",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15530,7 +15530,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW717803333",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -15605,10 +15607,10 @@
    "properties": {
     "name": "11 CLARENCE PLACE TATTON 2650",
     "locID": "LOC000055097091",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717806592",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20296,6 +20298,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721249263"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.357099,
+     -35.16623436
+    ]
+   },
+   "properties": {
+    "name": "89 BRINDABELLA DRIVE TATTON 2650",
+    "locID": "LOC000192811087",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721494795"
    }
   }
  ]
