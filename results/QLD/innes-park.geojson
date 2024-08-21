@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-07-30T00:20:37.021011",
+ "generated": "2024-08-21T22:10:50.027826",
  "suburb": "INNES PARK",
  "features": [
   {
@@ -509,10 +509,9 @@
    "properties": {
     "name": "9 CEDAR STREET INNES PARK 4670",
     "locID": "LOC000012468914",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155409372",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155409372"
    }
   },
   {
@@ -11012,9 +11011,9 @@
     "name": "1 AMRONEL CLOSE INNES PARK 4670",
     "locID": "LOC000108313808",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156694660",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -21622,6 +21621,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.4799903,
+     -24.87104963
+    ]
+   },
+   "properties": {
+    "name": "1 SEAHORSE COURT INNES PARK 4670",
+    "locID": "LOC000020107198",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD719557629",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.4757185,
      -24.87044865
     ]
@@ -26318,6 +26337,24 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721435857"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.47921044,
+     -24.85444223
+    ]
+   },
+   "properties": {
+    "name": "394 WOONGARRA SCENIC DRIVE INNES PARK 4670",
+    "locID": "LOC100086917470",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721509088",
+    "tech_change_status": "Not Planned"
    }
   }
  ]
