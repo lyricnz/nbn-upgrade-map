@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-07-30T16:44:11.807140",
+ "generated": "2024-08-22T14:52:04.662208",
  "suburb": "OFFICER",
  "features": [
   {
@@ -382,6 +382,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.40548589,
+     -38.05907648
+    ]
+   },
+   "properties": {
+    "name": "389-391 PRINCES HIGHWAY OFFICER 3809",
+    "locID": "LOC000195316702",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC419578519"
    }
   },
   {
@@ -4314,7 +4331,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421368640",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6399,10 +6416,9 @@
    "properties": {
     "name": "7 ALICE COURT OFFICER 3809",
     "locID": "LOC000039466054",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424092847",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8213,10 +8229,10 @@
    "properties": {
     "name": "17 HUNTINGDALE STREET OFFICER 3809",
     "locID": "LOC000002083436",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424095438",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8449,10 +8465,9 @@
    "properties": {
     "name": "19 KOOYONG CLOSE OFFICER 3809",
     "locID": "LOC000055151747",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424095854",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9336,10 +9351,9 @@
    "properties": {
     "name": "3 MANNA ROW OFFICER 3809",
     "locID": "LOC000065565108",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424472214",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17281,10 +17295,10 @@
    "properties": {
     "name": "14 FLEMINGTON RISE OFFICER 3809",
     "locID": "LOC000115117557",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424715832",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -115944,9 +115958,10 @@
    "properties": {
     "name": "24 MESSMATE STREET OFFICER 3809",
     "locID": "LOC000195201773",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720824569"
+    "gnaf_pid": "GAVIC720824569",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -117392,6 +117407,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720833679"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.40010437,
+     -38.06852192
+    ]
+   },
+   "properties": {
+    "name": "2 BOOTLACE ROAD OFFICER 3809",
+    "locID": "LOC000195344719",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720833758"
    }
   },
   {
@@ -122203,6 +122235,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.39980383,
+     -38.06876435
+    ]
+   },
+   "properties": {
+    "name": "3 BOOTLACE ROAD OFFICER 3809",
+    "locID": "LOC000195344719",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721022741"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39821451,
+     -38.06818836
+    ]
+   },
+   "properties": {
+    "name": "26 BOOTLACE ROAD OFFICER 3809",
+    "locID": "LOC000195344719",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721022911"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.40406147,
      -38.04864777
     ]
@@ -122318,6 +122384,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721027767"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39965865,
+     -38.06873873
+    ]
+   },
+   "properties": {
+    "name": "5 BOOTLACE ROAD OFFICER 3809",
+    "locID": "LOC000195344719",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721028163"
    }
   },
   {
@@ -125365,6 +125448,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.42660229,
+     -38.08277249
+    ]
+   },
+   "properties": {
+    "name": "3 BLOSSOM STREET OFFICER 3809",
+    "locID": "LOC100087006891",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721165507",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.41537595,
      -38.0677075
     ]
@@ -125463,6 +125564,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "Dec 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.42579453,
+     -38.0824811
+    ]
+   },
+   "properties": {
+    "name": "16 BLOSSOM STREET OFFICER 3809",
+    "locID": "LOC100087006891",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721168739",
+    "tech_change_status": "Not Planned"
    }
   },
   {
