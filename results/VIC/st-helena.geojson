@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-07-31T22:10:09.914465",
+ "generated": "2024-08-23T22:20:58.545408",
  "suburb": "ST HELENA",
  "features": [
   {
@@ -1282,7 +1282,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424531136",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -3990,10 +3992,9 @@
    "properties": {
     "name": "21 ERINNE COURT ST HELENA 3088",
     "locID": "LOC000109653310",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424536292",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5936,10 +5937,9 @@
    "properties": {
     "name": "24 HALSBURY COURT ST HELENA 3088",
     "locID": "LOC000088900037",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424538271",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20064,6 +20064,108 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721377632"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11930898,
+     -37.68971104
+    ]
+   },
+   "properties": {
+    "name": "91 LACEBARK DRIVE ST HELENA 3088",
+    "locID": "LOC000195296356",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721418599"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11971881,
+     -37.68975628
+    ]
+   },
+   "properties": {
+    "name": "87 LACEBARK DRIVE ST HELENA 3088",
+    "locID": "LOC000195296339",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721419342"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11874831,
+     -37.68992659
+    ]
+   },
+   "properties": {
+    "name": "85 LACEBARK DRIVE ST HELENA 3088",
+    "locID": "LOC000195296325",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721421223"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11887498,
+     -37.68994057
+    ]
+   },
+   "properties": {
+    "name": "83 LACEBARK DRIVE ST HELENA 3088",
+    "locID": "LOC000195296318",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721421345"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11952276,
+     -37.68973464
+    ]
+   },
+   "properties": {
+    "name": "89 LACEBARK DRIVE ST HELENA 3088",
+    "locID": "LOC000195296341",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721422838"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.11915523,
+     -37.68961194
+    ]
+   },
+   "properties": {
+    "name": "93 LACEBARK DRIVE ST HELENA 3088",
+    "locID": "LOC000195296360",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721422975"
    }
   }
  ]
