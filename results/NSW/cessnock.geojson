@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-03T02:12:56.458206",
+ "generated": "2024-08-25T17:21:03.507849",
  "suburb": "CESSNOCK",
  "features": [
   {
@@ -19899,7 +19899,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704370941",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -20200,7 +20200,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704370957",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -103386,10 +103386,10 @@
    "properties": {
     "name": "SHOP 9, 1 NORTH AVENUE CESSNOCK 2325",
     "locID": "LOC000108297845",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712020959",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -108322,6 +108322,24 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.3385813,
+     -32.84484075
+    ]
+   },
+   "properties": {
+    "name": "47 CLARE STREET CESSNOCK 2325",
+    "locID": "LOC000195305185",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW715796864",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -117034,6 +117052,26 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Jun 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.34540987,
+     -32.85579997
+    ]
+   },
+   "properties": {
+    "name": "14 RACECOURSE ROAD CESSNOCK 2325",
+    "locID": "LOC000171107573",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717223131",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -135419,23 +135457,6 @@
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Jun 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.33816384,
-     -32.8305891
-    ]
-   },
-   "properties": {
-    "name": "UNIT L17, 137 MOUNT VIEW ROAD CESSNOCK 2325",
-    "locID": "LOC000149899748",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718515483"
    }
   },
   {
@@ -161027,6 +161048,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.33106944,
+     -32.82378964
+    ]
+   },
+   "properties": {
+    "name": "77 O'SHEA CIRCUIT CESSNOCK 2325",
+    "locID": "LOC000186947593",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721491780"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.33072924,
      -32.83207583
     ]
@@ -161105,6 +161143,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721492068"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.33104477,
+     -32.82476878
+    ]
+   },
+   "properties": {
+    "name": "74 O'SHEA CIRCUIT CESSNOCK 2325",
+    "locID": "LOC000186947490",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721492107"
    }
   },
   {
@@ -161368,6 +161423,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.33132592,
+     -32.82382221
+    ]
+   },
+   "properties": {
+    "name": "79 O'SHEA CIRCUIT CESSNOCK 2325",
+    "locID": "LOC000186947586",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721494015"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.33067861,
      -32.83256097
     ]
@@ -161446,6 +161518,40 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721494313"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.33104981,
+     -32.8246079
+    ]
+   },
+   "properties": {
+    "name": "72 O'SHEA CIRCUIT CESSNOCK 2325",
+    "locID": "LOC000192127683",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721494344"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.3310403,
+     -32.82508385
+    ]
+   },
+   "properties": {
+    "name": "78A O'SHEA CIRCUIT CESSNOCK 2325",
+    "locID": "LOC000186947517",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721494495"
    }
   },
   {
@@ -161793,6 +161899,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.33106291,
+     -32.82444635
+    ]
+   },
+   "properties": {
+    "name": "70 O'SHEA CIRCUIT CESSNOCK 2325",
+    "locID": "LOC000186947488",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721496355"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.3269353,
      -32.83277546
     ]
@@ -161820,6 +161943,26 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721496583"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.35634858,
+     -32.8487177
+    ]
+   },
+   "properties": {
+    "name": "276 VINCENT STREET CESSNOCK 2325",
+    "locID": "LOC000169360182",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721496805",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -162024,6 +162167,40 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721498485"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.33104457,
+     -32.82492821
+    ]
+   },
+   "properties": {
+    "name": "76 O'SHEA CIRCUIT CESSNOCK 2325",
+    "locID": "LOC000186947501",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721498590"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.33097973,
+     -32.82421468
+    ]
+   },
+   "properties": {
+    "name": "66 O'SHEA CIRCUIT CESSNOCK 2325",
+    "locID": "LOC000186947461",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721498864"
    }
   },
   {
@@ -162252,6 +162429,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.33121996,
+     -32.82425041
+    ]
+   },
+   "properties": {
+    "name": "68 O'SHEA CIRCUIT CESSNOCK 2325",
+    "locID": "LOC000186947474",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721500420"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.33061084,
      -32.83320768
     ]
@@ -162418,6 +162612,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721501612"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.33102507,
+     -32.82523885
+    ]
+   },
+   "properties": {
+    "name": "78 O'SHEA CIRCUIT CESSNOCK 2325",
+    "locID": "LOC000186947529",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721501855"
    }
   },
   {
