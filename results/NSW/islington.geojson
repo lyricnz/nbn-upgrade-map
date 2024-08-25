@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-02T09:52:30.526772",
+ "generated": "2024-08-25T02:05:14.975036",
  "suburb": "ISLINGTON",
  "features": [
   {
@@ -6182,8 +6182,8 @@
    "properties": {
     "name": "82 CHINCHEN STREET ISLINGTON 2296",
     "locID": "LOC000002246110",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705019093",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7920,7 +7920,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705020562",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26045,6 +26045,26 @@
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Dec 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.75204487,
+     -32.91625452
+    ]
+   },
+   "properties": {
+    "name": "97 ROBERT STREET ISLINGTON 2296",
+    "locID": "LOC000183301608",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW720342567",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
