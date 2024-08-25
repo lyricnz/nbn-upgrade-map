@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-02T17:43:29.923887",
+ "generated": "2024-08-25T10:20:46.848371",
  "suburb": "SHELL COVE",
  "features": [
   {
@@ -9410,7 +9410,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712422309",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9544,10 +9544,10 @@
    "properties": {
     "name": "11 JAMES COOK PARKWAY SHELL COVE 2529",
     "locID": "LOC000047927279",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712422318",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9622,10 +9622,10 @@
    "properties": {
     "name": "18 JAMES COOK PARKWAY SHELL COVE 2529",
     "locID": "LOC000042186896",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712422325",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12690,10 +12690,10 @@
    "properties": {
     "name": "7 BAUDIN AVENUE SHELL COVE 2529",
     "locID": "LOC000084515470",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712458682",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42751,7 +42751,7 @@
    "properties": {
     "name": "2 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136987",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720025471"
    }
@@ -47732,7 +47732,7 @@
    "properties": {
     "name": "1 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136987",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720272585"
    }
@@ -48616,7 +48616,7 @@
    "properties": {
     "name": "15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136973",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720383365"
    }
@@ -49238,6 +49238,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.86519411,
+     -34.58579388
+    ]
+   },
+   "properties": {
+    "name": "17 CORMORANT WAY SHELL COVE 2529",
+    "locID": "LOC000192137324",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720401351"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137376",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720401521"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.8674357,
      -34.58413918
     ]
@@ -49765,6 +49799,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.86271148,
+     -34.58333984
+    ]
+   },
+   "properties": {
+    "name": "31B HARBOUR BOULEVARD SHELL COVE 2529",
+    "locID": "LOC000179806150",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720553812"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86263452,
+     -34.58314285
+    ]
+   },
+   "properties": {
+    "name": "31A HARBOUR BOULEVARD SHELL COVE 2529",
+    "locID": "LOC000179806145",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720553991"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.86244283,
      -34.58270321
     ]
@@ -49901,6 +49969,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.86252756,
+     -34.5828915
+    ]
+   },
+   "properties": {
+    "name": "25A HARBOUR BOULEVARD SHELL COVE 2529",
+    "locID": "LOC000179806099",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720555492"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.84545056,
      -34.60122914
     ]
@@ -49952,6 +50037,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 204, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137143",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720707940"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.86545039,
      -34.58572834
     ]
@@ -49959,7 +50061,7 @@
    "properties": {
     "name": "UNIT 5, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136987",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720707941"
    }
@@ -49976,9 +50078,128 @@
    "properties": {
     "name": "UNIT 3, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136987",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720707942"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 301, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137353",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720707948"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137459",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720708429"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 107, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137002",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720708430"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 203, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137136",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720708431"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 302, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137278",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720708432"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 303, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137284",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720708433"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 207, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137348",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720708434"
    }
   },
   {
@@ -49993,9 +50214,43 @@
    "properties": {
     "name": "UNIT 103, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136973",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720708437"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 201, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137115",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720708439"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 304, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137297",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720708440"
    }
   },
   {
@@ -50010,7 +50265,7 @@
    "properties": {
     "name": "UNIT 204, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136973",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720708442"
    }
@@ -50027,7 +50282,7 @@
    "properties": {
     "name": "UNIT 201, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136987",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720708443"
    }
@@ -50044,9 +50299,26 @@
    "properties": {
     "name": "UNIT 4, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136973",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720708444"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 102, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137459",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720708965"
    }
   },
   {
@@ -50061,9 +50333,26 @@
    "properties": {
     "name": "UNIT 102, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136973",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720708966"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137311",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720709433"
    }
   },
   {
@@ -50078,9 +50367,26 @@
    "properties": {
     "name": "UNIT 104, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136987",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720709434"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 104, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137471",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720709435"
    }
   },
   {
@@ -50095,7 +50401,7 @@
    "properties": {
     "name": "UNIT 203, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136987",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720709436"
    }
@@ -50112,9 +50418,26 @@
    "properties": {
     "name": "UNIT 205, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136987",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720709437"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 205, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137158",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720709440"
    }
   },
   {
@@ -50129,7 +50452,7 @@
    "properties": {
     "name": "UNIT 207, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136987",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720709441"
    }
@@ -50146,7 +50469,7 @@
    "properties": {
     "name": "UNIT 101, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136973",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720709935"
    }
@@ -50163,9 +50486,26 @@
    "properties": {
     "name": "UNIT 107, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136987",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720709936"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 206, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137330",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720709937"
    }
   },
   {
@@ -50180,9 +50520,26 @@
    "properties": {
     "name": "UNIT 105, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136973",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720709938"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 305, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137369",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720710422"
    }
   },
   {
@@ -50197,7 +50554,7 @@
    "properties": {
     "name": "UNIT 202, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136973",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720710425"
    }
@@ -50214,7 +50571,7 @@
    "properties": {
     "name": "UNIT 106, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136987",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720710426"
    }
@@ -50231,9 +50588,43 @@
    "properties": {
     "name": "UNIT 1, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192137492",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720710427"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 202, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137127",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720710428"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86519411,
+     -34.58579388
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 17 CORMORANT WAY SHELL COVE 2529",
+    "locID": "LOC000192137590",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720710950"
    }
   },
   {
@@ -50248,9 +50639,94 @@
    "properties": {
     "name": "UNIT 206, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136987",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720710954"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86519411,
+     -34.58579388
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 17 CORMORANT WAY SHELL COVE 2529",
+    "locID": "LOC000192137542",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720710955"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 101, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137444",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720710956"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 103, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137463",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720710957"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 306, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137307",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720710958"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 307, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137311",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720710959"
    }
   },
   {
@@ -50265,9 +50741,60 @@
    "properties": {
     "name": "UNIT 2, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192137492",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720711474"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 105, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137485",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720711475"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 106, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137492",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720711476"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86597096,
+     -34.58548513
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 11 LAPWING AVENUE SHELL COVE 2529",
+    "locID": "LOC000192137115",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720711477"
    }
   },
   {
@@ -51761,7 +52288,7 @@
    "properties": {
     "name": "UNIT G4, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136973",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721004969"
    }
@@ -51798,6 +52325,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721005105"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.86519411,
+     -34.58579388
+    ]
+   },
+   "properties": {
+    "name": "UNIT G1, 17 CORMORANT WAY SHELL COVE 2529",
+    "locID": "LOC000192137519",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721005113"
    }
   },
   {
@@ -51965,7 +52509,7 @@
    "properties": {
     "name": "UNIT G5, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136973",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721005296"
    }
@@ -52050,7 +52594,7 @@
    "properties": {
     "name": "UNIT G1, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136973",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721005517"
    }
@@ -52526,7 +53070,7 @@
    "properties": {
     "name": "UNIT G2, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136987",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721006517"
    }
@@ -52543,7 +53087,7 @@
    "properties": {
     "name": "UNIT G3, 15 CORMORANT WAY SHELL COVE 2529",
     "locID": "LOC000192136987",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721006520"
    }
