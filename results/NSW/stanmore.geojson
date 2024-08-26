@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-04T11:14:13.863718",
+ "generated": "2024-08-26T16:35:26.990686",
  "suburb": "STANMORE",
  "features": [
   {
@@ -17286,10 +17286,10 @@
    "properties": {
     "name": "5 MERTON STREET STANMORE 2048",
     "locID": "LOC000005993724",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705992648",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19501,7 +19501,7 @@
    "properties": {
     "name": "112-116 PARRAMATTA ROAD STANMORE 2048",
     "locID": "LOC000192673802",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705996474"
    }
@@ -69384,6 +69384,23 @@
     "gnaf_pid": "GANSW718419937",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.16877373,
+     -33.88812596
+    ]
+   },
+   "properties": {
+    "name": "112-114 PARRAMATTA ROAD STANMORE 2048",
+    "locID": "LOC000192673792",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718419938"
    }
   },
   {
