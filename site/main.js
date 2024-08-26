@@ -1,7 +1,7 @@
 // Load service worker if supported
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
-        navigator.serviceWorker.register('https://lukeprior.github.io/nbn-upgrade-map/serviceworker.js');
+        navigator.serviceWorker.register('/serviceworker.js');
     });
 }
 
