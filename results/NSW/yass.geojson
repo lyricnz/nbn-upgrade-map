@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-04T13:45:27.893064",
+ "generated": "2024-08-26T18:28:08.485964",
  "suburb": "YASS",
  "features": [
   {
@@ -611,9 +611,10 @@
    "properties": {
     "name": "23 CLIFF STREET YASS 2582",
     "locID": "LOC000101662324",
-    "tech": "NULL",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706349211"
+    "gnaf_pid": "GANSW706349211",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -14347,9 +14348,12 @@
    "properties": {
     "name": "269 COMUR STREET YASS 2582",
     "locID": "LOC000035475906",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706373711"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW706373711",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -17272,9 +17276,12 @@
    "properties": {
     "name": "3 HOPE STREET YASS 2582",
     "locID": "LOC000015458088",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706379959"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW706379959",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -20539,8 +20546,8 @@
    "properties": {
     "name": "37 MACDONALD STREET YASS 2582",
     "locID": "LOC000087376543",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706383724",
     "tech_change_status": "Eligible to Order"
    }
@@ -23258,9 +23265,12 @@
    "properties": {
     "name": "33-35 MOUNT STREET YASS 2582",
     "locID": "LOC000114691743",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706387001"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW706387001",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -34145,6 +34155,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     148.9041389,
+     -34.84562612
+    ]
+   },
+   "properties": {
+    "name": "15 LINKS ROAD YASS 2582",
+    "locID": "LOC000024453459",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW712660230",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      148.91022586,
      -34.83264039
     ]
@@ -34370,9 +34398,12 @@
    "properties": {
     "name": "1 PLUNKETT STREET YASS 2582",
     "locID": "LOC000004665271",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW712660750"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW712660750",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -41918,9 +41949,12 @@
    "properties": {
     "name": "2 MITCHELL STREET YASS 2582",
     "locID": "LOC000108217931",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW715557814"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW715557814",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -42095,9 +42129,12 @@
    "properties": {
     "name": "33 MOUNT STREET YASS 2582",
     "locID": "LOC000114691743",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW715558415"
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW715558415",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   },
   {
@@ -63462,6 +63499,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     148.94161941,
+     -34.81532834
+    ]
+   },
+   "properties": {
+    "name": "212 COOLALIE ROAD YASS 2582",
+    "locID": "LOC100079770894",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718654619",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      148.91389628,
      -34.87191216
     ]
@@ -69113,6 +69170,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     148.90425959,
+     -34.82979004
+    ]
+   },
+   "properties": {
+    "name": "37 YARRAH DRIVE YASS 2582",
+    "locID": "LOC000188151918",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721353532"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      148.9056598,
      -34.83198445
     ]
@@ -69147,6 +69221,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     148.90400957,
+     -34.83038913
+    ]
+   },
+   "properties": {
+    "name": "29 YARRAH DRIVE YASS 2582",
+    "locID": "LOC000188151871",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721353700"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90502402,
+     -34.83030101
+    ]
+   },
+   "properties": {
+    "name": "13 WOODS STREET YASS 2582",
+    "locID": "LOC000188151703",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721353975"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      148.90489421,
      -34.83126516
     ]
@@ -69157,6 +69265,74 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721354049"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90541337,
+     -34.83140367
+    ]
+   },
+   "properties": {
+    "name": "1 MEAGHER STREET YASS 2582",
+    "locID": "LOC000188151579",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721354477"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90474179,
+     -34.83121999
+    ]
+   },
+   "properties": {
+    "name": "15 YARRAH DRIVE YASS 2582",
+    "locID": "LOC000188151630",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721354582"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90418866,
+     -34.82996
+    ]
+   },
+   "properties": {
+    "name": "35 YARRAH DRIVE YASS 2582",
+    "locID": "LOC000188151902",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721354656"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90428128,
+     -34.83062723
+    ]
+   },
+   "properties": {
+    "name": "6 WOODS STREET YASS 2582",
+    "locID": "LOC000188151800",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721354965"
    }
   },
   {
@@ -69181,6 +69357,74 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     148.90490034,
+     -34.8305938
+    ]
+   },
+   "properties": {
+    "name": "9 WOODS STREET YASS 2582",
+    "locID": "LOC000188151682",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721355941"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90495932,
+     -34.83045368
+    ]
+   },
+   "properties": {
+    "name": "11 WOODS STREET YASS 2582",
+    "locID": "LOC000188151695",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721356035"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.9056309,
+     -34.83146973
+    ]
+   },
+   "properties": {
+    "name": "7 YARRAH DRIVE YASS 2582",
+    "locID": "LOC000188151522",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721356139"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.9051774,
+     -34.83081914
+    ]
+   },
+   "properties": {
+    "name": "8 MEAGHER STREET YASS 2582",
+    "locID": "LOC000188151580",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721356479"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      148.90412128,
      -34.83012145
     ]
@@ -69191,6 +69435,125 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721357147"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90512421,
+     -34.83094661
+    ]
+   },
+   "properties": {
+    "name": "6 MEAGHER STREET YASS 2582",
+    "locID": "LOC000188151598",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721357683"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90395106,
+     -34.83052934
+    ]
+   },
+   "properties": {
+    "name": "27 YARRAH DRIVE YASS 2582",
+    "locID": "LOC000188151863",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721357685"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90401573,
+     -34.83097673
+    ]
+   },
+   "properties": {
+    "name": "21 YARRAH DRIVE YASS 2582",
+    "locID": "LOC000188151837",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721357703"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90465718,
+     -34.82972648
+    ]
+   },
+   "properties": {
+    "name": "18 WOODS STREET YASS 2582",
+    "locID": "LOC000188151742",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721357731"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90451888,
+     -34.83005789
+    ]
+   },
+   "properties": {
+    "name": "14 WOODS STREET YASS 2582",
+    "locID": "LOC000188151761",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721357732"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90439298,
+     -34.83035956
+    ]
+   },
+   "properties": {
+    "name": "10 WOODS STREET YASS 2582",
+    "locID": "LOC000188151788",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721357811"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.9051534,
+     -34.82999569
+    ]
+   },
+   "properties": {
+    "name": "17 WOODS STREET YASS 2582",
+    "locID": "LOC000188151726",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721358598"
    }
   },
   {
@@ -69215,6 +69578,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     148.90574917,
+     -34.83279938
+    ]
+   },
+   "properties": {
+    "name": "11 GORRELL PLACE YASS 2582",
+    "locID": "LOC000188151340",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721358804"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.9052181,
+     -34.82984303
+    ]
+   },
+   "properties": {
+    "name": "19 WOODS STREET YASS 2582",
+    "locID": "LOC000188151735",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721359122"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      148.90603928,
      -34.8321044
     ]
@@ -69232,6 +69629,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     148.90381687,
+     -34.83088444
+    ]
+   },
+   "properties": {
+    "name": "23 YARRAH DRIVE YASS 2582",
+    "locID": "LOC000188151844",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721359957"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90545571,
+     -34.83192236
+    ]
+   },
+   "properties": {
+    "name": "8 YARRAH DRIVE YASS 2582",
+    "locID": "LOC000188151408",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721360019"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      148.90547248,
      -34.83230174
     ]
@@ -69242,6 +69673,74 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721360021"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90458981,
+     -34.82988794
+    ]
+   },
+   "properties": {
+    "name": "16 WOODS STREET YASS 2582",
+    "locID": "LOC000188151757",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721360024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90484718,
+     -34.83072126
+    ]
+   },
+   "properties": {
+    "name": "7 WOODS STREET YASS 2582",
+    "locID": "LOC000188151676",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721360190"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90563654,
+     -34.83262515
+    ]
+   },
+   "properties": {
+    "name": "9 GORRELL PLACE YASS 2582",
+    "locID": "LOC000188151355",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721360335"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.9043398,
+     -34.83048702
+    ]
+   },
+   "properties": {
+    "name": "8 WOODS STREET YASS 2582",
+    "locID": "LOC000188151790",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721360868"
    }
   },
   {
@@ -69283,6 +69782,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     148.90561783,
+     -34.83102228
+    ]
+   },
+   "properties": {
+    "name": "5 MEAGHER STREET YASS 2582",
+    "locID": "LOC000188151551",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721361838"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      148.90625443,
      -34.83214501
     ]
@@ -69293,6 +69809,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721362092"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90432698,
+     -34.82962859
+    ]
+   },
+   "properties": {
+    "name": "39 YARRAH DRIVE YASS 2582",
+    "locID": "LOC000188151925",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721362207"
    }
   },
   {
@@ -69334,6 +69867,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     148.90457094,
+     -34.83116748
+    ]
+   },
+   "properties": {
+    "name": "1 WOODS STREET YASS 2582",
+    "locID": "LOC000188151648",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721362898"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      148.90506569,
      -34.83108682
     ]
@@ -69344,6 +69894,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721362900"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90523058,
+     -34.83069171
+    ]
+   },
+   "properties": {
+    "name": "10 MEAGHER STREET YASS 2582",
+    "locID": "LOC000188151579",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721363032"
    }
   },
   {
@@ -69368,6 +69935,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     148.90445151,
+     -34.83021935
+    ]
+   },
+   "properties": {
+    "name": "12 WOODS STREET YASS 2582",
+    "locID": "LOC000188151774",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721363083"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.90508871,
+     -34.83014835
+    ]
+   },
+   "properties": {
+    "name": "15 WOODS STREET YASS 2582",
+    "locID": "LOC000188151719",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721363467"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      148.90556713,
      -34.83245401
     ]
@@ -69385,6 +69986,108 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     148.92257266,
+     -34.84878502
+    ]
+   },
+   "properties": {
+    "name": "8 COEN STREET YASS 2582",
+    "locID": "LOC000190565296",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721437953"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.92267818,
+     -34.84823164
+    ]
+   },
+   "properties": {
+    "name": "14 COEN STREET YASS 2582",
+    "locID": "LOC000190565323",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721438958"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.92192114,
+     -34.84806201
+    ]
+   },
+   "properties": {
+    "name": "11 COEN STREET YASS 2582",
+    "locID": "LOC000190565368",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721439059"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.9221994,
+     -34.8478956
+    ]
+   },
+   "properties": {
+    "name": "13 COEN STREET YASS 2582",
+    "locID": "LOC000190565352",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721439347"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.92253819,
+     -34.84842349
+    ]
+   },
+   "properties": {
+    "name": "12 COEN STREET YASS 2582",
+    "locID": "LOC000190565310",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721443888"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.92219098,
+     -34.84840982
+    ]
+   },
+   "properties": {
+    "name": "10 COEN STREET YASS 2582",
+    "locID": "LOC000190565306",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721444337"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      148.92270806,
      -34.8479214
     ]
@@ -69395,6 +70098,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721445208"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.92217717,
+     -34.84866469
+    ]
+   },
+   "properties": {
+    "name": "6 COEN STREET YASS 2582",
+    "locID": "LOC000190565283",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721445498"
    }
   },
   {
