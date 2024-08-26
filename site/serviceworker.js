@@ -42,7 +42,7 @@ self.addEventListener("fetch", async (event) => {
                 });
             });
         }));
-    } else if (event.request.url.includes('/static/') || event.request.headers.get('accept').includes('text/css') || event.request.url.endsWith('.js') || /^https:\/\/raw\.githubusercontent.com\/LukePrior\/nbn-upgrade-map\/[^|/]{40,}\/results\/.*\.geojson/.test(event.request.url)) {
+    } else if (event.request.url.includes('/static/') || event.request.headers.get('accept').includes('text/css') || event.request.url.endsWith('.js') || /^https:\/\/nbn\.lukeprior.com\/[^|/]{40,}\/results\/.*\.geojson/.test(event.request.url)) {
         event.respondWith(caches.open(`${cacheName}-persistent`).then((cache) => {
             return cache.match(event.request).then((cachedResponse) => {
                 const fetchedResponse = fetch(event.request).then((networkResponse) => {
