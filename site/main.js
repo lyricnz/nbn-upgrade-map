@@ -74,7 +74,7 @@ const cacheKey = 'suburb-cache';
 const flatVal = localStorage.getItem(cacheKey) ?? '';
 const [query, strVal, dateStr] = flatVal.split('|');
 if (!query || !strVal || !dateStr) {
-    fetch("https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/combined-suburbs.json").then(res => res.json()).then(data => {
+    fetch("https://cdn.jsdelivr.net/gh/LukePrior/nbn-upgrade-map@latest/results/combined-suburbs.json").then(res => res.json()).then(data => {
         const cacheVal = `${cacheKey}|${JSON.stringify(data)}|${(new Date()).toISOString()}`;
         localStorage.setItem(cacheKey, cacheVal);
     });
@@ -87,7 +87,7 @@ $(document).ready(function() {
         allowClear: true,
         minimumInputLength: 3,
         ajax: {
-            url: "https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/main/results/combined-suburbs.json",
+            url: "https://cdn.jsdelivr.net/gh/LukePrior/nbn-upgrade-map@latest/results/combined-suburbs.json",
             dataType: 'json',
             delay: 10,
             transport: function(params, success, failure) {
