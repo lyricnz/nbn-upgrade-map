@@ -32,6 +32,7 @@ if (urlParams.has("suburb") && urlParams.has("state")) {
 }
 if (urlParams.has("commit")) {
     default_commit = urlParams.get("commit");
+    default_commit = default_commit == "main" ? "latest" : default_commit;
 }
 
 if (window.matchMedia('(display-mode: standalone)').matches) {
