@@ -24,7 +24,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r
 var urlParams = new URLSearchParams(window.location.search);
 var default_suburb = null;
 var default_state = null;
-var default_commit = "main";
+var default_commit = "latest";
 var combined_info = null;
 if (urlParams.has("suburb") && urlParams.has("state")) {
     default_suburb = urlParams.get("suburb");
@@ -32,6 +32,7 @@ if (urlParams.has("suburb") && urlParams.has("state")) {
 }
 if (urlParams.has("commit")) {
     default_commit = urlParams.get("commit");
+    default_commit = default_commit == "main" ? "latest" : default_commit;
 }
 
 if (window.matchMedia('(display-mode: standalone)').matches) {
@@ -244,7 +245,7 @@ function loadSuburb(state_file, commit, first_load=false) {
     if (state_file == "") {
         return;
     }
-    url = "https://raw.githubusercontent.com/LukePrior/nbn-upgrade-map/" + commit + "/results/" + state_file + ".geojson"
+    url = "https://cdn.jsdelivr.net/gh/LukePrior/nbn-upgrade-map@" + commit + "/results/" + state_file + ".geojson"
     default_state = state_file.split('/')[0]
     default_suburb = state_file.split('/')[1]
     default_commit = commit
