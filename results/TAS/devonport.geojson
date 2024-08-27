@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-05T19:42:17.486593",
+ "generated": "2024-08-27T16:16:30.364298",
  "suburb": "DEVONPORT",
  "features": [
   {
@@ -4052,7 +4052,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702191675",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5463,8 +5463,8 @@
    "properties": {
     "name": "93 BEST STREET DEVONPORT 7310",
     "locID": "LOC000075582240",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702201224",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -59493,10 +59493,10 @@
    "properties": {
     "name": "34 NICHOLLS STREET DEVONPORT 7310",
     "locID": "LOC000009279944",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702297296",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -87186,7 +87186,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GATAS702329693",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -87203,10 +87203,9 @@
    "properties": {
     "name": "5 RENISON COURT DEVONPORT 7310",
     "locID": "LOC000037982971",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702329694",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -92181,9 +92180,9 @@
     "name": "6-10 STEELE STREET DEVONPORT 7310",
     "locID": "LOC000046798982",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GATAS702337148",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -109698,10 +109697,9 @@
    "properties": {
     "name": "38 TURTON STREET DEVONPORT 7310",
     "locID": "LOC000082901006",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702358587",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -144823,6 +144821,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.32846839,
+     -41.18117434
+    ]
+   },
+   "properties": {
+    "name": "6 TOMARAH CRESCENT DEVONPORT 7310",
+    "locID": "LOC000195302834",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GATAS716846814"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.32812,
      -41.18112475
     ]
@@ -160128,9 +160143,11 @@
     "name": "UNIT 2, 85 BEST STREET DEVONPORT 7310",
     "locID": "LOC000181575054",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GATAS718876464",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
