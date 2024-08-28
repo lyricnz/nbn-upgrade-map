@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-06T20:40:03.767602",
+ "generated": "2024-08-28T08:59:24.230009",
  "suburb": "GILSTON",
  "features": [
   {
@@ -7071,10 +7071,9 @@
    "properties": {
     "name": "14 SILVEREYE CIRCUIT GILSTON 4211",
     "locID": "LOC000010755910",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162522177",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7328,10 +7327,10 @@
    "properties": {
     "name": "28 SILVEREYE CIRCUIT GILSTON 4211",
     "locID": "LOC000016684175",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162522190",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12327,10 +12326,10 @@
    "properties": {
     "name": "19 MOONDANI DRIVE GILSTON 4211",
     "locID": "LOC000151811742",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425183959",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12428,9 +12427,9 @@
     "name": "22 MOONDANI DRIVE GILSTON 4211",
     "locID": "LOC000151811109",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425211784",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13271,6 +13270,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     153.30478682,
+     -28.02959967
+    ]
+   },
+   "properties": {
+    "name": "560 GILSTON ROAD GILSTON 4211",
+    "locID": "LOC100037559517",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD425250704",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.31402743,
      -28.01343404
     ]
@@ -14021,7 +14038,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD425405789",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
