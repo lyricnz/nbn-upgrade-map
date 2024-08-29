@@ -184,8 +184,13 @@ function getDotType(tech, upgrade, date, status, generated) {
         return dotTypes.FTTP;
     }
 
-    // Eligible for immediate upgrade
+    // Upgraded to FTTP but previous tech not yet disconnected
     upgrade_type = upgrade.split("_")[0]
+    if (status == "New Tech Connected" && upgrade_type == "FTTP") {
+        return dotTypes.FTTP;
+    }
+
+    // Eligible for immediate upgrade
     if (status == "Eligible To Order" || status == "Eligible to Order") {
         return (upgrade_type == "FTTP") ? dotTypes.FTTPUpgrade : dotTypes.OtherUpgrade;
     }
