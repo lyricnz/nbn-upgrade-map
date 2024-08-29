@@ -426,6 +426,10 @@ function loadSuburb(state_file, commit, first_load=false) {
                 if (commit_date_js >= new Date(2023, 9, 22) && commit_date_js <= new Date(2023, 10, 4)) {
                     continue;
                 }
+                // Commits where files were deleted or otherwise corrupted
+                if (["7473d03"].includes(commit.sha)) {
+                    continue;
+                }
                 selected_text = (commit.sha == default_commit) ? "selected" : ""
                 dropdownHTML += '<option value=' + commit.sha + ' ' + selected_text + '>' + new Date(commit_date).toLocaleDateString("en-AU") + '</option>';
             }
