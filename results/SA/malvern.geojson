@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-08T16:48:53.148241",
+ "generated": "2024-08-30T07:22:52.031447",
  "suburb": "MALVERN",
  "features": [
   {
@@ -730,10 +730,10 @@
    "properties": {
     "name": "188 WATTLE STREET MALVERN 5061",
     "locID": "LOC000006771654",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414926117",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1432,7 +1432,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_414933432",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2912,10 +2912,9 @@
    "properties": {
     "name": "72 CHELTENHAM STREET MALVERN 5061",
     "locID": "LOC000095204694",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414943055",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3787,10 +3786,9 @@
    "properties": {
     "name": "27 MARLBOROUGH STREET MALVERN 5061",
     "locID": "LOC000060225513",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414944336",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7770,7 +7768,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_415042608",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12650,10 +12648,9 @@
    "properties": {
     "name": "162 FISHER STREET MALVERN 5061",
     "locID": "LOC000035166290",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415465443",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13373,7 +13370,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415470123",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13819,10 +13816,9 @@
    "properties": {
     "name": "36 DUTHY STREET MALVERN 5061",
     "locID": "LOC000022547811",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415470391",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415470391"
    }
   },
   {
@@ -17174,6 +17170,60 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60897412,
+     -34.95614051
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 69-73 CLIFTON STREET MALVERN 5061",
+    "locID": "LOC000094315349",
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415666426",
+    "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60919374,
+     -34.95602055
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 69-73 CLIFTON STREET MALVERN 5061",
+    "locID": "LOC000094315349",
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415666428",
+    "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60918462,
+     -34.95589702
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 69-73 CLIFTON STREET MALVERN 5061",
+    "locID": "LOC000094315349",
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415666429",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -22189,9 +22239,9 @@
     "name": "67 ETON STREET MALVERN 5061",
     "locID": "LOC000010285166",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_422262470",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -23059,6 +23109,24 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424345827",
     "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.60897412,
+     -34.95614051
+    ]
+   },
+   "properties": {
+    "name": "69-73 CLIFTON STREET MALVERN 5061",
+    "locID": "LOC000094315349",
+    "tech": "FTTC",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_424413321",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
