@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-09T00:59:47.264687",
+ "generated": "2024-08-30T15:22:35.012503",
  "suburb": "NORTH FREMANTLE",
  "features": [
   {
@@ -680,8 +680,8 @@
    "properties": {
     "name": "17 THOMPSON ROAD NORTH FREMANTLE 6159",
     "locID": "LOC000089982709",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146711074",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3376,8 +3376,8 @@
    "properties": {
     "name": "15 AINSLIE ROAD NORTH FREMANTLE 6159",
     "locID": "LOC000021939902",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146724542",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8829,9 +8829,9 @@
     "name": "16 EUCLA COURT NORTH FREMANTLE 6159",
     "locID": "LOC000090692562",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147146679",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14108,10 +14108,10 @@
    "properties": {
     "name": "44 FOUNDRY COURT NORTH FREMANTLE 6159",
     "locID": "LOC000013752982",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147280591",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25669,6 +25669,23 @@
     "gnaf_pid": "GAWA_148852235",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.75268319,
+     -32.02860938
+    ]
+   },
+   "properties": {
+    "name": "110 STIRLING HIGHWAY NORTH FREMANTLE 6159",
+    "locID": "LOC000195364190",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_148852237"
    }
   },
   {
