@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-08T14:18:44.277021",
+ "generated": "2024-08-30T04:38:38.572168",
  "suburb": "QUEENSTOWN",
  "features": [
   {
@@ -2496,7 +2496,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_415167670",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6832,10 +6832,10 @@
    "properties": {
     "name": "20 VICTORIA STREET QUEENSTOWN 5014",
     "locID": "LOC000049050847",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415449993",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12469,9 +12469,9 @@
     "name": "UNIT 1, 69 SPRING STREET QUEENSTOWN 5014",
     "locID": "LOC000005823112",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415628550",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23383,6 +23383,24 @@
     "tech_change_status": "Committed",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "Dec 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.51061994,
+     -34.86262326
+    ]
+   },
+   "properties": {
+    "name": "35 SPRING STREET QUEENSTOWN 5014",
+    "locID": "LOC000195453044",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721002276",
+    "tech_change_status": "Not Planned"
    }
   },
   {
