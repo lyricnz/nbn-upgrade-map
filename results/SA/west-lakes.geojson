@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-08T16:14:36.206353",
+ "generated": "2024-08-30T06:49:36.221156",
  "suburb": "WEST LAKES",
  "features": [
   {
@@ -75,10 +75,10 @@
    "properties": {
     "name": "28 SIMS CRESCENT WEST LAKES 5021",
     "locID": "LOC000059178285",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414901888",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -629,10 +629,10 @@
    "properties": {
     "name": "17 BEESTON WAY WEST LAKES 5021",
     "locID": "LOC000043047936",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414903183",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1531,6 +1531,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.49484438,
+     -34.8689635
+    ]
+   },
+   "properties": {
+    "name": "8 DRIVER COURT WEST LAKES 5021",
+    "locID": "LOC000195347724",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_414911579"
    }
   },
   {
@@ -6028,10 +6045,9 @@
    "properties": {
     "name": "51 LAKEVIEW AVENUE WEST LAKES 5021",
     "locID": "LOC000077068348",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414919582",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7670,10 +7686,9 @@
    "properties": {
     "name": "30 SIR JOHN MARKS DRIVE WEST LAKES 5021",
     "locID": "LOC000067090778",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414922071",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8229,10 +8244,9 @@
    "properties": {
     "name": "5 KEPPEL GROVE WEST LAKES 5021",
     "locID": "LOC000091403923",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414923077",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9361,10 +9375,10 @@
    "properties": {
     "name": "2 YAMPI PLACE WEST LAKES 5021",
     "locID": "LOC000033368269",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414923899",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26353,9 +26367,9 @@
     "name": "7 HOYLAKE CRESCENT WEST LAKES 5021",
     "locID": "LOC000030384233",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415364516",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28483,26 +28497,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415375644",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.4995461,
-     -34.87425443
-    ]
-   },
-   "properties": {
-    "name": "7 COOBA WAY WEST LAKES 5021",
-    "locID": "LOC000077125670",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_415375645",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2025"
@@ -40075,9 +40069,9 @@
     "name": "UNIT 2, 1 COCOS GROVE WEST LAKES 5021",
     "locID": "LOC000048689798",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415669134",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -68505,6 +68499,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.49944446,
+     -34.87414349
+    ]
+   },
+   "properties": {
+    "name": "7A COOBA WAY WEST LAKES 5021",
+    "locID": "LOC000195434578",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721111422",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.49543437,
      -34.87413004
     ]
@@ -68681,9 +68693,10 @@
    "properties": {
     "name": "SHOP 160B, 111 WEST LAKES BOULEVARD WEST LAKES 5021",
     "locID": "LOC000181968100",
-    "tech": "FTTB",
+    "tech": "FTTN",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_721352454"
+    "gnaf_pid": "GASA_721352454",
+    "tech_change_status": "Not Planned"
    }
   },
   {
