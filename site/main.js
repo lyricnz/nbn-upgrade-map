@@ -427,7 +427,7 @@ function loadSuburb(state_file, commit, first_load=false) {
                     continue;
                 }
                 // Commits where files were deleted or otherwise corrupted
-                if (["7473d03"].includes(commit.sha)) {
+                if (["7473d0340b2c0903276f1ecce2e3a10c3a35061f"].includes(commit.sha)) {
                     continue;
                 }
                 selected_text = (commit.sha == default_commit) ? "selected" : ""
