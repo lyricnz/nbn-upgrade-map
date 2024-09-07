@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-19T04:39:11.079501",
+ "generated": "2024-09-07T15:02:22.693369",
  "suburb": "EVANS HEAD",
  "features": [
   {
@@ -1588,7 +1588,7 @@
     "name": "53 HEATH STREET EVANS HEAD 2473",
     "locID": "LOC000022227904",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704704924",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2175,9 +2175,9 @@
     "name": "31 BOTTLEBRUSH CRESCENT EVANS HEAD 2473",
     "locID": "LOC000077515618",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704706946",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4552,7 +4552,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704710859",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12731,10 +12731,9 @@
    "properties": {
     "name": "69 HEATH STREET EVANS HEAD 2473",
     "locID": "LOC000077867598",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704723142",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12932,9 +12931,9 @@
     "name": "21 BOTTLEBRUSH CRESCENT EVANS HEAD 2473",
     "locID": "LOC000097902554",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704723863",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17490,7 +17489,7 @@
     "name": "59 BEECH STREET EVANS HEAD 2473",
     "locID": "LOC000033823350",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704738188",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -20691,10 +20690,9 @@
    "properties": {
     "name": "4 PINE LANE EVANS HEAD 2473",
     "locID": "LOC000066801311",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712205632",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28080,10 +28078,10 @@
    "properties": {
     "name": "7 CARRABEEN COURT EVANS HEAD 2473",
     "locID": "LOC000072303261",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716989902",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28330,7 +28328,7 @@
    "properties": {
     "name": "85 BLUE POOL ROAD EVANS HEAD 2473",
     "locID": "LOC000087925727",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717125490",
     "tech_change_status": "Not Planned"
@@ -28348,7 +28346,7 @@
    "properties": {
     "name": "95 BLUE POOL ROAD EVANS HEAD 2473",
     "locID": "LOC000045407861",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717125491",
     "tech_change_status": "Not Planned"
@@ -28600,7 +28598,7 @@
    "properties": {
     "name": "50 BLUE POOL ROAD EVANS HEAD 2473",
     "locID": "LOC000101530292",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717136250",
     "tech_change_status": "Not Planned"
@@ -29826,6 +29824,24 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717197305",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.43138981,
+     -29.11514087
+    ]
+   },
+   "properties": {
+    "name": "324 PARK STREET EVANS HEAD 2473",
+    "locID": "LOC000195445390",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717197307",
     "tech_change_status": "Not Planned"
    }
   },
@@ -41306,7 +41322,7 @@
    "properties": {
     "name": "972-982 BROADWATER EVANS HEAD ROAD EVANS HEAD 2473",
     "locID": "LOC000121205470",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718839728",
     "tech_change_status": "Not Planned"
@@ -42130,7 +42146,7 @@
    "properties": {
     "name": "24 OCEAN DRIVE EVANS HEAD 2473",
     "locID": "LOC100056311208",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719464735",
     "tech_change_status": "Not Planned"
@@ -42186,7 +42202,7 @@
    "properties": {
     "name": "770 WOODBURN EVANS HEAD ROAD EVANS HEAD 2473",
     "locID": "LOC000075689871",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719657637",
     "tech_change_status": "Not Planned"
@@ -42204,7 +42220,7 @@
    "properties": {
     "name": "765 WOODBURN EVANS HEAD ROAD EVANS HEAD 2473",
     "locID": "LOC000088419312",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719657638",
     "tech_change_status": "Not Planned"
@@ -42222,7 +42238,7 @@
    "properties": {
     "name": "760 WOODBURN EVANS HEAD ROAD EVANS HEAD 2473",
     "locID": "LOC000021337233",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719657639",
     "tech_change_status": "Not Planned"
@@ -42240,7 +42256,7 @@
    "properties": {
     "name": "695 WOODBURN EVANS HEAD ROAD EVANS HEAD 2473",
     "locID": "LOC000098027348",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719663012",
     "tech_change_status": "Not Planned"
@@ -42294,7 +42310,7 @@
    "properties": {
     "name": "735 WOODBURN EVANS HEAD ROAD EVANS HEAD 2473",
     "locID": "LOC000176268629",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719666154",
     "tech_change_status": "Not Planned"
@@ -42329,7 +42345,7 @@
    "properties": {
     "name": "420 WOODBURN EVANS HEAD ROAD EVANS HEAD 2473",
     "locID": "LOC000189199035",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW719671296",
     "tech_change_status": "Not Planned"
