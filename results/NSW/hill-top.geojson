@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-20T03:21:51.986886",
+ "generated": "2024-09-08T16:32:46.191888",
  "suburb": "HILL TOP",
  "features": [
   {
@@ -1273,10 +1273,9 @@
    "properties": {
     "name": "3 DARLINGTON DRIVE HILL TOP 2575",
     "locID": "LOC000088122303",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW717389810",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717389810"
    }
   },
   {
@@ -2055,8 +2054,8 @@
    "properties": {
     "name": "32 ELLA STREET HILL TOP 2575",
     "locID": "LOC000057583419",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717390218",
     "tech_change_status": "Eligible to Order"
    }
@@ -6283,7 +6282,7 @@
    "properties": {
     "name": "10 WATTLE RIDGE ROAD HILL TOP 2575",
     "locID": "LOC000019834561",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717396448",
     "tech_change_status": "Not Planned"
@@ -6301,7 +6300,7 @@
    "properties": {
     "name": "12 WATTLE RIDGE ROAD HILL TOP 2575",
     "locID": "LOC000087937202",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717396449",
     "tech_change_status": "Not Planned"
@@ -6319,7 +6318,7 @@
    "properties": {
     "name": "14 WATTLE RIDGE ROAD HILL TOP 2575",
     "locID": "LOC000093581609",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717396450",
     "tech_change_status": "Not Planned"
@@ -6373,7 +6372,7 @@
    "properties": {
     "name": "1 WATTLE RIDGE ROAD HILL TOP 2575",
     "locID": "LOC000052303505",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717396453",
     "tech_change_status": "Not Planned"
@@ -9608,10 +9607,10 @@
    "properties": {
     "name": "52 ELLA STREET HILL TOP 2575",
     "locID": "LOC000069274869",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717400301",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -9682,8 +9681,8 @@
    "properties": {
     "name": "43 ELLA STREET HILL TOP 2575",
     "locID": "LOC000048538045",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717400305",
     "tech_change_status": "Eligible to Order"
    }
@@ -14225,7 +14224,7 @@
    "properties": {
     "name": "3 WATTLE RIDGE ROAD HILL TOP 2575",
     "locID": "LOC000034057671",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717406860",
     "tech_change_status": "Not Planned"
@@ -17765,7 +17764,7 @@
    "properties": {
     "name": "9 COATES ROAD HILL TOP 2575",
     "locID": "LOC000114934380",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718026108",
     "tech_change_status": "Not Planned"
@@ -20673,7 +20672,7 @@
    "properties": {
     "name": "8 DARLINGTON DRIVE HILL TOP 2575",
     "locID": "LOC000150745384",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718883980",
     "tech_change_status": "Not Planned"
@@ -20691,7 +20690,7 @@
    "properties": {
     "name": "9 DARLINGTON DRIVE HILL TOP 2575",
     "locID": "LOC000150745397",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718883981",
     "tech_change_status": "Not Planned"
@@ -21725,9 +21724,11 @@
     "name": "15A ELLA STREET HILL TOP 2575",
     "locID": "LOC100086879605",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW721005345",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -21858,6 +21859,46 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721445441",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.4878798,
+     -34.34762567
+    ]
+   },
+   "properties": {
+    "name": "34 PEARCE STREET HILL TOP 2575",
+    "locID": "LOC000121380611",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721570294",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.48833735,
+     -34.34697795
+    ]
+   },
+   "properties": {
+    "name": "28 PEARCE STREET HILL TOP 2575",
+    "locID": "LOC000121380611",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721574616",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   }
  ]
