@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-19T23:40:21.530172",
+ "generated": "2024-09-08T13:03:07.398263",
  "suburb": "WOOLGOOLGA",
  "features": [
   {
@@ -466,10 +466,9 @@
    "properties": {
     "name": "30 PALMER ROAD WOOLGOOLGA 2456",
     "locID": "LOC000013055147",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW706296259",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706296259"
    }
   },
   {
@@ -2843,10 +2842,9 @@
    "properties": {
     "name": "3 ST ANDREWS DRIVE WOOLGOOLGA 2456",
     "locID": "LOC000007976139",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW706302901",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706302901"
    }
   },
   {
@@ -6493,8 +6491,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.19633171,
-     -30.11563319
+     153.1963312,
+     -30.11563271
     ]
    },
    "properties": {
@@ -10034,9 +10032,9 @@
     "name": "17 MELALEUCA AVENUE WOOLGOOLGA 2456",
     "locID": "LOC000027223909",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706313136",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -10577,10 +10575,9 @@
    "properties": {
     "name": "60 MELALEUCA AVENUE WOOLGOOLGA 2456",
     "locID": "LOC000087432695",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW706313170",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706313170"
    }
   },
   {
@@ -22212,7 +22209,7 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706334000",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -25753,10 +25750,9 @@
    "properties": {
     "name": "133 BARK HUT ROAD WOOLGOOLGA 2456",
     "locID": "LOC000024959006",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW706343593",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706343593"
    }
   },
   {
@@ -27529,7 +27525,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706346885",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -27599,9 +27595,9 @@
     "name": "24 SHEARER DRIVE WOOLGOOLGA 2456",
     "locID": "LOC000062155515",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706346889",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -64735,6 +64731,26 @@
     ]
    },
    "properties": {
+    "name": "1854C SOLITARY ISLANDS WAY WOOLGOOLGA 2456",
+    "locID": "LOC000185150289",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720461317",
+    "tech_change_status": "In Design",
+    "program_type": "Customer-initiated N2P MDU Complex",
+    "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.19069514,
+     -30.11187248
+    ]
+   },
+   "properties": {
     "name": "1854A SOLITARY ISLANDS WAY WOOLGOOLGA 2456",
     "locID": "LOC000163158716",
     "tech": "FTTN",
@@ -69997,7 +70013,7 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721492876",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
@@ -70207,6 +70223,44 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721501965"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.1963312,
+     -30.11563271
+    ]
+   },
+   "properties": {
+    "name": "28A GORDON STREET WOOLGOOLGA 2456",
+    "locID": "LOC000191414884",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721565281",
+    "tech_change_status": "In Design",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.1807388,
+     -30.10928485
+    ]
+   },
+   "properties": {
+    "name": "11 NEWMANS ROAD WOOLGOOLGA 2456",
+    "locID": "LOC000045860059",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW721566150",
+    "tech_change_status": "Eligible to Order"
    }
   }
  ]
