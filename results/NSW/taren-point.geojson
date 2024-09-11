@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-22T20:10:41.862899",
+ "generated": "2024-09-11T09:06:27.542170",
  "suburb": "TAREN POINT",
  "features": [
   {
@@ -5550,9 +5550,10 @@
    "properties": {
     "name": "44 BAY ROAD TAREN POINT 2229",
     "locID": "LOC000107487065",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW706048567"
+    "tech": "FTTC",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GANSW706048567",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -7443,10 +7444,9 @@
    "properties": {
     "name": "76 WOODLANDS ROAD TAREN POINT 2229",
     "locID": "LOC000095949406",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW706055244",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW706055244"
    }
   },
   {
@@ -12684,9 +12684,8 @@
     "name": "SUITE 5, 43 BAY ROAD TAREN POINT 2229",
     "locID": "LOC000078515161",
     "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW715588426",
-    "tech_change_status": "Build Finalised"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW715588426"
    }
   },
   {
@@ -25390,6 +25389,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW721453909",
     "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.12452242,
+     -34.01691332
+    ]
+   },
+   "properties": {
+    "name": "3B SMITH STREET TAREN POINT 2229",
+    "locID": "LOC000191821497",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721582146"
    }
   }
  ]
