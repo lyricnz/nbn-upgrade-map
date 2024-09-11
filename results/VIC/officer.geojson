@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-22T14:52:04.662208",
+ "generated": "2024-09-11T04:49:05.426267",
  "suburb": "OFFICER",
  "features": [
   {
@@ -106,8 +106,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.42728405,
-     -38.07639416
+     145.42754462,
+     -38.07642289
     ]
    },
    "properties": {
@@ -396,7 +396,7 @@
    "properties": {
     "name": "389-391 PRINCES HIGHWAY OFFICER 3809",
     "locID": "LOC000195316702",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419578519"
    }
@@ -2655,8 +2655,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.42055567,
-     -38.05691338
+     145.42048121,
+     -38.05727869
     ]
    },
    "properties": {
@@ -3745,8 +3745,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.43320174,
-     -38.0453637
+     145.43103877,
+     -38.04476834
     ]
    },
    "properties": {
@@ -4331,7 +4331,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421368640",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4374,6 +4374,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.42054312,
+     -38.05699733
+    ]
+   },
+   "properties": {
+    "name": "63 MCMULLEN ROAD OFFICER 3809",
+    "locID": "LOC000193387608",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421378202"
    }
   },
   {
@@ -9628,9 +9645,9 @@
     "name": "32 FLINDERS PARK DRIVE OFFICER 3809",
     "locID": "LOC000040188739",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424491786",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12208,10 +12225,10 @@
    "properties": {
     "name": "13 GOODENIA STREET OFFICER 3809",
     "locID": "LOC000114356339",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424618334",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18036,10 +18053,9 @@
    "properties": {
     "name": "14 RUSH LILY DRIVE OFFICER 3809",
     "locID": "LOC000108540556",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424730526",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -54103,8 +54119,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.43320174,
-     -38.0453637
+     145.43316654,
+     -38.0454546
     ]
    },
    "properties": {
@@ -98026,23 +98042,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.41173964,
-     -38.06024286
-    ]
-   },
-   "properties": {
-    "name": "UNIT 112A, LEVEL 1, 445 PRINCES HIGHWAY OFFICER 3809",
-    "locID": "LOC100065305565",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC719754730"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.3940925,
      -38.05371464
     ]
@@ -102102,6 +102101,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720052820"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.40153311,
+     -38.07038042
+    ]
+   },
+   "properties": {
+    "name": "3 CAESAR STREET OFFICER 3809",
+    "locID": "LOC000195458944",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720053060"
    }
   },
   {
@@ -117421,9 +117437,10 @@
    "properties": {
     "name": "2 BOOTLACE ROAD OFFICER 3809",
     "locID": "LOC000195344719",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720833758"
+    "gnaf_pid": "GAVIC720833758",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -118062,6 +118079,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720837058"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39845029,
+     -38.0688301
+    ]
+   },
+   "properties": {
+    "name": "22 MESSMATE STREET OFFICER 3809",
+    "locID": "LOC000195425295",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720837362"
    }
   },
   {
@@ -119635,6 +119669,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.39959938,
+     -38.0714641
+    ]
+   },
+   "properties": {
+    "name": "9 IXIA STREET OFFICER 3809",
+    "locID": "LOC000195430713",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720915701"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.40627258,
      -38.05715525
     ]
@@ -120481,6 +120532,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.39992744,
+     -38.0696184
+    ]
+   },
+   "properties": {
+    "name": "18 SALTMARSH ROAD OFFICER 3809",
+    "locID": "LOC000195430732",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720924585"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.40337589,
      -38.04950462
     ]
@@ -120651,6 +120719,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.43473249,
+     -38.05137606
+    ]
+   },
+   "properties": {
+    "name": "24 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149423",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720951730"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43466672,
+     -38.05231348
+    ]
+   },
+   "properties": {
+    "name": "5 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149336",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720951762"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.42608482,
      -38.05230664
     ]
@@ -120661,6 +120763,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720952038"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43463728,
+     -38.05107047
+    ]
+   },
+   "properties": {
+    "name": "31 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149508",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720952042"
    }
   },
   {
@@ -120702,6 +120821,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.43410608,
+     -38.05186209
+    ]
+   },
+   "properties": {
+    "name": "13 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149646",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720953077"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.42475477,
      -38.05108801
     ]
@@ -120736,6 +120872,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.43532928,
+     -38.05155577
+    ]
+   },
+   "properties": {
+    "name": "17 BARLOW STREET OFFICER 3809",
+    "locID": "LOC000195149241",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720953589"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.42479673,
      -38.05089714
     ]
@@ -120746,6 +120899,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720953592"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43543728,
+     -38.05106074
+    ]
+   },
+   "properties": {
+    "name": "23 BARLOW STREET OFFICER 3809",
+    "locID": "LOC000195149218",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720953820"
    }
   },
   {
@@ -120828,9 +120998,26 @@
    "properties": {
     "name": "129 PECK ROAD OFFICER 3809",
     "locID": "LOC000195149195",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720954819"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43535366,
+     -38.05144402
+    ]
+   },
+   "properties": {
+    "name": "19 BARLOW STREET OFFICER 3809",
+    "locID": "LOC000195149239",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720955030"
    }
   },
   {
@@ -120889,6 +121076,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.43510891,
+     -38.05113481
+    ]
+   },
+   "properties": {
+    "name": "37 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149468",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720955719"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.42598177,
      -38.05277485
     ]
@@ -120923,6 +121127,57 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.43451725,
+     -38.05167359
+    ]
+   },
+   "properties": {
+    "name": "16 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149391",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720956225"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43438799,
+     -38.05226599
+    ]
+   },
+   "properties": {
+    "name": "1 VANSTEENSEL WAY OFFICER 3809",
+    "locID": "LOC000195149679",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720956237"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43431983,
+     -38.05102716
+    ]
+   },
+   "properties": {
+    "name": "27 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149577",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720956650"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.42540365,
      -38.05088112
     ]
@@ -120950,6 +121205,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720956792"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43490839,
+     -38.05205384
+    ]
+   },
+   "properties": {
+    "name": "4 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149343",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720956868"
    }
   },
   {
@@ -121008,6 +121280,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.43400124,
+     -38.05234256
+    ]
+   },
+   "properties": {
+    "name": "4 VANSTEENSEL WAY OFFICER 3809",
+    "locID": "LOC000195149842",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720957515"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.4251775,
      -38.04986228
     ]
@@ -121059,6 +121348,57 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.43402691,
+     -38.0522249
+    ]
+   },
+   "properties": {
+    "name": "2 VANSTEENSEL WAY OFFICER 3809",
+    "locID": "LOC000195149857",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720957910"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43433367,
+     -38.05251492
+    ]
+   },
+   "properties": {
+    "name": "5 VANSTEENSEL WAY OFFICER 3809",
+    "locID": "LOC000195149698",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720958155"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43525662,
+     -38.05188876
+    ]
+   },
+   "properties": {
+    "name": "11 BARLOW STREET OFFICER 3809",
+    "locID": "LOC000195149273",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720958182"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.42578978,
      -38.05064153
     ]
@@ -121086,6 +121426,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720958319"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43413345,
+     -38.05107265
+    ]
+   },
+   "properties": {
+    "name": "25 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149583",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720958332"
    }
   },
   {
@@ -121161,6 +121518,57 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.43415742,
+     -38.05162678
+    ]
+   },
+   "properties": {
+    "name": "17 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149622",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720958900"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43449303,
+     -38.05178458
+    ]
+   },
+   "properties": {
+    "name": "14 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149389",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720958998"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43479449,
+     -38.05109191
+    ]
+   },
+   "properties": {
+    "name": "33 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149499",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720959229"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.42648118,
      -38.0500415
     ]
@@ -121171,6 +121579,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720959262"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43515169,
+     -38.05236971
+    ]
+   },
+   "properties": {
+    "name": "5 BARLOW STREET OFFICER 3809",
+    "locID": "LOC000195149304",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720959288"
    }
   },
   {
@@ -121205,6 +121630,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720959588"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43394844,
+     -38.05258453
+    ]
+   },
+   "properties": {
+    "name": "8 VANSTEENSEL WAY OFFICER 3809",
+    "locID": "LOC000195149701",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720959603"
    }
   },
   {
@@ -121256,6 +121698,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720959814"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43530506,
+     -38.05166677
+    ]
+   },
+   "properties": {
+    "name": "15 BARLOW STREET OFFICER 3809",
+    "locID": "LOC000195149256",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720959836"
    }
   },
   {
@@ -121338,7 +121797,7 @@
    "properties": {
     "name": "137 PECK ROAD OFFICER 3809",
     "locID": "LOC000195149176",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720960283"
    }
@@ -121423,9 +121882,26 @@
    "properties": {
     "name": "133 PECK ROAD OFFICER 3809",
     "locID": "LOC000195149182",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720961163"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.4341831,
+     -38.05150913
+    ]
+   },
+   "properties": {
+    "name": "19 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149614",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720961595"
    }
   },
   {
@@ -121450,6 +121926,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.43423315,
+     -38.05127972
+    ]
+   },
+   "properties": {
+    "name": "23 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149596",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720961665"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.4267208,
      -38.05007792
     ]
@@ -121460,6 +121953,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720961686"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.4348897,
+     -38.05139751
+    ]
+   },
+   "properties": {
+    "name": "26 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149434",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720961806"
    }
   },
   {
@@ -121562,6 +122072,57 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720962480"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43413175,
+     -38.05174443
+    ]
+   },
+   "properties": {
+    "name": "15 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149633",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720962598"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43448007,
+     -38.05104902
+    ]
+   },
+   "properties": {
+    "name": "29 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149554",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720962609"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.4349517,
+     -38.05111336
+    ]
+   },
+   "properties": {
+    "name": "35 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149475",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720962640"
    }
   },
   {
@@ -121807,6 +122368,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.43483516,
+     -38.05233646
+    ]
+   },
+   "properties": {
+    "name": "3 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149327",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720964841"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.42576409,
      -38.04994292
     ]
@@ -121824,6 +122402,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.43504691,
+     -38.05141896
+    ]
+   },
+   "properties": {
+    "name": "28 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149452",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720965391"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.4252549,
      -38.05086067
     ]
@@ -121834,6 +122429,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720965497"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43512585,
+     -38.05248813
+    ]
+   },
+   "properties": {
+    "name": "3 BARLOW STREET OFFICER 3809",
+    "locID": "LOC000195149315",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720965697"
    }
   },
   {
@@ -121892,6 +122504,74 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.43457521,
+     -38.0513546
+    ]
+   },
+   "properties": {
+    "name": "22 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149410",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720966614"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43523241,
+     -38.05199975
+    ]
+   },
+   "properties": {
+    "name": "9 BARLOW STREET OFFICER 3809",
+    "locID": "LOC000195149287",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720966632"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43541009,
+     -38.05118536
+    ]
+   },
+   "properties": {
+    "name": "21 BARLOW STREET OFFICER 3809",
+    "locID": "LOC000195149225",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720966646"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.4343608,
+     -38.05239061
+    ]
+   },
+   "properties": {
+    "name": "3 VANSTEENSEL WAY OFFICER 3809",
+    "locID": "LOC000195149680",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720966661"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.42523574,
      -38.05016295
     ]
@@ -121926,6 +122606,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.43420732,
+     -38.05139813
+    ]
+   },
+   "properties": {
+    "name": "21 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149605",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720968002"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.4249097,
      -38.05038335
     ]
@@ -121943,6 +122640,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.43459396,
+     -38.05201095
+    ]
+   },
+   "properties": {
+    "name": "8 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149362",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720968245"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.42603208,
      -38.05254626
     ]
@@ -121953,6 +122667,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720968342"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43528084,
+     -38.05177776
+    ]
+   },
+   "properties": {
+    "name": "13 BARLOW STREET OFFICER 3809",
+    "locID": "LOC000195149260",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720968716"
    }
   },
   {
@@ -122011,6 +122742,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.43443624,
+     -38.05198943
+    ]
+   },
+   "properties": {
+    "name": "10 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149370",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720968963"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.424729,
      -38.05120523
     ]
@@ -122045,6 +122793,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.43454147,
+     -38.05156259
+    ]
+   },
+   "properties": {
+    "name": "18 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149406",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720970419"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.42505348,
      -38.05303999
     ]
@@ -122055,6 +122820,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720970434"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43407812,
+     -38.05199022
+    ]
+   },
+   "properties": {
+    "name": "11 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149651",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720970842"
    }
   },
   {
@@ -122079,6 +122861,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.43520812,
+     -38.05211106
+    ]
+   },
+   "properties": {
+    "name": "7 BARLOW STREET OFFICER 3809",
+    "locID": "LOC000195149294",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720971078"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43475118,
+     -38.05203239
+    ]
+   },
+   "properties": {
+    "name": "6 GODSWILL CRESCENT OFFICER 3809",
+    "locID": "LOC000195149358",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720971092"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.42613082,
      -38.04951647
     ]
@@ -122089,6 +122905,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720971101"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43397557,
+     -38.05246021
+    ]
+   },
+   "properties": {
+    "name": "6 VANSTEENSEL WAY OFFICER 3809",
+    "locID": "LOC000195149835",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720971145"
    }
   },
   {
@@ -122242,9 +123075,10 @@
    "properties": {
     "name": "3 BOOTLACE ROAD OFFICER 3809",
     "locID": "LOC000195344719",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721022741"
+    "gnaf_pid": "GAVIC721022741",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -122259,9 +123093,10 @@
    "properties": {
     "name": "26 BOOTLACE ROAD OFFICER 3809",
     "locID": "LOC000195344719",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721022911"
+    "gnaf_pid": "GAVIC721022911",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -122398,9 +123233,10 @@
    "properties": {
     "name": "5 BOOTLACE ROAD OFFICER 3809",
     "locID": "LOC000195344719",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC721028163"
+    "gnaf_pid": "GAVIC721028163",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -125411,6 +126247,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.40162827,
+     -38.06939928
+    ]
+   },
+   "properties": {
+    "name": "27 CAESAR STREET OFFICER 3809",
+    "locID": "LOC000195458944",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721161016"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.39674037,
      -38.05896231
     ]
@@ -125493,6 +126346,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721166336"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.40129194,
+     -38.06907426
+    ]
+   },
+   "properties": {
+    "name": "38 CAESAR STREET OFFICER 3809",
+    "locID": "LOC000195458944",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721167753"
    }
   },
   {
@@ -125752,6 +126622,24 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721221857"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.4214568,
+     -38.04986863
+    ]
+   },
+   "properties": {
+    "name": "3 RINGTAIL GROVE OFFICER 3809",
+    "locID": "LOC100087033389",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721222811",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -126434,10 +127322,9 @@
    "properties": {
     "name": "9 JEKYLL LANE OFFICER 3809",
     "locID": "LOC000176209763",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721288025",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -126629,10 +127516,9 @@
    "properties": {
     "name": "9 PINOCCHIO LANE OFFICER 3809",
     "locID": "LOC000176209763",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721288850",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -126878,10 +127764,9 @@
    "properties": {
     "name": "9 SCRUBWREN GROVE OFFICER 3809",
     "locID": "LOC000176209763",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721291687",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -127162,10 +128047,9 @@
    "properties": {
     "name": "9 FEATHERTAIL GROVE OFFICER 3809",
     "locID": "LOC000176209763",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721295356",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -127333,10 +128217,9 @@
    "properties": {
     "name": "9 HATTER MEWS OFFICER 3809",
     "locID": "LOC000176209763",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721296821",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -128670,8 +129553,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.42049058,
-     -38.05739887
+     145.4204421,
+     -38.05745638
     ]
    },
    "properties": {
@@ -129045,6 +129928,383 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721503888"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39626566,
+     -38.0674376
+    ]
+   },
+   "properties": {
+    "name": "117 RIX ROAD OFFICER 3809",
+    "locID": "LOC000151621249",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721541416"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39641302,
+     -38.06746361
+    ]
+   },
+   "properties": {
+    "name": "115 RIX ROAD OFFICER 3809",
+    "locID": "LOC000145678838",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721542071"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39655205,
+     -38.06748815
+    ]
+   },
+   "properties": {
+    "name": "113 RIX ROAD OFFICER 3809",
+    "locID": "LOC000145678817",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721543265"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39683843,
+     -38.0675387
+    ]
+   },
+   "properties": {
+    "name": "109 RIX ROAD OFFICER 3809",
+    "locID": "LOC000145678770",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721543377"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39560947,
+     -38.06732177
+    ]
+   },
+   "properties": {
+    "name": "125 RIX ROAD OFFICER 3809",
+    "locID": "LOC000151621347",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721543925"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39718321,
+     -38.06759956
+    ]
+   },
+   "properties": {
+    "name": "105 RIX ROAD OFFICER 3809",
+    "locID": "LOC000145678736",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721544340"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.40724733,
+     -38.06814567
+    ]
+   },
+   "properties": {
+    "name": "2 RIX ROAD OFFICER 3809",
+    "locID": "LOC000191144887",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721544644"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39470022,
+     -38.06716127
+    ]
+   },
+   "properties": {
+    "name": "131 RIX ROAD OFFICER 3809",
+    "locID": "LOC000145678387",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721544676"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39736719,
+     -38.06763203
+    ]
+   },
+   "properties": {
+    "name": "103 RIX ROAD OFFICER 3809",
+    "locID": "LOC000151621220",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721545843"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39541652,
+     -38.06728772
+    ]
+   },
+   "properties": {
+    "name": "127 RIX ROAD OFFICER 3809",
+    "locID": "LOC000151621375",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721546120"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.3945543,
+     -38.06713551
+    ]
+   },
+   "properties": {
+    "name": "133 RIX ROAD OFFICER 3809",
+    "locID": "LOC000145678409",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721547592"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39409373,
+     -38.06813521
+    ]
+   },
+   "properties": {
+    "name": "15 STEPHENS ROAD OFFICER 3809",
+    "locID": "LOC000093330164",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721547756",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39437619,
+     -38.06710407
+    ]
+   },
+   "properties": {
+    "name": "135 RIX ROAD OFFICER 3809",
+    "locID": "LOC000145678421",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721548407"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.42739312,
+     -38.07641293
+    ]
+   },
+   "properties": {
+    "name": "51 MARY STREET OFFICER 3809",
+    "locID": "LOC000176047032",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721549920"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.3942028,
+     -38.06733805
+    ]
+   },
+   "properties": {
+    "name": "3 STEPHENS ROAD OFFICER 3809",
+    "locID": "LOC000027027107",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721550178",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39610995,
+     -38.06741012
+    ]
+   },
+   "properties": {
+    "name": "119 RIX ROAD OFFICER 3809",
+    "locID": "LOC000151621265",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721550212"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39669107,
+     -38.06751269
+    ]
+   },
+   "properties": {
+    "name": "111 RIX ROAD OFFICER 3809",
+    "locID": "LOC000145678791",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721550747"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39700526,
+     -38.06756815
+    ]
+   },
+   "properties": {
+    "name": "107 RIX ROAD OFFICER 3809",
+    "locID": "LOC000145678758",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721551481"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39595425,
+     -38.06738263
+    ]
+   },
+   "properties": {
+    "name": "121 RIX ROAD OFFICER 3809",
+    "locID": "LOC000151621296",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721551730"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.43196226,
+     -38.05427309
+    ]
+   },
+   "properties": {
+    "name": "2 MAJELLA ROAD OFFICER 3809",
+    "locID": "LOC000194321660",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721552331"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39411089,
+     -38.06800982
+    ]
+   },
+   "properties": {
+    "name": "13 STEPHENS ROAD OFFICER 3809",
+    "locID": "LOC000104442537",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721553750",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39578742,
+     -38.06735318
+    ]
+   },
+   "properties": {
+    "name": "123 RIX ROAD OFFICER 3809",
+    "locID": "LOC000151621323",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721553818"
    }
   }
  ]
