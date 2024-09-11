@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-23T08:46:47.870255",
+ "generated": "2024-09-11T21:47:45.222639",
  "suburb": "OAKBANK",
  "features": [
   {
@@ -593,10 +593,9 @@
    "properties": {
     "name": "10 NIGHTINGALE COURT OAKBANK 5243",
     "locID": "LOC000050828809",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415026863",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1567,10 +1566,10 @@
    "properties": {
     "name": "8 BIRCH STREET OAKBANK 5243",
     "locID": "LOC000056737820",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415044337",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1846,10 +1845,10 @@
    "properties": {
     "name": "5 MAPLE COURT OAKBANK 5243",
     "locID": "LOC000054041786",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415121934",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3959,9 +3958,9 @@
     "name": "207 ONKAPARINGA VALLEY ROAD OAKBANK 5243",
     "locID": "LOC000058881339",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_421975064",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4487,8 +4486,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.8418365,
-     -34.98177503
+     138.84182776,
+     -34.9817819
     ]
    },
    "properties": {
@@ -4606,8 +4605,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.84995145,
-     -34.97228808
+     138.84994713,
+     -34.97231971
     ]
    },
    "properties": {
@@ -4662,8 +4661,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.86997095,
-     -34.98515626
+     138.86995779,
+     -34.98514929
     ]
    },
    "properties": {
@@ -5386,6 +5385,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.86557318,
+     -34.98447693
+    ]
+   },
+   "properties": {
+    "name": "140 GILLMAN ROAD OAKBANK 5243",
+    "locID": "LOC000023341649",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_424658372",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.86569,
      -34.983348
     ]
@@ -5664,8 +5681,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.8418365,
-     -34.98177503
+     138.84182776,
+     -34.9817819
     ]
    },
    "properties": {
@@ -7225,7 +7242,7 @@
    "properties": {
     "name": "686 NAIRNE ROAD OAKBANK 5243",
     "locID": "LOC000116260081",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424804335",
     "tech_change_status": "Not Planned"
@@ -8302,26 +8319,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_719252566",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.84575124,
-     -34.99344727
-    ]
-   },
-   "properties": {
-    "name": "LOT 100 WENZEL ROAD OAKBANK 5243",
-    "locID": "LOC000040967662",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_719398183",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "Dec 2024"
