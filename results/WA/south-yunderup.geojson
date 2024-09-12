@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-24T04:35:42.852675",
+ "generated": "2024-09-12T19:47:38.104612",
  "suburb": "SOUTH YUNDERUP",
  "features": [
   {
@@ -2491,9 +2491,10 @@
    "properties": {
     "name": "69 ALLAMBI WAY SOUTH YUNDERUP 6208",
     "locID": "LOC000097847971",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_146899439"
+    "tech": "FTTC",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAWA_146899439",
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -3816,10 +3817,9 @@
    "properties": {
     "name": "12 LEVER WAY SOUTH YUNDERUP 6208",
     "locID": "LOC000009527481",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAWA_146901221",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_146901221"
    }
   },
   {
@@ -4174,8 +4174,8 @@
    "properties": {
     "name": "10 KIAP ROAD SOUTH YUNDERUP 6208",
     "locID": "LOC000103909952",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTC",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146903604"
    }
   },
@@ -16438,24 +16438,6 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     115.79402031,
-     -32.58513666
-    ]
-   },
-   "properties": {
-    "name": "134 SOUTH YUNDERUP ROAD SOUTH YUNDERUP 6208",
-    "locID": "LOC000132876458",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAWA_147320829",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -39056,6 +39038,91 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.80962365,
+     -32.59890051
+    ]
+   },
+   "properties": {
+    "name": "11 PARSONS WAY SOUTH YUNDERUP 6208",
+    "locID": "LOC000191576360",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721205257"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.8096239,
+     -32.59962189
+    ]
+   },
+   "properties": {
+    "name": "21 PARSONS WAY SOUTH YUNDERUP 6208",
+    "locID": "LOC000191576608",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721205285"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.80962506,
+     -32.59878174
+    ]
+   },
+   "properties": {
+    "name": "9 PARSONS WAY SOUTH YUNDERUP 6208",
+    "locID": "LOC000191576356",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721205554"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.80962394,
+     -32.59972108
+    ]
+   },
+   "properties": {
+    "name": "23 PARSONS WAY SOUTH YUNDERUP 6208",
+    "locID": "LOC000191576612",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721205940"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.80962521,
+     -32.59921765
+    ]
+   },
+   "properties": {
+    "name": "17 PARSONS WAY SOUTH YUNDERUP 6208",
+    "locID": "LOC000191576394",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721206147"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.80962372,
      -32.59909889
     ]
@@ -39066,6 +39133,74 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_721206471"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.80962545,
+     -32.59993904
+    ]
+   },
+   "properties": {
+    "name": "27 PARSONS WAY SOUTH YUNDERUP 6208",
+    "locID": "LOC000191576631",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721206998"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.80962369,
+     -32.5989997
+    ]
+   },
+   "properties": {
+    "name": "13 PARSONS WAY SOUTH YUNDERUP 6208",
+    "locID": "LOC000191576373",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721207083"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.80962531,
+     -32.59950313
+    ]
+   },
+   "properties": {
+    "name": "19 PARSONS WAY SOUTH YUNDERUP 6208",
+    "locID": "LOC000191576599",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721207558"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.80962397,
+     -32.59982027
+    ]
+   },
+   "properties": {
+    "name": "25 PARSONS WAY SOUTH YUNDERUP 6208",
+    "locID": "LOC000191576620",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721207707"
    }
   },
   {
@@ -39328,8 +39463,42 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     115.80542852,
-     -32.59628996
+     115.8050126,
+     -32.59605207
+    ]
+   },
+   "properties": {
+    "name": "7 EARLS WAY SOUTH YUNDERUP 6208",
+    "locID": "LOC000195058626",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721463510"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.80558706,
+     -32.59599095
+    ]
+   },
+   "properties": {
+    "name": "6 EARLS WAY SOUTH YUNDERUP 6208",
+    "locID": "LOC000195058626",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721464197"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.80543789,
+     -32.59627284
     ]
    },
    "properties": {
