@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-24T23:25:40.658538",
+ "generated": "2024-09-13T15:21:19.417520",
  "suburb": "GEHAM",
  "features": [
   {
@@ -247,7 +247,7 @@
    "properties": {
     "name": "127 ROBINSON ROAD GEHAM 4352",
     "locID": "LOC000043871808",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157949412",
     "tech_change_status": "Not Planned"
@@ -481,7 +481,7 @@
    "properties": {
     "name": "62 MERVYN ROAD GEHAM 4352",
     "locID": "LOC000046926070",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157953777",
     "tech_change_status": "Not Planned"
@@ -619,7 +619,7 @@
    "properties": {
     "name": "134 STRACK ROAD GEHAM 4352",
     "locID": "LOC000037553853",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157954924",
     "tech_change_status": "Not Planned"
@@ -657,7 +657,7 @@
    "properties": {
     "name": "97 MERVYN ROAD GEHAM 4352",
     "locID": "LOC000058554174",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157954926",
     "tech_change_status": "Not Planned"
@@ -889,7 +889,7 @@
    "properties": {
     "name": "127 KAHLER ROAD GEHAM 4352",
     "locID": "LOC000050797599",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160676451",
     "tech_change_status": "Not Planned"
@@ -1047,10 +1047,10 @@
    "properties": {
     "name": "17 MELRIC COURT GEHAM 4352",
     "locID": "LOC000178887842",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160679037",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1515,7 +1515,7 @@
    "properties": {
     "name": "228 VALEWOOD ROAD GEHAM 4352",
     "locID": "LOC000015305273",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160963448",
     "tech_change_status": "Not Planned"
@@ -1669,7 +1669,7 @@
    "properties": {
     "name": "LOT 131 REUSHLE ROAD GEHAM 4352",
     "locID": "LOC100028167361",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161289141",
     "tech_change_status": "Not Planned"
@@ -1880,9 +1880,27 @@
    "properties": {
     "name": "326 ROBINSON ROAD GEHAM 4352",
     "locID": "LOC000030579771",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161667056",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.00057933,
+     -27.38597772
+    ]
+   },
+   "properties": {
+    "name": "70 PIONEER ROAD GEHAM 4352",
+    "locID": "LOC000010707087",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161709748",
     "tech_change_status": "Not Planned"
    }
   },
@@ -2266,9 +2284,9 @@
     "name": "60 REUSHLE ROAD GEHAM 4352",
     "locID": "LOC000073557149",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162093481",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2382,7 +2400,7 @@
    "properties": {
     "name": "LOT 645 BUSHELL ROAD GEHAM 4352",
     "locID": "LOC000041322020",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162343605",
     "tech_change_status": "Not Planned"
@@ -2400,7 +2418,7 @@
    "properties": {
     "name": "LOT 649 BUSHELL ROAD GEHAM 4352",
     "locID": "LOC000041322020",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162343606",
     "tech_change_status": "Not Planned"
@@ -2438,7 +2456,7 @@
    "properties": {
     "name": "LOT 637 HERB ROAD GEHAM 4352",
     "locID": "LOC000111759616",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162351788",
     "tech_change_status": "Not Planned"
@@ -2565,6 +2583,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.99603789,
+     -27.38904148
+    ]
+   },
+   "properties": {
+    "name": "7 PIONEER ROAD GEHAM 4352",
+    "locID": "LOC000010707087",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD162361488",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.0013059,
      -27.38252888
     ]
@@ -2590,7 +2626,7 @@
    "properties": {
     "name": "262 PUSCHMANN ROAD GEHAM 4352",
     "locID": "LOC000050266817",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162361976",
     "tech_change_status": "Not Planned"
@@ -2818,7 +2854,7 @@
    "properties": {
     "name": "166 BUSHELL ROAD GEHAM 4352",
     "locID": "LOC000041322020",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162734096",
     "tech_change_status": "Not Planned"
@@ -3250,7 +3286,7 @@
    "properties": {
     "name": "2A REUSHLE ROAD GEHAM 4352",
     "locID": "LOC000150755173",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425546362",
     "tech_change_status": "Not Planned"
@@ -3288,7 +3324,7 @@
    "properties": {
     "name": "38 ROBINSON ROAD GEHAM 4352",
     "locID": "LOC100078027654",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425753853",
     "tech_change_status": "Not Planned"
@@ -3512,6 +3548,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.998534,
+     -27.39229803
+    ]
+   },
+   "properties": {
+    "name": "308 CONNOLLY ROAD GEHAM 4352",
+    "locID": "LOC100077683735",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721581063",
+    "tech_change_status": "Not Planned"
    }
   }
  ]
