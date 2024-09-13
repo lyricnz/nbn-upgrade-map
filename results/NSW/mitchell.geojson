@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-25T07:00:45.352900",
+ "generated": "2024-09-13T23:01:52.178137",
  "suburb": "MITCHELL",
  "features": [
   {
@@ -1062,7 +1062,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705400181",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1159,10 +1159,10 @@
    "properties": {
     "name": "3 GRIFFIN STREET MITCHELL 2795",
     "locID": "LOC000060903548",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705400209",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3696,6 +3696,23 @@
     "gnaf_pid": "GANSW718434089",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.56552601,
+     -33.43151817
+    ]
+   },
+   "properties": {
+    "name": "366 PANORAMA AVENUE MITCHELL 2795",
+    "locID": "LOC000189531372",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718498789"
    }
   },
   {
