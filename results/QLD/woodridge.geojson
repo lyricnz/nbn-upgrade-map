@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-24T10:31:34.753842",
+ "generated": "2024-09-13T01:52:52.830560",
  "suburb": "WOODRIDGE",
  "features": [
   {
@@ -65569,8 +65569,8 @@
    "properties": {
     "name": "UNIT 19, 39 GARFIELD ROAD WOODRIDGE 4114",
     "locID": "LOC100057618407",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157346981",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
@@ -65688,10 +65688,10 @@
    "properties": {
     "name": "UNIT 24, 39 GARFIELD ROAD WOODRIDGE 4114",
     "locID": "LOC000174894795",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157346987",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -68532,8 +68532,8 @@
    "properties": {
     "name": "UNIT 7, 39 GARFIELD ROAD WOODRIDGE 4114",
     "locID": "LOC000176494315",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157354010",
     "tech_change_status": "Eligible to Order",
     "program_type": "Customer-initiated N2P MDU Complex",
@@ -68674,7 +68674,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD157354023",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -84568,27 +84567,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD159340054",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.10073655,
-     -27.63879762
-    ]
-   },
-   "properties": {
-    "name": "13-15 GARFIELD ROAD WOODRIDGE 4114",
-    "locID": "LOC000193373886",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD159340061",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -98188,6 +98169,127 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721394172"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.10073655,
+     -27.63879762
+    ]
+   },
+   "properties": {
+    "name": "15 GARFIELD ROAD WOODRIDGE 4114",
+    "locID": "LOC000003327561",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD721520357",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.09833032,
+     -27.63809801
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 18 ELM AVENUE WOODRIDGE 4114",
+    "locID": "LOC000191982254",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721558780"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.09849687,
+     -27.63715576
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 4 ELM AVENUE WOODRIDGE 4114",
+    "locID": "LOC000191982404",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721559762"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.09833032,
+     -27.63809801
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 18 ELM AVENUE WOODRIDGE 4114",
+    "locID": "LOC000191982249",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721560951"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.09849687,
+     -27.63715576
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 4 ELM AVENUE WOODRIDGE 4114",
+    "locID": "LOC000191982399",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721561160"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.11641866,
+     -27.62928174
+    ]
+   },
+   "properties": {
+    "name": "UNIT 19, 21 SMITH ROAD WOODRIDGE 4114",
+    "locID": "LOC000040833481",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721580957"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.09703989,
+     -27.63374406
+    ]
+   },
+   "properties": {
+    "name": "9B PAMELA CRESCENT WOODRIDGE 4114",
+    "locID": "LOC000180741707",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721581164"
    }
   }
  ]
