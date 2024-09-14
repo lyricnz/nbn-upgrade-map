@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-25T08:08:17.809689",
+ "generated": "2024-09-14T00:09:07.984837",
  "suburb": "ABERCROMBIE",
  "features": [
   {
@@ -2373,9 +2373,9 @@
     "name": "94 ABERCROMBIE DRIVE ABERCROMBIE 2795",
     "locID": "LOC000051950339",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW703875621",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3147,10 +3147,10 @@
    "properties": {
     "name": "23 FARMGATE DRIVE ABERCROMBIE 2795",
     "locID": "LOC000042368857",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW703876087",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4145,7 +4145,7 @@
     "name": "58 ABERCROMBIE DRIVE ABERCROMBIE 2795",
     "locID": "LOC000035731400",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW703876150",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4500,10 +4500,9 @@
    "properties": {
     "name": "67 ABERCROMBIE DRIVE ABERCROMBIE 2795",
     "locID": "LOC000044380018",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW703876205",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4639,8 +4638,8 @@
    "properties": {
     "name": "76 ABERCROMBIE DRIVE ABERCROMBIE 2795",
     "locID": "LOC000065411802",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW703876212",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4679,10 +4678,9 @@
    "properties": {
     "name": "100 ABERCROMBIE DRIVE ABERCROMBIE 2795",
     "locID": "LOC000060043071",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW703877575",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4779,8 +4777,8 @@
    "properties": {
     "name": "11 ABERCROMBIE DRIVE ABERCROMBIE 2795",
     "locID": "LOC000061626242",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW703877580",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5815,10 +5813,9 @@
    "properties": {
     "name": "38 COUNTRY WAY ABERCROMBIE 2795",
     "locID": "LOC000096115507",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706654001",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9308,6 +9305,43 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721395654"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.53881751,
+     -33.38736173
+    ]
+   },
+   "properties": {
+    "name": "84 PARER ROAD ABERCROMBIE 2795",
+    "locID": "LOC000188538287",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721395903"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     149.54807286,
+     -33.38732566
+    ]
+   },
+   "properties": {
+    "name": "236 EGLINTON ROAD ABERCROMBIE 2795",
+    "locID": "LOC000186821005",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721576386",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   }
  ]
