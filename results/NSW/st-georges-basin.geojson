@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-25T16:23:39.576686",
+ "generated": "2024-09-14T08:32:02.409557",
  "suburb": "ST GEORGES BASIN",
  "features": [
   {
@@ -2635,10 +2635,9 @@
    "properties": {
     "name": "3 DURNFORD PLACE ST GEORGES BASIN 2540",
     "locID": "LOC000012445760",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705929930",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3605,7 +3604,7 @@
     "name": "45 LACHLAN CRESCENT ST GEORGES BASIN 2540",
     "locID": "LOC000012187349",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705930146",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6141,7 +6140,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW705940206",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7836,7 +7835,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW705946588",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13978,10 +13977,10 @@
    "properties": {
     "name": "12 ST GEORGES ROAD ST GEORGES BASIN 2540",
     "locID": "LOC000032230317",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705978841",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14695,10 +14694,10 @@
    "properties": {
     "name": "20 ST GEORGES ROAD ST GEORGES BASIN 2540",
     "locID": "LOC000010101076",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705978886",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14937,7 +14936,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW705978902",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19593,7 +19592,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706023113",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22408,10 +22407,9 @@
    "properties": {
     "name": "121 ANSON STREET ST GEORGES BASIN 2540",
     "locID": "LOC000187527654",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW715720404",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38103,6 +38101,57 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.59975845,
+     -35.09388907
+    ]
+   },
+   "properties": {
+    "name": "18 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301618",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721353418"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.60074763,
+     -35.09359864
+    ]
+   },
+   "properties": {
+    "name": "43 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301527",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721353972"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59952682,
+     -35.09413548
+    ]
+   },
+   "properties": {
+    "name": "42 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301734",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721354143"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.59908262,
      -35.09338247
     ]
@@ -38154,8 +38203,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.59798018,
-     -35.09410297
+     150.59798748,
+     -35.09406497
     ]
    },
    "properties": {
@@ -38164,6 +38213,40 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721354856"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59871452,
+     -35.09333469
+    ]
+   },
+   "properties": {
+    "name": "21 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301417",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721354933"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59921938,
+     -35.09381909
+    ]
+   },
+   "properties": {
+    "name": "12 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301589",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721354934"
    }
   },
   {
@@ -38188,6 +38271,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.59970575,
+     -35.09415823
+    ]
+   },
+   "properties": {
+    "name": "40 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301723",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721355377"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.60011827,
      -35.09393578
     ]
@@ -38198,6 +38298,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721355524"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59822907,
+     -35.09322766
+    ]
+   },
+   "properties": {
+    "name": "17 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301320",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721356121"
    }
   },
   {
@@ -38256,6 +38373,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.59880798,
+     -35.09404217
+    ]
+   },
+   "properties": {
+    "name": "50 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301775",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721356287"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.60070172,
      -35.09470943
     ]
@@ -38266,6 +38400,40 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721356514"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.60052205,
+     -35.09468723
+    ]
+   },
+   "properties": {
+    "name": "53 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301924",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721356652"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.60041884,
+     -35.09425104
+    ]
+   },
+   "properties": {
+    "name": "32 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301687",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721356871"
    }
   },
   {
@@ -38307,6 +38475,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.59898775,
+     -35.09406551
+    ]
+   },
+   "properties": {
+    "name": "48 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301768",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721357677"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.6001633,
      -35.09464066
     ]
@@ -38317,6 +38502,57 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721357680"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.60047749,
+     -35.09398242
+    ]
+   },
+   "properties": {
+    "name": "26 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301656",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721357789"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.60034267,
+     -35.09466394
+    ]
+   },
+   "properties": {
+    "name": "55 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301911",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721357818"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.60000652,
+     -35.09350242
+    ]
+   },
+   "properties": {
+    "name": "35 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301486",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721357837"
    }
   },
   {
@@ -38341,6 +38577,91 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.59803956,
+     -35.09379369
+    ]
+   },
+   "properties": {
+    "name": "9 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301365",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721358618"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.60093829,
+     -35.0936224
+    ]
+   },
+   "properties": {
+    "name": "45 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301536",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721358791"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59872822,
+     -35.09445436
+    ]
+   },
+   "properties": {
+    "name": "73 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301821",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721358936"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59945083,
+     -35.09343028
+    ]
+   },
+   "properties": {
+    "name": "29 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301455",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721358947"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59862846,
+     -35.09401887
+    ]
+   },
+   "properties": {
+    "name": "52 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301781",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721359148"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.59801051,
      -35.09394496
     ]
@@ -38351,6 +38672,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721359303"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59908701,
+     -35.09450094
+    ]
+   },
+   "properties": {
+    "name": "69 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301845",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721359646"
    }
   },
   {
@@ -38375,6 +38713,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.60056286,
+     -35.09357465
+    ]
+   },
+   "properties": {
+    "name": "41 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301515",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721360369"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59988405,
+     -35.09418146
+    ]
+   },
+   "properties": {
+    "name": "38 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301710",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721360374"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.59957866,
      -35.09386573
     ]
@@ -38385,6 +38757,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721360586"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59890763,
+     -35.09447766
+    ]
+   },
+   "properties": {
+    "name": "71 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301832",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721360605"
    }
   },
   {
@@ -38426,6 +38815,125 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.6003774,
+     -35.09355058
+    ]
+   },
+   "properties": {
+    "name": "39 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301694",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721361187"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59810655,
+     -35.09349557
+    ]
+   },
+   "properties": {
+    "name": "13 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301349",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721361451"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.5980686,
+     -35.09364237
+    ]
+   },
+   "properties": {
+    "name": "11 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301354",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721361453"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59850031,
+     -35.09372774
+    ]
+   },
+   "properties": {
+    "name": "4 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301543",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721361503"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59916753,
+     -35.09408885
+    ]
+   },
+   "properties": {
+    "name": "46 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301752",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721361533"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59998392,
+     -35.09461737
+    ]
+   },
+   "properties": {
+    "name": "59 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301897",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721361749"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59939916,
+     -35.09384243
+    ]
+   },
+   "properties": {
+    "name": "14 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301591",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721361816"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.60019174,
      -35.09352647
     ]
@@ -38443,6 +38951,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.59817101,
+     -35.09336175
+    ]
+   },
+   "properties": {
+    "name": "15 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301331",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721361897"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59889843,
+     -35.09335856
+    ]
+   },
+   "properties": {
+    "name": "23 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301429",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721361980"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.59980454,
      -35.09459409
     ]
@@ -38453,6 +38995,108 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721362028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.5990396,
+     -35.09379575
+    ]
+   },
+   "properties": {
+    "name": "10 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301570",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721362360"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59836897,
+     -35.09440975
+    ]
+   },
+   "properties": {
+    "name": "77 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301809",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721363171"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.5999385,
+     -35.09391244
+    ]
+   },
+   "properties": {
+    "name": "20 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301625",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721363465"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59926639,
+     -35.09452423
+    ]
+   },
+   "properties": {
+    "name": "67 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301850",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721363676"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59926682,
+     -35.09340639
+    ]
+   },
+   "properties": {
+    "name": "27 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301440",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721363899"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59934731,
+     -35.09411219
+    ]
+   },
+   "properties": {
+    "name": "44 PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301747",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721364000"
    }
   },
   {
@@ -38786,8 +39430,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.59897334,
-     -35.09427346
+     150.5984492,
+     -35.09399359
     ]
    },
    "properties": {
@@ -38816,6 +39460,40 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59798748,
+     -35.09406497
+    ]
+   },
+   "properties": {
+    "name": "5B PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000194693017",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721566229"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.59797167,
+     -35.09414734
+    ]
+   },
+   "properties": {
+    "name": "5A PATRINA CIRCUIT ST GEORGES BASIN 2540",
+    "locID": "LOC000186301383",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721571324"
    }
   }
  ]
