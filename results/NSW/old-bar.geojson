@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-25T12:49:28.082256",
+ "generated": "2024-09-14T05:03:12.881963",
  "suburb": "OLD BAR",
  "features": [
   {
@@ -432,10 +432,10 @@
    "properties": {
     "name": "37 WATERMAN STREET OLD BAR 2430",
     "locID": "LOC000065235001",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705564064",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3355,8 +3355,8 @@
    "properties": {
     "name": "3 SUNI DRIVE OLD BAR 2430",
     "locID": "LOC000072462137",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705574055",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3608,7 +3608,7 @@
     "name": "29 WYDEN STREET OLD BAR 2430",
     "locID": "LOC000028704941",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705575951",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4118,7 +4118,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW705580096",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5663,7 +5663,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW705585948",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8995,9 +8995,9 @@
     "name": "12 GEORGE STREET OLD BAR 2430",
     "locID": "LOC000082296502",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW705598500",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9809,8 +9809,8 @@
    "properties": {
     "name": "23 DAVID STREET OLD BAR 2430",
     "locID": "LOC000073008404",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705605017",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14304,10 +14304,9 @@
    "properties": {
     "name": "5 JOEL DRIVE OLD BAR 2430",
     "locID": "LOC000077787658",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705622319",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18072,10 +18071,9 @@
    "properties": {
     "name": "1 BERBER ROAD OLD BAR 2430",
     "locID": "LOC000090632525",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705629551",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18370,10 +18368,9 @@
    "properties": {
     "name": "3 JOEL DRIVE OLD BAR 2430",
     "locID": "LOC000043423547",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705632577",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20300,10 +20297,9 @@
    "properties": {
     "name": "35 CARRABEEN DRIVE OLD BAR 2430",
     "locID": "LOC000014182744",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705637080",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22434,6 +22430,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.57857299,
+     -31.96670378
+    ]
+   },
+   "properties": {
+    "name": "105 OLD BAR ROAD OLD BAR 2430",
+    "locID": "LOC000012244099",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW705639665",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.57704822,
      -31.96703967
     ]
@@ -23911,10 +23927,9 @@
    "properties": {
     "name": "UNIT 2, 25 CORKWOOD STREET OLD BAR 2430",
     "locID": "LOC000079911566",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW708284223",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25840,8 +25855,8 @@
    "properties": {
     "name": "25 CORONATION STREET OLD BAR 2430",
     "locID": "LOC000035646896",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709889559",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -28410,10 +28425,10 @@
    "properties": {
     "name": "1 SEASOUND CLOSE OLD BAR 2430",
     "locID": "LOC000041597469",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712096176",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28766,10 +28781,10 @@
    "properties": {
     "name": "16 PRYOR CRESCENT OLD BAR 2430",
     "locID": "LOC000080257436",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712096201",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30153,7 +30168,7 @@
     "name": "63 OLD BAR ROAD OLD BAR 2430",
     "locID": "LOC000077262653",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW712113358",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31618,7 +31633,7 @@
     "name": "45 WATERMAN STREET OLD BAR 2430",
     "locID": "LOC000008092219",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW712120839",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -32169,10 +32184,10 @@
    "properties": {
     "name": "6 CORKWOOD STREET OLD BAR 2430",
     "locID": "LOC000013942870",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712130001",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34325,9 +34340,9 @@
     "name": "25 BRYAN STREET OLD BAR 2430",
     "locID": "LOC000099701055",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW712139575",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34481,10 +34496,10 @@
    "properties": {
     "name": "36 RUSHBY DRIVE OLD BAR 2430",
     "locID": "LOC000076748744",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712139606",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35432,10 +35447,10 @@
    "properties": {
     "name": "11 EUCALYPT CLOSE OLD BAR 2430",
     "locID": "LOC000010569063",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712152109",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35532,10 +35547,9 @@
    "properties": {
     "name": "32 RUSHBY DRIVE OLD BAR 2430",
     "locID": "LOC000060704262",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712155683",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37045,6 +37059,26 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712196439",
     "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.58721501,
+     -31.95400076
+    ]
+   },
+   "properties": {
+    "name": "151 WATERMAN STREET OLD BAR 2430",
+    "locID": "LOC000076173878",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW712196440",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -40374,26 +40408,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.55767183,
-     -31.96409702
-    ]
-   },
-   "properties": {
-    "name": "857-893 OLD BAR ROAD OLD BAR 2430",
-    "locID": "LOC000015901079",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716739140",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.57933503,
      -31.96867065
     ]
@@ -40531,7 +40545,7 @@
    "properties": {
     "name": "215 SALTWATER ROAD OLD BAR 2430",
     "locID": "LOC000085757809",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716741876",
     "tech_change_status": "Not Planned"
@@ -41251,7 +41265,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716852391",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50028,10 +50042,10 @@
    "properties": {
     "name": "12 THREADFIN COURT OLD BAR 2430",
     "locID": "LOC000165652994",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718854552",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -58499,6 +58513,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.57887213,
+     -31.96065699
+    ]
+   },
+   "properties": {
+    "name": "64 MARRA DRIVE OLD BAR 2430",
+    "locID": "LOC000190515476",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721437912"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.57628885,
      -31.97234065
     ]
@@ -58890,6 +58921,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.57884363,
+     -31.96010415
+    ]
+   },
+   "properties": {
+    "name": "60 MARRA DRIVE OLD BAR 2430",
+    "locID": "LOC000190515597",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721440913"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.57934284,
      -31.95972584
     ]
@@ -59155,6 +59203,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721443090"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.58004325,
+     -31.95776779
+    ]
+   },
+   "properties": {
+    "name": "51 MARRA DRIVE OLD BAR 2430",
+    "locID": "LOC000190515972",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721443204"
    }
   },
   {
@@ -59604,23 +59669,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.57580576,
-     -31.97218067
-    ]
-   },
-   "properties": {
-    "name": "16 DRIFTWOOD BOULEVARD OLD BAR 2430",
-    "locID": "LOC000191270877",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW721447155"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.57631468,
      -31.97184001
     ]
@@ -59857,6 +59905,142 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721523391"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.57580576,
+     -31.97218067
+    ]
+   },
+   "properties": {
+    "name": "2 PEONY AVENUE OLD BAR 2430",
+    "locID": "LOC000191270877",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721575109"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.58101853,
+     -31.95853463
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 1 RETREAT CLOSE OLD BAR 2430",
+    "locID": "LOC000194896864",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721582003"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.58101853,
+     -31.95853463
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 1 RETREAT CLOSE OLD BAR 2430",
+    "locID": "LOC000194896886",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721583479"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.58101853,
+     -31.95853463
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 1 RETREAT CLOSE OLD BAR 2430",
+    "locID": "LOC000194896864",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721583603"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.58021441,
+     -31.96043598
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 15 VIEWMONT WAY OLD BAR 2430",
+    "locID": "LOC000188728348",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721589030"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.58021441,
+     -31.96043598
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 15 VIEWMONT WAY OLD BAR 2430",
+    "locID": "LOC000188728348",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721589114"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.58056704,
+     -31.95848507
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 3 RETREAT CLOSE OLD BAR 2430",
+    "locID": "LOC000194896886",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721589524"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.58056704,
+     -31.95848507
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 3 RETREAT CLOSE OLD BAR 2430",
+    "locID": "LOC000194896886",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721590800"
    }
   }
  ]
