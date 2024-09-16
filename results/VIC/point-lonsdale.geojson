@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-27T16:39:29.641707",
+ "generated": "2024-09-16T12:19:30.896111",
  "suburb": "POINT LONSDALE",
  "features": [
   {
@@ -2862,46 +2862,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.61110426,
-     -38.27484209
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 26 HILLCREST DRIVE POINT LONSDALE 3225",
-    "locID": "LOC000067780444",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC414108975",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.61110426,
-     -38.27484209
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 26 HILLCREST DRIVE POINT LONSDALE 3225",
-    "locID": "LOC000067780444",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAVIC414108976",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.61296814,
      -38.273091
     ]
@@ -4926,9 +4886,9 @@
     "name": "25 BOWEN ROAD POINT LONSDALE 3225",
     "locID": "LOC000029227434",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419638235",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6463,10 +6423,10 @@
    "properties": {
     "name": "50 SANTA MONICA BOULEVARD POINT LONSDALE 3225",
     "locID": "LOC000057940564",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419645525",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7618,10 +7578,10 @@
    "properties": {
     "name": "9 DOWNTON CRESCENT POINT LONSDALE 3225",
     "locID": "LOC000054159955",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419648113",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10377,10 +10337,10 @@
    "properties": {
     "name": "44 JORDAN ROAD POINT LONSDALE 3225",
     "locID": "LOC000028465431",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419939520",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29222,10 +29182,9 @@
    "properties": {
     "name": "6 DOUGLAS COURT POINT LONSDALE 3225",
     "locID": "LOC000050680468",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420861194",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -45139,6 +45098,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.61496472,
+     -38.27286905
+    ]
+   },
+   "properties": {
+    "name": "40 LAWRENCE ROAD POINT LONSDALE 3225",
+    "locID": "LOC000195345180",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421769297"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.61527473,
      -38.2754921
     ]
@@ -50835,7 +50811,7 @@
    "properties": {
     "name": "49 OCEAN ROAD POINT LONSDALE 3225",
     "locID": "LOC000173446471",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424500843",
     "tech_change_status": "Not Planned"
@@ -56091,10 +56067,12 @@
    "properties": {
     "name": "38A JORDAN ROAD POINT LONSDALE 3225",
     "locID": "LOC000175074207",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC425800828",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -62751,23 +62729,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.60717629,
-     -38.26448724
-    ]
-   },
-   "properties": {
-    "name": "15-17 HALCYON STREET POINT LONSDALE 3225",
-    "locID": "LOC000191858547",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720653272"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      144.60755309,
      -38.26415026
     ]
@@ -67417,6 +67378,40 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721488449"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.6071763,
+     -38.26448724
+    ]
+   },
+   "properties": {
+    "name": "17 HALCYON STREET POINT LONSDALE 3225",
+    "locID": "LOC000191858620",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721543106"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.6066487,
+     -38.2644134
+    ]
+   },
+   "properties": {
+    "name": "23 CASABLANCA STREET POINT LONSDALE 3225",
+    "locID": "LOC000194796276",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721543435"
    }
   }
  ]
