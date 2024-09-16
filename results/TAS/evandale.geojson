@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-27T15:20:27.876902",
+ "generated": "2024-09-16T10:40:56.813614",
  "suburb": "EVANDALE",
  "features": [
   {
@@ -15,10 +15,10 @@
    "properties": {
     "name": "1 ALICE COURT EVANDALE 7212",
     "locID": "LOC000095206368",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702184531",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -117,7 +117,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702185722",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -767,10 +767,9 @@
    "properties": {
     "name": "1-3 BARCLAY STREET EVANDALE 7212",
     "locID": "LOC000015064427",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702193837",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -866,10 +865,10 @@
    "properties": {
     "name": "36 BARCLAY STREET EVANDALE 7212",
     "locID": "LOC000107086972",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702194929",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2180,10 +2179,9 @@
    "properties": {
     "name": "4 DROVERS COURT EVANDALE 7212",
     "locID": "LOC000107093985",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702232595",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2580,7 +2578,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GATAS702243226",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4721,7 +4719,7 @@
    "properties": {
     "name": "548 LOGAN ROAD EVANDALE 7212",
     "locID": "LOC000184414867",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS702273065",
     "tech_change_status": "Not Planned"
@@ -5055,7 +5053,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GATAS702280582",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10572,7 +10570,7 @@
    "properties": {
     "name": "50 EVERTON LANE EVANDALE 7212",
     "locID": "LOC000084895410",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS716845832",
     "tech_change_status": "Not Planned"
@@ -11679,10 +11677,10 @@
    "properties": {
     "name": "22A LOGAN ROAD EVANDALE 7212",
     "locID": "LOC000179525734",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS719602111",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11896,6 +11894,26 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GATAS721347209",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.25243308,
+     -41.56880052
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 20 HARTNOLL PLACE EVANDALE 7212",
+    "locID": "LOC000189622212",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GATAS721554598",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   }
  ]
