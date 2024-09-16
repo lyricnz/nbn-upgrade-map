@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-28T00:46:16.578000",
+ "generated": "2024-09-16T20:17:43.111977",
  "suburb": "MOOLAP",
  "features": [
   {
@@ -348,8 +348,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.43241481,
-     -38.17541629
+     144.43195856,
+     -38.17590802
     ]
    },
    "properties": {
@@ -1290,9 +1290,9 @@
     "name": "27-35 ESSEX STREET MOOLAP 3224",
     "locID": "LOC000002093374",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419646380",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4204,9 +4204,9 @@
     "name": "21-29 WILLS CRESCENT MOOLAP 3224",
     "locID": "LOC000124216107",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420260032",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7003,24 +7003,6 @@
     "tech": "FTTC",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC420849733",
-    "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     144.41420591,
-     -38.17999553
-    ]
-   },
-   "properties": {
-    "name": "21-39 MILFORD STREET MOOLAP 3224",
-    "locID": "LOC000124183660",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420849740",
     "tech_change_status": "Eligible to Order"
    }
   },
@@ -10109,10 +10091,9 @@
    "properties": {
     "name": "UNIT 2, 177-179 TOWNSEND ROAD MOOLAP 3224",
     "locID": "LOC000010973889",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421667788",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10260,8 +10241,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     144.43241481,
-     -38.17541629
+     144.43195856,
+     -38.17590802
     ]
    },
    "properties": {
@@ -22559,7 +22540,7 @@
    "properties": {
     "name": "63-65 MOOLAP STATION ROAD MOOLAP 3224",
     "locID": "LOC000180118417",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719105856",
     "tech_change_status": "Not Planned"
@@ -22849,7 +22830,7 @@
    "properties": {
     "name": "6 MOOLAP STATION ROAD MOOLAP 3224",
     "locID": "LOC000180118417",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC719518687",
     "tech_change_status": "Not Planned"
@@ -23896,6 +23877,46 @@
     "tech": "FTTB",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721294724"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.41564255,
+     -38.16725604
+    ]
+   },
+   "properties": {
+    "name": "32 DENBIGH STREET MOOLAP 3224",
+    "locID": "LOC000014427273",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAVIC721545881",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.41566356,
+     -38.16714358
+    ]
+   },
+   "properties": {
+    "name": "36 DENBIGH STREET MOOLAP 3224",
+    "locID": "LOC000085430004",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC721548355",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   }
  ]
