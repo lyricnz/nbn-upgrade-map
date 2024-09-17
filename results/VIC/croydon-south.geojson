@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-28T05:35:28.087510",
+ "generated": "2024-09-17T01:36:55.801471",
  "suburb": "CROYDON SOUTH",
  "features": [
   {
@@ -5586,10 +5586,9 @@
    "properties": {
     "name": "2 BLOSSOM WALK CROYDON SOUTH 3136",
     "locID": "LOC000101451621",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420116939",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14065,7 +14064,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420728263",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14458,10 +14457,9 @@
    "properties": {
     "name": "41 THE MALL CROYDON SOUTH 3136",
     "locID": "LOC000102052790",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420741036",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420741036"
    }
   },
   {
@@ -16622,6 +16620,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.274646,
+     -37.812489
+    ]
+   },
+   "properties": {
+    "name": "4 PETER STREET CROYDON SOUTH 3136",
+    "locID": "LOC000195483633",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421020131"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.27498046,
      -37.81271509
     ]
@@ -17300,10 +17315,9 @@
    "properties": {
     "name": "144 EASTFIELD ROAD CROYDON SOUTH 3136",
     "locID": "LOC000044941574",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC421029937",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421029937"
    }
   },
   {
@@ -22939,23 +22953,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.288802,
-     -37.81685
-    ]
-   },
-   "properties": {
-    "name": "1-5 RESEARCH DRIVE CROYDON SOUTH 3136",
-    "locID": "LOC000123669549",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421627528"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.262286,
      -37.814443
     ]
@@ -27909,10 +27906,9 @@
    "properties": {
     "name": "133 BELMONT ROAD EAST CROYDON SOUTH 3136",
     "locID": "LOC000015224434",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC422021546",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422021546"
    }
   },
   {
@@ -29979,23 +29975,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.288802,
-     -37.81685
-    ]
-   },
-   "properties": {
-    "name": "1-35 RESEARCH DRIVE CROYDON SOUTH 3136",
-    "locID": "LOC000084510994",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423387212"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.288676,
      -37.817398
     ]
@@ -30144,40 +30123,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC423706652",
     "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.2663578,
-     -37.8162158
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 19 LONG VIEW ROAD CROYDON SOUTH 3136",
-    "locID": "LOC000040732256",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423708232"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.2663578,
-     -37.8162158
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 19 LONG VIEW ROAD CROYDON SOUTH 3136",
-    "locID": "LOC000043464561",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC423708233"
    }
   },
   {
@@ -31363,8 +31308,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.2663578,
-     -37.8162158
+     145.26635491,
+     -37.81621283
     ]
    },
    "properties": {
@@ -40422,6 +40367,57 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721380175"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.27329548,
+     -37.81547519
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 51 FARADAY ROAD CROYDON SOUTH 3136",
+    "locID": "LOC000194960030",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721542389"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.27322422,
+     -37.81529546
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 51 FARADAY ROAD CROYDON SOUTH 3136",
+    "locID": "LOC000194960030",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721543159"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.27320298,
+     -37.81564588
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 51 FARADAY ROAD CROYDON SOUTH 3136",
+    "locID": "LOC000194960011",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721544266"
    }
   }
  ]
