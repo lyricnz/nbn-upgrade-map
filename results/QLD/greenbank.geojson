@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-28T12:49:47.136804",
+ "generated": "2024-09-17T09:19:17.753754",
  "suburb": "GREENBANK",
  "features": [
   {
@@ -1422,10 +1422,10 @@
    "properties": {
     "name": "33 JAMBOREE CLOSE GREENBANK 4124",
     "locID": "LOC000060485495",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155353723",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1505,7 +1505,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155353750",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1749,10 +1749,9 @@
    "properties": {
     "name": "55-57 PLATYPUS DRIVE GREENBANK 4124",
     "locID": "LOC000010819230",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155355442",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2286,10 +2285,10 @@
    "properties": {
     "name": "11 CARRICAN COURT GREENBANK 4124",
     "locID": "LOC000043361520",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155357183",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3420,10 +3419,9 @@
    "properties": {
     "name": "327-329 SPRING MOUNTAIN DRIVE GREENBANK 4124",
     "locID": "LOC000024880172",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155359032",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4241,8 +4239,8 @@
    "properties": {
     "name": "151 NEW BEITH ROAD GREENBANK 4124",
     "locID": "LOC000006589891",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155360668",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5069,6 +5067,46 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.98958478,
+     -27.72188569
+    ]
+   },
+   "properties": {
+    "name": "524 STONEY CAMP ROAD GREENBANK 4124",
+    "locID": "LOC000060995289",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD155362260",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98941737,
+     -27.72042026
+    ]
+   },
+   "properties": {
+    "name": "527 STONEY CAMP ROAD GREENBANK 4124",
+    "locID": "LOC000105549983",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155362261",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.01432522,
      -27.70716891
     ]
@@ -5190,6 +5228,26 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155362487",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98806157,
+     -27.72014542
+    ]
+   },
+   "properties": {
+    "name": "547 STONEY CAMP ROAD GREENBANK 4124",
+    "locID": "LOC000027721908",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD155363291",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -5600,46 +5658,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155365031",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.98636662,
-     -27.72469401
-    ]
-   },
-   "properties": {
-    "name": "76-82 TEVIOT ROAD GREENBANK 4124",
-    "locID": "LOC000031781661",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155365032",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.98625675,
-     -27.72535524
-    ]
-   },
-   "properties": {
-    "name": "84-88 TEVIOT ROAD GREENBANK 4124",
-    "locID": "LOC000007680199",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD155365033",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -9477,9 +9495,9 @@
     "name": "84-86 SILVEREYE CRESCENT GREENBANK 4124",
     "locID": "LOC000037219418",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155369879",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9960,9 +9978,9 @@
     "name": "26-28 KANGAROO CLOSE GREENBANK 4124",
     "locID": "LOC000029836375",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156074454",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10351,10 +10369,9 @@
    "properties": {
     "name": "501 MIDDLE ROAD GREENBANK 4124",
     "locID": "LOC000007641501",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156606310",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10392,26 +10409,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156606315",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.9865938,
-     -27.72396146
-    ]
-   },
-   "properties": {
-    "name": "64-74 TEVIOT ROAD GREENBANK 4124",
-    "locID": "LOC000106681579",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156606316",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
@@ -10465,10 +10462,10 @@
    "properties": {
     "name": "161-181 THOMPSON ROAD GREENBANK 4124",
     "locID": "LOC000018298907",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156606334",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -10745,10 +10742,10 @@
    "properties": {
     "name": "42-46 BIRDSVILLE STREET GREENBANK 4124",
     "locID": "LOC000013973596",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156606867",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -12110,8 +12107,8 @@
    "properties": {
     "name": "9-13 DUNNART ROAD GREENBANK 4124",
     "locID": "LOC000126766230",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156608052",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -14497,26 +14494,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.98858398,
-     -27.72219077
-    ]
-   },
-   "properties": {
-    "name": "538-546 STONEY CAMP ROAD GREENBANK 4124",
-    "locID": "LOC000028567708",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156618369",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.98569775,
      -27.7279458
     ]
@@ -14598,24 +14575,6 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156618375",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.9831391,
-     -27.73328766
-    ]
-   },
-   "properties": {
-    "name": "197-201 TEVIOT ROAD GREENBANK 4124",
-    "locID": "LOC000126781099",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD156618376",
     "tech_change_status": "Not Planned"
    }
   },
@@ -15959,10 +15918,9 @@
    "properties": {
     "name": "237-243 ANDREW ROAD GREENBANK 4124",
     "locID": "LOC000037183403",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156623834",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17230,7 +17188,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156626508",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -18477,9 +18435,9 @@
     "name": "8-10 GOODNA ROAD GREENBANK 4124",
     "locID": "LOC000062208589",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156627361",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23245,10 +23203,10 @@
    "properties": {
     "name": "1-5 COOLBART COURT GREENBANK 4124",
     "locID": "LOC000106657252",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156632890",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24004,6 +23962,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.9831391,
+     -27.73328766
+    ]
+   },
+   "properties": {
+    "name": "201 TEVIOT ROAD GREENBANK 4124",
+    "locID": "LOC000126781099",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158006954",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      153.00448796,
      -27.70390436
     ]
@@ -24256,10 +24232,10 @@
    "properties": {
     "name": "2-8 MANGIRI STREET GREENBANK 4124",
     "locID": "LOC000087980627",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD159389018",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25882,9 +25858,9 @@
     "name": "4037-4041 MOUNT LINDESAY HIGHWAY GREENBANK 4124",
     "locID": "LOC000075145665",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD159396181",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28460,26 +28436,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.98972283,
-     -27.71960619
-    ]
-   },
-   "properties": {
-    "name": "694-696 MIDDLE ROAD GREENBANK 4124",
-    "locID": "LOC000047505660",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD160724847",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.99012379,
      -27.71948477
     ]
@@ -30708,46 +30664,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.98941737,
-     -27.72042026
-    ]
-   },
-   "properties": {
-    "name": "527-545 STONEY CAMP ROAD GREENBANK 4124",
-    "locID": "LOC000105549983",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD161318626",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.98806157,
-     -27.72014542
-    ]
-   },
-   "properties": {
-    "name": "547-561 STONEY CAMP ROAD GREENBANK 4124",
-    "locID": "LOC000027721908",
-    "tech": "FTTN",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD161318627",
-    "tech_change_status": "Committed",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2025"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.01092032,
      -27.71946598
     ]
@@ -30809,7 +30725,7 @@
    "properties": {
     "name": "LOT 1 TULLY ROAD GREENBANK 4124",
     "locID": "LOC000126778811",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161335947",
     "tech_change_status": "Not Planned"
@@ -30925,7 +30841,7 @@
    "properties": {
     "name": "468 TULLY ROAD GREENBANK 4124",
     "locID": "LOC000038542327",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161372312",
     "tech_change_status": "Not Planned"
@@ -34382,7 +34298,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161757098",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35810,7 +35726,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161764466",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38148,8 +38064,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.94425144,
-     -27.73146036
+     152.94423199,
+     -27.73144919
     ]
    },
    "properties": {
@@ -38250,8 +38166,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.94278121,
-     -27.73133335
+     152.94277076,
+     -27.73132772
     ]
    },
    "properties": {
@@ -38442,26 +38358,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161769898",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.98959709,
-     -27.72183041
-    ]
-   },
-   "properties": {
-    "name": "524-536 STONEY CAMP ROAD GREENBANK 4124",
-    "locID": "LOC000060995289",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD161769899",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -40053,10 +39949,9 @@
    "properties": {
     "name": "148-152 ANDREW ROAD GREENBANK 4124",
     "locID": "LOC000093847744",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162005239",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40291,9 +40186,9 @@
     "name": "2-6 RUZA PLACE GREENBANK 4124",
     "locID": "LOC000068116818",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD162221856",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -41220,7 +41115,7 @@
    "properties": {
     "name": "404 TULLY ROAD GREENBANK 4124",
     "locID": "LOC000126778811",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162448655",
     "tech_change_status": "Not Planned"
@@ -41908,10 +41803,9 @@
    "properties": {
     "name": "416-418 SPRING MOUNTAIN DRIVE GREENBANK 4124",
     "locID": "LOC000126778951",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162522757",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42438,10 +42332,9 @@
    "properties": {
     "name": "49-53 BOWERBIRD CLOSE GREENBANK 4124",
     "locID": "LOC000072498178",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162670971",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43618,26 +43511,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD162859725",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     152.98091,
-     -27.73659305
-    ]
-   },
-   "properties": {
-    "name": "19-67 PUB LANE GREENBANK 4124",
-    "locID": "LOC000098850050",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD162859726",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45524,10 +45397,9 @@
    "properties": {
     "name": "354-358 BELLBIRD DRIVE GREENBANK 4124",
     "locID": "LOC000107143335",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163259270",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -82738,7 +82610,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD721183048",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -96418,6 +96290,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.98983182,
+     -27.73397918
+    ]
+   },
+   "properties": {
+    "name": "71 GUROMAN DRIVE GREENBANK 4124",
+    "locID": "LOC000194323662",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721506396"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.99127394,
      -27.73487478
     ]
@@ -96503,6 +96392,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.98993096,
+     -27.73351031
+    ]
+   },
+   "properties": {
+    "name": "77 GUROMAN DRIVE GREENBANK 4124",
+    "locID": "LOC000194323691",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721507260"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.99155966,
      -27.73539235
     ]
@@ -96547,6 +96453,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721507767"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98990034,
+     -27.73365209
+    ]
+   },
+   "properties": {
+    "name": "75 GUROMAN DRIVE GREENBANK 4124",
+    "locID": "LOC000194323689",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721507775"
    }
   },
   {
@@ -96724,6 +96647,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.98999943,
+     -27.73322143
+    ]
+   },
+   "properties": {
+    "name": "81 GUROMAN DRIVE GREENBANK 4124",
+    "locID": "LOC000194323712",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721508423"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.99376343,
      -27.73530061
     ]
@@ -96802,6 +96742,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721508969"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98986588,
+     -27.73381161
+    ]
+   },
+   "properties": {
+    "name": "73 GUROMAN DRIVE GREENBANK 4124",
+    "locID": "LOC000194323670",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721508987"
    }
   },
   {
@@ -97040,6 +96997,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721510271"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98995776,
+     -27.73338624
+    ]
+   },
+   "properties": {
+    "name": "79 GUROMAN DRIVE GREENBANK 4124",
+    "locID": "LOC000194323708",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721510411"
    }
   },
   {
@@ -97371,8 +97345,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96951681,
-     -27.72858826
+     152.97089829,
+     -27.72718482
     ]
    },
    "properties": {
@@ -97388,8 +97362,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97101229,
+     -27.72827672
     ]
    },
    "properties": {
@@ -97405,8 +97379,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97103138,
+     -27.72815609
     ]
    },
    "properties": {
@@ -97422,8 +97396,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97143681,
+     -27.72844147
     ]
    },
    "properties": {
@@ -97439,8 +97413,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97162873,
+     -27.72722849
     ]
    },
    "properties": {
@@ -97456,8 +97430,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96951681,
-     -27.72858826
+     152.97093575,
+     -27.72694802
     ]
    },
    "properties": {
@@ -97473,8 +97447,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96951681,
-     -27.72858826
+     152.97084527,
+     -27.72751991
     ]
    },
    "properties": {
@@ -97490,8 +97464,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97189214,
-     -27.72634059
+     152.9709581,
+     -27.7264159
     ]
    },
    "properties": {
@@ -97507,8 +97481,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97189214,
-     -27.72634059
+     152.97181987,
+     -27.72652295
     ]
    },
    "properties": {
@@ -97524,8 +97498,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97136052,
+     -27.72890289
     ]
    },
    "properties": {
@@ -97541,8 +97515,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97149301,
+     -27.72808634
     ]
    },
    "properties": {
@@ -97558,8 +97532,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97127313,
+     -27.72662806
     ]
    },
    "properties": {
@@ -97575,8 +97549,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97114412,
+     -27.72744344
     ]
    },
    "properties": {
@@ -97592,8 +97566,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.9711618,
+     -27.72733174
     ]
    },
    "properties": {
@@ -97609,8 +97583,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96951681,
-     -27.72858826
+     152.97088062,
+     -27.72729652
     ]
    },
    "properties": {
@@ -97626,8 +97600,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97164887,
+     -27.72710116
     ]
    },
    "properties": {
@@ -97643,8 +97617,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.9709508,
+     -27.72866543
     ]
    },
    "properties": {
@@ -97660,8 +97634,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97105117,
+     -27.72803099
     ]
    },
    "properties": {
@@ -97677,8 +97651,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.95986665,
-     -27.70107722
+     152.97017787,
+     -27.72716051
     ]
    },
    "properties": {
@@ -97694,8 +97668,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97189214,
-     -27.72634059
+     152.969965,
+     -27.72703129
     ]
    },
    "properties": {
@@ -97711,8 +97685,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.970972,
+     -27.72853139
     ]
    },
    "properties": {
@@ -97728,8 +97702,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97140149,
+     -27.7286649
     ]
    },
    "properties": {
@@ -97745,8 +97719,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97170583,
+     -27.72672521
     ]
    },
    "properties": {
@@ -97762,8 +97736,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97090403,
+     -27.72894908
     ]
    },
    "properties": {
@@ -97779,8 +97753,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.95986665,
-     -27.70107722
+     152.96975204,
+     -27.72750372
     ]
    },
    "properties": {
@@ -97796,8 +97770,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97189214,
-     -27.72634059
+     152.97109884,
+     -27.7264225
     ]
    },
    "properties": {
@@ -97813,8 +97787,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97112645,
+     -27.72755514
     ]
    },
    "properties": {
@@ -97830,8 +97804,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97121693,
+     -27.72698325
     ]
    },
    "properties": {
@@ -97847,8 +97821,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96951681,
-     -27.72858826
+     152.97086295,
+     -27.72740822
     ]
    },
    "properties": {
@@ -97864,8 +97838,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97110771,
+     -27.72767355
     ]
    },
    "properties": {
@@ -97881,8 +97855,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96951681,
-     -27.72858826
+     152.970461,
+     -27.72710042
     ]
    },
    "properties": {
@@ -97898,8 +97872,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.95986665,
-     -27.70107722
+     152.96941307,
+     -27.72744867
     ]
    },
    "properties": {
@@ -97915,8 +97889,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.95986665,
-     -27.70107722
+     152.96989264,
+     -27.72752133
     ]
    },
    "properties": {
@@ -97932,8 +97906,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.95986665,
-     -27.70107722
+     152.97003322,
+     -27.72753894
     ]
    },
    "properties": {
@@ -97949,8 +97923,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.95986665,
-     -27.70107722
+     152.97017381,
+     -27.72755656
     ]
    },
    "properties": {
@@ -97966,8 +97940,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.9713838,
+     -27.72877663
     ]
    },
    "properties": {
@@ -97983,8 +97957,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.9712346,
+     -27.72687155
     ]
    },
    "properties": {
@@ -98000,8 +97974,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.95986665,
-     -27.70107722
+     152.96961146,
+     -27.7274861
     ]
    },
    "properties": {
@@ -98017,8 +97991,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97117946,
+     -27.72722005
     ]
    },
    "properties": {
@@ -98034,8 +98008,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97099321,
+     -27.72839735
     ]
    },
    "properties": {
@@ -98051,8 +98025,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97107238,
+     -27.72789695
     ]
    },
    "properties": {
@@ -98068,8 +98042,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97145554,
+     -27.72832309
     ]
    },
    "properties": {
@@ -98085,8 +98059,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97189214,
-     -27.72634059
+     152.97122719,
+     -27.72641821
     ]
    },
    "properties": {
@@ -98102,8 +98076,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97168528,
+     -27.72687106
     ]
    },
    "properties": {
@@ -98119,8 +98093,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97159091,
+     -27.72746753
     ]
    },
    "properties": {
@@ -98136,8 +98110,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96951681,
-     -27.72858826
+     152.97048079,
+     -27.72697531
     ]
    },
    "properties": {
@@ -98153,8 +98127,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.9711982,
+     -27.72710165
     ]
    },
    "properties": {
@@ -98170,8 +98144,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97125334,
+     -27.72675315
     ]
    },
    "properties": {
@@ -98187,8 +98161,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97151422,
+     -27.7279523
     ]
    },
    "properties": {
@@ -98204,8 +98178,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97189214,
-     -27.72634059
+     152.97023825,
+     -27.72685076
     ]
    },
    "properties": {
@@ -98221,8 +98195,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97147426,
+     -27.72820471
     ]
    },
    "properties": {
@@ -98238,8 +98212,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97166654,
+     -27.72698946
     ]
    },
    "properties": {
@@ -98255,8 +98229,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97189214,
-     -27.72634059
+     152.97008438,
+     -27.72694742
     ]
    },
    "properties": {
@@ -98272,8 +98246,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96951681,
-     -27.72858826
+     152.97082654,
+     -27.72763833
     ]
    },
    "properties": {
@@ -98289,8 +98263,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96951681,
-     -27.72858826
+     152.97091702,
+     -27.72706642
     ]
    },
    "properties": {
@@ -98306,8 +98280,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97157218,
+     -27.72758593
     ]
    },
    "properties": {
@@ -98323,8 +98297,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97093101,
+     -27.72879052
     ]
    },
    "properties": {
@@ -98340,8 +98314,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97155098,
+     -27.72771997
     ]
    },
    "properties": {
@@ -98357,8 +98331,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97141914,
+     -27.72855316
     ]
    },
    "properties": {
@@ -98374,8 +98348,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.97118408,
-     -27.72918614
+     152.97160859,
+     -27.72735583
     ]
    },
    "properties": {
@@ -98391,8 +98365,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.96951681,
-     -27.72858826
+     152.97095343,
+     -27.72683632
     ]
    },
    "properties": {
@@ -98401,6 +98375,195 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721521651"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98654856,
+     -27.72466049
+    ]
+   },
+   "properties": {
+    "name": "76 TEVIOT ROAD GREENBANK 4124",
+    "locID": "LOC000031781661",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD721558407",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97168154,
+     -27.72649925
+    ]
+   },
+   "properties": {
+    "name": "41 SAGE STREET GREENBANK 4124",
+    "locID": "LOC000193110021",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721558601"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.9709711,
+     -27.72672462
+    ]
+   },
+   "properties": {
+    "name": "62 AUSTRALIS CIRCUIT GREENBANK 4124",
+    "locID": "LOC000193110078",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721558641"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98679469,
+     -27.72396351
+    ]
+   },
+   "properties": {
+    "name": "64 TEVIOT ROAD GREENBANK 4124",
+    "locID": "LOC000106681579",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD721559828",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.97098877,
+     -27.72661293
+    ]
+   },
+   "properties": {
+    "name": "60 AUSTRALIS CIRCUIT GREENBANK 4124",
+    "locID": "LOC000193110066",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721561292"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98972283,
+     -27.71960619
+    ]
+   },
+   "properties": {
+    "name": "694 MIDDLE ROAD GREENBANK 4124",
+    "locID": "LOC000047505660",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD721584812",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98091,
+     -27.73659305
+    ]
+   },
+   "properties": {
+    "name": "19 PUB LANE GREENBANK 4124",
+    "locID": "LOC000064583120",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GAQLD721585219",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98625675,
+     -27.72535524
+    ]
+   },
+   "properties": {
+    "name": "84 TEVIOT ROAD GREENBANK 4124",
+    "locID": "LOC000007680199",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAQLD721585812",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.98858398,
+     -27.72219077
+    ]
+   },
+   "properties": {
+    "name": "538 STONEY CAMP ROAD GREENBANK 4124",
+    "locID": "LOC000028567708",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD721587243",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.9831391,
+     -27.73328766
+    ]
+   },
+   "properties": {
+    "name": "197 TEVIOT ROAD GREENBANK 4124",
+    "locID": "LOC000126781099",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721587625",
+    "tech_change_status": "Not Planned"
    }
   }
  ]
