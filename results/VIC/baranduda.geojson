@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-28T03:38:57.682064",
+ "generated": "2024-09-16T23:25:36.577008",
  "suburb": "BARANDUDA",
  "features": [
   {
@@ -697,10 +697,9 @@
    "properties": {
     "name": "35 HOWARDS ROAD BARANDUDA 3691",
     "locID": "LOC000065784261",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC410833052",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1034,7 +1033,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC414509051",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4866,10 +4865,10 @@
    "properties": {
     "name": "13 LORAGE STREET BARANDUDA 3691",
     "locID": "LOC000075855771",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421237191",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5046,10 +5045,9 @@
    "properties": {
     "name": "8 LUTZEN CLOSE BARANDUDA 3691",
     "locID": "LOC000049883918",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421252659",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9024,7 +9022,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC422297453",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -9122,6 +9122,24 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422302867"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.95850288,
+     -36.1613008
+    ]
+   },
+   "properties": {
+    "name": "310 WHYTES ROAD BARANDUDA 3691",
+    "locID": "LOC000073544693",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC422334015",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -10144,8 +10162,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.94224887,
-     -36.16371551
+     146.94107985,
+     -36.16097197
     ]
    },
    "properties": {
@@ -21100,6 +21118,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     146.95147848,
+     -36.15701979
+    ]
+   },
+   "properties": {
+    "name": "98 BARANDUDA DRIVE BARANDUDA 3691",
+    "locID": "LOC000184353803",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720317227",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      146.95126225,
      -36.17741932
     ]
@@ -22931,8 +22967,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     146.93852508,
-     -36.17809336
+     146.9385233,
+     -36.17809173
     ]
    },
    "properties": {
@@ -27931,6 +27967,91 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721483823"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.93526209,
+     -36.18228833
+    ]
+   },
+   "properties": {
+    "name": "7 RYMER WAY BARANDUDA 3691",
+    "locID": "LOC000194953489",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721545023"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.9385233,
+     -36.17809173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 30 LASILLA PLACE BARANDUDA 3691",
+    "locID": "LOC000194438116",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721548604"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.9385233,
+     -36.17809173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 30 LASILLA PLACE BARANDUDA 3691",
+    "locID": "LOC000194438100",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721549191"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.9385233,
+     -36.17809173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 30 LASILLA PLACE BARANDUDA 3691",
+    "locID": "LOC000194438088",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721549674"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.9385233,
+     -36.17809173
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 30 LASILLA PLACE BARANDUDA 3691",
+    "locID": "LOC000194438088",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721551022"
    }
   }
  ]
