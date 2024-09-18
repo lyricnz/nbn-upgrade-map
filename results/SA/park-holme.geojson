@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-29T23:21:12.089693",
+ "generated": "2024-09-18T16:17:06.030505",
  "suburb": "PARK HOLME",
  "features": [
   {
@@ -471,10 +471,9 @@
    "properties": {
     "name": "4 CONDADA AVENUE PARK HOLME 5043",
     "locID": "LOC000023273694",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415008523",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1006,10 +1005,9 @@
    "properties": {
     "name": "1 NILPENA AVENUE PARK HOLME 5043",
     "locID": "LOC000032440355",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415046047",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3725,9 +3723,9 @@
     "name": "79 NUNYAH AVENUE PARK HOLME 5043",
     "locID": "LOC000187088153",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415176146",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3900,10 +3898,10 @@
    "properties": {
     "name": "88 TIPARRA AVENUE PARK HOLME 5043",
     "locID": "LOC000006730470",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415181507",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6031,6 +6029,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.54930116,
+     -34.99003806
+    ]
+   },
+   "properties": {
+    "name": "64 PILDAPPA AVENUE PARK HOLME 5043",
+    "locID": "LOC000195376399",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415257131"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.5495033,
      -34.99002707
     ]
@@ -6803,8 +6818,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.55626438,
-     -34.988523
+     138.55627707,
+     -34.98868446
     ]
    },
    "properties": {
@@ -6814,26 +6829,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415388997",
     "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.55628358,
-     -34.98876523
-    ]
-   },
-   "properties": {
-    "name": "658 MARION ROAD PARK HOLME 5043",
-    "locID": "LOC000021706403",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GASA_415388999",
-    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6972,7 +6967,28 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_415389667",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.55590775,
+     -34.98469202
+    ]
+   },
+   "properties": {
+    "name": "616 MARION ROAD PARK HOLME 5043",
+    "locID": "LOC000066981059",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_415389669",
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -8208,7 +8224,7 @@
    "properties": {
     "name": "69 NUNYAH AVENUE PARK HOLME 5043",
     "locID": "LOC000195100535",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415414158"
    }
@@ -11315,10 +11331,9 @@
    "properties": {
     "name": "UNIT 2, 2 WALLALA AVENUE PARK HOLME 5043",
     "locID": "LOC000011748081",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415744292",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11664,12 +11679,9 @@
    "properties": {
     "name": "UNIT 1, 45 CUNGENA AVENUE PARK HOLME 5043",
     "locID": "LOC000029129004",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_415751236",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415751236"
    }
   },
   {
@@ -12793,10 +12805,10 @@
    "properties": {
     "name": "51 PILDAPPA AVENUE PARK HOLME 5043",
     "locID": "LOC000041660031",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415776224",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14093,10 +14105,9 @@
    "properties": {
     "name": "96 TIPARRA AVENUE PARK HOLME 5043",
     "locID": "LOC000099315190",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415799308",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14194,9 +14205,7 @@
     "locID": "LOC000105383534",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415799316",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "gnaf_pid": "GASA_415799316"
    }
   },
   {
@@ -16901,10 +16910,9 @@
    "properties": {
     "name": "10 SANDISON AVENUE PARK HOLME 5043",
     "locID": "LOC000011779870",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415825250",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19973,10 +19981,10 @@
    "properties": {
     "name": "10 TORA COURT PARK HOLME 5043",
     "locID": "LOC000010129482",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_416233411",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22689,10 +22697,9 @@
    "properties": {
     "name": "2 WALLALA AVENUE PARK HOLME 5043",
     "locID": "LOC000011748081",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_422042043",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -22846,12 +22853,9 @@
    "properties": {
     "name": "45 CUNGENA AVENUE PARK HOLME 5043",
     "locID": "LOC000029129004",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_422042260",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_422042260"
    }
   },
   {
@@ -23663,9 +23667,9 @@
     "name": "5A ROTORUA AVENUE PARK HOLME 5043",
     "locID": "LOC000032411700",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_423615078",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26809,8 +26813,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.55004026,
-     -34.98866217
+     138.55003683,
+     -34.98862208
     ]
    },
    "properties": {
@@ -27172,12 +27176,9 @@
    "properties": {
     "name": "5A NUNYAH AVENUE PARK HOLME 5043",
     "locID": "LOC000113571656",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GASA_424705424",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_424705424"
    }
   },
   {
@@ -29384,10 +29385,9 @@
    "properties": {
     "name": "5 ZANTE GROVE PARK HOLME 5043",
     "locID": "LOC000147714940",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_425507657",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29424,10 +29424,9 @@
    "properties": {
     "name": "8 ZANTE GROVE PARK HOLME 5043",
     "locID": "LOC000147714940",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_425507659",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
