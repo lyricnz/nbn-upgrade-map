@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-30T09:31:20.600382",
+ "generated": "2024-09-19T02:19:15.013737",
  "suburb": "DAVOREN PARK",
  "features": [
   {
@@ -188,8 +188,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.66760857,
-     -34.68152921
+     138.66755465,
+     -34.68154316
     ]
    },
    "properties": {
@@ -255,8 +255,8 @@
    "properties": {
     "name": "53 PIX ROAD DAVOREN PARK 5113",
     "locID": "LOC000041007802",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414927320",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -555,10 +555,10 @@
    "properties": {
     "name": "72 PIX ROAD DAVOREN PARK 5113",
     "locID": "LOC000081243318",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414928232",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1819,23 +1819,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.67230646,
-     -34.68514644
-    ]
-   },
-   "properties": {
-    "name": "LOT 5 WHITINGTON ROAD DAVOREN PARK 5113",
-    "locID": "LOC000173801316",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_415033871"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.66118813,
      -34.69338984
     ]
@@ -2535,9 +2518,26 @@
    "properties": {
     "name": "50 BROSTER CRESCENT DAVOREN PARK 5113",
     "locID": "LOC000195375574",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415061311"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.66750519,
+     -34.68286677
+    ]
+   },
+   "properties": {
+    "name": "48 BROSTER CRESCENT DAVOREN PARK 5113",
+    "locID": "LOC000195375561",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415061312"
    }
   },
   {
@@ -6190,7 +6190,7 @@
    "properties": {
     "name": "15 KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195452858",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415166386"
    }
@@ -6207,7 +6207,7 @@
    "properties": {
     "name": "17 KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195452862",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415166387"
    }
@@ -6224,7 +6224,7 @@
    "properties": {
     "name": "3 KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195075718",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415166388"
    }
@@ -6241,7 +6241,7 @@
    "properties": {
     "name": "5 KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195075702",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415166389"
    }
@@ -6258,7 +6258,7 @@
    "properties": {
     "name": "19 KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195452964",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415166645"
    }
@@ -6275,7 +6275,7 @@
    "properties": {
     "name": "21 KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195452972",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415166646"
    }
@@ -6292,7 +6292,7 @@
    "properties": {
     "name": "11 KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195452756",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415166647"
    }
@@ -6309,7 +6309,7 @@
    "properties": {
     "name": "13 KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195452760",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415166648"
    }
@@ -6386,10 +6386,9 @@
    "properties": {
     "name": "54 BISHOPSTONE ROAD DAVOREN PARK 5113",
     "locID": "LOC000068024306",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415167894",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6646,7 +6645,7 @@
    "properties": {
     "name": "7 KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195452741",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415171056"
    }
@@ -6663,7 +6662,7 @@
    "properties": {
     "name": "9 KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195453028",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415171057"
    }
@@ -7767,7 +7766,7 @@
    "properties": {
     "name": "28 KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195453156",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415193007"
    }
@@ -14496,7 +14495,7 @@
    "properties": {
     "name": "16 WOOTTON STREET DAVOREN PARK 5113",
     "locID": "LOC000195453085",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415293924"
    }
@@ -15445,7 +15444,7 @@
    "properties": {
     "name": "18 WOOTTON STREET DAVOREN PARK 5113",
     "locID": "LOC000195453092",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415296654"
    }
@@ -16636,8 +16635,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.65760953,
-     -34.69757432
+     138.65754136,
+     -34.69752568
     ]
    },
    "properties": {
@@ -20116,7 +20115,7 @@
    "properties": {
     "name": "10 PEACEMARSH ROAD DAVOREN PARK 5113",
     "locID": "LOC000195075741",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415309923"
    }
@@ -20133,7 +20132,7 @@
    "properties": {
     "name": "12 PEACEMARSH ROAD DAVOREN PARK 5113",
     "locID": "LOC000195075756",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415309924"
    }
@@ -20150,7 +20149,7 @@
    "properties": {
     "name": "4 KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195075718",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415309925"
    }
@@ -20167,7 +20166,7 @@
    "properties": {
     "name": "6 KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195075699",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415309926"
    }
@@ -21218,7 +21217,7 @@
    "properties": {
     "name": "9 WOOTTON STREET DAVOREN PARK 5113",
     "locID": "LOC000195453071",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415312680"
    }
@@ -21235,7 +21234,7 @@
    "properties": {
     "name": "11 WOOTTON STREET DAVOREN PARK 5113",
     "locID": "LOC000195453063",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415312681"
    }
@@ -21288,7 +21287,7 @@
    "properties": {
     "name": "24 KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195453037",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415312684"
    }
@@ -22422,8 +22421,8 @@
    "properties": {
     "name": "29 MANDEVILLE STREET DAVOREN PARK 5113",
     "locID": "LOC000053049400",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415314988",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25965,10 +25964,10 @@
    "properties": {
     "name": "47 DAVOREN ROAD DAVOREN PARK 5113",
     "locID": "LOC000085744113",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415320024",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27462,10 +27461,9 @@
    "properties": {
     "name": "35 ROSEWARNE CRESCENT DAVOREN PARK 5113",
     "locID": "LOC000011784898",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415322629",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27981,7 +27979,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_415323193",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -32626,10 +32624,10 @@
    "properties": {
     "name": "37 DAVOREN ROAD DAVOREN PARK 5113",
     "locID": "LOC000027494713",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415330547",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -34080,7 +34078,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415331991",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -35073,7 +35071,7 @@
     "name": "26 SEARLE ROAD DAVOREN PARK 5113",
     "locID": "LOC000099592224",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415333700",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -36599,9 +36597,9 @@
     "name": "13 MARSHMAN STREET DAVOREN PARK 5113",
     "locID": "LOC000106926208",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415336187",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -37376,7 +37374,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_415336849",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38873,10 +38871,9 @@
    "properties": {
     "name": "50 MAINWARING CRESCENT DAVOREN PARK 5113",
     "locID": "LOC000009324042",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415339600",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -39584,8 +39581,8 @@
    "properties": {
     "name": "6 BUCKLEY STREET DAVOREN PARK 5113",
     "locID": "LOC000071221916",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415339973",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -40148,8 +40145,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.670737,
-     -34.68044182
+     138.67076973,
+     -34.68038382
     ]
    },
    "properties": {
@@ -40555,10 +40552,9 @@
    "properties": {
     "name": "5 BUCKLEY STREET DAVOREN PARK 5113",
     "locID": "LOC000039996110",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415342604",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -40675,8 +40671,8 @@
    "properties": {
     "name": "37 ASHTON ROAD DAVOREN PARK 5113",
     "locID": "LOC000009242465",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415342611",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -41483,10 +41479,9 @@
    "properties": {
     "name": "4 MARSHMAN STREET DAVOREN PARK 5113",
     "locID": "LOC000060613267",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415343356",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -42326,6 +42321,23 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.66760736,
+     -34.68292262
+    ]
+   },
+   "properties": {
+    "name": "46 BROSTER CRESCENT DAVOREN PARK 5113",
+    "locID": "LOC000195375557",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415348092"
    }
   },
   {
@@ -44074,7 +44086,7 @@
    "properties": {
     "name": "44 BROSTER CRESCENT DAVOREN PARK 5113",
     "locID": "LOC000195375542",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415351591"
    }
@@ -44131,7 +44143,7 @@
     "name": "10 ROSEWARNE CRESCENT DAVOREN PARK 5113",
     "locID": "LOC000064228035",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415353440",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -50802,10 +50814,10 @@
    "properties": {
     "name": "19 BRISTOL CRESCENT DAVOREN PARK 5113",
     "locID": "LOC000047978226",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_423119616",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53894,9 +53906,9 @@
     "name": "71 GERALD BOULEVARD DAVOREN PARK 5113",
     "locID": "LOC000021190446",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_424018597",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55487,26 +55499,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424192640",
     "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.67248623,
-     -34.68525299
-    ]
-   },
-   "properties": {
-    "name": "LOT 6 MITCHELL STREET DAVOREN PARK 5113",
-    "locID": "LOC000084665440",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_424192641",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -65510,7 +65502,7 @@
    "properties": {
     "name": "44A BROSTER CRESCENT DAVOREN PARK 5113",
     "locID": "LOC000195375535",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721348305"
    }
@@ -65527,7 +65519,7 @@
    "properties": {
     "name": "44B BROSTER CRESCENT DAVOREN PARK 5113",
     "locID": "LOC000195375542",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721349780"
    }
@@ -65544,7 +65536,7 @@
    "properties": {
     "name": "17B KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195452891",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721410365"
    }
@@ -65561,7 +65553,7 @@
    "properties": {
     "name": "21A KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195452972",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721411273"
    }
@@ -65578,7 +65570,7 @@
    "properties": {
     "name": "17A KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195452862",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721411647"
    }
@@ -65595,7 +65587,7 @@
    "properties": {
     "name": "31 TOLLERDOWN STREET DAVOREN PARK 5113",
     "locID": "LOC000195453173",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721411968"
    }
@@ -65612,7 +65604,7 @@
    "properties": {
     "name": "30 KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195453160",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721411999"
    }
@@ -65629,7 +65621,7 @@
    "properties": {
     "name": "20 WOOTTON STREET DAVOREN PARK 5113",
     "locID": "LOC000195453102",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721412301"
    }
@@ -65646,7 +65638,7 @@
    "properties": {
     "name": "19A KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195452901",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721412519"
    }
@@ -65663,7 +65655,7 @@
    "properties": {
     "name": "21B KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195452986",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721412717"
    }
@@ -65680,7 +65672,7 @@
    "properties": {
     "name": "19B KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195452964",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721412866"
    }
@@ -65697,7 +65689,7 @@
    "properties": {
     "name": "29 TOLLERDOWN STREET DAVOREN PARK 5113",
     "locID": "LOC000195453187",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721413397"
    }
@@ -65714,7 +65706,7 @@
    "properties": {
     "name": "13 WOOTTON STREET DAVOREN PARK 5113",
     "locID": "LOC000195453059",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721413867"
    }
@@ -65731,9 +65723,26 @@
    "properties": {
     "name": "4-6 KINGSBURY STREET DAVOREN PARK 5113",
     "locID": "LOC000195075699",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721414012"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.67239617,
+     -34.68519996
+    ]
+   },
+   "properties": {
+    "name": "LOT 6 WHITINGTON ROAD DAVOREN PARK 5113",
+    "locID": "LOC000173801316",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721536742"
    }
   }
  ]
