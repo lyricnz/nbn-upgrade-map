@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-30T07:06:20.434592",
+ "generated": "2024-09-18T23:48:56.064559",
  "suburb": "OTTOWAY",
  "features": [
   {
@@ -274,10 +274,9 @@
    "properties": {
     "name": "2 LARSEN COURT OTTOWAY 5013",
     "locID": "LOC000064322537",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414942061",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2829,10 +2828,9 @@
    "properties": {
     "name": "51 ROSE STREET OTTOWAY 5013",
     "locID": "LOC000075571517",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414993603",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6256,7 +6254,7 @@
    "properties": {
     "name": "96 EDWARD STREET OTTOWAY 5013",
     "locID": "LOC000194867166",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415058160"
    }
@@ -13807,10 +13805,9 @@
    "properties": {
     "name": "79 CLEVELAND TERRACE OTTOWAY 5013",
     "locID": "LOC000037385172",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415436184",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23187,26 +23184,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.53825391,
-     -34.85056085
-    ]
-   },
-   "properties": {
-    "name": "LOT 61 GRAND JUNCTION ROAD OTTOWAY 5013",
-    "locID": "LOC000154764324",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GASA_425354313",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.52676931,
      -34.84802146
     ]
@@ -23732,24 +23709,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.53656665,
-     -34.84700937
-    ]
-   },
-   "properties": {
-    "name": "UNIT 6, 33 ST JOHNS ROAD OTTOWAY 5013",
-    "locID": "LOC000177190660",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425505837",
-    "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      138.53626324,
      -34.84621133
     ]
@@ -24078,7 +24037,7 @@
     "name": "47 EDWARD STREET OTTOWAY 5013",
     "locID": "LOC000129914851",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_425807905",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25413,10 +25372,9 @@
    "properties": {
     "name": "111A MAY TERRACE OTTOWAY 5013",
     "locID": "LOC100072502039",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_720187162",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -26442,6 +26400,66 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721467862"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.5337833,
+     -34.8485257
+    ]
+   },
+   "properties": {
+    "name": "LOT 1 CALTHORPE TERRACE OTTOWAY 5013",
+    "locID": "LOC100056639576",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_721536807",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.53390118,
+     -34.84845969
+    ]
+   },
+   "properties": {
+    "name": "LOT 2 CALTHORPE TERRACE OTTOWAY 5013",
+    "locID": "LOC100056639582",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GASA_721538562",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.53361837,
+     -34.84830791
+    ]
+   },
+   "properties": {
+    "name": "LOT 3 CALTHORPE TERRACE OTTOWAY 5013",
+    "locID": "LOC100056639576",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_721538954",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   }
  ]
