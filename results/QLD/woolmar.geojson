@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-01T01:24:54.354520",
+ "generated": "2024-09-20T16:28:22.627679",
  "suburb": "WOOLMAR",
  "features": [
   {
@@ -3920,7 +3920,7 @@
    "properties": {
     "name": "1671 GREGORS CREEK ROAD WOOLMAR 4515",
     "locID": "LOC000150752162",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425269477",
     "tech_change_status": "Not Planned"
@@ -4379,7 +4379,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721114391",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -4577,23 +4579,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.54084273,
-     -26.94039864
-    ]
-   },
-   "properties": {
-    "name": "15 OVERLANDER AVENUE WOOLMAR 4515",
-    "locID": "LOC000190702688",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD721310569"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.54134412,
      -26.94060763
     ]
@@ -4723,6 +4708,60 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721314950"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.54185194,
+     -26.93903853
+    ]
+   },
+   "properties": {
+    "name": "35 HEDLEY DRIVE WOOLMAR 4515",
+    "locID": "LOC000105074856",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD721560483",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.54170331,
+     -26.93893153
+    ]
+   },
+   "properties": {
+    "name": "37 HEDLEY DRIVE WOOLMAR 4515",
+    "locID": "LOC000075039266",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD721560694",
+    "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.54216911,
+     -26.93863013
+    ]
+   },
+   "properties": {
+    "name": "40 HEDLEY DRIVE WOOLMAR 4515",
+    "locID": "LOC000077329135",
+    "tech": "FTTC",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD721562236",
+    "tech_change_status": "Eligible to Order"
    }
   }
  ]
