@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-08-31T12:12:15.931965",
+ "generated": "2024-09-20T03:03:20.884437",
  "suburb": "LUDDENHAM",
  "features": [
   {
@@ -213,10 +213,10 @@
    "properties": {
     "name": "66 CAMPBELL STREET LUDDENHAM 2745",
     "locID": "LOC000098054004",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705240020",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1498,7 +1498,7 @@
    "properties": {
     "name": "478 LUDDENHAM ROAD LUDDENHAM 2745",
     "locID": "LOC000079981156",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705245967",
     "tech_change_status": "Not Planned"
@@ -2003,8 +2003,8 @@
    "properties": {
     "name": "9 MICHAEL AVENUE LUDDENHAM 2745",
     "locID": "LOC000091615258",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705248616",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3230,10 +3230,10 @@
    "properties": {
     "name": "LOT 1 CAMPBELL STREET LUDDENHAM 2745",
     "locID": "LOC000098054004",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709596304",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3615,7 +3615,7 @@
    "properties": {
     "name": "734 LUDDENHAM ROAD LUDDENHAM 2745",
     "locID": "LOC000027400796",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712752205",
     "tech_change_status": "Not Planned"
@@ -3633,7 +3633,7 @@
    "properties": {
     "name": "51 GATES ROAD LUDDENHAM 2745",
     "locID": "LOC000069755716",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712752502",
     "tech_change_status": "Not Planned"
@@ -3672,6 +3672,24 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712766133",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.71997334,
+     -33.86847339
+    ]
+   },
+   "properties": {
+    "name": "2111 ELIZABETH DRIVE LUDDENHAM 2745",
+    "locID": "LOC000055485842",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW712785373",
     "tech_change_status": "Not Planned"
    }
   },
@@ -3806,7 +3824,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW712803891",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -3839,7 +3859,7 @@
    "properties": {
     "name": "892B LUDDENHAM ROAD LUDDENHAM 2745",
     "locID": "LOC000033150973",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW713131192",
     "tech_change_status": "Not Planned"
@@ -4890,8 +4910,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.72043097,
-     -33.86847571
+     150.71997334,
+     -33.86847339
     ]
    },
    "properties": {
@@ -4915,7 +4935,7 @@
    "properties": {
     "name": "2143-2157 ELIZABETH DRIVE LUDDENHAM 2745",
     "locID": "LOC000055619279",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716857683",
     "tech_change_status": "Not Planned"
@@ -5392,7 +5412,7 @@
    "properties": {
     "name": "350-352 LUDDENHAM ROAD LUDDENHAM 2745",
     "locID": "LOC000047599127",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716927152",
     "tech_change_status": "Not Planned"
@@ -6470,7 +6490,7 @@
    "properties": {
     "name": "740 LUDDENHAM ROAD LUDDENHAM 2745",
     "locID": "LOC000103024861",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716959932",
     "tech_change_status": "Not Planned"
@@ -7132,10 +7152,9 @@
    "properties": {
     "name": "3 PENNARD CRESCENT LUDDENHAM 2745",
     "locID": "LOC000113109510",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW717714914",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW717714914"
    }
   },
   {
@@ -9377,10 +9396,10 @@
    "properties": {
     "name": "1 CAMPBELL STREET LUDDENHAM 2745",
     "locID": "LOC000098054004",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718129796",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10336,7 +10355,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718663823",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -11618,7 +11639,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720897173",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -11655,7 +11678,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720900564",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -11673,7 +11698,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720903423",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -11731,6 +11758,42 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721452847",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.73358947,
+     -33.84154877
+    ]
+   },
+   "properties": {
+    "name": "601 LUDDENHAM ROAD LUDDENHAM 2745",
+    "locID": "LOC100085824963",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721568450",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.71672763,
+     -33.84383051
+    ]
+   },
+   "properties": {
+    "name": "601A LUDDENHAM ROAD LUDDENHAM 2745",
+    "locID": "LOC100085824963",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721578001",
     "tech_change_status": "Not Planned"
    }
   }
