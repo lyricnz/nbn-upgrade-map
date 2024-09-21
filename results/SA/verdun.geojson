@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-02T05:20:51.943456",
+ "generated": "2024-09-21T15:59:20.566498",
  "suburb": "VERDUN",
  "features": [
   {
@@ -51,8 +51,8 @@
    "properties": {
     "name": "14 ONKAPARINGA VALLEY ROAD VERDUN 5245",
     "locID": "LOC000006655268",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_423418385",
     "tech_change_status": "Eligible to Order"
    }
@@ -618,7 +618,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_424193683",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1490,8 +1492,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.78944,
-     -35.022534
+     138.78753098,
+     -35.02232746
     ]
    },
    "properties": {
@@ -1647,7 +1649,7 @@
    "properties": {
     "name": "58 GRIVELL ROAD VERDUN 5245",
     "locID": "LOC000116242010",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424821187",
     "tech_change_status": "Not Planned"
@@ -1665,12 +1667,10 @@
    "properties": {
     "name": "60 GRIVELL ROAD VERDUN 5245",
     "locID": "LOC000116242023",
-    "tech": "WIRELESS",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424821188",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -2472,7 +2472,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_720237485",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   }
  ]
