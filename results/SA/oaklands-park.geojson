@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-01T19:20:36.915280",
+ "generated": "2024-09-21T08:58:23.620725",
  "suburb": "OAKLANDS PARK",
  "features": [
   {
@@ -1902,7 +1902,7 @@
    "properties": {
     "name": "66 BARRY ROAD OAKLANDS PARK 5046",
     "locID": "LOC000078403747",
-    "tech": "FTTP",
+    "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415049213"
    }
@@ -3551,7 +3551,7 @@
    "properties": {
     "name": "411 MORPHETT ROAD OAKLANDS PARK 5046",
     "locID": "LOC000194551741",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415129698"
    }
@@ -3928,6 +3928,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415146563"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.54825778,
+     -35.01034201
+    ]
+   },
+   "properties": {
+    "name": "53 PEMBERTON STREET OAKLANDS PARK 5046",
+    "locID": "LOC000195475003",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415146564"
    }
   },
   {
@@ -29799,7 +29816,7 @@
    "properties": {
     "name": "21 CAMPBELL STREET OAKLANDS PARK 5046",
     "locID": "LOC000194512207",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_423863712"
    }
@@ -38930,8 +38947,11 @@
     "name": "237-265 OAKLANDS ROAD OAKLANDS PARK 5046",
     "locID": "LOC000148473568",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_425446920"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_425446920",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -45117,7 +45137,7 @@
    "properties": {
     "name": "304 BARRY ROAD OAKLANDS PARK 5046",
     "locID": "LOC000195032350",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721348855"
    }
@@ -45389,7 +45409,7 @@
    "properties": {
     "name": "305 BARRY ROAD OAKLANDS PARK 5046",
     "locID": "LOC000195032366",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721350547"
    }
@@ -45545,6 +45565,40 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721449743"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.5432937,
+     -35.01245788
+    ]
+   },
+   "properties": {
+    "name": "LOT 2 DIAGONAL ROAD OAKLANDS PARK 5046",
+    "locID": "LOC000184345231",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721536938"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.54322857,
+     -35.01251152
+    ]
+   },
+   "properties": {
+    "name": "LOT 1 DIAGONAL ROAD OAKLANDS PARK 5046",
+    "locID": "LOC000184345231",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538275"
    }
   }
  ]
