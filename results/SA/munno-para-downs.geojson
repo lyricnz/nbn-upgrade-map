@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-01T17:37:08.758496",
+ "generated": "2024-09-21T07:19:49.746023",
  "suburb": "MUNNO PARA DOWNS",
  "features": [
   {
@@ -36,9 +36,11 @@
     "name": "LOT 12 COVENTRY ROAD MUNNO PARA DOWNS 5115",
     "locID": "LOC000162149466",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_415260578",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -99,24 +101,6 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "Dec 2024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.67674633,
-     -34.64422028
-    ]
-   },
-   "properties": {
-    "name": "LOT 16 ANDREWS ROAD MUNNO PARA DOWNS 5115",
-    "locID": "LOC000116235262",
-    "tech": "FTTN",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424152534",
-    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -352,9 +336,11 @@
     "name": "LOT 4 COVENTRY ROAD MUNNO PARA DOWNS 5115",
     "locID": "LOC000162149466",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424164929",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -552,26 +538,6 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424165994",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     138.6884515,
-     -34.64428097
-    ]
-   },
-   "properties": {
-    "name": "LOT 295 DALKEITH ROAD MUNNO PARA DOWNS 5115",
-    "locID": "LOC000177208994",
-    "tech": "WIRELESS",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424165995",
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "Dec 2024"
@@ -905,7 +871,9 @@
     "locID": "LOC000151955458",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_424222857"
+    "gnaf_pid": "GASA_424222857",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1050,6 +1018,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.68476472,
+     -34.64933229
+    ]
+   },
+   "properties": {
+    "name": "LOT 4 STEBONHEATH ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194220776",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_720416099"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.68788209,
      -34.64293154
     ]
@@ -1120,7 +1105,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_720588397",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1196,8 +1183,11 @@
     "name": "LOT 7 COVENTRY ROAD MUNNO PARA DOWNS 5115",
     "locID": "LOC000082213293",
     "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_721275678"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GASA_721275678",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1215,7 +1205,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_721276619",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -1231,9 +1223,11 @@
     "name": "LOT 2 COVENTRY ROAD MUNNO PARA DOWNS 5115",
     "locID": "LOC000162149466",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_721277211",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -2603,16 +2597,1464 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     138.68754648,
-     -34.64379436
+     138.68377308,
+     -34.64819104
     ]
    },
    "properties": {
-    "name": "LOT 31 STEBONHEATH ROAD MUNNO PARA DOWNS 5115",
-    "locID": "LOC000194536415",
+    "name": "LOT 196 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221269",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GASA_721469682"
+    "gnaf_pid": "GASA_721536442"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68371386,
+     -34.64829926
+    ]
+   },
+   "properties": {
+    "name": "LOT 195 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221253",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721536496"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68445297,
+     -34.64858404
+    ]
+   },
+   "properties": {
+    "name": "LOT 209 CORNWALL STREET MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221403",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721536504"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68380721,
+     -34.6491126
+    ]
+   },
+   "properties": {
+    "name": "LOT 12 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000191354221",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721536505"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68412045,
+     -34.64821381
+    ]
+   },
+   "properties": {
+    "name": "LOT 206 CORNWALL STREET MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221379",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721536565"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68361118,
+     -34.64866304
+    ]
+   },
+   "properties": {
+    "name": "LOT 194 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221248",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721536758"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68325297,
+     -34.6481543
+    ]
+   },
+   "properties": {
+    "name": "LOT 187 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221173",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721536762"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68307796,
+     -34.64896424
+    ]
+   },
+   "properties": {
+    "name": "LOT 17 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000191326304",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721536809"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68469673,
+     -34.6485975
+    ]
+   },
+   "properties": {
+    "name": "LOT 216 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221488",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721536869"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68396834,
+     -34.64882709
+    ]
+   },
+   "properties": {
+    "name": "LOT 9 KRUDOP PLACE MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194220822",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721536901"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68487728,
+     -34.64912738
+    ]
+   },
+   "properties": {
+    "name": "LOT 6 STEBONHEATH ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194220795",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721536954"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68295771,
+     -34.64892311
+    ]
+   },
+   "properties": {
+    "name": "LOT 18 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000191326370",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721536973"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68370372,
+     -34.64929684
+    ]
+   },
+   "properties": {
+    "name": "LOT 14 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000191354213",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537003"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68400381,
+     -34.6484175
+    ]
+   },
+   "properties": {
+    "name": "LOT 208 CORNWALL STREET MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221398",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537085"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68355226,
+     -34.64762377
+    ]
+   },
+   "properties": {
+    "name": "LOT 181 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221118",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537353"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68403263,
+     -34.64871607
+    ]
+   },
+   "properties": {
+    "name": "LOT 8 KRUDOP PLACE MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194220814",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537419"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68479559,
+     -34.64795515
+    ]
+   },
+   "properties": {
+    "name": "LOT 215 CORNWALL STREET MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221461",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537436"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68502167,
+     -34.64872512
+    ]
+   },
+   "properties": {
+    "name": "LOT 219 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221517",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537443"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68423541,
+     -34.64800955
+    ]
+   },
+   "properties": {
+    "name": "LOT 204 CORNWALL STREET MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221367",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537483"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68400407,
+     -34.64778157
+    ]
+   },
+   "properties": {
+    "name": "LOT 200 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221305",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537508"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68285615,
+     -34.64887658
+    ]
+   },
+   "properties": {
+    "name": "LOT 19 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000191326315",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537545"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68427929,
+     -34.64789752
+    ]
+   },
+   "properties": {
+    "name": "LOT 203 CORNWALL STREET MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221346",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537549"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68462025,
+     -34.64826879
+    ]
+   },
+   "properties": {
+    "name": "LOT 212 CORNWALL STREET MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221435",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537635"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68473361,
+     -34.6480637
+    ]
+   },
+   "properties": {
+    "name": "LOT 214 CORNWALL STREET MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221457",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537651"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.6831967,
+     -34.64901929
+    ]
+   },
+   "properties": {
+    "name": "LOT 16 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000191354191",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537736"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68347845,
+     -34.64861207
+    ]
+   },
+   "properties": {
+    "name": "LOT 193 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221230",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537778"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68456353,
+     -34.64837118
+    ]
+   },
+   "properties": {
+    "name": "LOT 211 CORNWALL STREET MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221426",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537804"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68323661,
+     -34.64851872
+    ]
+   },
+   "properties": {
+    "name": "LOT 191 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221211",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537815"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68301554,
+     -34.64793604
+    ]
+   },
+   "properties": {
+    "name": "LOT 173 TREVELYAN AVENUE MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221037",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537823"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68406301,
+     -34.64831592
+    ]
+   },
+   "properties": {
+    "name": "LOT 207 CORNWALL STREET MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221380",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537868"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68345442,
+     -34.64779721
+    ]
+   },
+   "properties": {
+    "name": "LOT 183 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221139",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537918"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68360982,
+     -34.64752175
+    ]
+   },
+   "properties": {
+    "name": "LOT 180 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221102",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721537982"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68299494,
+     -34.64842524
+    ]
+   },
+   "properties": {
+    "name": "LOT 189 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221194",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538101"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68394612,
+     -34.64788426
+    ]
+   },
+   "properties": {
+    "name": "LOT 199 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221295",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538132"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68340838,
+     -34.64787883
+    ]
+   },
+   "properties": {
+    "name": "LOT 184 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221141",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538252"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.6840549,
+     -34.64767169
+    ]
+   },
+   "properties": {
+    "name": "LOT 201 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221314",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538384"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68331053,
+     -34.64805227
+    ]
+   },
+   "properties": {
+    "name": "LOT 186 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221160",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538458"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68350047,
+     -34.64771559
+    ]
+   },
+   "properties": {
+    "name": "LOT 182 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221125",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538502"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68279336,
+     -34.64832987
+    ]
+   },
+   "properties": {
+    "name": "LOT 169 TREVELYAN AVENUE MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194220983",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538541"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68391081,
+     -34.64892908
+    ]
+   },
+   "properties": {
+    "name": "LOT 10 KRUDOP PLACE MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194220833",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538551"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68311831,
+     -34.64847285
+    ]
+   },
+   "properties": {
+    "name": "LOT 190 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221207",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538560"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68319533,
+     -34.64825648
+    ]
+   },
+   "properties": {
+    "name": "LOT 188 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221187",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538567"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68332719,
+     -34.64738361
+    ]
+   },
+   "properties": {
+    "name": "LOT 179 TREVELYAN AVENUE MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221092",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538606"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68290849,
+     -34.64812581
+    ]
+   },
+   "properties": {
+    "name": "LOT 171 TREVELYAN AVENUE MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221016",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538663"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68385901,
+     -34.64902085
+    ]
+   },
+   "properties": {
+    "name": "LOT 11 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000191354330",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538667"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68305698,
+     -34.64786259
+    ]
+   },
+   "properties": {
+    "name": "LOT 174 TREVELYAN AVENUE MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221044",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538807"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68467692,
+     -34.64816631
+    ]
+   },
+   "properties": {
+    "name": "LOT 213 CORNWALL STREET MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221442",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538833"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68383062,
+     -34.648089
+    ]
+   },
+   "properties": {
+    "name": "LOT 197 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221276",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538983"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68450824,
+     -34.64847435
+    ]
+   },
+   "properties": {
+    "name": "LOT 210 CORNWALL STREET MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221419",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721538984"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68320546,
+     -34.64759938
+    ]
+   },
+   "properties": {
+    "name": "LOT 177 TREVELYAN AVENUE MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221071",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721539019"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68388818,
+     -34.64798695
+    ]
+   },
+   "properties": {
+    "name": "LOT 198 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221282",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721539069"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68336233,
+     -34.64796045
+    ]
+   },
+   "properties": {
+    "name": "LOT 185 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221156",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721539070"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.6843505,
+     -34.64778091
+    ]
+   },
+   "properties": {
+    "name": "LOT 202 CORNWALL STREET MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221333",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721539186"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68481069,
+     -34.64864417
+    ]
+   },
+   "properties": {
+    "name": "LOT 217 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221490",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721539215"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68296604,
+     -34.64802378
+    ]
+   },
+   "properties": {
+    "name": "LOT 172 TREVELYAN AVENUE MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221028",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721539224"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68490992,
+     -34.64868226
+    ]
+   },
+   "properties": {
+    "name": "LOT 218 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221501",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721539265"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68314791,
+     -34.6477014
+    ]
+   },
+   "properties": {
+    "name": "LOT 176 TREVELYAN AVENUE MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221063",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721539336"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68333755,
+     -34.64907379
+    ]
+   },
+   "properties": {
+    "name": "LOT 15 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194220880",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721539405"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68274365,
+     -34.64885069
+    ]
+   },
+   "properties": {
+    "name": "LOT 20 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000191354444",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721539486"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68375541,
+     -34.64920434
+    ]
+   },
+   "properties": {
+    "name": "LOT 13 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000191354324",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721539502"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68335502,
+     -34.64856456
+    ]
+   },
+   "properties": {
+    "name": "LOT 192 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221224",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721539525"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68326633,
+     -34.64749149
+    ]
+   },
+   "properties": {
+    "name": "LOT 178 TREVELYAN AVENUE MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221085",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721539562"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68309842,
+     -34.64778913
+    ]
+   },
+   "properties": {
+    "name": "LOT 175 TREVELYAN AVENUE MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221059",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721539701"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68285093,
+     -34.64822784
+    ]
+   },
+   "properties": {
+    "name": "LOT 170 TREVELYAN AVENUE MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194220996",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721539706"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68413109,
+     -34.64860455
+    ]
+   },
+   "properties": {
+    "name": "20 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221305",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564042"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.67909647,
+     -34.64672644
+    ]
+   },
+   "properties": {
+    "name": "40 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000195442113",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564157"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.67909647,
+     -34.64672644
+    ]
+   },
+   "properties": {
+    "name": "28 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194316489",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564159"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.67909647,
+     -34.64672644
+    ]
+   },
+   "properties": {
+    "name": "41 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000195442121",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564228"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.67909647,
+     -34.64672644
+    ]
+   },
+   "properties": {
+    "name": "38 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000195442099",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564229"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68413109,
+     -34.64860455
+    ]
+   },
+   "properties": {
+    "name": "18 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221160",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564263"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68413109,
+     -34.64860455
+    ]
+   },
+   "properties": {
+    "name": "19 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221282",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564310"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68413109,
+     -34.64860455
+    ]
+   },
+   "properties": {
+    "name": "2 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221305",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564320"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68278324,
+     -34.64789507
+    ]
+   },
+   "properties": {
+    "name": "16 TREVELYAN AVENUE MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194220983",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564329"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.67909647,
+     -34.64672644
+    ]
+   },
+   "properties": {
+    "name": "36 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000195442075",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564359"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.67909647,
+     -34.64672644
+    ]
+   },
+   "properties": {
+    "name": "39 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000195442109",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564360"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.69736981,
+     -34.65372792
+    ]
+   },
+   "properties": {
+    "name": "537 COVENTRY ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC100086095972",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564367",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68413109,
+     -34.64860455
+    ]
+   },
+   "properties": {
+    "name": "21 WOODHALL WAY MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221517",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564390"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.67909647,
+     -34.64672644
+    ]
+   },
+   "properties": {
+    "name": "37 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000195442081",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564472"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.67909647,
+     -34.64672644
+    ]
+   },
+   "properties": {
+    "name": "35 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000195442068",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564570"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68437707,
+     -34.64823853
+    ]
+   },
+   "properties": {
+    "name": "5 CORNWALL STREET MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221435",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564594"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.67909647,
+     -34.64672644
+    ]
+   },
+   "properties": {
+    "name": "33 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000195442047",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564610"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.67909647,
+     -34.64672644
+    ]
+   },
+   "properties": {
+    "name": "30 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194316502",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564611"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.67909647,
+     -34.64672644
+    ]
+   },
+   "properties": {
+    "name": "49 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000195442204",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564641"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.67909647,
+     -34.64672644
+    ]
+   },
+   "properties": {
+    "name": "32 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194316525",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564689"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.67909647,
+     -34.64672644
+    ]
+   },
+   "properties": {
+    "name": "34 HATCHER ROAD MUNNO PARA DOWNS 5115",
+    "locID": "LOC000195442052",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564701"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.68437707,
+     -34.64823853
+    ]
+   },
+   "properties": {
+    "name": "2 CORNWALL STREET MUNNO PARA DOWNS 5115",
+    "locID": "LOC000194221435",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721564717"
    }
   }
  ]
