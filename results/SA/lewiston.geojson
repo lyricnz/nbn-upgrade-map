@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-01T14:10:33.306328",
+ "generated": "2024-09-21T04:00:55.817914",
  "suburb": "LEWISTON",
  "features": [
   {
@@ -3325,7 +3325,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414978120",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip"
    }
   },
@@ -3718,7 +3718,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_414984450",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip",
     "target_eligibility_quarter": "NA"
    }
@@ -7135,10 +7135,10 @@
    "properties": {
     "name": "3 MARGARET ROAD LEWISTON 5501",
     "locID": "LOC000010378889",
-    "tech": "WIRELESS",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415001794",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip",
     "target_eligibility_quarter": "NA"
    }
@@ -7472,10 +7472,10 @@
    "properties": {
     "name": "13 LAWRIE ROAD LEWISTON 5501",
     "locID": "LOC000036229155",
-    "tech": "WIRELESS",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415003224",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip",
     "target_eligibility_quarter": "NA"
    }
@@ -9015,7 +9015,7 @@
     "tech": "WIRELESS",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_415026225",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Regional Area Flip",
     "target_eligibility_quarter": "NA"
    }
@@ -9232,7 +9232,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415030435",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip"
    }
   },
@@ -10214,10 +10214,10 @@
    "properties": {
     "name": "22 JAMES ROAD LEWISTON 5501",
     "locID": "LOC000084580332",
-    "tech": "WIRELESS",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415060159",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip",
     "target_eligibility_quarter": "NA"
    }
@@ -13449,7 +13449,7 @@
     "tech": "WIRELESS",
     "upgrade": "FTTP",
     "gnaf_pid": "GASA_415549672",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Regional Area Flip",
     "target_eligibility_quarter": "NA"
    }
@@ -17482,10 +17482,10 @@
    "properties": {
     "name": "9 JAMES ROAD LEWISTON 5501",
     "locID": "LOC000012615661",
-    "tech": "WIRELESS",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_423267971",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip",
     "target_eligibility_quarter": "NA"
    }
@@ -18548,9 +18548,11 @@
     "name": "LOT 507 GAWLER ROAD LEWISTON 5501",
     "locID": "LOC000017607632",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424173324",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -19097,9 +19099,11 @@
     "name": "LOT 500 GAWLER ROAD LEWISTON 5501",
     "locID": "LOC000017607632",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424520196",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Mar 2025"
    }
   },
   {
@@ -20208,12 +20212,10 @@
    "properties": {
     "name": "45 TOWER ROAD LEWISTON 5501",
     "locID": "LOC000114461702",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424709809",
-    "tech_change_status": "Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -21030,6 +21032,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.56351381,
+     -34.60443691
+    ]
+   },
+   "properties": {
+    "name": "15 CAVALLARO PLACE LEWISTON 5501",
+    "locID": "LOC000131282633",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_425137521",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.5630551,
      -34.60734755
     ]
@@ -21180,7 +21200,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_425139019",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip",
     "target_eligibility_quarter": "NA"
    }
@@ -22924,7 +22944,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_719254056",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip"
    }
   },
@@ -23006,6 +23026,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "Dec 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.56290603,
+     -34.60614599
+    ]
+   },
+   "properties": {
+    "name": "20 CAVALLARO PLACE LEWISTON 5501",
+    "locID": "LOC000131282633",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_719400666",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -24137,7 +24175,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_719704676",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip",
     "target_eligibility_quarter": "NA"
    }
@@ -24766,7 +24804,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_720491923",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -25434,7 +25474,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721004616",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -25530,7 +25572,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721071651",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip"
    }
   },
@@ -26084,7 +26126,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721251916",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip"
    }
   },
@@ -26312,7 +26354,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721253077",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Regional Area Flip"
    }
   },
