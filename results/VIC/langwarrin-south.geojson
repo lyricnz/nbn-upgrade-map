@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-04T13:25:54.707871",
+ "generated": "2024-09-23T12:07:51.205225",
  "suburb": "LANGWARRIN SOUTH",
  "features": [
   {
@@ -46,8 +46,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.18736189,
-     -38.180366
+     145.18629071,
+     -38.18023851
     ]
    },
    "properties": {
@@ -63,8 +63,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.16792152,
-     -38.18833226
+     145.16884484,
+     -38.18903417
     ]
    },
    "properties": {
@@ -412,8 +412,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.18652312,
-     -38.1905886
+     145.18652549,
+     -38.19054113
     ]
    },
    "properties": {
@@ -464,8 +464,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.16792152,
-     -38.18833226
+     145.16884484,
+     -38.18903417
     ]
    },
    "properties": {
@@ -481,8 +481,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.16792152,
-     -38.18833226
+     145.16884484,
+     -38.18903417
     ]
    },
    "properties": {
@@ -1286,7 +1286,7 @@
    "properties": {
     "name": "70 WEST ROAD LANGWARRIN SOUTH 3911",
     "locID": "LOC000100825079",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419790528",
     "tech_change_status": "Not Planned"
@@ -4555,8 +4555,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.1840834,
-     -38.18846171
+     145.18410401,
+     -38.18835333
     ]
    },
    "properties": {
@@ -5432,10 +5432,9 @@
    "properties": {
     "name": "105 NEWTON AVENUE LANGWARRIN SOUTH 3911",
     "locID": "LOC000047422100",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC421641211",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421641211"
    }
   },
   {
@@ -7109,7 +7108,7 @@
    "properties": {
     "name": "170 WEST ROAD LANGWARRIN SOUTH 3911",
     "locID": "LOC000048539502",
-    "tech": "SATELLITE",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423993264",
     "tech_change_status": "Not Planned"
@@ -7821,7 +7820,9 @@
     "tech": "SATELLITE",
     "upgrade": "WIRELESS",
     "gnaf_pid": "GAVIC425670764",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Eligible to Order",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -7995,6 +7996,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.21565291,
+     -38.18888841
+    ]
+   },
+   "properties": {
+    "name": "1735 DANDENONG-HASTINGS ROAD LANGWARRIN SOUTH 3911",
+    "locID": "LOC000179001156",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425762316",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.19217265,
      -38.18658579
     ]
@@ -8115,24 +8134,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.19156336,
-     -38.18929595
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 108 WEEROONA ROAD LANGWARRIN SOUTH 3911",
-    "locID": "LOC000080609382",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAVIC720522923",
-    "tech_change_status": "New Tech Connected"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.19328374,
      -38.19556932
     ]
@@ -8228,6 +8229,142 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.18085132,
+     -38.19071452
+    ]
+   },
+   "properties": {
+    "name": "6 PARZAY COURT LANGWARRIN SOUTH 3911",
+    "locID": "LOC000188393004",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720948330"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.18250803,
+     -38.19133664
+    ]
+   },
+   "properties": {
+    "name": "1 PARZAY COURT LANGWARRIN SOUTH 3911",
+    "locID": "LOC000188392971",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720948908"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.18118838,
+     -38.19105044
+    ]
+   },
+   "properties": {
+    "name": "3 PARZAY COURT LANGWARRIN SOUTH 3911",
+    "locID": "LOC000188393058",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720948943"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.18019942,
+     -38.19095653
+    ]
+   },
+   "properties": {
+    "name": "5 PARZAY COURT LANGWARRIN SOUTH 3911",
+    "locID": "LOC000188392985",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720949034"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.18278306,
+     -38.19107873
+    ]
+   },
+   "properties": {
+    "name": "2 PARZAY COURT LANGWARRIN SOUTH 3911",
+    "locID": "LOC000188393015",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720949160"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.18180551,
+     -38.19088613
+    ]
+   },
+   "properties": {
+    "name": "4 PARZAY COURT LANGWARRIN SOUTH 3911",
+    "locID": "LOC000188393027",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720949339"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.18005242,
+     -38.19079728
+    ]
+   },
+   "properties": {
+    "name": "7 PARZAY COURT LANGWARRIN SOUTH 3911",
+    "locID": "LOC000188393043",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720949537"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.18006339,
+     -38.19073932
+    ]
+   },
+   "properties": {
+    "name": "10 PARZAY COURT LANGWARRIN SOUTH 3911",
+    "locID": "LOC000188392992",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720949887"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.185601,
      -38.199018
     ]
@@ -8239,6 +8376,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC720950041",
     "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.18018723,
+     -38.19060882
+    ]
+   },
+   "properties": {
+    "name": "8 PARZAY COURT LANGWARRIN SOUTH 3911",
+    "locID": "LOC000188393036",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720950195"
    }
   },
   {
