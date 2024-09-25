@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-07T13:05:07.144691",
+ "generated": "2024-09-25T19:10:43.587686",
  "suburb": "POKOLBIN",
  "features": [
   {
@@ -113,7 +113,7 @@
    "properties": {
     "name": "569 HERMITAGE ROAD POKOLBIN 2320",
     "locID": "LOC000064789727",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705651001",
     "tech_change_status": "Not Planned"
@@ -993,7 +993,7 @@
    "properties": {
     "name": "634 HERMITAGE ROAD POKOLBIN 2320",
     "locID": "LOC000065117765",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705695046",
     "tech_change_status": "Not Planned"
@@ -1031,7 +1031,7 @@
    "properties": {
     "name": "658 HERMITAGE ROAD POKOLBIN 2320",
     "locID": "LOC000043869189",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705695048",
     "tech_change_status": "Not Planned"
@@ -1089,7 +1089,7 @@
    "properties": {
     "name": "687 HERMITAGE ROAD POKOLBIN 2320",
     "locID": "LOC000109880099",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705695051",
     "tech_change_status": "Not Planned"
@@ -1201,7 +1201,7 @@
    "properties": {
     "name": "768 HERMITAGE ROAD POKOLBIN 2320",
     "locID": "LOC000070711420",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW709954941",
     "tech_change_status": "Not Planned"
@@ -2793,8 +2793,9 @@
     "name": "358 MCDONALDS ROAD POKOLBIN 2320",
     "locID": "LOC000061573261",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716335939"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW716335939",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -2882,8 +2883,9 @@
     "name": "602 MCDONALDS ROAD POKOLBIN 2320",
     "locID": "LOC000061573261",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716335949"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW716335949",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -23911,7 +23913,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721129736",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -24235,6 +24239,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721498301"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.32835823,
+     -32.73947832
+    ]
+   },
+   "properties": {
+    "name": "UNIT 6, 126 VINTAGE DRIVE POKOLBIN 2320",
+    "locID": "LOC000192357829",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721499327"
    }
   }
  ]
