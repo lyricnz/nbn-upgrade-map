@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-07T18:22:27.228203",
+ "generated": "2024-09-25T23:18:21.218394",
  "suburb": "MOLONG",
  "features": [
   {
@@ -2196,8 +2196,8 @@
    "properties": {
     "name": "64 MOLONG STREET MOLONG 2866",
     "locID": "LOC000098132332",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705385508",
     "tech_change_status": "Eligible to Order"
    }
@@ -5021,10 +5021,10 @@
    "properties": {
     "name": "8 SMITH STREET MOLONG 2866",
     "locID": "LOC000091881005",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705393878",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -10195,8 +10195,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     148.86842163,
-     -33.09219156
+     148.86902925,
+     -33.09224464
     ]
    },
    "properties": {
@@ -13990,7 +13990,7 @@
    "properties": {
     "name": "521 GREGRA ROAD MOLONG 2866",
     "locID": "LOC000040015526",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716631824",
     "tech_change_status": "Not Planned"
@@ -14048,7 +14048,7 @@
    "properties": {
     "name": "205 JENNINGS LANE MOLONG 2866",
     "locID": "LOC000080099407",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716633441",
     "tech_change_status": "Not Planned"
@@ -14727,9 +14727,9 @@
     "name": "300 PACKHAM DRIVE MOLONG 2866",
     "locID": "LOC000041736352",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
+    "upgrade": "WIRELESS",
     "gnaf_pid": "GANSW716638315",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -15000,7 +15000,7 @@
    "properties": {
     "name": "387 PEABODY ROAD MOLONG 2866",
     "locID": "LOC000009175742",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716638634",
     "tech_change_status": "Not Planned"
@@ -15250,7 +15250,7 @@
    "properties": {
     "name": "1066 SANDY CREEK ROAD MOLONG 2866",
     "locID": "LOC000098034333",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716640281",
     "tech_change_status": "Not Planned"
@@ -15562,7 +15562,7 @@
    "properties": {
     "name": "412 BANJO PATERSON WAY MOLONG 2866",
     "locID": "LOC000081792463",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716645996",
     "tech_change_status": "Not Planned"
@@ -16214,7 +16214,7 @@
    "properties": {
     "name": "230 MILLS ROAD MOLONG 2866",
     "locID": "LOC000080405089",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716675385",
     "tech_change_status": "Not Planned"
@@ -16568,7 +16568,7 @@
    "properties": {
     "name": "125 PEABODY ROAD MOLONG 2866",
     "locID": "LOC000068566261",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716681612",
     "tech_change_status": "Not Planned"
@@ -16604,7 +16604,7 @@
    "properties": {
     "name": "523 PEABODY ROAD MOLONG 2866",
     "locID": "LOC000090297830",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716681614",
     "tech_change_status": "Not Planned"
@@ -16701,9 +16701,9 @@
     "name": "895 PEABODY ROAD MOLONG 2866",
     "locID": "LOC000003267171",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
+    "upgrade": "WIRELESS",
     "gnaf_pid": "GANSW716681620",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -17374,7 +17374,7 @@
    "properties": {
     "name": "46 AMAROO ROAD MOLONG 2866",
     "locID": "LOC000061894003",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716868339",
     "tech_change_status": "Not Planned"
@@ -18040,7 +18040,7 @@
    "properties": {
     "name": "357 AMAROO ROAD MOLONG 2866",
     "locID": "LOC000099837996",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717280137",
     "tech_change_status": "Not Planned"
@@ -18253,7 +18253,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717287643",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -18747,7 +18749,7 @@
    "properties": {
     "name": "154 PEABODY ROAD MOLONG 2866",
     "locID": "LOC000048136767",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717381089",
     "tech_change_status": "Not Planned"
@@ -20780,9 +20782,9 @@
     "name": "47 THE GLEN ROAD MOLONG 2866",
     "locID": "LOC000039756186",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
+    "upgrade": "WIRELESS",
     "gnaf_pid": "GANSW718038836",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -21055,7 +21057,7 @@
    "properties": {
     "name": "215 JENNINGS LANE MOLONG 2866",
     "locID": "LOC000114257352",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718100992",
     "tech_change_status": "Not Planned"
@@ -22200,7 +22202,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718644243",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -22318,6 +22322,24 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718666755",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.87254593,
+     -33.09421497
+    ]
+   },
+   "properties": {
+    "name": "25-27 BETTS STREET MOLONG 2866",
+    "locID": "LOC100086323365",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW718684723",
     "tech_change_status": "Not Planned"
    }
   },
@@ -24016,7 +24038,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720259675",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -24561,6 +24585,26 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721441536",
     "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     148.87072742,
+     -33.0898747
+    ]
+   },
+   "properties": {
+    "name": "3 HILL STREET MOLONG 2866",
+    "locID": "LOC000001349174",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721575717",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Sep 2025"
    }
   }
  ]
