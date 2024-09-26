@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-08T05:53:46.746850",
+ "generated": "2024-09-26T07:32:57.322081",
  "suburb": "BAROOGA",
  "features": [
   {
@@ -1851,10 +1851,10 @@
    "properties": {
     "name": "4 KARJEN COURT BAROOGA 3644",
     "locID": "LOC000034137722",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704019479",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3187,8 +3187,8 @@
    "properties": {
     "name": "74 COLLIE STREET BAROOGA 3644",
     "locID": "LOC000025531839",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704022070",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5140,8 +5140,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.68921874,
-     -35.90710634
+     145.68855303,
+     -35.90682175
     ]
    },
    "properties": {
@@ -7289,10 +7289,9 @@
    "properties": {
     "name": "55 BARINYA STREET BAROOGA 3644",
     "locID": "LOC000074596801",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704030392",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11111,7 +11110,7 @@
    "properties": {
     "name": "523 YATES ROAD BAROOGA 3644",
     "locID": "LOC100056455841",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717229026",
     "tech_change_status": "Not Planned"
@@ -15524,10 +15523,9 @@
    "properties": {
     "name": "13 GYPSIE CRESCENT BAROOGA 3644",
     "locID": "LOC000115786508",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718100001",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16949,8 +16947,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.68995028,
-     -35.9068527
+     145.68878754,
+     -35.90672971
     ]
    },
    "properties": {
@@ -17957,7 +17955,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW718402651",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19010,10 +19008,9 @@
    "properties": {
     "name": "61 BUCHANANS ROAD BAROOGA 3644",
     "locID": "LOC000109170274",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718839798",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -20691,6 +20688,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.68878754,
+     -35.90672971
+    ]
+   },
+   "properties": {
+    "name": "29 BURKINSHAW STREET BAROOGA 3644",
+    "locID": "LOC000193610235",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719587417"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.73747433,
      -35.94917634
     ]
@@ -21184,26 +21198,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.68964864,
-     -35.90654568
-    ]
-   },
-   "properties": {
-    "name": "1 BURKINSHAW STREET BAROOGA 3644",
-    "locID": "LOC000115786499",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW721494592",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.68953221,
      -35.90776846
     ]
@@ -21312,23 +21306,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     145.68878754,
-     -35.90672971
-    ]
-   },
-   "properties": {
-    "name": "2 BURKINSHAW STREET BAROOGA 3644",
-    "locID": "LOC000193610235",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW721500546"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      145.68894617,
      -35.90711145
     ]
@@ -21359,6 +21336,40 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.68964864,
+     -35.90654568
+    ]
+   },
+   "properties": {
+    "name": "1 BELL PLACE BAROOGA 3644",
+    "locID": "LOC000193610079",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721575447"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.6891037,
+     -35.90661946
+    ]
+   },
+   "properties": {
+    "name": "13 BELL PLACE BAROOGA 3644",
+    "locID": "LOC000193610219",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721576528"
    }
   }
  ]
