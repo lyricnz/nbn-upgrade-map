@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-07T21:42:29.925615",
+ "generated": "2024-09-26T01:42:32.177056",
  "suburb": "VALLA BEACH",
  "features": [
   {
@@ -394,10 +394,9 @@
    "properties": {
     "name": "27 HIBISCUS DRIVE VALLA BEACH 2448",
     "locID": "LOC000010487248",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706149097",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5937,7 +5936,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW712251049",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5960,6 +5959,26 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.00777642,
+     -30.59207246
+    ]
+   },
+   "properties": {
+    "name": "84 VALLA BEACH ROAD VALLA BEACH 2448",
+    "locID": "LOC000181658837",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW712251117",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -11038,10 +11057,10 @@
    "properties": {
     "name": "31 TUNA STREET VALLA BEACH 2448",
     "locID": "LOC000105056058",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716888001",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18016,10 +18035,10 @@
    "properties": {
     "name": "10 SEAFORTH DRIVE VALLA BEACH 2448",
     "locID": "LOC000176725162",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718606152",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18253,10 +18272,9 @@
    "properties": {
     "name": "63 SEAFORTH DRIVE VALLA BEACH 2448",
     "locID": "LOC000150140059",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718606165",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19140,7 +19158,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721000800",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -19199,23 +19219,6 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.00347257,
-     -30.59769462
-    ]
-   },
-   "properties": {
-    "name": "2 SWORDFISH DRIVE VALLA BEACH 2448",
-    "locID": "LOC000191353008",
-    "tech": "NULL",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW721354262"
    }
   },
   {
@@ -19388,6 +19391,60 @@
     "gnaf_pid": "GANSW721384490",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.00386857,
+     -30.59807734
+    ]
+   },
+   "properties": {
+    "name": "1 BEACHSIDE DRIVE VALLA BEACH 2448",
+    "locID": "LOC000188421413",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721567366"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.00767913,
+     -30.59241345
+    ]
+   },
+   "properties": {
+    "name": "82 VALLA BEACH ROAD VALLA BEACH 2448",
+    "locID": "LOC000181658837",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW721575153",
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.00347257,
+     -30.59769462
+    ]
+   },
+   "properties": {
+    "name": "2 BEACHSIDE DRIVE VALLA BEACH 2448",
+    "locID": "LOC000188421409",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721578996"
    }
   }
  ]
