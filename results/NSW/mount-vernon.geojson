@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-08T03:26:53.499990",
+ "generated": "2024-09-26T05:34:32.349144",
  "suburb": "MOUNT VERNON",
  "features": [
   {
@@ -873,10 +873,10 @@
    "properties": {
     "name": "55 KERRS ROAD MOUNT VERNON 2178",
     "locID": "LOC000102957710",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705447234",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1238,8 +1238,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.81800442,
-     -33.84888506
+     150.81493225,
+     -33.85207987
     ]
    },
    "properties": {
@@ -1830,8 +1830,8 @@
    "properties": {
     "name": "100-104 MOUNT VERNON ROAD MOUNT VERNON 2178",
     "locID": "LOC000047669470",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW709786220",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6115,6 +6115,24 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.81493225,
+     -33.85207987
+    ]
+   },
+   "properties": {
+    "name": "122-134 CAPITOL HILL DRIVE MOUNT VERNON 2178",
+    "locID": "LOC000164964901",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721568256",
+    "tech_change_status": "Not Planned"
    }
   }
  ]
