@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-10T17:40:33.096461",
+ "generated": "2024-09-28T18:20:19.113969",
  "suburb": "PITTSWORTH",
  "features": [
   {
@@ -1266,9 +1266,9 @@
     "name": "7 ALLPORT STREET PITTSWORTH 4356",
     "locID": "LOC000057744418",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155710590",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4320,10 +4320,9 @@
    "properties": {
     "name": "5 TILLET STREET PITTSWORTH 4356",
     "locID": "LOC000086495561",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155717156",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4561,9 +4560,9 @@
     "name": "41 HADLEY STREET PITTSWORTH 4356",
     "locID": "LOC000006522748",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155717458",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4581,9 +4580,9 @@
     "name": "43 HADLEY STREET PITTSWORTH 4356",
     "locID": "LOC000080862757",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155717459",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4838,10 +4837,10 @@
    "properties": {
     "name": "12 CAMPBELL STREET PITTSWORTH 4356",
     "locID": "LOC000104961098",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155718033",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -6045,9 +6044,9 @@
     "name": "9 EDWARD STREET PITTSWORTH 4356",
     "locID": "LOC000016628839",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD155720472",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11954,7 +11953,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157019549",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -14928,10 +14927,9 @@
    "properties": {
     "name": "15 HADLEY STREET PITTSWORTH 4356",
     "locID": "LOC000078033253",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158479508",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16780,9 +16778,9 @@
     "name": "7 BOWDEN STREET PITTSWORTH 4356",
     "locID": "LOC000069071824",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD158501372",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17717,7 +17715,7 @@
    "properties": {
     "name": "647 CLIFTON ROAD PITTSWORTH 4356",
     "locID": "LOC000067788153",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158510367",
     "tech_change_status": "Not Planned"
@@ -19183,7 +19181,7 @@
    "properties": {
     "name": "LOT 1 AVONDALE ROAD PITTSWORTH 4356",
     "locID": "LOC000033057522",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158959235",
     "tech_change_status": "Not Planned"
@@ -21663,7 +21661,7 @@
    "properties": {
     "name": "240 BROXBURN ROAD PITTSWORTH 4356",
     "locID": "LOC000070808600",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160710242",
     "tech_change_status": "Not Planned"
@@ -21807,6 +21805,24 @@
     "tech_change_status": "Not Planned",
     "program_type": "Fixed Wireless and Satellite Upgrade Program",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.63680229,
+     -27.76664054
+    ]
+   },
+   "properties": {
+    "name": "517 CLIFTON ROAD PITTSWORTH 4356",
+    "locID": "LOC000127960512",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD160754327",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -22041,7 +22057,7 @@
    "properties": {
     "name": "308 AVONDALE ROAD PITTSWORTH 4356",
     "locID": "LOC000033057522",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD160762923",
     "tech_change_status": "Not Planned"
@@ -23257,10 +23273,9 @@
    "properties": {
     "name": "LOT 2 RAILWAY STREET PITTSWORTH 4356",
     "locID": "LOC000115950401",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161285561",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24486,7 +24501,7 @@
    "properties": {
     "name": "1094 PITTSWORTH - FELTON ROAD PITTSWORTH 4356",
     "locID": "LOC100078029424",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161665903",
     "tech_change_status": "Not Planned"
@@ -24687,6 +24702,24 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.67109152,
+     -27.72313426
+    ]
+   },
+   "properties": {
+    "name": "564 PITTSWORTH - FELTON ROAD PITTSWORTH 4356",
+    "locID": "LOC000127960596",
+    "tech": "SATELLITE",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD161795338",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -26895,10 +26928,9 @@
    "properties": {
     "name": "8 ALEXIA STREET PITTSWORTH 4356",
     "locID": "LOC000074310214",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163120355",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28602,7 +28634,7 @@
    "properties": {
     "name": "601 HOMESTEAD ROAD PITTSWORTH 4356",
     "locID": "LOC100056594105",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163310075",
     "tech_change_status": "Not Planned"
@@ -28844,10 +28876,9 @@
    "properties": {
     "name": "2 RAILWAY STREET PITTSWORTH 4356",
     "locID": "LOC000115950401",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163316686",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30869,6 +30900,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.66759048,
+     -27.76986534
+    ]
+   },
+   "properties": {
+    "name": "1158 PITTSWORTH - FELTON ROAD PITTSWORTH 4356",
+    "locID": "LOC100069735476",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719264881",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.62027553,
      -27.71424603
     ]
@@ -31114,7 +31163,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD719274624",
-    "tech_change_status": "In Design",
+    "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Sep 2025"
    }
@@ -33148,6 +33197,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721506504"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.64339569,
+     -27.71731851
+    ]
+   },
+   "properties": {
+    "name": "22 CATTELL CRESCENT PITTSWORTH 4356",
+    "locID": "LOC000192743700",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721506505"
    }
   },
   {
