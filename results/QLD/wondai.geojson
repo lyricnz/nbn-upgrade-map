@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-11T01:40:48.380886",
+ "generated": "2024-09-29T01:44:58.682592",
  "suburb": "WONDAI",
  "features": [
   {
@@ -10843,7 +10843,7 @@
    "properties": {
     "name": "84 LOWER RED HILL ROAD WONDAI 4606",
     "locID": "LOC000081913504",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158884478",
     "tech_change_status": "Not Planned"
@@ -11952,6 +11952,23 @@
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Mar 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.87724056,
+     -26.32292347
+    ]
+   },
+   "properties": {
+    "name": "43 SOUTH STREET WONDAI 4606",
+    "locID": "LOC000193699957",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD158904692"
    }
   },
   {
@@ -16666,7 +16683,7 @@
    "properties": {
     "name": "LOT 4 LOWER RED HILL ROAD WONDAI 4606",
     "locID": "LOC000081913504",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161217813",
     "tech_change_status": "Not Planned"
@@ -16744,7 +16761,7 @@
    "properties": {
     "name": "LOT 8 LOWER RED HILL ROAD WONDAI 4606",
     "locID": "LOC000081913504",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161217817",
     "tech_change_status": "Not Planned"
@@ -17620,7 +17637,7 @@
    "properties": {
     "name": "LOT 8 RED HILL ROAD WONDAI 4606",
     "locID": "LOC000081913504",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161287393",
     "tech_change_status": "Not Planned"
@@ -22600,7 +22617,7 @@
    "properties": {
     "name": "40 AMAROO DRIVE WONDAI 4606",
     "locID": "LOC100073884657",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163060748",
     "tech_change_status": "Not Planned"
@@ -26007,7 +26024,7 @@
    "properties": {
     "name": "27 REECE COURT WONDAI 4606",
     "locID": "LOC100078020176",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425039987",
     "tech_change_status": "Not Planned"
@@ -26125,7 +26142,7 @@
    "properties": {
     "name": "LOT 1 WONDAI - PROSTON ROAD WONDAI 4606",
     "locID": "LOC000128791699",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425041768",
     "tech_change_status": "Not Planned"
@@ -26162,9 +26179,9 @@
     "name": "LOT 3 WONDAI - PROSTON ROAD WONDAI 4606",
     "locID": "LOC000025316907",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
+    "upgrade": "WIRELESS",
     "gnaf_pid": "GAQLD425041770",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -27946,11 +27963,11 @@
     "name": "47-49 EDWARD STREET WONDAI 4606",
     "locID": "LOC000105346076",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP_SA",
     "gnaf_pid": "GAQLD425863822",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28928,7 +28945,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721061821",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29106,7 +29125,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721434190",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   }
  ]
