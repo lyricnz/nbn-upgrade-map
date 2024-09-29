@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-11T04:49:05.426267",
+ "generated": "2024-09-29T04:23:56.559643",
  "suburb": "OFFICER",
  "features": [
   {
@@ -13279,10 +13279,9 @@
    "properties": {
     "name": "4 MORRIS COURT OFFICER 3809",
     "locID": "LOC000037675151",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424625120",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18092,10 +18091,10 @@
    "properties": {
     "name": "20 RUSH LILY DRIVE OFFICER 3809",
     "locID": "LOC000114349905",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC424730529",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -115865,6 +115864,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.39850769,
+     -38.06977177
+    ]
+   },
+   "properties": {
+    "name": "21 DAISY STREET OFFICER 3809",
+    "locID": "LOC000195511027",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720823768"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.41665202,
      -38.0684237
     ]
@@ -115977,7 +115993,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720824569",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -117440,7 +117458,26 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720833758",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39958514,
+     -38.06932583
+    ]
+   },
+   "properties": {
+    "name": "5 MESSMATE STREET OFFICER 3809",
+    "locID": "LOC000195578129",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720833881"
    }
   },
   {
@@ -118093,9 +118130,10 @@
    "properties": {
     "name": "22 MESSMATE STREET OFFICER 3809",
     "locID": "LOC000195425295",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720837362"
+    "gnaf_pid": "GAVIC720837362",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -118283,6 +118321,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720838368"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39967469,
+     -38.0696823
+    ]
+   },
+   "properties": {
+    "name": "4 DAISY STREET OFFICER 3809",
+    "locID": "LOC000195511027",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC720838420"
    }
   },
   {
@@ -119403,7 +119458,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720912821",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -119676,9 +119733,10 @@
    "properties": {
     "name": "9 IXIA STREET OFFICER 3809",
     "locID": "LOC000195430713",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720915701"
+    "gnaf_pid": "GAVIC720915701",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -119764,7 +119822,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC720916138",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -120539,9 +120599,10 @@
    "properties": {
     "name": "18 SALTMARSH ROAD OFFICER 3809",
     "locID": "LOC000195430732",
-    "tech": "NULL",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC720924585"
+    "gnaf_pid": "GAVIC720924585",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -123078,7 +123139,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721022741",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -123096,7 +123159,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721022911",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -123226,6 +123291,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.39770294,
+     -38.06771243
+    ]
+   },
+   "properties": {
+    "name": "2 BANYALLA DRIVE OFFICER 3809",
+    "locID": "LOC100087233766",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721028002"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.39965865,
      -38.06873873
     ]
@@ -123236,7 +123318,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721028163",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -123271,6 +123355,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721029428"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.39780769,
+     -38.06936272
+    ]
+   },
+   "properties": {
+    "name": "27 BANYALLA DRIVE OFFICER 3809",
+    "locID": "LOC100087233766",
+    "tech": "NULL",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721030296"
    }
   },
   {
@@ -126311,7 +126412,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721165507",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -126451,7 +126554,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721168739",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -126639,7 +126744,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721222811",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -128125,7 +128232,7 @@
     "gnaf_pid": "GAVIC721296382",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -128165,7 +128272,7 @@
     "gnaf_pid": "GAVIC721296525",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -128505,7 +128612,7 @@
     "gnaf_pid": "GAVIC721300046",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -128638,7 +128745,7 @@
     "gnaf_pid": "GAVIC721301395",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -128715,7 +128822,7 @@
     "gnaf_pid": "GAVIC721302555",
     "tech_change_status": "Committed",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
@@ -128943,7 +129050,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721369358",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -129253,7 +129362,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721377935",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
