@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-12T10:59:51.247892",
+ "generated": "2024-09-30T10:02:27.784562",
  "suburb": "NORTH GEELONG",
  "features": [
   {
@@ -4311,8 +4311,8 @@
    "properties": {
     "name": "37 GIDDINGS STREET NORTH GEELONG 3215",
     "locID": "LOC000080846211",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419640096",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4756,10 +4756,9 @@
    "properties": {
     "name": "54-58 CHURCH STREET NORTH GEELONG 3215",
     "locID": "LOC000124240869",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419642123",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5248,10 +5247,9 @@
    "properties": {
     "name": "7 GIDDINGS STREET NORTH GEELONG 3215",
     "locID": "LOC000053897881",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419645542",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7216,7 +7214,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC419949971",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9405,6 +9403,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.35063522,
+     -38.12459182
+    ]
+   },
+   "properties": {
+    "name": "15 BAXTER ROAD NORTH GEELONG 3215",
+    "locID": "LOC000195519437",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420140210"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.34458916,
      -38.10572514
     ]
@@ -9642,7 +9657,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420224211",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13887,8 +13904,8 @@
    "properties": {
     "name": "41 STUBBS AVENUE NORTH GEELONG 3215",
     "locID": "LOC000017783982",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420561859",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15609,10 +15626,9 @@
    "properties": {
     "name": "284-286 THOMPSON ROAD NORTH GEELONG 3215",
     "locID": "LOC000124274733",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420841897",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420841897"
    }
   },
   {
@@ -17730,10 +17746,9 @@
    "properties": {
     "name": "74-76 MORNINGTON STREET NORTH GEELONG 3215",
     "locID": "LOC000097088031",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420878801",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC420878801"
    }
   },
   {
@@ -30963,7 +30978,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424620519",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30983,7 +30998,7 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC424620520",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }

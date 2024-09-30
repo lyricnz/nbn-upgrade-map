@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-12T12:50:23.330225",
+ "generated": "2024-09-30T10:34:37.223518",
  "suburb": "ROCHESTER",
  "features": [
   {
@@ -1704,10 +1704,10 @@
    "properties": {
     "name": "49 DUDLEY STREET ROCHESTER 3561",
     "locID": "LOC000075983343",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412200402",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -5148,10 +5148,9 @@
    "properties": {
     "name": "41 DUDLEY STREET ROCHESTER 3561",
     "locID": "LOC000071697153",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC412226550",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9083,10 +9082,10 @@
    "properties": {
     "name": "134 MACKAY STREET ROCHESTER 3561",
     "locID": "LOC000048872133",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419967458",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24185,10 +24184,10 @@
    "properties": {
     "name": "66 NORTHCOTE STREET ROCHESTER 3561",
     "locID": "LOC000002012831",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423285778",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24764,10 +24763,10 @@
    "properties": {
     "name": "22 QUEEN STREET ROCHESTER 3561",
     "locID": "LOC000054260264",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423287070",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -28222,6 +28221,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     144.63279174,
+     -36.37105905
+    ]
+   },
+   "properties": {
+    "name": "533 DINGEE ROAD ROCHESTER 3561",
+    "locID": "LOC000082435232",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423749008",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      144.63080324,
      -36.37047881
     ]
@@ -29343,9 +29360,9 @@
     "name": "15 JENCKE ROAD ROCHESTER 3561",
     "locID": "LOC000024331982",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
+    "upgrade": "WIRELESS",
     "gnaf_pid": "GAVIC423752277",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -35200,6 +35217,64 @@
     "tech": "FTTN",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GAVIC721485313",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71568883,
+     -36.36989641
+    ]
+   },
+   "properties": {
+    "name": "26 PLATYPUS ROAD ROCHESTER 3561",
+    "locID": "LOC000011006870",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAVIC721555670",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71568883,
+     -36.36989641
+    ]
+   },
+   "properties": {
+    "name": "40 PLATYPUS ROAD ROCHESTER 3561",
+    "locID": "LOC000193570287",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721555895",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.71568883,
+     -36.36989641
+    ]
+   },
+   "properties": {
+    "name": "28 PLATYPUS ROAD ROCHESTER 3561",
+    "locID": "LOC000017659877",
+    "tech": "FTTN",
+    "upgrade": "FTTP",
+    "gnaf_pid": "GAVIC721556206",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
