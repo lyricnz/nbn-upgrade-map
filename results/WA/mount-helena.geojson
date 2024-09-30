@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-12T18:36:38.266938",
+ "generated": "2024-09-30T16:31:21.924683",
  "suburb": "MOUNT HELENA",
  "features": [
   {
@@ -7494,7 +7494,9 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146710640",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8103,10 +8105,12 @@
    "properties": {
     "name": "580 KEANE STREET WEST MOUNT HELENA 6082",
     "locID": "LOC000036603393",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146711400",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -8124,7 +8128,9 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146711401",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -12494,7 +12500,9 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146787939",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13020,7 +13028,9 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146933167",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -13056,7 +13066,9 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146933169",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -23610,9 +23622,7 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_718338044",
-    "tech_change_status": "Not Planned",
-    "program_type": "Fixed Wireless and Satellite Upgrade Program",
-    "target_eligibility_quarter": "Dec 2024"
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -24830,7 +24840,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_718820498",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
@@ -25860,6 +25872,57 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     116.21699599,
+     -31.88035009
+    ]
+   },
+   "properties": {
+    "name": "15 RHODES WAY MOUNT HELENA 6082",
+    "locID": "LOC000195160636",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721463475"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.21756979,
+     -31.88116781
+    ]
+   },
+   "properties": {
+    "name": "9 RHODES WAY MOUNT HELENA 6082",
+    "locID": "LOC000195160662",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721463477"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.21762043,
+     -31.88020232
+    ]
+   },
+   "properties": {
+    "name": "15 HARDMAN VIEW MOUNT HELENA 6082",
+    "locID": "LOC000195160627",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721463867"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      116.21798574,
      -31.88072734
     ]
@@ -25877,6 +25940,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     116.21779411,
+     -31.88146354
+    ]
+   },
+   "properties": {
+    "name": "7 RHODES WAY MOUNT HELENA 6082",
+    "locID": "LOC000195160670",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721464717"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.21737767,
+     -31.88089662
+    ]
+   },
+   "properties": {
+    "name": "11 RHODES WAY MOUNT HELENA 6082",
+    "locID": "LOC000195160658",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721465364"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      116.21718458,
      -31.88062475
     ]
@@ -25887,6 +25984,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_721465729"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.21788901,
+     -31.88006043
+    ]
+   },
+   "properties": {
+    "name": "13 HARDMAN VIEW MOUNT HELENA 6082",
+    "locID": "LOC000195160615",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721465964"
    }
   },
   {
