@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-12T10:44:53.985227",
+ "generated": "2024-09-30T09:38:28.303992",
  "suburb": "NEWBOROUGH",
  "features": [
   {
@@ -2223,7 +2223,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC414676490",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -16648,10 +16648,9 @@
    "properties": {
     "name": "27 STAMFORD STREET NEWBOROUGH 3825",
     "locID": "LOC000074501120",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420309462",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -21945,9 +21944,9 @@
     "name": "9 VALLEY COURT NEWBOROUGH 3825",
     "locID": "LOC000012820778",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420359583",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31632,10 +31631,10 @@
    "properties": {
     "name": "5 KENNEDY COURT NEWBOROUGH 3825",
     "locID": "LOC000100604201",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420922191",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -45483,10 +45482,10 @@
    "properties": {
     "name": "49 DINWOODIE DRIVE NEWBOROUGH 3825",
     "locID": "LOC000050020828",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421516219",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -57391,7 +57390,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC422137829",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -57411,7 +57410,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC422137830",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -57431,7 +57430,7 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422137831",
     "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -57451,7 +57450,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC422137833",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -57491,7 +57490,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC422137835",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -57610,7 +57609,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC422178791",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -58748,8 +58749,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423227809",
-    "tech_change_status": "MDU Complex Premises In Build",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Build Finalised",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -58768,8 +58769,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC423227810",
-    "tech_change_status": "MDU Complex Premises In Build",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "Build Finalised",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -71507,6 +71508,24 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721295197"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.28520291,
+     -38.18567122
+    ]
+   },
+   "properties": {
+    "name": "13 JOHN FIELD DRIVE NEWBOROUGH 3825",
+    "locID": "LOC000195593913",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721295357",
+    "tech_change_status": "Not Planned"
    }
   },
   {
