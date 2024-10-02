@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-14T09:30:58.193031",
+ "generated": "2024-10-02T07:21:09.530290",
  "suburb": "PEMULWUY",
  "features": [
   {
@@ -4789,8 +4789,8 @@
    "properties": {
     "name": "18 BUNNAI ROAD PEMULWUY 2145",
     "locID": "LOC000069802763",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716952545",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4831,6 +4831,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW716952547",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4984,7 +4985,7 @@
     "name": "4 BUNNAI ROAD PEMULWUY 2145",
     "locID": "LOC000109760732",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716952555",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6603,9 +6604,9 @@
     "name": "6 BUTLER ROAD PEMULWUY 2145",
     "locID": "LOC000087914832",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717062506",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10019,8 +10020,8 @@
    "properties": {
     "name": "14 GRAZIER CIRCUIT PEMULWUY 2145",
     "locID": "LOC000090644377",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717299535",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16777,8 +16778,8 @@
    "properties": {
     "name": "6 NICHOLLS WAY PEMULWUY 2145",
     "locID": "LOC000031479266",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717601533",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16816,10 +16817,10 @@
    "properties": {
     "name": "8 NICHOLLS WAY PEMULWUY 2145",
     "locID": "LOC000085553644",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717601535",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19517,10 +19518,10 @@
    "properties": {
     "name": "16 NEA DRIVE PEMULWUY 2145",
     "locID": "LOC000069261122",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717865916",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23065,9 +23066,9 @@
     "name": "57 NIJONG DRIVE PEMULWUY 2145",
     "locID": "LOC000049974796",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718045811",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -24262,7 +24263,9 @@
     "locID": "LOC000111405641",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718080416"
+    "gnaf_pid": "GANSW718080416",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29246,10 +29249,9 @@
    "properties": {
     "name": "3 DUAL LANE PEMULWUY 2145",
     "locID": "LOC000156005393",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718407085",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -38497,6 +38499,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721353271"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.92404271,
+     -33.82813575
+    ]
+   },
+   "properties": {
+    "name": "259 DRIFTWAY DRIVE PEMULWUY 2145",
+    "locID": "LOC000189214731",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721353279"
    }
   },
   {

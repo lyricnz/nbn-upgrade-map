@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-14T09:20:51.932970",
+ "generated": "2024-10-02T07:10:55.296738",
  "suburb": "ZETLAND",
  "features": [
   {
@@ -2633,7 +2633,7 @@
     "name": "964 ELIZABETH STREET ZETLAND 2017",
     "locID": "LOC000009808804",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW706374279",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5202,10 +5202,9 @@
    "properties": {
     "name": "13 PORTMAN STREET ZETLAND 2017",
     "locID": "LOC000008830832",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW706401196",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -16555,9 +16554,10 @@
     "name": "125 PORTMAN STREET ZETLAND 2017",
     "locID": "LOC000089478483",
     "tech": "FTTN",
-    "upgrade": "NULL_NA",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW715647559",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -63896,23 +63896,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718617516"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.20833673,
-     -33.90429702
-    ]
-   },
-   "properties": {
-    "name": "UNIT 602, 17 JOYNTON AVENUE ZETLAND 2017",
-    "locID": "LOC000136948262",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW718617517"
    }
   },
   {
@@ -129073,6 +129056,23 @@
     "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720152294"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.20344406,
+     -33.90976967
+    ]
+   },
+   "properties": {
+    "name": "11A HANSARD STREET ZETLAND 2017",
+    "locID": "LOC000195538973",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720152319"
    }
   },
   {

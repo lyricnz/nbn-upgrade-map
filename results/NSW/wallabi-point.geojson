@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-14T08:36:55.730785",
+ "generated": "2024-10-02T06:34:43.345104",
  "suburb": "WALLABI POINT",
  "features": [
   {
@@ -1902,7 +1902,6 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW706212572",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -4013,10 +4012,10 @@
    "properties": {
     "name": "320 SALTWATER ROAD WALLABI POINT 2430",
     "locID": "LOC000022416343",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716472794",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6025,25 +6024,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     152.5670439,
-     -31.9930162
-    ]
-   },
-   "properties": {
-    "name": "9 SURFSOUND AVENUE WALLABI POINT 2430",
-    "locID": "LOC000028202260",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717900736",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      152.565964,
      -31.9893646
     ]
@@ -7034,7 +7014,7 @@
    "properties": {
     "name": "19 PEETS AVENUE WALLABI POINT 2430",
     "locID": "LOC100022354774",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718729971",
     "tech_change_status": "Not Planned"
@@ -8119,7 +8099,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720384083",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
