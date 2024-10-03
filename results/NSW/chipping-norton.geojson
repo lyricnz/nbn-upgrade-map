@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-15T09:02:08.197424",
+ "generated": "2024-10-03T06:57:36.592422",
  "suburb": "CHIPPING NORTON",
  "features": [
   {
@@ -275,7 +275,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704394599",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -294,8 +294,8 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704394600",
-    "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "tech_change_status": "New Tech Connected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -315,7 +315,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704394601",
     "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -335,7 +335,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704394602",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -355,7 +355,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704394603",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -415,7 +415,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704394606",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -435,7 +435,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704394607",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -455,7 +455,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704394608",
     "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -495,7 +495,7 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704394610",
     "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -535,7 +535,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704394612",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -1337,10 +1337,9 @@
    "properties": {
     "name": "55 CHILDS ROAD CHIPPING NORTON 2170",
     "locID": "LOC000096751756",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704394780",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -1748,6 +1747,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.95215298,
+     -33.92709536
+    ]
+   },
+   "properties": {
+    "name": "11 MAGREE CRESCENT CHIPPING NORTON 2170",
+    "locID": "LOC000195434584",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704394901"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.95332863,
      -33.92730227
     ]
@@ -2026,9 +2042,9 @@
     "name": "36 ASHFORDBY STREET CHIPPING NORTON 2170",
     "locID": "LOC000022390277",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704396133",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3093,10 +3109,10 @@
    "properties": {
     "name": "32 ASHFORDBY STREET CHIPPING NORTON 2170",
     "locID": "LOC000088581422",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704398730",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3587,7 +3603,7 @@
     "name": "22 AYLESBURY CRESCENT CHIPPING NORTON 2170",
     "locID": "LOC000080108963",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704403081",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4541,7 +4557,7 @@
     "name": "65 CHARLTON AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000013070959",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704403153",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10427,10 +10443,9 @@
    "properties": {
     "name": "5 SEA SPRAY COURT CHIPPING NORTON 2170",
     "locID": "LOC000068618785",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW704409563",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704409563"
    }
   },
   {
@@ -14158,10 +14173,10 @@
    "properties": {
     "name": "18 CHESHAM PLACE CHIPPING NORTON 2170",
     "locID": "LOC000050752536",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704411685",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15246,10 +15261,10 @@
    "properties": {
     "name": "20 BENT STREET CHIPPING NORTON 2170",
     "locID": "LOC000097014101",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704411995",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15972,10 +15987,9 @@
    "properties": {
     "name": "7 SANCTUARY PLACE CHIPPING NORTON 2170",
     "locID": "LOC000002258737",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704412149",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704412149"
    }
   },
   {
@@ -16906,7 +16920,9 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704412382",
-    "tech_change_status": "Previous Tech Disconnected"
+    "tech_change_status": "Previous Tech Disconnected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -19116,6 +19132,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.95767444,
+     -33.92739846
+    ]
+   },
+   "properties": {
+    "name": "22 BOOLARONG AVENUE CHIPPING NORTON 2170",
+    "locID": "LOC000195506946",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704413615"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.95978375,
      -33.92733026
     ]
@@ -19890,7 +19923,7 @@
    "properties": {
     "name": "9 MAGREE CRESCENT CHIPPING NORTON 2170",
     "locID": "LOC000195434610",
-    "tech": "NULL",
+    "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704413660"
    }
@@ -21606,7 +21639,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704414681",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -21626,7 +21659,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704414682",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -21646,7 +21679,7 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704414683",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -21666,7 +21699,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704414684",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -21706,7 +21739,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704414686",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -23829,7 +23862,7 @@
     "name": "16 WENDLEBURY ROAD CHIPPING NORTON 2170",
     "locID": "LOC000046242189",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704415464",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23966,7 +23999,7 @@
     "name": "22 WENDLEBURY ROAD CHIPPING NORTON 2170",
     "locID": "LOC000046242189",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704415471",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24511,7 +24544,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704415623",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -24531,7 +24564,7 @@
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704415624",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -26342,7 +26375,7 @@
     "name": "22 WOLVERTON AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000014851341",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704416925",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -28194,7 +28227,9 @@
     "tech": "FTTC",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704417242",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "New Tech Connected",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -28386,7 +28421,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704417252",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -28588,7 +28623,7 @@
     "name": "4 BRIXHAM PLACE CHIPPING NORTON 2170",
     "locID": "LOC000016256633",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704417265",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -28949,7 +28984,7 @@
     "name": "12 DERBY CRESCENT CHIPPING NORTON 2170",
     "locID": "LOC000036259583",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704417286",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -29259,10 +29294,10 @@
    "properties": {
     "name": "27 DERBY CRESCENT CHIPPING NORTON 2170",
     "locID": "LOC000016275965",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704417303",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -31883,7 +31918,7 @@
     "name": "35 WESTBURY STREET CHIPPING NORTON 2170",
     "locID": "LOC000006432467",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704418111",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -32041,6 +32076,23 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704418133"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.95936296,
+     -33.91775121
+    ]
+   },
+   "properties": {
+    "name": "10 ASHFORDBY STREET CHIPPING NORTON 2170",
+    "locID": "LOC000195522834",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704418162"
    }
   },
   {
@@ -36031,10 +36083,9 @@
    "properties": {
     "name": "34 RUGBY CRESCENT CHIPPING NORTON 2170",
     "locID": "LOC000054651772",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704420302",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -50554,23 +50605,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.95237006,
-     -33.92840118
-    ]
-   },
-   "properties": {
-    "name": "162 LONGSTAFF AVENUE CHIPPING NORTON 2170",
-    "locID": "LOC000020675812",
-    "tech": "HFC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704431253"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.95053889,
      -33.92793467
     ]
@@ -51695,10 +51729,10 @@
    "properties": {
     "name": "76 YACHTSMAN DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000041636861",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704431330",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -51715,10 +51749,10 @@
    "properties": {
     "name": "78 YACHTSMAN DRIVE CHIPPING NORTON 2170",
     "locID": "LOC000043974132",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704431331",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -52218,10 +52252,10 @@
    "properties": {
     "name": "31 DERBY CRESCENT CHIPPING NORTON 2170",
     "locID": "LOC000064305502",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704431941",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53029,8 +53063,8 @@
    "properties": {
     "name": "36 LAVINGTON AVENUE CHIPPING NORTON 2170",
     "locID": "LOC000084207118",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704431983",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -53232,7 +53266,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW704431993",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -53397,26 +53431,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     150.96079654,
-     -33.92450719
-    ]
-   },
-   "properties": {
-    "name": "48 BUNGARRA CRESCENT CHIPPING NORTON 2170",
-    "locID": "LOC000102418437",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW704432497",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      150.95391022,
      -33.91612864
     ]
@@ -53560,7 +53574,7 @@
     "name": "133 EPSOM ROAD CHIPPING NORTON 2170",
     "locID": "LOC000090324246",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704432505",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -54014,7 +54028,7 @@
     "name": "8 EPSOM ROAD CHIPPING NORTON 2170",
     "locID": "LOC000021585462",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704433002",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -56213,7 +56227,7 @@
     "name": "9 PADBURY STREET CHIPPING NORTON 2170",
     "locID": "LOC000090552317",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704433860",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -61141,24 +61155,6 @@
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW711268450",
     "tech_change_status": "Not Planned"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.96382383,
-     -33.92388547
-    ]
-   },
-   "properties": {
-    "name": "42-46 ALFRED ROAD CHIPPING NORTON 2170",
-    "locID": "LOC000004581112",
-    "tech": "FTTC",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GANSW711268451",
-    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -83956,6 +83952,57 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW721499636"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.94716573,
+     -33.92659834
+    ]
+   },
+   "properties": {
+    "name": "21C LONGSTAFF AVENUE CHIPPING NORTON 2170",
+    "locID": "LOC000194251109",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721565258"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.94710558,
+     -33.92663158
+    ]
+   },
+   "properties": {
+    "name": "21B LONGSTAFF AVENUE CHIPPING NORTON 2170",
+    "locID": "LOC000194251113",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721567102"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.94704852,
+     -33.92666873
+    ]
+   },
+   "properties": {
+    "name": "21A LONGSTAFF AVENUE CHIPPING NORTON 2170",
+    "locID": "LOC000194251121",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW721568728"
    }
   },
   {
