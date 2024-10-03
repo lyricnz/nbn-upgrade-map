@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-15T03:09:21.876700",
+ "generated": "2024-10-03T01:01:20.557228",
  "suburb": "KINGSWOOD",
  "features": [
   {
@@ -262,10 +262,9 @@
    "properties": {
     "name": "20 ALGIE CRESCENT KINGSWOOD 2747",
     "locID": "LOC000014078700",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW716291089",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW716291089"
    }
   },
   {
@@ -4944,7 +4943,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW716298669",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9224,10 +9223,9 @@
    "properties": {
     "name": "18 DERBY STREET KINGSWOOD 2747",
     "locID": "LOC000056932268",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716309252",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11652,23 +11650,6 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716311540"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     150.71574752,
-     -33.76610629
-    ]
-   },
-   "properties": {
-    "name": "35 ELIZABETH CRESCENT KINGSWOOD 2747",
-    "locID": "LOC000013192521",
-    "tech": "FTTP",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716311541"
    }
   },
   {
@@ -15235,8 +15216,8 @@
    "properties": {
     "name": "3 FURY STREET KINGSWOOD 2747",
     "locID": "LOC000012903869",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716315119",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18988,7 +18969,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716318169",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -23653,6 +23634,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716324470"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.71446648,
+     -33.76491876
+    ]
+   },
+   "properties": {
+    "name": "36 JAMISON ROAD KINGSWOOD 2747",
+    "locID": "LOC000195518584",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW716324471"
    }
   },
   {
@@ -30565,10 +30563,9 @@
    "properties": {
     "name": "10 MELALEUCA PLACE KINGSWOOD 2747",
     "locID": "LOC000029578233",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW716336344",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW716336344"
    }
   },
   {
@@ -36614,7 +36611,7 @@
     "name": "226 PARKER STREET KINGSWOOD 2747",
     "locID": "LOC000065015757",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716345867",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -50317,8 +50314,9 @@
     "name": "4 DAPHNE CLOSE KINGSWOOD 2747",
     "locID": "LOC000028196006",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW716392765"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW716392765",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
@@ -52815,7 +52813,7 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW716396465",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -57172,7 +57170,9 @@
     "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716412865",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -73747,7 +73747,7 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW716753359",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -73767,7 +73767,7 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW716753360",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -74274,7 +74274,7 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW716858131",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -74294,7 +74294,7 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW716858132",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -74313,7 +74313,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716858133",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -74329,11 +74329,10 @@
    "properties": {
     "name": "UNIT 6, 34 FIRST STREET KINGSWOOD 2747",
     "locID": "LOC000065531717",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW716858134",
-    "tech_change_status": "New Tech Connected",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -85760,7 +85759,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GANSW718423991",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -85935,10 +85934,9 @@
    "properties": {
     "name": "52 SMITH STREET KINGSWOOD 2747",
     "locID": "LOC000165319843",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718434322",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -85976,7 +85974,7 @@
     "name": "65A SMITH STREET KINGSWOOD 2747",
     "locID": "LOC000165319741",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW718434324",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -101739,6 +101737,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW720396170"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.72892811,
+     -33.76251071
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 5 DAPHNE CLOSE KINGSWOOD 2747",
+    "locID": "LOC000185969662",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW720398950"
    }
   },
   {

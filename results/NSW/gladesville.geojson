@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-15T03:42:46.152465",
+ "generated": "2024-10-03T01:37:19.269450",
  "suburb": "GLADESVILLE",
  "features": [
   {
@@ -114,7 +114,7 @@
     "name": "17 SUNNYSIDE STREET GLADESVILLE 2111",
     "locID": "LOC000078800336",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704783332",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -451,7 +451,7 @@
     "name": "33 SUNNYSIDE STREET GLADESVILLE 2111",
     "locID": "LOC000099311668",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704783350",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -797,10 +797,10 @@
    "properties": {
     "name": "52 SUNNYSIDE STREET GLADESVILLE 2111",
     "locID": "LOC000098661332",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW704783368",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2265,9 +2265,9 @@
     "name": "11 SHORT STREET GLADESVILLE 2111",
     "locID": "LOC000043991739",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704784837",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -3951,10 +3951,9 @@
    "properties": {
     "name": "13 SHACKEL AVENUE GLADESVILLE 2111",
     "locID": "LOC000046265095",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW704786947",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704786947"
    }
   },
   {
@@ -5154,24 +5153,6 @@
     "tech": "FTTC",
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW704788084",
-    "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.12897489,
-     -33.81890317
-    ]
-   },
-   "properties": {
-    "name": "4 THOMPSON STREET GLADESVILLE 2111",
-    "locID": "LOC000009588310",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704788085",
     "tech_change_status": "Eligible to Order"
    }
   },
@@ -8386,9 +8367,9 @@
     "name": "292 VICTORIA ROAD GLADESVILLE 2111",
     "locID": "LOC000083142541",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704790850",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -10833,10 +10814,9 @@
    "properties": {
     "name": "8A VENUS STREET GLADESVILLE 2111",
     "locID": "LOC000096696179",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW704794078",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704794078"
    }
   },
   {
@@ -14478,6 +14458,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.12626286,
+     -33.81826598
+    ]
+   },
+   "properties": {
+    "name": "26 HIGGINBOTHAM ROAD GLADESVILLE 2111",
+    "locID": "LOC000021237853",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704797232"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.12457758,
      -33.81792028
     ]
@@ -14840,10 +14837,9 @@
    "properties": {
     "name": "34 HIGGINBOTHAM ROAD GLADESVILLE 2111",
     "locID": "LOC000089916238",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW704797253",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704797253"
    }
   },
   {
@@ -23595,10 +23591,9 @@
    "properties": {
     "name": "47 SWAN STREET GLADESVILLE 2111",
     "locID": "LOC000049362148",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW704799893",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704799893"
    }
   },
   {
@@ -25549,10 +25544,9 @@
    "properties": {
     "name": "11 HIGH STREET GLADESVILLE 2111",
     "locID": "LOC000022954798",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704800540",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704800540"
    }
   },
   {
@@ -25638,10 +25632,9 @@
    "properties": {
     "name": "2A MERITON STREET GLADESVILLE 2111",
     "locID": "LOC000072678270",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW704800545",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704800545"
    }
   },
   {
@@ -30213,10 +30206,9 @@
    "properties": {
     "name": "58A OSGATHORPE ROAD GLADESVILLE 2111",
     "locID": "LOC000063255535",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW704802169",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704802169"
    }
   },
   {
@@ -32696,10 +32688,9 @@
    "properties": {
     "name": "57 MERITON STREET GLADESVILLE 2111",
     "locID": "LOC000072678270",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW704803191",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704803191"
    }
   },
   {
@@ -32732,10 +32723,9 @@
    "properties": {
     "name": "6 MERITON STREET GLADESVILLE 2111",
     "locID": "LOC000079209697",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW704803193",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704803193"
    }
   },
   {
@@ -34007,6 +33997,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     151.12039137,
+     -33.8312054
+    ]
+   },
+   "properties": {
+    "name": "77 WESTERN CRESCENT GLADESVILLE 2111",
+    "locID": "LOC000195530559",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704803399"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      151.12113305,
      -33.83026761
     ]
@@ -34299,10 +34306,9 @@
    "properties": {
     "name": "11 PILE STREET GLADESVILLE 2111",
     "locID": "LOC000069655932",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW704803918",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704803918"
    }
   },
   {
@@ -36253,10 +36259,9 @@
    "properties": {
     "name": "4 AMIENS STREET GLADESVILLE 2111",
     "locID": "LOC000086779381",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704804638",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704804638"
    }
   },
   {
@@ -40595,7 +40600,7 @@
     "name": "17 HILLCREST AVENUE GLADESVILLE 2111",
     "locID": "LOC000078529712",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW704805817",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -43646,10 +43651,9 @@
    "properties": {
     "name": "2 WESTMINSTER ROAD GLADESVILLE 2111",
     "locID": "LOC000090458855",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GANSW704806686",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704806686"
    }
   },
   {
@@ -46635,23 +46639,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     151.12602183,
-     -33.82931717
-    ]
-   },
-   "properties": {
-    "name": "2 HEPBURN AVENUE GLADESVILLE 2111",
-    "locID": "LOC000032929453",
-    "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704808010"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      151.12480523,
      -33.82893722
     ]
@@ -47031,23 +47018,6 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW704808032",
     "tech_change_status": "Eligible to Order"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     151.12582844,
-     -33.82925633
-    ]
-   },
-   "properties": {
-    "name": "4 HEPBURN AVENUE GLADESVILLE 2111",
-    "locID": "LOC000055617876",
-    "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW704808033"
    }
   },
   {
@@ -49626,10 +49596,9 @@
    "properties": {
     "name": "18 ALBERT STREET GLADESVILLE 2111",
     "locID": "LOC000099237219",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704808363",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704808363"
    }
   },
   {
@@ -53046,10 +53015,9 @@
    "properties": {
     "name": "38 ASHBURN PLACE GLADESVILLE 2111",
     "locID": "LOC000038146820",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW704809211",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704809211"
    }
   },
   {
@@ -56150,6 +56118,23 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GANSW704811724",
     "tech_change_status": "MDU Complex Eligible To Apply"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.12201676,
+     -33.83210376
+    ]
+   },
+   "properties": {
+    "name": "50 MORRISON ROAD GLADESVILLE 2111",
+    "locID": "LOC000195513637",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704811725"
    }
   },
   {
@@ -70954,6 +70939,23 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GANSW704823042",
     "tech_change_status": "Eligible to Order"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.11897677,
+     -33.82852123
+    ]
+   },
+   "properties": {
+    "name": "97 MORRISON ROAD GLADESVILLE 2111",
+    "locID": "LOC000195462074",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW704823043"
    }
   },
   {
@@ -85901,10 +85903,9 @@
    "properties": {
     "name": "51A WESTERN CRESCENT GLADESVILLE 2111",
     "locID": "LOC000098370667",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW710853945",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW710853945"
    }
   },
   {
@@ -104026,8 +104027,9 @@
     "name": "UNIT 4, 2-12 TENNYSON ROAD GLADESVILLE 2111",
     "locID": "LOC000011291561",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GANSW717986383"
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW717986383",
+    "tech_change_status": "MDU Complex Eligible To Apply"
    }
   },
   {
