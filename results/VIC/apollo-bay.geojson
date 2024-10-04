@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-16T19:30:26.145054",
+ "generated": "2024-10-04T16:11:54.756239",
  "suburb": "APOLLO BAY",
  "features": [
   {
@@ -668,7 +668,7 @@
    "properties": {
     "name": "6250 GREAT OCEAN ROAD APOLLO BAY 3233",
     "locID": "LOC000053031284",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC410751023",
     "tech_change_status": "Not Planned"
@@ -7251,7 +7251,7 @@
    "properties": {
     "name": "6230 GREAT OCEAN ROAD APOLLO BAY 3233",
     "locID": "LOC000016897974",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419765951",
     "tech_change_status": "Not Planned"
@@ -9233,7 +9233,7 @@
    "properties": {
     "name": "170 BUSTY ROAD APOLLO BAY 3233",
     "locID": "LOC000089908748",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419789861",
     "tech_change_status": "Not Planned"
@@ -11012,10 +11012,10 @@
    "properties": {
     "name": "11 PENGILLEY AVENUE APOLLO BAY 3233",
     "locID": "LOC000003929634",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420073354",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -11804,7 +11804,7 @@
    "properties": {
     "name": "6190 GREAT OCEAN ROAD APOLLO BAY 3233",
     "locID": "LOC000023434125",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420077316",
     "tech_change_status": "Not Planned"
@@ -15345,7 +15345,7 @@
    "properties": {
     "name": "6120 GREAT OCEAN ROAD APOLLO BAY 3233",
     "locID": "LOC000085311562",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420573588",
     "tech_change_status": "Not Planned"
@@ -16832,7 +16832,7 @@
    "properties": {
     "name": "480 TUXION ROAD APOLLO BAY 3233",
     "locID": "LOC000022655694",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420685892",
     "tech_change_status": "Not Planned"
@@ -17910,7 +17910,7 @@
    "properties": {
     "name": "6240 GREAT OCEAN ROAD APOLLO BAY 3233",
     "locID": "LOC000018552710",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420883944",
     "tech_change_status": "Not Planned"
@@ -22546,7 +22546,7 @@
    "properties": {
     "name": "6150 GREAT OCEAN ROAD APOLLO BAY 3233",
     "locID": "LOC000004318466",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421302567",
     "tech_change_status": "Not Planned"
@@ -26665,7 +26665,7 @@
    "properties": {
     "name": "155 MARRINERS LOOKOUT ROAD APOLLO BAY 3233",
     "locID": "LOC000057869760",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421864680",
     "tech_change_status": "Not Planned"
@@ -27609,9 +27609,9 @@
     "name": "6160 GREAT OCEAN ROAD APOLLO BAY 3233",
     "locID": "LOC000012807299",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
+    "upgrade": "WIRELESS",
     "gnaf_pid": "GAVIC421884634",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -27852,7 +27852,7 @@
    "properties": {
     "name": "6090 GREAT OCEAN ROAD APOLLO BAY 3233",
     "locID": "LOC000046604911",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421894704",
     "tech_change_status": "Not Planned"
@@ -28360,7 +28360,7 @@
    "properties": {
     "name": "150 MARRINERS LOOKOUT ROAD APOLLO BAY 3233",
     "locID": "LOC000057951474",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421922328",
     "tech_change_status": "Not Planned"
@@ -30639,7 +30639,7 @@
    "properties": {
     "name": "6180 GREAT OCEAN ROAD APOLLO BAY 3233",
     "locID": "LOC000012972484",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423142532",
     "tech_change_status": "Not Planned"
@@ -33064,7 +33064,7 @@
    "properties": {
     "name": "15 MARRINERS LOOKOUT ROAD APOLLO BAY 3233",
     "locID": "LOC000057869760",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423764394",
     "tech_change_status": "Not Planned"
@@ -39671,6 +39671,24 @@
     "tech_change_status": "In Design",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "Dec 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.6639357,
+     -38.7570853
+    ]
+   },
+   "properties": {
+    "name": "41 MCLACHLAN STREET APOLLO BAY 3233",
+    "locID": "LOC000195587240",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424719119",
+    "tech_change_status": "Not Planned"
    }
   },
   {
@@ -53647,6 +53665,24 @@
     "tech": "FTTN",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721479460",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.66392382,
+     -38.75716502
+    ]
+   },
+   "properties": {
+    "name": "41A MCLACHLAN STREET APOLLO BAY 3233",
+    "locID": "LOC000195587255",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721487774",
     "tech_change_status": "Not Planned"
    }
   },
