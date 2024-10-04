@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-17T01:36:55.801471",
+ "generated": "2024-10-04T22:15:36.132927",
  "suburb": "CROYDON SOUTH",
  "features": [
   {
@@ -6620,7 +6620,7 @@
     "name": "2 VALLEY COURT CROYDON SOUTH 3136",
     "locID": "LOC000013467564",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420121307",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9071,24 +9071,6 @@
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GAVIC420413530",
     "tech_change_status": "MDU Complex Eligible To Apply"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     145.287657,
-     -37.814274
-    ]
-   },
-   "properties": {
-    "name": "470 DORSET ROAD CROYDON SOUTH 3136",
-    "locID": "LOC000085264968",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC420413617",
-    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -11926,9 +11908,9 @@
     "name": "28 AZAROW CIRCUIT CROYDON SOUTH 3136",
     "locID": "LOC000005376788",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420699366",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -14061,10 +14043,10 @@
    "properties": {
     "name": "14 VALLEY COURT CROYDON SOUTH 3136",
     "locID": "LOC000072962356",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC420728263",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -18007,6 +17989,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     145.2748156,
+     -37.81770561
+    ]
+   },
+   "properties": {
+    "name": "8 MALINDA WAY CROYDON SOUTH 3136",
+    "locID": "LOC000195553747",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC421222066"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      145.292818,
      -37.815295
     ]
@@ -19393,10 +19392,10 @@
    "properties": {
     "name": "1 THE GATEWAY CROYDON SOUTH 3136",
     "locID": "LOC000050595906",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421317184",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19709,8 +19708,8 @@
    "properties": {
     "name": "26 SHRUBBY WALK CROYDON SOUTH 3136",
     "locID": "LOC000062555701",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC421318334",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -21348,7 +21347,7 @@
     "name": "15 VALLEY COURT CROYDON SOUTH 3136",
     "locID": "LOC000011237572",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421337100",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -25023,7 +25022,7 @@
     "name": "14 SHRUBBY WALK CROYDON SOUTH 3136",
     "locID": "LOC000011232355",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421895590",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -26086,7 +26085,9 @@
     "locID": "LOC000098261512",
     "tech": "FTTP",
     "upgrade": "NULL_NA",
-    "gnaf_pid": "GAVIC421928350"
+    "gnaf_pid": "GAVIC421928350",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29968,6 +29969,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC423385640"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.288802,
+     -37.81685
+    ]
+   },
+   "properties": {
+    "name": "1-35 RESEARCH DRIVE CROYDON SOUTH 3136",
+    "locID": "LOC000065970840",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC423387212"
    }
   },
   {
@@ -35158,10 +35176,9 @@
    "properties": {
     "name": "119A BELMONT ROAD EAST CROYDON SOUTH 3136",
     "locID": "LOC000163360346",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAVIC425461737",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC425461737"
    }
   },
   {
@@ -40418,6 +40435,91 @@
     "tech": "HFC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC721544266"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.27490604,
+     -37.81756758
+    ]
+   },
+   "properties": {
+    "name": "UNIT 2, 8 MALINDA WAY CROYDON SOUTH 3136",
+    "locID": "LOC000195553710",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721544285"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.27483976,
+     -37.81770918
+    ]
+   },
+   "properties": {
+    "name": "UNIT 1, 8 MALINDA WAY CROYDON SOUTH 3136",
+    "locID": "LOC000195553706",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721546276"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.27492926,
+     -37.81736696
+    ]
+   },
+   "properties": {
+    "name": "UNIT 4, 8 MALINDA WAY CROYDON SOUTH 3136",
+    "locID": "LOC000195553734",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721549138"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.27492385,
+     -37.81747842
+    ]
+   },
+   "properties": {
+    "name": "UNIT 3, 8 MALINDA WAY CROYDON SOUTH 3136",
+    "locID": "LOC000195553747",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721550116"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.27501947,
+     -37.81719338
+    ]
+   },
+   "properties": {
+    "name": "UNIT 5, 8 MALINDA WAY CROYDON SOUTH 3136",
+    "locID": "LOC000195553747",
+    "tech": "HFC",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC721552405"
    }
   }
  ]
