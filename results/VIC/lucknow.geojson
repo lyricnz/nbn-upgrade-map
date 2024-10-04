@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-16T23:05:22.243090",
+ "generated": "2024-10-04T20:02:28.668021",
  "suburb": "LUCKNOW",
  "features": [
   {
@@ -412,7 +412,7 @@
     "name": "127 PRINCES HIGHWAY LUCKNOW 3875",
     "locID": "LOC000093802919",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC411781795",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -534,7 +534,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC411788975",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -630,10 +630,10 @@
    "properties": {
     "name": "27 MAUDE STREET LUCKNOW 3875",
     "locID": "LOC000094753719",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAVIC419636246",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -653,7 +653,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAVIC419636247",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -2805,7 +2805,7 @@
     "name": "106 PRINCES HIGHWAY LUCKNOW 3875",
     "locID": "LOC000044755442",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420248157",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3104,7 +3104,7 @@
     "name": "9 CALLISTEMON COURT LUCKNOW 3875",
     "locID": "LOC000006021205",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420259325",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5024,9 +5024,9 @@
     "name": "109 MCMILLAN STREET LUCKNOW 3875",
     "locID": "LOC000017718689",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC420961079",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6458,7 +6458,7 @@
     "name": "10 THE GRANGE LUCKNOW 3875",
     "locID": "LOC000059555466",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421432718",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -7254,9 +7254,9 @@
     "name": "40 HADFIELD STREET LUCKNOW 3875",
     "locID": "LOC000012823814",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421573460",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8210,7 +8210,7 @@
     "name": "25 PRINCES HIGHWAY LUCKNOW 3875",
     "locID": "LOC000114586851",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC421762906",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10298,9 +10298,9 @@
     "name": "120 MCMILLAN STREET LUCKNOW 3875",
     "locID": "LOC000042436615",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC423972227",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10915,9 +10915,9 @@
     "name": "10 MCMILLAN STREET LUCKNOW 3875",
     "locID": "LOC000017718689",
     "tech": "FTTN",
-    "upgrade": "FTTP_NA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAVIC424065982",
-    "tech_change_status": "Build Finalised",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -11475,6 +11475,26 @@
     "gnaf_pid": "GAVIC424587047",
     "tech_change_status": "MDU Complex Eligible To Apply",
     "program_type": "Customer-initiated N2P MDU Complex"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.6379948,
+     -37.79645202
+    ]
+   },
+   "properties": {
+    "name": "61 ORRS ROAD LUCKNOW 3875",
+    "locID": "LOC000125765815",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAVIC424626781",
+    "tech_change_status": "Not Planned",
+    "program_type": "Fixed Wireless and Satellite Upgrade Program",
+    "target_eligibility_quarter": "Dec 2024"
    }
   },
   {
