@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-17T08:47:45.149685",
+ "generated": "2024-10-05T04:57:21.896531",
  "suburb": "CAMIRA",
  "features": [
   {
@@ -2295,9 +2295,9 @@
     "name": "5 LUKE STREET CAMIRA 4300",
     "locID": "LOC000061664957",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155112770",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6902,7 +6902,7 @@
     "name": "2 FOREST GLEN COURT CAMIRA 4300",
     "locID": "LOC000075186712",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155125228",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6983,7 +6983,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155125234",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -7617,10 +7617,10 @@
    "properties": {
     "name": "50 CZARNECKI STREET CAMIRA 4300",
     "locID": "LOC000082860033",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155125373",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -8564,9 +8564,9 @@
     "name": "44 MAPLE AVENUE CAMIRA 4300",
     "locID": "LOC000035031290",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155126092",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -8799,10 +8799,9 @@
    "properties": {
     "name": "9 JOSEPHINE STREET CAMIRA 4300",
     "locID": "LOC000028196902",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155126109",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155126109"
    }
   },
   {
@@ -10229,7 +10228,7 @@
     "name": "11 LOWANA STREET CAMIRA 4300",
     "locID": "LOC000021640739",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155126276",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10789,10 +10788,9 @@
    "properties": {
     "name": "50 WILSON DRIVE CAMIRA 4300",
     "locID": "LOC000090113431",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
-    "gnaf_pid": "GAQLD155126328",
-    "tech_change_status": "New Tech Connected"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155126328"
    }
   },
   {
@@ -11166,8 +11164,8 @@
    "properties": {
     "name": "46 COCHRANE STREET CAMIRA 4300",
     "locID": "LOC000105612464",
-    "tech": "FTTC",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155127021"
    }
   },
@@ -11224,7 +11222,7 @@
     "name": "65 CZARNECKI STREET CAMIRA 4300",
     "locID": "LOC000089474008",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155127164",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -13618,7 +13616,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155129221",
-    "tech_change_status": "Previous Tech Disconnected",
+    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15186,9 +15184,9 @@
     "name": "36 BLUEGUM DRIVE CAMIRA 4300",
     "locID": "LOC000079241471",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155132472",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -16246,6 +16244,23 @@
     "gnaf_pid": "GAQLD155134666",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     152.91587809,
+     -27.6283999
+    ]
+   },
+   "properties": {
+    "name": "1 WOODLANDS AVENUE CAMIRA 4300",
+    "locID": "LOC000195525809",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155134667"
    }
   },
   {
@@ -18281,10 +18296,9 @@
    "properties": {
     "name": "11 BRUSHWOOD COURT CAMIRA 4300",
     "locID": "LOC000005781063",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155136313",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155136313"
    }
   },
   {
@@ -18738,10 +18752,9 @@
    "properties": {
     "name": "24 MEIER ROAD CAMIRA 4300",
     "locID": "LOC000113589162",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD155834199",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD155834199"
    }
   },
   {
@@ -20551,10 +20564,9 @@
    "properties": {
     "name": "19 ROSA COURT CAMIRA 4300",
     "locID": "LOC000058771232",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156371336",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -23918,7 +23930,7 @@
     "name": "19 ODRA STREET CAMIRA 4300",
     "locID": "LOC000029845442",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156377664",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -24394,7 +24406,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156377698",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27490,10 +27502,9 @@
    "properties": {
     "name": "10 FINN COURT CAMIRA 4300",
     "locID": "LOC000105408135",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156379480",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156379480"
    }
   },
   {
@@ -28118,10 +28129,10 @@
    "properties": {
     "name": "225 OLD LOGAN ROAD CAMIRA 4300",
     "locID": "LOC000060438193",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "FTTP_NA",
     "gnaf_pid": "GAQLD156379543",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -30580,10 +30591,9 @@
    "properties": {
     "name": "11 COCHRANE STREET CAMIRA 4300",
     "locID": "LOC000031568565",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD156381217",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD156381217"
    }
   },
   {
@@ -33195,7 +33205,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156382894",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33232,10 +33242,10 @@
    "properties": {
     "name": "34 CZARNECKI STREET CAMIRA 4300",
     "locID": "LOC000040223264",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156382904",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33273,7 +33283,7 @@
     "name": "104 ISHMAEL ROAD CAMIRA 4300",
     "locID": "LOC000059184328",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156382918",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -34269,10 +34279,9 @@
    "properties": {
     "name": "46 LORRAINE STREET CAMIRA 4300",
     "locID": "LOC000047828612",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD156383005",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -41941,7 +41950,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161755247",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -44115,10 +44124,10 @@
    "properties": {
     "name": "3 CZARNECKI STREET CAMIRA 4300",
     "locID": "LOC000040223264",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD163294144",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
