@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-17T04:54:37.033881",
+ "generated": "2024-10-05T01:27:37.368108",
  "suburb": "TENERIFFE",
  "features": [
   {
@@ -56,7 +56,7 @@
     "name": "15 ABERCROMBIE STREET TENERIFFE 4005",
     "locID": "LOC000003325344",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163095807",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6837,9 +6837,9 @@
     "name": "4 BEESTON STREET TENERIFFE 4005",
     "locID": "LOC000017341274",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163098858",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -8433,7 +8433,7 @@
     "name": "35 CHERMSIDE STREET TENERIFFE 4005",
     "locID": "LOC000028116789",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163101284",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -15743,7 +15743,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163102845",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -15782,7 +15782,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163102847",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }
@@ -15894,8 +15894,9 @@
     "name": "31A DOGGETT STREET TENERIFFE 4005",
     "locID": "LOC000126156934",
     "tech": "FTTC",
-    "upgrade": "NULL_NA",
-    "gnaf_pid": "GAQLD163102853"
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GAQLD163102853",
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -21713,10 +21714,9 @@
    "properties": {
     "name": "36 KINGSHOLME STREET TENERIFFE 4005",
     "locID": "LOC000083786866",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD163107575",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD163107575"
    }
   },
   {
@@ -36270,9 +36270,9 @@
     "name": "43 TENERIFFE DRIVE TENERIFFE 4005",
     "locID": "LOC000090028763",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163117696",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -45957,26 +45957,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.04831495,
-     -27.4574655
-    ]
-   },
-   "properties": {
-    "name": "15 WALKER AVENUE TENERIFFE 4005",
-    "locID": "LOC000014000749",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD163118952",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.04901794,
      -27.45713468
     ]
@@ -46025,7 +46005,7 @@
     "name": "24 WALKER AVENUE TENERIFFE 4005",
     "locID": "LOC000077677986",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163118956",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -53860,46 +53840,6 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     153.04831495,
-     -27.4574655
-    ]
-   },
-   "properties": {
-    "name": "UNIT 1, 15 WALKER AVENUE TENERIFFE 4005",
-    "locID": "LOC000014432718",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD163129040",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     153.04831495,
-     -27.4574655
-    ]
-   },
-   "properties": {
-    "name": "UNIT 2, 15 WALKER AVENUE TENERIFFE 4005",
-    "locID": "LOC000014000749",
-    "tech": "FTTP",
-    "upgrade": "FTTP_NA",
-    "gnaf_pid": "GAQLD163129041",
-    "tech_change_status": "Previous Tech Disconnected",
-    "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "NA"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
      153.04900197,
      -27.45736067
     ]
@@ -56160,7 +56100,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD163134728",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "Customer-initiated N2P MDU Complex",
     "target_eligibility_quarter": "NA"
    }

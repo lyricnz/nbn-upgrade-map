@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-17T04:29:03.638120",
+ "generated": "2024-10-05T01:04:49.855027",
  "suburb": "LOGANLEA",
  "features": [
   {
@@ -10156,7 +10156,7 @@
     "name": "11 BERNICE STREET LOGANLEA 4131",
     "locID": "LOC000081490364",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155501592",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10867,7 +10867,7 @@
     "name": "31 KRAATZ AVENUE LOGANLEA 4131",
     "locID": "LOC000024994898",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155502345",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10947,7 +10947,7 @@
     "name": "39 KRAATZ AVENUE LOGANLEA 4131",
     "locID": "LOC000032374607",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD155502349",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -18540,6 +18540,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAQLD156780045",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -29776,7 +29777,7 @@
     "name": "31-33 ISABEL STREET LOGANLEA 4131",
     "locID": "LOC000036624470",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD159423741",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -31585,9 +31586,9 @@
     "name": "8-10 KRAATZ AVENUE LOGANLEA 4131",
     "locID": "LOC000163834624",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAQLD161204565",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -55724,10 +55725,9 @@
    "properties": {
     "name": "UNIT 1, 47 PINELANDS STREET LOGANLEA 4131",
     "locID": "LOC100074926771",
-    "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GAQLD719929649",
-    "tech_change_status": "Eligible to Order"
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD719929649"
    }
   },
   {
@@ -69949,6 +69949,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721339905"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.12637081,
+     -27.68319845
+    ]
+   },
+   "properties": {
+    "name": "31B EVERGREEN AVENUE LOGANLEA 4131",
+    "locID": "LOC000190082533",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721340003"
    }
   },
   {
