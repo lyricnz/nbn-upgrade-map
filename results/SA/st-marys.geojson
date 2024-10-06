@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-18T21:47:04.893177",
+ "generated": "2024-10-06T17:24:50.334273",
  "suburb": "ST MARYS",
  "features": [
   {
@@ -4135,10 +4135,9 @@
    "properties": {
     "name": "8 QUINLAN AVENUE ST MARYS 5042",
     "locID": "LOC000006207700",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415070767",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -10931,7 +10930,7 @@
     "name": "10 DENIS STREET ST MARYS 5042",
     "locID": "LOC000036010425",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415199193",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11439,10 +11438,10 @@
    "properties": {
     "name": "21 KILEY COURT ST MARYS 5042",
     "locID": "LOC000025320138",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415211821",
-    "tech_change_status": "New Tech Connected",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -25970,7 +25969,8 @@
     "tech": "FTTP",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_422270384",
-    "tech_change_status": "MDU Complex Eligible To Apply"
+    "tech_change_status": "MDU Complex Eligible To Apply",
+    "program_type": "Customer-initiated N2P MDU Complex"
    }
   },
   {
@@ -26444,9 +26444,9 @@
     "name": "53B ST MARYS STREET ST MARYS 5042",
     "locID": "LOC000095303329",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_422368767",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -27765,9 +27765,9 @@
     "tech": "FTTN",
     "upgrade": "FTTP_NA",
     "gnaf_pid": "GASA_424210892",
-    "tech_change_status": "Committed",
+    "tech_change_status": "Build Finalised",
     "program_type": "On-Demand N2P SDU/MDU Simple",
-    "target_eligibility_quarter": "Dec 2024"
+    "target_eligibility_quarter": "NA"
    }
   },
   {
@@ -29746,10 +29746,9 @@
    "properties": {
     "name": "50A QUINLAN AVENUE ST MARYS 5042",
     "locID": "LOC000146323536",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_425534425",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -33568,6 +33567,24 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721259913"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.58124338,
+     -35.00966781
+    ]
+   },
+   "properties": {
+    "name": "32A NORMAN STREET ST MARYS 5042",
+    "locID": "LOC000195566026",
+    "tech": "FTTN",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721304601",
+    "tech_change_status": "Not Planned"
    }
   },
   {
