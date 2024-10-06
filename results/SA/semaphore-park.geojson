@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-19T00:52:56.064577",
+ "generated": "2024-10-06T20:33:52.149658",
  "suburb": "SEMAPHORE PARK",
  "features": [
   {
@@ -473,7 +473,7 @@
     "name": "59 LOWER STREET SEMAPHORE PARK 5019",
     "locID": "LOC000087226897",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_414898372",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -850,7 +850,7 @@
     "name": "16 EAGLE COURT SEMAPHORE PARK 5019",
     "locID": "LOC000013471751",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_414904031",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2974,7 +2974,7 @@
     "name": "21 GORDON STREET SEMAPHORE PARK 5019",
     "locID": "LOC000017561765",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_414924437",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -3291,7 +3291,7 @@
     "name": "8 MALIN STREET SEMAPHORE PARK 5019",
     "locID": "LOC000079703008",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_414925970",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4149,7 +4149,7 @@
     "name": "9 GREBE STREET SEMAPHORE PARK 5019",
     "locID": "LOC000081978093",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_414932857",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6117,7 +6117,7 @@
     "name": "12 PRION PLACE SEMAPHORE PARK 5019",
     "locID": "LOC000086911369",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_414945021",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -8273,10 +8273,10 @@
    "properties": {
     "name": "6 WEST STREET SEMAPHORE PARK 5019",
     "locID": "LOC000005378817",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415003159",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9348,7 +9348,7 @@
     "name": "19 KELLETT STREET SEMAPHORE PARK 5019",
     "locID": "LOC000085995062",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415091231",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9527,7 +9527,7 @@
     "name": "9 SUTHERLAND AVENUE SEMAPHORE PARK 5019",
     "locID": "LOC000091164954",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415103322",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10000,8 +10000,8 @@
    "properties": {
     "name": "16 JOHN STREET SEMAPHORE PARK 5019",
     "locID": "LOC000011790868",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415119302",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -11173,7 +11173,7 @@
     "name": "65 SANSOM ROAD SEMAPHORE PARK 5019",
     "locID": "LOC000077786679",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415202908",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -12943,9 +12943,9 @@
     "name": "22 DUNSTONE ROAD SEMAPHORE PARK 5019",
     "locID": "LOC000064174815",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415231055",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -15361,6 +15361,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.48039563,
+     -34.86051135
+    ]
+   },
+   "properties": {
+    "name": "12 FOURTH AVENUE SEMAPHORE PARK 5019",
+    "locID": "LOC000195354079",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_415338314"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.48083838,
      -34.8520125
     ]
@@ -16321,7 +16338,7 @@
     "name": "2 GULF COURT SEMAPHORE PARK 5019",
     "locID": "LOC000055422633",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415366290",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -16360,10 +16377,9 @@
    "properties": {
     "name": "8 SEAWAY AVENUE SEMAPHORE PARK 5019",
     "locID": "LOC000062349000",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415366292",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17256,10 +17272,9 @@
    "properties": {
     "name": "11 BURNETT CRESCENT SEMAPHORE PARK 5019",
     "locID": "LOC000063000024",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415372970",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -17316,7 +17331,7 @@
     "name": "5 BURNETT CRESCENT SEMAPHORE PARK 5019",
     "locID": "LOC000037120101",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415372973",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -17335,10 +17350,9 @@
    "properties": {
     "name": "3 BURNETT CRESCENT SEMAPHORE PARK 5019",
     "locID": "LOC000083120542",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_415372974",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -19689,7 +19703,7 @@
     "name": "4 FIRST AVENUE SEMAPHORE PARK 5019",
     "locID": "LOC000078216895",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415408419",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -19768,7 +19782,7 @@
     "name": "10 BARTLETT TERRACE SEMAPHORE PARK 5019",
     "locID": "LOC000067166275",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_415408423",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -32700,7 +32714,7 @@
     "name": "31 PLOVER GROVE SEMAPHORE PARK 5019",
     "locID": "LOC000078316206",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_416329390",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -33076,7 +33090,7 @@
     "name": "38 BARTLEY TERRACE SEMAPHORE PARK 5019",
     "locID": "LOC000094587129",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_416330090",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -35969,7 +35983,7 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416340143",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -36008,7 +36022,7 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416340148",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -36028,7 +36042,7 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_416340153",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -36216,7 +36230,7 @@
     "name": "19 AMARINA COURT SEMAPHORE PARK 5019",
     "locID": "LOC000082228433",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GASA_416340887",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -41040,10 +41054,9 @@
    "properties": {
     "name": "1 BEACHWAY AVENUE SEMAPHORE PARK 5019",
     "locID": "LOC000031248206",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_422259460",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -41575,7 +41588,7 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423603559",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -41931,7 +41944,7 @@
     "upgrade": "FTTP_SA",
     "gnaf_pid": "GASA_423868137",
     "tech_change_status": "Eligible to Order",
-    "program_type": "Customer-initiated N2P MDU Complex",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
   },
@@ -42024,10 +42037,9 @@
    "properties": {
     "name": "LOT 128 BEACHWAY AVENUE SEMAPHORE PARK 5019",
     "locID": "LOC000031248206",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_423994178",
-    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -43447,10 +43459,9 @@
    "properties": {
     "name": "14A BARTLEY TERRACE SEMAPHORE PARK 5019",
     "locID": "LOC000078268569",
-    "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_424517272",
-    "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -47569,6 +47580,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     138.48554418,
+     -34.85154522
+    ]
+   },
+   "properties": {
+    "name": "108A BOWER ROAD SEMAPHORE PARK 5019",
+    "locID": "LOC000195564474",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_720721652"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      138.4815096,
      -34.8560587
     ]
@@ -47783,6 +47811,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GASA_721001529"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.48047761,
+     -34.86052104
+    ]
+   },
+   "properties": {
+    "name": "12A FOURTH AVENUE SEMAPHORE PARK 5019",
+    "locID": "LOC000195354098",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GASA_721002668"
    }
   },
   {
