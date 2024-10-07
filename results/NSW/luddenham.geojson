@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-20T03:03:20.884437",
+ "generated": "2024-10-07T22:54:51.431236",
  "suburb": "LUDDENHAM",
  "features": [
   {
@@ -1480,7 +1480,7 @@
    "properties": {
     "name": "425-441 LUDDENHAM ROAD LUDDENHAM 2745",
     "locID": "LOC000075390736",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705245966",
     "tech_change_status": "Not Planned"
@@ -1534,7 +1534,7 @@
    "properties": {
     "name": "660-670 LUDDENHAM ROAD LUDDENHAM 2745",
     "locID": "LOC000034870032",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705245975",
     "tech_change_status": "Not Planned"
@@ -2006,7 +2006,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW705248616",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -3995,7 +3995,7 @@
     "name": "23 JAMISON STREET LUDDENHAM 2745",
     "locID": "LOC000100994280",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW715622734",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6566,7 +6566,7 @@
     "name": "3069 THE NORTHERN ROAD LUDDENHAM 2745",
     "locID": "LOC000146085116",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW716968282",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6940,7 +6940,7 @@
    "properties": {
     "name": "18 HUMEWOOD PLACE LUDDENHAM 2745",
     "locID": "LOC000121898673",
-    "tech": "FTTP",
+    "tech": "FTTC",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW717704363"
    }
@@ -7100,9 +7100,9 @@
     "name": "12 PENNARD CRESCENT LUDDENHAM 2745",
     "locID": "LOC100055504291",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GANSW717714909",
-    "tech_change_status": "Eligible to Order"
+    "tech_change_status": "New Tech Connected"
    }
   },
   {
@@ -9452,7 +9452,7 @@
    "properties": {
     "name": "425A LUDDENHAM ROAD LUDDENHAM 2745",
     "locID": "LOC000114074622",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GANSW718133790",
     "tech_change_status": "Not Planned"
@@ -10810,9 +10810,8 @@
     "name": "33 HALMSTAD BOULEVARD LUDDENHAM 2745",
     "locID": "LOC100056311637",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW719239099",
-    "tech_change_status": "Eligible to Order"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719239099"
    }
   },
   {
@@ -11131,9 +11130,8 @@
     "name": "14 GANTON WAY LUDDENHAM 2745",
     "locID": "LOC100071988790",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW719260130",
-    "tech_change_status": "Eligible to Order"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719260130"
    }
   },
   {
@@ -11450,9 +11448,8 @@
     "name": "26 HUMEWOOD PLACE LUDDENHAM 2745",
     "locID": "LOC100056311628",
     "tech": "FTTC",
-    "upgrade": "FTTP_SA",
-    "gnaf_pid": "GANSW719263780",
-    "tech_change_status": "Eligible to Order"
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GANSW719263780"
    }
   },
   {
@@ -11708,6 +11705,26 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     150.68991242,
+     -33.87752458
+    ]
+   },
+   "properties": {
+    "name": "96 WILLMINGTON ROAD LUDDENHAM 2745",
+    "locID": "LOC000057337392",
+    "tech": "FTTN",
+    "upgrade": "FTTP_SA",
+    "gnaf_pid": "GANSW720903691",
+    "tech_change_status": "Eligible to Order",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      150.68923682,
      -33.87695253
     ]
@@ -11721,6 +11738,26 @@
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.69028143,
+     -33.88225274
+    ]
+   },
+   "properties": {
+    "name": "33 WILLMINGTON ROAD LUDDENHAM 2745",
+    "locID": "LOC000051594274",
+    "tech": "FTTN",
+    "upgrade": "FTTP_NA",
+    "gnaf_pid": "GANSW720947825",
+    "tech_change_status": "Committed",
+    "program_type": "On-Demand N2P SDU/MDU Simple",
+    "target_eligibility_quarter": "Dec 2025"
    }
   },
   {
