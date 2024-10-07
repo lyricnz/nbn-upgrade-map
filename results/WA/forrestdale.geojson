@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-19T09:39:18.332123",
+ "generated": "2024-10-07T05:22:49.219261",
  "suburb": "FORRESTDALE",
  "features": [
   {
@@ -35,8 +35,8 @@
    "properties": {
     "name": "749 FORREST ROAD FORRESTDALE 6112",
     "locID": "LOC000076760176",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_146722570",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1049,7 +1049,7 @@
     "name": "6 LOFTIES STREET FORRESTDALE 6112",
     "locID": "LOC000054232431",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146853646",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -1319,7 +1319,7 @@
     "name": "10 DEW STREET FORRESTDALE 6112",
     "locID": "LOC000069430086",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146854012",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -2888,7 +2888,7 @@
     "name": "40 DUMSDAY DRIVE FORRESTDALE 6112",
     "locID": "LOC000091648871",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_146857588",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -4631,7 +4631,7 @@
     "name": "25 ALLEN ROAD FORRESTDALE 6112",
     "locID": "LOC000042071477",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147104388",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5257,7 +5257,7 @@
     "name": "805 ARMADALE ROAD FORRESTDALE 6112",
     "locID": "LOC000044281572",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_147300078",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -5728,8 +5728,8 @@
    "properties": {
     "name": "7 BROOME STREET FORRESTDALE 6112",
     "locID": "LOC000070938788",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147347895",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -6349,7 +6349,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147364909",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6466,10 +6466,10 @@
    "properties": {
     "name": "16 LEAKE STREET FORRESTDALE 6112",
     "locID": "LOC000077506858",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147695695",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -6968,7 +6968,7 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_147709527",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "Previous Tech Disconnected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -9310,7 +9310,7 @@
     "name": "25 HENSBROOK LOOP FORRESTDALE 6112",
     "locID": "LOC000132761557",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_163048421",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -9369,7 +9369,7 @@
     "name": "35 HENSBROOK LOOP FORRESTDALE 6112",
     "locID": "LOC000132740944",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_163048427",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -10344,7 +10344,7 @@
     "tech": "FTTN",
     "upgrade": "FTTP",
     "gnaf_pid": "GAWA_718338594",
-    "tech_change_status": "Eligible to Order",
+    "tech_change_status": "New Tech Connected",
     "program_type": "On-Demand N2P SDU/MDU Simple",
     "target_eligibility_quarter": "NA"
    }
@@ -13418,6 +13418,24 @@
     "tech": "SATELLITE",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_719199581",
+    "tech_change_status": "Not Planned"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.91302334,
+     -32.16861074
+    ]
+   },
+   "properties": {
+    "name": "128 HONEYMYRTLE LOOP FORRESTDALE 6112",
+    "locID": "LOC100056670403",
+    "tech": "WIRELESS",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_719200300",
     "tech_change_status": "Not Planned"
    }
   },
@@ -22840,6 +22858,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.95953067,
+     -32.12871523
+    ]
+   },
+   "properties": {
+    "name": "4 AYRES ROAD FORRESTDALE 6112",
+    "locID": "LOC000191691474",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721407243"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.93740758,
      -32.14232798
     ]
@@ -23282,6 +23317,40 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.96693751,
+     -32.14399034
+    ]
+   },
+   "properties": {
+    "name": "36 REMISKO DRIVE FORRESTDALE 6112",
+    "locID": "LOC000194574336",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721529489"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.96639525,
+     -32.14399504
+    ]
+   },
+   "properties": {
+    "name": "50 ALEX WOOD DRIVE FORRESTDALE 6112",
+    "locID": "LOC000194574294",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721529889"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.96636968,
      -32.14200926
     ]
@@ -23292,6 +23361,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_721530145"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.9664671,
+     -32.14507732
+    ]
+   },
+   "properties": {
+    "name": "56 ALEX WOOD DRIVE FORRESTDALE 6112",
+    "locID": "LOC000194574327",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721530180"
    }
   },
   {
@@ -23486,6 +23572,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.96645968,
+     -32.14471681
+    ]
+   },
+   "properties": {
+    "name": "54 ALEX WOOD DRIVE FORRESTDALE 6112",
+    "locID": "LOC000194574315",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721531953"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.96636968,
      -32.14200926
     ]
@@ -23496,6 +23599,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_721532076"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.9664071,
+     -32.14363602
+    ]
+   },
+   "properties": {
+    "name": "48 ALEX WOOD DRIVE FORRESTDALE 6112",
+    "locID": "LOC000194574287",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721532174"
    }
   },
   {
@@ -23574,6 +23694,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     115.96639918,
+     -32.14435586
+    ]
+   },
+   "properties": {
+    "name": "52 ALEX WOOD DRIVE FORRESTDALE 6112",
+    "locID": "LOC000194574304",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721533272"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      115.93999743,
      -32.14093746
     ]
@@ -23599,7 +23736,7 @@
     "name": "57 HENSBROOK LOOP FORRESTDALE 6112",
     "locID": "LOC000132761557",
     "tech": "FTTN",
-    "upgrade": "FTTP_SA",
+    "upgrade": "FTTP",
     "gnaf_pid": "GAWA_721533499",
     "tech_change_status": "Eligible to Order",
     "program_type": "On-Demand N2P SDU/MDU Simple",
@@ -23621,6 +23758,23 @@
     "tech": "FTTP",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAWA_721533886"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.96648449,
+     -32.1454494
+    ]
+   },
+   "properties": {
+    "name": "23 BESSEMER ROAD FORRESTDALE 6112",
+    "locID": "LOC000194574273",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAWA_721533912"
    }
   },
   {
