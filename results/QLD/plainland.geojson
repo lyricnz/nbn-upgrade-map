@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "generated": "2024-09-20T03:51:24.036446",
+ "generated": "2024-10-07T23:59:00.969954",
  "suburb": "PLAINLAND",
  "features": [
   {
@@ -2601,7 +2601,7 @@
    "properties": {
     "name": "2 PATS ROAD PLAINLAND 4341",
     "locID": "LOC000142350424",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD155721060",
     "tech_change_status": "Not Planned"
@@ -6101,9 +6101,9 @@
     "name": "30 MOUNTAIN VIEW DRIVE PLAINLAND 4341",
     "locID": "LOC000105050226",
     "tech": "SATELLITE",
-    "upgrade": "NULL_NA",
+    "upgrade": "WIRELESS",
     "gnaf_pid": "GAQLD157019738",
-    "tech_change_status": "Not Planned"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -6731,9 +6731,9 @@
     "name": "36 HILL ROAD PLAINLAND 4341",
     "locID": "LOC000060363564",
     "tech": "SATELLITE",
-    "upgrade": "FTTN_NA",
+    "upgrade": "FTTN",
     "gnaf_pid": "GAQLD157030025",
-    "tech_change_status": "Build Finalised"
+    "tech_change_status": "Eligible to Order"
    }
   },
   {
@@ -7630,10 +7630,10 @@
    "properties": {
     "name": "7 STOCKYARD STREET PLAINLAND 4341",
     "locID": "LOC000026583552",
-    "tech": "FTTN",
-    "upgrade": "FTTP",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD157036843",
-    "tech_change_status": "New Tech Connected"
+    "tech_change_status": "Previous Tech Disconnected"
    }
   },
   {
@@ -8092,7 +8092,7 @@
    "properties": {
     "name": "4665 WARREGO HIGHWAY PLAINLAND 4341",
     "locID": "LOC000068486356",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD158500638",
     "tech_change_status": "Not Planned"
@@ -9418,7 +9418,7 @@
    "properties": {
     "name": "LOT 2 NORTHERN ROAD PLAINLAND 4341",
     "locID": "LOC000150746781",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD161259198",
     "tech_change_status": "Not Planned"
@@ -12367,7 +12367,7 @@
    "properties": {
     "name": "377 NORFOLK ROAD PLAINLAND 4341",
     "locID": "LOC000150748574",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425145031",
     "tech_change_status": "Not Planned"
@@ -12686,7 +12686,7 @@
    "properties": {
     "name": "LOT 1 NORFOLK ROAD PLAINLAND 4341",
     "locID": "LOC000150748574",
-    "tech": "SATELLITE",
+    "tech": "WIRELESS",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD425545475",
     "tech_change_status": "Not Planned"
@@ -19314,6 +19314,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     152.42907432,
+     -27.55885886
+    ]
+   },
+   "properties": {
+    "name": "9 DARLING CIRCUIT PLAINLAND 4341",
+    "locID": "LOC000195580290",
+    "tech": "FTTP",
+    "upgrade": "NULL_NA",
+    "gnaf_pid": "GAQLD721310666"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      152.42952711,
      -27.55890425
     ]
@@ -19610,7 +19627,7 @@
    "properties": {
     "name": "UNIT 2, 6 GEORGINA STREET PLAINLAND 4341",
     "locID": "LOC000195426879",
-    "tech": "FTTP",
+    "tech": "NULL",
     "upgrade": "NULL_NA",
     "gnaf_pid": "GAQLD721514466"
    }
